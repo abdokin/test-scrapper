@@ -1,0 +1,896 @@
+{
+  "title": ".NET : Compétences en développement d'applications",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques des candidats sur le framework .NET et leur capacité à créer des applications pour Windows et le Web.",
+    "level": "intermediate",
+    "covered_skills": [
+      "C#",
+      "ASP.NET",
+      "Entity Framework",
+      "LINQ",
+      "Gestion de la mémoire",
+      "Programmation asynchrone",
+      "Tests unitaires",
+      "Sécurité des applications",
+      "Conception orientée objet",
+      "Performance et optimisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur .NET, ingénieur logiciel .NET ou architecte d'applications .NET.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du framework .NET, évaluant la capacité du candidat à concevoir, développer et maintenir des applications robustes et performantes.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel langage est principalement utilisé pour le développement .NET ?"
+      },
+      "options": [
+        {
+          "content": "C#",
+          "correct": true
+        },
+        {
+          "content": "Java"
+        },
+        {
+          "content": "Python"
+        },
+        {
+          "content": "Ruby"
+        },
+        {
+          "content": "PHP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre 'string' et 'String' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Il n'y a pas de différence, ce sont des alias",
+          "correct": true
+        },
+        {
+          "content": "'string' est un type valeur, 'String' est un type référence"
+        },
+        {
+          "content": "'string' est utilisé pour les chaînes courtes, 'String' pour les longues"
+        },
+        {
+          "content": "'string' est mutable, 'String' est immutable"
+        },
+        {
+          "content": "'string' est déprécié, il faut utiliser 'String'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour exécuter du code asynchrone en .NET ?"
+      },
+      "options": [
+        {
+          "content": "async/await",
+          "correct": true
+        },
+        {
+          "content": "Parallel.For"
+        },
+        {
+          "content": "Thread.Start"
+        },
+        {
+          "content": "Task.Run",
+          "correct": true
+        },
+        {
+          "content": "BackgroundWorker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est utilisé pour la gestion des dépendances en .NET ?"
+      },
+      "options": [
+        {
+          "content": "NuGet",
+          "correct": true
+        },
+        {
+          "content": "npm"
+        },
+        {
+          "content": "pip"
+        },
+        {
+          "content": "Maven"
+        },
+        {
+          "content": "Composer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technologie .NET est utilisée pour créer des applications web ?"
+      },
+      "options": [
+        {
+          "content": "ASP.NET Core",
+          "correct": true
+        },
+        {
+          "content": "WPF"
+        },
+        {
+          "content": "Windows Forms"
+        },
+        {
+          "content": "Xamarin"
+        },
+        {
+          "content": "UWP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre .NET Framework et .NET Core ?"
+      },
+      "options": [
+        {
+          "content": ".NET Core est multi-plateforme",
+          "correct": true
+        },
+        {
+          "content": ".NET Framework est open-source"
+        },
+        {
+          "content": ".NET Core ne supporte pas C#"
+        },
+        {
+          "content": ".NET Framework est plus récent"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de LINQ ?"
+      },
+      "options": [
+        {
+          "content": "Interroger et manipuler des données",
+          "correct": true
+        },
+        {
+          "content": "Créer des interfaces utilisateur"
+        },
+        {
+          "content": "Gérer la sécurité des applications"
+        },
+        {
+          "content": "Optimiser les performances"
+        },
+        {
+          "content": "Gérer les connexions réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le rôle du Garbage Collector en .NET ?"
+      },
+      "options": [
+        {
+          "content": "Gérer automatiquement la mémoire",
+          "correct": true
+        },
+        {
+          "content": "Optimiser le code"
+        },
+        {
+          "content": "Détecter les erreurs de syntaxe"
+        },
+        {
+          "content": "Compiler le code"
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre 'ref' et 'out' en C# ?"
+      },
+      "options": [
+        {
+          "content": "'ref' requiert une initialisation, 'out' non",
+          "correct": true
+        },
+        {
+          "content": "'ref' est utilisé pour les types valeur, 'out' pour les types référence"
+        },
+        {
+          "content": "'ref' permet la modification, 'out' est en lecture seule"
+        },
+        {
+          "content": "'ref' est déprécié, il faut utiliser 'out'"
+        },
+        {
+          "content": "Il n'y a pas de différence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d'Entity Framework ?"
+      },
+      "options": [
+        {
+          "content": "ORM (Object-Relational Mapping)",
+          "correct": true
+        },
+        {
+          "content": "Création d'interfaces utilisateur"
+        },
+        {
+          "content": "Gestion de la sécurité"
+        },
+        {
+          "content": "Optimisation des requêtes SQL"
+        },
+        {
+          "content": "Gestion des sessions utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation des attributs en .NET ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter des métadonnées aux classes et méthodes",
+          "correct": true
+        },
+        {
+          "content": "Définir des variables globales"
+        },
+        {
+          "content": "Créer des interfaces utilisateur"
+        },
+        {
+          "content": "Optimiser les performances"
+        },
+        {
+          "content": "Gérer les exceptions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'virtual' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la redéfinition de méthodes dans les classes dérivées",
+          "correct": true
+        },
+        {
+          "content": "Créer une méthode abstraite"
+        },
+        {
+          "content": "Définir une interface"
+        },
+        {
+          "content": "Rendre une classe statique"
+        },
+        {
+          "content": "Empêcher l'héritage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre 'const' et 'readonly' en C# ?"
+      },
+      "options": [
+        {
+          "content": "'const' est évalué à la compilation, 'readonly' à l'exécution",
+          "correct": true
+        },
+        {
+          "content": "'const' peut être modifié, 'readonly' non"
+        },
+        {
+          "content": "'const' est utilisé pour les types référence, 'readonly' pour les types valeur"
+        },
+        {
+          "content": "'const' est thread-safe, 'readonly' non"
+        },
+        {
+          "content": "Il n'y a pas de différence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de Dependency Injection en .NET ?"
+      },
+      "options": [
+        {
+          "content": "Réduire le couplage entre les composants",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances"
+        },
+        {
+          "content": "Gérer la sécurité"
+        },
+        {
+          "content": "Créer des interfaces utilisateur"
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation des delegates en C# ?"
+      },
+      "options": [
+        {
+          "content": "Définir des pointeurs de fonction type-safe",
+          "correct": true
+        },
+        {
+          "content": "Créer des classes abstraites"
+        },
+        {
+          "content": "Gérer les exceptions"
+        },
+        {
+          "content": "Implémenter l'héritage multiple"
+        },
+        {
+          "content": "Définir des constantes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'boxing' en C# ?"
+      },
+      "options": [
+        {
+          "content": "La conversion d'un type valeur en type référence",
+          "correct": true
+        },
+        {
+          "content": "L'encapsulation des données"
+        },
+        {
+          "content": "La compression des données"
+        },
+        {
+          "content": "La conversion d'un type référence en type valeur"
+        },
+        {
+          "content": "La sérialisation des objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'interface IDisposable en .NET ?"
+      },
+      "options": [
+        {
+          "content": "Libérer les ressources non gérées",
+          "correct": true
+        },
+        {
+          "content": "Créer des objets jetables"
+        },
+        {
+          "content": "Gérer les exceptions"
+        },
+        {
+          "content": "Implémenter le polymorphisme"
+        },
+        {
+          "content": "Définir des méthodes d'extension"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'pattern matching' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Une technique pour tester la correspondance d'un objet avec un motif",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de cryptage"
+        },
+        {
+          "content": "Un algorithme de tri"
+        },
+        {
+          "content": "Une technique de compression de données"
+        },
+        {
+          "content": "Un type de boucle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle des 'extension methods' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter des méthodes à des types existants sans modifier leur code source",
+          "correct": true
+        },
+        {
+          "content": "Étendre la durée de vie des objets"
+        },
+        {
+          "content": "Augmenter la taille de la mémoire allouée"
+        },
+        {
+          "content": "Créer des classes abstraites"
+        },
+        {
+          "content": "Implémenter l'héritage multiple"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'lazy loading' dans Entity Framework ?"
+      },
+      "options": [
+        {
+          "content": "Charger les données associées uniquement lorsqu'elles sont demandées",
+          "correct": true
+        },
+        {
+          "content": "Charger toutes les données au démarrage de l'application"
+        },
+        {
+          "content": "Une technique d'optimisation de la mémoire"
+        },
+        {
+          "content": "Une méthode de compression des données"
+        },
+        {
+          "content": "Un type de boucle en C#"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'yield' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Retourner un élément d'une séquence à la fois",
+          "correct": true
+        },
+        {
+          "content": "Arrêter l'exécution d'une méthode"
+        },
+        {
+          "content": "Définir une variable locale"
+        },
+        {
+          "content": "Créer une boucle infinie"
+        },
+        {
+          "content": "Déclarer une classe abstraite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'middleware' dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Un composant qui traite les requêtes HTTP dans le pipeline",
+          "correct": true
+        },
+        {
+          "content": "Un type de base de données"
+        },
+        {
+          "content": "Un outil de débogage"
+        },
+        {
+          "content": "Une bibliothèque de cryptographie"
+        },
+        {
+          "content": "Un framework de test unitaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'attribut [Serializable] en C# ?"
+      },
+      "options": [
+        {
+          "content": "Indiquer qu'une classe peut être sérialisée",
+          "correct": true
+        },
+        {
+          "content": "Rendre une classe abstraite"
+        },
+        {
+          "content": "Empêcher l'héritage d'une classe"
+        },
+        {
+          "content": "Définir une interface"
+        },
+        {
+          "content": "Créer une méthode statique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'code-first' dans Entity Framework ?"
+      },
+      "options": [
+        {
+          "content": "Créer le modèle de données avant la base de données",
+          "correct": true
+        },
+        {
+          "content": "Écrire le code avant de concevoir l'architecture"
+        },
+        {
+          "content": "Tester le code avant de l'implémenter"
+        },
+        {
+          "content": "Compiler le code avant de l'exécuter"
+        },
+        {
+          "content": "Déployer le code avant de le tester"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'interface IEnumerable en .NET ?"
+      },
+      "options": [
+        {
+          "content": "Permet l'itération sur une collection",
+          "correct": true
+        },
+        {
+          "content": "Définit les méthodes de comparaison"
+        },
+        {
+          "content": "Gère la sérialisation des objets"
+        },
+        {
+          "content": "Implémente le modèle observateur"
+        },
+        {
+          "content": "Contrôle l'accès aux ressources partagées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'hot reload' dans .NET 6 ?"
+      },
+      "options": [
+        {
+          "content": "Permet de modifier le code pendant l'exécution sans redémarrer l'application",
+          "correct": true
+        },
+        {
+          "content": "Une technique de déploiement rapide"
+        },
+        {
+          "content": "Un outil de profilage de mémoire"
+        },
+        {
+          "content": "Une méthode de compilation Just-In-Time"
+        },
+        {
+          "content": "Un type de conteneur Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'attribut [Required] dans Entity Framework ?"
+      },
+      "options": [
+        {
+          "content": "Spécifier qu'une propriété est obligatoire",
+          "correct": true
+        },
+        {
+          "content": "Définir une clé primaire"
+        },
+        {
+          "content": "Créer un index sur une colonne"
+        },
+        {
+          "content": "Ignorer une propriété lors de la création de la base de données"
+        },
+        {
+          "content": "Définir une relation many-to-many"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'null-coalescing operator' (??) en C# ?"
+      },
+      "options": [
+        {
+          "content": "Retourne la valeur de gauche si elle n'est pas null, sinon la valeur de droite",
+          "correct": true
+        },
+        {
+          "content": "Vérifie si deux objets sont égaux"
+        },
+        {
+          "content": "Effectue une division sûre"
+        },
+        {
+          "content": "Concatène deux chaînes"
+        },
+        {
+          "content": "Convertit un type en un autre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'attribut [JsonIgnore] dans .NET ?"
+      },
+      "options": [
+        {
+          "content": "Exclure une propriété de la sérialisation JSON",
+          "correct": true
+        },
+        {
+          "content": "Ignorer une propriété lors de la création de la base de données"
+        },
+        {
+          "content": "Empêcher la modification d'une propriété"
+        },
+        {
+          "content": "Masquer une propriété dans l'intellisense"
+        },
+        {
+          "content": "Marquer une propriété comme obsolète"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'tuple deconstruction' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Assigner les éléments d'un tuple à des variables distinctes",
+          "correct": true
+        },
+        {
+          "content": "Diviser un tuple en plusieurs tuples plus petits"
+        },
+        {
+          "content": "Supprimer un élément d'un tuple"
+        },
+        {
+          "content": "Convertir un tuple en une liste"
+        },
+        {
+          "content": "Comparer deux tuples"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'interface IQueryable en LINQ ?"
+      },
+      "options": [
+        {
+          "content": "Permettre l'exécution de requêtes déportées sur une source de données",
+          "correct": true
+        },
+        {
+          "content": "Définir des méthodes de tri"
+        },
+        {
+          "content": "Implémenter la pagination"
+        },
+        {
+          "content": "Gérer les transactions de base de données"
+        },
+        {
+          "content": "Créer des index sur les collections"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'pattern matching' avec 'is' en C# ?"
+      },
+      "options": [
+        {
+          "content": "Vérifier le type d'un objet et le convertir en une seule opération",
+          "correct": true
+        },
+        {
+          "content": "Comparer deux objets pour l'égalité"
+        },
+        {
+          "content": "Créer une nouvelle instance d'un objet"
+        },
+        {
+          "content": "Définir une interface"
+        },
+        {
+          "content": "Implémenter l'héritage multiple"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'attribut [Flags] en C# ?"
+      },
+      "options": [
+        {
+          "content": "Indiquer qu'une énumération peut être traitée comme un ensemble de drapeaux",
+          "correct": true
+        },
+        {
+          "content": "Marquer une classe comme abstraite"
+        },
+        {
+          "content": "Définir une constante"
+        },
+        {
+          "content": "Créer une méthode d'extension"
+        },
+        {
+          "content": "Implémenter une interface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'record' en C# 9 ?"
+      },
+      "options": [
+        {
+          "content": "Un type de référence immuable avec égalité basée sur la valeur",
+          "correct": true
+        },
+        {
+          "content": "Un nouveau type de collection"
+        },
+        {
+          "content": "Une alternative aux interfaces"
+        },
+        {
+          "content": "Un type de base de données NoSQL"
+        },
+        {
+          "content": "Un outil de journalisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'attribut [ValidateAntiForgeryToken] dans ASP.NET MVC ?"
+      },
+      "options": [
+        {
+          "content": "Prévenir les attaques CSRF",
+          "correct": true
+        },
+        {
+          "content": "Valider les entrées utilisateur"
+        },
+        {
+          "content": "Crypter les données sensibles"
+        },
+        {
+          "content": "Gérer l'authentification des utilisateurs"
+        },
+        {
+          "content": "Optimiser les performances des requêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'top-level statements' introduit dans C# 9 ?"
+      },
+      "options": [
+        {
+          "content": "Permettre d'écrire du code directement dans le fichier sans classe Program et méthode Main",
+          "correct": true
+        },
+        {
+          "content": "Définir des variables globales"
+        },
+        {
+          "content": "Créer des fonctions anonymes"
+        },
+        {
+          "content": "Implémenter des interfaces"
+        },
+        {
+          "content": "Déclarer des espaces de noms"
+        }
+      ]
+    }
+  ]
+}
