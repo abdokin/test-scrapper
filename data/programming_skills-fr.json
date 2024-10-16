@@ -1,0 +1,142 @@
+[
+  {
+    "title": "PHP (codage) : programmation orientée objet",
+    "description": "Ce test de codage PHP évalue les compétences du candidat en matière de programmation orientée objet, ainsi que sa capacité à utiliser les fonctions spécifiques de PHP telles que sort(), explode() et array_map(). Ce test vous aidera à identifier et à embaucher des développeurs PHP de niveau intermédiaire.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Programmation : Algorithmes de niveau intermédiaire",
+    "description": "Ce test de codage évalue les compétences de programmation de niveau intermédiaire des candidats, dans le langage de programmation de leur choix. Vous pouvez configurer les langages de programmation parmi lesquels vos candidats pourront choisir.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Bash",
+    "description": "Ce test Bash identifie les candidats capables d'utiliser efficacement le shell de Bash sous Linux et d'autres implémentations pertinentes. Ce test de sélection vous aidera à recruter un développeur doté de compétences Bash pour améliorer l'efficacité et l'efficience de votre entreprise.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "ASP.NET (y compris ASP.NET Core)",
+    "description": "Ce test ASP.NET évalue les connaissances techniques d'un candidat ou d'une candidate à propos du framework ASP.NET, ainsi que sa capacité à créer des applications et des services Web. Ce test vous permet d'identifier les développeuses et développeurs qui maîtrisent bien le framework ASP.NET et l'utilisent efficacement.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Création d'API REST",
+    "description": "Ce test REST API évalue la capacité technique d'un candidat à créer et à mettre en œuvre une API RESTful en suivant les normes REST API. Ce test d'embauche vous aide à identifier les ingénieurs capables de créer et de maintenir des API REST évolutives.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SQLite (codage) : requêtes de niveau intermédiaire",
+    "description": "Ce test de codage SQLite évalue les compétences des candidats à créer une requête sur une base de données de complexité moyenne. Il immerge le candidat dans un scénario réaliste, et sa résolution requiert des compétences intermédiaires en matière de requêtes SQLite.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "AJAX",
+    "description": "Ce test AJAX évalue les connaissances des candidats sur les requêtes réseau asynchrones et leurs applications. Ce test permet d'identifier les développeurs qui maîtrisent la conception d'applications capables d'effectuer des mises à jour dynamiques en se basant sur des données récupérées de manière asynchrone.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Vue.js (Vue 2)",
+    "description": "Le test Vue.js mesure les connaissances et l'expérience des candidats en ce qui concerne le framework Vue.js (Vue 2) et les meilleures pratiques, ainsi que leur capacité à suivre le guide de style Vue.js et à choisir les approches architecturales idéales.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Cryptographie",
+    "description": "Ce test de cryptographie évalue la capacité des candidats à résoudre des problèmes liés à la cryptographie. Ce test de sélection vous aidera à recruter des cryptographes qui savent comment assurer la sécurité des données sensibles de votre entreprise.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": ".NET",
+    "description": "Ce test .NET évalue les connaissances techniques des candidats sur le framework.NET et leur capacité à créer des applications pour Windows et le Web. Ce test vous aide à identifier les développeurs qui connaissent bien le framework .NET et l'utilisent efficacement.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "NumPy",
+    "description": "Ce test NumPy évalue les connaissances des candidats sur NumPy et leur capacité à résoudre des tâches de mise en situation en utilisant les fonctionnalités de la bibliothèque Python. Le test vous aidera à identifier les candidats qui maîtrisent NumPy.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Laravel",
+    "description": "Ce test Laravel évalue les connaissances des candidats sur le framework Laravel. Ce test vous aidera à recruter des développeurs Laravel capables de créer, mettre à jour et assurer la maintenance de vos applications à l'aide de Laravel.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "HTML5",
+    "description": "Le test HTML5 évalue les connaissances et capacités des candidats en HTML5. Ce test vous aide à identifier les candidats qui ont de solides connaissances de HTML5 et peuvent l’utiliser efficacement pour développer des sites et des applications Web.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Framework Ionic avec React",
+    "description": "Ce test sur le framework Ionic avec React évalue les connaissances d'un candidat sur le framework Ionic utilisant React. Ce test vous aidera à embaucher des développeurs Ionic qui ont les compétences nécessaires pour créer, mettre à jour et maintenir vos applications Ionic.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Codage : Structures de données - Graphes",
+    "description": "Ce défi de codage de niveau intermédiaire évalue les compétences des candidats en matière de structures de données en graphes. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "C (codage) : concepts spécifiques à un langage",
+    "description": "Ce test de codage en C évalue les compétences des candidats en matière de programmation procédurale, ainsi que leur capacité à utiliser des pointeurs, des références et à gérer la mémoire. Ce test vous aidera à identifier et à recruter des développeurs C de niveau intermédiaire.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Pandas",
+    "description": "Ce test Pandas évalue les connaissances techniques des candidat·e·s sur Pandas et leur capacité à résoudre des tâches situationnelles en utilisant les fonctionnalités de cette bibliothèque Python. Ce test vous aidera à identifier les candidat·e·s capables de manipuler efficacement des données à l'aide de Pandas.",
+    "duration": "12 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Code propre",
+    "description": "Un code propre est la marque d'un ingénieur logiciel de qualité. Il peut faire la différence entre perdre des milliers d'euros sur un projet et le faire correctement dès la première fois. Ce test de sélection valide la capacité d'un ingénieur à écrire un code facile à maintenir.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Flutter",
+    "description": "Ce test Flutter évalue les compétences et les connaissances des candidats en développement d'applications à l'aide du framework Flutter. Ce test vous aidera à embaucher des développeurs qui maîtrisent Flutter et peuvent créer et améliorer le code pour obtenir les résultats souhaités.",
+    "duration": "9 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "React",
+    "description": "Ce test React évalue les compétences des candidats dans la bibliothèque React.js. Le test évalue les candidats dans les concepts les plus importants de React, ainsi que leurs compétences et leurs connaissances des concepts avancés les plus utilisés.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  }
+]

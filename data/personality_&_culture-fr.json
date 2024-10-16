@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Motivation",
+    "description": "Fondé sur la théorie des caractéristiques des emplois de Hackman et Oldham, le test des préférences en matière d’emploi permet d’évaluer dans quelle mesure les attentes de vos candidats correspondent à votre offre d’emploi, sur la base d’une enquête personnalisée que vous remplissez, ainsi que le ou la candidat.",
+    "duration": "15 mins",
+    "select_questions": "20 questions",
+    "type": "Questionnaire"
+  },
+  {
+    "title": "Big 5 (OCEAN)",
+    "description": "Le test de personnalité des Big 5 suit le modèle des cinq facteurs, une théorie empirique en psychologie qui évalue cinq dimensions primordiales de la personnalité : l’ouverture à l’expérience, la conscienciosité, l’extraversion, l’agréabilité et le névrosisme.",
+    "duration": "10 mins",
+    "select_questions": "50 questions",
+    "type": "Questionnaire"
+  },
+  {
+    "title": "DISC",
+    "description": "Le test DISC repose sur le modèle développé par le psychologue William Marston pour l’évaluation du comportement. Il classe la façon dont nous exprimons nos émotions dans les quatre types de comportement du système DISC : dominance (D), influence (I), stabilité (S) et conformité (C).",
+    "duration": "10 mins",
+    "select_questions": "48 questions",
+    "type": "Questionnaire"
+  },
+  {
+    "title": "Apport culturel",
+    "description": "Ce test d’apport culturel permet d’évaluer dans quelle mesure les valeurs et les comportements d’un candidat correspondent aux valeurs de votre organisation et aux comportements qui permettraient à votre candidat idéal de réussir à un poste spécifique, sur la base d’une enquête personnalisée que vous remplissez.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Questionnaire"
+  },
+  {
+    "title": "Ennéagramme",
+    "description": "Le test de l’ennéagramme suit le modèle de personnalité développé dans les enseignements d’O. Ichazo et de C. Naranjo. Ce modèle représente neuf personnalités différentes sur un diagramme à neuf points décrivant les croyances fondamentales et la vision du monde de chacune d’elles.",
+    "duration": "10 mins",
+    "select_questions": "45 questions",
+    "type": "Questionnaire"
+  },
+  {
+    "title": "Les 16 types de personnalité",
+    "description": "Basé sur les travaux de Carl Jung, le test des 16 types de personnalité donne un aperçu de la source d’énergie d’un candidat, de la manière dont il ou elle traite l’information, de la façon dont il ou elle prend des décisions et du style de vie qu’il ou elle préfère.",
+    "duration": "10 mins",
+    "select_questions": "36 questions",
+    "type": "Questionnaire"
+  }
+]

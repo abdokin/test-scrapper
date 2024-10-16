@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Communication",
+    "description": "Ce test de communication évalue les compétences des candidats à communiquer clairement et efficacement en utilisant les règles de savoir-vivre en entreprise. Le test évalue les candidats sur la communication écrite et orale, ainsi que sur la communication non verbale et l’écoute active.",
+    "duration": "8 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Gestion du temps",
+    "description": "Le test de gestion du temps évalue la capacité des candidats à gérer leur temps dans un environnement professionnel. À l'aide de scénarios typiques sur le lieu de travail, ce test évalue dans quelle mesure les candidats peuvent hiérarchiser, exécuter, coopérer et réfléchir sur les tâches et les projets.",
+    "duration": "9 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Négociations",
+    "description": "Ce test de négociation évalue la capacité d’un candidat à négocier dans un contexte commercial. Ce test de sélection vous aidera à embaucher des employés capables de négocier pour vos intérêts dans divers contextes.",
+    "duration": "13 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Jugement commercial",
+    "description": "Ce test évalue la capacité des candidats à faire des compromis et prendre de bonnes décisions dans un contexte commercial, aidant à recruter des cadres et consultants en stratégie capables de détecter la valeur.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Éthique commerciale et conformité",
+    "description": "Le test éthique commercial évalue sensibilisation, jugement et connaissances des candidats sur les problèmes éthiques en contexte commercial. Facilite recrutement personnes sens éthique, adhérant aux politiques d'entreprise.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Account Management",
+    "description": "Ce test de Account Management évalue la capacité du candidat à servir et à développer des comptes de clients de manière efficace. Ce test vous aidera à recruter des experts en gestion de comptes qui augmentent les revenus tout en établissant et en maintenant des relations stratégiques pour votre entreprise.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Leadership et gestion des personnes",
+    "description": "Le test de leadership évalue la capacité du candidat à diriger en utilisant influence et orientation. Il facilite le recrutement de leaders soutenant le développement d'autres personnes pour la croissance de l'organisation.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  }
+]
