@@ -1,0 +1,916 @@
+{
+  "title": "Laravel : Compétences en développement d'applications web",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur le framework Laravel et leur capacité à créer, mettre à jour et assurer la maintenance d'applications web robustes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Routing",
+      "Controllers",
+      "Eloquent ORM",
+      "Migrations",
+      "Blade templating",
+      "Middleware",
+      "Authentication",
+      "Authorization",
+      "API development",
+      "Testing",
+      "Queues",
+      "Caching",
+      "Events et listeners",
+      "Service providers",
+      "Artisan commands"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur Laravel, ingénieur backend PHP ou full-stack utilisant Laravel.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Laravel, évaluant la capacité du candidat à développer et maintenir des applications web efficaces et sécurisées avec ce framework.",
+    "category": "Web Development",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande Artisan utilisez-vous pour créer un nouveau contrôleur dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "php artisan make:controller",
+          "correct": true
+        },
+        {
+          "content": "php artisan create:controller"
+        },
+        {
+          "content": "php artisan generate:controller"
+        },
+        {
+          "content": "php artisan new:controller"
+        },
+        {
+          "content": "php artisan controller:make"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir une route GET dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Route::get('/chemin', 'NomController@methode')",
+          "correct": true
+        },
+        {
+          "content": "Route::post('/chemin', 'NomController@methode')"
+        },
+        {
+          "content": "Route::make('/chemin', 'NomController@methode')"
+        },
+        {
+          "content": "Route::create('/chemin', 'NomController@methode')"
+        },
+        {
+          "content": "Route::get('/chemin', [NomController::class, 'methode'])",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder à un paramètre de requête GET nommé 'id' dans un contrôleur Laravel ?"
+      },
+      "options": [
+        {
+          "content": "request()->get('id')",
+          "correct": true
+        },
+        {
+          "content": "$_GET['id']"
+        },
+        {
+          "content": "Request::input('id')",
+          "correct": true
+        },
+        {
+          "content": "$request->id",
+          "correct": true
+        },
+        {
+          "content": "input()->get('id')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la commande Artisan pour exécuter les migrations dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "php artisan migrate",
+          "correct": true
+        },
+        {
+          "content": "php artisan db:migrate"
+        },
+        {
+          "content": "php artisan migration:run"
+        },
+        {
+          "content": "php artisan db:update"
+        },
+        {
+          "content": "php artisan update:database"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode Eloquent utilisez-vous pour récupérer tous les enregistrements d'un modèle ?"
+      },
+      "options": [
+        {
+          "content": "Model::all()",
+          "correct": true
+        },
+        {
+          "content": "Model::get()"
+        },
+        {
+          "content": "Model::fetch()"
+        },
+        {
+          "content": "Model::select()"
+        },
+        {
+          "content": "Model::query()->get()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une relation 'un à plusieurs' dans un modèle Eloquent ?"
+      },
+      "options": [
+        {
+          "content": "return $this->hasMany(Model::class);",
+          "correct": true
+        },
+        {
+          "content": "return $this->belongsToMany(Model::class);"
+        },
+        {
+          "content": "return $this->hasOne(Model::class);"
+        },
+        {
+          "content": "return $this->oneToMany(Model::class);"
+        },
+        {
+          "content": "return $this->manyRelation(Model::class);"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle directive Blade utilisez-vous pour inclure un partial dans une vue ?"
+      },
+      "options": [
+        {
+          "content": "@include",
+          "correct": true
+        },
+        {
+          "content": "@partial"
+        },
+        {
+          "content": "@insert"
+        },
+        {
+          "content": "@render"
+        },
+        {
+          "content": "@component"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la méthode de middleware pour spécifier que le middleware doit être exécuté après la réponse au client ?"
+      },
+      "options": [
+        {
+          "content": "$this->middleware('nom')->afterReturningResponse();",
+          "correct": true
+        },
+        {
+          "content": "$this->middleware('nom')->after();"
+        },
+        {
+          "content": "$this->middleware('nom')->terminate();"
+        },
+        {
+          "content": "$this->middleware('nom')->last();"
+        },
+        {
+          "content": "$this->middleware('nom')->pushAfter();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment valider qu'un champ est requis et a une longueur minimale de 6 caractères dans une requête Laravel ?"
+      },
+      "options": [
+        {
+          "content": "'champ' => 'required|min:6'",
+          "correct": true
+        },
+        {
+          "content": "'champ' => 'notnull|length:6'"
+        },
+        {
+          "content": "'champ' => 'mandatory|minlength:6'"
+        },
+        {
+          "content": "'champ' => 'required|minChars:6'"
+        },
+        {
+          "content": "'champ' => ['required', 'min:6']",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour créer un job dans une file d'attente Laravel ?"
+      },
+      "options": [
+        {
+          "content": "dispatch(new MonJob())",
+          "correct": true
+        },
+        {
+          "content": "Queue::push(new MonJob())",
+          "correct": true
+        },
+        {
+          "content": "MonJob::queue()"
+        },
+        {
+          "content": "Job::create(new MonJob())"
+        },
+        {
+          "content": "MonJob::dispatch()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une clé étrangère dans une migration Laravel ?"
+      },
+      "options": [
+        {
+          "content": "$table->foreignId('user_id')->constrained()",
+          "correct": true
+        },
+        {
+          "content": "$table->foreign('user_id')->references('id')->on('users')",
+          "correct": true
+        },
+        {
+          "content": "$table->addForeign('user_id', 'users')"
+        },
+        {
+          "content": "$table->foreignKey('user_id')->to('users')"
+        },
+        {
+          "content": "$table->relation('user_id', 'users')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande Artisan pour créer un nouveau modèle avec sa migration associée ?"
+      },
+      "options": [
+        {
+          "content": "php artisan make:model NomModel -m",
+          "correct": true
+        },
+        {
+          "content": "php artisan create:model NomModel --migration"
+        },
+        {
+          "content": "php artisan model:make NomModel --withMigration"
+        },
+        {
+          "content": "php artisan generate:model NomModel --migrate"
+        },
+        {
+          "content": "php artisan make:model NomModel --migration",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment récupérer la première correspondance d'une requête Eloquent ou lancer une exception si aucun résultat n'est trouvé ?"
+      },
+      "options": [
+        {
+          "content": "Model::findOrFail($id)",
+          "correct": true
+        },
+        {
+          "content": "Model::getOrFail($id)"
+        },
+        {
+          "content": "Model::firstOrFail()",
+          "correct": true
+        },
+        {
+          "content": "Model::fetchOrFail($id)"
+        },
+        {
+          "content": "Model::findOrError($id)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour regrouper des routes sous un préfixe commun dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Route::group()",
+          "correct": true
+        },
+        {
+          "content": "Route::prefix()"
+        },
+        {
+          "content": "Route::namespace()"
+        },
+        {
+          "content": "Route::middleware()"
+        },
+        {
+          "content": "Route::domain()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une relation polymorphique dans un modèle Eloquent ?"
+      },
+      "options": [
+        {
+          "content": "return $this->morphTo()",
+          "correct": true
+        },
+        {
+          "content": "return $this->polymorphic()"
+        },
+        {
+          "content": "return $this->morphMany()"
+        },
+        {
+          "content": "return $this->belongsToMany()"
+        },
+        {
+          "content": "return $this->polymorph()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour définir un middleware global dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Dans app/Http/Kernel.php, ajouter le middleware à la propriété $middleware",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la méthode App::middleware() dans AppServiceProvider"
+        },
+        {
+          "content": "Ajouter le middleware dans config/middleware.php"
+        },
+        {
+          "content": "Utiliser Route::middleware() dans routes/web.php"
+        },
+        {
+          "content": "Définir le middleware dans app/Providers/MiddlewareServiceProvider.php"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment générer une nouvelle clé d'application Laravel ?"
+      },
+      "options": [
+        {
+          "content": "php artisan key:generate",
+          "correct": true
+        },
+        {
+          "content": "php artisan make:key"
+        },
+        {
+          "content": "php artisan app:key"
+        },
+        {
+          "content": "php artisan generate:key"
+        },
+        {
+          "content": "php artisan create:key"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour enregistrer un nouveau service provider dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter le provider dans config/app.php",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la commande php artisan make:provider"
+        },
+        {
+          "content": "Ajouter le provider dans app/Providers/AppServiceProvider.php"
+        },
+        {
+          "content": "Enregistrer le provider dans bootstrap/app.php"
+        },
+        {
+          "content": "Utiliser App::register() dans routes/web.php"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une tâche planifiée (cron job) dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Dans app/Console/Kernel.php, utiliser la méthode schedule()",
+          "correct": true
+        },
+        {
+          "content": "Créer un fichier crontab dans le dossier storage/"
+        },
+        {
+          "content": "Utiliser la commande php artisan make:schedule"
+        },
+        {
+          "content": "Définir les tâches dans config/schedule.php"
+        },
+        {
+          "content": "Ajouter les tâches dans app/Jobs/ScheduledJobs.php"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode Eloquent pour créer un nouvel enregistrement dans la base de données ?"
+      },
+      "options": [
+        {
+          "content": "Model::create($data)",
+          "correct": true
+        },
+        {
+          "content": "Model::new($data)"
+        },
+        {
+          "content": "Model::insert($data)"
+        },
+        {
+          "content": "Model::save($data)"
+        },{
+          "content": "$model = new Model($data); $model->save()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une route avec des paramètres optionnels dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Route::get('/user/{name?}', function ($name = null) {})",
+          "correct": true
+        },
+        {
+          "content": "Route::get('/user/[name]', function ($name) {})"
+        },
+        {
+          "content": "Route::get('/user/(name)', function ($name) {})"
+        },
+        {
+          "content": "Route::get('/user/:name?', function ($name = null) {})"
+        },
+        {
+          "content": "Route::get('/user/{name=null}', function ($name) {})"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour accéder à une variable de session dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "session('key')",
+          "correct": true
+        },
+        {
+          "content": "Session::get('key')",
+          "correct": true
+        },
+        {
+          "content": "$_SESSION['key']"
+        },
+        {
+          "content": "request()->session('key')"
+        },
+        {
+          "content": "App::session('key')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir un index unique sur une colonne dans une migration Laravel ?"
+      },
+      "options": [
+        {
+          "content": "$table->string('email')->unique()",
+          "correct": true
+        },
+        {
+          "content": "$table->unique('email')",
+          "correct": true
+        },
+        {
+          "content": "$table->index('email', 'unique')"
+        },
+        {
+          "content": "$table->string('email')->index('unique')"
+        },
+        {
+          "content": "$table->addUnique('email')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour effectuer une redirection dans un contrôleur Laravel ?"
+      },
+      "options": [
+        {
+          "content": "return redirect('/path')",
+          "correct": true
+        },
+        {
+          "content": "return Redirect::to('/path')",
+          "correct": true
+        },
+        {
+          "content": "return $this->redirect('/path')"
+        },
+        {
+          "content": "return view->redirect('/path')"
+        },
+        {
+          "content": "return response()->redirectTo('/path')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une relation 'plusieurs à plusieurs' dans un modèle Eloquent ?"
+      },
+      "options": [
+        {
+          "content": "return $this->belongsToMany(Model::class)",
+          "correct": true
+        },
+        {
+          "content": "return $this->hasMany(Model::class)"
+        },
+        {
+          "content": "return $this->manyToMany(Model::class)"
+        },
+        {
+          "content": "return $this->hasManyThrough(Model::class)"
+        },
+        {
+          "content": "return $this->attachMany(Model::class)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande Artisan pour créer un nouveau middleware ?"
+      },
+      "options": [
+        {
+          "content": "php artisan make:middleware NomMiddleware",
+          "correct": true
+        },
+        {
+          "content": "php artisan create:middleware NomMiddleware"
+        },
+        {
+          "content": "php artisan generate:middleware NomMiddleware"
+        },
+        {
+          "content": "php artisan new:middleware NomMiddleware"
+        },
+        {
+          "content": "php artisan middleware:make NomMiddleware"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder à une variable d'environnement dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "env('VAR_NAME')",
+          "correct": true
+        },
+        {
+          "content": "getenv('VAR_NAME')"
+        },
+        {
+          "content": "Config::get('VAR_NAME')"
+        },
+        {
+          "content": "App::environment('VAR_NAME')"
+        },
+        {
+          "content": "$_ENV['VAR_NAME']"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour lancer un événement dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "event(new MonEvenement())",
+          "correct": true
+        },
+        {
+          "content": "Event::fire(new MonEvenement())",
+          "correct": true
+        },
+        {
+          "content": "App::event(new MonEvenement())"
+        },
+        {
+          "content": "dispatch(new MonEvenement())"
+        },
+        {
+          "content": "MonEvenement::trigger()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une contrainte de clé étrangère avec suppression en cascade dans une migration Laravel ?"
+      },
+      "options": [
+        {
+          "content": "$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')",
+          "correct": true
+        },
+        {
+          "content": "$table->foreignId('user_id')->constrained()->cascadeOnDelete()",
+          "correct": true
+        },
+        {
+          "content": "$table->foreign('user_id')->references('id')->on('users')->cascade('delete')"
+        },
+        {
+          "content": "$table->addForeign('user_id', 'users')->withCascade()"
+        },
+        {
+          "content": "$table->foreignKey('user_id')->to('users')->deleteCascade()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour paginer les résultats d'une requête Eloquent ?"
+      },
+      "options": [
+        {
+          "content": "Model::paginate(15)",
+          "correct": true
+        },
+        {
+          "content": "Model::get()->paginate(15)"
+        },
+        {
+          "content": "Model::all()->page(15)"
+        },
+        {
+          "content": "Model::pagination(15)"
+        },
+        {
+          "content": "Model::take(15)->page()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir un middleware pour un groupe de routes spécifique dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Route::middleware(['auth'])->group(function () { /* routes */ })",
+          "correct": true
+        },
+        {
+          "content": "Route::group(['middleware' => 'auth'], function () { /* routes */ })",
+          "correct": true
+        },
+        {
+          "content": "Route::with('auth')->group(function () { /* routes */ })"
+        },
+        {
+          "content": "Route::applyMiddleware('auth')->to(function () { /* routes */ })"
+        },
+        {
+          "content": "Middleware::apply('auth')->to(function () { /* routes */ })"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour définir une gate d'autorisation dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "Gate::define('edit-post', function ($user, $post) { /* logic */ })",
+          "correct": true
+        },
+        {
+          "content": "Auth::gate('edit-post', function ($user, $post) { /* logic */ })"
+        },
+        {
+          "content": "Policy::define('edit-post', function ($user, $post) { /* logic */ })"
+        },
+        {
+          "content": "Authorize::gate('edit-post', function ($user, $post) { /* logic */ })"
+        },
+        {
+          "content": "Permission::create('edit-post', function ($user, $post) { /* logic */ })"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une nouvelle commande Artisan personnalisée dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "php artisan make:command NomCommande",
+          "correct": true
+        },
+        {
+          "content": "php artisan create:command NomCommande"
+        },
+        {
+          "content": "php artisan generate:command NomCommande"
+        },
+        {
+          "content": "php artisan new:command NomCommande"
+        },
+        {
+          "content": "php artisan command:make NomCommande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour récupérer tous les inputs d'une requête dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "$request->all()",
+          "correct": true
+        },
+        {
+          "content": "Request::inputs()"
+        },
+        {
+          "content": "$request->inputs()"
+        },
+        {
+          "content": "Input::get()"
+        },
+        {
+          "content": "$request->getInputs()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une relation 'un à un' dans un modèle Eloquent ?"
+      },
+      "options": [
+        {
+          "content": "return $this->hasOne(Model::class)",
+          "correct": true
+        },
+        {
+          "content": "return $this->oneToOne(Model::class)"
+        },
+        {
+          "content": "return $this->belongsTo(Model::class)"
+        },
+        {
+          "content": "return $this->hasUnique(Model::class)"
+        },
+        {
+          "content": "return $this->singleRelation(Model::class)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode pour créer un nouveau job dans Laravel ?"
+      },
+      "options": [
+        {
+          "content": "php artisan make:job NomJob",
+          "correct": true
+        },
+        {
+          "content": "php artisan create:job NomJob"
+        },
+        {
+          "content": "php artisan generate:job NomJob"
+        },
+        {
+          "content": "php artisan new:job NomJob"
+        },
+        {
+          "content": "php artisan job:make NomJob"
+        }
+      ]
+    }
+  ]
+}
