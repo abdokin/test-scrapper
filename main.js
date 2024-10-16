@@ -1,17 +1,28 @@
-async function scrollToBottom() {
-  return new Promise((resolve) => {
+// this script will download all the test data from the test page of the website
+// and save it as a json file
+
+async function scrollToBottomUntilEnd() {
+  return new Promise((resolve, reject) => {
     let distance = 100;
     let lastHeight = document.body.scrollHeight;
+
     let scrollInterval = setInterval(() => {
       window.scrollBy(0, distance);
       let newHeight = document.body.scrollHeight;
-      if (newHeight === lastHeight) {
-        clearInterval(scrollInterval);
-        resolve();
+
+      if (newHeight !== lastHeight) {
+        lastHeight = newHeight; 
       } else {
-        lastHeight = newHeight;
+        clearInterval(scrollInterval);
+
+        let loadMoreButton = document.querySelector('.load-more-button'); // Example selector for a "load more" button
+        if (loadMoreButton) {
+          loadMoreButton.click();
+        } else {
+          resolve(); 
+        }
       }
-    }, 100);
+    }, 1000); 
   });
 }
 
@@ -25,7 +36,7 @@ function scrapTestCard(child) {
 }
 
 async function downloadDataAsJson(filename) {
-  await scrollToBottom();
+  await scrollToBottomUntilEnd();
   let parentElement = document.querySelector("#container-3 > layout-content > app-test-list > div > div > div.search-tests > div.results-section > div.search-results.search-results--redesigned");
   let childElements = parentElement.children;
 
@@ -69,9 +80,9 @@ async function downloadAllCategory(index, category) {
     console.log(`Expanding category ${category.name}`);
     categoryElement.click();
     await new Promise((resolve) => {
-      setTimeout(resolve, 600)
+      setTimeout(resolve, 1000)
     })
-    await downloadDataAsJson(`${category.name.replace(/ /g, '_').toLowerCase()}-en.json`)
+    await downloadDataAsJson(`${category.name.replace(/ /g, '_').toLowerCase()}-fr.json`)
     console.log(`Downloading data for ${category.name}`);
     categoryElement.click();
   } else {

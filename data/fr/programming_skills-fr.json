@@ -138,5 +138,145 @@
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
+  },
+  {
+    "title": "Software Engineer",
+    "description": "Le test Software Engineer évalue les connaissances des candidats sur les principes fondamentaux de l'ingénierie logicielle, identifiant ceux capables d'appliquer la \"pensée d'ingénieur logiciel\" pour résoudre efficacement les problèmes.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "PowerShell",
+    "description": "Ce test PowerShell évalue les connaissances techniques des candidats sur le langage de script. Ce test de sélection vous aidera à recruter des candidats capables de comprendre et d'écrire des scripts PowerShell, de A à Z.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Codage : Structures de données - Piles et files",
+    "description": "Ce défi de codage de niveau intermédiaire évalue les compétences des candidats en matière de manipulation des piles et des files. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Programmation : Structures de données - Tableaux",
+    "description": "Ce test de codage de niveau intermédiaire évalue la capacité des candidats à manipuler des tableaux, ce qui est crucial pour l'optimisation du code, dans le langage de programmation de leur choix. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Framework REST de Django (DRF)",
+    "description": "Ce test de sélection vous aide à évaluer les compétences techniques des développeurs travaillant avec le framework REST de Django. Il couvre les connaissances générales sur le DRF et s’attarde sur les modèles, les sérialiseurs et les vues. Ce test vous aide à recruter des ingénieurs développant des API.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Angular",
+    "description": "Le test Angular évalue les connaissances et l’expérience d’un développeur avec le framework Angular, sa compréhension des fonctionnalités et des meilleures pratiques, ainsi que sa capacité à suivre le guide de style Angular.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Drupal",
+    "description": "Ce test Drupal évalue les compétences techniques des candidats pour construire et gérer des sites Drupal. Utilisez ce test pour trouver votre prochain expert Drupal. Ce test de recrutement peut être utilisé pour identifier les candidats qui travaillent de manière efficace et efficiente avec le CMS Drupal.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Microsoft Azure",
+    "description": "Ce test Microsoft Azure évalue la capacité des candidats à concevoir des solutions Cloud , à utiliser les bons outils et à mettre en œuvre les meilleures pratiques pour vos applications et services dans Azure, sur la base du Cloud Adoption Framework de Microsoft.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Programmation orientée objet",
+    "description": "Ce test de programmation orientée objet (POO) évalue les connaissances des candidats sur les concepts de la POO et leur capacité à résoudre des tâches de programmation en appliquant ces concepts. Ce test de recrutement permet d'identifier les développeurs qui ont une bonne connaissance de la POO.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Flask",
+    "description": "Ce test sur Flask évalue les compétences techniques des candidats en matière d'utilisation du framework Flask et leur capacité à mettre en œuvre efficacement ses fonctionnalités pour créer une application web complète et bien conçue, en suivant les meilleures pratiques.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "CSS",
+    "description": "Le test de développeur CSS évalue les connaissances et les compétences des candidats en matière de concepts et de techniques CSS. Le test vous aide à identifier les candidats qui ont l’expérience de l’utilisation de CSS pour créer des sites et des applications Web.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "MySQL",
+    "description": "Ce test MySQL évalue la capacité des candidats à utiliser MySQL pour manipuler, gérer et éclairer de manière efficace et précise des données dans des bases de données relationnelles. Ce test de recrutement vous aidera à recruter des développeurs capables d’exploiter MySQL pour répondre à des questions complexes.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Express.js",
+    "description": "Ce test Express.js évalue la capacité des candidats à concevoir et à développer des applications back-end à l'aide du framework Express.js. Il vous aidera à recruter des développeurs qui maîtrisent toutes les fonctionnalités d'Express.js, de la configuration à l'écriture d'intergiciels complexes.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Codage : Structures de données - Listes chaînées",
+    "description": "Ce test de codage de niveau intermédiaire évalue la capacité des candidats à manipuler des listes chaînées, dans le langage de programmation de leur choix. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Codage : Structures de données - Chaînes de caractères",
+    "description": "Ce défi de codage de niveau intermédiaire évalue les compétences des candidats en matière de manipulation de chaînes de caractères. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Gatsby.js",
+    "description": "Ce test Gatsby.js évalue les connaissances des candidats sur le framework Gatsby et leur capacité à créer des sites web en utilisant cette technologie. Ce test vous aide à identifier les développeurs qui peuvent générer des sites statiques rapides et réactifs.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Codage : Structures de données - Arbres binaires",
+    "description": "Ce défi de codage de niveau intermédiaire évalue les compétences des candidats en matière de manipulation d'arbres binaires de recherche, dans le langage de programmation de leur choix. Vous pouvez configurer les langages de programmation qui seront disponibles pour vos candidats.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Spring",
+    "description": "Ce test évalue les compétences des candidat·e·s dans l’utilisation de Spring Framework pour Java. Le test se concentre sur les fonctionnalités de Spring les plus couramment utilisées, ainsi que sur Spring Boot, et vous aidera à identifier les candidat·e·s qui ont une bonne maîtrise du framework.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "React Native",
+    "description": "Ce test React Native évalue les connaissances des candidats sur le framework React Native. Ce test vous aidera à embaucher des développeurs React Native capables de créer, de mettre à jour et de maintenir vos applications React Native.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Programmation : Algorithmes de Niveau Débutant",
+    "description": "Ce test de codage évalue la capacité des candidats à programmer un algorithme de base, dans le langage de programmation de leur choix. Vous pouvez configurer les langages de programmation parmi lesquels vos candidats pourront choisir.",
+    "duration": "15 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
   }
 ]

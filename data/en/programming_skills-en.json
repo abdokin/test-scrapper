@@ -138,5 +138,572 @@
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
+  },
+  {
+    "title": "FastAPI",
+    "description": "This FastAPI test evaluates a candidate’s real-world FastAPI skills. It helps you hire intermediate-level backend or fullstack developers who excel in secure, scalable, and efficient software development.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Next.js",
+    "description": "This Next.js test evaluates candidates’ ability to develop and optimize Next.js applications. This screening test will help you hire Next.js experts who will create high-performing applications that meet your business needs and improve user experience.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "TensorFlow",
+    "description": "This test evaluates candidates’ technical knowledge of TensorFlow. The test will help identify developers who are proficient in TensorFlow and are capable of implementing various deep-learning models with that framework.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Laravel",
+    "description": "This Laravel test evaluates candidates' knowledge of the Laravel framework. This test will help you hire Laravel developers who can create, update, and maintain your applications using Laravel.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "NoSQL Databases",
+    "description": "This NoSQL Databases skills test evaluates candidates’ ability to manage large-scale data. This screening test will help you hire professionals who can innovate with NoSQL technologies, contributing significantly to your data management capabilities.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "HTML5",
+    "description": "The HTML5 test assesses candidates’ knowledge and ability in HTML5. This test helps you identify candidates who have a strong knowledge of HTML5 and can use it effectively to develop websites and web applications.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Firebase",
+    "description": "This Firebase test evaluates candidates’ abilities to work with Firebase services. This screening test will help you hire developers who can build secure and scalable applications, handle real-time updates, and implement Cloud Functions with Firebase.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Embedded Systems",
+    "description": "This Embedded Systems test evaluates a candidate’s knowledge of hardware used in embedded systems and the firmware that runs on it. This screening test will help you hire an Embedded Systems Engineer who can design, develop, and maintain embedded systems.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Ionic Framework with React",
+    "description": "This Ionic Framework with React test evaluates a candidate’s knowledge of Ionic framework using React. This test will help you hire Ionic developers who have the skills to create, update, and maintain your Ionic apps.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Neural Networks",
+    "description": "This Neural Network test evaluates a candidate's ability to design, optimize, and apply advanced neural network technologies. This screening test will help you hire AI specialists who can innovate and drive business growth with neural networks.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Graphs",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in graph data structures. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "C (Coding): Language-Specific Concepts",
+    "description": "This C coding test evaluates a candidate's procedural programming skills, as well as their ability to use pointers, references, and manage memory. This test will help you identify and hire mid-level C developers.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Pandas",
+    "description": "This Pandas test evaluates candidates’ technical knowledge of Pandas and their ability to solve situational tasks using this Python library’s functionalities. This test will help you identify candidates who can manipulate data effectively using Pandas.",
+    "duration": "12 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Clean Code",
+    "description": "Clean code is the hallmark of a quality software engineer. It can be the difference between wasting thousands on a project versus doing it right the first time. This screening test validates an engineer’s ability to write easy to maintain code.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Flutter",
+    "description": "This Flutter test evaluates candidates’ skills and knowledge in developing apps using the Flutter framework. This test will help you hire developers skilled in Flutter who can create and improve code to get the desired outcomes.",
+    "duration": "9 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Data Analysis Using R",
+    "description": "This test evaluates candidates’ technical knowledge of R programming language and their ability to perform data analysis using it. The test will help identify developers who are proficient in R and are capable of using it to solve data tasks.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Software Engineer",
+    "description": "This Software Engineer test evaluates candidates’ knowledge of the basic principles and topics of software engineering. The test helps you identify candidates who can approach problems using “software engineer thinking” to find the best solution possible.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "PowerShell",
+    "description": "This PowerShell test evaluates a candidate’s technical knowledge of the scripting language. This screening test will help you hire employees who can understand and write PowerShell scripts, from beginning to end",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Symfony",
+    "description": "This test evaluates a candidate’s knowledge of the Symfony framework. This screening test will help you hire Symfony experts who can contribute to your projects with their advanced Symfony skills, ensuring efficient development and optimal results.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Advanced Networking in Azure",
+    "description": "This Advanced Networking in Azure test assesses candidates' ability to design, secure, and optimize Azure network solutions. Use this test to identify experts who can leverage the Azure ecosystem for your organization’s success.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Stacks and Queues",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in manipulating stacks and queues. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "WooCommerce",
+    "description": "The WooCommerce test assesses the extent to which candidates are conversant with important concepts and practices. The test assesses whether they are able to build good eCommerce solutions in WooCommerce and develop features that meet your requirements.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Arrays",
+    "description": "This intermediate-level coding test evaluates candidates' ability to manipulate arrays, crucial for code optimization, in the programming language of their choice. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Scikit-learn",
+    "description": "This test evaluates candidates’ technical knowledge of scikit-learn. The test will help identify developers who are proficient in scikit-learn and capable of implementing various deep-learning models with this Python library.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Django REST Framework (DRF)",
+    "description": "This screening test helps you assess the technical competency of developers working with the Django REST Framework. It covers general DRF knowledge and goes in-depth on models, serializers, and views. This test helps you hire engineers developing APIs.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Angular",
+    "description": "The Angular test evaluates a developer's knowledge and experience with the Angular framework, their understanding of its features and best practices, as well as their ability to follow the Angular style guide.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Drupal",
+    "description": "This Drupal test evaluates candidates’ technical skills to build and manage Drupal sites. Use this test to find your next Drupal expert. This hiring test can be used to identify candidates who work effectively and efficiently with Drupal CMS.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Microsoft Azure",
+    "description": "This Microsoft Azure test evaluates candidates’ ability to design cloud solutions, leverage the right tools, and implement best practices for your apps and services in Azure, based on Microsoft's Cloud Adoption Framework.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "MATLAB",
+    "description": "This MATLAB test evaluates candidates’ technical knowledge of the programming language and their ability to manipulate, analyze, and plot data. This test will help you hire programmers who are proficient with MATLAB and use it efficiently.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Object Oriented Programming",
+    "description": "This Object Oriented Programming (OOP) test evaluates candidates’ knowledge of OOP concepts and their ability to solve programming tasks by applying these concepts. This hiring test will help identify developers who are well versed in OOP.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Flask",
+    "description": "This Flask test evaluates candidates’ technical skills using the Flask framework and their ability to effectively implement its features to create a well-rounded full-stack web application, following best practices.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "CSS",
+    "description": "This CSS test assesses candidates’ ability to solve problems commonly encountered in a front-end development context. This screening test will help you hire CSS experts who can deliver visually captivating web experiences.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Computer Vision",
+    "description": "This Computer Vision test evaluates candidates' abilities to apply visual data analysis skills, helping you hire experts who can drive innovation in diverse fields from healthcare to autonomous vehicles.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "MySQL",
+    "description": "This MySQL test evaluates a candidate’s ability to use MySQL to efficiently and accurately manipulate, manage, and illuminate data in relational databases. This hiring test will help you hire developers who will leverage MySQL to answer complex questions.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Machine Learning in Azure",
+    "description": "This Machine Learning in Azure test evaluates candidates' ability to design and manage machine learning (ML) systems on Azure. Hire skilled ML experts to drive data-powered innovation and informed decision-making.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Heroku",
+    "description": "This Heroku test evaluates a candidate's ability to deploy and secure cloud applications. This screening test will help you hire cloud engineering experts who ensure optimal performance and security.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Ember.js",
+    "description": "This Ember.js test evaluates a candidate’s ability to develop scalable and robust web applications. This screening test will help you hire Ember.js experts who can drive technological innovation and efficiency.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Visual Basic for Applications (VBA)",
+    "description": "This Visual Basic for Applications (VBA) test evaluates candidates’ technical knowledge of VBA and their ability to apply it in real situations. This VBA test focuses on core VBA skills as well as using VBA with Microsoft Excel.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Apache Spark for Data Engineers",
+    "description": "This Apache Spark for Data Engineers test evaluates a candidate’s ability to use Apache Spark for large-scale data processing. This hiring test will help you hire data engineers who have practical experience using the Spark framework.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Express.js",
+    "description": "This Express.js test evaluates candidates’ ability to design and build back-end applications using the Express.js framework, helping you hire developers who are skilled in all Express.js functionalities, from configuration to writing complex middleware.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Shopify",
+    "description": "The Shopify test evaluates candidates’ knowledge and competency in developing, customizing, and managing a Shopify store. This test will help you hire Shopify developers who can handle all your e-commerce needs using the Shopify platform.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Multi-Task Learning (MTL)",
+    "description": "This Multi-Task Learning (MTL) test evaluates candidates' ability to optimize models across diverse tasks, driving innovation and efficiency. This screening test will help you hire MTL experts who can give you a competitive edge in data-rich environments.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Linked Lists",
+    "description": "This intermediate-level coding test evaluates candidates' ability to manipulate linked lists, in the programming language of their choice. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Coding: Data Structures - Strings",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in manipulating strings. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Gatsby.js",
+    "description": "This Gatsby.js test evaluates candidates’ knowledge of the Gatsby framework and their ability to create websites using this technology. This test helps you identify developers who can generate fast and responsive static sites.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Blockchain Software Development",
+    "description": "This Blockchain Software Development test helps you identify intermediate-level developers with practical skills and theoretically sound knowledge of blockchain software development and implementation.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Binary Trees",
+    "description": "This intermediate-level, language-agnostic coding challenge assesses candidates' proficiency in manipulating binary trees, enabling candidates to choose their preferred programming language. Employers can configure supported languages as needed.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "PySpark",
+    "description": "This PySpark test assesses proficiency across fundamentals, data manipulation, ML, and advanced configurations. This test will help you identify candidates adept at leveraging PySpark's power for big data processing and machine learning.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Spring",
+    "description": "This test will evaluate candidates' skills in using the Spring framework for Java. The test focuses on the most commonly used Spring features, as well as Spring Boot, and will help you identify candidates who have a strong grasp of the framework.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Smart Contracts",
+    "description": "This Smart Contracts test evaluates a candidate’s technical skills using Solidity and smart contract structure, as well as deployment and debugging. This test will help you identify developers who are skilled working with smart contracts on a blockchain.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "React Native",
+    "description": "This React Native test evaluates candidates’ knowledge of the React Native framework. This test will help you hire React Native developers who can create, update, and maintain your React Native apps.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Entry-Level Algorithms",
+    "description": "This coding test assesses candidates' ability to program a basic algorithm, in the programming language of their choice. You can configure which programming languages will be available for your candidates to choose from.",
+    "duration": "15 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Advanced Networking in Google Cloud Platform (GCP)",
+    "description": "This Advanced Networking in Google Cloud Platform (GCP) test assesses candidates’ ability to design, secure, and manage network architectures on GCP. This screening test will help you hire experts in building resilient, secure, and scalable solutions.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Blazor",
+    "description": "This Blazor test evaluates candidates’ skills in Blazor development, identifying those who can efficiently architect modern web applications, ensuring faster development cycles, reduced maintenance costs, and enhanced user experience.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Android Development Using Java",
+    "description": "This Android Development Using Java test evaluates a candidate’s ability to develop mobile applications. This screening test will help you hire Android developers who can effectively tackle development challenges and enhance app functionality.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Selenium with Python",
+    "description": "This test evaluates a candidate’s ability to automate browser activities using Selenium with the Python programming language. It will help you to identify the programmers with strong Selenium skills who can automate and test a diverse set of websites.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Debugging",
+    "description": "This intermediate-level coding challenge focuses on candidates’ ability to interpret and debug code, based on a set of requirements, in the programming language of their choice. You can configure which programming languages will be available.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "WordPress Developer",
+    "description": "The WordPress Developer test assesses candidates’ knowledge in the infrastructure of WordPress and coding skills for the platform. This test will help you hire WordPress developers who can set up a WordPress site and develop plugins for your needs.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Hash tables",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in working with hash tables, in the programming language of their choice. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Magento 2",
+    "description": "The Magento 2 test assesses candidates’ skills and knowledge in developing Magento 2 modules, themes, and eCommerce websites. This test will help you hire experienced Magento 2 developers who can meet your development needs.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Keras",
+    "description": "This Keras test evaluates candidates’ knowledge of Keras and their ability to solve situational tasks using the deep learning API’s functionalities. This test will help you identify candidates who are proficient in Keras.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Redis",
+    "description": "The Redis test assesses candidates’ skills in using Redis, an in-memory datastore. This test helps you identify developers skilled in using data structures, commands, modules, and other key features of Redis.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "jQuery",
+    "description": "This jQuery test evaluates candidates’ knowledge of jQuery selectors, methods, event handlers, animation, and DOM traversal. This test will help you identify candidates who can effectively use jQuery to make it simpler to use JavaScript on your websites.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "C++ (Coding): Language-Specific Concepts",
+    "description": "This C++ coding test evaluates candidates' programming skills, and specifically their ability to use C++ to solve common (software) development problems. This test will help you identify and hire mid-level C++ developers.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "React",
+    "description": "This React test assesses candidates’ skills in the React.js library. The test evaluates candidates in the most important concepts in React, as well as their skill and familiarity with the most-used advanced concepts.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "GitHub",
+    "description": "This GitHub test evaluates candidates’ familiarity with the Git version control system. This test will help you identify developers who are good at managing large codebases and collaborating with others.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Cloud Platform (GCP)",
+    "description": "This Google Cloud Platform (GCP) test evaluates candidates’ skills in designing solutions and implementing best practices in GCP based on Google's Architectural Framework. The test helps you identify candidates with strong experience in GCP management.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Ruby on Rails",
+    "description": "This Ruby on Rails test evaluates candidates' skills in using the Ruby on Rails framework. This test will help you identify candidates who can use Ruby on Rails efficiently and work independently on development projects.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Rust",
+    "description": "This Rust test evaluates a candidate’s knowledge of Rust. This screening test will help you hire Rust developers who can create software using Rust and read Rust code written by others.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Node.js",
+    "description": "This Node.js test evaluates candidates’ knowledge and skills in Node.js API and assesses their use of best practices and architectural vision related to Node.js development. This test will help you identify candidates with practical experience in Node.js.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Matplotlib",
+    "description": "This Matplotlib test evaluates candidates’ knowledge of Matplotlib and their ability to solve situational tasks using the Python library’s functionalities. The test will help you identify candidates who are proficient in Matplotlib.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Bootstrap",
+    "description": "This Bootstrap test assesses candidates’ knowledge and skills in Bootstrap concepts and techniques. The test helps you identify candidates who have experience using Bootstrap to create responsive websites.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Data Structures - Binary Search Trees",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in working with binary search trees, in the programming language of their choice. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "PyTorch",
+    "description": "This test evaluates candidates’ knowledge of PyTorch and their ability to solve situational tasks using it. The test will help identify developers who are proficient in PyTorch and capable of implementing various deep learning models using the framework.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "GraphQL",
+    "description": "This GraphQL test evaluates a candidate’s ability to effectively work with, create, and maintain GraphQL APIs. This screening test will help you hire developers who can work with GraphQL on both the front and back end.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Advanced Networking in Amazon Web Services (AWS)",
+    "description": "This Advanced Networking in Amazon Web Services (AWS) test evaluates candidates' ability to design, secure, and manage intricate AWS network architectures. This test will help you ensure robust, scalable solutions in the cloud landscape.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SQLite (Coding): Entry-Level Database Operations",
+    "description": "This SQLite coding test evaluates candidates' ability to manipulate a database with low complexity and create a query that satisfies given requirements. It immerses candidates in a realistic scenario, and solving it requires entry-level SQLite skills.",
+    "duration": "20 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Coding: Data Structures - Heaps",
+    "description": "This intermediate-level coding challenge assesses candidates' proficiency in working with heaps, in the programming language of their choice. You can configure which programming languages will be available for your candidates.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Jenkins",
+    "description": "This Jenkins test evaluates a candidate's proficiency in administering CI/CD infrastructure. This screening test will help you hire a Jenkins expert who can automate building software packages and processes, software testing and deployments, and integrate",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Ionic framework with Angular",
+    "description": "This Ionic Framework with Angular test evaluates a candidate’s knowledge of Ionic framework using Angular. This test will help you to hire Ionic developers who have the skills to create, update, and maintain your Ionic apps.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Ansible",
+    "description": "This Ansible test evaluates a candidate’s ability to use ansible effectively and efficiently. This screening test will help you find and hire an excellent Ansible engineer to create, manage, or improve automation using Ansible across your business.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
   }
 ]

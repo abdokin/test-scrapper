@@ -138,5 +138,131 @@
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
+  },
+  {
+    "title": "Messagerie électronique (Gmail)",
+    "description": "Ce test Gmail évalue les compétences générales des candidats en matière de messagerie électronique via Gmail. Ce test vous aidera à recruter des candidats qui comprennent les processus de base de la messagerie électronique, qui connaissent les meilleures pratiques et l'étiquette appropriée au courrier électronique dans un contexte professionnel et capables de les appliquer dans Gmail.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Docs",
+    "description": "Ce test Google Docs évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des documents pour l'impression et le Web. Ce test vous permet d'identifier les créateurs de documents qui maîtrisent bien Google Docs et l'utilisent efficacement.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Salesforce CRM",
+    "description": "Le test CRM Salesforce évalue la connaissance des candidats des concepts de base et des fonctionnalités standard du CRM Salesforce. Il facilite l'embauche de candidats avec une expérience dans l'utilisation de Salesforce dans leurs fonctions.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Microsoft Word",
+    "description": "Le test Microsoft Word évalue la capacité des candidats à utiliser Word professionnellement, facilitant le recrutement de candidats maîtrisant Word et l'intégrant efficacement dans Microsoft Office pour leurs tâches.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Power BI",
+    "description": "Ce test Power BI évalue les connaissances et compétences techniques des candidats s au niveau du logiciel et leur capacité à créer des conceptions informatives et visuellement attrayantes. Ce test vous aide à identifier les candidats qui sont des utilisateurs compétents de Microsoft Power BI.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "AutoCAD",
+    "description": "Ce test AutoCAD évalue la capacité des candidats à produire, modifier et gérer des dessins pertinents pour n'importe quelle industrie, en 2D et en 3D. Ce test de sélection vous aidera à recruter des experts en conception qui maîtrisent AutoCAD et ne nécessitent aucune formation supplémentaire.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "IT/Engineering Microsoft 365",
+    "description": "Ce test Microsoft 365 évalue les compétences techniques des candidats utilisant la plateforme Microsoft 365 (Exchange Online, Azure Active Directory, SharePoint et Microsoft Teams) et leur capacité à évaluer, concevoir, déployer et gérer les services Microsoft 365.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Cybersécurité",
+    "description": "Ce test de cybersécurité évalue les connaissances techniques des candidats en matière de cybersécurité et leur capacité à identifier et à traiter les menaces. Ce test vous aidera à identifier des experts pour diverses fonctions dans le domaine de la cybersécurité.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SAP Ariba",
+    "description": "Ce test SAP Ariba permet d'évaluer les compétences techniques et fonctionnelles des employés et consultants de la chaîne logistique liées à SAP Ariba. Il vous aidera à identifier les candidats les plus à même de proposer des solutions créatives et des opérations SAP Ariba efficaces.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Analytics",
+    "description": "Le test Google Analytics évalue les connaissances et l'expérience des candidats sur cet outil. Il facilite le recrutement d'experts capables de configurer, interpréter les rapports et prendre des décisions pour atteindre les objectifs commerciaux.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Modélisation financière dans Excel",
+    "description": "Le test de modélisation financière évalue compétences en finance et évaluation, ainsi que la capacité à créer et entretenir des modèles financiers avec Excel. Il facilite le recrutement de professionnels de la finance travaillant fréquemment avec Excel.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "MongoDB",
+    "description": "Le test MongoDB évalue les compétences des candidats dans la solution de base de données et leur capacité à appliquer les meilleures pratiques en matière de sécurité, d'infrastructure, de performance et de fiabilité. Ce test vous aide à identifier les candidats ayant de solides compétences en MongoDB.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Adobe Photoshop pour designers",
+    "description": "Ce test Adobe Photoshop évalue les compétences techniques des candidats dans Photoshop, en mettant l'accent suvr leur capacité à manipuler et à combiner des images avec du texte et d'autres éléments pour créer des œuvres d'art pour une variété d’objectifs et de médias.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Magento 2",
+    "description": "Le test Magento 2 évalue les compétences et les connaissances des candidats en matière de développement de modules, de thèmes et de sites de commerce électronique Magento 2. Ce test vous aidera à recruter des développeurs Magento 2 expérimentés qui pourront répondre à vos besoins en matière de développement.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Sheets",
+    "description": "Ce test Google Sheets évalue la connaissance des candidats des fonctionnalités techniques du tableur et leur capacité à l'utiliser pour la gestion et l'analyse des données. Ce test permet d'identifier les candidats qui maîtrisent correctement l'utilisation de Google Sheets.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SketchUp Pro",
+    "description": "Ce test SketchUp Pro évalue les compétences des candidats liées au logiciel et leur capacité à créer des modélisations 3D détaillées et organisées pour des présentations et des rendus photoréalistes. Ce test de recrutement permet d'identifier les utilisateurs qualifiés de niveau intermédiaire de SketchUp Pro.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SQL Server Management Studio",
+    "description": "This SQL Server Management Studio (SSMS) test is designed to assess candidates’ abilities to use SSMS tools to design, develop, and manage databases on SQL Servers. This screening test will help you hire candidates who can use SSMS effectively.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Figma",
+    "description": "Ce test Figma évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des conceptions qui valorisent l'UX/UI en utilisant le système de conception Figma. Ce test vous permet d'identifier les concepteurs qui maîtrisent bien Figma et l'utilisent efficacement.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
   }
 ]
