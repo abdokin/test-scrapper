@@ -1,0 +1,142 @@
+[
+  {
+    "title": "PHP (Coding): Object-Oriented Programming",
+    "description": "This PHP coding test evaluates a candidate's object-oriented programming skills, as well as their ability to use PHP specific functions such as sort(), explode(), and array_map(). This test will help you identify and hire mid-level PHP developers.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Django",
+    "description": "This Django test evaluates a candidate’s skills using the Django framework. This screening test will help you hire web developers and back-end engineers who can build reliable web applications with Django.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Coding: Intermediate-Level Algorithms",
+    "description": "This coding test assesses candidates' intermediate-level programming skills, in the programming language of their choice. You can configure which programming languages will be available for your candidates to choose from.",
+    "duration": "35 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Android Development Using Kotlin",
+    "description": "This Android Development Using Kotlin test evaluates candidates’ ability to develop mobile applications using Kotlin. This screening test will help you hire Android developers who can effectively enhance functionality and tackle development challenges.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Machine Learning in Google Cloud Platform (GCP)",
+    "description": "This Machine Learning in Google Cloud Platform (GCP) test evaluates candidates' ability to design, implement, and manage ML systems on GCP. This screening test will help you hire skilled ML experts who can leverage GCP's capabilities to drive data-powered",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Bash",
+    "description": "This Bash test identifies candidates who can effectively use the Bash shell in Linux and other relevant implementations. This screening test will help you hire a developer with Bash skills to improve efficiency and effectiveness in your company.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "ASP.NET (incl. ASP.NET Core)",
+    "description": "This ASP.NET test evaluates a candidate's technical knowledge of the ASP.NET framework and their ability to create web applications and services. This test helps you identify developers who are well-versed in the ASP.NET framework and use it effectively.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Creating REST APIs",
+    "description": "This REST API test evaluates a candidate’s technical ability to create and implement a RESTful API following REST API standards. This hiring test helps you identify engineers who can build and maintain scalable REST APIs.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Apex (Salesforce)",
+    "description": "This Apex (Salesforce) test assesses candidates' proficiency in Apex fundamentals, the Salesforce data model, SOQL/SOSL queries, and Apex design patterns. This test will help you identify candidates skilled in Lightning Platform customization.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "SQLite (Coding): Intermediate-Level Querying",
+    "description": "This SQLite coding test evaluates candidates' skills in creating a query on a database with medium complexity. It immerses the candidate in a realistic scenario, and solving it requires intermediate SQLite querying skills.",
+    "duration": "30 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "AJAX",
+    "description": "This AJAX test evaluates candidates’ knowledge of asynchronous network requests and their applications. This test helps identify developers well-versed in designing applications capable of dynamically updating based on data fetched asynchronously.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Vue.js (Vue 2)",
+    "description": "The Vue.js test measures candidates' knowledge and experience of the Vue.js framework (Vue 2) and best practices, as well as their ability to follow the Vue.js style guide and choose ideal architectural approaches.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Machine Learning in Amazon Web Services (AWS)",
+    "description": "This Machine Learning in AWS test evaluates candidates' ability to design and manage ML systems on AWS. This test will help you hire skilled ML experts who can leverage AWS services to drive innovation and make data-driven decisions.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Cryptography",
+    "description": "This Cryptography test evaluates a candidate’s ability to solve problems relating to cryptography. This screening test will help you hire cryptographers with knowledge of how to keep your business’s sensitive data safe.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Scala (Coding): Advanced Algorithms",
+    "description": "This coding test assesses a candidate’s ability to program an algorithm in Scala, testing their programming skills. This test helps you identify developers with advanced Scala skills.",
+    "duration": "60 mins",
+    "select_questions": "1 question",
+    "type": "Coding"
+  },
+  {
+    "title": "Svelte",
+    "description": "This Svelte test evaluates a candidate’s ability to use Svelte to create web applications. This screening test will help you hire Svelte developers who can create modern, robust web apps.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Web Accessibility for Developers",
+    "description": "This Web Accessibility for Developers test evaluates a candidate’s ability to build web accessibility solutions. This screening test will help you hire developers who can create sites and apps that are usable and convenient for people with disabilities.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": ".NET",
+    "description": "This .NET test evaluates a candidate's technical knowledge of the .NET framework and their ability to create applications for both Windows and the web. This test helps you identify developers who are well-versed in .NET framework and use it effectively.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Data Analytics in Azure",
+    "description": "This Data Analytics in Azure test evaluates candidates' cloud-based data analytics skills on the Azure platform, helping you hire experts who enhance data-driven business decisions for your organization.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "NumPy",
+    "description": "This NumPy test evaluates candidates’ knowledge of NumPy and their ability to solve situational tasks using the Python library’s functionalities. The test will help you identify candidates who are proficient in NumPy.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  }
+]

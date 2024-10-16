@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Portuguese - Portugal B1 (Intermediate)",
+    "description": "The Portuguese - Portugal B1 (Intermediate) test evaluates a candidate’s Portuguese proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in Portuguese on subjects commonly encountered at work.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "French B1 (Intermediate)",
+    "description": "The French B1 (Intermediate) test evaluates a candidate’s French proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in French on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Swedish C1 (Advanced)",
+    "description": "The Swedish C1 (Advanced) test evaluates candidates’ knowledge of Swedish language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in Swedish.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Swedish B1 (Intermediate)",
+    "description": "The Swedish B1 (Intermediate) test evaluates a candidate’s Swedish proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in Swedish on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "French B2 (Upper Intermediate)",
+    "description": "The French B2 (Upper Intermediate) test evaluates a candidate’s French skills at the B2 level of the CEFR framework. This test will help you hire employees who can communicate fluently and who are able to understand a wide range of specialized topics.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "German C1 (Advanced)",
+    "description": "The German C1 (Advanced) test evaluates a candidate’s knowledge of the German language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in German.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "French C1 (Advanced)",
+    "description": "The French C1 (Advanced) test evaluates a candidate’s knowledge of the French language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in French.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Italian B1 (Intermediate)",
+    "description": "The Italian B1 (Intermediate) test evaluates a candidate’s Italian proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in Italian on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "English B1 (Intermediate)",
+    "description": "The English B1 (Intermediate) test evaluates a candidate’s English proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in English on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Spanish C2 (Proficient)",
+    "description": "The Spanish C2 (Proficient) test evaluates a candidate’s knowledge of the Spanish language at the C2 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in Spanish.",
+    "duration": "12 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "German B1 (Intermediate)",
+    "description": "The German B1 (Intermediate) test evaluates a candidate’s German proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in German on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Japanese C1 (Advanced)",
+    "description": "The Japanese C1 (Advanced) test evaluates candidates’ knowledge of the Japanese language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in Japanese.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "English A2 (Elementary)",
+    "description": "The English A2 (Elementary) test evaluates candidates' English skills at the A2 level of the CEFR framework. It will help you hire employees who can communicate about simple, routine tasks that require basic literacy and direct exchange of information.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Italian C1 (Advanced)",
+    "description": "The Italian C1 (Advanced) test evaluates a candidate’s knowledge of the Italian language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in Italian.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "English C1 (Advanced)",
+    "description": "The English C1 (Advanced) test evaluates a candidate’s knowledge of the English language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in English.",
+    "duration": "12 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Hindi C1 (Advanced)",
+    "description": "This Hindi (Advanced) test examines candidates' Hindi proficiency within the C1 level of the CEFR framework. This test evaluates candidates across grammar and vocabulary, sentence structure, reading comprehension, and listening comprehension.",
+    "duration": "12 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Portuguese - Brazil B1 (Intermediate)",
+    "description": "The Portuguese - Brazil B1 (Intermediate) test evaluates a candidate’s Portuguese proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in Portuguese on subjects commonly encountered at work.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "English C2 (Proficient)",
+    "description": "This English C2 (Proficient) test evaluates candidates' English ability at CEFR level C2. It will help you hire people who can create international opportunities for your organization and improve your customer satisfaction, loyalty, revenue, and culture.",
+    "duration": "12 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Russian B1 (Intermediate)",
+    "description": "The Russian B1 (Intermediate) test evaluates a candidate’s Russian proficiency at the B1 level of the CEFR framework. This test will help you hire employees who can communicate in Russian on subjects commonly encountered at work and in everyday life.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Dutch C1 (Advanced)",
+    "description": "The Dutch C1 (Advanced) test evaluates a candidate’s knowledge of the Dutch language at the C1 level of the CEFR framework. This test will help you hire employees who can participate in demanding professional and social conversations in Dutch.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  }
+]

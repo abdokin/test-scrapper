@@ -71,7 +71,7 @@ async function downloadAllCategory(index, category) {
     await new Promise((resolve) => {
       setTimeout(resolve, 600)
     })
-    await downloadDataAsJson(`${category.name.replace(/ /g, '_').toLowerCase()}-fr.json`)
+    await downloadDataAsJson(`${category.name.replace(/ /g, '_').toLowerCase()}-en.json`)
     console.log(`Downloading data for ${category.name}`);
     categoryElement.click();
   } else {

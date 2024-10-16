@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Computer Literacy (PC)",
+    "description": "The Computer literacy test is meant to evaluate basic knowledge and ability to use computers and related technology in a workplace environment. This test helps you identify candidates who are ready to perform basic work functions on a computer.",
+    "duration": "9 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "DigitalOcean",
+    "description": "This DigitalOcean test evaluates a candidate’s ability to manage, secure, and optimize infrastructure on the DigitalOcean platform. This test will help you hire professionals who can deploy, scale, and maintain applications using DigitalOcean's services.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Canva",
+    "description": "This Canva test evaluates a candidate’s knowledge of the software and their ability to design with the free version. This screening test will help you identify designers who have an intermediate-level understanding of Canva and can use it effectively.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Splunk",
+    "description": "This Splunk test assesses a candidate's proficiency in Splunk. It aids in hiring skilled Splunk administrators and developers capable of effectively employing Splunk to ingest, index, search, and visualize data for various use cases.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Financial Modeling in Excel",
+    "description": "This financial modeling test evaluates candidates’ essential finance and valuation skills and their ability to create and maintain financial models using Excel. This test helps you hire finance professionals who need to work with Excel frequently.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "MariaDB (Dev)",
+    "description": "This MariaDB (Development) test evaluates a candidate’s ability to develop in MariaDB. This screening test will help you hire MariaDB experts who can effectively operate your database.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Microsoft Excel (Advanced)",
+    "description": "This Advanced Excel test evaluates candidates' mastery of a wide range of Excel features and formulas. This test will help you identify candidates who are skilled in organizing data and drawing insights from them using Microsoft Excel.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Tableau",
+    "description": "This Tableau test evaluates candidates' ability to use the software to manage data, build visualizations for business insights and objectives, and build dashboards for users. This test will help you identify candidates with strong Tableau skills.",
+    "duration": "10 mins",
+    "select_questions": "12 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Workspace Administration",
+    "description": "This Google Workspace Administration test evaluates candidates’ ability to plan, deploy, secure and monitor Workspace. This screening test will help you hire IT professionals who organize efficient, secure, and streamlined collaboration and communication.",
+    "duration": "10 mins",
+    "select_questions": "16 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Elasticsearch",
+    "description": "This Elasticsearch test evaluates candidates’ technical skills using Elasticsearch and their ability to deploy, configure, and integrate with other relevant ELK stack tools. This hiring test helps to identify candidates skilled in using Elasticsearch.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Docker",
+    "description": "The Docker test evaluates a candidate’s ability to deploy, configure, administer, and troubleshoot Docker based on real-world scenarios. This test helps you hire candidates with practical Docker experience who can work independently.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Ads",
+    "description": "The Google Ads evaluates candidates’ knowledge of the main concepts and essential functionality of Google Ads. This test will help you hire Google Ads experts who can use the platform to obtain results for both search and paid campaigns.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Active Directory",
+    "description": "This Active Directory test evaluates implementation and administration skills when hiring. The test helps employers identify candidates who can effectively install, operate, and troubleshoot Active Directory in a small- to medium-sized computer network.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Windows Server Administration",
+    "description": "This Windows Server Administration test evaluates candidates’ technical knowledge of and skills using Windows Server operating systems and their ability to deploy and support Windows Server. This test helps identify skilled Windows Server administrators.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "HubSpot CRM",
+    "description": "The HubSpot test measures candidates’ skills in HubSpot sales, marketing, and customer service software. It will help you identify candidates who can use the full suite of HubSpot tools effectively to manage your processes and implement solutions.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Terraform",
+    "description": "This Terraform test evaluates candidates’ technical knowledge of Terraform. This test will help you identify engineers who are well-versed in Terraform and able to use it effectively as a tool to implement infrastructure as code.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Microsoft Windows",
+    "description": "This Microsoft Windows test evaluates candidates' understanding and application of basic concepts in Windows. It helps you hire candidates who are comfortable working in Windows as the framework for the Microsoft Office suite of software.",
+    "duration": "10 mins",
+    "select_questions": "20 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Oracle DBMS",
+    "description": "This test on Oracle DBMS will verify the candidates' technical knowledge of Oracle Database, including database architecture, storage structure, schema objects, backup and recovery techniques, and database security management.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Google Slides",
+    "description": "This Google Slides test evaluates candidates’ technical knowledge of the tool and their ability to design and build appealing slide decks, all while taking smart and efficient approaches to doing so.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  },
+  {
+    "title": "Blender",
+    "description": "This Blender software skills test will determine a candidate’s knowledge and understanding of Blender. It will test candidates’ knowledge to determine a candidate's overall use and understanding of the software.",
+    "duration": "10 mins",
+    "select_questions": "15 questions",
+    "type": "Multiple choice"
+  }
+]
