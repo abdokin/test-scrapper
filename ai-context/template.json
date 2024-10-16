@@ -1,0 +1,47 @@
+{
+  "title": "Bash : Compétences en shell scripting",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Commandes de base Bash",
+      "Scripting Bash",
+      "Gestion des fichiers et répertoires",
+      "Redirections et pipes",
+      "Variables et paramètres",
+      "Structures de contrôle",
+      "Expressions régulières",
+      "Gestion des processus"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en administration système Linux ou en automatisation de tâches via des scripts Bash.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du shell Bash, évaluant la capacité du candidat à écrire des scripts efficaces et à utiliser les commandes Bash courantes.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier dans le terminal ?"
+      },
+      "options": [
+        {
+          "content": "cat",
+          "correct": true
+        },
+        {
+          "content": "show"
+        },
+        {
+          "content": "display"
+        },
+        {
+          "content": "print"
+        }
+      ]
+    } ]
+}
