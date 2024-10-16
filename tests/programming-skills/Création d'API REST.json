@@ -1,0 +1,848 @@
+{
+  "title": "Création d'API REST : Conception et implémentation",
+  "attributes": {
+    "overview": "Ce test évalue la capacité technique des candidats à créer et à mettre en œuvre des API RESTful en suivant les normes et les meilleures pratiques de l'industrie.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Principes REST",
+      "Conception d'API",
+      "Méthodes HTTP",
+      "Codes de statut HTTP",
+      "Sécurité des API",
+      "Gestion des versions",
+      "Documentation d'API",
+      "Tests d'API"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur backend, ingénieur API, ou tout rôle nécessitant une expertise dans la création et la maintenance d'API REST évolutives.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de la création d'API REST, évaluant la capacité du candidat à concevoir, développer et maintenir des API RESTful robustes et évolutives.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Que signifie REST dans le contexte des API ?"
+      },
+      "options": [
+        {
+          "content": "Representational State Transfer",
+          "correct": true
+        },
+        {
+          "content": "Remote Execution State Transfer"
+        },
+        {
+          "content": "Responsive Elegant System Transfer"
+        },
+        {
+          "content": "Rapid Endpoint Service Technology"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode HTTP est généralement utilisée pour récupérer des données d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "GET",
+          "correct": true
+        },
+        {
+          "content": "POST"
+        },
+        {
+          "content": "PUT"
+        },
+        {
+          "content": "DELETE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel code de statut HTTP indique que la requête a réussi ?"
+      },
+      "options": [
+        {
+          "content": "200 OK",
+          "correct": true
+        },
+        {
+          "content": "404 Not Found"
+        },
+        {
+          "content": "500 Internal Server Error"
+        },
+        {
+          "content": "301 Moved Permanently"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode HTTP est utilisée pour mettre à jour une ressource existante ?"
+      },
+      "options": [
+        {
+          "content": "PUT",
+          "correct": true
+        },
+        {
+          "content": "POST"
+        },
+        {
+          "content": "PATCH"
+        },
+        {
+          "content": "UPDATE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel format de données est le plus couramment utilisé dans les API REST ?"
+      },
+      "options": [
+        {
+          "content": "JSON",
+          "correct": true
+        },
+        {
+          "content": "XML"
+        },
+        {
+          "content": "HTML"
+        },
+        {
+          "content": "CSV"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les versions d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Inclure le numéro de version dans l'URL",
+          "correct": true
+        },
+        {
+          "content": "Utiliser différents noms de domaine pour chaque version"
+        },
+        {
+          "content": "Changer le nom des endpoints pour chaque version"
+        },
+        {
+          "content": "Ne pas gérer les versions et toujours utiliser la dernière version"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe REST stipule que chaque requête doit contenir toutes les informations nécessaires pour être comprise ?"
+      },
+      "options": [
+        {
+          "content": "Stateless",
+          "correct": true
+        },
+        {
+          "content": "Cacheable"
+        },
+        {
+          "content": "Uniform Interface"
+        },
+        {
+          "content": "Layered System"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode HTTP est idempotente ?"
+      },
+      "options": [
+        {
+          "content": "GET",
+          "correct": true
+        },
+        {
+          "content": "POST"
+        },
+        {
+          "content": "PATCH"
+        },
+        {
+          "content": "DELETE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est couramment utilisé pour documenter les API REST ?"
+      },
+      "options": [
+        {
+          "content": "Swagger / OpenAPI",
+          "correct": true
+        },
+        {
+          "content": "Markdown"
+        },
+        {
+          "content": "Word"
+        },
+        {
+          "content": "Excel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour nommer les endpoints d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des noms pluriels pour les collections",
+          "correct": true
+        },
+        {
+          "content": "Toujours utiliser des verbes dans les URLs"
+        },
+        {
+          "content": "Inclure le type de données dans l'URL"
+        },
+        {
+          "content": "Utiliser des majuscules pour chaque mot"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mécanisme est couramment utilisé pour l'authentification dans les API REST ?"
+      },
+      "options": [
+        {
+          "content": "JWT (JSON Web Tokens)",
+          "correct": true
+        },
+        {
+          "content": "Cookies de session"
+        },
+        {
+          "content": "Basic Auth"
+        },
+        {
+          "content": "API Keys"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode HTTP est utilisée pour supprimer une ressource ?"
+      },
+      "options": [
+        {
+          "content": "DELETE",
+          "correct": true
+        },
+        {
+          "content": "REMOVE"
+        },
+        {
+          "content": "ERASE"
+        },
+        {
+          "content": "CLEAR"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel code de statut HTTP indique que la requête a été acceptée pour traitement, mais que le traitement n'est pas terminé ?"
+      },
+      "options": [
+        {
+          "content": "202 Accepted",
+          "correct": true
+        },
+        {
+          "content": "200 OK"
+        },
+        {
+          "content": "204 No Content"
+        },
+        {
+          "content": "201 Created"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre PUT et PATCH ?"
+      },
+      "options": [
+        {
+          "content": "PUT remplace toute la ressource, PATCH met à jour partiellement",
+          "correct": true
+        },
+        {
+          "content": "PUT crée une nouvelle ressource, PATCH met à jour une ressource existante"
+        },
+        {
+          "content": "PUT est sécurisé, PATCH ne l'est pas"
+        },
+        {
+          "content": "PUT est idempotent, PATCH ne l'est pas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe REST suggère que le client ne devrait pas avoir besoin de connaître les détails de l'implémentation du serveur ?"
+      },
+      "options": [
+        {
+          "content": "Client-Server",
+          "correct": true
+        },
+        {
+          "content": "Stateless"
+        },
+        {
+          "content": "Cacheable"
+        },
+        {
+          "content": "Layered System"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser les codes de statut HTTP appropriés avec des messages d'erreur détaillés",
+          "correct": true
+        },
+        {
+          "content": "Toujours renvoyer un code 200 OK avec un message d'erreur dans le corps"
+        },
+        {
+          "content": "Utiliser uniquement le code 500 pour toutes les erreurs"
+        },
+        {
+          "content": "Ne pas renvoyer de message d'erreur pour des raisons de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l'avantage principal d'utiliser HATEOAS dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Il permet au client de naviguer dynamiquement dans l'API",
+          "correct": true
+        },
+        {
+          "content": "Il augmente la sécurité de l'API"
+        },
+        {
+          "content": "Il réduit la charge du serveur"
+        },
+        {
+          "content": "Il simplifie la documentation de l'API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est couramment utilisée pour limiter le nombre de requêtes qu'un client peut faire à une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Rate Limiting",
+          "correct": true
+        },
+        {
+          "content": "Request Throttling"
+        },
+        {
+          "content": "API Quotas"
+        },
+        {
+          "content": "Request Capping"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel en-tête HTTP est couramment utilisé pour spécifier le type de contenu de la réponse ?"
+      },
+      "options": [
+        {
+          "content": "Content-Type",
+          "correct": true
+        },
+        {
+          "content": "Accept"
+        },
+        {
+          "content": "Response-Type"
+        },
+        {
+          "content": "Data-Format"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer la pagination dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser les paramètres de requête 'limit' et 'offset'",
+          "correct": true
+        },
+        {
+          "content": "Renvoyer toutes les données en une seule réponse"
+        },
+        {
+          "content": "Créer un endpoint séparé pour chaque page"
+        },
+        {
+          "content": "Utiliser des webhooks pour envoyer les données par lots"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est couramment utilisé pour sécuriser les communications avec une API REST ?"
+      },
+      "options": [
+        {
+          "content": "HTTPS",
+          "correct": true
+        },
+        {
+          "content": "FTP"
+        },
+        {
+          "content": "SMTP"
+        },
+        {
+          "content": "Telnet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode HTTP est généralement utilisée pour créer une nouvelle ressource ?"
+      },
+      "options": [
+        {
+          "content": "POST",
+          "correct": true
+        },
+        {
+          "content": "GET"
+        },
+        {
+          "content": "PUT"
+        },
+        {
+          "content": "PATCH"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel code de statut HTTP indique que la requête a été comprise, mais a été refusée ?"
+      },
+      "options": [
+        {
+          "content": "403 Forbidden",
+          "correct": true
+        },
+        {
+          "content": "401 Unauthorized"
+        },
+        {
+          "content": "400 Bad Request"
+        },
+        {
+          "content": "404 Not Found"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour concevoir les URLs d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des noms de ressources et non des actions",
+          "correct": true
+        },
+        {
+          "content": "Inclure l'extension de fichier dans l'URL"
+        },
+        {
+          "content": "Utiliser des verbes pour décrire l'action"
+        },
+        {
+          "content": "Inclure les paramètres de requête dans le chemin de l'URL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel format est couramment utilisé pour structurer les réponses d'erreur dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "JSON avec des champs 'code' et 'message'",
+          "correct": true
+        },
+        {
+          "content": "HTML"
+        },
+        {
+          "content": "Texte brut"
+        },
+        {
+          "content": "XML"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour permettre à un serveur d'un domaine différent d'accéder aux ressources d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "CORS (Cross-Origin Resource Sharing)",
+          "correct": true
+        },
+        {
+          "content": "JSONP"
+        },
+        {
+          "content": "WebSockets"
+        },
+        {
+          "content": "Server-Sent Events"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe REST suggère que les réponses du serveur devraient indiquer si elles peuvent être mises en cache ?"
+      },
+      "options": [
+        {
+          "content": "Cacheable",
+          "correct": true
+        },
+        {
+          "content": "Stateless"
+        },
+        {
+          "content": "Layered System"
+        },
+        {
+          "content": "Uniform Interface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour représenter les relations entre ressources dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des liens HATEOAS",
+          "correct": true
+        },
+        {
+          "content": "Inclure toutes les données liées dans chaque réponse"
+        },
+        {
+          "content": "Créer des endpoints séparés pour chaque relation"
+        },
+        {
+          "content": "Utiliser des identifiants numériques dans les URLs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel en-tête HTTP est utilisé pour spécifier le type de contenu que le client peut accepter ?"
+      },
+      "options": [
+        {
+          "content": "Accept",
+          "correct": true
+        },
+        {
+          "content": "Content-Type"
+        },
+        {
+          "content": "User-Agent"
+        },
+        {
+          "content": "Authorization"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les opérations longues dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des tâches asynchrones et un mécanisme de polling",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le timeout du serveur"
+        },
+        {
+          "content": "Diviser l'opération en plusieurs requêtes plus petites"
+        },
+        {
+          "content": "Utiliser des WebSockets pour les opérations longues"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l'avantage principal d'utiliser des URIs opaques dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Cela permet de changer l'implémentation sans affecter les clients",
+          "correct": true
+        },
+        {
+          "content": "Cela améliore la sécurité de l'API"
+        },
+        {
+          "content": "Cela rend l'API plus facile à comprendre pour les développeurs"
+        },
+        {
+          "content": "Cela augmente les performances de l'API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est couramment utilisée pour implémenter l'authentification dans une API REST sans état ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des tokens JWT",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des sessions côté serveur"
+        },
+        {
+          "content": "Inclure les identifiants dans chaque requête"
+        },
+        {
+          "content": "Utiliser des cookies sécurisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel code de statut HTTP est généralement utilisé pour indiquer qu'une ressource a été créée avec succès ?"
+      },
+      "options": [
+        {
+          "content": "201 Created",
+          "correct": true
+        },
+        {
+          "content": "200 OK"
+        },
+        {
+          "content": "204 No Content"
+        },
+        {
+          "content": "202 Accepted"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les modifications concurrentes dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des ETags et des conditions If-Match",
+          "correct": true
+        },
+        {
+          "content": "Verrouiller la ressource pendant l'édition"
+        },
+        {
+          "content": "Utiliser des timestamps pour chaque modification"
+        },
+        {
+          "content": "Permettre uniquement une modification à la fois"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe REST suggère que l'API devrait être conçue de manière à ce que le client n'ait pas besoin de connaître les détails de l'implémentation du serveur ?"
+      },
+      "options": [
+        {
+          "content": "Layered System",
+          "correct": true
+        },
+        {
+          "content": "Client-Server"
+        },
+        {
+          "content": "Stateless"
+        },
+        {
+          "content": "Code on Demand"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs de validation dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Renvoyer un code 400 avec des détails sur les erreurs de validation",
+          "correct": true
+        },
+        {
+          "content": "Renvoyer un code 500 pour toutes les erreurs de validation"
+        },
+        {
+          "content": "Ignorer les erreurs de validation et traiter la requête normalement"
+        },
+        {
+          "content": "Renvoyer un code 200 avec un message d'erreur dans le corps de la réponse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est couramment utilisé pour tester les API REST ?"
+      },
+      "options": [
+        {
+          "content": "Postman",
+          "correct": true
+        },
+        {
+          "content": "Visual Studio Code"
+        },
+        {
+          "content": "Git"
+        },
+        {
+          "content": "Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les versions d'une API REST ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le versionnage dans l'URL ou les en-têtes HTTP",
+          "correct": true
+        },
+        {
+          "content": "Créer une nouvelle API pour chaque version"
+        },
+        {
+          "content": "Ne pas gérer les versions et toujours utiliser la dernière version"
+        },
+        {
+          "content": "Utiliser des noms de domaine différents pour chaque version"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel format de données est généralement préféré pour les requêtes POST et PUT dans une API REST ?"
+      },
+      "options": [
+        {
+          "content": "JSON",
+          "correct": true
+        },
+        {
+          "content": "XML"
+        },
+        {
+          "content": "URL-encoded"
+        },
+        {
+          "content": "Plain text"
+        }
+      ]
+    }
+  ]
+}

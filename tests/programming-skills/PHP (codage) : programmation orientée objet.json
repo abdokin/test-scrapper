@@ -1,0 +1,882 @@
+{
+    "title": "PHP : programmation orientée objet",
+    "attributes": {
+      "overview": "Ce test évalue les compétences du candidat en programmation orientée objet PHP, couvrant les concepts de base jusqu'aux fonctionnalités avancées de PHP 7 et 8.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Classes et objets",
+        "Héritage et polymorphisme",
+        "Interfaces et traits",
+        "Espaces de noms et autoloading",
+        "Gestion des exceptions",
+        "Fonctionnalités PHP 7 et 8"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de développeur PHP de niveau intermédiaire à avancé.",
+      "description": "Le test couvre les concepts fondamentaux de la POO en PHP ainsi que les fonctionnalités plus récentes introduites dans PHP 7 et 8.",
+      "category": "Programming skills",
+      "language": "french",
+      "questions_to_answer": 20,
+      "duration_seconds": 1800,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la syntaxe correcte pour définir une classe en PHP ?"
+        },
+        "options": [
+          {
+            "content": "class MaClasse { }",
+            "correct": true
+          },
+          {
+            "content": "def MaClasse { }"
+          },
+          {
+            "content": "class = MaClasse { }"
+          },
+          {
+            "content": "define MaClasse { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Comment déclare-t-on une méthode privée en PHP ?"
+        },
+        "options": [
+          {
+            "content": "private function maMethode() { }",
+            "correct": true
+          },
+          {
+            "content": "function private maMethode() { }"
+          },
+          {
+            "content": "private: function maMethode() { }"
+          },
+          {
+            "content": "function maMethode() private { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel mot-clé est utilisé pour hériter d'une classe en PHP ?"
+        },
+        "options": [
+          {
+            "content": "extends",
+            "correct": true
+          },
+          {
+            "content": "inherits"
+          },
+          {
+            "content": "implements"
+          },
+          {
+            "content": "uses"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la méthode magique appelée lors de l'instanciation d'une classe ?"
+        },
+        "options": [
+          {
+            "content": "__construct()",
+            "correct": true
+          },
+          {
+            "content": "__init()"
+          },
+          {
+            "content": "__new()"
+          },
+          {
+            "content": "__create()"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une constante de classe en PHP ?"
+        },
+        "options": [
+          {
+            "content": "const MA_CONSTANTE = 'valeur';",
+            "correct": true
+          },
+          {
+            "content": "define MA_CONSTANTE = 'valeur';"
+          },
+          {
+            "content": "static $MA_CONSTANTE = 'valeur';"
+          },
+          {
+            "content": "final MA_CONSTANTE = 'valeur';"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel opérateur est utilisé pour appeler une méthode statique ?"
+        },
+        "options": [
+          {
+            "content": "::",
+            "correct": true
+          },
+          {
+            "content": "->"
+          },
+          {
+            "content": "=>"
+          },
+          {
+            "content": "."
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment définit-on une interface en PHP ?"
+        },
+        "options": [
+          {
+            "content": "interface MonInterface { }",
+            "correct": true
+          },
+          {
+            "content": "class MonInterface { }"
+          },
+          {
+            "content": "abstract MonInterface { }"
+          },
+          {
+            "content": "trait MonInterface { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel mot-clé est utilisé pour implémenter une interface ?"
+        },
+        "options": [
+          {
+            "content": "implements",
+            "correct": true
+          },
+          {
+            "content": "extends"
+          },
+          {
+            "content": "uses"
+          },
+          {
+            "content": "inherits"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on un trait en PHP ?"
+        },
+        "options": [
+          {
+            "content": "trait MonTrait { }",
+            "correct": true
+          },
+          {
+            "content": "class MonTrait { }"
+          },
+          {
+            "content": "interface MonTrait { }"
+          },
+          {
+            "content": "abstract MonTrait { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel mot-clé est utilisé pour utiliser un trait dans une classe ?"
+        },
+        "options": [
+          {
+            "content": "use",
+            "correct": true
+          },
+          {
+            "content": "implements"
+          },
+          {
+            "content": "extends"
+          },
+          {
+            "content": "include"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une classe abstraite en PHP ?"
+        },
+        "options": [
+          {
+            "content": "abstract class MaClasse { }",
+            "correct": true
+          },
+          {
+            "content": "class abstract MaClasse { }"
+          },
+          {
+            "content": "virtual class MaClasse { }"
+          },
+          {
+            "content": "class MaClasse abstract { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la méthode magique appelée lors de la sérialisation d'un objet ?"
+        },
+        "options": [
+          {
+            "content": "__sleep()",
+            "correct": true
+          },
+          {
+            "content": "__serialize()"
+          },
+          {
+            "content": "__toString()"
+          },
+          {
+            "content": "__save()"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on un espace de noms en PHP ?"
+        },
+        "options": [
+          {
+            "content": "namespace MonNamespace;",
+            "correct": true
+          },
+          {
+            "content": "using namespace MonNamespace;"
+          },
+          {
+            "content": "namespace = MonNamespace;"
+          },
+          {
+            "content": "define namespace MonNamespace;"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la fonction utilisée pour l'autoloading de classes en PHP ?"
+        },
+        "options": [
+          {
+            "content": "spl_autoload_register()",
+            "correct": true
+          },
+          {
+            "content": "__autoload()"
+          },
+          {
+            "content": "autoload_class()"
+          },
+          {
+            "content": "include_class()"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une exception personnalisée en PHP ?"
+        },
+        "options": [
+          {
+            "content": "class MonException extends Exception { }",
+            "correct": true
+          },
+          {
+            "content": "class MonException implements Exception { }"
+          },
+          {
+            "content": "exception MonException { }"
+          },
+          {
+            "content": "throw new Exception MonException { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour le type hinting d'un paramètre de méthode en PHP 7+ ?"
+        },
+        "options": [
+          {
+            "content": "function maMethode(int $param) { }",
+            "correct": true
+          },
+          {
+            "content": "function maMethode($param: int) { }"
+          },
+          {
+            "content": "function maMethode($param as int) { }"
+          },
+          {
+            "content": "function maMethode(int: $param) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on un type de retour pour une méthode en PHP 7+ ?"
+        },
+        "options": [
+          {
+            "content": "function maMethode(): string { }",
+            "correct": true
+          },
+          {
+            "content": "function maMethode() -> string { }"
+          },
+          {
+            "content": "function maMethode() : returns string { }"
+          },
+          {
+            "content": "string function maMethode() { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour déclarer une propriété typée en PHP 7.4+ ?"
+        },
+        "options": [
+          {
+            "content": "public int $age;",
+            "correct": true
+          },
+          {
+            "content": "int public $age;"
+          },
+          {
+            "content": "public $age: int;"
+          },
+          {
+            "content": "$age: int public;"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment utilise-t-on le null coalescing operator en PHP 7+ ?"
+        },
+        "options": [
+          {
+            "content": "$result = $value ?? 'default';",
+            "correct": true
+          },
+          {
+            "content": "$result = $value ?: 'default';"
+          },
+          {
+            "content": "$result = $value || 'default';"
+          },
+          {
+            "content": "$result = $value ? $value : 'default';"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le spread operator en PHP 7.4+ ?"
+        },
+        "options": [
+          {
+            "content": "function maFonction(...$params) { }",
+            "correct": true
+          },
+          {
+            "content": "function maFonction(*$params) { }"
+          },
+          {
+            "content": "function maFonction(&...$params) { }"
+          },
+          {
+            "content": "function maFonction(.$params) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une classe finale en PHP ?"
+        },
+        "options": [
+          {
+            "content": "final class MaClasse { }",
+            "correct": true
+          },
+          {
+            "content": "class final MaClasse { }"
+          },
+          {
+            "content": "class MaClasse final { }"
+          },
+          {
+            "content": "@final class MaClasse { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour déclarer une méthode finale ?"
+        },
+        "options": [
+          {
+            "content": "final public function maMethode() { }",
+            "correct": true
+          },
+          {
+            "content": "public final function maMethode() { }"
+          },
+          {
+            "content": "public function final maMethode() { }"
+          },
+          {
+            "content": "@final public function maMethode() { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment utilise-t-on le null safe operator en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "$result = $object?->method();",
+            "correct": true
+          },
+          {
+            "content": "$result = $object->?method();"
+          },
+          {
+            "content": "$result = $object->method()?;"
+          },
+          {
+            "content": "$result = $object??->method();"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le match expression en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "$result = match($value) { 1 => 'un', 2 => 'deux', default => 'autre' };",
+            "correct": true
+          },
+          {
+            "content": "$result = switch($value) { 1 => 'un', 2 => 'deux', default => 'autre' };"
+          },
+          {
+            "content": "$result = match { $value == 1 => 'un', $value == 2 => 'deux', default => 'autre' };"
+          },
+          {
+            "content": "$result = match($value) { case 1: 'un'; case 2: 'deux'; default: 'autre'; };"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on un constructeur avec promotion de propriétés en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "public function __construct(private string $nom, private int $age) { }",
+            "correct": true
+          },
+          {
+            "content": "public function __construct(string $nom, int $age) { private $this->nom = $nom; private $this->age = $age; }"
+          },
+          {
+            "content": "public function __construct(private: string $nom, private: int $age) { }"
+          },
+          {
+            "content": "public function __construct($nom: private string, $age: private int) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour déclarer une énumération en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "enum Status { case PENDING; case APPROVED; case REJECTED; }",
+            "correct": true
+          },
+          {
+            "content": "enum Status { PENDING, APPROVED, REJECTED }"
+          },
+          {
+            "content": "enum Status { const PENDING; const APPROVED; const REJECTED; }"
+          },
+          {
+            "content": "enum Status { public PENDING; public APPROVED; public REJECTED; }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on un type de retour 'never' en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "function maFonction(): never { throw new Exception(); }",
+            "correct": true
+          },
+          {
+            "content": "function maFonction(): void { throw new Exception(); }"
+          },
+          {
+            "content": "function maFonction(): null { throw new Exception(); }"
+          },
+          {
+            "content": "function maFonction(): Exception { throw new Exception(); }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser les attributs en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "#[Route('/home')]",
+            "correct": true
+          },
+          {
+            "content": "@Route('/home')"
+          },
+          {
+            "content": "[Route('/home')]"
+          },
+          {
+            "content": "{{Route('/home')}}"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une classe readonly en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "readonly class MaClasse { }",
+            "correct": true
+          },
+          {
+            "content": "class readonly MaClasse { }"
+          },
+          {
+            "content": "@readonly class MaClasse { }"
+          },
+          {
+            "content": "class MaClasse readonly { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour déclarer un type union en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "function maFonction(int|string $param) { }",
+            "correct": true
+          },
+          {
+            "content": "function maFonction(int || string $param) { }"
+          },
+          {
+            "content": "function maFonction(int or string $param) { }"
+          },
+          {
+            "content": "function maFonction(int,string $param) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment utilise-t-on le nullsafe operator avec le null coalescing operator en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "$result = $object?->method() ?? 'default';",
+            "correct": true
+          },
+          {
+            "content": "$result = $object->?method() ?? 'default';"
+          },
+          {
+            "content": "$result = $object->method()?? ?? 'default';"
+          },
+          {
+            "content": "$result = $object??->method() ?? 'default';"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le str_contains() en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "if (str_contains($haystack, $needle)) { }",
+            "correct": true
+          },
+          {
+            "content": "if (strpos($haystack, $needle) !== false) { }"
+          },
+          {
+            "content": "if ($haystack->contains($needle)) { }"
+          },
+          {
+            "content": "if (in_array($needle, $haystack)) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une propriété readonly en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "public readonly string $nom;",
+            "correct": true
+          },
+          {
+            "content": "readonly public string $nom;"
+          },
+          {
+            "content": "public string readonly $nom;"
+          },
+          {
+            "content": "@readonly public string $nom;"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le named arguments en PHP 8 ?"
+        },
+        "options": [
+          {
+            "content": "maFonction(nom: 'John', age: 30);",
+            "correct": true
+          },
+          {
+            "content": "maFonction('nom' => 'John', 'age' => 30);"
+          },
+          {
+            "content": "maFonction(--nom 'John' --age 30);"
+          },
+          {
+            "content": "maFonction(nom = 'John', age = 30);"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment déclare-t-on une classe anonyme en PHP ?"
+        },
+        "options": [
+          {
+            "content": "$obj = new class { };",
+            "correct": true
+          },
+          {
+            "content": "$obj = class { };"
+          },
+          {
+            "content": "$obj = anonymous class { };"
+          },
+          {
+            "content": "$obj = new anonymous { };"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le type intersection en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "function maFonction(A&B $param) { }",
+            "correct": true
+          },
+          {
+            "content": "function maFonction(A && B $param) { }"
+          },
+          {
+            "content": "function maFonction(A and B $param) { }"
+          },
+          {
+            "content": "function maFonction(A+B $param) { }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment utilise-t-on le first-class callable syntax en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "$callable = $object->method(...);",
+            "correct": true
+          },
+          {
+            "content": "$callable = $object::method(...);"
+          },
+          {
+            "content": "$callable = [$object, 'method'];"
+          },
+          {
+            "content": "$callable = function() use ($object) { return $object->method(); };"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la syntaxe correcte pour utiliser le new en initialisation de propriété en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "class MaClasse { public Logger $logger = new Logger(); }",
+            "correct": true
+          },
+          {
+            "content": "class MaClasse { public Logger $logger = Logger::new(); }"
+          },
+          {
+            "content": "class MaClasse { public Logger $logger = create Logger(); }"
+          },
+          {
+            "content": "class MaClasse { public Logger $logger = Logger->new; }"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment utilise-t-on le array unpacking avec des clés string en PHP 8.1 ?"
+        },
+        "options": [
+          {
+            "content": "$result = ['x' => 1, 'y' => 2, ...$array];",
+            "correct": true
+          },
+          {
+            "content": "$result = array_merge(['x' => 1, 'y' => 2], $array);"
+          },
+          {
+            "content": "$result = ['x' => 1, 'y' => 2] + $array;"
+          },
+          {
+            "content": "$result = array_unpack(['x' => 1, 'y' => 2], $array);"
+          }
+        ]
+      }
+    ]
+  }

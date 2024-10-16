@@ -1,0 +1,869 @@
+{
+  "title": "AJAX : Requêtes asynchrones et applications dynamiques",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur AJAX (Asynchronous JavaScript and XML), les requêtes réseau asynchrones et leur application dans le développement d'interfaces web dynamiques.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Principes fondamentaux d'AJAX",
+      "XMLHttpRequest",
+      "Fetch API",
+      "Promesses et async/await",
+      "Manipulation du DOM",
+      "Gestion des erreurs",
+      "Sécurité AJAX",
+      "Performance et optimisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end, développeur full-stack, ou tout rôle nécessitant une expertise dans la création d'applications web interactives et dynamiques.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'AJAX, évaluant la capacité du candidat à concevoir et développer des applications capables d'effectuer des mises à jour dynamiques basées sur des données récupérées de manière asynchrone.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Que signifie AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Asynchronous JavaScript and XML",
+          "correct": true
+        },
+        {
+          "content": "Advanced JavaScript and XHTML"
+        },
+        {
+          "content": "Automated JSON and XML"
+        },
+        {
+          "content": "Asynchronous jQuery and XML"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le principal avantage d'utiliser AJAX dans une application web ?"
+      },
+      "options": [
+        {
+          "content": "Permettre des mises à jour de page sans rechargement complet",
+          "correct": true
+        },
+        {
+          "content": "Améliorer la sécurité de l'application"
+        },
+        {
+          "content": "Réduire la charge sur le serveur"
+        },
+        {
+          "content": "Simplifier le code JavaScript"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle interface est utilisée pour créer une requête AJAX en JavaScript natif ?"
+      },
+      "options": [
+        {
+          "content": "XMLHttpRequest",
+          "correct": true
+        },
+        {
+          "content": "AjaxRequest"
+        },
+        {
+          "content": "HttpClient"
+        },
+        {
+          "content": "FetchRequest"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode de l'objet XMLHttpRequest est utilisée pour envoyer une requête ?"
+      },
+      "options": [
+        {
+          "content": "send()",
+          "correct": true
+        },
+        {
+          "content": "request()"
+        },
+        {
+          "content": "execute()"
+        },
+        {
+          "content": "submit()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle propriété de XMLHttpRequest indique si la requête est terminée ?"
+      },
+      "options": [
+        {
+          "content": "readyState",
+          "correct": true
+        },
+        {
+          "content": "status"
+        },
+        {
+          "content": "complete"
+        },
+        {
+          "content": "finished"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle API moderne est souvent utilisée à la place de XMLHttpRequest pour faire des requêtes AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Fetch API",
+          "correct": true
+        },
+        {
+          "content": "Ajax API"
+        },
+        {
+          "content": "Request API"
+        },
+        {
+          "content": "Http API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'objet est retourné par la méthode fetch() ?"
+      },
+      "options": [
+        {
+          "content": "Promise",
+          "correct": true
+        },
+        {
+          "content": "Response"
+        },
+        {
+          "content": "XMLHttpRequest"
+        },
+        {
+          "content": "JSON"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour convertir la réponse d'une requête fetch en JSON ?"
+      },
+      "options": [
+        {
+          "content": "response.json()",
+          "correct": true
+        },
+        {
+          "content": "response.toJSON()"
+        },
+        {
+          "content": "JSON.parse(response)"
+        },
+        {
+          "content": "response.getJSON()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre GET et POST dans le contexte des requêtes AJAX ?"
+      },
+      "options": [
+        {
+          "content": "GET est utilisé pour récupérer des données, POST pour envoyer des données",
+          "correct": true
+        },
+        {
+          "content": "GET est plus sécurisé que POST"
+        },
+        {
+          "content": "POST est plus rapide que GET"
+        },
+        {
+          "content": "GET peut envoyer plus de données que POST"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel événement est couramment utilisé pour détecter quand une requête AJAX est terminée avec XMLHttpRequest ?"
+      },
+      "options": [
+        {
+          "content": "onreadystatechange",
+          "correct": true
+        },
+        {
+          "content": "onload"
+        },
+        {
+          "content": "oncomplete"
+        },
+        {
+          "content": "onfinish"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour ajouter des en-têtes à une requête fetch ?"
+      },
+      "options": [
+        {
+          "content": "Passer un objet d'options avec la propriété headers",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la méthode setHeaders()"
+        },
+        {
+          "content": "Ajouter les en-têtes directement dans l'URL"
+        },
+        {
+          "content": "Utiliser la méthode addHeaders()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage d'utiliser des Promesses avec AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Elles permettent une meilleure gestion du code asynchrone",
+          "correct": true
+        },
+        {
+          "content": "Elles rendent les requêtes plus rapides"
+        },
+        {
+          "content": "Elles réduisent la charge sur le serveur"
+        },
+        {
+          "content": "Elles améliorent la sécurité des requêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale limitation de l'utilisation d'AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Les requêtes sont soumises à la politique de même origine (Same-Origin Policy)",
+          "correct": true
+        },
+        {
+          "content": "AJAX ne fonctionne qu'avec XML"
+        },
+        {
+          "content": "AJAX ne peut pas être utilisé avec des API RESTful"
+        },
+        {
+          "content": "AJAX ne fonctionne pas sur les appareils mobiles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour permettre des requêtes AJAX cross-origin ?"
+      },
+      "options": [
+        {
+          "content": "CORS (Cross-Origin Resource Sharing)",
+          "correct": true
+        },
+        {
+          "content": "JSONP"
+        },
+        {
+          "content": "Web Sockets"
+        },
+        {
+          "content": "Server-Sent Events"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs dans une requête fetch ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser .catch() après .then()",
+          "correct": true
+        },
+        {
+          "content": "Vérifier le statut de la réponse manuellement"
+        },
+        {
+          "content": "Utiliser un bloc try-catch autour de fetch"
+        },
+        {
+          "content": "Ignorer les erreurs car fetch les gère automatiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l'avantage principal d'utiliser async/await avec fetch ?"
+      },
+      "options": [
+        {
+          "content": "Cela permet d'écrire du code asynchrone de manière synchrone",
+          "correct": true
+        },
+        {
+          "content": "Cela rend les requêtes plus rapides"
+        },
+        {
+          "content": "Cela améliore la compatibilité avec les anciens navigateurs"
+        },
+        {
+          "content": "Cela réduit la consommation de mémoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour annuler une requête fetch en cours ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un AbortController",
+          "correct": true
+        },
+        {
+          "content": "Appeler fetch.cancel()"
+        },
+        {
+          "content": "Utiliser clearTimeout()"
+        },
+        {
+          "content": "Les requêtes fetch ne peuvent pas être annulées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel format de données est couramment utilisé pour échanger des informations dans les requêtes AJAX modernes ?"
+      },
+      "options": [
+        {
+          "content": "JSON",
+          "correct": true
+        },
+        {
+          "content": "XML"
+        },
+        {
+          "content": "HTML"
+        },
+        {
+          "content": "CSV"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer plusieurs requêtes AJAX simultanées ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Promise.all()",
+          "correct": true
+        },
+        {
+          "content": "Les exécuter séquentiellement avec des callbacks"
+        },
+        {
+          "content": "Utiliser une boucle for"
+        },
+        {
+          "content": "Créer une fonction récursive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage d'utiliser une bibliothèque comme Axios pour les requêtes AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Elle fournit une API cohérente pour les navigateurs et Node.js",
+          "correct": true
+        },
+        {
+          "content": "Elle est plus rapide que fetch"
+        },
+        {
+          "content": "Elle est nativement supportée par tous les navigateurs"
+        },
+        {
+          "content": "Elle ne nécessite pas de configuration CORS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode HTTP est généralement utilisée pour mettre à jour partiellement une ressource avec AJAX ?"
+      },
+      "options": [
+        {
+          "content": "PATCH",
+          "correct": true
+        },
+        {
+          "content": "PUT"
+        },
+        {
+          "content": "POST"
+        },
+        {
+          "content": "UPDATE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on prévenir les attaques CSRF dans les requêtes AJAX ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant des jetons CSRF dans les en-têtes de requête",
+          "correct": true
+        },
+        {
+          "content": "En désactivant CORS"
+        },
+        {
+          "content": "En utilisant uniquement des requêtes GET"
+        },
+        {
+          "content": "En chiffrant toutes les données envoyées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre .then() et .done() dans jQuery AJAX ?"
+      },
+      "options": [
+        {
+          "content": ".then() retourne une promesse, .done() non",
+          "correct": true
+        },
+        {
+          "content": ".done() est plus rapide que .then()"
+        },
+        {
+          "content": ".then() ne peut être utilisé qu'une fois"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer le cache des requêtes AJAX ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser les en-têtes de cache HTTP appropriés",
+          "correct": true
+        },
+        {
+          "content": "Désactiver complètement le cache"
+        },
+        {
+          "content": "Stocker toutes les réponses dans localStorage"
+        },
+        {
+          "content": "Ajouter les en-têtes directement dans l'URL"
+
+        }]
+    },
+    {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer le cache des requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser les en-têtes de cache HTTP appropriés",
+            "correct": true
+          },
+          {
+            "content": "Désactiver complètement le cache"
+          },
+          {
+            "content": "Stocker toutes les réponses dans localStorage"
+          },
+          {
+            "content": "Ajouter un timestamp à chaque requête"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on implémenter un indicateur de chargement pour une requête AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Afficher un spinner avant la requête et le cacher dans .then() ou .catch()",
+            "correct": true
+          },
+          {
+            "content": "Utiliser setTimeout pour afficher un spinner après 5 secondes"
+          },
+          {
+            "content": "Ajouter un paramètre 'loading' à la requête AJAX"
+          },
+          {
+            "content": "Les indicateurs de chargement ne sont pas possibles avec AJAX"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon de déboguer les requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser les outils de développement du navigateur (Network tab)",
+            "correct": true
+          },
+          {
+            "content": "Ajouter des console.log partout dans le code"
+          },
+          {
+            "content": "Utiliser alert() pour afficher les réponses"
+          },
+          {
+            "content": "Désactiver JavaScript et recharger la page"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la différence entre une requête AJAX synchrone et asynchrone ?"
+        },
+        "options": [
+          {
+            "content": "Les requêtes asynchrones ne bloquent pas l'exécution du code",
+            "correct": true
+          },
+          {
+            "content": "Les requêtes synchrones sont plus rapides"
+          },
+          {
+            "content": "Les requêtes asynchrones ne peuvent pas utiliser de callbacks"
+          },
+          {
+            "content": "Il n'y a pas de différence significative"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle méthode est utilisée pour sérialiser un formulaire en jQuery pour une requête AJAX ?"
+        },
+        "options": [
+          {
+            "content": "$(form).serialize()",
+            "correct": true
+          },
+          {
+            "content": "$(form).ajax()"
+          },
+          {
+            "content": "$(form).submit()"
+          },
+          {
+            "content": "$(form).stringify()"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on gérer les timeouts dans les requêtes fetch ?"
+        },
+        "options": [
+          {
+            "content": "En utilisant AbortController avec setTimeout",
+            "correct": true
+          },
+          {
+            "content": "En ajoutant un paramètre timeout à fetch"
+          },
+          {
+            "content": "En utilisant la méthode fetch.timeout()"
+          },
+          {
+            "content": "Les timeouts ne sont pas possibles avec fetch"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer l'authentification dans les requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser des tokens JWT dans les en-têtes Authorization",
+            "correct": true
+          },
+          {
+            "content": "Envoyer le nom d'utilisateur et le mot de passe dans chaque requête"
+          },
+          {
+            "content": "Utiliser uniquement des cookies de session"
+          },
+          {
+            "content": "Inclure les identifiants dans l'URL de la requête"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la différence entre .ajax() et .get() en jQuery ?"
+        },
+        "options": [
+          {
+            "content": ".ajax() est plus configurable, .get() est un raccourci pour les requêtes GET",
+            "correct": true
+          },
+          {
+            "content": ".get() est plus rapide que .ajax()"
+          },
+          {
+            "content": ".ajax() ne peut pas faire de requêtes GET"
+          },
+          {
+            "content": "Il n'y a pas de différence significative"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on implémenter une fonctionnalité de recherche en temps réel avec AJAX ?"
+        },
+        "options": [
+          {
+            "content": "En utilisant un délai (debounce) sur l'événement input",
+            "correct": true
+          },
+          {
+            "content": "En envoyant une requête à chaque frappe de clavier"
+          },
+          {
+            "content": "En rechargeant la page à chaque recherche"
+          },
+          {
+            "content": "En utilisant uniquement des requêtes POST pour la recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les erreurs réseau dans les requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Implémenter une stratégie de retry avec backoff exponentiel",
+            "correct": true
+          },
+          {
+            "content": "Ignorer les erreurs réseau"
+          },
+          {
+            "content": "Recharger la page en cas d'erreur"
+          },
+          {
+            "content": "Toujours afficher une alerte à l'utilisateur"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on optimiser les performances des requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Minimiser le nombre de requêtes et utiliser le cache efficacement",
+            "correct": true
+          },
+          {
+            "content": "Toujours utiliser des requêtes synchrones"
+          },
+          {
+            "content": "Désactiver CORS pour toutes les requêtes"
+          },
+          {
+            "content": "Envoyer toutes les données en une seule grande requête"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la différence entre XMLHttpRequest et ActiveXObject dans le contexte AJAX ?"
+        },
+        "options": [
+          {
+            "content": "ActiveXObject était utilisé pour IE ancien, XMLHttpRequest est standard",
+            "correct": true
+          },
+          {
+            "content": "XMLHttpRequest est plus rapide qu'ActiveXObject"
+          },
+          {
+            "content": "ActiveXObject supporte plus de types de données"
+          },
+          {
+            "content": "Il n'y a pas de différence significative"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on implémenter une barre de progression pour un upload de fichier avec AJAX ?"
+        },
+        "options": [
+          {
+            "content": "En utilisant l'événement progress de XMLHttpRequest",
+            "correct": true
+          },
+          {
+            "content": "En calculant le temps écoulé depuis le début de l'upload"
+          },
+          {
+            "content": "En demandant périodiquement au serveur le statut de l'upload"
+          },
+          {
+            "content": "Les barres de progression ne sont pas possibles avec AJAX"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les requêtes AJAX dans une application Single Page Application (SPA) ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser un gestionnaire d'état centralisé (ex: Redux)",
+            "correct": true
+          },
+          {
+            "content": "Faire toutes les requêtes au chargement initial de la page"
+          },
+          {
+            "content": "Recharger la page pour chaque nouvelle vue"
+          },
+          {
+            "content": "Stocker toutes les données dans localStorage"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment peut-on implémenter le polling avec AJAX ?"
+        },
+        "options": [
+          {
+            "content": "En utilisant setInterval pour envoyer des requêtes périodiques",
+            "correct": true
+          },
+          {
+            "content": "En utilisant WebSockets à la place d'AJAX"
+          },
+          {
+            "content": "En rechargeant la page à intervalles réguliers"
+          },
+          {
+            "content": "Le polling n'est pas possible avec AJAX"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon de gérer les dépendances entre requêtes AJAX ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser des Promesses chainées ou async/await",
+            "correct": true
+          },
+          {
+            "content": "Imbriquer les callbacks"
+          },
+          {
+            "content": "Utiliser des variables globales pour partager les données"
+          },
+          {
+            "content": "Faire toutes les requêtes en parallèle et gérer les résultats après"
+          }
+        ]
+      }
+    ]
+  }

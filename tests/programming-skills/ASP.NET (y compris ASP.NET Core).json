@@ -1,0 +1,827 @@
+{
+  "title": "ASP.NET : Compétences en développement web",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques des candidats sur le framework ASP.NET, y compris ASP.NET Core, ainsi que leur capacité à créer des applications et des services Web efficaces.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts fondamentaux d'ASP.NET",
+      "ASP.NET Core",
+      "MVC (Modèle-Vue-Contrôleur)",
+      "Entity Framework",
+      "Gestion des dépendances",
+      "API Web",
+      "Sécurité et authentification",
+      "Performance et optimisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur .NET, ingénieur logiciel backend, ou tout rôle nécessitant une expertise en développement web avec ASP.NET.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'ASP.NET et ASP.NET Core, évaluant la capacité du candidat à concevoir, développer et maintenir des applications web robustes et évolutives.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale différence entre ASP.NET Framework et ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "ASP.NET Core est open-source et multiplateforme",
+          "correct": true
+        },
+        {
+          "content": "ASP.NET Framework est plus récent qu'ASP.NET Core"
+        },
+        {
+          "content": "ASP.NET Core ne supporte pas le développement d'API Web"
+        },
+        {
+          "content": "ASP.NET Framework est plus performant qu'ASP.NET Core"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le rôle principal du fichier Startup.cs dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Configurer les services et le pipeline de requêtes de l'application",
+          "correct": true
+        },
+        {
+          "content": "Définir les routes de l'application"
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        },
+        {
+          "content": "Implémenter la logique métier de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la syntaxe correcte pour injecter une dépendance dans un contrôleur ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "public class MonController : Controller { public MonController(IService service) { ... } }",
+          "correct": true
+        },
+        {
+          "content": "public class MonController : Controller { [Inject] private IService _service; }"
+        },
+        {
+          "content": "public class MonController : Controller { public IService Service { get; set; } }"
+        },
+        {
+          "content": "public class MonController : Controller { [DependencyInjection] IService _service; }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle directive Razor est utilisée pour définir le layout d'une vue dans ASP.NET MVC ?"
+      },
+      "options": [
+        {
+          "content": "@{Layout = \"_Layout\";}",
+          "correct": true
+        },
+        {
+          "content": "@using Layout = \"_Layout\";"
+        },
+        {
+          "content": "@Html.RenderLayout(\"_Layout\");"
+        },
+        {
+          "content": "@Layout(\"_Layout\");"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour configurer l'injection de dépendances dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddScoped<IService, ServiceImpl>();",
+          "correct": true
+        },
+        {
+          "content": "services.RegisterScoped(typeof(IService), typeof(ServiceImpl));"
+        },
+        {
+          "content": "services.Inject<IService, ServiceImpl>();"
+        },
+        {
+          "content": "services.ConfigureServices(IService, ServiceImpl);"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut est utilisé pour spécifier la route d'une action de contrôleur dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "[Route(\"api/[controller]\")]",
+          "correct": true
+        },
+        {
+          "content": "[Url(\"api/[controller]\")]"
+        },
+        {
+          "content": "[Path(\"api/[controller]\")]"
+        },
+        {
+          "content": "[Endpoint(\"api/[controller]\")]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour configurer l'authentification dans le fichier Startup.cs d'une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "app.UseAuthentication();",
+          "correct": true
+        },
+        {
+          "content": "app.ConfigureAuthentication();"
+        },
+        {
+          "content": "app.SetupAuthentication();"
+        },
+        {
+          "content": "app.EnableAuthentication();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package NuGet est couramment utilisé pour la validation des modèles dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "FluentValidation",
+          "correct": true
+        },
+        {
+          "content": "ModelValidator"
+        },
+        {
+          "content": "AspNetValidation"
+        },
+        {
+          "content": "CoreValidator"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour configurer CORS dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "app.UseCors();",
+          "correct": true
+        },
+        {
+          "content": "app.EnableCors();"
+        },
+        {
+          "content": "app.ConfigureCors();"
+        },
+        {
+          "content": "app.SetupCors();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de Entity Framework Core dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "ORM (Object-Relational Mapping)",
+          "correct": true
+        },
+        {
+          "content": "Gestion de l'authentification"
+        },
+        {
+          "content": "Routage des requêtes HTTP"
+        },
+        {
+          "content": "Gestion des vues"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir une action asynchrone dans un contrôleur ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "public async Task<IActionResult> MonAction()",
+          "correct": true
+        },
+        {
+          "content": "public async IActionResult MonAction()"
+        },
+        {
+          "content": "public Task<IActionResult> MonAction() async"
+        },
+        {
+          "content": "public IActionResult MonAction() async"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel middleware est utilisé pour gérer les exceptions dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "app.UseExceptionHandler(\"/Error\");",
+          "correct": true
+        },
+        {
+          "content": "app.UseCatchException(\"/Error\");"
+        },
+        {
+          "content": "app.HandleExceptions(\"/Error\");"
+        },
+        {
+          "content": "app.ConfigureExceptionHandling(\"/Error\");"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour lire une valeur de configuration dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Configuration.GetValue<string>(\"MaCle\")",
+          "correct": true
+        },
+        {
+          "content": "Configuration.ReadValue(\"MaCle\")"
+        },
+        {
+          "content": "Configuration.GetString(\"MaCle\")"
+        },
+        {
+          "content": "Configuration.Value(\"MaCle\")"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal des Data Annotations dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Valider les propriétés des modèles",
+          "correct": true
+        },
+        {
+          "content": "Définir les routes des contrôleurs"
+        },
+        {
+          "content": "Configurer la sécurité de l'application"
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour ajouter l'authentification JWT à une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();",
+          "correct": true
+        },
+        {
+          "content": "services.ConfigureJwtAuthentication();"
+        },
+        {
+          "content": "services.UseJwtBearerAuthentication();"
+        },
+        {
+          "content": "services.SetupJwtAuth();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal du fichier appsettings.json dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Stocker les paramètres de configuration de l'application",
+          "correct": true
+        },
+        {
+          "content": "Définir les routes de l'application"
+        },
+        {
+          "content": "Gérer les dépendances de l'application"
+        },
+        {
+          "content": "Configurer le pipeline de requêtes HTTP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir une route avec des paramètres dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "[Route(\"api/[controller]/{id}\")]",
+          "correct": true
+        },
+        {
+          "content": "[Route(\"api/[controller]/:id\")]"
+        },
+        {
+          "content": "[Route(\"api/[controller]?id={id}\")]"
+        },
+        {
+          "content": "[Route(\"api/[controller]/{id=*}\")]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package est utilisé pour implémenter la journalisation dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Microsoft.Extensions.Logging",
+          "correct": true
+        },
+        {
+          "content": "System.Diagnostics.Logging"
+        },
+        {
+          "content": "AspNetCore.Logging"
+        },
+        {
+          "content": "Microsoft.AspNetCore.Logger"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour ajouter le support des fichiers statiques dans une application ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "app.UseStaticFiles();",
+          "correct": true
+        },
+        {
+          "content": "app.EnableStaticFileServing();"
+        },
+        {
+          "content": "app.ConfigureStaticFiles();"
+        },
+        {
+          "content": "app.ServeStaticContent();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal des TagHelpers dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "Simplifier la création de HTML côté serveur",
+          "correct": true
+        },
+        {
+          "content": "Gérer les requêtes HTTP"
+        },
+        {
+          "content": "Valider les modèles"
+        },
+        {
+          "content": "Configurer les routes de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour configurer la compression de réponse dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "app.UseResponseCompression();",
+          "correct": true
+        },
+        {
+          "content": "app.EnableCompression();"
+        },
+        {
+          "content": "app.ConfigureCompression();"
+        },
+        {
+          "content": "app.CompressResponses();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IHostedService dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Exécuter des tâches de fond",
+          "correct": true
+        },
+        {
+          "content": "Gérer l'authentification"
+        },
+        {
+          "content": "Configurer les routes"
+        },
+        {
+          "content": "Valider les modèles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter la pagination dans une API ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser les paramètres de requête skip et take",
+          "correct": true
+        },
+        {
+          "content": "Implémenter un attribut [Paginate]"
+        },
+        {
+          "content": "Utiliser la méthode .Paginate() sur le DbSet"
+        },
+        {
+          "content": "Configurer la pagination dans le fichier Startup.cs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IActionFilter dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "Exécuter du code avant et après l'exécution d'une action",
+          "correct": true
+        },
+        {
+          "content": "Valider les données du modèle"
+        },
+        {
+          "content": "Gérer les exceptions"
+        },
+        {
+          "content": "Configurer les routes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter le caching dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddDistributedMemoryCache();",
+          "correct": true
+        },
+        {
+          "content": "services.ConfigureCache();"
+        },
+        {
+          "content": "services.UseCache();"
+        },
+        {
+          "content": "services.EnableCaching();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IHttpClientFactory dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Gérer la création et la configuration des instances HttpClient",
+          "correct": true
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        },
+        {
+          "content": "Configurer les routes de l'application"
+        },
+        {
+          "content": "Valider les modèles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter l'autorisation basée sur les rôles dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "[Authorize(Roles = \"Admin\")]",
+          "correct": true
+        },
+        {
+          "content": "[RequireRole(\"Admin\")]"
+        },
+        {
+          "content": "[HasRole(\"Admin\")]"
+        },
+        {
+          "content": "[RoleAuthorize(\"Admin\")]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IOptions<T> dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Accéder aux valeurs de configuration fortement typées",
+          "correct": true
+        },
+        {
+          "content": "Gérer les options de sécurité"
+        },
+        {
+          "content": "Configurer les options de base de données"
+        },
+        {
+          "content": "Définir les options de routage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter la localisation dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddLocalization(options => options.ResourcesPath = \"Resources\");",
+          "correct": true
+        },
+        {
+          "content": "services.UseLocalization();"
+        },
+        {
+          "content": "services.ConfigureLocalization();"
+        },
+        {
+          "content": "services.EnableMultiLanguage();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IWebHostEnvironment dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des informations sur l'environnement d'hébergement de l'application",
+          "correct": true
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        },
+        {
+          "content": "Configurer le pipeline de requêtes HTTP"
+        },
+        {
+          "content": "Gérer l'authentification des utilisateurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter la validation côté serveur dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "if (ModelState.IsValid) { ... }",
+          "correct": true
+        },
+        {
+          "content": "if (Model.Validate()) { ... }"
+        },
+        {
+          "content": "if (ValidateModel()) { ... }"
+        },
+        {
+          "content": "if (IsModelValid()) { ... }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IMemoryCache dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Stocker des données en mémoire pour un accès rapide",
+          "correct": true
+        },
+        {
+          "content": "Gérer la mémoire de l'application"
+        },
+        {
+          "content": "Optimiser les performances de la base de données"
+        },
+        {
+          "content": "Gérer les sessions utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter la gestion des migrations de base de données dans ASP.NET Core avec Entity Framework Core ?"
+      },
+      "options": [
+        {
+          "content": "Add-Migration NomDeLaMigration",
+          "correct": true
+        },
+        {
+          "content": "Create-Migration NomDeLaMigration"
+        },
+        {
+          "content": "New-Migration NomDeLaMigration"
+        },
+        {
+          "content": "Generate-Migration NomDeLaMigration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de ILogger dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "Enregistrer des messages de journal",
+          "correct": true
+        },
+        {
+          "content": "Gérer les exceptions"
+        },
+        {
+          "content": "Configurer les paramètres de l'application"
+        },
+        {
+          "content": "Gérer les connexions à la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter l'authentification par cookie dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();",
+          "correct": true
+        },
+        {
+          "content": "services.UseCookieAuthentication();"
+        },
+        {
+          "content": "services.ConfigureCookieAuth();"
+        },
+        {
+          "content": "services.EnableCookieBasedAuth();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IUrlHelper dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "Générer des URL pour les actions et les contrôleurs",
+          "correct": true
+        },
+        {
+          "content": "Valider les URL entrantes"
+        },
+        {
+          "content": "Gérer les redirections"
+        },
+        {
+          "content": "Configurer les routes de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode correcte pour implémenter la compression de réponse dans ASP.NET Core ?"
+      },
+      "options": [
+        {
+          "content": "services.AddResponseCompression();",
+          "correct": true
+        },
+        {
+          "content": "services.UseCompression();"
+        },
+        {
+          "content": "services.ConfigureCompression();"
+        },
+        {
+          "content": "services.EnableResponseCompression();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de IModelBinder dans ASP.NET Core MVC ?"
+      },
+      "options": [
+        {
+          "content": "Convertir les données de requête en objets de modèle",
+          "correct": true
+        },
+        {
+          "content": "Valider les modèles"
+        },
+        {
+          "content": "Générer des vues à partir de modèles"
+        },
+        {
+          "content": "Gérer la persistance des modèles"
+        }
+      ]
+    }
+  ]
+}

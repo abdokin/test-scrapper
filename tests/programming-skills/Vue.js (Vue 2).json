@@ -1,0 +1,829 @@
+{
+  "title": "Vue.js (Vue 2) : Connaissances et meilleures pratiques",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances et l'expérience des candidats sur le framework Vue.js (Vue 2), y compris les meilleures pratiques, le guide de style Vue.js et les approches architecturales appropriées.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts fondamentaux de Vue.js",
+      "Composants Vue",
+      "Cycle de vie des composants",
+      "Directives Vue",
+      "Gestion de l'état (Vuex)",
+      "Routage (Vue Router)",
+      "Rendu conditionnel et listes",
+      "Propriétés calculées et observateurs",
+      "Meilleures pratiques et guide de style",
+      "Approches architecturales"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end, développeur Vue.js, ou tout rôle nécessitant une expertise dans le développement d'applications web avec Vue.js.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Vue.js (Vue 2), évaluant la capacité du candidat à concevoir, développer et maintenir des applications Vue.js efficaces et bien structurées.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la syntaxe correcte pour déclarer une propriété réactive dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "data() { return { prop: value } }",
+          "correct": true
+        },
+        {
+          "content": "data: { prop: value }"
+        },
+        {
+          "content": "props: { prop: value }"
+        },
+        {
+          "content": "reactive: { prop: value }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle directive Vue.js est utilisée pour lier un événement à une méthode ?"
+      },
+      "options": [
+        {
+          "content": "v-on ou @",
+          "correct": true
+        },
+        {
+          "content": "v-bind"
+        },
+        {
+          "content": "v-model"
+        },
+        {
+          "content": "v-event"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel hook de cycle de vie est appelé après que le composant a été monté dans le DOM ?"
+      },
+      "options": [
+        {
+          "content": "mounted",
+          "correct": true
+        },
+        {
+          "content": "created"
+        },
+        {
+          "content": "beforeMount"
+        },
+        {
+          "content": "updated"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour déclarer une propriété calculée dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "computed: { prop() { ... } }",
+          "correct": true
+        },
+        {
+          "content": "methods: { prop() { ... } }"
+        },
+        {
+          "content": "watch: { prop() { ... } }"
+        },
+        {
+          "content": "calculated: { prop() { ... } }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle directive Vue.js est utilisée pour le rendu conditionnel ?"
+      },
+      "options": [
+        {
+          "content": "v-if",
+          "correct": true
+        },
+        {
+          "content": "v-show"
+        },
+        {
+          "content": "v-render"
+        },
+        {
+          "content": "v-condition"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment passe-t-on des props à un composant enfant dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "<child-component :prop=\"value\" />",
+          "correct": true
+        },
+        {
+          "content": "<child-component prop=\"value\" />"
+        },
+        {
+          "content": "<child-component v-bind=\"{ prop: value }\" />"
+        },
+        {
+          "content": "<child-component @prop=\"value\" />"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer l'état global dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Vuex",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des props pour tout"
+        },
+        {
+          "content": "Stocker l'état dans le composant racine"
+        },
+        {
+          "content": "Utiliser localStorage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir une route dans Vue Router ?"
+      },
+      "options": [
+        {
+          "content": "{ path: '/home', component: Home }",
+          "correct": true
+        },
+        {
+          "content": "{ url: '/home', view: Home }"
+        },
+        {
+          "content": "{ route: '/home', page: Home }"
+        },
+        {
+          "content": "{ link: '/home', component: Home }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment émet-on un événement personnalisé d'un composant enfant vers un parent dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "this.$emit('event-name', payload)",
+          "correct": true
+        },
+        {
+          "content": "this.$on('event-name', payload)"
+        },
+        {
+          "content": "this.$dispatch('event-name', payload)"
+        },
+        {
+          "content": "this.$broadcast('event-name', payload)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle directive Vue.js est utilisée pour lier une valeur d'entrée à une propriété de données ?"
+      },
+      "options": [
+        {
+          "content": "v-model",
+          "correct": true
+        },
+        {
+          "content": "v-bind"
+        },
+        {
+          "content": "v-on"
+        },
+        {
+          "content": "v-input"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour structurer un grand composant Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Le diviser en composants plus petits et réutilisables",
+          "correct": true
+        },
+        {
+          "content": "Utiliser plus de méthodes dans le même composant"
+        },
+        {
+          "content": "Augmenter la complexité du template"
+        },
+        {
+          "content": "Ajouter plus de logique dans les propriétés calculées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accède-t-on à une propriété de l'état Vuex dans un composant ?"
+      },
+      "options": [
+        {
+          "content": "this.$store.state.propertyName",
+          "correct": true
+        },
+        {
+          "content": "this.state.propertyName"
+        },
+        {
+          "content": "this.$state.propertyName"
+        },
+        {
+          "content": "Vuex.state.propertyName"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre v-if et v-show ?"
+      },
+      "options": [
+        {
+          "content": "v-if retire l'élément du DOM, v-show le cache avec CSS",
+          "correct": true
+        },
+        {
+          "content": "v-if est plus rapide que v-show"
+        },
+        {
+          "content": "v-show supporte les conditions complexes, v-if non"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir un mixin dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "export default { ... }",
+          "correct": true
+        },
+        {
+          "content": "Vue.mixin({ ... })"
+        },
+        {
+          "content": "mixin: { ... }"
+        },
+        {
+          "content": "Vue.extend({ ... })"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on optimiser les performances d'une liste rendue avec v-for ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une clé unique avec :key",
+          "correct": true
+        },
+        {
+          "content": "Toujours utiliser un index comme clé"
+        },
+        {
+          "content": "Éviter d'utiliser v-for pour les grandes listes"
+        },
+        {
+          "content": "Utiliser v-if à l'intérieur de v-for"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les formulaires complexes dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser vee-validate ou une bibliothèque similaire",
+          "correct": true
+        },
+        {
+          "content": "Implémenter toute la logique de validation manuellement"
+        },
+        {
+          "content": "Utiliser uniquement des validations côté serveur"
+        },
+        {
+          "content": "Éviter les formulaires complexes dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter la lazy-loading des composants dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser import() dynamique",
+          "correct": true
+        },
+        {
+          "content": "Charger tous les composants au démarrage"
+        },
+        {
+          "content": "Utiliser v-if pour charger les composants"
+        },
+        {
+          "content": "La lazy-loading n'est pas possible dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les appels API dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Axios ou Fetch dans des services séparés",
+          "correct": true
+        },
+        {
+          "content": "Faire tous les appels API directement dans les composants"
+        },
+        {
+          "content": "Utiliser uniquement jQuery.ajax()"
+        },
+        {
+          "content": "Éviter les appels API dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter l'internationalisation dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser vue-i18n",
+          "correct": true
+        },
+        {
+          "content": "Créer des fichiers séparés pour chaque langue"
+        },
+        {
+          "content": "Utiliser des conditions v-if pour chaque langue"
+        },
+        {
+          "content": "L'internationalisation n'est pas possible dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les animations dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser les composants de transition de Vue",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement CSS pour toutes les animations"
+        },
+        {
+          "content": "Implémenter toutes les animations en JavaScript pur"
+        },
+        {
+          "content": "Éviter les animations dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le Server-Side Rendering (SSR) avec Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Nuxt.js ou Vue Server Renderer",
+          "correct": true
+        },
+        {
+          "content": "SSR n'est pas possible avec Vue.js"
+        },
+        {
+          "content": "Utiliser php-v8js pour rendre Vue côté serveur"
+        },
+        {
+          "content": "Configurer un serveur Node.js pour rendre chaque composant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les métadonnées SEO dans une SPA Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser vue-meta ou une solution SSR",
+          "correct": true
+        },
+        {
+          "content": "Ajouter toutes les métadonnées dans le fichier index.html"
+        },
+        {
+          "content": "Utiliser des balises meta dynamiques dans chaque composant"
+        },
+        {
+          "content": "Le SEO n'est pas important pour les SPA Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter des tests unitaires dans un projet Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Vue Test Utils avec Jest ou Mocha",
+          "correct": true
+        },
+        {
+          "content": "Les tests unitaires ne sont pas possibles dans Vue.js"
+        },
+        {
+          "content": "Utiliser uniquement des tests e2e avec Cypress"
+        },
+        {
+          "content": "Tester manuellement chaque composant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les styles dans un composant Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des styles scoped ou CSS modules",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement des styles globaux"
+        },
+        {
+          "content": "Injecter tous les styles via JavaScript"
+        },
+        {
+          "content": "Éviter d'utiliser des styles dans les composants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le code-splitting dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des imports dynamiques et l'attribut webpackChunkName",
+          "correct": true
+        },
+        {
+          "content": "Diviser manuellement le code en plusieurs fichiers"
+        },
+        {
+          "content": "Utiliser multiple entry points dans webpack"
+        },
+        {
+          "content": "Le code-splitting n'est pas possible dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les variables d'environnement dans un projet Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un fichier .env et process.env",
+          "correct": true
+        },
+        {
+          "content": "Hardcoder les variables dans le code"
+        },
+        {
+          "content": "Utiliser localStorage pour stocker les variables d'environnement"
+        },
+        {
+          "content": "Définir toutes les variables dans le fichier main.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on optimiser les performances de rendu dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser v-once pour le contenu statique et keep-alive pour les composants",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la fréquence des mises à jour du DOM"
+        },
+        {
+          "content": "Utiliser setTimeout pour retarder le rendu"
+        },
+        {
+          "content": "Désactiver la réactivité pour tous les composants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un gestionnaire d'erreurs global et des error boundaries",
+          "correct": true
+        },
+        {
+          "content": "Ignorer toutes les erreurs"
+        },
+        {
+          "content": "Utiliser uniquement console.error"
+        },
+        {
+          "content": "Recharger la page à chaque erreur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter l'authentification dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Vuex pour gérer l'état d'authentification et les gardes de navigation",
+          "correct": true
+        },
+        {
+          "content": "Stocker les informations d'authentification dans localStorage"
+        },
+        {
+          "content": "Vérifier l'authentification à chaque rendu de composant"
+        },
+        {
+          "content": "L'authentification n'est pas possible dans une SPA Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les formulaires complexes dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser vee-validate ou une bibliothèque similaire",
+          "correct": true
+        },
+        {
+          "content": "Implémenter toute la logique de validation manuellement"
+        },
+        {
+          "content": "Utiliser uniquement des validations côté serveur"
+        },
+        {
+          "content": "Éviter les formulaires complexes dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter des transitions entre les routes dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le composant <transition> autour de <router-view>",
+          "correct": true
+        },
+        {
+          "content": "Les transitions entre routes ne sont pas possibles"
+        },
+        {
+          "content": "Utiliser setTimeout pour retarder le changement de route"
+        },
+        {
+          "content": "Implémenter manuellement les transitions en JavaScript"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les appels API récurrents dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un système de cache avec Vuex",
+          "correct": true
+        },
+        {
+          "content": "Appeler l'API à chaque rendu de composant"
+        },
+        {
+          "content": "Stocker toutes les données dans localStorage"
+        },
+        {
+          "content": "Éviter les appels API récurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter la persistance de l'état Vuex entre les rechargements de page ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser vuex-persistedstate",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarder manuellement l'état dans localStorage"
+        },
+        {
+          "content": "Utiliser des cookies pour stocker l'état"
+        },
+        {
+          "content": "La persistance de l'état n'est pas possible avec Vuex"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les dépendances circulaires dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Restructurer les composants pour éviter les dépendances circulaires",
+          "correct": true
+        },
+        {
+          "content": "Utiliser require() au lieu de import"
+        },
+        {
+          "content": "Ignorer les avertissements de dépendances circulaires"
+        },
+        {
+          "content": "Les dépendances circulaires ne sont pas un problème dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on optimiser le temps de chargement initial d'une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le code-splitting et la lazy-loading des composants",
+          "correct": true
+        },
+        {
+          "content": "Charger tous les composants au démarrage"
+        },
+        {
+          "content": "Utiliser uniquement des composants globaux"
+        },
+        {
+          "content": "Désactiver la compilation des templates"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour implémenter un système de plugins dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Vue.use() et créer un objet d'installation",
+          "correct": true
+        },
+        {
+          "content": "Ajouter manuellement chaque plugin à chaque composant"
+        },
+        {
+          "content": "Modifier le prototype de Vue"
+        },
+        {
+          "content": "Les plugins ne sont pas supportés dans Vue.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on gérer efficacement les permissions utilisateur dans une application Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des directives personnalisées et Vuex",
+          "correct": true
+        },
+        {
+          "content": "Vérifier les permissions dans chaque méthode de composant"
+        },
+        {
+          "content": "Stocker les permissions dans localStorage"
+        },
+        {
+          "content": "Les permissions utilisateur ne peuvent pas être gérées côté client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les mises à jour en temps réel dans Vue.js ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des WebSockets ou Server-Sent Events",
+          "correct": true
+        },
+        {
+          "content": "Recharger la page à intervalles réguliers"
+        },
+        {
+          "content": "Utiliser des requêtes AJAX toutes les secondes"
+        },
+        {
+          "content": "Les mises à jour en temps réel ne sont pas possibles dans Vue.js"
+        }
+      ]
+    }
+  ]
+}

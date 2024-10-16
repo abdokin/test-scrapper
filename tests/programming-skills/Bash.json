@@ -1,0 +1,806 @@
+{
+  "title": "Bash : Compétences en shell scripting",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Commandes de base Bash",
+      "Scripting Bash",
+      "Gestion des fichiers et répertoires",
+      "Redirections et pipes",
+      "Variables et paramètres",
+      "Structures de contrôle",
+      "Expressions régulières",
+      "Gestion des processus"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en administration système Linux ou en automatisation de tâches via des scripts Bash.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du shell Bash, évaluant la capacité du candidat à écrire des scripts efficaces et à utiliser les commandes Bash courantes.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier dans le terminal ?"
+      },
+      "options": [
+        {
+          "content": "cat",
+          "correct": true
+        },
+        {
+          "content": "show"
+        },
+        {
+          "content": "display"
+        },
+        {
+          "content": "print"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment déclare-t-on une variable en Bash ?"
+      },
+      "options": [
+        {
+          "content": "var myVar = 10"
+        },
+        {
+          "content": "myVar := 10"
+        },
+        {
+          "content": "myVar=10",
+          "correct": true
+        },
+        {
+          "content": "set myVar 10"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour changer les permissions d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "chmod",
+          "correct": true
+        },
+        {
+          "content": "chown"
+        },
+        {
+          "content": "chgrp"
+        },
+        {
+          "content": "chperm"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour une boucle for qui parcourt les éléments d'un tableau en Bash ?"
+      },
+      "options": [
+        {
+          "content": "for i in ${array[@]}; do",
+          "correct": true
+        },
+        {
+          "content": "for (i in array) do"
+        },
+        {
+          "content": "for i = 0 to array.length do"
+        },
+        {
+          "content": "foreach i in array do"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment redirige-t-on la sortie standard et la sortie d'erreur vers le même fichier ?"
+      },
+      "options": [
+        {
+          "content": "command > file 2>&1",
+          "correct": true
+        },
+        {
+          "content": "command > file & 2> file"
+        },
+        {
+          "content": "command 1> file 2> file"
+        },
+        {
+          "content": "command >> file 2>> file"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour trouver des fichiers basés sur certains critères ?"
+      },
+      "options": [
+        {
+          "content": "locate"
+        },
+        {
+          "content": "search"
+        },
+        {
+          "content": "find",
+          "correct": true
+        },
+        {
+          "content": "grep"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment vérifie-t-on si une variable est vide en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ -z \"$var\" ]; then",
+          "correct": true
+        },
+        {
+          "content": "if [ \"$var\" == \"\" ]; then"
+        },
+        {
+          "content": "if [ \"$var\" -eq 0 ]; then"
+        },
+        {
+          "content": "if [ -e \"$var\" ]; then"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour compter le nombre de lignes dans un fichier ?"
+      },
+      "options": [
+        {
+          "content": "wc -l",
+          "correct": true
+        },
+        {
+          "content": "line -count"
+        },
+        {
+          "content": "nl"
+        },
+        {
+          "content": "count -l"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment exécute-t-on une commande en arrière-plan ?"
+      },
+      "options": [
+        {
+          "content": "command &",
+          "correct": true
+        },
+        {
+          "content": "bg command"
+        },
+        {
+          "content": "command -b"
+        },
+        {
+          "content": "run -bg command"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour définir une fonction en Bash ?"
+      },
+      "options": [
+        {
+          "content": "function name() { commands; }",
+          "correct": true
+        },
+        {
+          "content": "def name() { commands; }"
+        },
+        {
+          "content": "name := function() { commands; }"
+        },
+        {
+          "content": "name = () => { commands; }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accède-t-on au premier argument passé à un script Bash ?"
+      },
+      "options": [
+        {
+          "content": "$1",
+          "correct": true
+        },
+        {
+          "content": "$0"
+        },
+        {
+          "content": "$@"
+        },
+        {
+          "content": "$#"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour trier les lignes d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "sort",
+          "correct": true
+        },
+        {
+          "content": "order"
+        },
+        {
+          "content": "arrange"
+        },
+        {
+          "content": "align"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment vérifie-t-on si un fichier existe en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ -f \"$file\" ]; then",
+          "correct": true
+        },
+        {
+          "content": "if [ exists \"$file\" ]; then"
+        },
+        {
+          "content": "if [ \"$file\" -exists ]; then"
+        },
+        {
+          "content": "if [ -e \"$file\" ]; then"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher les processus en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "ps",
+          "correct": true
+        },
+        {
+          "content": "processes"
+        },
+        {
+          "content": "list"
+        },
+        {
+          "content": "show"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment compare-t-on deux chaînes de caractères en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ \"$str1\" = \"$str2\" ]; then",
+          "correct": true
+        },
+        {
+          "content": "if ( $str1 == $str2 ); then"
+        },
+        {
+          "content": "if [ $str1 -eq $str2 ]; then"
+        },
+        {
+          "content": "if [ \"$str1\" === \"$str2\" ]; then"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un lien symbolique ?"
+      },
+      "options": [
+        {
+          "content": "ln -s",
+          "correct": true
+        },
+        {
+          "content": "link -s"
+        },
+        {
+          "content": "symlink"
+        },
+        {
+          "content": "mklink"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajoute-t-on du texte à la fin d'un fichier existant en Bash ?"
+      },
+      "options": [
+        {
+          "content": "echo \"texte\" >> fichier",
+          "correct": true
+        },
+        {
+          "content": "echo \"texte\" > fichier"
+        },
+        {
+          "content": "cat \"texte\" > fichier"
+        },
+        {
+          "content": "append \"texte\" to fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour compresser un fichier en utilisant gzip ?"
+      },
+      "options": [
+        {
+          "content": "gzip fichier",
+          "correct": true
+        },
+        {
+          "content": "zip fichier"
+        },
+        {
+          "content": "compress fichier"
+        },
+        {
+          "content": "tar -z fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment affiche-t-on les 10 premières lignes d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "head -n 10 fichier",
+          "correct": true
+        },
+        {
+          "content": "cat -n 10 fichier"
+        },
+        {
+          "content": "top 10 fichier"
+        },
+        {
+          "content": "first 10 fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour une structure if-else en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ condition ]; then ... else ... fi",
+          "correct": true
+        },
+        {
+          "content": "if (condition) { ... } else { ... }"
+        },
+        {
+          "content": "if condition then ... else ... endif"
+        },
+        {
+          "content": "if [ condition ] ... elif ... else ... end"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectue-t-on une opération arithmétique en Bash ?"
+      },
+      "options": [
+        {
+          "content": "result=$((5 + 3))",
+          "correct": true
+        },
+        {
+          "content": "result=`5 + 3`"
+        },
+        {
+          "content": "result=$(5 + 3)"
+        },
+        {
+          "content": "let result = 5 + 3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher l'espace disque utilisé par un répertoire ?"
+      },
+      "options": [
+        {
+          "content": "du",
+          "correct": true
+        },
+        {
+          "content": "df"
+        },
+        {
+          "content": "disk"
+        },
+        {
+          "content": "space"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment lit-on l'entrée de l'utilisateur dans un script Bash ?"
+      },
+      "options": [
+        {
+          "content": "read variable",
+          "correct": true
+        },
+        {
+          "content": "input variable"
+        },
+        {
+          "content": "get variable"
+        },
+        {
+          "content": "scanf variable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour rechercher un motif dans un fichier ?"
+      },
+      "options": [
+        {
+          "content": "grep",
+          "correct": true
+        },
+        {
+          "content": "search"
+        },
+        {
+          "content": "find"
+        },
+        {
+          "content": "locate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une variable en lecture seule en Bash ?"
+      },
+      "options": [
+        {
+          "content": "readonly variable=valeur",
+          "correct": true
+        },
+        {
+          "content": "const variable=valeur"
+        },
+        {
+          "content": "final variable=valeur"
+        },
+        {
+          "content": "static variable=valeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher le répertoire de travail actuel ?"
+      },
+      "options": [
+        {
+          "content": "pwd",
+          "correct": true
+        },
+        {
+          "content": "cd"
+        },
+        {
+          "content": "ls"
+        },
+        {
+          "content": "dir"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment redirige-t-on la sortie d'erreur vers /dev/null ?"
+      },
+      "options": [
+        {
+          "content": "command 2> /dev/null",
+          "correct": true
+        },
+        {
+          "content": "command > /dev/null"
+        },
+        {
+          "content": "command 1> /dev/null"
+        },
+        {
+          "content": "command !> /dev/null"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour créer un nouveau répertoire ?"
+      },
+      "options": [
+        {
+          "content": "mkdir",
+          "correct": true
+        },
+        {
+          "content": "create"
+        },
+        {
+          "content": "newdir"
+        },
+        {
+          "content": "makedir"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment vérifie-t-on si une variable est définie en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ -n \"${variable+x}\" ]; then",
+          "correct": true
+        },
+        {
+          "content": "if [ $variable ]; then"
+        },
+        {
+          "content": "if [ defined $variable ]; then"
+        },
+        {
+          "content": "if [ isset $variable ]; then"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher les lignes uniques d'un fichier trié ?"
+      },
+      "options": [
+        {
+          "content": "uniq",
+          "correct": true
+        },
+        {
+          "content": "unique"
+        },
+        {
+          "content": "distinct"
+        },
+        {
+          "content": "single"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment exécute-t-on une commande à intervalles réguliers ?"
+      },
+      "options": [
+        {
+          "content": "watch",
+          "correct": true
+        },
+        {
+          "content": "repeat"
+        },
+        {
+          "content": "interval"
+        },
+        {
+          "content": "loop"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour une boucle while en Bash ?"
+      },
+      "options": [
+        {
+          "content": "while [ condition ]; do ... done",
+          "correct": true
+        },
+        {
+          "content": "while (condition) { ... }"
+        },
+        {
+          "content": "while condition do ... end"
+        },
+        {
+          "content": "while [ condition ] ... endwhile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment obtient-on le nombre d'arguments passés à un script Bash ?"
+      },
+      "options": [
+        {
+          "content": "$#",
+          "correct": true
+        },
+        {
+          "content": "$@"
+        },
+        {
+          "content": "$*"
+        },
+        {
+          "content": "$?"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour supprimer un répertoire et son contenu ?"
+      },
+      "options": [
+        {
+          "content": "rm -r",
+          "correct": true
+        },
+        {
+          "content": "rmdir"
+        },
+        {
+          "content": "delete -all"
+        },
+        {
+          "content": "remove -f"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment compare-t-on deux nombres en Bash ?"
+      },
+      "options": [
+        {
+          "content": "if [ $a -eq $b ]; then",
+          "correct": true
+        },
+        {
+          "content": "if [ $a == $b ]; then"
+        },
+        {
+          "content": "if ( $a = $b ); then"
+        },
+        {
+          "content": "if [ $a === $b ]; then"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier page par page ?"
+      },
+      "options": [
+        {
+          "content": "less",
+          "correct": true
+        },
+        {
+          "content": "more"
+        },
+        {
+          "content": "page"
+        },
+        {
+          "content": "view"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une variable d'environnement en Bash ?"
+      },
+      "options": [
+        {
+          "content": "export VAR=valeur",
+          "correct": true
+        },
+        {
+          "content": "env VAR=valeur"
+        },
+        {
+          "content": "set VAR=valeur"
+        },
+        {
+          "content": "VAR := valeur"
+        }
+      ]
+    }
+  ]
+}

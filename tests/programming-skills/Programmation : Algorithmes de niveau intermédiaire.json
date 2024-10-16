@@ -1,0 +1,796 @@
+{
+    "title": "Programmation : Algorithmes de niveau intermédiaire",
+    "attributes": {
+      "overview": "Ce test évalue les connaissances des candidats en algorithmes et structures de données de niveau intermédiaire, couvrant divers concepts et techniques de programmation.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Algorithmes de tri et de recherche",
+        "Structures de données avancées",
+        "Programmation dynamique",
+        "Algorithmes sur les graphes",
+        "Analyse de complexité",
+        "Techniques d'optimisation",
+        "Algorithmes gloutons",
+        "Structures de données probabilistes"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de développeur de niveau intermédiaire nécessitant une solide compréhension des algorithmes et des structures de données.",
+      "description": "Le test couvre une variété de concepts algorithmiques et de structures de données, évaluant la capacité du candidat à comprendre et à appliquer ces concepts dans différentes situations de programmation.",
+      "category": "Programming skills",
+      "language": "french",
+      "questions_to_answer": 30,
+      "duration_seconds": 2700,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la complexité temporelle moyenne de l'algorithme QuickSort ?"
+        },
+        "options": [
+          {
+            "content": "O(n log n)",
+            "correct": true
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(n)"
+          },
+          {
+            "content": "O(log n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle structure de données est la plus appropriée pour implémenter une file de priorité ?"
+        },
+        "options": [
+          {
+            "content": "Tas (Heap)",
+            "correct": true
+          },
+          {
+            "content": "Tableau"
+          },
+          {
+            "content": "Liste chaînée"
+          },
+          {
+            "content": "Arbre binaire de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel algorithme est utilisé pour trouver le plus court chemin dans un graphe pondéré ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Dijkstra",
+            "correct": true
+          },
+          {
+            "content": "Tri rapide (QuickSort)"
+          },
+          {
+            "content": "Recherche binaire"
+          },
+          {
+            "content": "Tri par fusion (MergeSort)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle technique est souvent utilisée pour résoudre des problèmes d'optimisation avec des sous-problèmes qui se chevauchent ?"
+        },
+        "options": [
+          {
+            "content": "Programmation dynamique",
+            "correct": true
+          },
+          {
+            "content": "Recherche en profondeur"
+          },
+          {
+            "content": "Tri par tas"
+          },
+          {
+            "content": "Hachage"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité temporelle de la recherche dans un arbre binaire de recherche équilibré ?"
+        },
+        "options": [
+          {
+            "content": "O(log n)",
+            "correct": true
+          },
+          {
+            "content": "O(n)"
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(1)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour trouver le minimum spanning tree dans un graphe pondéré ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Kruskal",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          },
+          {
+            "content": "Algorithme de Bellman-Ford"
+          },
+          {
+            "content": "Algorithme de Quicksort"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est la plus efficace pour implémenter un ensemble disjoint (union-find) ?"
+        },
+        "options": [
+          {
+            "content": "Forêt d'arbres avec compression de chemin",
+            "correct": true
+          },
+          {
+            "content": "Tableau simple"
+          },
+          {
+            "content": "Liste chaînée"
+          },
+          {
+            "content": "Arbre binaire de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité temporelle de l'algorithme de Floyd-Warshall ?"
+        },
+        "options": [
+          {
+            "content": "O(n³)",
+            "correct": true
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(n log n)"
+          },
+          {
+            "content": "O(2ⁿ)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle technique est utilisée pour équilibrer un arbre binaire de recherche ?"
+        },
+        "options": [
+          {
+            "content": "Rotation",
+            "correct": true
+          },
+          {
+            "content": "Tri"
+          },
+          {
+            "content": "Hachage"
+          },
+          {
+            "content": "Compression"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour trouver la plus longue sous-séquence commune ?"
+        },
+        "options": [
+          {
+            "content": "Programmation dynamique",
+            "correct": true
+          },
+          {
+            "content": "Recherche binaire"
+          },
+          {
+            "content": "Tri rapide"
+          },
+          {
+            "content": "Algorithme glouton"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure est la plus appropriée pour un cache LRU ?"
+        },
+        "options": [
+          {
+            "content": "HashMap + Liste doublement chaînée",
+            "correct": true
+          },
+          {
+            "content": "Tableau simple"
+          },
+          {
+            "content": "Pile (Stack)"
+          },
+          {
+            "content": "Arbre B"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité de l'algorithme de Knuth-Morris-Pratt ?"
+        },
+        "options": [
+          {
+            "content": "O(n + m)",
+            "correct": true
+          },
+          {
+            "content": "O(n * m)"
+          },
+          {
+            "content": "O(n log m)"
+          },
+          {
+            "content": "O(n²)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme trouve le plus grand flux dans un réseau ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Ford-Fulkerson",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Prim"
+          },
+          {
+            "content": "Algorithme de Dijkstra"
+          },
+          {
+            "content": "Algorithme de Kruskal"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure offre des opérations en O(1) en moyenne ?"
+        },
+        "options": [
+          {
+            "content": "Table de hachage",
+            "correct": true
+          },
+          {
+            "content": "Arbre binaire de recherche"
+          },
+          {
+            "content": "Liste chaînée"
+          },
+          {
+            "content": "Tableau trié"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité de l'algorithme de Strassen ?"
+        },
+        "options": [
+          {
+            "content": "O(n^2.8)",
+            "correct": true
+          },
+          {
+            "content": "O(n³)"
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(n log n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme trouve les composantes fortement connexes ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Kosaraju",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Bellman-Ford"
+          },
+          {
+            "content": "Algorithme de Prim"
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle technique résout le problème du sac à dos de manière optimale ?"
+        },
+        "options": [
+          {
+            "content": "Programmation dynamique",
+            "correct": true
+          },
+          {
+            "content": "Algorithme glouton"
+          },
+          {
+            "content": "Recherche binaire"
+          },
+          {
+            "content": "Tri topologique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure est adaptée pour un système de gestion de versions ?"
+        },
+        "options": [
+          {
+            "content": "Graphe acyclique dirigé (DAG)",
+            "correct": true
+          },
+          {
+            "content": "Arbre binaire"
+          },
+          {
+            "content": "Liste chaînée"
+          },
+          {
+            "content": "Tableau de hachage"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité de l'algorithme de Rabin-Karp ?"
+        },
+        "options": [
+          {
+            "content": "O(n + m) en moyenne, O(nm) dans le pire cas",
+            "correct": true
+          },
+          {
+            "content": "O(n log m)"
+          },
+          {
+            "content": "O(n + m) dans tous les cas"
+          },
+          {
+            "content": "O(nm) dans tous les cas"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme résout approximativement le problème du voyageur de commerce ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Christofides",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Dijkstra"
+          },
+          {
+            "content": "Algorithme de Kruskal"
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est utilisée dans l'algorithme de Huffman ?"
+        },
+        "options": [
+          {
+            "content": "Tas (Heap)",
+            "correct": true
+          },
+          {
+            "content": "Graphe"
+          },
+          {
+            "content": "Tableau de hachage"
+          },
+          {
+            "content": "Liste chaînée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité de l'algorithme de Boyer-Moore ?"
+        },
+        "options": [
+          {
+            "content": "O(n/m) dans le meilleur cas",
+            "correct": true
+          },
+          {
+            "content": "O(n) dans tous les cas"
+          },
+          {
+            "content": "O(n*m) dans le pire cas"
+          },
+          {
+            "content": "O(log n) dans tous les cas"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour la compression sans perte ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Lempel-Ziv-Welch (LZW)",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Dijkstra"
+          },
+          {
+            "content": "Algorithme de tri rapide"
+          },
+          {
+            "content": "Algorithme de Prim"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est utilisée pour représenter des ensembles disjoints ?"
+        },
+        "options": [
+          {
+            "content": "Union-Find",
+            "correct": true
+          },
+          {
+            "content": "Arbre B+"
+          },
+          {
+            "content": "Trie"
+          },
+          {
+            "content": "Skip List"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour le tri topologique d'un graphe ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Kahn",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Prim"
+          },
+          {
+            "content": "Algorithme de Bellman-Ford"
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité temporelle de l'algorithme de recherche A* ?"
+        },
+        "options": [
+          {
+            "content": "O(b^d), où b est le facteur de branchement et d la profondeur",
+            "correct": true
+          },
+          {
+            "content": "O(n log n)"
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(2^n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est utilisée pour implémenter un cache LFU (Least Frequently Used) ?"
+        },
+        "options": [
+          {
+            "content": "HashMap + Min-Heap",
+            "correct": true
+          },
+          {
+            "content": "Liste chaînée simple"
+          },
+          {
+            "content": "Arbre rouge-noir"
+          },
+          {
+            "content": "Tableau dynamique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour trouver le diamètre d'un arbre ?"
+        },
+        "options": [
+          {
+            "content": "Double DFS",
+            "correct": true
+          },
+          {
+            "content": "BFS"
+          },
+          {
+            "content": "Algorithme de Kruskal"
+          },
+          {
+            "content": "Algorithme de Dijkstra"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité temporelle de l'algorithme de Karatsuba pour la multiplication de grands nombres ?"
+        },
+        "options": [
+          {
+            "content": "O(n^log₂3)",
+            "correct": true
+          },
+          {
+            "content": "O(n²)"
+          },
+          {
+            "content": "O(n log n)"
+          },
+          {
+            "content": "O(2^n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour trouver le plus petit ancêtre commun (LCA) dans un arbre ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Tarjan",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Prim"
+          },
+          {
+            "content": "Algorithme de Kruskal"
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est utilisée pour implémenter un trie (arbre préfixe) ?"
+        },
+        "options": [
+          {
+            "content": "Arbre n-aire",
+            "correct": true
+          },
+          {
+            "content": "Arbre binaire de recherche"
+          },
+          {
+            "content": "Tas binaire"
+          },
+          {
+            "content": "Liste chaînée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour résoudre le problème de la correspondance de chaînes avec caractères jokers ?"
+        },
+        "options": [
+          {
+            "content": "Programmation dynamique",
+            "correct": true
+          },
+          {
+            "content": "Recherche binaire"
+          },
+          {
+            "content": "Algorithme glouton"
+          },
+          {
+            "content": "Tri topologique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexité temporelle de l'algorithme de Miller-Rabin pour tester la primalité ?"
+        },
+        "options": [
+          {
+            "content": "O(k log³ n), où k est le nombre de tests",
+            "correct": true
+          },
+          {
+            "content": "O(n)"
+          },
+          {
+            "content": "O(log n)"
+          },
+          {
+            "content": "O(√n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel algorithme est utilisé pour trouver le plus court chemin dans un graphe avec des poids négatifs ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Bellman-Ford",
+            "correct": true
+          },
+          {
+            "content": "Algorithme de Dijkstra"
+          },
+          {
+            "content": "Algorithme A*"
+          },
+          {
+            "content": "Algorithme de Floyd-Warshall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de données est utilisée pour implémenter une file de priorité à deux extrémités (double-ended priority queue) ?"
+        },
+        "options": [
+          {
+            "content": "Min-max heap",
+            "correct": true
+          },
+          {
+            "content": "Tas binaire simple"
+          },
+          {
+            "content": "Liste chaînée"
+          },
+          {
+            "content": "Arbre AVL"
+          }
+        ]
+      }
+    ]
+  }
