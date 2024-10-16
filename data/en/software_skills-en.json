@@ -1,539 +1,539 @@
 [
   {
     "title": "Computer Literacy (PC)",
-    "description": "The Computer literacy test is meant to evaluate basic knowledge and ability to use computers and related technology in a workplace environment. This test helps you identify candidates who are ready to perform basic work functions on a computer.",
+    "overview": "The Computer literacy test is meant to evaluate basic knowledge and ability to use computers and related technology in a workplace environment. This test helps you identify candidates who are ready to perform basic work functions on a computer.",
     "duration": "9 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "DigitalOcean",
-    "description": "This DigitalOcean test evaluates a candidate’s ability to manage, secure, and optimize infrastructure on the DigitalOcean platform. This test will help you hire professionals who can deploy, scale, and maintain applications using DigitalOcean's services.",
+    "overview": "This DigitalOcean test evaluates a candidate’s ability to manage, secure, and optimize infrastructure on the DigitalOcean platform. This test will help you hire professionals who can deploy, scale, and maintain applications using DigitalOcean's services.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Canva",
-    "description": "This Canva test evaluates a candidate’s knowledge of the software and their ability to design with the free version. This screening test will help you identify designers who have an intermediate-level understanding of Canva and can use it effectively.",
+    "overview": "This Canva test evaluates a candidate’s knowledge of the software and their ability to design with the free version. This screening test will help you identify designers who have an intermediate-level understanding of Canva and can use it effectively.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Splunk",
-    "description": "This Splunk test assesses a candidate's proficiency in Splunk. It aids in hiring skilled Splunk administrators and developers capable of effectively employing Splunk to ingest, index, search, and visualize data for various use cases.",
+    "overview": "This Splunk test assesses a candidate's proficiency in Splunk. It aids in hiring skilled Splunk administrators and developers capable of effectively employing Splunk to ingest, index, search, and visualize data for various use cases.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Financial Modeling in Excel",
-    "description": "This financial modeling test evaluates candidates’ essential finance and valuation skills and their ability to create and maintain financial models using Excel. This test helps you hire finance professionals who need to work with Excel frequently.",
+    "overview": "This financial modeling test evaluates candidates’ essential finance and valuation skills and their ability to create and maintain financial models using Excel. This test helps you hire finance professionals who need to work with Excel frequently.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "MariaDB (Dev)",
-    "description": "This MariaDB (Development) test evaluates a candidate’s ability to develop in MariaDB. This screening test will help you hire MariaDB experts who can effectively operate your database.",
+    "overview": "This MariaDB (Development) test evaluates a candidate’s ability to develop in MariaDB. This screening test will help you hire MariaDB experts who can effectively operate your database.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Excel (Advanced)",
-    "description": "This Advanced Excel test evaluates candidates' mastery of a wide range of Excel features and formulas. This test will help you identify candidates who are skilled in organizing data and drawing insights from them using Microsoft Excel.",
+    "overview": "This Advanced Excel test evaluates candidates' mastery of a wide range of Excel features and formulas. This test will help you identify candidates who are skilled in organizing data and drawing insights from them using Microsoft Excel.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Tableau",
-    "description": "This Tableau test evaluates candidates' ability to use the software to manage data, build visualizations for business insights and objectives, and build dashboards for users. This test will help you identify candidates with strong Tableau skills.",
+    "overview": "This Tableau test evaluates candidates' ability to use the software to manage data, build visualizations for business insights and objectives, and build dashboards for users. This test will help you identify candidates with strong Tableau skills.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Workspace Administration",
-    "description": "This Google Workspace Administration test evaluates candidates’ ability to plan, deploy, secure and monitor Workspace. This screening test will help you hire IT professionals who organize efficient, secure, and streamlined collaboration and communication.",
+    "overview": "This Google Workspace Administration test evaluates candidates’ ability to plan, deploy, secure and monitor Workspace. This screening test will help you hire IT professionals who organize efficient, secure, and streamlined collaboration and communication.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Elasticsearch",
-    "description": "This Elasticsearch test evaluates candidates’ technical skills using Elasticsearch and their ability to deploy, configure, and integrate with other relevant ELK stack tools. This hiring test helps to identify candidates skilled in using Elasticsearch.",
+    "overview": "This Elasticsearch test evaluates candidates’ technical skills using Elasticsearch and their ability to deploy, configure, and integrate with other relevant ELK stack tools. This hiring test helps to identify candidates skilled in using Elasticsearch.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Docker",
-    "description": "The Docker test evaluates a candidate’s ability to deploy, configure, administer, and troubleshoot Docker based on real-world scenarios. This test helps you hire candidates with practical Docker experience who can work independently.",
+    "overview": "The Docker test evaluates a candidate’s ability to deploy, configure, administer, and troubleshoot Docker based on real-world scenarios. This test helps you hire candidates with practical Docker experience who can work independently.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Ads",
-    "description": "The Google Ads evaluates candidates’ knowledge of the main concepts and essential functionality of Google Ads. This test will help you hire Google Ads experts who can use the platform to obtain results for both search and paid campaigns.",
+    "overview": "The Google Ads evaluates candidates’ knowledge of the main concepts and essential functionality of Google Ads. This test will help you hire Google Ads experts who can use the platform to obtain results for both search and paid campaigns.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Active Directory",
-    "description": "This Active Directory test evaluates implementation and administration skills when hiring. The test helps employers identify candidates who can effectively install, operate, and troubleshoot Active Directory in a small- to medium-sized computer network.",
+    "overview": "This Active Directory test evaluates implementation and administration skills when hiring. The test helps employers identify candidates who can effectively install, operate, and troubleshoot Active Directory in a small- to medium-sized computer network.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Windows Server Administration",
-    "description": "This Windows Server Administration test evaluates candidates’ technical knowledge of and skills using Windows Server operating systems and their ability to deploy and support Windows Server. This test helps identify skilled Windows Server administrators.",
+    "overview": "This Windows Server Administration test evaluates candidates’ technical knowledge of and skills using Windows Server operating systems and their ability to deploy and support Windows Server. This test helps identify skilled Windows Server administrators.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "HubSpot CRM",
-    "description": "The HubSpot test measures candidates’ skills in HubSpot sales, marketing, and customer service software. It will help you identify candidates who can use the full suite of HubSpot tools effectively to manage your processes and implement solutions.",
+    "overview": "The HubSpot test measures candidates’ skills in HubSpot sales, marketing, and customer service software. It will help you identify candidates who can use the full suite of HubSpot tools effectively to manage your processes and implement solutions.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Terraform",
-    "description": "This Terraform test evaluates candidates’ technical knowledge of Terraform. This test will help you identify engineers who are well-versed in Terraform and able to use it effectively as a tool to implement infrastructure as code.",
+    "overview": "This Terraform test evaluates candidates’ technical knowledge of Terraform. This test will help you identify engineers who are well-versed in Terraform and able to use it effectively as a tool to implement infrastructure as code.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Windows",
-    "description": "This Microsoft Windows test evaluates candidates' understanding and application of basic concepts in Windows. It helps you hire candidates who are comfortable working in Windows as the framework for the Microsoft Office suite of software.",
+    "overview": "This Microsoft Windows test evaluates candidates' understanding and application of basic concepts in Windows. It helps you hire candidates who are comfortable working in Windows as the framework for the Microsoft Office suite of software.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Oracle DBMS",
-    "description": "This test on Oracle DBMS will verify the candidates' technical knowledge of Oracle Database, including database architecture, storage structure, schema objects, backup and recovery techniques, and database security management.",
+    "overview": "This test on Oracle DBMS will verify the candidates' technical knowledge of Oracle Database, including database architecture, storage structure, schema objects, backup and recovery techniques, and database security management.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Slides",
-    "description": "This Google Slides test evaluates candidates’ technical knowledge of the tool and their ability to design and build appealing slide decks, all while taking smart and efficient approaches to doing so.",
+    "overview": "This Google Slides test evaluates candidates’ technical knowledge of the tool and their ability to design and build appealing slide decks, all while taking smart and efficient approaches to doing so.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Blender",
-    "description": "This Blender software skills test will determine a candidate’s knowledge and understanding of Blender. It will test candidates’ knowledge to determine a candidate's overall use and understanding of the software.",
+    "overview": "This Blender software skills test will determine a candidate’s knowledge and understanding of Blender. It will test candidates’ knowledge to determine a candidate's overall use and understanding of the software.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Git",
-    "description": "This Git test evaluates candidates’ technical knowledge of Git. This test will help you identify engineers and developers who are well-versed in Git and able to use it as a tool to work on big software projects.",
+    "overview": "This Git test evaluates candidates’ technical knowledge of Git. This test will help you identify engineers and developers who are well-versed in Git and able to use it as a tool to work on big software projects.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Adobe InDesign",
-    "description": "This Adobe InDesign test evaluates a candidate’s ability to work with the Adobe designing tool effectively. This hiring test will help you hire designers and creative professionals who can develop solid design works based on InDesign.",
+    "overview": "This Adobe InDesign test evaluates a candidate’s ability to work with the Adobe designing tool effectively. This hiring test will help you hire designers and creative professionals who can develop solid design works based on InDesign.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Confluence Cloud",
-    "description": "The Confluence Cloud tests evaluate candidates' technical knowledge of the software and their ability to perform administration tasks and user actions. This test helps you identify users who are well-versed in Confluence Cloud and use it effectively.",
+    "overview": "The Confluence Cloud tests evaluate candidates' technical knowledge of the software and their ability to perform administration tasks and user actions. This test helps you identify users who are well-versed in Confluence Cloud and use it effectively.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Zendesk CS",
-    "description": "This Zendesk CS test evaluates candidates' ability to manage access, security settings, workflow implementation, and analyze activity. This screening test will help you hire experts who can streamline your CS operations, and enhance customer support.",
+    "overview": "This Zendesk CS test evaluates candidates' ability to manage access, security settings, workflow implementation, and analyze activity. This screening test will help you hire experts who can streamline your CS operations, and enhance customer support.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "VMware",
-    "description": "This VMware test evaluates candidates’ technical competency and familiarity with VMware vSphere, virtual machines, and related technologies. This screening test will help you hire VMware virtualization experts to improve your cost and efficiency.",
+    "overview": "This VMware test evaluates candidates’ technical competency and familiarity with VMware vSphere, virtual machines, and related technologies. This screening test will help you hire VMware virtualization experts to improve your cost and efficiency.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "WooCommerce",
-    "description": "The WooCommerce test assesses the extent to which candidates are conversant with important concepts and practices. The test assesses whether they are able to build good eCommerce solutions in WooCommerce and develop features that meet your requirements.",
+    "overview": "The WooCommerce test assesses the extent to which candidates are conversant with important concepts and practices. The test assesses whether they are able to build good eCommerce solutions in WooCommerce and develop features that meet your requirements.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SolidWorks 3D CAD",
-    "description": "This SolidWorks 3D CAD test evaluates candidates’ proficiency in the SolidWorks software as well as their understanding of how to apply the software as a tool to solve practical engineering design and manufacturing problems.",
+    "overview": "This SolidWorks 3D CAD test evaluates candidates’ proficiency in the SolidWorks software as well as their understanding of how to apply the software as a tool to solve practical engineering design and manufacturing problems.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft PowerPoint",
-    "description": "This Microsoft PowerPoint test assesses candidates’ technical skills, including design, data visualization, multimedia, and collaboration. This screening test identifies those who can effectively use PowerPoint to enhance their communication skills.",
+    "overview": "This Microsoft PowerPoint test assesses candidates’ technical skills, including design, data visualization, multimedia, and collaboration. This screening test identifies those who can effectively use PowerPoint to enhance their communication skills.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "UiPath",
-    "description": "This UiPath test evaluates a candidate’s ability to be part of the automation of a process. This screening test will help you hire Robotic Process Automation (RPA) developers who can use UiPath to develop an automation from start to end.",
+    "overview": "This UiPath test evaluates a candidate’s ability to be part of the automation of a process. This screening test will help you hire Robotic Process Automation (RPA) developers who can use UiPath to develop an automation from start to end.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Data Analytics in Amazon Web Services (AWS)",
-    "description": "This Data Analytics in AWS test evaluates candidates' data analytics proficiency. This screening test will help you hire experts who can optimize data processes and enhance decision-making using AWS, fostering better business outcomes.",
+    "overview": "This Data Analytics in AWS test evaluates candidates' data analytics proficiency. This screening test will help you hire experts who can optimize data processes and enhance decision-making using AWS, fostering better business outcomes.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Analytics 4",
-    "description": "This Google Analytics 4 (GA4) test evaluates a candidate's data analysis, tracking, integration, and reporting ability. This screening test will help you hire GA4 experts who can enhance your marketing efforts and drive data-driven decision-making.",
+    "overview": "This Google Analytics 4 (GA4) test evaluates a candidate's data analysis, tracking, integration, and reporting ability. This screening test will help you hire GA4 experts who can enhance your marketing efforts and drive data-driven decision-making.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "macOS",
-    "description": "This macOS test evaluates candidates' understanding and application of basic concepts in macOS. It helps you hire candidates who are comfortable working in macOS.",
+    "overview": "This macOS test evaluates candidates' understanding and application of basic concepts in macOS. It helps you hire candidates who are comfortable working in macOS.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Email Skills (Gmail)",
-    "description": "This Gmail test evaluates candidates’ general email skills using Gmail. This test will help you hire candidates who understand basic email processes, know the best practices and proper email etiquette in a business context, and can apply them in Gmail.",
+    "overview": "This Gmail test evaluates candidates’ general email skills using Gmail. This test will help you hire candidates who understand basic email processes, know the best practices and proper email etiquette in a business context, and can apply them in Gmail.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Kubernetes",
-    "description": "This Kubernetes test evaluates a candidate’s ability to deploy, configure, administer, and troubleshoot Kubernetes based on real-world scenarios. This test will help you identify candidates with strong Kubernetes admin skills.",
+    "overview": "This Kubernetes test evaluates a candidate’s ability to deploy, configure, administer, and troubleshoot Kubernetes based on real-world scenarios. This test will help you identify candidates with strong Kubernetes admin skills.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Docs",
-    "description": "This Google Docs test evaluates candidates’ technical knowledge of the software and their ability to create documents for both print and web. This test helps you identify document creators who are well-versed in Google Docs and use it effectively.",
+    "overview": "This Google Docs test evaluates candidates’ technical knowledge of the software and their ability to create documents for both print and web. This test helps you identify document creators who are well-versed in Google Docs and use it effectively.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Power BI",
-    "description": "This Power BI test evaluates candidates’ technical knowledge and skills of the software and their ability to create informative and visually attractive designs. This test helps you identify candidates who are proficient users of Microsoft Power BI.",
+    "overview": "This Power BI test evaluates candidates’ technical knowledge and skills of the software and their ability to create informative and visually attractive designs. This test helps you identify candidates who are proficient users of Microsoft Power BI.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "AutoCAD",
-    "description": "This AutoCAD test evaluates candidates’ ability to produce, edit, and manage drawings relevant to any industry in both 2D and 3D. This screening test will help you hire design experts who are skilled in AutoCAD and require no additional training.",
+    "overview": "This AutoCAD test evaluates candidates’ ability to produce, edit, and manage drawings relevant to any industry in both 2D and 3D. This screening test will help you hire design experts who are skilled in AutoCAD and require no additional training.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Project",
-    "description": "This Microsoft Project test assesses candidates' abilities to plan, schedule, track, and customize projects using MS Project. This screening test will help you hire MS Project experts who can ensure precise execution and drive successful outcomes.",
+    "overview": "This Microsoft Project test assesses candidates' abilities to plan, schedule, track, and customize projects using MS Project. This screening test will help you hire MS Project experts who can ensure precise execution and drive successful outcomes.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Unity for Developers",
-    "description": "This Unity for Developers test evaluates a candidate’s ability to use Unity to develop games and other projects. This screening test will help you hire developers who can effectively use Unity’s features from day one.",
+    "overview": "This Unity for Developers test evaluates a candidate’s ability to use Unity to develop games and other projects. This screening test will help you hire developers who can effectively use Unity’s features from day one.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Data Analytics in Excel",
-    "description": "This Data Analytics in Excel test evaluates a candidate’s ability to perform a range of data analysis tasks. This screening test will help you hire experts who can implement Excel functions and formulas, employ data validation skills, and create visuals.",
+    "overview": "This Data Analytics in Excel test evaluates a candidate’s ability to perform a range of data analysis tasks. This screening test will help you hire experts who can implement Excel functions and formulas, employ data validation skills, and create visuals.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Exchange Server",
-    "description": "This Microsoft Exchange Server hiring test assesses candidates' skills in deploying and administering a mail server using Microsoft Exchange Server. This hiring test assesses technical and professional skills using this software in a real-world context.",
+    "overview": "This Microsoft Exchange Server hiring test assesses candidates' skills in deploying and administering a mail server using Microsoft Exchange Server. This hiring test assesses technical and professional skills using this software in a real-world context.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "IT/Engineering Microsoft 365",
-    "description": "This Microsoft 365 test evaluates candidates’ technical skills using the Microsoft 365 platform (Exchange Online, Azure Active Directory, SharePoint, and Microsoft Teams) and their ability to evaluate, design, deploy, and manage Microsoft 365 services.",
+    "overview": "This Microsoft 365 test evaluates candidates’ technical skills using the Microsoft 365 platform (Exchange Online, Azure Active Directory, SharePoint, and Microsoft Teams) and their ability to evaluate, design, deploy, and manage Microsoft 365 services.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Cybersecurity",
-    "description": "This Cybersecurity test evaluates candidates’ technical knowledge of cybersecurity and their ability to identify and address threats. This test will help you identify experts for various cybersecurity roles.",
+    "overview": "This Cybersecurity test evaluates candidates’ technical knowledge of cybersecurity and their ability to identify and address threats. This test will help you identify experts for various cybersecurity roles.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SAP Ariba",
-    "description": "This SAP Ariba test will assess supply chain employees and consultants' technical and functional skills with SAP Ariba and help you identify those who are most well-versed with creative solutions and efficient SAP Ariba operations.",
+    "overview": "This SAP Ariba test will assess supply chain employees and consultants' technical and functional skills with SAP Ariba and help you identify those who are most well-versed with creative solutions and efficient SAP Ariba operations.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Autodesk Revit",
-    "description": "This Autodesk Revit test evaluates a candidate's ability to solve everyday challenges when using Revit to design and document building projects. This screening test will help you hire employees with deep experience in Revit.",
+    "overview": "This Autodesk Revit test evaluates a candidate's ability to solve everyday challenges when using Revit to design and document building projects. This screening test will help you hire employees with deep experience in Revit.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Shopify",
-    "description": "The Shopify test evaluates candidates’ knowledge and competency in developing, customizing, and managing a Shopify store. This test will help you hire Shopify developers who can handle all your e-commerce needs using the Shopify platform.",
+    "overview": "The Shopify test evaluates candidates’ knowledge and competency in developing, customizing, and managing a Shopify store. This test will help you hire Shopify developers who can handle all your e-commerce needs using the Shopify platform.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Zoho CRM",
-    "description": "This Zoho CRM test assesses a candidate's competency using Zoho CRM, enabling you to hire individuals who can leverage Zoho CRM to streamline sales processes, automate workflows, generate insights, and optimize marketing strategies.",
+    "overview": "This Zoho CRM test assesses a candidate's competency using Zoho CRM, enabling you to hire individuals who can leverage Zoho CRM to streamline sales processes, automate workflows, generate insights, and optimize marketing strategies.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "IBM Watson",
-    "description": "This IBM Watson test evaluates candidates’ technical knowledge of the platform and their ability to use it in building software. The test helps you identify individuals who are well-versed in IBM Watson Cloud services.",
+    "overview": "This IBM Watson test evaluates candidates’ technical knowledge of the platform and their ability to use it in building software. The test helps you identify individuals who are well-versed in IBM Watson Cloud services.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Visio",
-    "description": "This test evaluates a candidate's ability to effectively use Visio, a diagramming and visualization tool by Microsoft. This screening test will help you hire professionals who can visually communicate complex information clearly and concisely.",
+    "overview": "This test evaluates a candidate's ability to effectively use Visio, a diagramming and visualization tool by Microsoft. This screening test will help you hire professionals who can visually communicate complex information clearly and concisely.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Data Analytics in Google Cloud Platform (GCP)",
-    "description": "This Data Analytics in Google Cloud Platform (GCP) test evaluates a candidate's ability to use, manage, and optimize data analysis procedures on GCP, helping hire experts who can drive data-driven decisions for your organization.",
+    "overview": "This Data Analytics in Google Cloud Platform (GCP) test evaluates a candidate's ability to use, manage, and optimize data analysis procedures on GCP, helping hire experts who can drive data-driven decisions for your organization.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Xero",
-    "description": "This Xero test evaluates candidates’ proficiency in the software, including their ability to navigate the system, maintain company lists, process transactions, generate reports, prepare reconciliations, and other key accounting functions.",
+    "overview": "This Xero test evaluates candidates’ proficiency in the software, including their ability to navigate the system, maintain company lists, process transactions, generate reports, prepare reconciliations, and other key accounting functions.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Jira Software Cloud",
-    "description": "This Jira Software Cloud test assesses candidates' technical knowledge of Jira Software Cloud as well as their ability to take on the role of Jira administrators and configure it to meet the needs of your organization and Agile teams.",
+    "overview": "This Jira Software Cloud test assesses candidates' technical knowledge of Jira Software Cloud as well as their ability to take on the role of Jira administrators and configure it to meet the needs of your organization and Agile teams.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Access",
-    "description": "This MS Access screening test will help you hire professionals who can design front-end software products to integrate with your Microsoft Office environment. It evaluates knowledge of front-end/back-end database development using MS Access.",
+    "overview": "This MS Access screening test will help you hire professionals who can design front-end software products to integrate with your Microsoft Office environment. It evaluates knowledge of front-end/back-end database development using MS Access.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Excel (General)",
-    "description": "This Microsoft Excel (general) test evaluates a candidate's ability to effectively use Excel for data management and analysis. This screening test will help you hire professionals who can optimize data handling and decision-making.",
+    "overview": "This Microsoft Excel (general) test evaluates a candidate's ability to effectively use Excel for data management and analysis. This screening test will help you hire professionals who can optimize data handling and decision-making.",
     "duration": "12 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft SQL Server",
-    "description": "This Microsoft SQL Server test evaluates a candidate’s ability to work effectively in Microsoft SQL Server. This screening test will help you hire SQL Server professionals with hands-on experience in development and administration.",
+    "overview": "This Microsoft SQL Server test evaluates a candidate’s ability to work effectively in Microsoft SQL Server. This screening test will help you hire SQL Server professionals with hands-on experience in development and administration.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Word",
-    "description": "This Microsoft Word test evaluates candidates’ abilities to use Microsoft Word in a business context. This test will help you hire candidates who are proficient in Word and can use it as part of the Microsoft 365 suite.",
+    "overview": "This Microsoft Word test evaluates candidates’ abilities to use Microsoft Word in a business context. This test will help you hire candidates who are proficient in Word and can use it as part of the Microsoft 365 suite.",
     "duration": "12 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Working With Generative AI",
-    "description": "This Working With Generative AI test assesses candidates’ understanding and application of generative models. This screening test will help you hire experts who can leverage AI for innovative solutions and efficient workflows.",
+    "overview": "This Working With Generative AI test assesses candidates’ understanding and application of generative models. This screening test will help you hire experts who can leverage AI for innovative solutions and efficient workflows.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "PostgreSQL",
-    "description": "This PostgreSQL test evaluates candidates’ skills and knowledge of PostgreSQL implementation, administration, and optimization. This test identifies database administrators with real-world skills to handle relational database systems with PostgreSQL.",
+    "overview": "This PostgreSQL test evaluates candidates’ skills and knowledge of PostgreSQL implementation, administration, and optimization. This test identifies database administrators with real-world skills to handle relational database systems with PostgreSQL.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "MongoDB",
-    "description": "The MongoDB test evaluates candidates’ skills in the database solution and their ability to apply best practices for security, infrastructure, performance, and reliability. This test helps you identify candidates with strong MongoDB skills.",
+    "overview": "The MongoDB test evaluates candidates’ skills in the database solution and their ability to apply best practices for security, infrastructure, performance, and reliability. This test helps you identify candidates with strong MongoDB skills.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Adobe Photoshop for designers",
-    "description": "This Adobe Photoshop test evaluates candidates’ technical skills in Photoshop, focusing on their ability to manipulate and combine images with text and other elements to create artwork for a variety of purposes and media.",
+    "overview": "This Adobe Photoshop test evaluates candidates’ technical skills in Photoshop, focusing on their ability to manipulate and combine images with text and other elements to create artwork for a variety of purposes and media.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "WordPress Developer",
-    "description": "The WordPress Developer test assesses candidates’ knowledge in the infrastructure of WordPress and coding skills for the platform. This test will help you hire WordPress developers who can set up a WordPress site and develop plugins for your needs.",
+    "overview": "The WordPress Developer test assesses candidates’ knowledge in the infrastructure of WordPress and coding skills for the platform. This test will help you hire WordPress developers who can set up a WordPress site and develop plugins for your needs.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft SharePoint Administration",
-    "description": "This Microsoft SharePoint Administration test evaluates a candidate’s ability to configure lists and libraries, manage records, and ensure compliance. This screening test will help you hire administrators who can make sure legal requirements are met.",
+    "overview": "This Microsoft SharePoint Administration test evaluates a candidate’s ability to configure lists and libraries, manage records, and ensure compliance. This screening test will help you hire administrators who can make sure legal requirements are met.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Magento 2",
-    "description": "The Magento 2 test assesses candidates’ skills and knowledge in developing Magento 2 modules, themes, and eCommerce websites. This test will help you hire experienced Magento 2 developers who can meet your development needs.",
+    "overview": "The Magento 2 test assesses candidates’ skills and knowledge in developing Magento 2 modules, themes, and eCommerce websites. This test will help you hire experienced Magento 2 developers who can meet your development needs.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Email Skills (Microsoft Outlook)",
-    "description": "This Email Skills (Microsoft Outlook) test evaluates candidates’ general email skills using Outlook. This test will help you hire candidates who understand email etiquette and basic email processes in a business context using the Microsoft Office suite.",
+    "overview": "This Email Skills (Microsoft Outlook) test evaluates candidates’ general email skills using Outlook. This test will help you hire candidates who understand email etiquette and basic email processes in a business context using the Microsoft Office suite.",
     "duration": "12 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "NGINX",
-    "description": "The NGINX screening test evaluates candidates' practical knowledge in implementing, monitoring, and troubleshooting NGINX on personal or cloud-based servers. This intermediate test covers NGINX skills from setup to optimization.",
+    "overview": "The NGINX screening test evaluates candidates' practical knowledge in implementing, monitoring, and troubleshooting NGINX on personal or cloud-based servers. This intermediate test covers NGINX skills from setup to optimization.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Snowflake",
-    "description": "This Snowflake test evaluates candidates' expertise in data architecture, SQL, integration, and optimization. This screening test will help you hire top data professionals who drive business efficiency.",
+    "overview": "This Snowflake test evaluates candidates' expertise in data architecture, SQL, integration, and optimization. This screening test will help you hire top data professionals who drive business efficiency.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "NetSuite Administration",
-    "description": "This NetSuite administration test evaluates candidates’ proficiency in managing and configuring NetSuite, including custom workflows, forms, fields, scripting, user roles, permissions, integration, data management, financial management, and SuiteCommerce.",
+    "overview": "This NetSuite administration test evaluates candidates’ proficiency in managing and configuring NetSuite, including custom workflows, forms, fields, scripting, user roles, permissions, integration, data management, financial management, and SuiteCommerce.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Sheets",
-    "description": "This Google Sheets test evaluates candidates’ familiarity with technical features of the spreadsheet program and their ability to use it for data management and analysis. This test helps identify candidates who are well-versed in using Google Sheets.",
+    "overview": "This Google Sheets test evaluates candidates’ familiarity with technical features of the spreadsheet program and their ability to use it for data management and analysis. This test helps identify candidates who are well-versed in using Google Sheets.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Sage 300",
-    "description": "This Sage 300 test evaluates candidates’ technical knowledge of the software and ability to perform both daily transactions and routine periodic processes. This test helps you identify candidates who are well versed in Sage 300 and use it effectively.",
+    "overview": "This Sage 300 test evaluates candidates’ technical knowledge of the software and ability to perform both daily transactions and routine periodic processes. This test helps you identify candidates who are well versed in Sage 300 and use it effectively.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SketchUp Pro",
-    "description": "This SketchUp Pro test evaluates candidates’ abilities with the software and their ability to create detailed and organized 3D models for presentations and photorealistic renderings. This hiring test identifies skilled, intermediate SketchUp Pro users.",
+    "overview": "This SketchUp Pro test evaluates candidates’ abilities with the software and their ability to create detailed and organized 3D models for presentations and photorealistic renderings. This hiring test identifies skilled, intermediate SketchUp Pro users.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft 365 (Bundle)",
-    "description": "This Microsoft 365 (Bundle) test combines questions from our Word, Excel (general), and PowerPoint tests with new questions on other 365 apps, such as Teams, SharePoint, and Forms. Use this screening test to help hire for roles using 365 on a daily basis.",
+    "overview": "This Microsoft 365 (Bundle) test combines questions from our Word, Excel (general), and PowerPoint tests with new questions on other 365 apps, such as Teams, SharePoint, and Forms. Use this screening test to help hire for roles using 365 on a daily basis.",
     "duration": "11 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Linux",
-    "description": "This Linux test assesses candidates’ technical knowledge of the Linux operating system. This Linux screening test will help you identify candidates skilled in Linux administration.",
+    "overview": "This Linux test assesses candidates’ technical knowledge of the Linux operating system. This Linux screening test will help you identify candidates skilled in Linux administration.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SQL Server Management Studio",
-    "description": "This SQL Server Management Studio (SSMS) test is designed to assess candidates’ abilities to use SSMS tools to design, develop, and manage databases on SQL Servers. This screening test will help you hire candidates who can use SSMS effectively.",
+    "overview": "This SQL Server Management Studio (SSMS) test is designed to assess candidates’ abilities to use SSMS tools to design, develop, and manage databases on SQL Servers. This screening test will help you hire candidates who can use SSMS effectively.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Salesforce CRM",
-    "description": "The Salesforce Customer Relationship Management (CRM) test evaluates candidates’ familiarity with the basic concepts and standard functionality of Salesforce CRM. This test will help you hire candidates who have experience using Salesforce in their roles.",
+    "overview": "The Salesforce Customer Relationship Management (CRM) test evaluates candidates’ familiarity with the basic concepts and standard functionality of Salesforce CRM. This test will help you hire candidates who have experience using Salesforce in their roles.",
     "duration": "10 mins",
     "select_questions": "18 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Working with Midjourney",
-    "description": "This Working with Midjourney test evaluates candidates’ ability to generate art, combining technical skills and artistic creativity. This screening test will help you hire artists and designers capable of producing original and captivating visual content.",
+    "overview": "This Working with Midjourney test evaluates candidates’ ability to generate art, combining technical skills and artistic creativity. This screening test will help you hire artists and designers capable of producing original and captivating visual content.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Figma",
-    "description": "This Figma test evaluates candidates’ technical knowledge of the software and their ability to create designs that prize UX/UI using Figma’s design system. This test helps you identify designers who are well-versed in Figma and use it effectively.",
+    "overview": "This Figma test evaluates candidates’ technical knowledge of the software and their ability to create designs that prize UX/UI using Figma’s design system. This test helps you identify designers who are well-versed in Figma and use it effectively.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Wireshark",
-    "description": "This Wireshark test evaluates candidate knowledge and skills to effectively and efficiently use Wireshark to analyze networks while identifying issues for troubleshooting, performance improvement, security enhancement, and capacity planning.",
+    "overview": "This Wireshark test evaluates candidate knowledge and skills to effectively and efficiently use Wireshark to analyze networks while identifying issues for troubleshooting, performance improvement, security enhancement, and capacity planning.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"

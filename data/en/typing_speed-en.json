@@ -1,28 +1,28 @@
 [
   {
     "title": "Typing Speed (Lowercase Only)",
-    "description": "This test evaluates candidates’ typing speed in words per minute (WPM) by providing a randomly generated sequence of words separated by a space. This test contains only lowercase letters, without capitalization or punctuation.",
+    "overview": "This test evaluates candidates’ typing speed in words per minute (WPM) by providing a randomly generated sequence of words separated by a space. This test contains only lowercase letters, without capitalization or punctuation.",
     "duration": "2 mins",
     "select_questions": "1 question",
     "type": "Typing"
   },
   {
     "title": "10-Key Typing (Decimals and Operators)",
-    "description": "This 10-key typing test evaluates candidates’ ability to accurately and efficiently enter numerical data using all keys on a keyboard's numeric pad. This test measures the speed and accuracy of a person's data entry skills in keystrokes per hour (KPH).",
+    "overview": "This 10-key typing test evaluates candidates’ ability to accurately and efficiently enter numerical data using all keys on a keyboard's numeric pad. This test measures the speed and accuracy of a person's data entry skills in keystrokes per hour (KPH).",
     "duration": "2 mins",
     "select_questions": "1 question",
     "type": "Typing"
   },
   {
     "title": "10-Key Typing (Numbers only)",
-    "description": "This 10-key typing test evaluates candidates’ ability to accurately and efficiently enter numerical data using the ten keys on a keyboard's numeric pad. This test measures the speed and accuracy of a person's data entry skills in keystrokes per hour (KPH)",
+    "overview": "This 10-key typing test evaluates candidates’ ability to accurately and efficiently enter numerical data using the ten keys on a keyboard's numeric pad. This test measures the speed and accuracy of a person's data entry skills in keystrokes per hour (KPH)",
     "duration": "2 mins",
     "select_questions": "1 question",
     "type": "Typing"
   },
   {
     "title": "Typing Speed (Capitalization and Punctuation)",
-    "description": "This test evaluates candidates’ typing speed in words per minute (WPM) by providing a randomly selected sequence of meaningful paragraphs. This test contains capitalization and punctuation.",
+    "overview": "This test evaluates candidates’ typing speed in words per minute (WPM) by providing a randomly selected sequence of meaningful paragraphs. This test contains capitalization and punctuation.",
     "duration": "2 mins",
     "select_questions": "1 question",
     "type": "Typing"

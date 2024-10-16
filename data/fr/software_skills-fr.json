@@ -1,266 +1,266 @@
 [
   {
     "title": "Compétences informatiques (PC)",
-    "description": "Le test de connaissances en informatique est destiné à évaluer les connaissances de base et la capacité à utiliser les ordinateurs et les technologies connexes dans un environnement professionnel. Ce test vous aide à identifier les candidat·e·s qui sont prêt·e·s à exécuter des fonctions de travail de base sur un ordinateur.",
+    "overview": "Le test de connaissances en informatique est destiné à évaluer les connaissances de base et la capacité à utiliser les ordinateurs et les technologies connexes dans un environnement professionnel. Ce test vous aide à identifier les candidat·e·s qui sont prêt·e·s à exécuter des fonctions de travail de base sur un ordinateur.",
     "duration": "9 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "MariaDB (dév.)",
-    "description": "Ce test MariaDB (développement) évalue la capacité des candidats à développer dans MariaDB. Ce test de sélection vous aidera à recruter des experts en MariaDB capables de faire fonctionner efficacement votre base de données.",
+    "overview": "Ce test MariaDB (développement) évalue la capacité des candidats à développer dans MariaDB. Ce test de sélection vous aidera à recruter des experts en MariaDB capables de faire fonctionner efficacement votre base de données.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Excel (avancé)",
-    "description": "Ce test Excel avancé évalue la maîtrise par les candidats d’un large éventail de fonctions et de formules d’Excel. Ce test vous aidera à identifier les candidats capables d’organiser des données et d’en tirer des conclusions à l’aide de Microsoft Excel.",
+    "overview": "Ce test Excel avancé évalue la maîtrise par les candidats d’un large éventail de fonctions et de formules d’Excel. Ce test vous aidera à identifier les candidats capables d’organiser des données et d’en tirer des conclusions à l’aide de Microsoft Excel.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Tableau",
-    "description": "Ce test Tableau évalue la capacité des candidats à utiliser le logiciel pour gérer des données, créer des visualisations pour des perspectives et des objectifs commerciaux, et créer des tableaux de bord pour les utilisateurs. Ce test vous aidera à identifier les candidats ayant de solides compétences en Tableau.",
+    "overview": "Ce test Tableau évalue la capacité des candidats à utiliser le logiciel pour gérer des données, créer des visualisations pour des perspectives et des objectifs commerciaux, et créer des tableaux de bord pour les utilisateurs. Ce test vous aidera à identifier les candidats ayant de solides compétences en Tableau.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Elasticsearch",
-    "description": "Ce test Elasticsearch évalue les compétences techniques des candidats dans l’utilisation d'Elasticsearch et leur capacité à le déployer, le configurer et l’intégrer à d'autres outils pertinents de la pile ELK. Ce test de recrutement permet d'identifier les candidats compétents dans l'utilisation d'Elasticsearch.",
+    "overview": "Ce test Elasticsearch évalue les compétences techniques des candidats dans l’utilisation d'Elasticsearch et leur capacité à le déployer, le configurer et l’intégrer à d'autres outils pertinents de la pile ELK. Ce test de recrutement permet d'identifier les candidats compétents dans l'utilisation d'Elasticsearch.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Docker",
-    "description": "Le test Docker évalue la capacité d'un candidat à déployer, configurer, administrer et diagnostiquer les pannes de Docker sur la base de scénarios réels. Ce test vous aide à embaucher des candidats ayant une expérience pratique de Docker et capables de travailler de manière autonome.",
+    "overview": "Le test Docker évalue la capacité d'un candidat à déployer, configurer, administrer et diagnostiquer les pannes de Docker sur la base de scénarios réels. Ce test vous aide à embaucher des candidats ayant une expérience pratique de Docker et capables de travailler de manière autonome.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Excel (général)",
-    "description": "Ce test évalue l'aptitude à utiliser Excel: lire/interpréter des feuilles de calcul, calculs de base, manipulation de tableaux. Idéal pour recruter des utilisateurs compétents en Excel de Microsoft Office.",
+    "overview": "Ce test évalue l'aptitude à utiliser Excel: lire/interpréter des feuilles de calcul, calculs de base, manipulation de tableaux. Idéal pour recruter des utilisateurs compétents en Excel de Microsoft Office.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Windows",
-    "description": "Ce test Microsoft Windows évalue la compréhension et l’application des concepts de base de Windows par les candidats. Il vous aide à embaucher des candidats qui sont à l’aise avec Windows comme framework de la suite logicielle Microsoft Office.",
+    "overview": "Ce test Microsoft Windows évalue la compréhension et l’application des concepts de base de Windows par les candidats. Il vous aide à embaucher des candidats qui sont à l’aise avec Windows comme framework de la suite logicielle Microsoft Office.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Ads",
-    "description": "Le test Google Ads évalue les connaissances des candidats sur les principaux concepts et les fonctionnalités essentielles de Google Ads. Ce test vous aidera à recruter des experts de Google Ads capables d'utiliser la plateforme pour obtenir des résultats tant pour les campagnes de recherche que pour les campagnes payantes.",
+    "overview": "Le test Google Ads évalue les connaissances des candidats sur les principaux concepts et les fonctionnalités essentielles de Google Ads. Ce test vous aidera à recruter des experts de Google Ads capables d'utiliser la plateforme pour obtenir des résultats tant pour les campagnes de recherche que pour les campagnes payantes.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Active Directory",
-    "description": "Ce test Active Directory évalue les compétences de mise en œuvre et d'administration lors du recrutement. Le test aide les employeurs à identifier les candidats capables d'installer, d'exploiter et de diagnostiquer efficacement Active Directory dans un réseau informatique de petite ou moyenne taille.",
+    "overview": "Ce test Active Directory évalue les compétences de mise en œuvre et d'administration lors du recrutement. Le test aide les employeurs à identifier les candidats capables d'installer, d'exploiter et de diagnostiquer efficacement Active Directory dans un réseau informatique de petite ou moyenne taille.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Terraform",
-    "description": "Ce test Terraform évalue les connaissances techniques des candidats sur Terraform. Ce test vous aidera à identifier les ingénieurs qui maîtrisent bien Terraform et sont capables de l'utiliser efficacement comme outil de mise en œuvre de l'infrastructure en tant que code.",
+    "overview": "Ce test Terraform évalue les connaissances techniques des candidats sur Terraform. Ce test vous aidera à identifier les ingénieurs qui maîtrisent bien Terraform et sont capables de l'utiliser efficacement comme outil de mise en œuvre de l'infrastructure en tant que code.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Email (Microsoft Outlook)",
-    "description": "Le test Email (Microsoft Outlook) évalue les compétences des candidats en courrier électronique avec MS Outlook. Facilite le recrutement de candidats maîtrisant l'étiquette et les bases de la messagerie dans un contexte professionnel avec Microsoft Office",
+    "overview": "Le test Email (Microsoft Outlook) évalue les compétences des candidats en courrier électronique avec MS Outlook. Facilite le recrutement de candidats maîtrisant l'étiquette et les bases de la messagerie dans un contexte professionnel avec Microsoft Office",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Oracle DBMS",
-    "description": "Ce test sur Oracle DBMS évalue les connaissances techniques des candidats sur la base de données Oracle, notamment l'architecture de la base de données, la structure de stockage, les objets de schéma, les techniques de sauvegarde et de récupération et la gestion de la sécurité de la base de données.",
+    "overview": "Ce test sur Oracle DBMS évalue les connaissances techniques des candidats sur la base de données Oracle, notamment l'architecture de la base de données, la structure de stockage, les objets de schéma, les techniques de sauvegarde et de récupération et la gestion de la sécurité de la base de données.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Slides",
-    "description": "Ce test Google Slides évalue les connaissances techniques des candidats sur l'outil et leur capacité à concevoir et construire des diaporamas attrayants, tout en adoptant des approches intelligentes et efficaces pour le faire.",
+    "overview": "Ce test Google Slides évalue les connaissances techniques des candidats sur l'outil et leur capacité à concevoir et construire des diaporamas attrayants, tout en adoptant des approches intelligentes et efficaces pour le faire.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Git",
-    "description": "Ce test Git évalue les connaissances techniques des candidats sur Git. Ce test vous aidera à identifier les ingénieurs et les développeurs qui maîtrisent bien Git et sont capables de l'utiliser comme outil pour travailler sur de grands projets logiciels.",
+    "overview": "Ce test Git évalue les connaissances techniques des candidats sur Git. Ce test vous aidera à identifier les ingénieurs et les développeurs qui maîtrisent bien Git et sont capables de l'utiliser comme outil pour travailler sur de grands projets logiciels.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Confluence Cloud",
-    "description": "Les tests de Confluence Cloud évaluent les connaissances techniques des candidats sur le logiciel et leur capacité à effectuer des tâches d'administration et des actions utilisateur. Ce test vous aide à identifier les utilisateurs qui maîtrisent bien Confluence Cloud et l'utilisent efficacement.",
+    "overview": "Les tests de Confluence Cloud évaluent les connaissances techniques des candidats sur le logiciel et leur capacité à effectuer des tâches d'administration et des actions utilisateur. Ce test vous aide à identifier les utilisateurs qui maîtrisent bien Confluence Cloud et l'utilisent efficacement.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Kubernetes",
-    "description": "Le test Kubernetes évalue la capacité des candidats à déployer, configurer, administrer et dépanner Kubernetes via des scénarios réalistes, permettant d'identifier ceux possédant des compétences solides en administration Kubernetes.",
+    "overview": "Le test Kubernetes évalue la capacité des candidats à déployer, configurer, administrer et dépanner Kubernetes via des scénarios réalistes, permettant d'identifier ceux possédant des compétences solides en administration Kubernetes.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "VMware",
-    "description": "Ce test VMware évalue les compétences techniques des candidats et leur connaissance de VMware vSphere, des machines virtuelles et des technologies connexes. Ce test de sélection vous aidera à recruter des experts en virtualisation VMware pour réduire vos coûts et améliorer votre efficacité.",
+    "overview": "Ce test VMware évalue les compétences techniques des candidats et leur connaissance de VMware vSphere, des machines virtuelles et des technologies connexes. Ce test de sélection vous aidera à recruter des experts en virtualisation VMware pour réduire vos coûts et améliorer votre efficacité.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "CAO SolidWorks 3D",
-    "description": "Ce test de CAO 3D SolidWorks évalue la maîtrise du logiciel SolidWorks par les candidats, ainsi que leur compréhension de la manière d'utiliser le logiciel comme outil pour résoudre des problèmes pratiques de conception technique et de fabrication.",
+    "overview": "Ce test de CAO 3D SolidWorks évalue la maîtrise du logiciel SolidWorks par les candidats, ainsi que leur compréhension de la manière d'utiliser le logiciel comme outil pour résoudre des problèmes pratiques de conception technique et de fabrication.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft PowerPoint",
-    "description": "Ce test Microsoft PowerPoint évalue les compétences conceptuelles et créatives des candidats en matière de conception de présentations convaincantes. Il teste également leurs compétences techniques en matière de création de diapositives efficaces à l'aide de PowerPoint, qui fait partie de la suite Microsoft Office.",
+    "overview": "Ce test Microsoft PowerPoint évalue les compétences conceptuelles et créatives des candidats en matière de conception de présentations convaincantes. Il teste également leurs compétences techniques en matière de création de diapositives efficaces à l'aide de PowerPoint, qui fait partie de la suite Microsoft Office.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Messagerie électronique (Gmail)",
-    "description": "Ce test Gmail évalue les compétences générales des candidats en matière de messagerie électronique via Gmail. Ce test vous aidera à recruter des candidats qui comprennent les processus de base de la messagerie électronique, qui connaissent les meilleures pratiques et l'étiquette appropriée au courrier électronique dans un contexte professionnel et capables de les appliquer dans Gmail.",
+    "overview": "Ce test Gmail évalue les compétences générales des candidats en matière de messagerie électronique via Gmail. Ce test vous aidera à recruter des candidats qui comprennent les processus de base de la messagerie électronique, qui connaissent les meilleures pratiques et l'étiquette appropriée au courrier électronique dans un contexte professionnel et capables de les appliquer dans Gmail.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Docs",
-    "description": "Ce test Google Docs évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des documents pour l'impression et le Web. Ce test vous permet d'identifier les créateurs de documents qui maîtrisent bien Google Docs et l'utilisent efficacement.",
+    "overview": "Ce test Google Docs évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des documents pour l'impression et le Web. Ce test vous permet d'identifier les créateurs de documents qui maîtrisent bien Google Docs et l'utilisent efficacement.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Salesforce CRM",
-    "description": "Le test CRM Salesforce évalue la connaissance des candidats des concepts de base et des fonctionnalités standard du CRM Salesforce. Il facilite l'embauche de candidats avec une expérience dans l'utilisation de Salesforce dans leurs fonctions.",
+    "overview": "Le test CRM Salesforce évalue la connaissance des candidats des concepts de base et des fonctionnalités standard du CRM Salesforce. Il facilite l'embauche de candidats avec une expérience dans l'utilisation de Salesforce dans leurs fonctions.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Microsoft Word",
-    "description": "Le test Microsoft Word évalue la capacité des candidats à utiliser Word professionnellement, facilitant le recrutement de candidats maîtrisant Word et l'intégrant efficacement dans Microsoft Office pour leurs tâches.",
+    "overview": "Le test Microsoft Word évalue la capacité des candidats à utiliser Word professionnellement, facilitant le recrutement de candidats maîtrisant Word et l'intégrant efficacement dans Microsoft Office pour leurs tâches.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Power BI",
-    "description": "Ce test Power BI évalue les connaissances et compétences techniques des candidats s au niveau du logiciel et leur capacité à créer des conceptions informatives et visuellement attrayantes. Ce test vous aide à identifier les candidats qui sont des utilisateurs compétents de Microsoft Power BI.",
+    "overview": "Ce test Power BI évalue les connaissances et compétences techniques des candidats s au niveau du logiciel et leur capacité à créer des conceptions informatives et visuellement attrayantes. Ce test vous aide à identifier les candidats qui sont des utilisateurs compétents de Microsoft Power BI.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "AutoCAD",
-    "description": "Ce test AutoCAD évalue la capacité des candidats à produire, modifier et gérer des dessins pertinents pour n'importe quelle industrie, en 2D et en 3D. Ce test de sélection vous aidera à recruter des experts en conception qui maîtrisent AutoCAD et ne nécessitent aucune formation supplémentaire.",
+    "overview": "Ce test AutoCAD évalue la capacité des candidats à produire, modifier et gérer des dessins pertinents pour n'importe quelle industrie, en 2D et en 3D. Ce test de sélection vous aidera à recruter des experts en conception qui maîtrisent AutoCAD et ne nécessitent aucune formation supplémentaire.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "IT/Engineering Microsoft 365",
-    "description": "Ce test Microsoft 365 évalue les compétences techniques des candidats utilisant la plateforme Microsoft 365 (Exchange Online, Azure Active Directory, SharePoint et Microsoft Teams) et leur capacité à évaluer, concevoir, déployer et gérer les services Microsoft 365.",
+    "overview": "Ce test Microsoft 365 évalue les compétences techniques des candidats utilisant la plateforme Microsoft 365 (Exchange Online, Azure Active Directory, SharePoint et Microsoft Teams) et leur capacité à évaluer, concevoir, déployer et gérer les services Microsoft 365.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Cybersécurité",
-    "description": "Ce test de cybersécurité évalue les connaissances techniques des candidats en matière de cybersécurité et leur capacité à identifier et à traiter les menaces. Ce test vous aidera à identifier des experts pour diverses fonctions dans le domaine de la cybersécurité.",
+    "overview": "Ce test de cybersécurité évalue les connaissances techniques des candidats en matière de cybersécurité et leur capacité à identifier et à traiter les menaces. Ce test vous aidera à identifier des experts pour diverses fonctions dans le domaine de la cybersécurité.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SAP Ariba",
-    "description": "Ce test SAP Ariba permet d'évaluer les compétences techniques et fonctionnelles des employés et consultants de la chaîne logistique liées à SAP Ariba. Il vous aidera à identifier les candidats les plus à même de proposer des solutions créatives et des opérations SAP Ariba efficaces.",
+    "overview": "Ce test SAP Ariba permet d'évaluer les compétences techniques et fonctionnelles des employés et consultants de la chaîne logistique liées à SAP Ariba. Il vous aidera à identifier les candidats les plus à même de proposer des solutions créatives et des opérations SAP Ariba efficaces.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Analytics",
-    "description": "Le test Google Analytics évalue les connaissances et l'expérience des candidats sur cet outil. Il facilite le recrutement d'experts capables de configurer, interpréter les rapports et prendre des décisions pour atteindre les objectifs commerciaux.",
+    "overview": "Le test Google Analytics évalue les connaissances et l'expérience des candidats sur cet outil. Il facilite le recrutement d'experts capables de configurer, interpréter les rapports et prendre des décisions pour atteindre les objectifs commerciaux.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Modélisation financière dans Excel",
-    "description": "Le test de modélisation financière évalue compétences en finance et évaluation, ainsi que la capacité à créer et entretenir des modèles financiers avec Excel. Il facilite le recrutement de professionnels de la finance travaillant fréquemment avec Excel.",
+    "overview": "Le test de modélisation financière évalue compétences en finance et évaluation, ainsi que la capacité à créer et entretenir des modèles financiers avec Excel. Il facilite le recrutement de professionnels de la finance travaillant fréquemment avec Excel.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "MongoDB",
-    "description": "Le test MongoDB évalue les compétences des candidats dans la solution de base de données et leur capacité à appliquer les meilleures pratiques en matière de sécurité, d'infrastructure, de performance et de fiabilité. Ce test vous aide à identifier les candidats ayant de solides compétences en MongoDB.",
+    "overview": "Le test MongoDB évalue les compétences des candidats dans la solution de base de données et leur capacité à appliquer les meilleures pratiques en matière de sécurité, d'infrastructure, de performance et de fiabilité. Ce test vous aide à identifier les candidats ayant de solides compétences en MongoDB.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Adobe Photoshop pour designers",
-    "description": "Ce test Adobe Photoshop évalue les compétences techniques des candidats dans Photoshop, en mettant l'accent suvr leur capacité à manipuler et à combiner des images avec du texte et d'autres éléments pour créer des œuvres d'art pour une variété d’objectifs et de médias.",
+    "overview": "Ce test Adobe Photoshop évalue les compétences techniques des candidats dans Photoshop, en mettant l'accent suvr leur capacité à manipuler et à combiner des images avec du texte et d'autres éléments pour créer des œuvres d'art pour une variété d’objectifs et de médias.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Magento 2",
-    "description": "Le test Magento 2 évalue les compétences et les connaissances des candidats en matière de développement de modules, de thèmes et de sites de commerce électronique Magento 2. Ce test vous aidera à recruter des développeurs Magento 2 expérimentés qui pourront répondre à vos besoins en matière de développement.",
+    "overview": "Le test Magento 2 évalue les compétences et les connaissances des candidats en matière de développement de modules, de thèmes et de sites de commerce électronique Magento 2. Ce test vous aidera à recruter des développeurs Magento 2 expérimentés qui pourront répondre à vos besoins en matière de développement.",
     "duration": "10 mins",
     "select_questions": "12 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Google Sheets",
-    "description": "Ce test Google Sheets évalue la connaissance des candidats des fonctionnalités techniques du tableur et leur capacité à l'utiliser pour la gestion et l'analyse des données. Ce test permet d'identifier les candidats qui maîtrisent correctement l'utilisation de Google Sheets.",
+    "overview": "Ce test Google Sheets évalue la connaissance des candidats des fonctionnalités techniques du tableur et leur capacité à l'utiliser pour la gestion et l'analyse des données. Ce test permet d'identifier les candidats qui maîtrisent correctement l'utilisation de Google Sheets.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SketchUp Pro",
-    "description": "Ce test SketchUp Pro évalue les compétences des candidats liées au logiciel et leur capacité à créer des modélisations 3D détaillées et organisées pour des présentations et des rendus photoréalistes. Ce test de recrutement permet d'identifier les utilisateurs qualifiés de niveau intermédiaire de SketchUp Pro.",
+    "overview": "Ce test SketchUp Pro évalue les compétences des candidats liées au logiciel et leur capacité à créer des modélisations 3D détaillées et organisées pour des présentations et des rendus photoréalistes. Ce test de recrutement permet d'identifier les utilisateurs qualifiés de niveau intermédiaire de SketchUp Pro.",
     "duration": "10 mins",
     "select_questions": "15 questions",
     "type": "Multiple choice"
   },
   {
     "title": "SQL Server Management Studio",
-    "description": "This SQL Server Management Studio (SSMS) test is designed to assess candidates’ abilities to use SSMS tools to design, develop, and manage databases on SQL Servers. This screening test will help you hire candidates who can use SSMS effectively.",
+    "overview": "This SQL Server Management Studio (SSMS) test is designed to assess candidates’ abilities to use SSMS tools to design, develop, and manage databases on SQL Servers. This screening test will help you hire candidates who can use SSMS effectively.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"
   },
   {
     "title": "Figma",
-    "description": "Ce test Figma évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des conceptions qui valorisent l'UX/UI en utilisant le système de conception Figma. Ce test vous permet d'identifier les concepteurs qui maîtrisent bien Figma et l'utilisent efficacement.",
+    "overview": "Ce test Figma évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des conceptions qui valorisent l'UX/UI en utilisant le système de conception Figma. Ce test vous permet d'identifier les concepteurs qui maîtrisent bien Figma et l'utilisent efficacement.",
     "duration": "10 mins",
     "select_questions": "16 questions",
     "type": "Multiple choice"

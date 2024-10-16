@@ -1,8 +1,10 @@
-Generate test data with a pool of 40+ questions. The number of questions to be answered by the user is specified by `questions_to_answer`. Estimate `duration_seconds` based on `questions_to_answer`, keeping in mind the level of the questions. The questions should be in French.
+we're developing an app like TestGorilla where you create an assessment and invite candidates to pass it
+so for the Test library we need some tests data
 
-Don't forget the application levels, which can be chosen from the following enum:
-level: { entry_level: 0, intermediate: 1, advanced: 2 }
+Generate test data with a pool of 40+ questions. The number of questions to be answered by the user is specified by `questions_to_answer`. Estimate `duration_seconds` based on `questions_to_answer`, keeping in mind level of test which can be one of these (entry_level, intermediate, advanced)
 
-In question options, you can add multiple correct answers and preferably add between 5 to 10 options, with the correct ones being between 1 and 4.
+and mark 3 to 4 question as preview.
 
-Mark 3 to 4 questions as preview always. Provide the output as JSON.
+also the type of question can be either multiple-choice (select one) or multiple_response (select multiple)
+
+for the Count of options as test gorilla said in its doc: (For each question, you can provide between two and ten options, but 4 is the most often)

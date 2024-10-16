@@ -1,42 +1,42 @@
 [
   {
     "title": "Motivation",
-    "description": "Rooted in Oldham & Hackman’s Job Characteristics Model, the job preferences test measures the extent to which your candidates' expectations align with your job offer, based on a customized survey that you and the candidate both fill out.",
+    "overview": "Rooted in Oldham & Hackman’s Job Characteristics Model, the job preferences test measures the extent to which your candidates' expectations align with your job offer, based on a customized survey that you and the candidate both fill out.",
     "duration": "15 mins",
     "select_questions": "20 questions",
     "type": "Questionnaire"
   },
   {
     "title": "Big 5 (OCEAN)",
-    "description": "The big 5 personality test follows the Five-Factor Model, an empirical-based theory in psychology that evaluates five overarching dimensions of personality: openness, conscientiousness, extroversion, agreeableness, and emotional stability.",
+    "overview": "The big 5 personality test follows the Five-Factor Model, an empirical-based theory in psychology that evaluates five overarching dimensions of personality: openness, conscientiousness, extroversion, agreeableness, and emotional stability.",
     "duration": "10 mins",
     "select_questions": "50 questions",
     "type": "Questionnaire"
   },
   {
     "title": "DISC",
-    "description": "The DISC test is based on the model developed by psychologist William Marston for behavioral assessment. It classifies how we express emotions into the four behavior types of DISC: dominance (D), influence (I), steadiness (S), and conscientiousness (C).",
+    "overview": "The DISC test is based on the model developed by psychologist William Marston for behavioral assessment. It classifies how we express emotions into the four behavior types of DISC: dominance (D), influence (I), steadiness (S), and conscientiousness (C).",
     "duration": "10 mins",
     "select_questions": "48 questions",
     "type": "Questionnaire"
   },
   {
     "title": "Culture add",
-    "description": "This culture add test assesses how a candidate’s values and behaviors align with your organization values and the behaviors that would make your ideal hire successful in a specific role, based on a customized survey you fill out.",
+    "overview": "This culture add test assesses how a candidate’s values and behaviors align with your organization values and the behaviors that would make your ideal hire successful in a specific role, based on a customized survey you fill out.",
     "duration": "10 mins",
     "select_questions": "20 questions",
     "type": "Questionnaire"
   },
   {
     "title": "Enneagram",
-    "description": "The Enneagram test follows the personality model developed in the teachings of O. Ichazo and C. Naranjo. The model maps out nine different personalities on a nine-pointed diagram describing the core beliefs and the worldview each one operates from.",
+    "overview": "The Enneagram test follows the personality model developed in the teachings of O. Ichazo and C. Naranjo. The model maps out nine different personalities on a nine-pointed diagram describing the core beliefs and the worldview each one operates from.",
     "duration": "10 mins",
     "select_questions": "45 questions",
     "type": "Questionnaire"
   },
   {
     "title": "16 Types",
-    "description": "Based on the work of Carl Jung, the 16 Types test gives insight into a candidate’s source of energy, the way they process information, how they make decisions, and the kind of lifestyle they prefer.",
+    "overview": "Based on the work of Carl Jung, the 16 Types test gives insight into a candidate’s source of energy, the way they process information, how they make decisions, and the kind of lifestyle they prefer.",
     "duration": "10 mins",
     "select_questions": "36 questions",
     "type": "Questionnaire"
