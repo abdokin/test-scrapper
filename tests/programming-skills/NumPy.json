@@ -1,0 +1,959 @@
+{
+  "title": "NumPy : Compétences en manipulation de données numériques",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur NumPy et leur capacité à résoudre des tâches de mise en situation en utilisant les fonctionnalités de la bibliothèque Python.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Création et manipulation d'arrays",
+      "Opérations mathématiques vectorisées",
+      "Indexation et slicing avancés",
+      "Fonctions universelles (ufuncs)",
+      "Algèbre linéaire",
+      "Statistiques descriptives",
+      "Gestion de la mémoire",
+      "Broadcasting",
+      "Traitement de données structurées",
+      "Optimisation des performances"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de data scientist, analyste de données, ingénieur en apprentissage automatique ou développeur scientifique Python.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de NumPy, évaluant la capacité du candidat à utiliser efficacement cette bibliothèque pour l'analyse et le traitement de données numériques.",
+    "category": "Data Science",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale structure de données utilisée dans NumPy ?"
+      },
+      "options": [
+        {
+          "content": "ndarray",
+          "correct": true
+        },
+        {
+          "content": "list"
+        },
+        {
+          "content": "DataFrame"
+        },
+        {
+          "content": "Series"
+        },
+        {
+          "content": "Matrix"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un array NumPy rempli de zéros de taille 3x3 ?"
+      },
+      "options": [
+        {
+          "content": "np.zeros((3, 3))",
+          "correct": true
+        },
+        {
+          "content": "np.zero(3, 3)"
+        },
+        {
+          "content": "np.empty((3, 3))"
+        },
+        {
+          "content": "np.null((3, 3))"
+        },
+        {
+          "content": "np.create((3, 3), 0)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour calculer la moyenne d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.mean()",
+          "correct": true
+        },
+        {
+          "content": "np.average()",
+          "correct": true
+        },
+        {
+          "content": "np.median()"
+        },
+        {
+          "content": "np.sum() / len()"
+        },
+        {
+          "content": "np.calculate_mean()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la différence entre np.array() et np.asarray() ?"
+      },
+      "options": [
+        {
+          "content": "np.asarray() ne crée pas de nouvelle copie si l'entrée est déjà un ndarray",
+          "correct": true
+        },
+        {
+          "content": "np.array() ne peut pas créer d'arrays multidimensionnels"
+        },
+        {
+          "content": "np.asarray() ne fonctionne qu'avec des listes"
+        },
+        {
+          "content": "np.array() est plus rapide"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment sélectionner tous les éléments pairs d'un array NumPy ?"
+      },
+      "options": [
+        {
+          "content": "arr[arr % 2 == 0]",
+          "correct": true
+        },
+        {
+          "content": "arr[arr / 2]"
+        },
+        {
+          "content": "arr[::2]"
+        },
+        {
+          "content": "np.even(arr)"
+        },
+        {
+          "content": "arr.select_even()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer le produit scalaire de deux vecteurs ?"
+      },
+      "options": [
+        {
+          "content": "np.dot()",
+          "correct": true
+        },
+        {
+          "content": "np.cross()"
+        },
+        {
+          "content": "np.inner()",
+          "correct": true
+        },
+        {
+          "content": "np.outer()"
+        },
+        {
+          "content": "np.product()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment reshaper un array 1D de longueur 12 en un array 3x4 ?"
+      },
+      "options": [
+        {
+          "content": "arr.reshape(3, 4)",
+          "correct": true
+        },
+        {
+          "content": "np.reshape(arr, (3, 4))",
+          "correct": true
+        },
+        {
+          "content": "arr.resize(3, 4)"
+        },
+        {
+          "content": "np.resize(arr, (3, 4))"
+        },
+        {
+          "content": "arr.shape = (3, 4)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction NumPy pour générer des nombres aléatoires suivant une distribution normale ?"
+      },
+      "options": [
+        {
+          "content": "np.random.normal()",
+          "correct": true
+        },
+        {
+          "content": "np.random.gaussian()"
+        },
+        {
+          "content": "np.random.randn()",
+          "correct": true
+        },
+        {
+          "content": "np.random.standard_normal()",
+          "correct": true
+        },
+        {
+          "content": "np.random.norm()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer la transposée d'une matrice NumPy ?"
+      },
+      "options": [
+        {
+          "content": "arr.T",
+          "correct": true
+        },
+        {
+          "content": "np.transpose(arr)",
+          "correct": true
+        },
+        {
+          "content": "arr.transpose()",
+          "correct": true
+        },
+        {
+          "content": "np.T(arr)"
+        },
+        {
+          "content": "arr.switch()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour trouver les valeurs uniques dans un array ?"
+      },
+      "options": [
+        {
+          "content": "np.unique()",
+          "correct": true
+        },
+        {
+          "content": "np.distinct()"
+        },
+        {
+          "content": "np.set()"
+        },
+        {
+          "content": "arr.unique()"
+        },
+        {
+          "content": "np.different()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuer une multiplication élément par élément de deux arrays NumPy ?"
+      },
+      "options": [
+        {
+          "content": "arr1 * arr2",
+          "correct": true
+        },
+        {
+          "content": "np.multiply(arr1, arr2)",
+          "correct": true
+        },
+        {
+          "content": "arr1.dot(arr2)"
+        },
+        {
+          "content": "np.product(arr1, arr2)"
+        },
+        {
+          "content": "arr1 @ arr2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer la somme cumulée d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.cumsum()",
+          "correct": true
+        },
+        {
+          "content": "np.sum()"
+        },
+        {
+          "content": "np.cumulativesum()"
+        },
+        {
+          "content": "np.addcum()"
+        },
+        {
+          "content": "np.running_sum()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un array NumPy avec une séquence de nombres de 0 à 9 ?"
+      },
+      "options": [
+        {
+          "content": "np.arange(10)",
+          "correct": true
+        },
+        {
+          "content": "np.range(10)"
+        },
+        {
+          "content": "np.sequence(10)"
+        },
+        {
+          "content": "np.linspace(0, 9, 10)",
+          "correct": true
+        },
+        {
+          "content": "np.array(range(10))",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour calculer la valeur absolue de chaque élément d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.abs()",
+          "correct": true
+        },
+        {
+          "content": "np.absolute()",
+          "correct": true
+        },
+        {
+          "content": "np.fabs()",
+          "correct": true
+        },
+        {
+          "content": "np.magnitude()"
+        },
+        {
+          "content": "arr.abs()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer la moyenne le long de l'axe 0 d'un array 2D ?"
+      },
+      "options": [
+        {
+          "content": "np.mean(arr, axis=0)",
+          "correct": true
+        },
+        {
+          "content": "np.average(arr, dim=0)"
+        },
+        {
+          "content": "arr.mean(0)"
+        },
+        {
+          "content": "np.mean(arr, dim=0)"
+        },
+        {
+          "content": "arr.average(axis=0)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour trouver l'index du maximum d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.argmax()",
+          "correct": true
+        },
+        {
+          "content": "np.maxindex()"
+        },
+        {
+          "content": "np.wheremax()"
+        },
+        {
+          "content": "np.indexmax()"
+        },
+        {
+          "content": "arr.argmax()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une copie profonde d'un array NumPy ?"
+      },
+      "options": [
+        {
+          "content": "np.copy(arr)",
+          "correct": true
+        },
+        {
+          "content": "arr.copy()",
+          "correct": true
+        },
+        {
+          "content": "arr.deepcopy()"
+        },
+        {
+          "content": "np.deepcopy(arr)"
+        },
+        {
+          "content": "arr[:]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour calculer le déterminant d'une matrice carrée ?"
+      },
+      "options": [
+        {
+          "content": "np.linalg.det()",
+          "correct": true
+        },
+        {
+          "content": "np.det()"
+        },
+        {
+          "content": "np.determinant()"
+        },
+        {
+          "content": "np.linalg.determinant()"
+        },
+        {
+          "content": "arr.det()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuer une division élément par élément de deux arrays NumPy, en ignorant les divisions par zéro ?"
+      },
+      "options": [
+        {
+          "content": "np.divide(arr1, arr2, where=arr2!=0)",
+          "correct": true
+        },
+        {
+          "content": "arr1 / arr2"
+        },
+        {
+          "content": "np.divide(arr1, arr2, ignore_zero=True)"
+        },
+        {
+          "content": "np.safe_divide(arr1, arr2)"
+        },
+        {
+          "content": "arr1.divide(arr2, ignore_errors=True)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer la racine carrée de chaque élément d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.sqrt()",
+          "correct": true
+        },
+        {
+          "content": "np.square_root()"
+        },
+        {
+          "content": "np.root()"
+        },
+        {
+          "content": "arr.sqrt()"
+        },
+        {
+          "content": "np.power(arr, 0.5)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment concaténer deux arrays NumPy verticalement ?"
+      },
+      "options": [
+        {
+          "content": "np.vstack((arr1, arr2))",
+          "correct": true
+        },
+        {
+          "content": "np.concatenate((arr1, arr2), axis=0)",
+          "correct": true
+        },
+        {
+          "content": "np.append(arr1, arr2, axis=0)"
+        },
+        {
+          "content": "np.vertical_stack(arr1, arr2)"
+        },
+        {
+          "content": "np.row_stack((arr1, arr2))",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour calculer la moyenne mobile d'un array 1D ?"
+      },
+      "options": [
+        {
+          "content": "np.convolve()",
+          "correct": true
+        },
+        {
+          "content": "np.moving_average()"
+        },
+        {
+          "content": "np.rolling_mean()"
+        },
+        {
+          "content": "np.sliding_window_mean()"
+        },
+        {
+          "content": "np.cumsum() avec slicing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un array NumPy avec des valeurs espacées linéairement entre 0 et 1 (inclus) avec 5 éléments ?"
+      },
+      "options": [
+        {
+          "content": "np.linspace(0, 1, 5)",
+          "correct": true
+        },
+        {
+          "content": "np.arange(0, 1, 0.25)"
+        },
+        {
+          "content": "np.space(0, 1, 5)"
+        },
+        {
+          "content": "np.range(0, 1, 5)"
+        },
+        {
+          "content": "np.linearly_spaced(0, 1, 5)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer le produit de tous les éléments d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.prod()",
+          "correct": true
+        },
+        {
+          "content": "np.product()"
+        },
+        {
+          "content": "np.multiply.reduce()",
+          "correct": true
+        },
+        {
+          "content": "np.cumprod().max()"
+        },
+        {
+          "content": "arr.prod()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment inverser l'ordre des éléments dans un array NumPy 1D ?"
+      },
+      "options": [
+        {
+          "content": "arr[::-1]",
+          "correct": true
+        },
+        {
+          "content": "np.flip(arr)",
+          "correct": true
+        },
+        {
+          "content": "arr.reverse()"
+        },
+        {
+          "content": "np.reverse(arr)"
+        },
+        {
+          "content": "arr[::-1].copy()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour trouver les indices des éléments non nuls d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.nonzero()",
+          "correct": true
+        },
+        {
+          "content": "np.where(arr != 0)",
+          "correct": true
+        },
+        {
+          "content": "np.find_nonzero()"
+        },
+        {
+          "content": "arr.nonzero()",
+          "correct": true
+        },
+        {
+          "content": "np.not_zero()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer la médiane d'un array NumPy ?"
+      },
+      "options": [
+        {
+          "content": "np.median()",
+          "correct": true
+        },
+        {
+          "content": "np.middle()"
+        },
+        {
+          "content": "np.percentile(arr, 50)",
+          "correct": true
+        },
+        {
+          "content": "arr.median()"
+        },
+        {
+          "content": "np.average(arr, weights=np.ones_like(arr))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer l'exponentielle de chaque élément d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.exp()",
+          "correct": true
+        },
+        {
+          "content": "np.power(np.e, arr)"
+        },
+        {
+          "content": "np.exponential()"
+        },
+        {
+          "content": "arr.exp()"
+        },
+        {
+          "content": "np.e**arr",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment trouver l'index du minimum d'un array NumPy ?"
+      },
+      "options": [
+        {
+          "content": "np.argmin()",
+          "correct": true
+        },
+        {
+          "content": "np.min_index()"
+        },
+        {
+          "content": "np.where(arr == np.min(arr))",
+          "correct": true
+        },
+        {
+          "content": "arr.index(min(arr))"
+        },
+        {
+          "content": "arr.argmin()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour calculer la covariance entre deux arrays 1D ?"
+      },
+      "options": [
+        {
+          "content": "np.cov()",
+          "correct": true
+        },
+        {
+          "content": "np.covariance()"
+        },
+        {
+          "content": "np.correlation()"
+        },
+        {
+          "content": "np.covmatrix()"
+        },
+        {
+          "content": "np.dot((arr1 - arr1.mean()), (arr2 - arr2.mean())) / (len(arr1) - 1)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un array NumPy avec des valeurs aléatoires entre 0 et 1 de taille 3x3 ?"
+      },
+      "options": [
+        {
+          "content": "np.random.random((3, 3))",
+          "correct": true
+        },
+        {
+          "content": "np.random.rand(3, 3)",
+          "correct": true
+        },
+        {
+          "content": "np.random.uniform(0, 1, (3, 3))",
+          "correct": true
+        },
+        {
+          "content": "np.random.sample((3, 3))",
+          "correct": true
+        },
+        {
+          "content": "np.random.create((3, 3))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer le sinus de chaque élément d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.sin()",
+          "correct": true
+        },
+        {
+          "content": "np.sine()"
+        },
+        {
+          "content": "np.trigonometry.sin()"
+        },
+        {
+          "content": "arr.sin()"
+        },
+        {
+          "content": "np.sinus()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment aplatir un array NumPy multidimensionnel en un array 1D ?"
+      },
+      "options": [
+        {
+          "content": "arr.flatten()",
+          "correct": true
+        },
+        {
+          "content": "arr.ravel()",
+          "correct": true
+        },
+        {
+          "content": "np.flatten(arr)"
+        },
+        {
+          "content": "arr.reshape(-1)",
+          "correct": true
+        },
+        {
+          "content": "np.hstack(arr)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction NumPy utilisez-vous pour trier un array ?"
+      },
+      "options": [
+        {
+          "content": "np.sort()",
+          "correct": true
+        },
+        {
+          "content": "arr.sort()",
+          "correct": true
+        },
+        {
+          "content": "np.order()"
+        },
+        {
+          "content": "arr.order()"
+        },
+        {
+          "content": "np.sorted(arr)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer la somme cumulée le long de l'axe 0 d'un array 2D ?"
+      },
+      "options": [
+        {
+          "content": "np.cumsum(arr, axis=0)",
+          "correct": true
+        },
+        {
+          "content": "arr.cumsum(axis=0)",
+          "correct": true
+        },
+        {
+          "content": "np.sum(arr, axis=0, cumulative=True)"
+        },
+        {
+          "content": "np.cumulativesum(arr, dim=0)"
+        },
+        {
+          "content": "np.add.accumulate(arr, axis=0)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction NumPy pour calculer le logarithme naturel de chaque élément d'un array ?"
+      },
+      "options": [
+        {
+          "content": "np.log()",
+          "correct": true
+        },
+        {
+          "content": "np.ln()"
+        },
+        {
+          "content": "np.natural_log()"
+        },
+        {
+          "content": "arr.log()"
+        },
+        {
+          "content": "np.logarithm()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer la différence entre éléments consécutifs d'un array NumPy ?"
+      },
+      "options": [
+        {
+          "content": "np.diff()",
+          "correct": true
+        },
+        {
+          "content": "arr[1:] - arr[:-1]",
+          "correct": true
+        },
+        {
+          "content": "np.subtract.adjacent()"
+        },
+        {
+          "content": "arr.difference()"
+        },
+        {
+          "content": "np.gradient(arr)",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
