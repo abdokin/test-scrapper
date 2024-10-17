@@ -70,7 +70,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les composants matériels essentiels d'un ordinateur personnel ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les composants matériels essentiels d'un ordinateur personnel ?"
       },
       "options": [
         {
@@ -164,7 +164,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quelles sont les bonnes pratiques pour créer un mot de passe sécurisé ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour créer un mot de passe sécurisé ?"
       },
       "options": [
         {
@@ -235,7 +235,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages du stockage en cloud ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages du stockage en cloud ?"
       },
       "options": [
         {
@@ -307,7 +307,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quelles sont les bonnes pratiques pour maintenir un ordinateur en bon état de fonctionnement ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour maintenir un ordinateur en bon état de fonctionnement ?"
       },
       "options": [
         {
@@ -401,7 +401,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages de l'utilisation de raccourcis clavier ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages de l'utilisation de raccourcis clavier ?"
       },
       "options": [
         {
@@ -473,7 +473,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quelles sont les bonnes pratiques pour protéger ses données personnelles en ligne ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour protéger ses données personnelles en ligne ?"
       },
       "options": [
         {
@@ -545,7 +545,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages d'utiliser plusieurs moniteurs ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages d'utiliser plusieurs moniteurs ?"
       },
       "options": [
         {
@@ -616,7 +616,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les signes potentiels d'une infection par un virus informatique ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les signes potentiels d'une infection par un virus informatique ?"
       },
       "options": [
         {
@@ -688,7 +688,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages d'utiliser un VPN ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages d'utiliser un VPN ?"
       },
       "options": [
         {
@@ -760,7 +760,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quelles sont les bonnes pratiques pour gérer efficacement ses e-mails professionnels ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour gérer efficacement ses e-mails professionnels ?"
       },
       "options": [
         {
@@ -854,7 +854,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages d'utiliser un SSD par rapport à un HDD ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages d'utiliser un SSD par rapport à un HDD ?"
       },
       "options": [
         {
@@ -926,7 +926,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quelles sont les bonnes pratiques pour protéger un ordinateur portable en déplacement ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour protéger un ordinateur portable en déplacement ?"
       },
       "options": [
         {
@@ -998,7 +998,7 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": false,
-        "content": "Quels sont les avantages d'utiliser un gestionnaire de mots de passe ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages d'utiliser un gestionnaire de mots de passe ?"
       },
       "options": [
         {

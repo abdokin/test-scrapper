@@ -3,140 +3,120 @@
     "title": "Principes fondamentaux de l’électricité",
     "overview": "Ce test sur les principes fondamentaux de l’électricité évalue les connaissances des candidats sur les principes et les sujets de base de l’électricité. Le test vous aide à identifier les candidats capables de s’approcher des circuits et équipements électriques pour les dépanner ou en assurer la maintenance.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Chargé de clientèle (ventes B2B)",
     "overview": "Le test de chargé de clientèle (ventes B2B) évalue la capacité des candidats à gérer une relation commerciale avec des clients existants et à conclure de nouvelles affaires. Ce test vous aide à identifier les chargés de clientèle capables de gérer des processus de vente B2B complexes.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "DevOps",
     "overview": "Le test DevOps évalue les connaissances des candidats sur les concepts et les pratiques DevOps et détermine s'ils peuvent appliquer ces connaissances pour améliorer l'infrastructure, accélérer la mise sur le marché et réduire le taux d'échec des nouvelles versions.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Comptabilité avancée (IFRS)",
     "overview": "Le test de comptabilité avancée (IFRS) évalue les connaissances comptables des candidats, y compris l’écriture comptable et le calcul des chiffres comptables ainsi que la gestion des pièces comptables conformément aux IFRS. Il aide à identifier les candidats ayant de solides compétences en comptabilité/tenue de livres.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Scrum Master",
     "overview": "Ce test Scrum Master évalue la capacité des candidats à appliquer le framework Scrum dans des situations professionnelles réelles. Ce test de sélection vous aidera à identifier les candidats dont l'expérience pratique de Scrum Master peut améliorer les performances de vos équipes agiles.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Jugement commercial",
     "overview": "Ce test évalue la capacité des candidats à faire des compromis et prendre de bonnes décisions dans un contexte commercial, aidant à recruter des cadres et consultants en stratégie capables de détecter la valeur.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Account Management",
     "overview": "Ce test de Account Management évalue la capacité du candidat à servir et à développer des comptes de clients de manière efficace. Ce test vous aidera à recruter des experts en gestion de comptes qui augmentent les revenus tout en établissant et en maintenant des relations stratégiques pour votre entreprise.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Analyse exploratoire des données",
     "overview": "Ce test d’analyse exploratoire des données (EDA) évalue la capacité d’un candidat à comprendre et à interpréter statistiquement des données pour en tirer des informations exploitables. Ce test d’embauche vous permet d’identifier les candidats ayant une bonne connaissance de l’EDA et de diverses analyses statistiques.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Google Ads",
     "overview": "Le test Google Ads évalue les connaissances des candidats sur les principaux concepts et les fonctionnalités essentielles de Google Ads. Ce test vous aidera à recruter des experts de Google Ads capables d'utiliser la plateforme pour obtenir des résultats tant pour les campagnes de recherche que pour les campagnes payantes.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Hôtellerie (hors restauration)",
     "overview": "Ce test d'hôtellerie évalue les compétences (non techniques), l'attitude et le jugement d'un candidat dans des scénarios typiquement rencontrés par le personnel hôtelier. Ce test vous aide à recruter des professionnels de niveau débutant à intermédiaire dans le secteur hôtelier.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Customer success manager (SaaS)",
     "overview": "Ce test pour customer success manager évalue la capacité des candidats à identifier et à résoudre les problèmes de la clientèle par une approche axée sur les données, qui se concentre sur le parcours client et sur l’établissement de relations positives entre la clientèle et l’entreprise.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Responsable d’entrepôt",
     "overview": "Ce test de responsable d’entrepôt évalue la capacité du la candidat à superviser et à encadrer avec succès des activités d’entrepôt complexes. Ce test de sélection peut vous assurer que vous recrutez un responsable d’entrepôt capable de superviser de manière fiable les principales opérations de l’entrepôt.",
     "duration": "12 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Ventes externes (B2B)",
     "overview": "Ce test de ventes externes (B2B) évalue les compétences des candidats à vendre des produits par le biais de la vente transactionnelle et externe. Ce test vous aidera à identifier les candidats capables de qualifier des leads, de gérer des prospects et de surmonter les objections pour conclure des ventes avec succès.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Dimensionnement et tolérances géométriques (GD&T)",
     "overview": "Ce test sur le concept GD&T évalue la capacité des candidats à comprendre des dessins en utilisant le langage des dimensions et des tolérances géométriques. Il évalue la connaissance du candidat sur les principes, les concepts et les pratiques de GD&T avec les normes ASME Y14.5 actuelles.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Relation client (SaaS)",
     "overview": "Ce test pour les représentants de la réussite client évalue la capacité des candidats à servir les clients et à interagir avec eux de manière proactive, en particulier dans un environnement SaaS, en évaluant à la fois la façon dont ils et elles appréhendent les problèmes des clients et leurs compétences en matière de résolution de ces derniers.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Recrutement",
     "overview": "Ce test d'acquisition de talents évalue les compétences de base nécessaires à la recherche, au recrutement et à l'intégration des candidats.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "CVC (chauffage, ventilation et climatisation)",
     "overview": "Ce test CVC (chauffage, ventilation et climatisation) évalue la capacité des candidats à entretenir les équipements CVC. Ce test de sélection vous aidera à recruter des techniciens ayant une expérience pratique et concrète.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Rédaction SEO",
     "overview": "Le test de rédaction SEO évalue les connaissances des candidats en matière de bonnes pratiques de référencement et leurs capacités à aider les pages web à se classer parmi les premiers résultats des moteurs de recherche. Ce test vous aidera à recruter des experts en rédaction SEO, capables d’utiliser des mots-clés et du contenu optimisés pour accroître votre trafic.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Adobe Illustrator",
     "overview": "Ce test Adobe Illustrator évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des designs pour impression et le Web. Ce test vous permet d'identifier les concepteurs qui maîtrisent Adobe Illustrator et l'utilisent efficacement.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "UX/UI design",
     "overview": "Ce test de conception UX/UI évalue la maîtrise des processus de design par les candidats. Ce test de sélection vous aidera à embaucher des experts capables de cerner les besoins des chaque utilisateur et de concevoir des produits numériques intuitifs et des interfaces qui offrent une expérience utilisateur exceptionnelle.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   }
 ]

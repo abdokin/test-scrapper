@@ -1,0 +1,940 @@
+{
+  "title": "Tableau",
+  "attributes": {
+    "overview": "Ce test Tableau évalue la capacité des candidats à utiliser le logiciel pour gérer des données, créer des visualisations pour des perspectives et des objectifs commerciaux, et créer des tableaux de bord pour les utilisateurs.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion des données",
+      "Création de visualisations",
+      "Conception de tableaux de bord",
+      "Analyse de données",
+      "Fonctionnalités avancées de Tableau"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en analyse de données et en création de visualisations interactives.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Tableau, évaluant la capacité du candidat à manipuler des données, créer des visualisations efficaces et concevoir des tableaux de bord interactifs.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité de Tableau permet de combiner plusieurs sources de données ?"
+      },
+      "options": [
+        {
+          "content": "Data Blending",
+          "correct": true
+        },
+        {
+          "content": "Data Joining"
+        },
+        {
+          "content": "Data Merging"
+        },
+        {
+          "content": "Data Fusion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour comparer des valeurs entre différentes catégories ?"
+      },
+      "options": [
+        {
+          "content": "Graphique à barres",
+          "correct": true
+        },
+        {
+          "content": "Graphique en courbes"
+        },
+        {
+          "content": "Nuage de points"
+        },
+        {
+          "content": "Graphique circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de fichiers Tableau peut-il lire directement ?"
+      },
+      "options": [
+        {
+          "content": "CSV",
+          "correct": true
+        },
+        {
+          "content": "Excel",
+          "correct": true
+        },
+        {
+          "content": "JSON",
+          "correct": true
+        },
+        {
+          "content": "PDF"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction est utilisée pour calculer la somme cumulative dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "RUNNING_SUM()",
+          "correct": true
+        },
+        {
+          "content": "SUM()"
+        },
+        {
+          "content": "TOTAL()"
+        },
+        {
+          "content": "CUMULATIVE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel terme désigne une colonne calculée dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Champ calculé",
+          "correct": true
+        },
+        {
+          "content": "Colonne dérivée"
+        },
+        {
+          "content": "Mesure calculée"
+        },
+        {
+          "content": "Dimension calculée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des hiérarchies personnalisées ?"
+      },
+      "options": [
+        {
+          "content": "Groupes",
+          "correct": true
+        },
+        {
+          "content": "Ensembles"
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Paramètres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de jointures sont disponibles dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Interne",
+          "correct": true
+        },
+        {
+          "content": "Gauche",
+          "correct": true
+        },
+        {
+          "content": "Droite",
+          "correct": true
+        },
+        {
+          "content": "Complète",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Actions",
+          "correct": true
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Paramètres"
+        },
+        {
+          "content": "Calculs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel type de graphique est le plus approprié pour montrer la composition d'un tout ?"
+      },
+      "options": [
+        {
+          "content": "Graphique circulaire",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres empilées"
+        },
+        {
+          "content": "Nuage de points"
+        },
+        {
+          "content": "Graphique en courbes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des segments de données basés sur des conditions ?"
+      },
+      "options": [
+        {
+          "content": "Ensembles",
+          "correct": true
+        },
+        {
+          "content": "Groupes"
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Hiérarchies"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de calculs de table sont disponibles dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Running Total",
+          "correct": true
+        },
+        {
+          "content": "Percent of Total",
+          "correct": true
+        },
+        {
+          "content": "Rank",
+          "correct": true
+        },
+        {
+          "content": "Moving Average",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations géographiques ?"
+      },
+      "options": [
+        {
+          "content": "Cartes",
+          "correct": true
+        },
+        {
+          "content": "Graphiques à bulles"
+        },
+        {
+          "content": "Treemaps"
+        },
+        {
+          "content": "Histogrammes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction LOD (Level of Detail) est utilisée pour calculer une valeur au niveau le plus granulaire ?"
+      },
+      "options": [
+        {
+          "content": "FIXED",
+          "correct": true
+        },
+        {
+          "content": "INCLUDE"
+        },
+        {
+          "content": "EXCLUDE"
+        },
+        {
+          "content": "DETAIL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de champ est généralement utilisé pour les mesures dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Nombres",
+          "correct": true
+        },
+        {
+          "content": "Chaînes de caractères"
+        },
+        {
+          "content": "Dates"
+        },
+        {
+          "content": "Booléens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de filtres sont disponibles dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Filtres de dimension",
+          "correct": true
+        },
+        {
+          "content": "Filtres de mesure",
+          "correct": true
+        },
+        {
+          "content": "Filtres de date",
+          "correct": true
+        },
+        {
+          "content": "Filtres contextuels",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des calculs dynamiques basés sur la sélection de l'utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Paramètres",
+          "correct": true
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Actions"
+        },
+        {
+          "content": "Ensembles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour montrer la distribution d'une variable continue ?"
+      },
+      "options": [
+        {
+          "content": "Histogramme",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres"
+        },
+        {
+          "content": "Graphique circulaire"
+        },
+        {
+          "content": "Graphique en courbes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives avec plusieurs vues liées ?"
+      },
+      "options": [
+        {
+          "content": "Tableaux de bord",
+          "correct": true
+        },
+        {
+          "content": "Feuilles de calcul"
+        },
+        {
+          "content": "Histoires"
+        },
+        {
+          "content": "Workbooks"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de jointures sont possibles entre des sources de données dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Left Join",
+          "correct": true
+        },
+        {
+          "content": "Right Join",
+          "correct": true
+        },
+        {
+          "content": "Inner Join",
+          "correct": true
+        },
+        {
+          "content": "Full Outer Join",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour calculer la différence entre deux dates dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "DATEDIFF()",
+          "correct": true
+        },
+        {
+          "content": "DATESUBSTRACT()"
+        },
+        {
+          "content": "DATECALC()"
+        },
+        {
+          "content": "DATEMINUS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de champ est généralement utilisé pour les dimensions dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Chaînes de caractères",
+          "correct": true
+        },
+        {
+          "content": "Nombres"
+        },
+        {
+          "content": "Dates"
+        },
+        {
+          "content": "Booléens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de calculs de table sont disponibles dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Différence",
+          "correct": true
+        },
+        {
+          "content": "Pourcentage de la différence",
+          "correct": true
+        },
+        {
+          "content": "Pourcentage du total",
+          "correct": true
+        },
+        {
+          "content": "Classement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des segments de données basés sur des conditions ?"
+      },
+      "options": [
+        {
+          "content": "Ensembles",
+          "correct": true
+        },
+        {
+          "content": "Groupes"
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Hiérarchies"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour montrer l'évolution d'une variable au fil du temps ?"
+      },
+      "options": [
+        {
+          "content": "Graphique en courbes",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres"
+        },
+        {
+          "content": "Graphique circulaire"
+        },
+        {
+          "content": "Nuage de points"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Actions",
+          "correct": true
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Paramètres"
+        },
+        {
+          "content": "Calculs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Actions",
+          "correct": true
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Paramètres"
+        },
+        {
+          "content": "Calculs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques sont recommandés pour comparer des valeurs entre différentes catégories ?"
+      },
+      "options": [
+        {
+          "content": "Graphique à barres",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres empilées",
+          "correct": true
+        },
+        {
+          "content": "Treemap",
+          "correct": true
+        },
+        {
+          "content": "Graphique en courbes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour créer une moyenne mobile dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "WINDOW_AVG()",
+          "correct": true
+        },
+        {
+          "content": "MOVING_AVG()"
+        },
+        {
+          "content": "ROLLING_MEAN()"
+        },
+        {
+          "content": "AVG_OVER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de jointure dans Tableau retourne tous les enregistrements de la table de gauche et les enregistrements correspondants de la table de droite ?"
+      },
+      "options": [
+        {
+          "content": "Left Join",
+          "correct": true
+        },
+        {
+          "content": "Right Join"
+        },
+        {
+          "content": "Inner Join"
+        },
+        {
+          "content": "Full Outer Join"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de calculs de niveau de détail (LOD) sont disponibles dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "FIXED",
+          "correct": true
+        },
+        {
+          "content": "INCLUDE",
+          "correct": true
+        },
+        {
+          "content": "EXCLUDE",
+          "correct": true
+        },
+        {
+          "content": "DETAIL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer une série de visualisations liées pour raconter une histoire avec les données ?"
+      },
+      "options": [
+        {
+          "content": "Story Points",
+          "correct": true
+        },
+        {
+          "content": "Dashboards"
+        },
+        {
+          "content": "Worksheets"
+        },
+        {
+          "content": "Data Narratives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour montrer la corrélation entre deux variables numériques ?"
+      },
+      "options": [
+        {
+          "content": "Nuage de points",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres"
+        },
+        {
+          "content": "Graphique circulaire"
+        },
+        {
+          "content": "Treemap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour partager un tableau de bord Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Tableau Server",
+          "correct": true
+        },
+        {
+          "content": "Tableau Online",
+          "correct": true
+        },
+        {
+          "content": "Tableau Public",
+          "correct": true
+        },
+        {
+          "content": "Export PDF",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour trouver la valeur maximale dans un ensemble de données dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "MAX()",
+          "correct": true
+        },
+        {
+          "content": "MAXIMUM()"
+        },
+        {
+          "content": "LARGEST()"
+        },
+        {
+          "content": "TOP()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de champ dans Tableau est généralement utilisé pour représenter des données catégorielles ?"
+      },
+      "options": [
+        {
+          "content": "Dimension",
+          "correct": true
+        },
+        {
+          "content": "Mesure"
+        },
+        {
+          "content": "Paramètre"
+        },
+        {
+          "content": "Calculé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de filtres peuvent être appliqués à l'échelle du classeur dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Filtres de source de données",
+          "correct": true
+        },
+        {
+          "content": "Filtres d'extrait",
+          "correct": true
+        },
+        {
+          "content": "Filtres globaux",
+          "correct": true
+        },
+        {
+          "content": "Filtres contextuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Tableau permet de créer des champs calculés basés sur des agrégations ?"
+      },
+      "options": [
+        {
+          "content": "Calculs de table",
+          "correct": true
+        },
+        {
+          "content": "Champs calculés"
+        },
+        {
+          "content": "Expressions LOD"
+        },
+        {
+          "content": "Paramètres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour montrer la distribution et la densité d'une variable continue ?"
+      },
+      "options": [
+        {
+          "content": "Box plot",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres"
+        },
+        {
+          "content": "Graphique circulaire"
+        },
+        {
+          "content": "Treemap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de sources de données Tableau peut-il se connecter directement ?"
+      },
+      "options": [
+        {
+          "content": "Bases de données relationnelles",
+          "correct": true
+        },
+        {
+          "content": "Fichiers plats (CSV, Excel)",
+          "correct": true
+        },
+        {
+          "content": "Cubes OLAP",
+          "correct": true
+        },
+        {
+          "content": "Services cloud (Google Analytics, Salesforce)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour calculer le rang d'une valeur dans un ensemble de données dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "RANK()",
+          "correct": true
+        },
+        {
+          "content": "RANK_UNIQUE()"
+        },
+        {
+          "content": "ORDER()"
+        },
+        {
+          "content": "SORT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de graphique est le plus approprié pour montrer la répartition des valeurs dans un ensemble de données ?"
+      },
+      "options": [
+        {
+          "content": "Boîte à moustaches",
+          "correct": true
+        },
+        {
+          "content": "Graphique à barres"
+        },
+        {
+          "content": "Graphique en courbes"
+        },
+        {
+          "content": "Treemap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes typiques du processus de création de visualisations dans Tableau ?"
+      },
+      "options": [
+        {
+          "content": "Connexion aux données",
+          "correct": true
+        },
+        {
+          "content": "Préparation des données",
+          "correct": true
+        },
+        {
+          "content": "Création de visualisations",
+          "correct": true
+        },
+        {
+          "content": "Création de tableaux de bord",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

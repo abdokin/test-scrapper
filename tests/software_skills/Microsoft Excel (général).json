@@ -1,0 +1,861 @@
+{
+  "title": "Microsoft Excel (général)",
+  "attributes": {
+    "overview": "Ce test évalue l'aptitude à utiliser Excel: lire/interpréter des feuilles de calcul, calculs de base, manipulation de tableaux. Idéal pour recruter des utilisateurs compétents en Excel de Microsoft Office.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Lecture et interprétation de feuilles de calcul",
+      "Calculs de base",
+      "Manipulation de tableaux",
+      "Formules et fonctions",
+      "Formatage des cellules",
+      "Gestion des données",
+      "Graphiques et visualisations",
+      "Raccourcis clavier"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière d'Excel, tels que les analystes de données, les comptables, les gestionnaires de projet et les assistants administratifs.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Microsoft Excel, évaluant la capacité du candidat à utiliser efficacement le logiciel pour diverses tâches de bureau et d'analyse de données.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Excel utiliseriez-vous pour additionner une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "SOMME()",
+          "correct": true
+        },
+        {
+          "content": "ADDITION()"
+        },
+        {
+          "content": "TOTAL()"
+        },
+        {
+          "content": "AJOUTER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel symbole est utilisé pour commencer une formule dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "=",
+          "correct": true
+        },
+        {
+          "content": "+"
+        },
+        {
+          "content": "@"
+        },
+        {
+          "content": "#"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels types de graphiques sont disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Histogramme",
+          "correct": true
+        },
+        {
+          "content": "Secteurs",
+          "correct": true
+        },
+        {
+          "content": "Nuage de points",
+          "correct": true
+        },
+        {
+          "content": "Radar",
+          "correct": true
+        },
+        {
+          "content": "Hologramme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour trouver la valeur la plus élevée dans une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "MAX()",
+          "correct": true
+        },
+        {
+          "content": "GRAND()"
+        },
+        {
+          "content": "HAUT()"
+        },
+        {
+          "content": "MAXIMUM()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous une colonne de tableau qui contient des formules identiques copiées vers le bas ?"
+      },
+      "options": [
+        {
+          "content": "Colonne calculée",
+          "correct": true
+        },
+        {
+          "content": "Colonne de formules"
+        },
+        {
+          "content": "Colonne dynamique"
+        },
+        {
+          "content": "Colonne répétée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules non vides dans une plage ?"
+      },
+      "options": [
+        {
+          "content": "NB()",
+          "correct": true
+        },
+        {
+          "content": "COMPTE()"
+        },
+        {
+          "content": "TOTAL()"
+        },
+        {
+          "content": "SOMME()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le raccourci clavier pour copier dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + C",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + V"
+        },
+        {
+          "content": "Ctrl + X"
+        },
+        {
+          "content": "Ctrl + Z"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de référence de cellule dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Relative",
+          "correct": true
+        },
+        {
+          "content": "Absolue",
+          "correct": true
+        },
+        {
+          "content": "Mixte",
+          "correct": true
+        },
+        {
+          "content": "Dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction utiliseriez-vous pour arrondir un nombre à l'entier supérieur ?"
+      },
+      "options": [
+        {
+          "content": "ARRONDI.SUP()",
+          "correct": true
+        },
+        {
+          "content": "ARRONDI()"
+        },
+        {
+          "content": "ARRONDI.INF()"
+        },
+        {
+          "content": "PLAFOND()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l'opérateur de concaténation dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "&",
+          "correct": true
+        },
+        {
+          "content": "+"
+        },
+        {
+          "content": "|"
+        },
+        {
+          "content": "//"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour trouver une valeur dans un tableau et renvoyer une valeur correspondante d'une autre colonne ?"
+      },
+      "options": [
+        {
+          "content": "RECHERCHEV()",
+          "correct": true
+        },
+        {
+          "content": "CHERCHER()"
+        },
+        {
+          "content": "TROUVER()"
+        },
+        {
+          "content": "INDEX()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des tableaux dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Formules automatiquement mises à jour",
+          "correct": true
+        },
+        {
+          "content": "Facilité de tri et de filtrage",
+          "correct": true
+        },
+        {
+          "content": "Noms de plages automatiques",
+          "correct": true
+        },
+        {
+          "content": "Insertion automatique de graphiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules qui répondent à un critère spécifique ?"
+      },
+      "options": [
+        {
+          "content": "NB.SI()",
+          "correct": true
+        },
+        {
+          "content": "SOMME.SI()"
+        },
+        {
+          "content": "COMPTE.SI()"
+        },
+        {
+          "content": "SI.NB()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le symbole utilisé pour multiplier dans une formule Excel ?"
+      },
+      "options": [
+        {
+          "content": "*",
+          "correct": true
+        },
+        {
+          "content": "x"
+        },
+        {
+          "content": "•"
+        },
+        {
+          "content": "×"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mise en forme conditionnelle disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Jeux d'icônes",
+          "correct": true
+        },
+        {
+          "content": "Barres de données",
+          "correct": true
+        },
+        {
+          "content": "Nuances de couleurs",
+          "correct": true
+        },
+        {
+          "content": "Animations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour combiner le texte de plusieurs cellules en une seule cellule ?"
+      },
+      "options": [
+        {
+          "content": "CONCATENER()",
+          "correct": true
+        },
+        {
+          "content": "JOINDRE()"
+        },
+        {
+          "content": "FUSIONNER()"
+        },
+        {
+          "content": "COMBINER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel onglet contient les options pour créer des graphiques dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Insertion",
+          "correct": true
+        },
+        {
+          "content": "Accueil"
+        },
+        {
+          "content": "Données"
+        },
+        {
+          "content": "Formules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour extraire un certain nombre de caractères d'une chaîne de texte, en commençant par la gauche ?"
+      },
+      "options": [
+        {
+          "content": "GAUCHE()",
+          "correct": true
+        },
+        {
+          "content": "EXTRAIT()"
+        },
+        {
+          "content": "DEBUT()"
+        },
+        {
+          "content": "PRENDRE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des styles de cellules dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence de la mise en forme",
+          "correct": true
+        },
+        {
+          "content": "Application rapide du formatage",
+          "correct": true
+        },
+        {
+          "content": "Facilité de modification globale",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de la taille des cellules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le nombre de jours entre deux dates ?"
+      },
+      "options": [
+        {
+          "content": "DATEDIF()",
+          "correct": true
+        },
+        {
+          "content": "JOURS()"
+        },
+        {
+          "content": "DUREE()"
+        },
+        {
+          "content": "TEMPSENTRE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le raccourci clavier pour insérer la date du jour dans une cellule ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + ;",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + D"
+        },
+        {
+          "content": "Alt + F4"
+        },
+        {
+          "content": "Shift + F3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour trouver la valeur médiane dans une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "MEDIANE()",
+          "correct": true
+        },
+        {
+          "content": "MOYENNE()"
+        },
+        {
+          "content": "MILIEU()"
+        },
+        {
+          "content": "CENTRE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de protection disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Protection de la feuille",
+          "correct": true
+        },
+        {
+          "content": "Protection du classeur",
+          "correct": true
+        },
+        {
+          "content": "Protection des cellules",
+          "correct": true
+        },
+        {
+          "content": "Protection des formules",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour additionner des cellules qui répondent à plusieurs critères ?"
+      },
+      "options": [
+        {
+          "content": "SOMME.SI.ENS()",
+          "correct": true
+        },
+        {
+          "content": "SOMME.MULTIPLE()"
+        },
+        {
+          "content": "SOMME.CRITERES()"
+        },
+        {
+          "content": "SOMME.CONDITION()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le symbole utilisé pour une référence absolue de colonne dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "$",
+          "correct": true
+        },
+        {
+          "content": "#"
+        },
+        {
+          "content": "!"
+        },
+        {
+          "content": "&"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour arrondir un nombre à un certain nombre de décimales ?"
+      },
+      "options": [
+        {
+          "content": "ARRONDI()",
+          "correct": true
+        },
+        {
+          "content": "TRONQUER()"
+        },
+        {
+          "content": "DECIMAL()"
+        },
+        {
+          "content": "PRECIS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de validation des données disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Liste déroulante",
+          "correct": true
+        },
+        {
+          "content": "Nombre entier",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Longueur de texte",
+          "correct": true
+        },
+        {
+          "content": "Couleur de cellule"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour rechercher une valeur dans la première colonne d'un tableau et renvoyer une valeur de la même ligne d'une colonne spécifiée ?"
+      },
+      "options": [
+        {
+          "content": "RECHERCHEH()",
+          "correct": true
+        },
+        {
+          "content": "RECHERCHEV()"
+        },
+        {
+          "content": "INDEX()"
+        },
+        {
+          "content": "EQUIV()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le raccourci clavier pour appliquer ou supprimer le format de pourcentage ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + Maj + %",
+          "correct": true
+        },
+        {
+          "content": "Alt + P"
+        },
+        {
+          "content": "Ctrl + P"
+        },
+        {
+          "content": "Maj + 5"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de filtres avancés disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Filtre par couleur",
+          "correct": true
+        },
+        {
+          "content": "Filtre par icône",
+          "correct": true
+        },
+        {
+          "content": "Filtre par date",
+          "correct": true
+        },
+        {
+          "content": "Filtre par formule",
+          "correct": true
+        },
+        {
+          "content": "Filtre par image"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le taux de rentabilité interne d'une série de flux de trésorerie ?"
+      },
+      "options": [
+        {
+          "content": "TRI()",
+          "correct": true
+        },
+        {
+          "content": "VAN()"
+        },
+        {
+          "content": "TAUX()"
+        },
+        {
+          "content": "RENTABILITE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le symbole utilisé pour une référence relative dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Pas de symbole (ex: A1)",
+          "correct": true
+        },
+        {
+          "content": "$"
+        },
+        {
+          "content": "#"
+        },
+        {
+          "content": "@"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des noms de plages dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Formules plus lisibles",
+          "correct": true
+        },
+        {
+          "content": "Navigation plus facile",
+          "correct": true
+        },
+        {
+          "content": "Réduction des erreurs",
+          "correct": true
+        },
+        {
+          "content": "Calculs plus rapides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour extraire le mois d'une date sous forme de nombre (1-12) ?"
+      },
+      "options": [
+        {
+          "content": "MOIS()",
+          "correct": true
+        },
+        {
+          "content": "MOIS.DEANNEE()"
+        },
+        {
+          "content": "EXTRAIRE.MOIS()"
+        },
+        {
+          "content": "DATE.MOIS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le raccourci clavier pour insérer un commentaire dans une cellule ?"
+      },
+      "options": [
+        {
+          "content": "Maj + F2",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + M"
+        },
+        {
+          "content": "Alt + C"
+        },
+        {
+          "content": "Ctrl + Maj + C"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de graphiques sparkline disponibles dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Ligne",
+          "correct": true
+        },
+        {
+          "content": "Colonne",
+          "correct": true
+        },
+        {
+          "content": "Gain/Perte",
+          "correct": true
+        },
+        {
+          "content": "Secteur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer le rang d'un nombre dans une liste de nombres ?"
+      },
+      "options": [
+        {
+          "content": "RANG()",
+          "correct": true
+        },
+        {
+          "content": "POSITION()"
+        },
+        {
+          "content": "ORDRE()"
+        },
+        {
+          "content": "CLASSEMENT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le symbole utilisé pour une référence de feuille dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "!",
+          "correct": true
+        },
+        {
+          "content": ":"
+        },
+        {
+          "content": "->"
+        },
+        {
+          "content": "@"
+        }
+      ]
+    }
+  ]
+}

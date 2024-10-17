@@ -1,0 +1,963 @@
+{
+  "title": "Elasticsearch",
+  "attributes": {
+    "overview": "Ce test Elasticsearch évalue les compétences techniques des candidats dans l'utilisation d'Elasticsearch et leur capacité à le déployer, le configurer et l'intégrer à d'autres outils pertinents de la pile ELK. Ce test de recrutement permet d'identifier les candidats compétents dans l'utilisation d'Elasticsearch.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Configuration d'Elasticsearch",
+      "Indexation et recherche de données",
+      "Agrégations et analyse",
+      "Mapping et types de données",
+      "Gestion des clusters",
+      "Intégration avec Logstash et Kibana",
+      "Optimisation des performances",
+      "Sécurité et authentification"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en gestion de données, analyse en temps réel, et administration de systèmes de recherche distribuée.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'Elasticsearch, évaluant la capacité du candidat à configurer, utiliser et optimiser Elasticsearch dans divers scénarios.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la commande pour vérifier l'état de santé d'un cluster Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "GET /_cluster/health",
+          "correct": true
+        },
+        {
+          "content": "GET /_status"
+        },
+        {
+          "content": "GET /_cluster/state"
+        },
+        {
+          "content": "GET /_nodes/stats"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le port par défaut pour l'API REST d'Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "9200",
+          "correct": true
+        },
+        {
+          "content": "8080"
+        },
+        {
+          "content": "3000"
+        },
+        {
+          "content": "5601"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les types de nœuds dans un cluster Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Master node",
+          "correct": true
+        },
+        {
+          "content": "Data node",
+          "correct": true
+        },
+        {
+          "content": "Ingest node",
+          "correct": true
+        },
+        {
+          "content": "Coordinating node",
+          "correct": true
+        },
+        {
+          "content": "Storage node"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un index et un type dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Un index peut contenir plusieurs types, qui sont des catégories logiques au sein de l'index",
+          "correct": true
+        },
+        {
+          "content": "Un type peut contenir plusieurs index"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        },
+        {
+          "content": "Un index est pour les données structurées, un type pour les données non structurées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un nouvel index dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "PUT /nom_index",
+          "correct": true
+        },
+        {
+          "content": "CREATE INDEX nom_index"
+        },
+        {
+          "content": "POST /nom_index/create"
+        },
+        {
+          "content": "NEW INDEX nom_index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le langage de requête spécifique à Elasticsearch pour effectuer des recherches avancées ?"
+      },
+      "options": [
+        {
+          "content": "Query DSL",
+          "correct": true
+        },
+        {
+          "content": "SQL"
+        },
+        {
+          "content": "Lucene Query Language"
+        },
+        {
+          "content": "ElasticQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des alias d'index dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la réindexation sans temps d'arrêt",
+          "correct": true
+        },
+        {
+          "content": "Permettre des vues logiques sur les données",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances de recherche"
+        },
+        {
+          "content": "Simplifier la gestion des versions d'index",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de Logstash dans la pile ELK ?"
+      },
+      "options": [
+        {
+          "content": "Collecter, transformer et envoyer des données à Elasticsearch",
+          "correct": true
+        },
+        {
+          "content": "Visualiser les données d'Elasticsearch"
+        },
+        {
+          "content": "Indexer les données dans Elasticsearch"
+        },
+        {
+          "content": "Gérer la sécurité du cluster Elasticsearch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande permet d'obtenir le mapping d'un index spécifique ?"
+      },
+      "options": [
+        {
+          "content": "GET /nom_index/_mapping",
+          "correct": true
+        },
+        {
+          "content": "SHOW MAPPING nom_index"
+        },
+        {
+          "content": "GET /nom_index/structure"
+        },
+        {
+          "content": "DESCRIBE nom_index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un shard dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Une unité de stockage de base qui contient une partie des données de l'index",
+          "correct": true
+        },
+        {
+          "content": "Un type de requête pour la recherche distribuée"
+        },
+        {
+          "content": "Un nœud spécialisé dans le cluster"
+        },
+        {
+          "content": "Un format de données spécifique à Elasticsearch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour optimiser les performances d'Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Ajuster la taille des shards",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des index à champ unique"
+        },
+        {
+          "content": "Configurer correctement le mapping",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le nombre de répliques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre une recherche par terme (term query) et une recherche par texte (match query) ?"
+      },
+      "options": [
+        {
+          "content": "La recherche par terme cherche une correspondance exacte, tandis que la recherche par texte analyse le texte avant la recherche",
+          "correct": true
+        },
+        {
+          "content": "La recherche par terme est plus rapide que la recherche par texte"
+        },
+        {
+          "content": "La recherche par texte ne prend en compte que les champs de type texte"
+        },
+        {
+          "content": "Il n'y a pas de différence significative entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de Kibana dans la pile ELK ?"
+      },
+      "options": [
+        {
+          "content": "Visualiser et explorer les données stockées dans Elasticsearch",
+          "correct": true
+        },
+        {
+          "content": "Collecter et transformer les données"
+        },
+        {
+          "content": "Indexer les données dans Elasticsearch"
+        },
+        {
+          "content": "Gérer la configuration du cluster Elasticsearch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour sauvegarder un cluster Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'API Snapshot and Restore",
+          "correct": true
+        },
+        {
+          "content": "Copier manuellement les fichiers de données"
+        },
+        {
+          "content": "Utiliser la commande 'elasticsearch-backup'"
+        },
+        {
+          "content": "Exporter les données au format JSON"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des agrégations dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Analyser et résumer de grandes quantités de données",
+          "correct": true
+        },
+        {
+          "content": "Effectuer des calculs statistiques",
+          "correct": true
+        },
+        {
+          "content": "Créer des visualisations complexes",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'indexation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un document et un champ dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Un document est une unité de base de données, tandis qu'un champ est une propriété du document",
+          "correct": true
+        },
+        {
+          "content": "Un champ contient plusieurs documents"
+        },
+        {
+          "content": "Un document est un type de champ spécial"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de vérifier la version d'Elasticsearch installée ?"
+      },
+      "options": [
+        {
+          "content": "GET /",
+          "correct": true
+        },
+        {
+          "content": "elasticsearch --version"
+        },
+        {
+          "content": "GET /_version"
+        },
+        {
+          "content": "version"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des analyseurs personnalisés dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Améliorer la pertinence des résultats de recherche",
+          "correct": true
+        },
+        {
+          "content": "Adapter le traitement du texte à des besoins spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'indexation"
+        },
+        {
+          "content": "Permettre une meilleure gestion des langues spécifiques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du score _score dans les résultats de recherche Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Indiquer la pertinence du document par rapport à la requête",
+          "correct": true
+        },
+        {
+          "content": "Représenter la taille du document"
+        },
+        {
+          "content": "Indiquer l'ordre d'indexation du document"
+        },
+        {
+          "content": "Montrer le nombre de champs dans le document"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour effectuer des mises à jour en masse dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'API _bulk",
+          "correct": true
+        },
+        {
+          "content": "Mettre à jour chaque document individuellement"
+        },
+        {
+          "content": "Utiliser une requête SQL UPDATE"
+        },
+        {
+          "content": "Réindexer l'ensemble des données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des index à cycle de vie (ILM) dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Automatiser la gestion des index basée sur leur âge ou taille",
+          "correct": true
+        },
+        {
+          "content": "Optimiser l'utilisation du stockage",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances de recherche sur les données récentes",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'indexation des nouvelles données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un nœud maître (master node) et un nœud de données (data node) dans un cluster Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Le nœud maître gère l'état du cluster, tandis que le nœud de données stocke et traite les données",
+          "correct": true
+        },
+        {
+          "content": "Le nœud maître stocke toutes les données, le nœud de données gère les requêtes"
+        },
+        {
+          "content": "Le nœud maître gère les requêtes des clients, le nœud de données gère l'indexation"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _analyze dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Tester le comportement des analyseurs sur du texte spécifique",
+          "correct": true
+        },
+        {
+          "content": "Analyser les performances du cluster"
+        },
+        {
+          "content": "Créer automatiquement des mappings"
+        },
+        {
+          "content": "Optimiser les requêtes de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des templates d'index dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Appliquer automatiquement des mappings et des paramètres à de nouveaux index",
+          "correct": true
+        },
+        {
+          "content": "Standardiser la structure des index dans un cluster",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances de recherche"
+        },
+        {
+          "content": "Faciliter la gestion des index time-based",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les mises à jour de mapping dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Créer un nouvel index avec le nouveau mapping et réindexer les données",
+          "correct": true
+        },
+        {
+          "content": "Modifier directement le mapping existant"
+        },
+        {
+          "content": "Supprimer l'index et le recréer avec le nouveau mapping"
+        },
+        {
+          "content": "Utiliser l'API _update_mapping pour mettre à jour le mapping en place"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _cat dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des informations sur le cluster dans un format facile à lire",
+          "correct": true
+        },
+        {
+          "content": "Gérer les documents de type 'cat' dans l'index"
+        },
+        {
+          "content": "Configurer les paramètres de catégorisation automatique"
+        },
+        {
+          "content": "Analyser les logs du cluster"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des synonymes dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Améliorer la pertinence des résultats de recherche",
+          "correct": true
+        },
+        {
+          "content": "Permettre aux utilisateurs de trouver des résultats avec des termes alternatifs",
+          "correct": true
+        },
+        {
+          "content": "Réduire la taille de l'index"
+        },
+        {
+          "content": "Gérer les variations linguistiques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre le type de champ 'text' et 'keyword' dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Le type 'text' est analysé et tokenisé, tandis que 'keyword' est stocké tel quel",
+          "correct": true
+        },
+        {
+          "content": "Le type 'text' est pour les courtes chaînes, 'keyword' pour les longues"
+        },
+        {
+          "content": "Le type 'text' est plus rapide à rechercher que 'keyword'"
+        },
+        {
+          "content": "Il n'y a pas de différence significative entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _reindex dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Copier des documents d'un index à un autre",
+          "correct": true
+        },
+        {
+          "content": "Reconstruire l'index pour optimiser les performances"
+        },
+        {
+          "content": "Mettre à jour le mapping d'un index existant"
+        },
+        {
+          "content": "Supprimer et recréer un index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des index à plusieurs niveaux (hot-warm-cold architecture) dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser l'utilisation des ressources en fonction de l'âge des données",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances de recherche sur les données récentes",
+          "correct": true
+        },
+        {
+          "content": "Réduire les coûts de stockage pour les anciennes données",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'indexation des nouvelles données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les mises à jour d'un cluster Elasticsearch en production ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des rolling upgrades pour minimiser les temps d'arrêt",
+          "correct": true
+        },
+        {
+          "content": "Arrêter complètement le cluster et mettre à jour tous les nœuds simultanément"
+        },
+        {
+          "content": "Créer un nouveau cluster et migrer les données"
+        },
+        {
+          "content": "Mettre à jour uniquement le nœud maître"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _explain dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des détails sur le calcul du score pour un document spécifique",
+          "correct": true
+        },
+        {
+          "content": "Expliquer le fonctionnement général d'Elasticsearch"
+        },
+        {
+          "content": "Déboguer les problèmes de cluster"
+        },
+        {
+          "content": "Générer automatiquement des requêtes optimisées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des suggest API dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des suggestions de recherche aux utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Corriger automatiquement les fautes d'orthographe",
+          "correct": true
+        },
+        {
+          "content": "Améliorer l'expérience utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Accélérer l'indexation des documents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre une requête 'must' et une requête 'filter' dans un bool query ?"
+      },
+      "options": [
+        {
+          "content": "'must' affecte le score, 'filter' ne l'affecte pas",
+          "correct": true
+        },
+        {
+          "content": "'must' est plus rapide que 'filter'"
+        },
+        {
+          "content": "'filter' peut contenir des requêtes plus complexes que 'must'"
+        },
+        {
+          "content": "Il n'y a pas de différence significative entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la commande pour obtenir des statistiques sur un index spécifique ?"
+      },
+      "options": [
+        {
+          "content": "GET /nom_index/_stats",
+          "correct": true
+        },
+        {
+          "content": "SHOW STATS nom_index"
+        },
+        {
+          "content": "GET /nom_index/statistics"
+        },
+        {
+          "content": "INDEX STATS nom_index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _search_shards dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Montrer comment une requête de recherche sera exécutée sur les shards",
+          "correct": true
+        },
+        {
+          "content": "Rechercher des données spécifiques dans les shards"
+        },
+        {
+          "content": "Créer de nouveaux shards dans un index"
+        },
+        {
+          "content": "Optimiser la distribution des shards dans le cluster"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des index alias dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Permettre une transition en douceur entre les index",
+          "correct": true
+        },
+        {
+          "content": "Faciliter les opérations de réindexation sans temps d'arrêt",
+          "correct": true
+        },
+        {
+          "content": "Créer des vues logiques sur les données",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'indexation des documents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une agrégation de type 'terms' et une agrégation de type 'significant_terms' ?"
+      },
+      "options": [
+        {
+          "content": "'significant_terms' identifie les termes statistiquement inhabituels, 'terms' retourne simplement les termes les plus fréquents",
+          "correct": true
+        },
+        {
+          "content": "'significant_terms' est plus rapide que 'terms'"
+        },
+        {
+          "content": "'terms' peut être utilisé sur des champs numériques, 'significant_terms' uniquement sur du texte"
+        },
+        {
+          "content": "Il n'y a pas de différence significative entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _update_by_query dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Mettre à jour plusieurs documents qui correspondent à une requête sans réindexation",
+          "correct": true
+        },
+        {
+          "content": "Mettre à jour le mapping d'un index"
+        },
+        {
+          "content": "Mettre à jour les paramètres de configuration du cluster"
+        },
+        {
+          "content": "Mettre à jour la version d'Elasticsearch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des requêtes de type 'function_score' dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Modifier les scores des documents en fonction de facteurs spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Implémenter des algorithmes de classement personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Booster certains documents en fonction de critères métier",
+          "correct": true
+        },
+        {
+          "content": "Améliorer la vitesse d'indexation des documents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les données time-series dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des index basés sur le temps avec des templates et des politiques ILM",
+          "correct": true
+        },
+        {
+          "content": "Stocker toutes les données dans un seul grand index"
+        },
+        {
+          "content": "Créer un nouvel index pour chaque point de données"
+        },
+        {
+          "content": "Utiliser uniquement des index à roulement quotidien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'API _field_caps dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Récupérer les capacités des champs sur plusieurs index",
+          "correct": true
+        },
+        {
+          "content": "Définir les limites maximales pour les champs"
+        },
+        {
+          "content": "Analyser la performance des champs dans les requêtes"
+        },
+        {
+          "content": "Créer automatiquement des mappings pour les nouveaux champs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des agrégations de type 'composite' dans Elasticsearch ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la pagination des résultats d'agrégation",
+          "correct": true
+        },
+        {
+          "content": "Combiner plusieurs sources de valeurs dans une seule agrégation",
+          "correct": true
+        },
+        {
+          "content": "Réduire l'utilisation de la mémoire pour les agrégations sur de grands ensembles de données",
+          "correct": true
+        },
+        {
+          "content": "Accélérer l'exécution des requêtes d'agrégation simples"
+        }
+      ]
+    }
+  ]
+}

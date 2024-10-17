@@ -9,4 +9,6 @@ also the type of question can be either multiple-choice (select one) or multiple
 
 for the Count of options as test gorilla said in its doc: (For each question, you can provide between two and ten options, but 4 is the most often)
 
+also as in the docs of TestGorilla: (The majority of your test questions should be multiple-choice questions.)
+
 also for the test category it can be  one of these (Cognitive ability | Language | Personality & culture | Programming skills | Role-specific skills | Situational judgment | Software skills | Typing speed)

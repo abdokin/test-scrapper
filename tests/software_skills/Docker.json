@@ -1,0 +1,875 @@
+{
+  "title": "Docker",
+  "attributes": {
+    "overview": "Le test Docker évalue la capacité d'un candidat à déployer, configurer, administrer et diagnostiquer les pannes de Docker sur la base de scénarios réels. Ce test vous aide à embaucher des candidats ayant une expérience pratique de Docker et capables de travailler de manière autonome.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de base de Docker",
+      "Gestion des conteneurs",
+      "Création et gestion des images",
+      "Networking Docker",
+      "Volumes et persistance des données",
+      "Docker Compose",
+      "Sécurité Docker",
+      "Déploiement et orchestration"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en développement, DevOps, ou administration système impliquant l'utilisation de Docker.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Docker, évaluant la capacité du candidat à travailler efficacement avec des conteneurs et à résoudre des problèmes courants.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande utilisez-vous pour lister tous les conteneurs Docker en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "docker ps",
+          "correct": true
+        },
+        {
+          "content": "docker list"
+        },
+        {
+          "content": "docker containers"
+        },
+        {
+          "content": "docker show"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle instruction dans un Dockerfile est utilisée pour définir l'image de base ?"
+      },
+      "options": [
+        {
+          "content": "FROM",
+          "correct": true
+        },
+        {
+          "content": "BASE"
+        },
+        {
+          "content": "IMAGE"
+        },
+        {
+          "content": "USE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Docker ?"
+      },
+      "options": [
+        {
+          "content": "Isolement des applications",
+          "correct": true
+        },
+        {
+          "content": "Portabilité entre différents environnements",
+          "correct": true
+        },
+        {
+          "content": "Réduction de la consommation de ressources",
+          "correct": true
+        },
+        {
+          "content": "Élimination complète des problèmes de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande utilisez-vous pour construire une image Docker à partir d'un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "docker build",
+          "correct": true
+        },
+        {
+          "content": "docker create"
+        },
+        {
+          "content": "docker make"
+        },
+        {
+          "content": "docker compile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de Docker Compose ?"
+      },
+      "options": [
+        {
+          "content": "Définir et gérer des applications multi-conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Créer des images Docker"
+        },
+        {
+          "content": "Gérer les volumes Docker"
+        },
+        {
+          "content": "Configurer les réseaux Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour retirer une image Docker du système ?"
+      },
+      "options": [
+        {
+          "content": "docker rmi",
+          "correct": true
+        },
+        {
+          "content": "docker remove"
+        },
+        {
+          "content": "docker delete"
+        },
+        {
+          "content": "docker erase"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de montage Docker existent ?"
+      },
+      "options": [
+        {
+          "content": "Volumes",
+          "correct": true
+        },
+        {
+          "content": "Bind mounts",
+          "correct": true
+        },
+        {
+          "content": "tmpfs mounts",
+          "correct": true
+        },
+        {
+          "content": "Network mounts"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle instruction Dockerfile est utilisée pour exécuter des commandes lors de la construction de l'image ?"
+      },
+      "options": [
+        {
+          "content": "RUN",
+          "correct": true
+        },
+        {
+          "content": "EXEC"
+        },
+        {
+          "content": "CMD"
+        },
+        {
+          "content": "EXECUTE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande utilisez-vous pour démarrer un conteneur Docker ?"
+      },
+      "options": [
+        {
+          "content": "docker run",
+          "correct": true
+        },
+        {
+          "content": "docker start"
+        },
+        {
+          "content": "docker begin"
+        },
+        {
+          "content": "docker launch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'instruction EXPOSE dans un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "Indiquer les ports sur lesquels le conteneur écoute au moment de l'exécution",
+          "correct": true
+        },
+        {
+          "content": "Ouvrir automatiquement les ports du conteneur"
+        },
+        {
+          "content": "Configurer le pare-feu du conteneur"
+        },
+        {
+          "content": "Définir les variables d'environnement du conteneur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour optimiser les images Docker ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des images de base légères",
+          "correct": true
+        },
+        {
+          "content": "Minimiser le nombre de couches",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le multi-stage build",
+          "correct": true
+        },
+        {
+          "content": "Toujours utiliser l'image latest comme base"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour voir les logs d'un conteneur Docker en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "docker logs",
+          "correct": true
+        },
+        {
+          "content": "docker show-logs"
+        },
+        {
+          "content": "docker log"
+        },
+        {
+          "content": "docker output"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de Docker Swarm ?"
+      },
+      "options": [
+        {
+          "content": "Orchestrer et gérer un cluster de nœuds Docker",
+          "correct": true
+        },
+        {
+          "content": "Créer des images Docker"
+        },
+        {
+          "content": "Gérer les volumes Docker"
+        },
+        {
+          "content": "Configurer les réseaux Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de networking disponibles dans Docker ?"
+      },
+      "options": [
+        {
+          "content": "Bridge",
+          "correct": true
+        },
+        {
+          "content": "Host",
+          "correct": true
+        },
+        {
+          "content": "Overlay",
+          "correct": true
+        },
+        {
+          "content": "Macvlan",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour exécuter une commande dans un conteneur Docker en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "docker exec",
+          "correct": true
+        },
+        {
+          "content": "docker run"
+        },
+        {
+          "content": "docker do"
+        },
+        {
+          "content": "docker command"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour arrêter un conteneur Docker en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "docker stop",
+          "correct": true
+        },
+        {
+          "content": "docker halt"
+        },
+        {
+          "content": "docker kill"
+        },
+        {
+          "content": "docker end"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de volumes Docker ?"
+      },
+      "options": [
+        {
+          "content": "Persistance des données",
+          "correct": true
+        },
+        {
+          "content": "Partage de données entre conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Meilleures performances I/O",
+          "correct": true
+        },
+        {
+          "content": "Chiffrement automatique des données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle instruction Dockerfile est utilisée pour définir la commande par défaut à exécuter lorsqu'un conteneur démarre ?"
+      },
+      "options": [
+        {
+          "content": "CMD",
+          "correct": true
+        },
+        {
+          "content": "RUN"
+        },
+        {
+          "content": "ENTRYPOINT"
+        },
+        {
+          "content": "EXECUTE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour inspecter les métadonnées d'un conteneur Docker ?"
+      },
+      "options": [
+        {
+          "content": "docker inspect",
+          "correct": true
+        },
+        {
+          "content": "docker info"
+        },
+        {
+          "content": "docker examine"
+        },
+        {
+          "content": "docker details"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un fichier docker-compose.yml ?"
+      },
+      "options": [
+        {
+          "content": "services",
+          "correct": true
+        },
+        {
+          "content": "volumes",
+          "correct": true
+        },
+        {
+          "content": "networks",
+          "correct": true
+        },
+        {
+          "content": "containers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour publier une image Docker sur Docker Hub ?"
+      },
+      "options": [
+        {
+          "content": "docker push",
+          "correct": true
+        },
+        {
+          "content": "docker publish"
+        },
+        {
+          "content": "docker upload"
+        },
+        {
+          "content": "docker send"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'instruction WORKDIR dans un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "Définir le répertoire de travail pour les instructions RUN, CMD, ENTRYPOINT, COPY et ADD qui suivent",
+          "correct": true
+        },
+        {
+          "content": "Spécifier le répertoire à monter comme volume"
+        },
+        {
+          "content": "Indiquer le répertoire contenant le code source de l'application"
+        },
+        {
+          "content": "Définir le répertoire où les logs seront stockés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques de sécurité pour Docker ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des images de confiance",
+          "correct": true
+        },
+        {
+          "content": "Limiter les privilèges des conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Scanner les images pour les vulnérabilités",
+          "correct": true
+        },
+        {
+          "content": "Toujours exécuter les conteneurs en tant que root"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour créer un nouveau réseau Docker ?"
+      },
+      "options": [
+        {
+          "content": "docker network create",
+          "correct": true
+        },
+        {
+          "content": "docker create network"
+        },
+        {
+          "content": "docker new network"
+        },
+        {
+          "content": "docker network add"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'instruction HEALTHCHECK dans un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "Définir une commande pour vérifier la santé du conteneur",
+          "correct": true
+        },
+        {
+          "content": "Spécifier les dépendances du conteneur"
+        },
+        {
+          "content": "Configurer les paramètres de logging"
+        },
+        {
+          "content": "Définir les limites de ressources du conteneur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages du multi-stage build dans Docker ?"
+      },
+      "options": [
+        {
+          "content": "Réduction de la taille de l'image finale",
+          "correct": true
+        },
+        {
+          "content": "Séparation des environnements de build et de production",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la sécurité",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique des performances de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour voir l'utilisation des ressources des conteneurs Docker en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "docker stats",
+          "correct": true
+        },
+        {
+          "content": "docker top"
+        },
+        {
+          "content": "docker resources"
+        },
+        {
+          "content": "docker usage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de Docker Content Trust (DCT) ?"
+      },
+      "options": [
+        {
+          "content": "Assurer l'intégrité et l'authenticité des images Docker",
+          "correct": true
+        },
+        {
+          "content": "Gérer les autorisations des utilisateurs Docker"
+        },
+        {
+          "content": "Optimiser les performances des conteneurs"
+        },
+        {
+          "content": "Configurer les paramètres réseau de Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de services que vous pouvez définir dans un fichier docker-compose.yml ?"
+      },
+      "options": [
+        {
+          "content": "web",
+          "correct": true
+        },
+        {
+          "content": "database",
+          "correct": true
+        },
+        {
+          "content": "cache",
+          "correct": true
+        },
+        {
+          "content": "message queue",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour voir l'historique des couches d'une image Docker ?"
+      },
+      "options": [
+        {
+          "content": "docker history",
+          "correct": true
+        },
+        {
+          "content": "docker layers"
+        },
+        {
+          "content": "docker inspect"
+        },
+        {
+          "content": "docker info"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'instruction ARG dans un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "Définir des variables qui peuvent être passées lors de la construction de l'image",
+          "correct": true
+        },
+        {
+          "content": "Spécifier des arguments pour la commande d'entrée du conteneur"
+        },
+        {
+          "content": "Définir des variables d'environnement pour le conteneur"
+        },
+        {
+          "content": "Configurer les paramètres de build de l'image"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Docker Compose ?"
+      },
+      "options": [
+        {
+          "content": "Simplification de la gestion des applications multi-conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Reproductibilité de l'environnement de développement",
+          "correct": true
+        },
+        {
+          "content": "Configuration déclarative des services",
+          "correct": true
+        },
+        {
+          "content": "Optimisation automatique des performances des conteneurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour supprimer tous les conteneurs Docker arrêtés ?"
+      },
+      "options": [
+        {
+          "content": "docker container prune",
+          "correct": true
+        },
+        {
+          "content": "docker rm $(docker ps -a -q)"
+        },
+        {
+          "content": "docker remove all"
+        },
+        {
+          "content": "docker clean"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'instruction ENTRYPOINT dans un Dockerfile ?"
+      },
+      "options": [
+        {
+          "content": "Configurer le conteneur pour qu'il s'exécute comme un exécutable",
+          "correct": true
+        },
+        {
+          "content": "Spécifier le point d'entrée du réseau pour le conteneur"
+        },
+        {
+          "content": "Définir le répertoire de travail initial du conteneur"
+        },
+        {
+          "content": "Indiquer le point de montage principal pour les volumes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de pilotes de stockage disponibles dans Docker ?"
+      },
+      "options": [
+        {
+          "content": "overlay2",
+          "correct": true
+        },
+        {
+          "content": "aufs",
+          "correct": true
+        },
+        {
+          "content": "devicemapper",
+          "correct": true
+        },
+        {
+          "content": "btrfs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour voir les différences entre l'état actuel d'un conteneur et son image ?"
+      },
+      "options": [
+        {
+          "content": "docker diff",
+          "correct": true
+        },
+        {
+          "content": "docker changes"
+        },
+        {
+          "content": "docker compare"
+        },
+        {
+          "content": "docker delta"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de Docker Secrets ?"
+      },
+      "options": [
+        {
+          "content": "Gérer de manière centralisée les données sensibles utilisées par les services Docker Swarm",
+          "correct": true
+        },
+        {
+          "content": "Chiffrer automatiquement toutes les communications entre les conteneurs"
+        },
+        {
+          "content": "Générer des clés de chiffrement pour les images Docker"
+        },
+        {
+          "content": "Stocker les informations d'authentification pour Docker Hub"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Docker par rapport aux machines virtuelles traditionnelles ?"
+      },
+      "options": [
+        {
+          "content": "Démarrage plus rapide",
+          "correct": true
+        },
+        {
+          "content": "Utilisation plus efficace des ressources",
+          "correct": true
+        },
+        {
+          "content": "Portabilité accrue",
+          "correct": true
+        },
+        {
+          "content": "Isolation complète au niveau du système d'exploitation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande utilisez-vous pour créer une nouvelle image à partir des modifications apportées à un conteneur ?"
+      },
+      "options": [
+        {
+          "content": "docker commit",
+          "correct": true
+        },
+        {
+          "content": "docker save"
+        },
+        {
+          "content": "docker update"
+        },
+        {
+          "content": "docker snapshot"
+        }
+      ]
+    }
+  ]
+}

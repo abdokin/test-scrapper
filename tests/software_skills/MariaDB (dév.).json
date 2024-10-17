@@ -70,7 +70,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels types de jointures sont disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels types de jointures sont disponibles dans MariaDB ?"
       },
       "options": [
         {
@@ -182,7 +182,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des procédures stockées ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages de l'utilisation des procédures stockées ?"
       },
       "options": [
         {
@@ -294,7 +294,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les types de données numériques disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les types de données numériques disponibles dans MariaDB ?"
       },
       "options": [
         {
@@ -384,7 +384,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des vues dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages de l'utilisation des vues dans MariaDB ?"
       },
       "options": [
         {
@@ -516,7 +516,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les types de données de chaîne de caractères disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les types de données de chaîne de caractères disponibles dans MariaDB ?"
       },
       "options": [
         {
@@ -627,7 +627,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les types de variables disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les types de variables disponibles dans MariaDB ?"
       },
       "options": [
         {
@@ -738,7 +738,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les types de contraintes disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les types de contraintes disponibles dans MariaDB ?"
       },
       "options": [
         {
@@ -829,7 +829,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des transactions dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages de l'utilisation des transactions dans MariaDB ?"
       },
       "options": [
         {

@@ -3,84 +3,72 @@
     "title": "Communication",
     "overview": "This Communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening.",
     "duration": "8 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Leadership and People Management",
     "overview": "The Leadership and People Management test evaluates a candidate’s ability to lead others within an organization using both influence and guidance. This test will help you hire leaders who can support and develop others to help your organization grow.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Time Management",
     "overview": "The Time Management test evaluates candidates’ ability to manage their time in a professional environment. Through typical workplace scenarios, this test assesses how well candidates can prioritize, execute, cooperate, and reflect on tasks and projects.",
     "duration": "9 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Remote Team Management",
     "overview": "This intermediate level Remote Team Management test evaluates a candidate’s ability to effectively communicate, collaborate, and improve the productivity and performance of teams working in a remote setting.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Active Listening",
     "overview": "This Active Listening test uses video-based multiple choice questions to evaluate active listening skills in the workplace.",
     "duration": "16 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Presentation Skills",
     "overview": "This Presentation Skills test evaluates a candidate’s knowledge of presentation best practices and their ability to apply them. This screening test will help you identify candidates who can give visually compelling, persuasive, and engaging presentations.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Negotiation",
     "overview": "This Negotiation test evaluates a candidate’s ability to negotiate in a business context. This screening test will help you hire employees who can negotiate for your interests in a variety of contexts.",
     "duration": "13 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Digital Agility",
     "overview": "This Digital Agility test is meant to evaluate a candidate’s ability to navigate digital challenges. This screening test helps you hire professionals who can adapt to any situation in a fast-paced digital world.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Account Management",
     "overview": "This Account Management test evaluates a candidate’s ability to effectively serve and expand accounts. This test will help you hire account management experts who increase revenue while building and maintaining strategic relationships for your business.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Communication (Intermediate)",
     "overview": "This Intermediate Communication test evaluates candidates' skills in communicating clearly and effectively in business settings, including using written, verbal, and interpersonal communications, as well as active listening and nonverbal communication.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Business Ethics & Compliance",
     "overview": "The Business Ethics and Compliance test evaluates a candidate's awareness, judgment, and knowledge of ethical issues in business settings. It assesses their ethical decision-making skills across business functional areas.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Business Judgment",
     "overview": "This Business Judgment test evaluates a candidate’s ability to make the right trade-offs and decisions in a business context. This test will help you hire business executives and strategy consultants with a good nose for value.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   }
 ]

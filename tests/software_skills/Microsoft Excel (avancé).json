@@ -68,7 +68,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles fonctions peuvent être utilisées pour concatener des chaînes de texte en Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles fonctions peuvent être utilisées pour concatener des chaînes de texte en Excel ?"
       },
       "options": [
         {
@@ -159,7 +159,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les étapes pour créer un tableau croisé dynamique ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les étapes pour créer un tableau croisé dynamique ?"
       },
       "options": [
         {
@@ -250,7 +250,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation de Power Query dans Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quels sont les avantages de l'utilisation de Power Query dans Excel ?"
       },
       "options": [
         {
@@ -318,7 +318,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les étapes pour créer un modèle de données dans Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les étapes pour créer un modèle de données dans Excel ?"
       },
       "options": [
         {
@@ -387,7 +387,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation de Power Pivot dans Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quels sont les avantages de l'utilisation de Power Pivot dans Excel ?"
       },
       "options": [
         {
@@ -455,7 +455,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les étapes pour créer une macro VBA dans Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les étapes pour créer une macro VBA dans Excel ?"
       },
       "options": [
         {
@@ -524,7 +524,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les méthodes pour protéger une feuille Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les méthodes pour protéger une feuille Excel ?"
       },
       "options": [
         {
@@ -593,7 +593,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des tableaux Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quels sont les avantages de l'utilisation des tableaux Excel ?"
       },
       "options": [
         {
@@ -662,7 +662,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des noms définis dans Excel ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quels sont les avantages de l'utilisation des noms définis dans Excel ?"
       },
       "options": [
         {
@@ -731,7 +731,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les étapes pour créer une table de données à deux variables ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les étapes pour créer une table de données à deux variables ?"
       },
       "options": [
         {
@@ -800,7 +800,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les méthodes pour optimiser les performances d'un classeur Excel volumineux ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quelles sont les méthodes pour optimiser les performances d'un classeur Excel volumineux ?"
       },
       "options": [
         {
@@ -869,7 +869,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation des requêtes Power Query ? (Sélectionnez toutes les réponses applicables)"
+        "content": "Quels sont les avantages de l'utilisation des requêtes Power Query ?"
       },
       "options": [
         {

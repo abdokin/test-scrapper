@@ -3,140 +3,120 @@
     "title": "Fundamentals of Electricity",
     "overview": "This Fundamentals of Electricity test evaluates candidates’ knowledge of the basic principles and topics of electricity. The test helps you identify candidates who can approach electrical circuits and equipment to troubleshoot or perform maintenance.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Environmental, Social, and Governance Investing",
     "overview": "This Environmental, Social, and Governance Investing test evaluates a candidate’s ability to make decisions in real-life scenarios relevant to environmental, social, and governance investing.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Leadership and People Management",
     "overview": "The Leadership and People Management test evaluates a candidate’s ability to lead others within an organization using both influence and guidance. This test will help you hire leaders who can support and develop others to help your organization grow.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Remote Team Management",
     "overview": "This intermediate level Remote Team Management test evaluates a candidate’s ability to effectively communicate, collaborate, and improve the productivity and performance of teams working in a remote setting.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Aerospace Engineering",
     "overview": "This Aerospace Engineering test evaluates a candidate’s ability to apply industry-specific knowledge and skills. This screening test will help you hire aerospace experts who can enhance organizational productivity, innovation, and safety standards.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Salesforce for BDRs",
     "overview": "This Salesforce for BDRs test evaluates a candidate’s ability to use Salesforce effectively as part of a Sales team. This screening test will help you hire BDRs who can leverage Salesforce to manage their workload and contribute to sales team goals.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Change Management",
     "overview": "This Change Management test evaluates a candidate’s ability to plan, execute, manage, and evaluate change initiatives. This screening test will help you hire change management experts who can maximize the positive outcomes of change.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Six Sigma",
     "overview": "This test evaluates a candidate’s problem-solving ability and applied knowledge of Six Sigma concepts, including Lean. This screening test will help you hire experts who can drive high-impact improvement initiatives and solve complex business challenges.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Machine Manager",
     "overview": "This Machine Manager test evaluates candidates' ability to manage and optimize machine operations, ensuring enhanced productivity, safety, and a high return on investment in machinery and workforce development.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Strategic Coaching",
     "overview": "This Strategic Coaching test evaluates a candidate’s ability to leverage coaching as a framework to improve employee well-being and performance. It will enable you to hire professionals who can help employees think more strategically about how they work.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Brand Management",
     "overview": "This Brand Management test assesses a candidate’s ability to manage brands, understand target audiences, conduct research, create marketing campaigns, and position brands in crowded markets, helping you hire managers who build long-term brand loyalty.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Financial Modeling in Excel",
     "overview": "This financial modeling test evaluates candidates’ essential finance and valuation skills and their ability to create and maintain financial models using Excel. This test helps you hire finance professionals who need to work with Excel frequently.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "LinkedIn Advertising",
     "overview": "This LinkedIn Advertising test evaluates candidates’ ability to create, manage, and optimize successful LinkedIn ad campaigns. This screening test will help you hire digital marketing professionals who can generate leads and conversions for your business.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Natural Language Processing (NLP)",
     "overview": "This Natural Language Processing (NLP) evaluates candidates’ technical knowledge and their ability to solve situational tasks in, NLP. The test will help identify developers who are proficient in NLP.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Purchase Manager",
     "overview": "This Purchase Manager test evaluates the candidate’s skills in strategic sourcing skills, relevant to the duties of purchase managers. This screening test will help you hire candidates who can effectively plan and think critically, especially around prici",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Instagram Marketing",
     "overview": "This Instagram Marketing test evaluates candidates’ knowledge of Instagram and the tools it provides to grow a brand’s Instagram profile organically. This screening test will help you hire social media managers who can build up your brand on Instagram.",
     "duration": "10 mins",
-    "select_questions": "16 questions",
-    "type": "Multiple choice"
+    "select_questions": "16 questions"
   },
   {
     "title": "Video Content Creator",
     "overview": "This Video Content Creator test evaluates a candidate’s ability to plan, script, and create marketing videos. This screening test will help you hire video content creators and marketers who can develop videos to promote products, services, and features.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "B2B Sales Account Executive",
     "overview": "This B2B Sales Account Executive test evaluates candidates’ ability to manage a commercial relationship with existing customers and close new logo deals. This test helps you identify account executives able to handle complex B2B sales processes.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   },
   {
     "title": "Pharmacy Technician",
     "overview": "This Pharmacy Technician test evaluates a candidate's ability to manage prescriptions, dispense medication, and communicate with patients. This screening test will help you hire pharmacy experts who ensure efficient operations and patient care.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Data Storytelling",
     "overview": "This Data Storytelling test evaluates a candidate’s ability to convey data-driven insights effectively. This screening test will help you hire analysts with the ability to investigate, interpret, and communicate data stories.",
     "duration": "10 mins",
-    "select_questions": "12 questions",
-    "type": "Multiple choice"
+    "select_questions": "12 questions"
   }
 ]

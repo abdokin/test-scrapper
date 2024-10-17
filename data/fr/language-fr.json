@@ -3,140 +3,120 @@
     "title": "Portugais - Portugal (intermédiaire/B1)",
     "overview": "Le test de portugais (intermédiaire/B1) évalue les compétences en portugais d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en portugais sur des sujets courants au travail.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Français (intermédiaire/B1)",
     "overview": "Le test de français (intermédiaire/B1) évalue les compétences en français d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en français sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Suédois (expérimenté/C1)",
     "overview": "Le test de suédois (expérimenté/C1) évalue les connaissances en suédois d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en suédois.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Suédois (intermédiaire/B1)",
     "overview": "Le test de suédois (intermédiaire/B1) évalue les compétences en suédois d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en suédois sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Français (intermédiaire supérieur/B2)",
     "overview": "Le test de français (intermédiaire supérieur/B2) évalue les compétences en français d’un candidat au niveau B2 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer couramment et de comprendre un large éventail de sujets spécialisés.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Allemand (expérimenté/C1)",
     "overview": "Le test d’allemand (expérimenté/C1) évalue les connaissances en allemand d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en allemand.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Français (expérimenté/C1)",
     "overview": "Le test de français (expérimenté/C1) évalue les connaissances en français d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en français.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Italien (intermédiaire/B1)",
     "overview": "Le test d’italien (intermédiaire/B1) évalue les compétences en italien d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en italien sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Anglais (intermédiaire/B1)",
     "overview": "Le test d’anglais (intermédiaire/B1) évalue les compétences en anglais d’un candidat au niveau B1 du CECR. Ce test vous aidera à recruter des employés capables de communiquer en anglais sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Espagnol (expérimenté/C2)",
     "overview": "Le test d’espagnol (expérimenté/C2) évalue les connaissances en espagnol d’un candidat au niveau C2 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en espagnol.",
     "duration": "12 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Allemand (intermédiaire/B1)",
     "overview": "Le test d’allemand (intermédiaire/B1) évalue les compétences en allemand d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en allemand sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Japonais (expérimenté/C1)",
     "overview": "Le test de japonais C1 évalue les connaissances en japonais d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en japonais.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Anglais (élémentaire/A2)",
     "overview": "Le test d’anglais (élémentaire/A2) évalue les compétences en anglais des candidats au niveau A2 du CECR. Il vous aidera à recruter des personnes capables de communiquer au sujet de tâches simples et routinières qui nécessitent des connaissances de base et un échange direct d’informations.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Italien (expérimenté/C1)",
     "overview": "Le test d’italien (expérimenté/C1) évalue les connaissances en italien d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en italien.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Anglais (niveau autonome/C1)",
     "overview": "Le test d’anglais (niveau autonome/C1) évalue la connaissance de la langue anglaise d’un candidat au niveau C1 du cadre du CECR. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en anglais.",
     "duration": "12 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Anglais (niveau autonome/C2)",
     "overview": "Le test d’anglais (niveau autonome/C2) évalue les compétences en anglais d’un candidat au niveau C2 du CECR. Cela vous aidera à embaucher des employés capables de créer des opportunités internationales pour votre organisation et d'améliorer la satisfaction, la fidélité, les revenus et la culture de vos clients.",
     "duration": "12 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Russe (intermédiaire/B1)",
     "overview": "Le test de russe (intermédiaire/B1) évalue les compétences en russe d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en russe sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   },
   {
     "title": "Néerlandais (expérimenté/C1)",
     "overview": "Le test de néerlandais (expérimenté/C1) évalue les connaissances en néerlandais d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en néerlandais.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Néerlandais (intermédiaire/B1)",
     "overview": "Le test de néerlandais (intermédiaire/B1) évalue les compétences en néerlandais d’un candidat au niveau B1 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer en néerlandais sur des sujets courants au travail et dans la vie quotidienne.",
     "duration": "10 mins",
-    "select_questions": "20 questions",
-    "type": "Multiple choice"
+    "select_questions": "20 questions"
   },
   {
     "title": "Norvégien (expérimenté/C1)",
     "overview": "Le test de norvégien (expérimenté/C1) évalue les connaissances en norvégien d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en norvégien.",
     "duration": "10 mins",
-    "select_questions": "15 questions",
-    "type": "Multiple choice"
+    "select_questions": "15 questions"
   }
 ]
