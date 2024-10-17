@@ -17,7 +17,7 @@
     ],
     "relevancy": "Ce test est pertinent pour les postes de développeur .NET, ingénieur logiciel .NET ou architecte d'applications .NET.",
     "description": "Le test couvre les aspects fondamentaux et intermédiaires du framework .NET, évaluant la capacité du candidat à concevoir, développer et maintenir des applications robustes et performantes.",
-    "category": "Coding",
+    "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,

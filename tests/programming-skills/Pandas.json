@@ -20,7 +20,7 @@
     ],
     "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences avancées en analyse de données, science des données, ou développement Python orienté données.",
     "description": "Le test couvre un large éventail de fonctionnalités de Pandas, de l'utilisation basique aux techniques avancées, évaluant la capacité du candidat à manipuler efficacement des données complexes.",
-    "category": "Coding",
+    "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 16,
     "duration_seconds": 720,

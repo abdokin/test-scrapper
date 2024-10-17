@@ -15,7 +15,7 @@
     ],
     "relevancy": "Ce test est pertinent pour les postes nécessitant une bonne maîtrise du langage C, en particulier pour le développement système, embarqué ou de bas niveau.",
     "description": "Le test couvre les aspects intermédiaires de la programmation en C, évaluant la capacité du candidat à utiliser efficacement les fonctionnalités spécifiques du langage.",
-    "category": "Coding",
+    "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 1800,

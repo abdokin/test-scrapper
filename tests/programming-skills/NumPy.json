@@ -17,7 +17,7 @@
     ],
     "relevancy": "Ce test est pertinent pour les postes de data scientist, analyste de données, ingénieur en apprentissage automatique ou développeur scientifique Python.",
     "description": "Le test couvre les aspects fondamentaux et intermédiaires de NumPy, évaluant la capacité du candidat à utiliser efficacement cette bibliothèque pour l'analyse et le traitement de données numériques.",
-    "category": "Data Science",
+    "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,
