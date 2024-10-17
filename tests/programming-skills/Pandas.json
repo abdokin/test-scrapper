@@ -2,7 +2,7 @@
   "title": "Pandas : Manipulation et analyse de données avancées",
   "attributes": {
     "overview": "Ce test approfondi évalue les connaissances et compétences des candidats dans l'utilisation de la bibliothèque Pandas pour la manipulation et l'analyse de données en Python, couvrant des concepts de base aux techniques avancées.",
-    "level": "intermediate to advanced",
+    "level": "advanced",
     "covered_skills": [
       "Structures de données Pandas",
       "Chargement et sauvegarde de données",
@@ -73,7 +73,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "preview": true,
         "content": "Comment sélectionnez-vous une colonne spécifique dans un DataFrame ?"
       },
@@ -201,7 +201,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment appliquez-vous une fonction à chaque élément d'une colonne dans un DataFrame ?"
       },
       "options": [

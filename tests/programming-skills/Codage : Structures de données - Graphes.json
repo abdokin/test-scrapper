@@ -48,7 +48,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "preview": true,
         "content": "Quelle structure de données est couramment utilisée pour représenter un graphe ?"
       },
@@ -174,7 +174,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quel algorithme est utilisé pour trouver un arbre couvrant de poids minimum dans un graphe pondéré ?"
       },
       "options": [

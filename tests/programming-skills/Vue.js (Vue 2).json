@@ -114,48 +114,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle directive Vue.js est utilisée pour le rendu conditionnel ?"
-      },
-      "options": [
-        {
-          "content": "v-if",
-          "correct": true
-        },
-        {
-          "content": "v-show"
-        },
-        {
-          "content": "v-render"
-        },
-        {
-          "content": "v-condition"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment passe-t-on des props à un composant enfant dans Vue.js ?"
-      },
-      "options": [
-        {
-          "content": "<child-component :prop=\"value\" />",
-          "correct": true
-        },
-        {
-          "content": "<child-component prop=\"value\" />"
-        },
-        {
-          "content": "<child-component v-bind=\"{ prop: value }\" />"
-        },
-        {
-          "content": "<child-component @prop=\"value\" />"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quelle est la meilleure pratique pour gérer l'état global dans une application Vue.js ?"
       },
       "options": [

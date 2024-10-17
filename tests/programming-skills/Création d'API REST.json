@@ -133,27 +133,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour gérer les versions d'une API REST ?"
-      },
-      "options": [
-        {
-          "content": "Inclure le numéro de version dans l'URL",
-          "correct": true
-        },
-        {
-          "content": "Utiliser différents noms de domaine pour chaque version"
-        },
-        {
-          "content": "Changer le nom des endpoints pour chaque version"
-        },
-        {
-          "content": "Ne pas gérer les versions et toujours utiliser la dernière version"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quel principe REST stipule que chaque requête doit contenir toutes les informations nécessaires pour être comprise ?"
       },
       "options": [

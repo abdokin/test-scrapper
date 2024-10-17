@@ -1,8 +1,8 @@
 {
-  "title": "Flutter : Compétences avancées en développement d'applications",
+  "title": "Flutter",
   "attributes": {
     "overview": "Ce test évalue en profondeur les compétences des candidats dans le développement d'applications mobiles à l'aide du framework Flutter.",
-    "level": "intermediate to advanced",
+    "level": "advanced",
     "covered_skills": [
       "Widgets Flutter",
       "Gestion d'état",
@@ -22,8 +22,8 @@
     "description": "Le test couvre les aspects fondamentaux, intermédiaires et avancés du développement Flutter, évaluant la capacité du candidat à créer des applications complexes, efficaces et à résoudre des problèmes avancés.",
     "category": "Programming skills",
     "language": "french",
-    "questions_to_answer": 40,
-    "duration_seconds": 2400,
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
     "position": 1
   },
   "questions": [

@@ -75,7 +75,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour calculer la moyenne d'un array ?"
       },
       "options": [
@@ -149,7 +149,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la fonction NumPy pour calculer le produit scalaire de deux vecteurs ?"
       },
       "options": [
@@ -174,7 +174,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment reshaper un array 1D de longueur 12 en un array 3x4 ?"
       },
       "options": [
@@ -200,7 +200,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "preview": true,
         "content": "Quelle est la fonction NumPy pour générer des nombres aléatoires suivant une distribution normale ?"
       },
@@ -227,7 +227,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment calculer la transposée d'une matrice NumPy ?"
       },
       "options": [
@@ -277,7 +277,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment effectuer une multiplication élément par élément de deux arrays NumPy ?"
       },
       "options": [
@@ -326,7 +326,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment créer un array NumPy avec une séquence de nombres de 0 à 9 ?"
       },
       "options": [
@@ -352,7 +352,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour calculer la valeur absolue de chaque élément d'un array ?"
       },
       "options": [
@@ -402,7 +402,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la fonction NumPy pour trouver l'index du maximum d'un array ?"
       },
       "options": [
@@ -427,7 +427,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment créer une copie profonde d'un array NumPy ?"
       },
       "options": [
@@ -500,7 +500,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la fonction NumPy pour calculer la racine carrée de chaque élément d'un array ?"
       },
       "options": [
@@ -525,7 +525,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment concaténer deux arrays NumPy verticalement ?"
       },
       "options": [
@@ -551,7 +551,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour calculer la moyenne mobile d'un array 1D ?"
       },
       "options": [
@@ -600,7 +600,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la fonction NumPy pour calculer le produit de tous les éléments d'un array ?"
       },
       "options": [
@@ -626,7 +626,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment inverser l'ordre des éléments dans un array NumPy 1D ?"
       },
       "options": [
@@ -652,7 +652,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour trouver les indices des éléments non nuls d'un array ?"
       },
       "options": [
@@ -678,7 +678,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment calculer la médiane d'un array NumPy ?"
       },
       "options": [
@@ -703,7 +703,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la fonction NumPy pour calculer l'exponentielle de chaque élément d'un array ?"
       },
       "options": [
@@ -728,7 +728,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment trouver l'index du minimum d'un array NumPy ?"
       },
       "options": [
@@ -754,7 +754,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour calculer la covariance entre deux arrays 1D ?"
       },
       "options": [
@@ -779,7 +779,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment créer un array NumPy avec des valeurs aléatoires entre 0 et 1 de taille 3x3 ?"
       },
       "options": [
@@ -830,7 +830,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment aplatir un array NumPy multidimensionnel en un array 1D ?"
       },
       "options": [
@@ -856,7 +856,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle fonction NumPy utilisez-vous pour trier un array ?"
       },
       "options": [
@@ -881,7 +881,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment calculer la somme cumulée le long de l'axe 0 d'un array 2D ?"
       },
       "options": [
@@ -931,7 +931,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Comment calculer la différence entre éléments consécutifs d'un array NumPy ?"
       },
       "options": [

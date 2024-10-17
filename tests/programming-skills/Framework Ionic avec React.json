@@ -1,5 +1,5 @@
 {
-  "title": "Ionic avec React : Compétences en développement d'applications mobiles hybrides",
+  "title": "Framework Ionic avec React",
   "attributes": {
     "overview": "Ce test évalue les connaissances des candidats sur le framework Ionic utilisant React pour le développement d'applications mobiles hybrides.",
     "level": "intermediate",
@@ -110,20 +110,20 @@
       },
       "options": [
         {
-          "content": "<IonPage><IonHeader></IonHeader><IonContent></IonContent></IonPage>",
+          "content": "&lt;IonPage&gt;&lt;IonHeader&gt;&lt;/IonHeader&gt;&lt;IonContent&gt;&lt;/IonContent&gt;&lt;/IonPage&gt;",
           "correct": true
         },
         {
-          "content": "<Page><Header></Header><Content></Content></Page>"
+          "content": "&lt;Page&gt;&lt;Header&gt;&lt;/Header&gt;&lt;Content&gt;&lt;/Content&gt;&lt;/Page&gt;"
         },
         {
-          "content": "<IonicPage><IonicHeader></IonicHeader><IonicContent></IonicContent></IonicPage>"
+          "content": "&lt;IonicPage&gt;&lt;IonicHeader&gt;&lt;/IonicHeader&gt;&lt;IonicContent&gt;&lt;/IonicContent&gt;&lt;/IonicPage&gt;"
         },
         {
-          "content": "<ReactPage><ReactHeader></ReactHeader><ReactContent></ReactContent></ReactPage>"
+          "content": "&lt;ReactPage&gt;&lt;ReactHeader&gt;&lt;/ReactHeader&gt;&lt;ReactContent&gt;&lt;/ReactContent&gt;&lt;/ReactPage&gt;"
         },
         {
-          "content": "<div className='ion-page'><header></header><main></main></div>"
+          "content": "&lt;div className='ion-page'&gt;&lt;header&gt;&lt;/header&gt;&lt;main&gt;&lt;/main&gt;&lt;/div&gt;"
         }
       ]
     },
@@ -134,20 +134,20 @@
       },
       "options": [
         {
-          "content": "<IonRouterOutlet><Route path='/home' component={HomePage} exact={true} /></IonRouterOutlet>",
+          "content": "&lt;IonRouterOutlet&gt;&lt;Route path='/home' component={HomePage} exact={true} /&gt;&lt;/IonRouterOutlet&gt;",
           "correct": true
         },
         {
-          "content": "<IonRouter><IonRoute path='/home' component={HomePage} /></IonRouter>"
+          "content": "&lt;IonRouter&gt;&lt;IonRoute path='/home' component={HomePage} /&gt;&lt;/IonRouter&gt;"
         },
         {
-          "content": "<Switch><Route path='/home' render={() => <HomePage />} /></Switch>"
+          "content": "&lt;Switch&gt;&lt;Route path='/home' render={() =&gt; &lt;HomePage /&gt;} /&gt;&lt;/Switch&gt;"
         },
         {
-          "content": "<IonNavigation><IonPage path='/home' component={HomePage} /></IonNavigation>"
+          "content": "&lt;IonNavigation&gt;&lt;IonPage path='/home' component={HomePage} /&gt;&lt;/IonNavigation&gt;"
         },
         {
-          "content": "<Router><IonRoute path='/home'><HomePage /></IonRoute></Router>"
+          "content": "&lt;Router&gt;&lt;IonRoute path='/home'&gt;&lt;HomePage /&gt;&lt;/IonRoute&gt;&lt;/Router&gt;"
         }
       ]
     },
@@ -182,20 +182,20 @@
       },
       "options": [
         {
-          "content": "<IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>{modalContent}</IonModal>",
+          "content": "&lt;IonModal isOpen={showModal} onDidDismiss={() =&gt; setShowModal(false)}&gt;{modalContent}&lt;/IonModal&gt;",
           "correct": true
         },
         {
-          "content": "<Modal open={showModal} onClose={() => setShowModal(false)}>{modalContent}</Modal>"
+          "content": "&lt;Modal open={showModal} onClose={() =&gt; setShowModal(false)}&gt;{modalContent}&lt;/Modal&gt;"
         },
         {
-          "content": "<IonPopup visible={showModal} onHide={() => setShowModal(false)}>{modalContent}</IonPopup>"
+          "content": "&lt;IonPopup visible={showModal} onHide={() =&gt; setShowModal(false)}&gt;{modalContent}&lt;/IonPopup&gt;"
         },
         {
-          "content": "<IonOverlay show={showModal} onDismiss={() => setShowModal(false)}>{modalContent}</IonOverlay>"
+          "content": "&lt;IonOverlay show={showModal} onDismiss={() =&gt; setShowModal(false)}&gt;{modalContent}&lt;/IonOverlay&gt;"
         },
         {
-          "content": "<IonDialog isOpen={showModal} onClose={() => setShowModal(false)}>{modalContent}</IonDialog>"
+          "content": "&lt;IonDialog isOpen={showModal} onClose={() =&gt; setShowModal(false)}&gt;{modalContent}&lt;/IonDialog&gt;"
         }
       ]
     },
@@ -230,20 +230,20 @@
       },
       "options": [
         {
-          "content": "<IonRefresher slot='fixed' onIonRefresh={handleRefresh}></IonRefresher>",
+          "content": "&lt;IonRefresher slot='fixed' onIonRefresh={handleRefresh}&gt;&lt;/IonRefresher&gt;",
           "correct": true
         },
         {
-          "content": "<IonPullToRefresh onRefresh={handleRefresh}></IonPullToRefresh>"
+          "content": "&lt;IonPullToRefresh onRefresh={handleRefresh}&gt;&lt;/IonPullToRefresh&gt;"
         },
         {
-          "content": "<IonListRefresher onPull={handleRefresh}></IonListRefresher>"
+          "content": "&lt;IonListRefresher onPull={handleRefresh}&gt;&lt;/IonListRefresher&gt;"
         },
         {
-          "content": "<RefreshControl refreshing={isRefreshing} onRefresh={handleRefresh} />"
+          "content": "&lt;RefreshControl refreshing={isRefreshing} onRefresh={handleRefresh} /&gt;"
         },
         {
-          "content": "<IonSwipeRefresh onSwipe={handleRefresh}></IonSwipeRefresh>"
+          "content": "&lt;IonSwipeRefresh onSwipe={handleRefresh}&gt;&lt;/IonSwipeRefresh&gt;"
         }
       ]
     },
@@ -326,20 +326,20 @@
       },
       "options": [
         {
-          "content": "const HomePage = React.lazy(() => import('./pages/Home'));",
+          "content": "const HomePage = React.lazy(() =&gt; import('./pages/Home'));",
           "correct": true
         },
         {
           "content": "import { lazyLoad } from '@ionic/react'; const HomePage = lazyLoad('./pages/Home');"
         },
         {
-          "content": "const HomePage = asyncComponent(() => import('./pages/Home'));"
+          "content": "const HomePage = asyncComponent(() =&gt; import('./pages/Home'));"
         },
         {
-          "content": "const HomePage = dynamic(() => import('./pages/Home'));"
+          "content": "const HomePage = dynamic(() =&gt; import('./pages/Home'));"
         },
         {
-          "content": "const HomePage = Suspense(() => import('./pages/Home'));"
+          "content": "const HomePage = Suspense(() =&gt; import('./pages/Home'));"
         }
       ]
     },
@@ -350,20 +350,20 @@
       },
       "options": [
         {
-          "content": "<IonList>",
+          "content": "&lt;IonList&gt;",
           "correct": true
         },
         {
-          "content": "<IonListView>"
+          "content": "&lt;IonListView&gt;"
         },
         {
-          "content": "<IonItemGroup>"
+          "content": "&lt;IonItemGroup&gt;"
         },
         {
-          "content": "<IonCollection>"
+          "content": "&lt;IonCollection&gt;"
         },
         {
-          "content": "<IonItemList>"
+          "content": "&lt;IonItemList&gt;"
         }
       ]
     },
@@ -374,20 +374,20 @@
       },
       "options": [
         {
-          "content": "<IonButton><IonIcon slot='start' icon={star} />Favori</IonButton>",
+          "content": "&lt;IonButton&gt;&lt;IonIcon slot='start' icon={star} /&gt;Favori&lt;/IonButton&gt;",
           "correct": true
         },
         {
-          "content": "<IonButton icon='star'>Favori</IonButton>"
+          "content": "&lt;IonButton icon='star'&gt;Favori&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton><Icon name='star' />Favori</IonButton>"
+          "content": "&lt;IonButton&gt;&lt;Icon name='star' /&gt;Favori&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton iconLeft='star'>Favori</IonButton>"
+          "content": "&lt;IonButton iconLeft='star'&gt;Favori&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton><IonIcon name='star' position='left' />Favori</IonButton>"
+          "content": "&lt;IonButton&gt;&lt;IonIcon name='star' position='left' /&gt;Favori&lt;/IonButton&gt;"
         }
       ]
     },
@@ -422,20 +422,20 @@
       },
       "options": [
         {
-          "content": "<IonInfiniteScroll onIonInfinite={loadData}><IonInfiniteScrollContent /></IonInfiniteScroll>",
+          "content": "&lt;IonInfiniteScroll onIonInfinite={loadData}&gt;&lt;IonInfiniteScrollContent /&gt;&lt;/IonInfiniteScroll&gt;",
           "correct": true
         },
         {
-          "content": "<InfiniteScroll onLoadMore={loadData} hasMore={hasMoreItems} />"
+          "content": "&lt;InfiniteScroll onLoadMore={loadData} hasMore={hasMoreItems} /&gt;"
         },
         {
-          "content": "<IonList onEndReached={loadData} onEndReachedThreshold={0.1} />"
+          "content": "&lt;IonList onEndReached={loadData} onEndReachedThreshold={0.1} /&gt;"
         },
         {
-          "content": "<IonScrollView onScrollEnd={loadData} infiniteScroll={true} />"
+          "content": "&lt;IonScrollView onScrollEnd={loadData} infiniteScroll={true} /&gt;"
         },
         {
-          "content": "<IonContent scrollEvents={true} onIonScrollEnd={loadData} />"
+          "content": "&lt;IonContent scrollEvents={true} onIonScrollEnd={loadData} /&gt;"
         }
       ]
     },
@@ -470,19 +470,19 @@
       },
       "options": [
         {
-          "content": "<IonPage className='ion-page-invisible'><IonContent className='ion-page-invisible'>...</IonContent></IonPage>",
+          "content": "&lt;IonPage className='ion-page-invisible'&gt;&lt;IonContent className='ion-page-invisible'&gt;...&lt;/IonContent&gt;&lt;/IonPage&gt;",
           "correct": true
         },
         {
-          "content": "<IonPage animation='fade-in'>...</IonPage>"
+          "content": "&lt;IonPage animation='fade-in'&gt;...&lt;/IonPage&gt;"
         },
         {
-          "content": "<IonContent animate={true}>...</IonContent>"
+          "content": "&lt;IonContent animate={true}&gt;...&lt;/IonContent&gt;"
         },
         {
-          "content": "<IonPage transition='slide-in'>...</IonPage>"
+          "content": "&lt;IonPage transition='slide-in'&gt;...&lt;/IonPage&gt;"
         },{
-          "content": "<AnimatedIonPage>...</AnimatedIonPage>"
+          "content": "&lt;AnimatedIonPage&gt;...&lt;/AnimatedIonPage&gt;"
         }
       ]
     },
@@ -524,7 +524,7 @@
           "content": "Toast.show({ text: 'Hello World', duration: 'short' });"
         },
         {
-          "content": "<IonToast isOpen={true} message='Hello World' duration={2000} />"
+          "content": "&lt;IonToast isOpen={true} message='Hello World' duration={2000} /&gt;"
         },
         {
           "content": "showToast('Hello World', 2000);"
@@ -565,20 +565,20 @@
       },
       "options": [
         {
-          "content": "<IonMenu contentId='main'><IonContent>...</IonContent></IonMenu>",
+          "content": "&lt;IonMenu contentId='main'&gt;&lt;IonContent&gt;...&lt;/IonContent&gt;&lt;/IonMenu&gt;",
           "correct": true
         },
         {
-          "content": "<SideMenu><SideMenuContent>...</SideMenuContent></SideMenu>"
+          "content": "&lt;SideMenu&gt;&lt;SideMenuContent&gt;...&lt;/SideMenuContent&gt;&lt;/SideMenu&gt;"
         },
         {
-          "content": "<IonDrawer side='start'>...</IonDrawer>"
+          "content": "&lt;IonDrawer side='start'&gt;...&lt;/IonDrawer&gt;"
         },
         {
-          "content": "<IonSidebar position='left'>...</IonSidebar>"
+          "content": "&lt;IonSidebar position='left'&gt;...&lt;/IonSidebar&gt;"
         },
         {
-          "content": "<OffCanvasMenu>...</OffCanvasMenu>"
+          "content": "&lt;OffCanvasMenu&gt;...&lt;/OffCanvasMenu&gt;"
         }
       ]
     },
@@ -613,20 +613,20 @@
       },
       "options": [
         {
-          "content": "<IonSpinner />",
+          "content": "&lt;IonSpinner /&gt;",
           "correct": true
         },
         {
-          "content": "<IonLoading isOpen={true} />"
+          "content": "&lt;IonLoading isOpen={true} /&gt;"
         },
         {
-          "content": "<IonProgressBar type='indeterminate' />"
+          "content": "&lt;IonProgressBar type='indeterminate' /&gt;"
         },
         {
-          "content": "<IonActivityIndicator animating={true} />"
+          "content": "&lt;IonActivityIndicator animating={true} /&gt;"
         },
         {
-          "content": "<Spinner color='primary' />"
+          "content": "&lt;Spinner color='primary' /&gt;"
         }
       ]
     },
@@ -661,20 +661,20 @@
       },
       "options": [
         {
-          "content": "<IonButton onClick={handleClick}>Cliquez-moi</IonButton>",
+          "content": "&lt;IonButton onClick={handleClick}&gt;Cliquez-moi&lt;/IonButton&gt;",
           "correct": true
         },
         {
-          "content": "<IonButton onTap={handleTap}>Tapez-moi</IonButton>"
+          "content": "&lt;IonButton onTap={handleTap}&gt;Tapez-moi&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton (click)='handleClick()'>Cliquez-moi</IonButton>"
+          "content": "&lt;IonButton (click)='handleClick()'&gt;Cliquez-moi&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton @click='handleClick'>Cliquez-moi</IonButton>"
+          "content": "&lt;IonButton @click='handleClick'&gt;Cliquez-moi&lt;/IonButton&gt;"
         },
         {
-          "content": "<IonButton on-click={handleClick}>Cliquez-moi</IonButton>"
+          "content": "&lt;IonButton on-click={handleClick}&gt;Cliquez-moi&lt;/IonButton&gt;"
         }
       ]
     },
@@ -709,20 +709,20 @@
       },
       "options": [
         {
-          "content": "<IonSelect><IonSelectOption value='option1'>Option 1</IonSelectOption></IonSelect>",
+          "content": "&lt;IonSelect&gt;&lt;IonSelectOption value='option1'&gt;Option 1&lt;/IonSelectOption&gt;&lt;/IonSelect&gt;",
           "correct": true
         },
         {
-          "content": "<IonPicker columns={[{ name: 'column1', options: [{ text: 'Option 1', value: 'option1' }] }]} />"
+          "content": "&lt;IonPicker columns={[{ name: 'column1', options: [{ text: 'Option 1', value: 'option1' }] }]} /&gt;"
         },
         {
-          "content": "<Select options={[{ label: 'Option 1', value: 'option1' }]} />"
+          "content": "&lt;Select options={[{ label: 'Option 1', value: 'option1' }]} /&gt;"
         },
         {
-          "content": "<IonDropdown items={[{ label: 'Option 1', value: 'option1' }]} />"
+          "content": "&lt;IonDropdown items={[{ label: 'Option 1', value: 'option1' }]} /&gt;"
         },
         {
-          "content": "<IonComboBox options={['Option 1', 'Option 2']} />"
+          "content": "&lt;IonComboBox options={['Option 1', 'Option 2']} /&gt;"
         }
       ]
     },
@@ -757,20 +757,20 @@
       },
       "options": [
         {
-          "content": "<IonSearchbar onIonChange={handleSearch} />",
+          "content": "&lt;IonSearchbar onIonChange={handleSearch} /&gt;",
           "correct": true
         },
         {
-          "content": "<IonInput type='search' onInput={handleSearch} />"
+          "content": "&lt;IonInput type='search' onInput={handleSearch} /&gt;"
         },
         {
-          "content": "<SearchBar onChange={handleSearch} />"
+          "content": "&lt;SearchBar onChange={handleSearch} /&gt;"
         },
         {
-          "content": "<IonToolbar><IonSearchInput onChange={handleSearch} /></IonToolbar>"
+          "content": "&lt;IonToolbar&gt;&lt;IonSearchInput onChange={handleSearch} /&gt;&lt;/IonToolbar&gt;"
         },
         {
-          "content": "<IonSearch onSubmit={handleSearch} />"
+          "content": "&lt;IonSearch onSubmit={handleSearch} /&gt;"
         }
       ]
     },
@@ -805,20 +805,20 @@
       },
       "options": [
         {
-          "content": "<IonGrid><IonRow><IonCol size='12' sizeMd='6'>Contenu</IonCol></IonRow></IonGrid>",
+          "content": "&lt;IonGrid&gt;&lt;IonRow&gt;&lt;IonCol size='12' sizeMd='6'&gt;Contenu&lt;/IonCol&gt;&lt;/IonRow&gt;&lt;/IonGrid&gt;",
           "correct": true
         },
         {
-          "content": "<Grid><Row><Col xs={12} md={6}>Contenu</Col></Row></Grid>"
+          "content": "&lt;Grid&gt;&lt;Row&gt;&lt;Col xs={12} md={6}&gt;Contenu&lt;/Col&gt;&lt;/Row&gt;&lt;/Grid&gt;"
         },
         {
-          "content": "<IonFlexbox direction='row'><IonFlexItem size={12} sizeMd={6}>Contenu</IonFlexItem></IonFlexbox>"
+          "content": "&lt;IonFlexbox direction='row'&gt;&lt;IonFlexItem size={12} sizeMd={6}&gt;Contenu&lt;/IonFlexItem&gt;&lt;/IonFlexbox&gt;"
         },
         {
-          "content": "<IonLayout cols={12}><IonLayoutItem colSpan={6}>Contenu</IonLayoutItem></IonLayout>"
+          "content": "&lt;IonLayout cols={12}&gt;&lt;IonLayoutItem colSpan={6}&gt;Contenu&lt;/IonLayoutItem&gt;&lt;/IonLayout&gt;"
         },
         {
-          "content": "<ResponsiveContainer><ResponsiveItem width={12} tabletWidth={6}>Contenu</ResponsiveItem></ResponsiveContainer>"
+          "content": "&lt;ResponsiveContainer&gt;&lt;ResponsiveItem width={12} tabletWidth={6}&gt;Contenu&lt;/ResponsiveItem&gt;&lt;/ResponsiveContainer&gt;"
         }
       ]
     }

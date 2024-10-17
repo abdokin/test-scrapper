@@ -154,27 +154,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment déclare-t-on une variable en Bash ?"
-      },
-      "options": [
-        {
-          "content": "NOM=valeur",
-          "correct": true
-        },
-        {
-          "content": "var NOM = valeur"
-        },
-        {
-          "content": "let NOM = valeur"
-        },
-        {
-          "content": "set NOM valeur"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quelle commande permet d'afficher les variables d'environnement ?"
       },
       "options": [

@@ -36,20 +36,20 @@
       },
       "options": [
         {
-          "content": "<header>",
+          "content": "&lt;header&gt;",
           "correct": true
         },
         {
-          "content": "<head>"
+          "content": "&lt;head&gt;"
         },
         {
-          "content": "<top>"
+          "content": "&lt;top&gt;"
         },
         {
-          "content": "<h1>"
+          "content": "&lt;h1&gt;"
         },
         {
-          "content": "<section>"
+          "content": "&lt;section&gt;"
         }
       ]
     },
@@ -84,20 +84,20 @@
       },
       "options": [
         {
-          "content": "<audio>",
+          "content": "&lt;audio&gt;",
           "correct": true
         },
         {
-          "content": "<sound>"
+          "content": "&lt;sound&gt;"
         },
         {
-          "content": "<music>"
+          "content": "&lt;music&gt;"
         },
         {
-          "content": "<mp3>"
+          "content": "&lt;mp3&gt;"
         },
         {
-          "content": "<player>"
+          "content": "&lt;player&gt;"
         }
       ]
     },
@@ -109,20 +109,20 @@
       },
       "options": [
         {
-          "content": "<!DOCTYPE html>",
+          "content": "&lt;!DOCTYPE html&gt;",
           "correct": true
         },
         {
-          "content": "<!DOCTYPE HTML5>"
+          "content": "&lt;!DOCTYPE HTML5&gt;"
         },
         {
-          "content": "<DOCTYPE html>"
+          "content": "&lt;DOCTYPE html&gt;"
         },
         {
-          "content": "<!DOCTYPE html5>"
+          "content": "&lt;!DOCTYPE html5&gt;"
         },
         {
-          "content": "<?DOCTYPE html>"
+          "content": "&lt;?DOCTYPE html&gt;"
         }
       ]
     },
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "content": "<footer>",
+          "content": "&lt;footer&gt;",
           "correct": true
         },
         {
-          "content": "<bottom>"
+          "content": "&lt;bottom&gt;"
         },
         {
-          "content": "<end>"
+          "content": "&lt;end&gt;"
         },
         {
-          "content": "<last>"
+          "content": "&lt;last&gt;"
         },
         {
-          "content": "<foot>"
+          "content": "&lt;foot&gt;"
         }
       ]
     },
@@ -176,25 +176,25 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle balise HTML5 est utilisée pour dessiner des graphiques ?"
       },
       "options": [
         {
-          "content": "<canvas>",
+          "content": "&lt;canvas&gt;",
           "correct": true
         },
         {
-          "content": "<draw>"
+          "content": "&lt;draw&gt;"
         },
         {
-          "content": "<graphic>"
+          "content": "&lt;graphic&gt;"
         },
         {
-          "content": "<paint>"
+          "content": "&lt;paint&gt;"
         },
         {
-          "content": "<svg>",
+          "content": "&lt;svg&gt;",
           "correct": true
         }
       ]
@@ -230,20 +230,20 @@
       },
       "options": [
         {
-          "content": "<nav>",
+          "content": "&lt;nav&gt;",
           "correct": true
         },
         {
-          "content": "<menu>"
+          "content": "&lt;menu&gt;"
         },
         {
-          "content": "<navigation>"
+          "content": "&lt;navigation&gt;"
         },
         {
-          "content": "<navbar>"
+          "content": "&lt;navbar&gt;"
         },
         {
-          "content": "<links>"
+          "content": "&lt;links&gt;"
         }
       ]
     },
@@ -278,20 +278,20 @@
       },
       "options": [
         {
-          "content": "<article>",
+          "content": "&lt;article&gt;",
           "correct": true
         },
         {
-          "content": "<section>"
+          "content": "&lt;section&gt;"
         },
         {
-          "content": "<main>"
+          "content": "&lt;main&gt;"
         },
         {
-          "content": "<content>"
+          "content": "&lt;content&gt;"
         },
         {
-          "content": "<div>"
+          "content": "&lt;div&gt;"
         }
       ]
     },
@@ -326,20 +326,20 @@
       },
       "options": [
         {
-          "content": "<video>",
+          "content": "&lt;video&gt;",
           "correct": true
         },
         {
-          "content": "<movie>"
+          "content": "&lt;movie&gt;"
         },
         {
-          "content": "<media>"
+          "content": "&lt;media&gt;"
         },
         {
-          "content": "<film>"
+          "content": "&lt;film&gt;"
         },
         {
-          "content": "<player>"
+          "content": "&lt;player&gt;"
         }
       ]
     },
@@ -350,17 +350,17 @@
       },
       "options": [
         {
-          "content": "dir=\"rtl\"",
+          "content": "dir='rtl'",
           "correct": true
         },
         {
-          "content": "lang=\"rtl\""
+          "content": "lang='rtl'"
         },
         {
-          "content": "direction=\"right-to-left\""
+          "content": "direction='right-to-left'"
         },
         {
-          "content": "text-direction=\"rtl\""
+          "content": "text-direction='rtl'"
         },
         {
           "content": "rtl"
@@ -374,20 +374,20 @@
       },
       "options": [
         {
-          "content": "<progress>",
+          "content": "&lt;progress&gt;",
           "correct": true
         },
         {
-          "content": "<meter>"
+          "content": "&lt;meter&gt;"
         },
         {
-          "content": "<loading>"
+          "content": "&lt;loading&gt;"
         },
         {
-          "content": "<progressbar>"
+          "content": "&lt;progressbar&gt;"
         },
         {
-          "content": "<status>"
+          "content": "&lt;status&gt;"
         }
       ]
     },
@@ -422,20 +422,20 @@
       },
       "options": [
         {
-          "content": "<aside>",
+          "content": "&lt;aside&gt;",
           "correct": true
         },
         {
-          "content": "<sidebar>"
+          "content": "&lt;sidebar&gt;"
         },
         {
-          "content": "<panel>"
+          "content": "&lt;panel&gt;"
         },
         {
-          "content": "<side>"
+          "content": "&lt;side&gt;"
         },
         {
-          "content": "<column>"
+          "content": "&lt;column&gt;"
         }
       ]
     },
@@ -446,7 +446,7 @@
       },
       "options": [
         {
-          "content": "translate=\"no\"",
+          "content": "translate='no'",
           "correct": true
         },
         {
@@ -456,7 +456,7 @@
           "content": "untranslatable"
         },
         {
-          "content": "lang=\"original\""
+          "content": "lang='original'"
         },
         {
           "content": "no-translate"
@@ -470,20 +470,20 @@
       },
       "options": [
         {
-          "content": "<pre>",
+          "content": "&lt;pre&gt;",
           "correct": true
         },
         {
-          "content": "<code>"
+          "content": "&lt;code&gt;"
         },
         {
-          "content": "<formatted>"
+          "content": "&lt;formatted&gt;"
         },
         {
-          "content": "<preformatted>"
+          "content": "&lt;preformatted&gt;"
         },
         {
-          "content": "<fixed>"
+          "content": "&lt;fixed&gt;"
         }
       ]
     },
@@ -518,20 +518,20 @@
       },
       "options": [
         {
-          "content": "<menu>",
+          "content": "&lt;menu&gt;",
           "correct": true
         },
         {
-          "content": "<commands>"
+          "content": "&lt;commands&gt;"
         },
         {
-          "content": "<toolbar>"
+          "content": "&lt;toolbar&gt;"
         },
         {
-          "content": "<options>"
+          "content": "&lt;options&gt;"
         },
         {
-          "content": "<actions>"
+          "content": "&lt;actions&gt;"
         }
       ]
     },
@@ -566,20 +566,20 @@
       },
       "options": [
         {
-          "content": "<details>",
+          "content": "&lt;details&gt;",
           "correct": true
         },
         {
-          "content": "<summary>"
+          "content": "&lt;summary&gt;"
         },
         {
-          "content": "<expand>"
+          "content": "&lt;expand&gt;"
         },
         {
-          "content": "<accordion>"
+          "content": "&lt;accordion&gt;"
         },
         {
-          "content": "<collapse>"
+          "content": "&lt;collapse&gt;"
         }
       ]
     },
@@ -590,7 +590,7 @@
       },
       "options": [
         {
-          "content": "spellcheck=\"false\"",
+          "content": "spellcheck='false'",
           "correct": true
         },
         {
@@ -613,20 +613,20 @@
       },
       "options": [
         {
-          "content": "<aside>",
+          "content": "&lt;aside&gt;",
           "correct": true
         },
         {
-          "content": "<note>"
+          "content": "&lt;note&gt;"
         },
         {
-          "content": "<remark>"
+          "content": "&lt;remark&gt;"
         },
         {
-          "content": "<comment>"
+          "content": "&lt;comment&gt;"
         },
         {
-          "content": "<tangent>"
+          "content": "&lt;tangent&gt;"
         }
       ]
     },
@@ -661,20 +661,20 @@
       },
       "options": [
         {
-          "content": "<footer>",
+          "content": "&lt;footer&gt;",
           "correct": true
         },
         {
-          "content": "<bottom>"
+          "content": "&lt;bottom&gt;"
         },
         {
-          "content": "<end>"
+          "content": "&lt;end&gt;"
         },
         {
-          "content": "<lastpart>"
+          "content": "&lt;lastpart&gt;"
         },
         {
-          "content": "<footnote>"
+          "content": "&lt;footnote&gt;"
         }
       ]
     },
@@ -709,20 +709,20 @@
       },
       "options": [
         {
-          "content": "<hr>",
+          "content": "&lt;hr&gt;",
           "correct": true
         },
         {
-          "content": "<line>"
+          "content": "&lt;line&gt;"
         },
         {
-          "content": "<hline>"
+          "content": "&lt;hline&gt;"
         },
         {
-          "content": "<horizontal>"
+          "content": "&lt;horizontal&gt;"
         },
         {
-          "content": "<break>"
+          "content": "&lt;break&gt;"
         }
       ]
     },
@@ -757,20 +757,20 @@
       },
       "options": [
         {
-          "content": "<mark>",
+          "content": "&lt;mark&gt;",
           "correct": true
         },
         {
-          "content": "<highlight>"
+          "content": "&lt;highlight&gt;"
         },
         {
-          "content": "<important>"
+          "content": "&lt;important&gt;"
         },
         {
-          "content": "<em>"
+          "content": "&lt;em&gt;"
         },
         {
-          "content": "<strong>"
+          "content": "&lt;strong&gt;"
         }
       ]
     },
@@ -805,20 +805,20 @@
       },
       "options": [
         {
-          "content": "<dl>",
+          "content": "&lt;dl&gt;",
           "correct": true
         },
         {
-          "content": "<dt>"
+          "content": "&lt;dt&gt;"
         },
         {
-          "content": "<dd>"
+          "content": "&lt;dd&gt;"
         },
         {
-          "content": "<list>"
+          "content": "&lt;list&gt;"
         },
         {
-          "content": "<define>"
+          "content": "&lt;define&gt;"
         }
       ]
     },
@@ -853,20 +853,20 @@
       },
       "options": [
         {
-          "content": "<del>",
+          "content": "&lt;del&gt;",
           "correct": true
         },
         {
-          "content": "<strike>"
+          "content": "&lt;strike&gt;"
         },
         {
-          "content": "<s>"
+          "content": "&lt;s&gt;"
         },
         {
-          "content": "<removed>"
+          "content": "&lt;removed&gt;"
         },
         {
-          "content": "<cut>"
+          "content": "&lt;cut&gt;"
         }
       ]
     },
@@ -901,20 +901,20 @@
       },
       "options": [
         {
-          "content": "<menu>",
+          "content": "&lt;menu&gt;",
           "correct": true
         },
         {
-          "content": "<contextmenu>"
+          "content": "&lt;contextmenu&gt;"
         },
         {
-          "content": "<popup>"
+          "content": "&lt;popup&gt;"
         },
         {
-          "content": "<dropdown>"
+          "content": "&lt;dropdown&gt;"
         },
         {
-          "content": "<options>"
+          "content": "&lt;options&gt;"
         }
       ]
     },
@@ -925,7 +925,7 @@
       },
       "options": [
         {
-          "content": "oncopy=\"return false\"",
+          "content": "oncopy='return false'",
           "correct": true
         },
         {
@@ -949,20 +949,20 @@
       },
       "options": [
         {
-          "content": "<s>",
+          "content": "&lt;s&gt;",
           "correct": true
         },
         {
-          "content": "<strike>"
+          "content": "&lt;strike&gt;"
         },
         {
-          "content": "<del>"
+          "content": "&lt;del&gt;"
         },
         {
-          "content": "<obsolete>"
+          "content": "&lt;obsolete&gt;"
         },
         {
-          "content": "<outdated>"
+          "content": "&lt;outdated&gt;"
         }
       ]
     },
@@ -973,7 +973,7 @@
       },
       "options": [
         {
-          "content": "spellcheck=\"true\"",
+          "content": "spellcheck='true'",
           "correct": true
         },
         {

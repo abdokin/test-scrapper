@@ -56,7 +56,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la syntaxe correcte pour définir une route GET dans Laravel ?"
       },
       "options": [
@@ -81,7 +81,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment accéder à un paramètre de requête GET nommé 'id' dans un contrôleur Laravel ?"
       },
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle méthode Eloquent utilisez-vous pour récupérer tous les enregistrements d'un modèle ?"
       },
       "options": [
@@ -230,7 +230,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment valider qu'un champ est requis et a une longueur minimale de 6 caractères dans une requête Laravel ?"
       },
       "options": [
@@ -255,7 +255,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la méthode correcte pour créer un job dans une file d'attente Laravel ?"
       },
       "options": [
@@ -281,7 +281,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment définir une clé étrangère dans une migration Laravel ?"
       },
       "options": [
@@ -306,7 +306,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la commande Artisan pour créer un nouveau modèle avec sa migration associée ?"
       },
       "options": [
@@ -331,7 +331,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment récupérer la première correspondance d'une requête Eloquent ou lancer une exception si aucun résultat n'est trouvé ?"
       },
       "options": [
@@ -500,7 +500,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la méthode Eloquent pour créer un nouvel enregistrement dans la base de données ?"
       },
       "options": [
@@ -548,7 +548,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la méthode pour accéder à une variable de session dans Laravel ?"
       },
       "options": [
@@ -573,7 +573,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment définir un index unique sur une colonne dans une migration Laravel ?"
       },
       "options": [
@@ -598,7 +598,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la méthode pour effectuer une redirection dans un contrôleur Laravel ?"
       },
       "options": [
@@ -695,7 +695,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Quelle est la méthode pour lancer un événement dans Laravel ?"
       },
       "options": [
@@ -720,7 +720,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment définir une contrainte de clé étrangère avec suppression en cascade dans une migration Laravel ?"
       },
       "options": [
@@ -769,7 +769,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_reponse",
+        "type": "multiple_response",
         "content": "Comment définir un middleware pour un groupe de routes spécifique dans Laravel ?"
       },
       "options": [

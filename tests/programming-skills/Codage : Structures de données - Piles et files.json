@@ -181,27 +181,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle affirmation est vraie concernant l'implémentation d'une pile avec une liste chaînée ?"
-      },
-      "options": [
-        {
-          "content": "Les opérations push et pop se font toujours en tête de liste",
-          "correct": true
-        },
-        {
-          "content": "Les opérations push et pop se font toujours en queue de liste"
-        },
-        {
-          "content": "L'opération push se fait en tête et pop en queue"
-        },
-        {
-          "content": "L'implémentation avec une liste chaînée n'est pas possible"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quel problème peut être résolu efficacement en utilisant une pile ?"
       },
       "options": [
@@ -601,27 +580,6 @@
         },
         {
           "content": "Élimine le besoin de vérifier la validité de l'expression"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle affirmation est vraie concernant l'implémentation d'une pile avec une liste chaînée ?"
-      },
-      "options": [
-        {
-          "content": "Les opérations push et pop sont généralement effectuées à la tête de la liste",
-          "correct": true
-        },
-        {
-          "content": "Une pile implémentée avec une liste chaînée a toujours une meilleure performance qu'avec un tableau"
-        },
-        {
-          "content": "Il est impossible d'implémenter l'opération 'peek' avec une liste chaînée"
-        },
-        {
-          "content": "L'opération pop a une complexité de O(n) dans le pire des cas"
         }
       ]
     },
