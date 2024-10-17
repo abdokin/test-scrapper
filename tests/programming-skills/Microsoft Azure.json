@@ -1,0 +1,872 @@
+{
+  "title": "Microsoft Azure",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur la capacité des candidats à concevoir des solutions Cloud, à utiliser les bons outils et à mettre en œuvre les meilleures pratiques pour les applications et services dans Azure, en se basant sur le Cloud Adoption Framework de Microsoft.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Architecture Azure",
+      "Services de calcul",
+      "Stockage et bases de données",
+      "Réseau",
+      "Sécurité et identité",
+      "Surveillance et gestion",
+      "DevOps et CI/CD",
+      "Solutions serverless",
+      "IoT et Edge Computing",
+      "Intelligence Artificielle et Machine Learning",
+      "Gouvernance et conformité",
+      "Meilleures pratiques du Cloud Adoption Framework"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'architectes cloud, d'ingénieurs DevOps, et d'administrateurs systèmes spécialisés dans Microsoft Azure.",
+    "description": "Le test couvre les aspects essentiels et avancés de Microsoft Azure, évaluant la capacité du candidat à concevoir, déployer et gérer des solutions cloud robustes et évolutives.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel service Azure est recommandé pour héberger des applications web sans se soucier de l'infrastructure sous-jacente ?"
+      },
+      "options": [
+        {
+          "content": "Azure App Service",
+          "correct": true
+        },
+        {
+          "content": "Azure Virtual Machines"
+        },
+        {
+          "content": "Azure Kubernetes Service"
+        },
+        {
+          "content": "Azure Functions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les secrets d'application dans Azure ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure Key Vault",
+          "correct": true
+        },
+        {
+          "content": "Les stocker dans des variables d'environnement"
+        },
+        {
+          "content": "Les coder en dur dans l'application"
+        },
+        {
+          "content": "Les stocker dans un fichier de configuration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la mise en cache distribuée ?"
+      },
+      "options": [
+        {
+          "content": "Azure Redis Cache",
+          "correct": true
+        },
+        {
+          "content": "Azure Blob Storage"
+        },
+        {
+          "content": "Azure Table Storage"
+        },
+        {
+          "content": "Azure SQL Database"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle solution Azure est recommandée pour implémenter un équilibreur de charge de couche 7 ?"
+      },
+      "options": [
+        {
+          "content": "Azure Application Gateway",
+          "correct": true
+        },
+        {
+          "content": "Azure Load Balancer"
+        },
+        {
+          "content": "Azure Traffic Manager"
+        },
+        {
+          "content": "Azure Front Door"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour l'analyse de grands volumes de données en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "Azure Stream Analytics",
+          "correct": true
+        },
+        {
+          "content": "Azure Data Lake Analytics"
+        },
+        {
+          "content": "Azure Synapse Analytics"
+        },
+        {
+          "content": "Azure Data Factory"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les configurations d'application dans Azure ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure App Configuration",
+          "correct": true
+        },
+        {
+          "content": "Stocker les configurations dans des fichiers JSON"
+        },
+        {
+          "content": "Utiliser des variables d'environnement"
+        },
+        {
+          "content": "Coder en dur les configurations dans l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour l'orchestration de conteneurs ?"
+      },
+      "options": [
+        {
+          "content": "Azure Kubernetes Service (AKS)",
+          "correct": true
+        },
+        {
+          "content": "Azure Container Instances"
+        },
+        {
+          "content": "Azure Web Apps for Containers"
+        },
+        {
+          "content": "Azure Service Fabric"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle solution Azure est recommandée pour implémenter une architecture serverless ?"
+      },
+      "options": [
+        {
+          "content": "Azure Functions",
+          "correct": true
+        },
+        {
+          "content": "Azure Virtual Machines"
+        },
+        {
+          "content": "Azure Kubernetes Service"
+        },
+        {
+          "content": "Azure App Service"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la gestion centralisée des identités et des accès ?"
+      },
+      "options": [
+        {
+          "content": "Azure Active Directory",
+          "correct": true
+        },
+        {
+          "content": "Azure Key Vault"
+        },
+        {
+          "content": "Azure Security Center"
+        },
+        {
+          "content": "Azure Policy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour surveiller les performances des applications dans Azure ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure Monitor et Application Insights",
+          "correct": true
+        },
+        {
+          "content": "Implémenter des logs personnalisés"
+        },
+        {
+          "content": "Utiliser des outils tiers uniquement"
+        },
+        {
+          "content": "Se fier uniquement aux métriques système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour l'intégration et l'automatisation de processus métier ?"
+      },
+      "options": [
+        {
+          "content": "Azure Logic Apps",
+          "correct": true
+        },
+        {
+          "content": "Azure Functions"
+        },
+        {
+          "content": "Azure Automation"
+        },
+        {
+          "content": "Azure Batch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle solution Azure est recommandée pour implémenter un réseau privé virtuel site à site ?"
+      },
+      "options": [
+        {
+          "content": "Azure VPN Gateway",
+          "correct": true
+        },
+        {
+          "content": "Azure ExpressRoute"
+        },
+        {
+          "content": "Azure Firewall"
+        },
+        {
+          "content": "Azure Front Door"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour le stockage de données non structurées à grande échelle ?"
+      },
+      "options": [
+        {
+          "content": "Azure Data Lake Storage",
+          "correct": true
+        },
+        {
+          "content": "Azure Blob Storage"
+        },
+        {
+          "content": "Azure File Storage"
+        },
+        {
+          "content": "Azure Managed Disks"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les coûts dans Azure ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure Cost Management et Budget Alerts",
+          "correct": true
+        },
+        {
+          "content": "Limiter l'utilisation des ressources"
+        },
+        {
+          "content": "Utiliser uniquement des ressources gratuites"
+        },
+        {
+          "content": "Ignorer les coûts et se concentrer sur les fonctionnalités"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour l'analyse de données massives et le data warehousing ?"
+      },
+      "options": [
+        {
+          "content": "Azure Synapse Analytics",
+          "correct": true
+        },
+        {
+          "content": "Azure SQL Database"
+        },
+        {
+          "content": "Azure Cosmos DB"
+        },
+        {
+          "content": "Azure Table Storage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle solution Azure est recommandée pour implémenter une architecture de microservices ?"
+      },
+      "options": [
+        {
+          "content": "Azure Kubernetes Service avec Azure Container Registry",
+          "correct": true
+        },
+        {
+          "content": "Azure Virtual Machines"
+        },
+        {
+          "content": "Azure App Service"
+        },
+        {
+          "content": "Azure Functions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la gestion des API ?"
+      },
+      "options": [
+        {
+          "content": "Azure API Management",
+          "correct": true
+        },
+        {
+          "content": "Azure App Service"
+        },
+        {
+          "content": "Azure Functions"
+        },
+        {
+          "content": "Azure Logic Apps"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les mises à jour de sécurité des machines virtuelles dans Azure ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure Update Management",
+          "correct": true
+        },
+        {
+          "content": "Mettre à jour manuellement chaque VM"
+        },
+        {
+          "content": "Ignorer les mises à jour de sécurité"
+        },
+        {
+          "content": "Recréer toutes les VMs régulièrement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour l'analyse de texte et la compréhension du langage naturel ?"
+      },
+      "options": [
+        {
+          "content": "Azure Cognitive Services (Text Analytics)",
+          "correct": true
+        },
+        {
+          "content": "Azure Machine Learning"
+        },
+        {
+          "content": "Azure Databricks"
+        },
+        {
+          "content": "Azure HDInsight"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle solution Azure est recommandée pour implémenter une architecture de récupération après sinistre multi-régions ?"
+      },
+      "options": [
+        {
+          "content": "Azure Site Recovery avec Traffic Manager",
+          "correct": true
+        },
+        {
+          "content": "Azure Backup"
+        },
+        {
+          "content": "Azure Storage replication"
+        },
+        {
+          "content": "Azure Virtual Network peering"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la gestion des workflows IoT et l'analyse des données en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "Azure IoT Hub avec Stream Analytics",
+          "correct": true
+        },
+        {
+          "content": "Azure Event Hubs"
+        },
+        {
+          "content": "Azure Service Bus"
+        },
+        {
+          "content": "Azure Queue Storage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les secrets dans une pipeline CI/CD Azure DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Azure Key Vault avec des variables de groupe liées",
+          "correct": true
+        },
+        {
+          "content": "Stocker les secrets dans des variables d'environnement"
+        },
+        {
+          "content": "Coder en dur les secrets dans les scripts de déploiement"
+        },
+        {
+          "content": "Utiliser des fichiers de configuration chiffrés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la détection et la réponse aux menaces de sécurité ?"
+      },
+      "options": [
+        {
+          "content": "Azure Sentinel",
+          "correct": true
+        },
+        {
+          "content": "Azure Security Center"
+        },
+        {
+          "content": "Azure Firewall"
+        },
+        {
+          "content": "Azure DDoS Protection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle solution Azure est recommandée pour implémenter une architecture sans serveur pour le traitement de fichiers ?"
+      },
+      "options": [
+        {
+          "content": "Azure Functions avec Blob Storage trigger",
+          "correct": true
+        },
+        {
+          "content": "Azure Logic Apps"
+        },
+        {
+          "content": "Azure Batch"
+        },
+        {
+          "content": "Azure Kubernetes Service"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Azure est recommandé pour la mise en œuvre de l'apprentissage automatique et de l'IA ?"
+      },
+      "options": [
+        {
+          "content": "Azure Machine Learning",
+          "correct": true
+        },
+        {
+          "content": "Azure Databricks"
+        },
+        {
+          "content": "Azure Cognitive Services"
+        },
+        {
+          "content": "Azure HDInsight"
+        }
+      ]},
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les configurations d'environnement dans Azure DevOps ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser des variables de groupe spécifiques à l'environnement",
+            "correct": true
+          },
+          {
+            "content": "Coder en dur les configurations dans les scripts de déploiement"
+          },
+          {
+            "content": "Utiliser un seul ensemble de configurations pour tous les environnements"
+          },
+          {
+            "content": "Stocker les configurations dans des fichiers de texte brut"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour la mise en cache des données géographiquement distribuées ?"
+        },
+        "options": [
+          {
+            "content": "Azure Content Delivery Network (CDN)",
+            "correct": true
+          },
+          {
+            "content": "Azure Redis Cache"
+          },
+          {
+            "content": "Azure Front Door"
+          },
+          {
+            "content": "Azure Traffic Manager"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle solution Azure est recommandée pour implémenter une architecture de messagerie asynchrone ?"
+        },
+        "options": [
+          {
+            "content": "Azure Service Bus avec des files d'attente et des rubriques",
+            "correct": true
+          },
+          {
+            "content": "Azure Storage Queues"
+          },
+          {
+            "content": "Azure Event Grid"
+          },
+          {
+            "content": "Azure Event Hubs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour l'hébergement de bases de données relationnelles avec mise à l'échelle automatique ?"
+        },
+        "options": [
+          {
+            "content": "Azure SQL Database",
+            "correct": true
+          },
+          {
+            "content": "Azure Database for MySQL"
+          },
+          {
+            "content": "Azure Cosmos DB"
+          },
+          {
+            "content": "Azure Table Storage"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les stratégies de rétention des données dans Azure ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser Azure Policy et Azure Blob Storage Lifecycle Management",
+            "correct": true
+          },
+          {
+            "content": "Supprimer manuellement les données anciennes"
+          },
+          {
+            "content": "Conserver toutes les données indéfiniment"
+          },
+          {
+            "content": "Utiliser uniquement des sauvegardes pour la rétention des données"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour l'analyse des journaux et la surveillance des performances dans un environnement hybride ?"
+        },
+        "options": [
+          {
+            "content": "Azure Monitor avec Log Analytics",
+            "correct": true
+          },
+          {
+            "content": "Azure Security Center"
+          },
+          {
+            "content": "Azure Sentinel"
+          },
+          {
+            "content": "Azure Network Watcher"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle solution Azure est recommandée pour implémenter une architecture de données en temps réel ?"
+        },
+        "options": [
+          {
+            "content": "Azure Event Hubs avec Stream Analytics et Power BI",
+            "correct": true
+          },
+          {
+            "content": "Azure SQL Database avec des requêtes en temps réel"
+          },
+          {
+            "content": "Azure Cosmos DB avec des déclencheurs de changement"
+          },
+          {
+            "content": "Azure Data Lake avec Databricks"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour la gestion des certificats SSL/TLS ?"
+        },
+        "options": [
+          {
+            "content": "Azure Key Vault",
+            "correct": true
+          },
+          {
+            "content": "Azure App Service Certificates"
+          },
+          {
+            "content": "Azure Front Door"
+          },
+          {
+            "content": "Azure Application Gateway"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les mises à jour d'application dans Azure Kubernetes Service (AKS) ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser des déploiements rolling update avec des sondes de préparation",
+            "correct": true
+          },
+          {
+            "content": "Arrêter complètement le cluster pour les mises à jour"
+          },
+          {
+            "content": "Mettre à jour manuellement chaque pod"
+          },
+          {
+            "content": "Recréer le cluster entier à chaque mise à jour"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour la gestion des politiques de conformité et de gouvernance ?"
+        },
+        "options": [
+          {
+            "content": "Azure Policy",
+            "correct": true
+          },
+          {
+            "content": "Azure Security Center"
+          },
+          {
+            "content": "Azure Active Directory"
+          },
+          {
+            "content": "Azure Resource Manager"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle solution Azure est recommandée pour implémenter une architecture de traitement par lots à grande échelle ?"
+        },
+        "options": [
+          {
+            "content": "Azure Batch avec Azure Data Factory",
+            "correct": true
+          },
+          {
+            "content": "Azure Functions avec des déclencheurs temporels"
+          },
+          {
+            "content": "Azure Logic Apps avec des connecteurs personnalisés"
+          },
+          {
+            "content": "Azure Kubernetes Service avec des jobs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour la gestion des identités des appareils IoT ?"
+        },
+        "options": [
+          {
+            "content": "Azure IoT Hub Device Provisioning Service",
+            "correct": true
+          },
+          {
+            "content": "Azure Active Directory"
+          },
+          {
+            "content": "Azure Key Vault"
+          },
+          {
+            "content": "Azure IoT Central"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour gérer les secrets dans une application Azure Functions ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser Azure Key Vault avec des références managées",
+            "correct": true
+          },
+          {
+            "content": "Stocker les secrets dans les paramètres d'application"
+          },
+          {
+            "content": "Coder en dur les secrets dans le code de la fonction"
+          },
+          {
+            "content": "Utiliser des variables d'environnement locales"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel service Azure est recommandé pour l'analyse de données non structurées à grande échelle ?"
+        },
+        "options": [
+          {
+            "content": "Azure Databricks",
+            "correct": true
+          },
+          {
+            "content": "Azure SQL Data Warehouse"
+          },
+          {
+            "content": "Azure Analysis Services"
+          },
+          {
+            "content": "Azure Data Lake Analytics"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle solution Azure est recommandée pour implémenter une architecture de recherche en temps réel ?"
+        },
+        "options": [
+          {
+            "content": "Azure Cognitive Search avec Azure Cosmos DB",
+            "correct": true
+          },
+          {
+            "content": "Azure SQL Database avec des index en mémoire"
+          },
+          {
+            "content": "Azure Cache for Redis avec des requêtes Lua"
+          },
+          {
+            "content": "Azure Table Storage avec des requêtes partitionnées"
+          }
+        ]
+      }
+    ]
+  }

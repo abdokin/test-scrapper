@@ -1,0 +1,849 @@
+{
+  "title": "PowerShell : Compétences en scripting et automatisation",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques des candidats sur le langage de script PowerShell. Il permet d'identifier les candidats capables de comprendre et d'écrire des scripts PowerShell, de A à Z.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Syntaxe de base PowerShell",
+      "Cmdlets et fonctions",
+      "Pipelines",
+      "Structures de contrôle",
+      "Gestion des erreurs",
+      "Manipulation de fichiers et répertoires",
+      "Gestion des processus et services",
+      "Interaction avec le registre Windows",
+      "Scripting avancé",
+      "PowerShell remoting"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur système, ingénieur DevOps, ou tout rôle nécessitant une automatisation avancée sous Windows.",
+    "description": "Le test couvre les concepts fondamentaux et intermédiaires de PowerShell, évaluant la capacité du candidat à écrire des scripts efficaces et à automatiser des tâches système.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande PowerShell est utilisée pour obtenir de l'aide sur une cmdlet spécifique ?"
+      },
+      "options": [
+        {
+          "content": "Get-Help",
+          "correct": true
+        },
+        {
+          "content": "Help-Get"
+        },
+        {
+          "content": "Show-Help"
+        },
+        {
+          "content": "Display-Help"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour déclarer une variable en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "$variableName = value",
+          "correct": true
+        },
+        {
+          "content": "var variableName = value"
+        },
+        {
+          "content": "let variableName = value"
+        },
+        {
+          "content": "variableName := value"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de boucles disponibles en PowerShell ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "For",
+          "correct": true
+        },
+        {
+          "content": "ForEach",
+          "correct": true
+        },
+        {
+          "content": "While",
+          "correct": true
+        },
+        {
+          "content": "Do-While",
+          "correct": true
+        },
+        {
+          "content": "Repeat-Until"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle cmdlet est utilisée pour créer un nouveau fichier en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "New-Item",
+          "correct": true
+        },
+        {
+          "content": "Create-File"
+        },
+        {
+          "content": "Add-File"
+        },
+        {
+          "content": "Make-File"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous une fonction en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "NomDeLaFonction argument1 argument2",
+          "correct": true
+        },
+        {
+          "content": "call NomDeLaFonction(argument1, argument2)"
+        },
+        {
+          "content": "NomDeLaFonction(argument1, argument2)"
+        },
+        {
+          "content": "invoke-function NomDeLaFonction argument1 argument2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir la liste des processus en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "Get-Process",
+          "correct": true
+        },
+        {
+          "content": "List-Process"
+        },
+        {
+          "content": "Show-Process"
+        },
+        {
+          "content": "View-Process"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définissez-vous un tableau en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "$array = @(1, 2, 3)",
+          "correct": true
+        },
+        {
+          "content": "$array = [1, 2, 3]"
+        },
+        {
+          "content": "$array = array(1, 2, 3)"
+        },
+        {
+          "content": "$array = new Array(1, 2, 3)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour gérer les erreurs en PowerShell ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Try-Catch",
+          "correct": true
+        },
+        {
+          "content": "ErrorAction parameter",
+          "correct": true
+        },
+        {
+          "content": "$ErrorActionPreference variable",
+          "correct": true
+        },
+        {
+          "content": "On Error Resume Next"
+        },
+        {
+          "content": "Trap",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour exporter des données vers un fichier CSV ?"
+      },
+      "options": [
+        {
+          "content": "Export-Csv",
+          "correct": true
+        },
+        {
+          "content": "Write-Csv"
+        },
+        {
+          "content": "Save-Csv"
+        },
+        {
+          "content": "Out-Csv"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment accédez-vous à un élément spécifique dans un tableau en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "$array[index]",
+          "correct": true
+        },
+        {
+          "content": "$array.get(index)"
+        },
+        {
+          "content": "$array->index"
+        },
+        {
+          "content": "$array:index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour créer un nouvel objet PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "New-Object",
+          "correct": true
+        },
+        {
+          "content": "Create-Object"
+        },
+        {
+          "content": "Make-Object"
+        },
+        {
+          "content": "Add-Object"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les opérateurs de comparaison en PowerShell ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "-eq (égal)",
+          "correct": true
+        },
+        {
+          "content": "-ne (non égal)",
+          "correct": true
+        },
+        {
+          "content": "-gt (supérieur à)",
+          "correct": true
+        },
+        {
+          "content": "-lt (inférieur à)",
+          "correct": true
+        },
+        {
+          "content": "-is (même type)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour mesurer le temps d'exécution d'un script ou d'une commande ?"
+      },
+      "options": [
+        {
+          "content": "Measure-Command",
+          "correct": true
+        },
+        {
+          "content": "Time-Script"
+        },
+        {
+          "content": "Test-Performance"
+        },
+        {
+          "content": "Get-ExecutionTime"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment déclarez-vous un paramètre obligatoire dans une fonction PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "[Parameter(Mandatory=$true)]",
+          "correct": true
+        },
+        {
+          "content": "[Required]"
+        },
+        {
+          "content": "[MustHave]"
+        },
+        {
+          "content": "[Mandatory]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour récupérer le contenu d'un fichier texte ?"
+      },
+      "options": [
+        {
+          "content": "Get-Content",
+          "correct": true
+        },
+        {
+          "content": "Read-File"
+        },
+        {
+          "content": "Show-Content"
+        },
+        {
+          "content": "Open-File"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définissez-vous une hashtable en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "$hash = @{key1 = 'value1'; key2 = 'value2'}",
+          "correct": true
+        },
+        {
+          "content": "$hash = {key1: 'value1', key2: 'value2'}"
+        },
+        {
+          "content": "$hash = new Hashtable(key1 = 'value1', key2 = 'value2')"
+        },
+        {
+          "content": "$hash = hashtable(key1 => 'value1', key2 => 'value2')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour trier les objets dans un pipeline ?"
+      },
+      "options": [
+        {
+          "content": "Sort-Object",
+          "correct": true
+        },
+        {
+          "content": "Order-By"
+        },
+        {
+          "content": "Arrange-Object"
+        },
+        {
+          "content": "Sort-By"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous un alias pour une cmdlet en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "Set-Alias",
+          "correct": true
+        },
+        {
+          "content": "New-Alias"
+        },
+        {
+          "content": "Create-Alias"
+        },
+        {
+          "content": "Add-Alias"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir la liste des services en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "Get-Service",
+          "correct": true
+        },
+        {
+          "content": "List-Service"
+        },
+        {
+          "content": "Show-Service"
+        },
+        {
+          "content": "View-Service"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment redirigez-vous la sortie d'une commande vers un fichier en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "command > file.txt",
+          "correct": true
+        },
+        {
+          "content": "command >> file.txt"
+        },
+        {
+          "content": "command | Out-File file.txt"
+        },
+        {
+          "content": "Toutes les réponses ci-dessus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour créer un nouveau dossier ?"
+      },
+      "options": [
+        {
+          "content": "New-Item -ItemType Directory",
+          "correct": true
+        },
+        {
+          "content": "Create-Folder"
+        },
+        {
+          "content": "New-Directory"
+        },
+        {
+          "content": "Make-Folder"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment vérifiez-vous si un fichier existe en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "Test-Path",
+          "correct": true
+        },
+        {
+          "content": "Check-File"
+        },
+        {
+          "content": "Verify-Path"
+        },
+        {
+          "content": "Exists-File"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour supprimer un fichier ou un dossier ?"
+      },
+      "options": [
+        {
+          "content": "Remove-Item",
+          "correct": true
+        },
+        {
+          "content": "Delete-Item"
+        },
+        {
+          "content": "Erase-Item"
+        },
+        {
+          "content": "Clear-Item"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment convertissez-vous un objet en format JSON en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "ConvertTo-Json",
+          "correct": true
+        },
+        {
+          "content": "To-Json"
+        },
+        {
+          "content": "Export-Json"
+        },
+        {
+          "content": "Out-Json"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir la date et l'heure actuelles ?"
+      },
+      "options": [
+        {
+          "content": "Get-Date",
+          "correct": true
+        },
+        {
+          "content": "Current-Date"
+        },
+        {
+          "content": "Show-DateTime"
+        },
+        {
+          "content": "Now-Time"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment démarrez-vous une session PowerShell à distance ?"
+      },
+      "options": [
+        {
+          "content": "Enter-PSSession",
+          "correct": true
+        },
+        {
+          "content": "Start-RemoteSession"
+        },
+        {
+          "content": "Connect-PSRemote"
+        },
+        {
+          "content": "Begin-PSRemoting"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour compresser un fichier ou un dossier ?"
+      },
+      "options": [
+        {
+          "content": "Compress-Archive",
+          "correct": true
+        },
+        {
+          "content": "Zip-Item"
+        },
+        {
+          "content": "New-ZipFile"
+        },
+        {
+          "content": "Create-Archive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment obtenez-vous la version de PowerShell actuellement utilisée ?"
+      },
+      "options": [
+        {
+          "content": "$PSVersionTable.PSVersion",
+          "correct": true
+        },
+        {
+          "content": "Get-PSVersion"
+        },
+        {
+          "content": "Version-Info"
+        },
+        {
+          "content": "Show-PSVersion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir les informations sur le système d'exploitation ?"
+      },
+      "options": [
+        {
+          "content": "Get-ComputerInfo",
+          "correct": true
+        },
+        {
+          "content": "Get-OSInfo"
+        },
+        {
+          "content": "Show-SystemInfo"
+        },
+        {
+          "content": "Display-OSDetails"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment arrêtez-vous un processus en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "Stop-Process",
+          "correct": true
+        },
+        {
+          "content": "Kill-Process"
+        },
+        {
+          "content": "End-Process"
+        },
+        {
+          "content": "Terminate-Process"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir le contenu d'une clé de registre ?"
+      },
+      "options": [
+        {
+          "content": "Get-ItemProperty",
+          "correct": true
+        },
+        {
+          "content": "Read-Registry"
+        },
+        {
+          "content": "Get-RegistryKey"
+        },
+        {
+          "content": "Show-RegistryContent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment convertissez-vous une chaîne en majuscules en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "$string.ToUpper()",
+          "correct": true
+        },
+        {
+          "content": "Convert-Upper $string"
+        },
+        {
+          "content": "To-UpperCase $string"
+        },
+        {
+          "content": "Make-Upper $string"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir l'espace disque disponible ?"
+      },
+      "options": [
+        {
+          "content": "Get-PSDrive",
+          "correct": true
+        },
+        {
+          "content": "Get-DiskSpace"
+        },
+        {
+          "content": "Show-DriveInfo"
+        },
+        {
+          "content": "Display-DiskInfo"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous un nouveau compte utilisateur local en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "New-LocalUser",
+          "correct": true
+        },
+        {
+          "content": "Add-User"
+        },
+        {
+          "content": "Create-Account"
+        },
+        {
+          "content": "Make-LocalAccount"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour obtenir les informations sur les mises à jour Windows ?"
+      },
+      "options": [
+        {
+          "content": "Get-Hotfix",
+          "correct": true
+        },
+        {
+          "content": "Get-WindowsUpdate"
+        },
+        {
+          "content": "Show-Updates"
+        },
+        {
+          "content": "List-Patches"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment affichez-vous les variables d'environnement en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "Get-ChildItem Env:",
+          "correct": true
+        },
+        {
+          "content": "Show-Environment"
+        },
+        {
+          "content": "List-EnvVariables"
+        },
+        {
+          "content": "Display-Env"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle cmdlet est utilisée pour créer un raccourci (lien symbolique) en PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "New-Item -ItemType SymbolicLink",
+          "correct": true
+        },
+        {
+          "content": "Create-Shortcut"
+        },
+        {
+          "content": "Make-Link"
+        },
+        {
+          "content": "Add-Symlink"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment obtenez-vous la liste des cmdlets disponibles dans PowerShell ?"
+      },
+      "options": [
+        {
+          "content": "Get-Command",
+          "correct": true
+        },
+        {
+          "content": "List-Cmdlets"
+        },
+        {
+          "content": "Show-Commands"
+        },
+        {
+          "content": "Display-AvailableCmdlets"
+        }
+      ]
+    }
+  ]
+}

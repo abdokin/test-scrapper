@@ -1,0 +1,994 @@
+{
+  "title": "HTML5 : Compétences en développement web",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances et capacités des candidats en HTML5 pour le développement de sites et d'applications Web modernes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Structure de base HTML5",
+      "Sémantique HTML5",
+      "Formulaires HTML5",
+      "Multimédia HTML5",
+      "Canvas et SVG",
+      "API Web Storage",
+      "Géolocalisation",
+      "Drag and Drop",
+      "Responsive Design",
+      "Accessibilité web",
+      "Métadonnées",
+      "Validation HTML5",
+      "Intégration avec CSS3",
+      "Bonnes pratiques HTML5"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end, intégrateur web ou développeur full-stack utilisant HTML5.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de HTML5, évaluant la capacité du candidat à créer des structures web sémantiques, interactives et accessibles.",
+    "category": "Web Development",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle balise HTML5 est utilisée pour définir un en-tête de section ou de page ?"
+      },
+      "options": [
+        {
+          "content": "<header>",
+          "correct": true
+        },
+        {
+          "content": "<head>"
+        },
+        {
+          "content": "<top>"
+        },
+        {
+          "content": "<h1>"
+        },
+        {
+          "content": "<section>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier qu'un champ de formulaire est obligatoire ?"
+      },
+      "options": [
+        {
+          "content": "required",
+          "correct": true
+        },
+        {
+          "content": "mandatory"
+        },
+        {
+          "content": "important"
+        },
+        {
+          "content": "necessary"
+        },
+        {
+          "content": "compulsory"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour incorporer du contenu audio dans une page web ?"
+      },
+      "options": [
+        {
+          "content": "<audio>",
+          "correct": true
+        },
+        {
+          "content": "<sound>"
+        },
+        {
+          "content": "<music>"
+        },
+        {
+          "content": "<mp3>"
+        },
+        {
+          "content": "<player>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la déclaration DOCTYPE correcte pour HTML5 ?"
+      },
+      "options": [
+        {
+          "content": "<!DOCTYPE html>",
+          "correct": true
+        },
+        {
+          "content": "<!DOCTYPE HTML5>"
+        },
+        {
+          "content": "<DOCTYPE html>"
+        },
+        {
+          "content": "<!DOCTYPE html5>"
+        },
+        {
+          "content": "<?DOCTYPE html>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un pied de page ?"
+      },
+      "options": [
+        {
+          "content": "<footer>",
+          "correct": true
+        },
+        {
+          "content": "<bottom>"
+        },
+        {
+          "content": "<end>"
+        },
+        {
+          "content": "<last>"
+        },
+        {
+          "content": "<foot>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier l'URL d'un script externe ?"
+      },
+      "options": [
+        {
+          "content": "src",
+          "correct": true
+        },
+        {
+          "content": "href"
+        },
+        {
+          "content": "link"
+        },
+        {
+          "content": "url"
+        },
+        {
+          "content": "source"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour dessiner des graphiques ?"
+      },
+      "options": [
+        {
+          "content": "<canvas>",
+          "correct": true
+        },
+        {
+          "content": "<draw>"
+        },
+        {
+          "content": "<graphic>"
+        },
+        {
+          "content": "<paint>"
+        },
+        {
+          "content": "<svg>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que la saisie d'un champ de formulaire doit correspondre à un format spécifique ?"
+      },
+      "options": [
+        {
+          "content": "pattern",
+          "correct": true
+        },
+        {
+          "content": "format"
+        },
+        {
+          "content": "regex"
+        },
+        {
+          "content": "validate"
+        },
+        {
+          "content": "match"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir une section de navigation ?"
+      },
+      "options": [
+        {
+          "content": "<nav>",
+          "correct": true
+        },
+        {
+          "content": "<menu>"
+        },
+        {
+          "content": "<navigation>"
+        },
+        {
+          "content": "<navbar>"
+        },
+        {
+          "content": "<links>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier qu'un élément peut être édité par l'utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "contenteditable",
+          "correct": true
+        },
+        {
+          "content": "editable"
+        },
+        {
+          "content": "modifiable"
+        },
+        {
+          "content": "changeable"
+        },
+        {
+          "content": "writable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir du contenu indépendant et autonome ?"
+      },
+      "options": [
+        {
+          "content": "<article>",
+          "correct": true
+        },
+        {
+          "content": "<section>"
+        },
+        {
+          "content": "<main>"
+        },
+        {
+          "content": "<content>"
+        },
+        {
+          "content": "<div>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier une liste de valeurs prédéfinies pour un champ de saisie ?"
+      },
+      "options": [
+        {
+          "content": "list",
+          "correct": true
+        },
+        {
+          "content": "datalist"
+        },
+        {
+          "content": "options"
+        },
+        {
+          "content": "values"
+        },
+        {
+          "content": "autocomplete"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour incorporer du contenu vidéo dans une page web ?"
+      },
+      "options": [
+        {
+          "content": "<video>",
+          "correct": true
+        },
+        {
+          "content": "<movie>"
+        },
+        {
+          "content": "<media>"
+        },
+        {
+          "content": "<film>"
+        },
+        {
+          "content": "<player>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le texte d'un élément doit être lu de droite à gauche ?"
+      },
+      "options": [
+        {
+          "content": "dir=\"rtl\"",
+          "correct": true
+        },
+        {
+          "content": "lang=\"rtl\""
+        },
+        {
+          "content": "direction=\"right-to-left\""
+        },
+        {
+          "content": "text-direction=\"rtl\""
+        },
+        {
+          "content": "rtl"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir une barre de progression ?"
+      },
+      "options": [
+        {
+          "content": "<progress>",
+          "correct": true
+        },
+        {
+          "content": "<meter>"
+        },
+        {
+          "content": "<loading>"
+        },
+        {
+          "content": "<progressbar>"
+        },
+        {
+          "content": "<status>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier qu'un élément audio ou vidéo doit se lancer automatiquement ?"
+      },
+      "options": [
+        {
+          "content": "autoplay",
+          "correct": true
+        },
+        {
+          "content": "auto"
+        },
+        {
+          "content": "start"
+        },
+        {
+          "content": "play"
+        },
+        {
+          "content": "begin"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir du contenu de côté, comme une barre latérale ?"
+      },
+      "options": [
+        {
+          "content": "<aside>",
+          "correct": true
+        },
+        {
+          "content": "<sidebar>"
+        },
+        {
+          "content": "<panel>"
+        },
+        {
+          "content": "<side>"
+        },
+        {
+          "content": "<column>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément ne doit pas être traduit ?"
+      },
+      "options": [
+        {
+          "content": "translate=\"no\"",
+          "correct": true
+        },
+        {
+          "content": "notranslate"
+        },
+        {
+          "content": "untranslatable"
+        },
+        {
+          "content": "lang=\"original\""
+        },
+        {
+          "content": "no-translate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir du texte préformaté ?"
+      },
+      "options": [
+        {
+          "content": "<pre>",
+          "correct": true
+        },
+        {
+          "content": "<code>"
+        },
+        {
+          "content": "<formatted>"
+        },
+        {
+          "content": "<preformatted>"
+        },
+        {
+          "content": "<fixed>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément est affiché uniquement si le script n'est pas pris en charge ou est désactivé ?"
+      },
+      "options": [
+        {
+          "content": "noscript",
+          "correct": true
+        },
+        {
+          "content": "no-js"
+        },
+        {
+          "content": "fallback"
+        },
+        {
+          "content": "nojavascript"
+        },
+        {
+          "content": "alt-content"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un menu de commandes ?"
+      },
+      "options": [
+        {
+          "content": "<menu>",
+          "correct": true
+        },
+        {
+          "content": "<commands>"
+        },
+        {
+          "content": "<toolbar>"
+        },
+        {
+          "content": "<options>"
+        },
+        {
+          "content": "<actions>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément doit être vérifié avant la soumission du formulaire ?"
+      },
+      "options": [
+        {
+          "content": "formnovalidate",
+          "correct": true
+        },
+        {
+          "content": "novalidate"
+        },
+        {
+          "content": "skipvalidation"
+        },
+        {
+          "content": "ignore-check"
+        },
+        {
+          "content": "no-verify"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir des détails supplémentaires que l'utilisateur peut afficher ou masquer ?"
+      },
+      "options": [
+        {
+          "content": "<details>",
+          "correct": true
+        },
+        {
+          "content": "<summary>"
+        },
+        {
+          "content": "<expand>"
+        },
+        {
+          "content": "<accordion>"
+        },
+        {
+          "content": "<collapse>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément ne doit pas être vérifié pour l'orthographe ?"
+      },
+      "options": [
+        {
+          "content": "spellcheck=\"false\"",
+          "correct": true
+        },
+        {
+          "content": "nospellcheck"
+        },
+        {
+          "content": "disable-spellcheck"
+        },
+        {
+          "content": "ignore-spelling"
+        },
+        {
+          "content": "no-spell-check"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un contenu tangentiel ou une remarque ?"
+      },
+      "options": [
+        {
+          "content": "<aside>",
+          "correct": true
+        },
+        {
+          "content": "<note>"
+        },
+        {
+          "content": "<remark>"
+        },
+        {
+          "content": "<comment>"
+        },
+        {
+          "content": "<tangent>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément doit être mis en cache par le navigateur ?"
+      },
+      "options": [
+        {
+          "content": "manifest",
+          "correct": true
+        },
+        {
+          "content": "cache"
+        },
+        {
+          "content": "store"
+        },
+        {
+          "content": "save"
+        },
+        {
+          "content": "offline"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir du contenu de bas de page pour une section ou une page ?"
+      },
+      "options": [
+        {
+          "content": "<footer>",
+          "correct": true
+        },
+        {
+          "content": "<bottom>"
+        },
+        {
+          "content": "<end>"
+        },
+        {
+          "content": "<lastpart>"
+        },
+        {
+          "content": "<footnote>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément doit être lu uniquement ?"
+      },
+      "options": [
+        {
+          "content": "readonly",
+          "correct": true
+        },
+        {
+          "content": "disabled"
+        },
+        {
+          "content": "noedit"
+        },
+        {
+          "content": "locked"
+        },
+        {
+          "content": "viewonly"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir une ligne horizontale ?"
+      },
+      "options": [
+        {
+          "content": "<hr>",
+          "correct": true
+        },
+        {
+          "content": "<line>"
+        },
+        {
+          "content": "<hline>"
+        },
+        {
+          "content": "<horizontal>"
+        },
+        {
+          "content": "<break>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier qu'un champ de formulaire doit être rempli avant la soumission ?"
+      },
+      "options": [
+        {
+          "content": "required",
+          "correct": true
+        },
+        {
+          "content": "mandatory"
+        },
+        {
+          "content": "important"
+        },
+        {
+          "content": "necessary"
+        },
+        {
+          "content": "must"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un contenu mis en évidence ou marqué ?"
+      },
+      "options": [
+        {
+          "content": "<mark>",
+          "correct": true
+        },
+        {
+          "content": "<highlight>"
+        },
+        {
+          "content": "<important>"
+        },
+        {
+          "content": "<em>"
+        },
+        {
+          "content": "<strong>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier l'encodage des caractères pour un document HTML ?"
+      },
+      "options": [
+        {
+          "content": "charset",
+          "correct": true
+        },
+        {
+          "content": "encoding"
+        },
+        {
+          "content": "lang"
+        },
+        {
+          "content": "type"
+        },
+        {
+          "content": "content-type"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir une liste de termes et leurs définitions ?"
+      },
+      "options": [
+        {
+          "content": "<dl>",
+          "correct": true
+        },
+        {
+          "content": "<dt>"
+        },
+        {
+          "content": "<dd>"
+        },
+        {
+          "content": "<list>"
+        },
+        {
+          "content": "<define>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier une valeur par défaut pour un champ de formulaire ?"
+      },
+      "options": [
+        {
+          "content": "value",
+          "correct": true
+        },
+        {
+          "content": "default"
+        },
+        {
+          "content": "initial"
+        },
+        {
+          "content": "placeholder"
+        },
+        {
+          "content": "start"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un texte qui a été supprimé d'un document ?"
+      },
+      "options": [
+        {
+          "content": "<del>",
+          "correct": true
+        },
+        {
+          "content": "<strike>"
+        },
+        {
+          "content": "<s>"
+        },
+        {
+          "content": "<removed>"
+        },
+        {
+          "content": "<cut>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément doit être mis à jour automatiquement ?"
+      },
+      "options": [
+        {
+          "content": "autofocus",
+          "correct": true
+        },
+        {
+          "content": "autorefresh"
+        },
+        {
+          "content": "autoupdate"
+        },
+        {
+          "content": "autoload"
+        },
+        {
+          "content": "autorenew"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un menu contextuel ?"
+      },
+      "options": [
+        {
+          "content": "<menu>",
+          "correct": true
+        },
+        {
+          "content": "<contextmenu>"
+        },
+        {
+          "content": "<popup>"
+        },
+        {
+          "content": "<dropdown>"
+        },
+        {
+          "content": "<options>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément ne doit pas être copié ?"
+      },
+      "options": [
+        {
+          "content": "oncopy=\"return false\"",
+          "correct": true
+        },
+        {
+          "content": "nocopy"
+        },
+        {
+          "content": "uncopiable"
+        },
+        {
+          "content": "protected"
+        },
+        {
+          "content": "readonly"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle balise HTML5 est utilisée pour définir un contenu qui n'est plus précis ou pertinent ?"
+      },
+      "options": [
+        {
+          "content": "<s>",
+          "correct": true
+        },
+        {
+          "content": "<strike>"
+        },
+        {
+          "content": "<del>"
+        },
+        {
+          "content": "<obsolete>"
+        },
+        {
+          "content": "<outdated>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel attribut HTML5 est utilisé pour spécifier que le contenu d'un élément doit être vérifié pour l'orthographe ?"
+      },
+      "options": [
+        {
+          "content": "spellcheck=\"true\"",
+          "correct": true
+        },
+        {
+          "content": "check-spelling"
+        },
+        {
+          "content": "spell-check"
+        },
+        {
+          "content": "autocorrect"
+        },
+        {
+          "content": "grammar-check"
+        }
+      ]
+    }
+  ]
+}

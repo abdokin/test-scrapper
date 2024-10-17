@@ -1,0 +1,849 @@
+{
+  "title": "Programmation : Structures de données - Tableaux",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à manipuler efficacement des tableaux dans le langage de programmation de leur choix, une compétence cruciale pour l'optimisation du code.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Manipulation de tableaux",
+      "Algorithmes de tri",
+      "Recherche dans les tableaux",
+      "Optimisation de la mémoire",
+      "Complexité temporelle",
+      "Tableaux multidimensionnels",
+      "Opérations sur les tableaux"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur nécessitant une solide compréhension des structures de données et des algorithmes, en particulier dans la manipulation des tableaux.",
+    "description": "Le test couvre les aspects intermédiaires de la manipulation des tableaux, évaluant la capacité du candidat à implémenter des algorithmes efficaces et à optimiser les opérations sur les tableaux.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 2100,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la complexité temporelle moyenne de l'algorithme de tri rapide (quicksort) ?"
+      },
+      "options": [
+        {
+          "content": "O(n log n)",
+          "correct": true
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus efficace pour trouver le plus grand élément dans un tableau non trié ?"
+      },
+      "options": [
+        {
+          "content": "Parcourir le tableau une fois en gardant une trace du plus grand élément",
+          "correct": true
+        },
+        {
+          "content": "Trier le tableau et prendre le dernier élément"
+        },
+        {
+          "content": "Utiliser une recherche binaire"
+        },
+        {
+          "content": "Comparer chaque élément avec tous les autres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau par rapport à une liste chaînée ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Accès direct aux éléments en O(1)",
+          "correct": true
+        },
+        {
+          "content": "Meilleure utilisation de la mémoire cache",
+          "correct": true
+        },
+        {
+          "content": "Insertion plus rapide au milieu de la structure"
+        },
+        {
+          "content": "Taille dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la complexité temporelle de la recherche binaire dans un tableau trié ?"
+      },
+      "options": [
+        {
+          "content": "O(log n)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme de tri a une complexité temporelle de O(n²) dans le pire des cas ?"
+      },
+      "options": [
+        {
+          "content": "Tri à bulles",
+          "correct": true
+        },
+        {
+          "content": "Tri fusion"
+        },
+        {
+          "content": "Tri rapide"
+        },
+        {
+          "content": "Tri par tas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles opérations ont une complexité temporelle de O(1) pour un tableau ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Accès à un élément par son index",
+          "correct": true
+        },
+        {
+          "content": "Modification d'un élément",
+          "correct": true
+        },
+        {
+          "content": "Insertion à la fin (si le tableau a de l'espace)",
+          "correct": true
+        },
+        {
+          "content": "Suppression d'un élément au milieu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon d'implémenter une file d'attente (queue) en utilisant un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Tableau circulaire",
+          "correct": true
+        },
+        {
+          "content": "Tableau simple avec insertion à la fin et suppression au début"
+        },
+        {
+          "content": "Deux tableaux séparés"
+        },
+        {
+          "content": "Tableau trié"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle technique est utilisée pour améliorer les performances de l'algorithme de recherche linéaire dans un tableau non trié ?"
+      },
+      "options": [
+        {
+          "content": "Sentinelle",
+          "correct": true
+        },
+        {
+          "content": "Hachage"
+        },
+        {
+          "content": "Indexation"
+        },
+        {
+          "content": "Compression"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité spatiale d'un tableau à deux dimensions de taille n x m ?"
+      },
+      "options": [
+        {
+          "content": "O(n * m)",
+          "correct": true
+        },
+        {
+          "content": "O(n + m)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(m)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau dynamique (comme ArrayList en Java ou vector en C++) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Taille ajustable automatiquement",
+          "correct": true
+        },
+        {
+          "content": "Accès direct aux éléments",
+          "correct": true
+        },
+        {
+          "content": "Efficacité de l'utilisation de la mémoire",
+          "correct": true
+        },
+        {
+          "content": "Insertion rapide au milieu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de recherche par interpolation dans le meilleur des cas ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log log n)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour optimiser l'utilisation de la mémoire lors de la manipulation de grands tableaux contenant des valeurs répétitives ?"
+      },
+      "options": [
+        {
+          "content": "Compression de données",
+          "correct": true
+        },
+        {
+          "content": "Hachage"
+        },
+        {
+          "content": "Indexation"
+        },
+        {
+          "content": "Fragmentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels algorithmes de tri sont stables ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Tri par fusion",
+          "correct": true
+        },
+        {
+          "content": "Tri à bulles",
+          "correct": true
+        },
+        {
+          "content": "Tri par insertion",
+          "correct": true
+        },
+        {
+          "content": "Tri rapide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour trouver le k-ième plus petit élément dans un tableau non trié ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme QuickSelect",
+          "correct": true
+        },
+        {
+          "content": "Trier le tableau et retourner le k-ième élément"
+        },
+        {
+          "content": "Utiliser un tas (heap)"
+        },
+        {
+          "content": "Recherche linéaire répétée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Kadane pour trouver la sous-séquence contiguë de somme maximale dans un tableau ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon algorithme de hachage pour indexer un tableau ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Distribution uniforme",
+          "correct": true
+        },
+        {
+          "content": "Rapidité de calcul",
+          "correct": true
+        },
+        {
+          "content": "Minimisation des collisions",
+          "correct": true
+        },
+        {
+          "content": "Dépendance à la taille du tableau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour optimiser la recherche dans un tableau trié contenant des doublons ?"
+      },
+      "options": [
+        {
+          "content": "Recherche binaire modifiée",
+          "correct": true
+        },
+        {
+          "content": "Recherche linéaire"
+        },
+        {
+          "content": "Recherche par interpolation"
+        },
+        {
+          "content": "Recherche exponentielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Floyd pour trouver un cycle dans un tableau ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les applications courantes des tableaux de suffixes ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Recherche de motifs",
+          "correct": true
+        },
+        {
+          "content": "Compression de données",
+          "correct": true
+        },
+        {
+          "content": "Analyse de séquences biologiques",
+          "correct": true
+        },
+        {
+          "content": "Tri de nombres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Boyer-Moore pour la recherche de sous-chaînes dans le meilleur des cas ?"
+      },
+      "options": [
+        {
+          "content": "O(n/m)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n+m)"
+        },
+        {
+          "content": "O(n*m)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter une file de priorité efficace basée sur un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Tas binaire",
+          "correct": true
+        },
+        {
+          "content": "Tableau trié"
+        },
+        {
+          "content": "Tableau non trié"
+        },
+        {
+          "content": "Tableau circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau de bits (bitset) par rapport à un tableau standard pour stocker des valeurs booléennes ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Économie de mémoire",
+          "correct": true
+        },
+        {
+          "content": "Opérations bit à bit rapides",
+          "correct": true
+        },
+        {
+          "content": "Facilité d'implémentation de certains algorithmes",
+          "correct": true
+        },
+        {
+          "content": "Meilleure lisibilité du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Manacher pour trouver tous les palindromes dans une chaîne ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(2^n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour optimiser la recherche d'un élément dans un tableau trié et tourné (rotated sorted array) ?"
+      },
+      "options": [
+        {
+          "content": "Recherche binaire modifiée",
+          "correct": true
+        },
+        {
+          "content": "Recherche linéaire"
+        },
+        {
+          "content": "Recherche par interpolation"
+        },
+        {
+          "content": "Recherche exponentielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau de comptage (counting sort) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Complexité linéaire O(n+k) où k est la plage de valeurs",
+          "correct": true
+        },
+        {
+          "content": "Stable",
+          "correct": true
+        },
+        {
+          "content": "Efficace pour les petites plages de valeurs",
+          "correct": true
+        },
+        {
+          "content": "Fonctionne bien avec des nombres à virgule flottante"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Rabin-Karp pour la recherche de sous-chaînes dans le cas moyen ?"
+      },
+      "options": [
+        {
+          "content": "O(n+m)",
+          "correct": true
+        },
+        {
+          "content": "O(n*m)"
+        },
+        {
+          "content": "O(n log m)"
+        },
+        {
+          "content": "O(n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour résoudre efficacement le problème de la plus longue sous-séquence croissante dans un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Programmation dynamique",
+          "correct": true
+        },
+        {
+          "content": "Diviser pour régner"
+        },
+        {
+          "content": "Backtracking"
+        },
+        {
+          "content": "Recherche exhaustive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau de Fenwick (Binary Indexed Tree) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Mise à jour efficace des éléments",
+          "correct": true
+        },
+        {
+          "content": "Calcul rapide des sommes préfixes",
+          "correct": true
+        },
+        {
+          "content": "Utilisation efficace de la mémoire",
+          "correct": true
+        },
+        {
+          "content": "Tri rapide des éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Tarjan pour trouver les composantes fortement connexes dans un graphe représenté par une matrice d'adjacence ?"
+      },
+      "options": [
+        {
+          "content": "O(V²)",
+          "correct": true
+        },
+        {
+          "content": "O(V+E)"
+        },
+        {
+          "content": "O(V log V)"
+        },
+        {
+          "content": "O(E log V)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour implémenter efficacement une file de priorité à deux extrémités (double-ended priority queue) ?"
+      },
+      "options": [
+        {
+          "content": "Min-max heap",
+          "correct": true
+        },
+        {
+          "content": "Binary heap"
+        },
+        {
+          "content": "Fibonacci heap"
+        },
+        {
+          "content": "Skew heap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les applications courantes des tableaux de sparse ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Représentation de matrices creuses",
+          "correct": true
+        },
+        {
+          "content": "Stockage de graphes",
+          "correct": true
+        },
+        {
+          "content": "Compression de données",
+          "correct": true
+        },
+        {
+          "content": "Tri de grandes quantités de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Knuth-Morris-Pratt (KMP) pour la recherche de sous-chaînes ?"
+      },
+      "options": [
+        {
+          "content": "O(n+m)",
+          "correct": true
+        },
+        {
+          "content": "O(n*m)"
+        },
+        {
+          "content": "O(n log m)"
+        },
+        {
+          "content": "O(n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter une file de priorité avec mise à jour des priorités en O(log n) ?"
+      },
+      "options": [
+        {
+          "content": "Tas de Fibonacci",
+          "correct": true
+        },
+        {
+          "content": "Tas binaire"
+        },
+        {
+          "content": "Tableau trié"
+        },
+        {
+          "content": "Liste chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau de van Emde Boas ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Opérations en O(log log u) où u est l'univers des clés",
+          "correct": true
+        },
+        {
+          "content": "Efficace pour les ensembles d'entiers",
+          "correct": true
+        },
+        {
+          "content": "Supporte les opérations de prédécesseur et successeur",
+          "correct": true
+        },
+        {
+          "content": "Utilisation efficace de la mémoire pour tous les types de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Floyd-Warshall pour trouver les plus courts chemins entre tous les pairs de sommets dans un graphe représenté par une matrice d'adjacence ?"
+      },
+      "options": [
+        {
+          "content": "O(V³)",
+          "correct": true
+        },
+        {
+          "content": "O(V²)"
+        },
+        {
+          "content": "O(V log V)"
+        },
+        {
+          "content": "O(E log V)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour résoudre efficacement le problème du sous-tableau de somme maximale en 2D ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme de Kadane 2D",
+          "correct": true
+        },
+        {
+          "content": "Programmation dynamique simple"
+        },
+        {
+          "content": "Diviser pour régner"
+        },
+        {
+          "content": "Recherche exhaustive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un tableau de Bloom ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Espace mémoire constant",
+          "correct": true
+        },
+        {
+          "content": "Insertion et recherche en O(1)",
+          "correct": true
+        },
+        {
+          "content": "Pas de faux négatifs",
+          "correct": true
+        },
+        {
+          "content": "Possibilité de supprimer des éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Kosaraju pour trouver les composantes fortement connexes dans un graphe représenté par une liste d'adjacence ?"
+      },
+      "options": [
+        {
+          "content": "O(V+E)",
+          "correct": true
+        },
+        {
+          "content": "O(V²)"
+        },
+        {
+          "content": "O(V log V)"
+        },
+        {
+          "content": "O(E log V)"
+        }
+      ]
+    }
+  ]
+}

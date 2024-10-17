@@ -1,0 +1,808 @@
+{
+  "title": "Drupal",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les compétences techniques des candidats pour construire et gérer des sites Drupal. Il couvre les aspects fondamentaux et avancés de Drupal, permettant d'identifier les experts capables de travailler efficacement avec ce CMS.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Architecture de Drupal",
+      "Développement de modules",
+      "Theming",
+      "Configuration et administration",
+      "Performance et sécurité",
+      "API de Drupal",
+      "Gestion de contenu",
+      "Workflow et modération",
+      "Multilingue",
+      "Migration",
+      "Intégration de services tiers",
+      "Bonnes pratiques de développement Drupal"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur Drupal, d'architecte de solutions Drupal, et d'administrateur de sites Drupal.",
+    "description": "Le test couvre les aspects essentiels et avancés de Drupal, évaluant la capacité du candidat à créer, maintenir et optimiser des sites Drupal complexes.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la dernière version majeure stable de Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Drupal 9",
+          "correct": true
+        },
+        {
+          "content": "Drupal 8"
+        },
+        {
+          "content": "Drupal 10"
+        },
+        {
+          "content": "Drupal 7"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du système de gestion de dépendances utilisé par Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Composer",
+          "correct": true
+        },
+        {
+          "content": "npm"
+        },
+        {
+          "content": "Drush"
+        },
+        {
+          "content": "Pip"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du fichier .module dans un module Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Contenir les hooks et fonctions principales du module",
+          "correct": true
+        },
+        {
+          "content": "Définir la structure de la base de données"
+        },
+        {
+          "content": "Gérer les styles CSS du module"
+        },
+        {
+          "content": "Configurer les routes du module"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel hook Drupal est utilisé pour définir de nouveaux types de contenu ?"
+      },
+      "options": [
+        {
+          "content": "hook_entity_bundle_info",
+          "correct": true
+        },
+        {
+          "content": "hook_node_type"
+        },
+        {
+          "content": "hook_content_type"
+        },
+        {
+          "content": "hook_entity_type"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande Drush pour vider le cache de Drupal ?"
+      },
+      "options": [
+        {
+          "content": "drush cr",
+          "correct": true
+        },
+        {
+          "content": "drush cc all"
+        },
+        {
+          "content": "drush cache-clear"
+        },
+        {
+          "content": "drush flush-cache"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du fichier services.yml dans un module Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Définir les services et leur configuration pour l'injection de dépendances",
+          "correct": true
+        },
+        {
+          "content": "Configurer les routes du module"
+        },
+        {
+          "content": "Définir les hooks du module"
+        },
+        {
+          "content": "Gérer les traductions du module"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour ajouter des styles CSS à un thème Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des bibliothèques définies dans le fichier .libraries.yml",
+          "correct": true
+        },
+        {
+          "content": "Ajouter directement les fichiers CSS dans le dossier css/"
+        },
+        {
+          "content": "Utiliser le hook_css_alter()"
+        },
+        {
+          "content": "Injecter les styles via JavaScript"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Views dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Créer des listes et des grilles de contenu personnalisées",
+          "correct": true
+        },
+        {
+          "content": "Gérer les permissions des utilisateurs"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Créer des formulaires personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer la configuration d'un site Drupal entre les environnements ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la configuration active et le système d'import/export",
+          "correct": true
+        },
+        {
+          "content": "Copier manuellement la base de données"
+        },
+        {
+          "content": "Utiliser le module Features"
+        },
+        {
+          "content": "Recréer manuellement la configuration sur chaque environnement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Paragraphs dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la création de structures de contenu flexibles et réutilisables",
+          "correct": true
+        },
+        {
+          "content": "Améliorer le formatage du texte"
+        },
+        {
+          "content": "Gérer les menus du site"
+        },
+        {
+          "content": "Optimiser les images"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du fichier .install dans un module Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Définir les opérations d'installation, de mise à jour et de désinstallation du module",
+          "correct": true
+        },
+        {
+          "content": "Contenir les hooks principaux du module"
+        },
+        {
+          "content": "Définir la structure des entités du module"
+        },
+        {
+          "content": "Configurer les routes du module"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Pathauto dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Générer automatiquement des alias d'URL pour le contenu",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Gérer les redirections"
+        },
+        {
+          "content": "Améliorer la sécurité du site"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour ajouter du JavaScript à un thème Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des bibliothèques définies dans le fichier .libraries.yml",
+          "correct": true
+        },
+        {
+          "content": "Ajouter directement les fichiers JS dans le dossier js/"
+        },
+        {
+          "content": "Utiliser le hook_js_alter()"
+        },
+        {
+          "content": "Injecter le JavaScript via PHP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Token dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une API pour remplacer des marqueurs de texte par des valeurs dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Gérer l'authentification des utilisateurs"
+        },
+        {
+          "content": "Optimiser les requêtes de base de données"
+        },
+        {
+          "content": "Créer des formulaires personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre un thème et un module dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Un thème gère l'apparence, un module ajoute des fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Un thème gère le contenu, un module gère l'administration"
+        },
+        {
+          "content": "Un thème est obligatoire, un module est optionnel"
+        },
+        {
+          "content": "Un thème s'exécute côté client, un module s'exécute côté serveur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Field API dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la création et la gestion de champs personnalisés pour les entités",
+          "correct": true
+        },
+        {
+          "content": "Gérer les permissions des utilisateurs"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Créer des vues personnalisées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les traductions dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le module Core Language et Content Translation",
+          "correct": true
+        },
+        {
+          "content": "Créer des sites séparés pour chaque langue"
+        },
+        {
+          "content": "Utiliser des variables PHP pour chaque langue"
+        },
+        {
+          "content": "Dupliquer manuellement le contenu pour chaque langue"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Entity API dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une interface unifiée pour travailler avec différents types d'entités",
+          "correct": true
+        },
+        {
+          "content": "Gérer les utilisateurs et les rôles"
+        },
+        {
+          "content": "Optimiser les requêtes de base de données"
+        },
+        {
+          "content": "Créer des formulaires personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les mises à jour de la base de données dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des fonctions hook_update_N() dans le fichier .install",
+          "correct": true
+        },
+        {
+          "content": "Modifier directement la base de données via phpMyAdmin"
+        },
+        {
+          "content": "Utiliser des requêtes SQL brutes dans le code PHP"
+        },
+        {
+          "content": "Réinstaller le site à chaque mise à jour"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Ctools (Chaos Tools Suite) dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir un ensemble d'outils et d'APIs pour les développeurs",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Gérer les sauvegardes du site"
+        },
+        {
+          "content": "Créer des thèmes responsives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour créer des formulaires personnalisés dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'API Form de Drupal",
+          "correct": true
+        },
+        {
+          "content": "Utiliser du HTML pur avec des balises <form>"
+        },
+        {
+          "content": "Utiliser un module tiers comme Webform pour tous les formulaires"
+        },
+        {
+          "content": "Intégrer des formulaires externes via iframes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Rules dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la création d'actions conditionnelles basées sur des événements",
+          "correct": true
+        },
+        {
+          "content": "Gérer les permissions des utilisateurs"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Créer des thèmes responsives"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les assets (CSS, JS, images) dans un thème Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des bibliothèques définies dans le fichier .libraries.yml",
+          "correct": true
+        },
+        {
+          "content": "Placer tous les fichiers dans un dossier 'assets' et les inclure manuellement"
+        },
+        {
+          "content": "Utiliser des CDN externes pour tous les assets"
+        },
+        {
+          "content": "Injecter tous les assets via JavaScript"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Features dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre l'exportation et l'importation de configurations sous forme de modules",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des fonctionnalités de blog avancées"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Gérer les mises à jour de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour créer des blocs personnalisés dans Drupal 8 et versions ultérieures ?"
+      },
+      "options": [
+        {
+          "content": "Créer une classe de plugin de bloc",
+          "correct": true
+        },
+        {
+          "content": "Utiliser hook_block_info() et hook_block_view()"
+        },
+        {
+          "content": "Créer un nouveau type de contenu pour chaque bloc"
+        },
+        {
+          "content": "Utiliser uniquement l'interface d'administration pour créer des blocs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Media dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une gestion centralisée des fichiers multimédias",
+          "correct": true
+        },
+        {
+          "content": "Optimiser automatiquement toutes les images du site"
+        },
+        {
+          "content": "Créer des galeries d'images"
+        },
+        {
+          "content": "Gérer les permissions des fichiers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter des tâches CRON personnalisées dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Implémenter hook_cron() dans un module personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement le module Elysia Cron"
+        },
+        {
+          "content": "Ajouter des scripts PHP dans le dossier 'scripts'"
+        },
+        {
+          "content": "Modifier directement le fichier cron.php de Drupal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Display Suite dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre une personnalisation avancée de l'affichage des entités",
+          "correct": true
+        },
+        {
+          "content": "Créer des thèmes responsives"
+        },
+        {
+          "content": "Gérer les menus du site"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les dépendances entre modules dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le fichier .info.yml pour déclarer les dépendances",
+          "correct": true
+        },
+        {
+          "content": "Vérifier manuellement l'existence des modules dans le code"
+        },
+        {
+          "content": "Utiliser uniquement des modules sans dépendances"
+        },
+        {
+          "content": "Créer un module 'core' qui contient toutes les fonctionnalités"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Panels dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Permettre la création de mises en page personnalisées avec une interface drag-and-drop",
+          "correct": true
+        },
+        {
+          "content": "Gérer les permissions des utilisateurs"
+        },
+        {
+          "content": "Optimiser les requêtes de base de données"
+        },
+        {
+          "content": "Créer des formulaires personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter des hooks dans Drupal 8 et versions ultérieures ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des services et des événements Symfony",
+          "correct": true
+        },
+        {
+          "content": "Continuer à utiliser uniquement les hooks traditionnels"
+        },
+        {
+          "content": "Créer des classes de plugin pour chaque hook"
+        },
+        {
+          "content": "Utiliser uniquement des modules contribués pour éviter les hooks"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Commerce dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une solution complète de commerce électronique",
+          "correct": true
+        },
+        {
+          "content": "Gérer les newsletters du site"
+        },
+        {
+          "content": "Optimiser le référencement (SEO) du site"
+        },
+        {
+          "content": "Créer des galeries d'images"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les variables de configuration dans Drupal 8 et versions ultérieures ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le système de configuration basé sur YAML",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction variable_get() et variable_set()"
+        },
+        {
+          "content": "Stocker toutes les configurations dans la base de données"
+        },
+        {
+          "content": "Utiliser des constantes PHP pour toutes les configurations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Migrate dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir un framework pour importer des données de sources externes",
+          "correct": true
+        },
+        {
+          "content": "Gérer les sauvegardes du site"
+        },
+        {
+          "content": "Optimiser les performances du site"
+        },
+        {
+          "content": "Créer des thèmes responsives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter un système de cache personnalisé dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'API de Cache de Drupal",
+          "correct": true
+        },
+        {
+          "content": "Implémenter un système de cache basé sur les fichiers"
+        },
+        {
+          "content": "Utiliser uniquement le cache de la base de données"
+        },
+        {
+          "content": "Désactiver complètement le cache pour plus de contrôle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du module Workbench dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des outils avancés de gestion de contenu et de workflow éditorial",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances du serveur"
+        },
+        {
+          "content": "Gérer les sauvegardes automatiques"
+        },
+        {
+          "content": "Créer des thèmes administratifs personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les mises à jour de sécurité dans Drupal ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'interface d'administration de Drupal et composer update régulièrement",
+          "correct": true
+        },
+        {
+          "content": "Attendre la prochaine version majeure pour mettre à jour"
+        },
+        {
+          "content": "Désactiver tous les modules non essentiels"
+        },
+        {
+          "content": "Modifier manuellement le code des modules vulnérables"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "title": "Pandas : Manipulation et analyse de données avancées",
+  "attributes": {
+    "overview": "Ce test approfondi évalue les connaissances et compétences des candidats dans l'utilisation de la bibliothèque Pandas pour la manipulation et l'analyse de données en Python, couvrant des concepts de base aux techniques avancées.",
+    "level": "intermediate to advanced",
+    "covered_skills": [
+      "Structures de données Pandas",
+      "Chargement et sauvegarde de données",
+      "Sélection et filtrage de données",
+      "Transformation de données",
+      "Agrégation et groupement",
+      "Fusion et jointure de données",
+      "Gestion des valeurs manquantes",
+      "Fonctions avancées de Pandas",
+      "Manipulation d'index",
+      "Opérations sur les chaînes de caractères",
+      "Manipulation de dates et heures",
+      "Optimisation des performances",
+      "Visualisation avec Pandas"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences avancées en analyse de données, science des données, ou développement Python orienté données.",
+    "description": "Le test couvre un large éventail de fonctionnalités de Pandas, de l'utilisation basique aux techniques avancées, évaluant la capacité du candidat à manipuler efficacement des données complexes.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 720,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la différence principale entre un DataFrame et une Series dans Pandas ?"
+      },
+      "options": [
+        {
+          "content": "Un DataFrame est bidimensionnel, une Series est unidimensionnelle",
+          "correct": true
+        },
+        {
+          "content": "Une Series peut contenir plusieurs types de données, un DataFrame non"
+        },
+        {
+          "content": "Un DataFrame peut être indexé, une Series non"
+        },
+        {
+          "content": "Une Series est plus rapide pour les calculs que un DataFrame"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode utilisez-vous pour charger un fichier CSV dans un DataFrame Pandas ?"
+      },
+      "options": [
+        {
+          "content": "pd.read_csv()",
+          "correct": true
+        },
+        {
+          "content": "pd.load_csv()"
+        },
+        {
+          "content": "pd.import_csv()"
+        },
+        {
+          "content": "pd.csv_to_df()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment sélectionnez-vous une colonne spécifique dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df['nom_colonne']",
+          "correct": true
+        },
+        {
+          "content": "df.nom_colonne",
+          "correct": true
+        },
+        {
+          "content": "df.get_column('nom_colonne')"
+        },
+        {
+          "content": "df.select('nom_colonne')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour afficher les premières lignes d'un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.head()",
+          "correct": true
+        },
+        {
+          "content": "df.top()"
+        },
+        {
+          "content": "df.first()"
+        },
+        {
+          "content": "df.preview()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajoutez-vous une nouvelle colonne à un DataFrame existant ?"
+      },
+      "options": [
+        {
+          "content": "df['nouvelle_colonne'] = valeurs",
+          "correct": true
+        },
+        {
+          "content": "df.add_column('nouvelle_colonne', valeurs)"
+        },
+        {
+          "content": "df.insert('nouvelle_colonne', valeurs)"
+        },
+        {
+          "content": "df = df.with_column('nouvelle_colonne', valeurs)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour grouper des données par une colonne spécifique ?"
+      },
+      "options": [
+        {
+          "content": "df.groupby('colonne')",
+          "correct": true
+        },
+        {
+          "content": "df.group('colonne')"
+        },
+        {
+          "content": "df.aggregate('colonne')"
+        },
+        {
+          "content": "df.cluster('colonne')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment fusionnez-vous deux DataFrames sur une colonne commune ?"
+      },
+      "options": [
+        {
+          "content": "pd.merge(df1, df2, on='colonne_commune')",
+          "correct": true
+        },
+        {
+          "content": "pd.join(df1, df2, on='colonne_commune')"
+        },
+        {
+          "content": "df1.combine(df2, on='colonne_commune')"
+        },
+        {
+          "content": "df1.union(df2, on='colonne_commune')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour remplacer les valeurs NaN dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.fillna()",
+          "correct": true
+        },
+        {
+          "content": "df.replace_na()"
+        },
+        {
+          "content": "df.drop_na()"
+        },
+        {
+          "content": "df.clean_na()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appliquez-vous une fonction à chaque élément d'une colonne dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df['colonne'].apply(fonction)",
+          "correct": true
+        },
+        {
+          "content": "df['colonne'].map(fonction)"
+        },
+        {
+          "content": "df['colonne'].transform(fonction)"
+        },
+        {
+          "content": "Toutes les réponses ci-dessus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour pivoter un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.pivot()",
+          "correct": true
+        },
+        {
+          "content": "df.rotate()"
+        },
+        {
+          "content": "df.transpose()"
+        },
+        {
+          "content": "df.reshape()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment triez-vous un DataFrame par une colonne spécifique ?"
+      },
+      "options": [
+        {
+          "content": "df.sort_values('colonne')",
+          "correct": true
+        },
+        {
+          "content": "df.sort('colonne')"
+        },
+        {
+          "content": "df.order_by('colonne')"
+        },
+        {
+          "content": "df.arrange('colonne')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour calculer des statistiques descriptives sur un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.describe()",
+          "correct": true
+        },
+        {
+          "content": "df.summary()"
+        },
+        {
+          "content": "df.stats()"
+        },
+        {
+          "content": "df.analyze()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment sélectionnez-vous des lignes dans un DataFrame basé sur une condition ?"
+      },
+      "options": [
+        {
+          "content": "df[df['colonne'] > valeur]",
+          "correct": true
+        },
+        {
+          "content": "df.where('colonne' > valeur)"
+        },
+        {
+          "content": "df.filter('colonne' > valeur)"
+        },
+        {
+          "content": "df.select('colonne' > valeur)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour supprimer les doublons dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.drop_duplicates()",
+          "correct": true
+        },
+        {
+          "content": "df.remove_duplicates()"
+        },
+        {
+          "content": "df.unique()"
+        },
+        {
+          "content": "df.distinct()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment renommez-vous une colonne dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.rename(columns={'ancien_nom': 'nouveau_nom'})",
+          "correct": true
+        },
+        {
+          "content": "df.change_column_name('ancien_nom', 'nouveau_nom')"
+        },
+        {
+          "content": "df['nouveau_nom'] = df['ancien_nom']"
+        },
+        {
+          "content": "df.columns['ancien_nom'] = 'nouveau_nom'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour calculer la corrélation entre les colonnes d'un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.corr()",
+          "correct": true
+        },
+        {
+          "content": "df.correlation()"
+        },
+        {
+          "content": "df.covariance()"
+        },
+        {
+          "content": "df.relationship()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous un DataFrame à partir d'un dictionnaire ?"
+      },
+      "options": [
+        {
+          "content": "pd.DataFrame(dictionnaire)",
+          "correct": true
+        },
+        {
+          "content": "pd.from_dict(dictionnaire)"
+        },
+        {
+          "content": "pd.dict_to_df(dictionnaire)"
+        },
+        {
+          "content": "pd.create_df(dictionnaire)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour obtenir des informations sur un DataFrame, y compris les types de données et les valeurs non nulles ?"
+      },
+      "options": [
+        {
+          "content": "df.info()",
+          "correct": true
+        },
+        {
+          "content": "df.describe()"
+        },
+        {
+          "content": "df.summary()"
+        },
+        {
+          "content": "df.details()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment sélectionnez-vous plusieurs colonnes d'un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df[['colonne1', 'colonne2', 'colonne3']]",
+          "correct": true
+        },
+        {
+          "content": "df.select('colonne1', 'colonne2', 'colonne3')"
+        },
+        {
+          "content": "df.get(['colonne1', 'colonne2', 'colonne3'])"
+        },
+        {
+          "content": "df.columns('colonne1', 'colonne2', 'colonne3')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour remplacer toutes les occurrences d'une valeur par une autre dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.replace(ancienne_valeur, nouvelle_valeur)",
+          "correct": true
+        },
+        {
+          "content": "df.substitute(ancienne_valeur, nouvelle_valeur)"
+        },
+        {
+          "content": "df.change(ancienne_valeur, nouvelle_valeur)"
+        },
+        {
+          "content": "df.update(ancienne_valeur, nouvelle_valeur)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuez-vous une opération de fusion (merge) de type 'outer' entre deux DataFrames ?"
+      },
+      "options": [
+        {
+          "content": "pd.merge(df1, df2, how='outer')",
+          "correct": true
+        },
+        {
+          "content": "pd.merge(df1, df2, type='outer')"
+        },
+        {
+          "content": "df1.merge(df2, outer=True)"
+        },
+        {
+          "content": "df1.join(df2, method='outer')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour créer un DataFrame avec un index DatetimeIndex ?"
+      },
+      "options": [
+        {
+          "content": "pd.date_range()",
+          "correct": true
+        },
+        {
+          "content": "pd.datetime_index()"
+        },
+        {
+          "content": "pd.create_dates()"
+        },
+        {
+          "content": "pd.time_series()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appliquez-vous une fonction à chaque groupe après un groupby ?"
+      },
+      "options": [
+        {
+          "content": "df.groupby('colonne').apply(fonction)",
+          "correct": true
+        },
+        {
+          "content": "df.groupby('colonne').function()"
+        },
+        {
+          "content": "df.apply(fonction).groupby('colonne')"
+        },
+        {
+          "content": "df.groupby('colonne').transform(fonction)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour obtenir les valeurs uniques d'une colonne ?"
+      },
+      "options": [
+        {
+          "content": "df['colonne'].unique()",
+          "correct": true
+        },
+        {
+          "content": "df['colonne'].distinct()"
+        },
+        {
+          "content": "df.unique('colonne')"
+        },
+        {
+          "content": "df.get_unique('colonne')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous une colonne conditionnelle dans un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df['nouvelle_colonne'] = np.where(condition, valeur_si_vrai, valeur_si_faux)",
+          "correct": true
+        },
+        {
+          "content": "df.add_conditional('nouvelle_colonne', condition, valeur_si_vrai, valeur_si_faux)"
+        },
+        {
+          "content": "df.conditional('nouvelle_colonne', condition, valeur_si_vrai, valeur_si_faux)"
+        },
+        {
+          "content": "df.apply_condition('nouvelle_colonne', condition, valeur_si_vrai, valeur_si_faux)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour pivoter une table (transformer des valeurs uniques d'une colonne en plusieurs colonnes) ?"
+      },
+      "options": [
+        {
+          "content": "df.pivot(index='index', columns='colonne', values='valeurs')",
+          "correct": true
+        },
+        {
+          "content": "df.melt(index='index', columns='colonne', values='valeurs')"
+        },
+        {
+          "content": "df.spread(index='index', columns='colonne', values='valeurs')"
+        },
+        {
+          "content": "df.reshape(index='index', columns='colonne', values='valeurs')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuez-vous une opération de fenêtrage (window operation) sur un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df.rolling(window=n).mean()",
+          "correct": true
+        },
+        {
+          "content": "df.window(size=n).average()"
+        },
+        {
+          "content": "df.slide(width=n).calculate()"
+        },
+        {
+          "content": "df.moving(period=n).compute()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour convertir une colonne en type catégoriel ?"
+      },
+      "options": [
+        {
+          "content": "df['colonne'] = df['colonne'].astype('category')",
+          "correct": true
+        },
+        {
+          "content": "df['colonne'] = df['colonne'].to_category()"
+        },
+        {
+          "content": "df.categorize('colonne')"
+        },
+        {
+          "content": "df.convert_to_category('colonne')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réalisez-vous une agrégation personnalisée après un groupby ?"
+      },
+      "options": [
+        {
+          "content": "df.groupby('colonne').agg({'col1': 'sum', 'col2': 'mean'})",
+          "correct": true
+        },
+        {
+          "content": "df.groupby('colonne').custom({'col1': 'sum', 'col2': 'mean'})"
+        },
+        {
+          "content": "df.groupby('colonne').aggregate({'col1': sum, 'col2': mean})"
+        },
+        {
+          "content": "df.group('colonne').summarize({'col1': 'sum', 'col2': 'mean'})"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour supprimer les lignes avec des valeurs manquantes ?"
+      },
+      "options": [
+        {
+          "content": "df.dropna()",
+          "correct": true
+        },
+        {
+          "content": "df.remove_na()"
+        },
+        {
+          "content": "df.delete_missing()"
+        },
+        {
+          "content": "df.clean()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous un DataFrame à partir d'un fichier Excel avec plusieurs feuilles ?"
+      },
+      "options": [
+        {
+          "content": "pd.read_excel('fichier.xlsx', sheet_name=None)",
+          "correct": true
+        },
+        {
+          "content": "pd.excel_to_df('fichier.xlsx', all_sheets=True)"
+        },
+        {
+          "content": "pd.import_excel('fichier.xlsx', multi_sheet=True)"
+        },
+        {
+          "content": "pd.load_excel('fichier.xlsx', sheets='all')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour effectuer une opération de fusion (merge) basée sur l'index ?"
+      },
+      "options": [
+        {
+          "content": "pd.merge(df1, df2, left_index=True, right_index=True)",
+          "correct": true
+        },
+        {
+          "content": "pd.merge(df1, df2, on='index')"
+        },
+        {
+          "content": "df1.join(df2)"
+        },
+        {
+          "content": "df1.combine(df2, by='index')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuez-vous une opération de décalage (shift) sur une colonne d'un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "df['colonne'].shift(periods=1)",
+          "correct": true
+        },
+        {
+          "content": "df['colonne'].move(steps=1)"
+        },
+        {
+          "content": "df.offset('colonne', by=1)"
+        },
+        {
+          "content": "df.slide('colonne', amount=1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour effectuer une interpolation linéaire sur les valeurs manquantes ?"
+      },
+      "options": [
+        {
+          "content": "df.interpolate(method='linear')",
+          "correct": true
+        },
+        {
+          "content": "df.fillna(method='interpolate')"
+        },
+        {
+          "content": "df.approx_missing(type='linear')"
+        },
+        {
+          "content": "df.estimate_na(method='linear')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous une colonne basée sur une fonction appliquée à plusieurs autres colonnes ?"
+      },
+      "options": [
+        {
+          "content": "df['nouvelle_colonne'] = df.apply(lambda row: fonction(row['col1'], row['col2']), axis=1)",
+          "correct": true
+        },
+        {
+          "content": "df.create_column('nouvelle_colonne', fonction('col1', 'col2'))"
+        },
+        {
+          "content": "df.add_calculated_column('nouvelle_colonne', fonction, ['col1', 'col2'])"
+        },
+        {
+          "content": "df['nouvelle_colonne'] = fonction(df['col1'], df['col2'])"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour effectuer une opération de fusion (merge) avec une jointure à gauche ?"
+      },
+      "options": [
+        {
+          "content": "pd.merge(df1, df2, how='left', on='key')",
+          "correct": true
+        },
+        {
+          "content": "df1.join(df2, type='left', key='key')"
+        },
+        {
+          "content": "pd.left_join(df1, df2, on='key')"
+        },
+        {
+          "content": "df1.merge(df2, direction='left', by='key')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuez-vous une opération de rabattement (melt) sur un DataFrame ?"
+      },
+      "options": [
+        {
+          "content": "pd.melt(df, id_vars=['id'], var_name='variable', value_name='valeur')",
+          "correct": true
+        },
+        {
+          "content": "df.unpivot(id_cols=['id'], var_name='variable', value_name='valeur')"
+        },
+        {
+          "content": "df.reshape(keep=['id'], new_col='variable', values='valeur')"
+        },
+        {
+          "content": "df.flatten(maintain=['id'], column_name='variable', value_name='valeur')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour effectuer une opération de découpage temporel (time-based resampling) sur un DataFrame avec un index DatetimeIndex ?"
+      },
+      "options": [
+        {
+          "content": "df.resample('D').mean()",
+          "correct": true
+        },
+        {
+          "content": "df.timeslice('daily').average()"
+        },
+        {
+          "content": "df.groupby_time('day').mean()"
+        },
+        {
+          "content": "df.time_window('D').calculate()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créez-vous un DataFrame multi-index ?"
+      },
+      "options": [
+        {
+          "content": "pd.MultiIndex.from_product([['A', 'B'], [1, 2]])",
+          "correct": true
+        },
+        {
+          "content": "pd.create_multi_index(['A', 'B'], [1, 2])"
+        },
+        {
+          "content": "pd.Index.multi(['A', 'B'], [1, 2])"
+        },
+        {
+          "content": "pd.Hierarchical_index(['A', 'B'], [1, 2])"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode utilisez-vous pour effectuer une opération de fusion (merge) asynchrone sur l'index de deux DataFrames avec des horodatages ?"
+      },
+      "options": [
+        {
+          "content": "pd.merge_asof(df1, df2, left_index=True, right_index=True)",
+          "correct": true
+        },
+        {
+          "content": "pd.time_merge(df1, df2, on='index')"
+        },
+        {
+          "content": "df1.join_time(df2)"
+        },
+        {
+          "content": "df1.async_merge(df2, by='index')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment effectuez-vous une opération de fenêtrage (rolling window) avec une fenêtre variable ?"
+      },
+      "options": [
+        {
+          "content": "df.rolling(window=variable_window_func).mean()",
+          "correct": true
+        },
+        {
+          "content": "df.sliding(size=variable_window_func).average()"
+        },
+        {
+          "content": "df.moving(width=variable_window_func).compute()"
+        },
+        {
+          "content": "df.window(span=variable_window_func).calculate()"
+        }
+      ]
+    }
+  ]
+}

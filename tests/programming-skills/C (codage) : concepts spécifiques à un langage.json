@@ -1,0 +1,797 @@
+{
+  "title": "C (codage) : concepts spécifiques à un langage",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en programmation C, en mettant l'accent sur les concepts spécifiques au langage tels que les pointeurs, la gestion de la mémoire et les structures de données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Syntaxe et sémantique du C",
+      "Pointeurs et références",
+      "Gestion de la mémoire",
+      "Structures et unions",
+      "Manipulation de bits",
+      "Préprocesseur",
+      "Fichiers et E/S",
+      "Allocation dynamique de mémoire"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une bonne maîtrise du langage C, en particulier pour le développement système, embarqué ou de bas niveau.",
+    "description": "Le test couvre les aspects intermédiaires de la programmation en C, évaluant la capacité du candidat à utiliser efficacement les fonctionnalités spécifiques du langage.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 1800,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la différence principale entre un pointeur et une référence en C ?"
+      },
+      "options": [
+        {
+          "content": "Les pointeurs peuvent être réaffectés, les références non",
+          "correct": true
+        },
+        {
+          "content": "Les références peuvent être nulles, les pointeurs non"
+        },
+        {
+          "content": "Les pointeurs utilisent le symbole '&', les références utilisent '*'"
+        },
+        {
+          "content": "Il n'y a pas de références en C, seulement en C++"
+        },
+        {
+          "content": "Les pointeurs sont plus lents que les références"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction est utilisée pour allouer dynamiquement de la mémoire en C ?"
+      },
+      "options": [
+        {
+          "content": "malloc()",
+          "correct": true
+        },
+        {
+          "content": "new()"
+        },
+        {
+          "content": "alloc()"
+        },
+        {
+          "content": "create()"
+        },
+        {
+          "content": "memory()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Que fait l'opérateur '&' en C ?"
+      },
+      "options": [
+        {
+          "content": "Retourne l'adresse mémoire d'une variable",
+          "correct": true
+        },
+        {
+          "content": "Effectue un ET logique"
+        },
+        {
+          "content": "Déclare une référence"
+        },
+        {
+          "content": "Concatène deux chaînes"
+        },
+        {
+          "content": "Crée un pointeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la taille d'un pointeur en C sur une architecture 64 bits ?"
+      },
+      "options": [
+        {
+          "content": "8 octets",
+          "correct": true
+        },
+        {
+          "content": "4 octets"
+        },
+        {
+          "content": "16 octets"
+        },
+        {
+          "content": "Dépend du type pointé"
+        },
+        {
+          "content": "1 octet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la fonction 'free()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Libère la mémoire allouée dynamiquement",
+          "correct": true
+        },
+        {
+          "content": "Vide le contenu d'un fichier"
+        },
+        {
+          "content": "Termine le programme"
+        },
+        {
+          "content": "Réinitialise une variable à zéro"
+        },
+        {
+          "content": "Supprime un fichier du système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre une structure et une union en C ?"
+      },
+      "options": [
+        {
+          "content": "Une union partage la même mémoire pour tous ses membres, une structure alloue de la mémoire séparée pour chaque membre",
+          "correct": true
+        },
+        {
+          "content": "Une structure peut contenir des fonctions, une union non"
+        },
+        {
+          "content": "Une union est thread-safe, une structure non"
+        },
+        {
+          "content": "Une structure est utilisée pour les types de données primitifs, une union pour les types complexes"
+        },
+        {
+          "content": "Il n'y a pas de différence, ce sont des synonymes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal du préprocesseur en C ?"
+      },
+      "options": [
+        {
+          "content": "Effectuer des manipulations textuelles sur le code source avant la compilation",
+          "correct": true
+        },
+        {
+          "content": "Optimiser le code après la compilation"
+        },
+        {
+          "content": "Gérer la mémoire pendant l'exécution du programme"
+        },
+        {
+          "content": "Créer des fichiers objets"
+        },
+        {
+          "content": "Déboguer le code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur de déréférencement '*' en C ?"
+      },
+      "options": [
+        {
+          "content": "Accède à la valeur pointée par un pointeur",
+          "correct": true
+        },
+        {
+          "content": "Multiplie deux nombres"
+        },
+        {
+          "content": "Déclare un pointeur"
+        },
+        {
+          "content": "Alloue de la mémoire dynamiquement"
+        },
+        {
+          "content": "Crée une copie d'une variable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre 'malloc()' et 'calloc()' en C ?"
+      },
+      "options": [
+        {
+          "content": "'calloc()' initialise la mémoire allouée à zéro, 'malloc()' ne le fait pas",
+          "correct": true
+        },
+        {
+          "content": "'malloc()' peut allouer plus de mémoire que 'calloc()'"
+        },
+        {
+          "content": "'calloc()' est plus rapide que 'malloc()'"
+        },
+        {
+          "content": "'malloc()' est thread-safe, 'calloc()' ne l'est pas"
+        },
+        {
+          "content": "'calloc()' alloue de la mémoire contigüe, 'malloc()' non"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la directive de préprocesseur '#define' en C ?"
+      },
+      "options": [
+        {
+          "content": "Définit une macro pour le remplacement de texte",
+          "correct": true
+        },
+        {
+          "content": "Déclare une variable globale"
+        },
+        {
+          "content": "Inclut un fichier d'en-tête"
+        },
+        {
+          "content": "Crée une nouvelle fonction"
+        },
+        {
+          "content": "Définit une constante en mémoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'opérateur 'sizeof' en C ?"
+      },
+      "options": [
+        {
+          "content": "Retourne la taille en octets d'un type de données ou d'une variable",
+          "correct": true
+        },
+        {
+          "content": "Calcule la longueur d'une chaîne de caractères"
+        },
+        {
+          "content": "Détermine la taille d'un tableau"
+        },
+        {
+          "content": "Alloue de la mémoire pour une variable"
+        },
+        {
+          "content": "Vérifie si un pointeur est valide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre '++i' et 'i++' en C ?"
+      },
+      "options": [
+        {
+          "content": "'++i' incrémente i avant d'utiliser sa valeur, 'i++' utilise la valeur de i puis l'incrémente",
+          "correct": true
+        },
+        {
+          "content": "'i++' est plus rapide que '++i'"
+        },
+        {
+          "content": "'++i' fonctionne uniquement avec les pointeurs"
+        },
+        {
+          "content": "'i++' ne peut pas être utilisé dans une boucle for"
+        },
+        {
+          "content": "Il n'y a aucune différence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur ternaire '?:' en C ?"
+      },
+      "options": [
+        {
+          "content": "Fournit une façon concise d'écrire une instruction if-else",
+          "correct": true
+        },
+        {
+          "content": "Effectue une opération bit à bit"
+        },
+        {
+          "content": "Vérifie si une variable est nulle"
+        },
+        {
+          "content": "Convertit un type de données en un autre"
+        },
+        {
+          "content": "Crée un tableau à trois dimensions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'volatile' en C ?"
+      },
+      "options": [
+        {
+          "content": "Indique au compilateur que la valeur d'une variable peut changer à tout moment sans action explicite du code",
+          "correct": true
+        },
+        {
+          "content": "Déclare une variable qui ne peut être modifiée"
+        },
+        {
+          "content": "Crée une variable temporaire"
+        },
+        {
+          "content": "Optimise l'accès à la mémoire"
+        },
+        {
+          "content": "Définit une variable globale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la fonction 'realloc()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Modifie la taille d'un bloc de mémoire précédemment alloué",
+          "correct": true
+        },
+        {
+          "content": "Alloue de la mémoire pour la première fois"
+        },
+        {
+          "content": "Libère la mémoire allouée"
+        },
+        {
+          "content": "Copie le contenu d'un bloc de mémoire dans un autre"
+        },
+        {
+          "content": "Initialise un bloc de mémoire à zéro"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'static' pour une variable locale en C ?"
+      },
+      "options": [
+        {
+          "content": "Fait en sorte que la variable conserve sa valeur entre les appels de fonction",
+          "correct": true
+        },
+        {
+          "content": "Rend la variable accessible globalement"
+        },
+        {
+          "content": "Empêche la modification de la variable"
+        },
+        {
+          "content": "Alloue la variable sur le tas plutôt que sur la pile"
+        },
+        {
+          "content": "Initialise automatiquement la variable à zéro"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur de cast '(type)' en C ?"
+      },
+      "options": [
+        {
+          "content": "Convertit explicitement une expression en un type de données spécifié",
+          "correct": true
+        },
+        {
+          "content": "Crée une nouvelle variable du type spécifié"
+        },
+        {
+          "content": "Vérifie si une variable est du type spécifié"
+        },
+        {
+          "content": "Alloue de la mémoire pour le type spécifié"
+        },
+        {
+          "content": "Définit une nouvelle structure de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de la fonction 'memcpy()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Copie un bloc de mémoire d'une source vers une destination",
+          "correct": true
+        },
+        {
+          "content": "Alloue de la mémoire"
+        },
+        {
+          "content": "Compare deux blocs de mémoire"
+        },
+        {
+          "content": "Initialise un bloc de mémoire à une valeur spécifique"
+        },
+        {
+          "content": "Libère un bloc de mémoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur '<<' en C ?"
+      },
+      "options": [
+        {
+          "content": "Effectue un décalage de bits vers la gauche",
+          "correct": true
+        },
+        {
+          "content": "Insère des données dans un flux de sortie"
+        },
+        {
+          "content": "Compare deux valeurs"
+        },
+        {
+          "content": "Effectue une opération d'addition"
+        },
+        {
+          "content": "Crée un nouveau fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'extern' en C ?"
+      },
+      "options": [
+        {
+          "content": "Déclare une variable ou une fonction qui est définie dans un autre fichier source",
+          "correct": true
+        },
+        {
+          "content": "Définit une variable comme constante"
+        },
+        {
+          "content": "Crée une variable locale statique"
+        },
+        {
+          "content": "Exporte une fonction pour être utilisée comme une API"
+        },
+        {
+          "content": "Alloue de la mémoire externe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre 'struct' et 'typedef struct' en C ?"
+      },
+      "options": [
+        {
+          "content": "'typedef struct' crée un alias pour le type de structure, permettant de l'utiliser sans le mot-clé 'struct'",
+          "correct": true
+        },
+        {
+          "content": "'typedef struct' alloue automatiquement de la mémoire pour la structure"
+        },
+        {
+          "content": "'struct' ne peut pas contenir de pointeurs, 'typedef struct' le peut"
+        },
+        {
+          "content": "'typedef struct' est plus efficace en termes de mémoire"
+        },
+        {
+          "content": "Il n'y a aucune différence fonctionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la fonction 'fseek()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Déplace le pointeur de fichier à une position spécifiée",
+          "correct": true
+        },
+        {
+          "content": "Recherche une chaîne dans un fichier"
+        },
+        {
+          "content": "Ferme un fichier"
+        },
+        {
+          "content": "Lit une ligne d'un fichier"
+        },
+        {
+          "content": "Écrit dans un fichier à partir d'une position aléatoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'opérateur '->'' en C ?"
+      },
+      "options": [
+        {
+          "content": "Accède à un membre d'une structure via un pointeur",
+          "correct": true
+        },
+        {
+          "content": "Déclare une fonction lambda"
+        },
+        {
+          "content": "Effectue une opération de soustraction"
+        },
+        {
+          "content": "Crée un lien symbolique"
+        },
+        {
+          "content": "Redirige la sortie standard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la fonction 'perror()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Affiche un message d'erreur sur la sortie d'erreur standard",
+          "correct": true
+        },
+        {
+          "content": "Génère une erreur personnalisée"
+        },
+        {
+          "content": "Vérifie si une opération a généré une erreur"
+        },
+        {
+          "content": "Efface le dernier message d'erreur"
+        },
+        {
+          "content": "Termine le programme en cas d'erreur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'register' en C ?"
+      },
+      "options": [
+        {
+          "content": "Suggère au compilateur de stocker la variable dans un registre du processeur pour un accès plus rapide",
+          "correct": true
+        },
+        {
+          "content": "Déclare une variable globale"
+        },
+        {
+          "content": "Crée une variable en lecture seule"
+        },
+        {
+          "content": "Alloue de la mémoire sur le tas"
+        },
+        {
+          "content": "Définit une variable comme thread-local"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur ',' (virgule) en C ?"
+      },
+      "options": [
+        {
+          "content": "Évalue plusieurs expressions de gauche à droite et renvoie la valeur de la dernière expression",
+          "correct": true
+        },
+        {
+          "content": "Concatène deux chaînes de caractères"
+        },
+        {
+          "content": "Sépare les arguments d'une fonction"
+        },
+        {
+          "content": "Crée un tableau multidimensionnel"
+        },
+        {
+          "content": "Effectue une opération bit à bit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de la fonction 'longjmp()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Effectue un saut non local, restaurant un environnement sauvegardé par setjmp()",
+          "correct": true
+        },
+        {
+          "content": "Alloue un grand bloc de mémoire"
+        },
+        {
+          "content": "Effectue un saut vers une adresse mémoire spécifique"
+        },
+        {
+          "content": "Crée un nouveau thread"
+        },
+        {
+          "content": "Termine le programme immédiatement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la directive de préprocesseur '#pragma' en C ?"
+      },
+      "options": [
+        {
+          "content": "Spécifie des comportements spéciaux ou des optimisations dépendants du compilateur",
+          "correct": true
+        },
+        {
+          "content": "Inclut un fichier d'en-tête"
+        },
+        {
+          "content": "Définit une macro"
+        },
+        {
+          "content": "Conditionne la compilation d'une partie du code"
+        },
+        {
+          "content": "Déclare une variable globale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle de l'opérateur '...' (points de suspension) en C ?"
+      },
+      "options": [
+        {
+          "content": "Indique un nombre variable d'arguments dans une fonction",
+          "correct": true
+        },
+        {
+          "content": "Crée une boucle infinie"
+        },
+        {
+          "content": "Initialise un tableau avec des valeurs par défaut"
+        },
+        {
+          "content": "Indique une plage de valeurs dans un switch-case"
+        },
+        {
+          "content": "Effectue une opération de concaténation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la fonction 'memmove()' en C ?"
+      },
+      "options": [
+        {
+          "content": "Copie un bloc de mémoire, même si les zones source et destination se chevauchent",
+          "correct": true
+        },
+        {
+          "content": "Déplace physiquement un bloc de mémoire à une nouvelle adresse"
+        },
+        {
+          "content": "Échange le contenu de deux blocs de mémoire"
+        },
+        {
+          "content": "Initialise un bloc de mémoire avec une valeur spécifique"
+        },
+        {
+          "content": "Libère un bloc de mémoire et le réalloue à un nouvel emplacement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du mot-clé 'restrict' en C99 ?"
+      },
+      "options": [
+        {
+          "content": "Indique au compilateur que le pointeur est le seul moyen d'accéder à l'objet pointé, permettant des optimisations",
+          "correct": true
+        },
+        {
+          "content": "Empêche la modification de la valeur pointée"
+        },
+        {
+          "content": "Limite la portée d'un pointeur à la fonction courante"
+        },
+        {
+          "content": "Restreint l'allocation de mémoire à une certaine taille"
+        },
+        {
+          "content": "Empêche le pointeur d'être null"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait l'opérateur '~' en C ?"
+      },
+      "options": [
+        {
+          "content": "Effectue un complément à un bit à bit",
+          "correct": true
+        },
+        {
+          "content": "Effectue une négation logique"
+        },
+        {
+          "content": "Arrondit un nombre à l'entier le plus proche"
+        },
+        {
+          "content": "Indique une approximation"
+        },
+        {
+          "content": "Effectue une opération XOR"
+        }
+      ]
+    }
+  ]
+}

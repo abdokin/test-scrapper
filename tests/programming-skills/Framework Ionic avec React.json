@@ -1,0 +1,826 @@
+{
+  "title": "Ionic avec React : Compétences en développement d'applications mobiles hybrides",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur le framework Ionic utilisant React pour le développement d'applications mobiles hybrides.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Composants Ionic",
+      "Hooks React",
+      "Navigation Ionic",
+      "Gestion d'état avec React",
+      "Styling Ionic",
+      "Plugins Capacitor",
+      "Performance des applications Ionic",
+      "Tests unitaires",
+      "Déploiement d'applications Ionic",
+      "Intégration avec des API REST",
+      "Stockage de données local",
+      "Gestion des thèmes Ionic",
+      "Animations Ionic",
+      "Gestion des gestures",
+      "Accessibilité dans Ionic"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur Ionic, ingénieur d'applications mobiles hybrides ou développeur React travaillant sur des projets Ionic.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du développement avec Ionic et React, évaluant la capacité du candidat à créer des applications mobiles performantes et réactives.",
+    "category": "Mobile Development",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour créer un nouveau projet Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "ionic start myApp blank --type=react",
+          "correct": true
+        },
+        {
+          "content": "ionic new myApp --react"
+        },
+        {
+          "content": "npx create-ionic-app myApp --template=react"
+        },
+        {
+          "content": "ionic create myApp --framework=react"
+        },
+        {
+          "content": "npm init ionic-react-app myApp"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook React est couramment utilisé pour gérer l'état local dans un composant Ionic ?"
+      },
+      "options": [
+        {
+          "content": "useState",
+          "correct": true
+        },
+        {
+          "content": "useEffect"
+        },
+        {
+          "content": "useContext"
+        },
+        {
+          "content": "useReducer"
+        },
+        {
+          "content": "useRef"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment importer le composant IonButton dans un fichier React pour Ionic ?"
+      },
+      "options": [
+        {
+          "content": "import { IonButton } from '@ionic/react';",
+          "correct": true
+        },
+        {
+          "content": "import IonButton from 'ionic-react';"
+        },
+        {
+          "content": "import { Button as IonButton } from 'ionic';"
+        },
+        {
+          "content": "import IonButton from '@ionic/components';"
+        },
+        {
+          "content": "const IonButton = require('@ionic/react').IonButton;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la structure de base d'une page Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonPage><IonHeader></IonHeader><IonContent></IonContent></IonPage>",
+          "correct": true
+        },
+        {
+          "content": "<Page><Header></Header><Content></Content></Page>"
+        },
+        {
+          "content": "<IonicPage><IonicHeader></IonicHeader><IonicContent></IonicContent></IonicPage>"
+        },
+        {
+          "content": "<ReactPage><ReactHeader></ReactHeader><ReactContent></ReactContent></ReactPage>"
+        },
+        {
+          "content": "<div className='ion-page'><header></header><main></main></div>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une route dans une application Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonRouterOutlet><Route path='/home' component={HomePage} exact={true} /></IonRouterOutlet>",
+          "correct": true
+        },
+        {
+          "content": "<IonRouter><IonRoute path='/home' component={HomePage} /></IonRouter>"
+        },
+        {
+          "content": "<Switch><Route path='/home' render={() => <HomePage />} /></Switch>"
+        },
+        {
+          "content": "<IonNavigation><IonPage path='/home' component={HomePage} /></IonNavigation>"
+        },
+        {
+          "content": "<Router><IonRoute path='/home'><HomePage /></IonRoute></Router>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook Ionic est utilisé pour accéder au thème actuel de l'application ?"
+      },
+      "options": [
+        {
+          "content": "useIonicTheme",
+          "correct": true
+        },
+        {
+          "content": "useTheme"
+        },
+        {
+          "content": "useIonTheme"
+        },
+        {
+          "content": "useAppTheme"
+        },
+        {
+          "content": "useDarkMode"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment utiliser le composant de modal dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>{modalContent}</IonModal>",
+          "correct": true
+        },
+        {
+          "content": "<Modal open={showModal} onClose={() => setShowModal(false)}>{modalContent}</Modal>"
+        },
+        {
+          "content": "<IonPopup visible={showModal} onHide={() => setShowModal(false)}>{modalContent}</IonPopup>"
+        },
+        {
+          "content": "<IonOverlay show={showModal} onDismiss={() => setShowModal(false)}>{modalContent}</IonOverlay>"
+        },
+        {
+          "content": "<IonDialog isOpen={showModal} onClose={() => setShowModal(false)}>{modalContent}</IonDialog>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel plugin Capacitor est utilisé pour accéder à la caméra du dispositif ?"
+      },
+      "options": [
+        {
+          "content": "Camera",
+          "correct": true
+        },
+        {
+          "content": "Device"
+        },
+        {
+          "content": "Media"
+        },
+        {
+          "content": "Photo"
+        },
+        {
+          "content": "CameraPreview"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une action de rafraîchissement (pull-to-refresh) dans une liste Ionic ?"
+      },
+      "options": [
+        {
+          "content": "<IonRefresher slot='fixed' onIonRefresh={handleRefresh}></IonRefresher>",
+          "correct": true
+        },
+        {
+          "content": "<IonPullToRefresh onRefresh={handleRefresh}></IonPullToRefresh>"
+        },
+        {
+          "content": "<IonListRefresher onPull={handleRefresh}></IonListRefresher>"
+        },
+        {
+          "content": "<RefreshControl refreshing={isRefreshing} onRefresh={handleRefresh} />"
+        },
+        {
+          "content": "<IonSwipeRefresh onSwipe={handleRefresh}></IonSwipeRefresh>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour naviguer programmatiquement dans une application Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "history.push('/page')",
+          "correct": true
+        },
+        {
+          "content": "navigation.navigate('/page')"
+        },
+        {
+          "content": "router.go('/page')"
+        },
+        {
+          "content": "Nav.setRoot('/page')"
+        },
+        {
+          "content": "IonNav.push('/page')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définir une variable CSS personnalisée pour le thème Ionic ?"
+      },
+      "options": [
+        {
+          "content": ":root { --ion-color-primary: #3880ff; }",
+          "correct": true
+        },
+        {
+          "content": ".ion-app { $primary-color: #3880ff; }"
+        },
+        {
+          "content": "app-theme { primary-color: #3880ff; }"
+        },
+        {
+          "content": "ion-variables { --color-primary: #3880ff; }"
+        },
+        {
+          "content": "* { ion-primary-color: #3880ff; }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook React est utilisé pour exécuter des effets de bord dans un composant Ionic ?"
+      },
+      "options": [
+        {
+          "content": "useEffect",
+          "correct": true
+        },
+        {
+          "content": "useLayoutEffect"
+        },
+        {
+          "content": "useMemo"
+        },
+        {
+          "content": "useCallback"
+        },
+        {
+          "content": "useReducer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter le lazy loading pour une page dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "const HomePage = React.lazy(() => import('./pages/Home'));",
+          "correct": true
+        },
+        {
+          "content": "import { lazyLoad } from '@ionic/react'; const HomePage = lazyLoad('./pages/Home');"
+        },
+        {
+          "content": "const HomePage = asyncComponent(() => import('./pages/Home'));"
+        },
+        {
+          "content": "const HomePage = dynamic(() => import('./pages/Home'));"
+        },
+        {
+          "content": "const HomePage = Suspense(() => import('./pages/Home'));"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel composant Ionic est utilisé pour créer une liste d'éléments ?"
+      },
+      "options": [
+        {
+          "content": "<IonList>",
+          "correct": true
+        },
+        {
+          "content": "<IonListView>"
+        },
+        {
+          "content": "<IonItemGroup>"
+        },
+        {
+          "content": "<IonCollection>"
+        },
+        {
+          "content": "<IonItemList>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une icône à un bouton Ionic ?"
+      },
+      "options": [
+        {
+          "content": "<IonButton><IonIcon slot='start' icon={star} />Favori</IonButton>",
+          "correct": true
+        },
+        {
+          "content": "<IonButton icon='star'>Favori</IonButton>"
+        },
+        {
+          "content": "<IonButton><Icon name='star' />Favori</IonButton>"
+        },
+        {
+          "content": "<IonButton iconLeft='star'>Favori</IonButton>"
+        },
+        {
+          "content": "<IonButton><IonIcon name='star' position='left' />Favori</IonButton>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook Ionic est utilisé pour détecter les changements d'orientation du dispositif ?"
+      },
+      "options": [
+        {
+          "content": "useIonViewWillEnter",
+          "correct": true
+        },
+        {
+          "content": "useOrientation"
+        },
+        {
+          "content": "useDeviceOrientation"
+        },
+        {
+          "content": "useScreenOrientation"
+        },
+        {
+          "content": "useIonOrientation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter un infinite scroll dans une liste Ionic ?"
+      },
+      "options": [
+        {
+          "content": "<IonInfiniteScroll onIonInfinite={loadData}><IonInfiniteScrollContent /></IonInfiniteScroll>",
+          "correct": true
+        },
+        {
+          "content": "<InfiniteScroll onLoadMore={loadData} hasMore={hasMoreItems} />"
+        },
+        {
+          "content": "<IonList onEndReached={loadData} onEndReachedThreshold={0.1} />"
+        },
+        {
+          "content": "<IonScrollView onScrollEnd={loadData} infiniteScroll={true} />"
+        },
+        {
+          "content": "<IonContent scrollEvents={true} onIonScrollEnd={loadData} />"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le hook React recommandé pour stocker des valeurs qui ne déclenchent pas de re-rendu ?"
+      },
+      "options": [
+        {
+          "content": "useRef",
+          "correct": true
+        },
+        {
+          "content": "useState"
+        },
+        {
+          "content": "useMemo"
+        },
+        {
+          "content": "useCallback"
+        },
+        {
+          "content": "useEffect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une animation d'entrée à une page Ionic ?"
+      },
+      "options": [
+        {
+          "content": "<IonPage className='ion-page-invisible'><IonContent className='ion-page-invisible'>...</IonContent></IonPage>",
+          "correct": true
+        },
+        {
+          "content": "<IonPage animation='fade-in'>...</IonPage>"
+        },
+        {
+          "content": "<IonContent animate={true}>...</IonContent>"
+        },
+        {
+          "content": "<IonPage transition='slide-in'>...</IonPage>"
+        },{
+          "content": "<AnimatedIonPage>...</AnimatedIonPage>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook Ionic est utilisé pour exécuter du code juste avant qu'une page ne devienne active ?"
+      },
+      "options": [
+        {
+          "content": "useIonViewWillEnter",
+          "correct": true
+        },
+        {
+          "content": "useIonPageLoad"
+        },
+        {
+          "content": "useIonPageActivate"
+        },
+        {
+          "content": "useIonViewDidEnter"
+        },
+        {
+          "content": "useIonMount"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter un toast dans une application Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "const { present } = useIonToast(); present({ message: 'Hello World', duration: 2000 });",
+          "correct": true
+        },
+        {
+          "content": "Toast.show({ text: 'Hello World', duration: 'short' });"
+        },
+        {
+          "content": "<IonToast isOpen={true} message='Hello World' duration={2000} />"
+        },
+        {
+          "content": "showToast('Hello World', 2000);"
+        },
+        {
+          "content": "IonToastController.create({ message: 'Hello World', duration: 2000 });"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les formulaires dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le hook useState pour chaque champ",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la bibliothèque Formik"
+        },
+        {
+          "content": "Utiliser le composant IonForm"
+        },
+        {
+          "content": "Utiliser la bibliothèque react-hook-form"
+        },
+        {
+          "content": "Utiliser le state global avec Redux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter un menu latéral dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonMenu contentId='main'><IonContent>...</IonContent></IonMenu>",
+          "correct": true
+        },
+        {
+          "content": "<SideMenu><SideMenuContent>...</SideMenuContent></SideMenu>"
+        },
+        {
+          "content": "<IonDrawer side='start'>...</IonDrawer>"
+        },
+        {
+          "content": "<IonSidebar position='left'>...</IonSidebar>"
+        },
+        {
+          "content": "<OffCanvasMenu>...</OffCanvasMenu>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel plugin Capacitor est utilisé pour accéder au stockage local du dispositif ?"
+      },
+      "options": [
+        {
+          "content": "Storage",
+          "correct": true
+        },
+        {
+          "content": "LocalStorage"
+        },
+        {
+          "content": "FileSystem"
+        },
+        {
+          "content": "DataStorage"
+        },
+        {
+          "content": "Preferences"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter un composant de chargement (spinner) dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonSpinner />",
+          "correct": true
+        },
+        {
+          "content": "<IonLoading isOpen={true} />"
+        },
+        {
+          "content": "<IonProgressBar type='indeterminate' />"
+        },
+        {
+          "content": "<IonActivityIndicator animating={true} />"
+        },
+        {
+          "content": "<Spinner color='primary' />"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour détecter les changements de mode sombre/clair dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "const prefersLight = useMediaQuery('(prefers-color-scheme: light)');",
+          "correct": true
+        },
+        {
+          "content": "const darkMode = useDarkMode();"
+        },
+        {
+          "content": "const { isDark } = useIonTheme();"
+        },
+        {
+          "content": "const colorScheme = useColorScheme();"
+        },
+        {
+          "content": "const mode = IonApp.getColorMode();"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter un gestionnaire d'événements à un composant Ionic dans React ?"
+      },
+      "options": [
+        {
+          "content": "<IonButton onClick={handleClick}>Cliquez-moi</IonButton>",
+          "correct": true
+        },
+        {
+          "content": "<IonButton onTap={handleTap}>Tapez-moi</IonButton>"
+        },
+        {
+          "content": "<IonButton (click)='handleClick()'>Cliquez-moi</IonButton>"
+        },
+        {
+          "content": "<IonButton @click='handleClick'>Cliquez-moi</IonButton>"
+        },
+        {
+          "content": "<IonButton on-click={handleClick}>Cliquez-moi</IonButton>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer l'état global dans une application Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le Context API de React",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Redux"
+        },
+        {
+          "content": "Utiliser MobX"
+        },
+        {
+          "content": "Utiliser Recoil"
+        },
+        {
+          "content": "Utiliser le service de stockage d'Ionic"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter un composant de sélection (picker) dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonSelect><IonSelectOption value='option1'>Option 1</IonSelectOption></IonSelect>",
+          "correct": true
+        },
+        {
+          "content": "<IonPicker columns={[{ name: 'column1', options: [{ text: 'Option 1', value: 'option1' }] }]} />"
+        },
+        {
+          "content": "<Select options={[{ label: 'Option 1', value: 'option1' }]} />"
+        },
+        {
+          "content": "<IonDropdown items={[{ label: 'Option 1', value: 'option1' }]} />"
+        },
+        {
+          "content": "<IonComboBox options={['Option 1', 'Option 2']} />"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook React est utilisé pour optimiser les performances en mémoisant une valeur calculée ?"
+      },
+      "options": [
+        {
+          "content": "useMemo",
+          "correct": true
+        },
+        {
+          "content": "useCallback"
+        },
+        {
+          "content": "useEffect"
+        },
+        {
+          "content": "useRef"
+        },
+        {
+          "content": "useReducer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter une barre de recherche dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonSearchbar onIonChange={handleSearch} />",
+          "correct": true
+        },
+        {
+          "content": "<IonInput type='search' onInput={handleSearch} />"
+        },
+        {
+          "content": "<SearchBar onChange={handleSearch} />"
+        },
+        {
+          "content": "<IonToolbar><IonSearchInput onChange={handleSearch} /></IonToolbar>"
+        },
+        {
+          "content": "<IonSearch onSubmit={handleSearch} />"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les erreurs dans une application Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un composant Error Boundary",
+          "correct": true
+        },
+        {
+          "content": "Utiliser try/catch dans chaque composant"
+        },
+        {
+          "content": "Utiliser un middleware global pour les erreurs"
+        },
+        {
+          "content": "Utiliser le hook useError d'Ionic"
+        },
+        {
+          "content": "Implémenter un service de gestion d'erreurs personnalisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter une grille responsive dans Ionic avec React ?"
+      },
+      "options": [
+        {
+          "content": "<IonGrid><IonRow><IonCol size='12' sizeMd='6'>Contenu</IonCol></IonRow></IonGrid>",
+          "correct": true
+        },
+        {
+          "content": "<Grid><Row><Col xs={12} md={6}>Contenu</Col></Row></Grid>"
+        },
+        {
+          "content": "<IonFlexbox direction='row'><IonFlexItem size={12} sizeMd={6}>Contenu</IonFlexItem></IonFlexbox>"
+        },
+        {
+          "content": "<IonLayout cols={12}><IonLayoutItem colSpan={6}>Contenu</IonLayoutItem></IonLayout>"
+        },
+        {
+          "content": "<ResponsiveContainer><ResponsiveItem width={12} tabletWidth={6}>Contenu</ResponsiveItem></ResponsiveContainer>"
+        }
+      ]
+    }
+  ]
+}

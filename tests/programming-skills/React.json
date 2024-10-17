@@ -1,0 +1,810 @@
+{
+  "title": "React : Compétences en développement d'interfaces utilisateur",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation de la bibliothèque React.js pour le développement d'interfaces utilisateur modernes et réactives.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Composants React",
+      "État et props",
+      "Cycle de vie des composants",
+      "Hooks React",
+      "Gestion d'état (Redux, Context API)",
+      "Routage avec React Router",
+      "Optimisation des performances",
+      "Tests unitaires avec Jest et React Testing Library"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end, ingénieur JavaScript, ou tout rôle impliquant le développement d'applications web avec React.",
+    "description": "Le test couvre les concepts fondamentaux et intermédiaires de React, évaluant la capacité du candidat à créer des composants efficaces, gérer l'état de l'application, et implémenter des fonctionnalités avancées de React.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est utilisée pour rendre un composant React dans le DOM ?"
+      },
+      "options": [
+        {
+          "content": "ReactDOM.render()",
+          "correct": true
+        },
+        {
+          "content": "React.create()"
+        },
+        {
+          "content": "React.mount()"
+        },
+        {
+          "content": "ReactDOM.append()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour créer un composant fonctionnel en React ?"
+      },
+      "options": [
+        {
+          "content": "function MyComponent() { return <div>Hello</div>; }",
+          "correct": true
+        },
+        {
+          "content": "class MyComponent { render() { return <div>Hello</div>; } }"
+        },
+        {
+          "content": "const MyComponent = () => { <div>Hello</div> }"
+        },
+        {
+          "content": "def MyComponent(): return <div>Hello</div>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels hooks sont fournis par React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "useState",
+          "correct": true
+        },
+        {
+          "content": "useEffect",
+          "correct": true
+        },
+        {
+          "content": "useContext",
+          "correct": true
+        },
+        {
+          "content": "useHistory"
+        },
+        {
+          "content": "useCallback",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment passer des données d'un composant parent à un composant enfant en React ?"
+      },
+      "options": [
+        {
+          "content": "Via les props",
+          "correct": true
+        },
+        {
+          "content": "En utilisant le state global"
+        },
+        {
+          "content": "Avec des variables globales"
+        },
+        {
+          "content": "Par injection de dépendances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour mettre à jour l'état d'un composant de classe ?"
+      },
+      "options": [
+        {
+          "content": "setState()",
+          "correct": true
+        },
+        {
+          "content": "updateState()"
+        },
+        {
+          "content": "changeState()"
+        },
+        {
+          "content": "modifyState()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook remplace principalement componentDidMount et componentDidUpdate dans les composants fonctionnels ?"
+      },
+      "options": [
+        {
+          "content": "useEffect",
+          "correct": true
+        },
+        {
+          "content": "useState"
+        },
+        {
+          "content": "useLayoutEffect"
+        },
+        {
+          "content": "useMount"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une référence à un élément DOM dans un composant fonctionnel ?"
+      },
+      "options": [
+        {
+          "content": "useRef()",
+          "correct": true
+        },
+        {
+          "content": "createRef()"
+        },
+        {
+          "content": "useElement()"
+        },
+        {
+          "content": "getDOMNode()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour optimiser les performances d'une application React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser React.memo pour les composants fonctionnels purs",
+          "correct": true
+        },
+        {
+          "content": "Implémenter shouldComponentUpdate dans les composants de classe",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la lazy loading avec React.lazy et Suspense",
+          "correct": true
+        },
+        {
+          "content": "Éviter d'utiliser les keys dans les listes"
+        },
+        {
+          "content": "Utiliser useCallback pour mémoriser les fonctions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre les composants de classe et les composants fonctionnels en React ?"
+      },
+      "options": [
+        {
+          "content": "Les composants fonctionnels utilisent des hooks, les composants de classe utilisent this.state et les méthodes de cycle de vie",
+          "correct": true
+        },
+        {
+          "content": "Les composants de classe sont plus performants"
+        },
+        {
+          "content": "Les composants fonctionnels ne peuvent pas avoir d'état"
+        },
+        {
+          "content": "Les composants de classe ne peuvent pas utiliser les props"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale du hook useMemo ?"
+      },
+      "options": [
+        {
+          "content": "Mémoriser le résultat d'un calcul coûteux",
+          "correct": true
+        },
+        {
+          "content": "Créer un nouvel état"
+        },
+        {
+          "content": "Gérer les effets secondaires"
+        },
+        {
+          "content": "Créer une référence à un élément DOM"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer les formulaires contrôlés en React ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant le state pour stocker les valeurs des champs et onChange pour les mettre à jour",
+          "correct": true
+        },
+        {
+          "content": "En utilisant uniquement des refs pour accéder aux valeurs des champs"
+        },
+        {
+          "content": "En laissant le DOM gérer l'état des formulaires"
+        },
+        {
+          "content": "En utilisant des variables globales pour stocker les valeurs des champs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation du hook useContext ?"
+      },
+      "options": [
+        {
+          "content": "Accéder à des valeurs du contexte sans utiliser de composant consommateur",
+          "correct": true
+        },
+        {
+          "content": "Créer un nouveau contexte"
+        },
+        {
+          "content": "Remplacer Redux pour la gestion d'état globale"
+        },
+        {
+          "content": "Optimiser les performances des composants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des Fragments en React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Ils permettent de grouper plusieurs éléments sans ajouter de nœud supplémentaire au DOM",
+          "correct": true
+        },
+        {
+          "content": "Ils améliorent les performances en réduisant la profondeur de l'arbre DOM",
+          "correct": true
+        },
+        {
+          "content": "Ils sont utiles pour les listes et les tableaux",
+          "correct": true
+        },
+        {
+          "content": "Ils ajoutent automatiquement des styles CSS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les effets secondaires dans un composant fonctionnel ?"
+      },
+      "options": [
+        {
+          "content": "useEffect",
+          "correct": true
+        },
+        {
+          "content": "componentDidMount"
+        },
+        {
+          "content": "useLayoutEffect"
+        },
+        {
+          "content": "useCallback"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le routage dans une application React ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant React Router",
+          "correct": true
+        },
+        {
+          "content": "En utilisant des if/else statements basés sur l'URL"
+        },
+        {
+          "content": "En rechargeant la page pour chaque nouvelle route"
+        },
+        {
+          "content": "En utilisant uniquement des liens <a> standard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour gérer les erreurs dans une application React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser des Error Boundaries",
+          "correct": true
+        },
+        {
+          "content": "Implémenter try/catch dans les méthodes de cycle de vie et les hooks",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des outils de monitoring comme Sentry",
+          "correct": true
+        },
+        {
+          "content": "Ignorer toutes les erreurs pour améliorer les performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre le DOM virtuel et le DOM réel ?"
+      },
+      "options": [
+        {
+          "content": "Le DOM virtuel est une représentation légère en mémoire du DOM réel",
+          "correct": true
+        },
+        {
+          "content": "Le DOM virtuel est plus lent que le DOM réel"
+        },
+        {
+          "content": "Le DOM réel n'existe pas dans les applications React"
+        },
+        {
+          "content": "Le DOM virtuel est uniquement utilisé pour les tests"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on passer des données d'un composant enfant à un composant parent en React ?"
+      },
+      "options": [
+        {
+          "content": "En passant une fonction callback comme prop du parent à l'enfant",
+          "correct": true
+        },
+        {
+          "content": "En utilisant le state global"
+        },
+        {
+          "content": "En modifiant directement les props du parent"
+        },
+        {
+          "content": "Ce n'est pas possible en React"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des Hooks personnalisés ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Réutilisation de la logique entre les composants",
+          "correct": true
+        },
+        {
+          "content": "Simplification du code des composants",
+          "correct": true
+        },
+        {
+          "content": "Meilleure séparation des préoccupations",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique des performances"
+        },
+        {
+          "content": "Facilitation des tests unitaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation de la prop key dans les listes React ?"
+      },
+      "options": [
+        {
+          "content": "Aider React à identifier quels éléments ont changé, été ajoutés ou supprimés",
+          "correct": true
+        },
+        {
+          "content": "Styliser les éléments de la liste"
+        },
+        {
+          "content": "Définir l'ordre des éléments dans la liste"
+        },
+        {
+          "content": "Créer des liens entre les éléments de la liste"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre le state et les props en React ?"
+      },
+      "options": [
+        {
+          "content": "Le state est mutable et géré par le composant, les props sont immuables et passées par le parent",
+          "correct": true
+        },
+        {
+          "content": "Le state est passé par le parent, les props sont gérées par le composant"
+        },
+        {
+          "content": "Le state est toujours un objet, les props peuvent être de n'importe quel type"
+        },
+        {
+          "content": "Il n'y a pas de différence, ce sont des synonymes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de conditionner le rendu d'un élément en React ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'opérateur ternaire ou le short-circuit avec &&",
+          "correct": true
+        },
+        {
+          "content": "Utiliser une instruction if/else dans le JSX"
+        },
+        {
+          "content": "Créer une fonction séparée pour chaque condition"
+        },
+        {
+          "content": "Utiliser un switch statement dans le rendu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation du hook useReducer ?"
+      },
+      "options": [
+        {
+          "content": "Gérer un état complexe avec des mises à jour prévisibles",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances des rendus"
+        },
+        {
+          "content": "Créer des effets secondaires"
+        },
+        {
+          "content": "Gérer les props d'un composant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser TypeScript avec React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Typage statique pour réduire les erreurs de runtime",
+          "correct": true
+        },
+        {
+          "content": "Meilleure autocomplétion et refactoring dans les IDE",
+          "correct": true
+        },
+        {
+          "content": "Documentation implicite du code",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique des performances de l'application"
+        },
+        {
+          "content": "Facilitation de la maintenance du code à long terme",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre React.memo() et useMemo() ?"
+      },
+      "options": [
+        {
+          "content": "React.memo() mémorise un composant, useMemo() mémorise une valeur calculée",
+          "correct": true
+        },
+        {
+          "content": "React.memo() est pour les composants de classe, useMemo() pour les composants fonctionnels"
+        },
+        {
+          "content": "React.memo() est un hook, useMemo() est une fonction d'ordre supérieur"
+        },
+        {
+          "content": "Il n'y a pas de différence, ce sont des synonymes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le code-splitting dans une application React ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant React.lazy() et Suspense",
+          "correct": true
+        },
+        {
+          "content": "En divisant manuellement le code en plusieurs fichiers JavaScript"
+        },
+        {
+          "content": "En utilisant des iframes pour charger différentes parties de l'application"
+        },
+        {
+          "content": "En utilisant des Web Workers pour exécuter le code en arrière-plan"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation des portails (Portals) en React ?"
+      },
+      "options": [
+        {
+          "content": "Rendre un élément enfant dans un nœud DOM qui existe en dehors de la hiérarchie du composant parent",
+          "correct": true
+        },
+        {
+          "content": "Créer des fenêtres modales"
+        },
+        {
+          "content": "Améliorer les performances de rendu"
+        },
+        {
+          "content": "Gérer l'état global de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour tester des composants React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser Jest comme framework de test",
+          "correct": true
+        },
+        {
+          "content": "Utiliser React Testing Library pour les tests d'intégration",
+          "correct": true
+        },
+        {
+          "content": "Tester le comportement plutôt que l'implémentation",
+          "correct": true
+        },
+        {
+          "content": "Éviter de tester les composants purs"
+        },
+        {
+          "content": "Utiliser des mocks pour les dépendances externes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation du hook useLayoutEffect ?"
+      },
+      "options": [
+        {
+          "content": "Effectuer des mesures DOM et des mutations synchrones avant que le navigateur ne peigne",
+          "correct": true
+        },
+        {
+          "content": "Remplacer complètement useEffect"
+        },
+        {
+          "content": "Optimiser les performances de rendu"
+        },
+        {
+          "content": "Gérer les effets secondaires asynchrones"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on optimiser les performances d'un composant qui re-rend fréquemment à cause de changements dans son parent ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant React.memo() pour mémoriser le composant",
+          "correct": true
+        },
+        {
+          "content": "En utilisant useEffect pour mettre à jour l'état"
+        },
+        {
+          "content": "En transformant le composant en classe"
+        },
+        {
+          "content": "En utilisant useState pour tous les props"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des Hooks par rapport aux classes en React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Réutilisation plus facile de la logique d'état",
+          "correct": true
+        },
+        {
+          "content": "Code plus concis et plus facile à comprendre",
+          "correct": true
+        },
+        {
+          "content": "Meilleure gestion des effets secondaires",
+          "correct": true
+        },
+        {
+          "content": "Performances toujours supérieures aux classes"
+        },
+        {
+          "content": "Évite les problèmes liés à 'this' en JavaScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation de la méthode shouldComponentUpdate dans un composant de classe ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser les performances en évitant les rendus inutiles",
+          "correct": true
+        },
+        {
+          "content": "Forcer la mise à jour du composant"
+        },
+        {
+          "content": "Gérer les erreurs dans le composant"
+        },
+        {
+          "content": "Initialiser l'état du composant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les formulaires complexes en React ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une bibliothèque comme Formik ou React Hook Form",
+          "correct": true
+        },
+        {
+          "content": "Gérer manuellement l'état de chaque champ avec useState"
+        },
+        {
+          "content": "Utiliser des formulaires non contrôlés avec des refs"
+        },
+        {
+          "content": "Utiliser uniquement le state global pour tous les champs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour structurer une application React ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Organiser les composants par fonctionnalité ou page",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des composants atomiques et des compositions",
+          "correct": true
+        },
+        {
+          "content": "Séparer la logique métier des composants d'UI",
+          "correct": true
+        },
+        {
+          "content": "Mettre tout le code dans un seul fichier pour faciliter la navigation"
+        },
+        {
+          "content": "Utiliser des hooks personnalisés pour la réutilisation de la logique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale utilisation du hook useCallback ?"
+      },
+      "options": [
+        {
+          "content": "Mémoriser une fonction pour éviter des re-rendus inutiles des composants enfants",
+          "correct": true
+        },
+        {
+          "content": "Créer une nouvelle fonction à chaque rendu"
+        },
+        {
+          "content": "Optimiser les calculs coûteux"
+        },
+        {
+          "content": "Gérer les effets secondaires"
+        }
+      ]
+    }
+  ]
+}

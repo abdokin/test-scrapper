@@ -1,0 +1,893 @@
+{
+  "title": "Angular",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les connaissances et l'expérience d'un développeur avec le framework Angular, sa compréhension des fonctionnalités et des meilleures pratiques, ainsi que sa capacité à suivre le guide de style Angular.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Composants Angular",
+      "Services et Injection de Dépendances",
+      "Routing",
+      "Formulaires",
+      "Observables et RxJS",
+      "Directives",
+      "Pipes",
+      "Cycles de vie des composants",
+      "Modules",
+      "Tests unitaires",
+      "Angular CLI",
+      "Bonnes pratiques et guide de style"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur frontend nécessitant une expertise en Angular pour créer des applications web modernes et évolutives.",
+    "description": "Le test couvre les aspects fondamentaux et avancés d'Angular, évaluant la capacité du candidat à créer des applications efficaces, maintenables et conformes aux meilleures pratiques.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel décorateur est utilisé pour définir un composant Angular ?"
+      },
+      "options": [
+        {
+          "content": "@Component",
+          "correct": true
+        },
+        {
+          "content": "@NgComponent"
+        },
+        {
+          "content": "@View"
+        },
+        {
+          "content": "@Element"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour le data binding unidirectionnel en Angular ?"
+      },
+      "options": [
+        {
+          "content": "{{ expression }}",
+          "correct": true
+        },
+        {
+          "content": "[( expression )]"
+        },
+        {
+          "content": "{% expression %}"
+        },
+        {
+          "content": "<% expression %>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour injecter un service dans un composant ?"
+      },
+      "options": [
+        {
+          "content": "@Injectable",
+          "correct": true
+        },
+        {
+          "content": "@Inject"
+        },
+        {
+          "content": "@Service"
+        },
+        {
+          "content": "@Dependency"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle directive structurelle est utilisée pour répéter un élément pour chaque élément d'un tableau ?"
+      },
+      "options": [
+        {
+          "content": "*ngFor",
+          "correct": true
+        },
+        {
+          "content": "*ngRepeat"
+        },
+        {
+          "content": "*ngEach"
+        },
+        {
+          "content": "*ngLoop"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel hook de cycle de vie est appelé après qu'Angular a initialisé toutes les liaisons de données d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "ngOnInit",
+          "correct": true
+        },
+        {
+          "content": "ngAfterViewInit"
+        },
+        {
+          "content": "ngOnChanges"
+        },
+        {
+          "content": "ngAfterContentInit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la syntaxe correcte pour le data binding bidirectionnel en Angular ?"
+      },
+      "options": [
+        {
+          "content": "[(ngModel)]",
+          "correct": true
+        },
+        {
+          "content": "{{ngModel}}"
+        },
+        {
+          "content": "[ngModel]"
+        },
+        {
+          "content": "(ngModel)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module Angular fournit le routage et la navigation pour les applications Angular ?"
+      },
+      "options": [
+        {
+          "content": "RouterModule",
+          "correct": true
+        },
+        {
+          "content": "NavigationModule"
+        },
+        {
+          "content": "RoutingModule"
+        },
+        {
+          "content": "AppRouterModule"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle bibliothèque est couramment utilisée avec Angular pour la gestion des observables ?"
+      },
+      "options": [
+        {
+          "content": "RxJS",
+          "correct": true
+        },
+        {
+          "content": "Lodash"
+        },
+        {
+          "content": "Underscore"
+        },
+        {
+          "content": "Moment"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour créer une directive personnalisée en Angular ?"
+      },
+      "options": [
+        {
+          "content": "@Directive",
+          "correct": true
+        },
+        {
+          "content": "@CustomDirective"
+        },
+        {
+          "content": "@NgDirective"
+        },
+        {
+          "content": "@Element"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour s'abonner à un observable en Angular ?"
+      },
+      "options": [
+        {
+          "content": "subscribe()",
+          "correct": true
+        },
+        {
+          "content": "observe()"
+        },
+        {
+          "content": "listen()"
+        },
+        {
+          "content": "watch()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour définir une propriété d'entrée d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "@Input",
+          "correct": true
+        },
+        {
+          "content": "@Property"
+        },
+        {
+          "content": "@Prop"
+        },
+        {
+          "content": "@Attribute"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande Angular CLI pour générer un nouveau composant ?"
+      },
+      "options": [
+        {
+          "content": "ng generate component",
+          "correct": true
+        },
+        {
+          "content": "ng new component"
+        },
+        {
+          "content": "ng create component"
+        },
+        {
+          "content": "ng add component"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour définir un événement de sortie d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "@Output",
+          "correct": true
+        },
+        {
+          "content": "@Event"
+        },
+        {
+          "content": "@Emit"
+        },
+        {
+          "content": "@Trigger"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle directive structurelle est utilisée pour ajouter ou supprimer un élément du DOM en fonction d'une condition ?"
+      },
+      "options": [
+        {
+          "content": "*ngIf",
+          "correct": true
+        },
+        {
+          "content": "*ngShow"
+        },
+        {
+          "content": "*ngHide"
+        },
+        {
+          "content": "*ngCondition"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'un service en Angular ?"
+      },
+      "options": [
+        {
+          "content": "Partager des données et des fonctionnalités entre composants",
+          "correct": true
+        },
+        {
+          "content": "Gérer le routage de l'application"
+        },
+        {
+          "content": "Définir la structure du DOM"
+        },
+        {
+          "content": "Gérer les styles CSS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre les formulaires réactifs et les formulaires basés sur un template en Angular ?"
+      },
+      "options": [
+        {
+          "content": "Les formulaires réactifs sont définis dans le code TypeScript, les formulaires basés sur un template sont définis dans le HTML",
+          "correct": true
+        },
+        {
+          "content": "Les formulaires réactifs ne supportent pas la validation"
+        },
+        {
+          "content": "Les formulaires basés sur un template sont plus performants"
+        },
+        {
+          "content": "Les formulaires réactifs ne peuvent pas être utilisés avec ngModel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but du fichier angular.json ?"
+      },
+      "options": [
+        {
+          "content": "Configurer les options de build et de développement de l'application Angular",
+          "correct": true
+        },
+        {
+          "content": "Définir les routes de l'application"
+        },
+        {
+          "content": "Gérer les dépendances npm"
+        },
+        {
+          "content": "Stocker les variables d'environnement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les effets secondaires dans les observables RxJS ?"
+      },
+      "options": [
+        {
+          "content": "tap()",
+          "correct": true
+        },
+        {
+          "content": "do()"
+        },
+        {
+          "content": "effect()"
+        },
+        {
+          "content": "perform()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour injecter le contenu projeté dans un composant ?"
+      },
+      "options": [
+        {
+          "content": "@ContentChild",
+          "correct": true
+        },
+        {
+          "content": "@ViewChild"
+        },
+        {
+          "content": "@ElementRef"
+        },
+        {
+          "content": "@Projection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour partager des données entre des composants qui ne sont pas directement liés (parent-enfant) ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un service",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des variables globales"
+        },
+        {
+          "content": "Utiliser le localStorage"
+        },
+        {
+          "content": "Passer les données à travers tous les composants intermédiaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @NgModule ?"
+      },
+      "options": [
+        {
+          "content": "Définir un module et ses métadonnées",
+          "correct": true
+        },
+        {
+          "content": "Créer une nouvelle instance d'une classe"
+        },
+        {
+          "content": "Injecter des dépendances"
+        },
+        {
+          "content": "Définir une route"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour effectuer une redirection programmatique en Angular ?"
+      },
+      "options": [
+        {
+          "content": "this.router.navigate(['/path'])",
+          "correct": true
+        },
+        {
+          "content": "window.location.href = '/path'"
+        },
+        {
+          "content": "this.location.go('/path')"
+        },
+        {
+          "content": "this.redirect('/path')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel opérateur RxJS est utilisé pour combiner plusieurs observables en un seul ?"
+      },
+      "options": [
+        {
+          "content": "mergeMap",
+          "correct": true
+        },
+        {
+          "content": "combineLatest"
+        },
+        {
+          "content": "concat"
+        },
+        {
+          "content": "zip"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre ngOnInit et le constructeur d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "ngOnInit est appelé après la liaison des propriétés d'entrée, le constructeur est appelé lors de la création de l'instance",
+          "correct": true
+        },
+        {
+          "content": "ngOnInit est appelé avant le constructeur"
+        },
+        {
+          "content": "Le constructeur est utilisé pour l'initialisation des données, ngOnInit pour l'injection de dépendances"
+        },
+        {
+          "content": "Il n'y a pas de différence, ils sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @ViewChild ?"
+      },
+      "options": [
+        {
+          "content": "Accéder à un élément enfant dans le template du composant",
+          "correct": true
+        },
+        {
+          "content": "Créer une nouvelle instance d'un composant enfant"
+        },
+        {
+          "content": "Définir une propriété d'entrée"
+        },
+        {
+          "content": "Injecter un service"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les erreurs dans les observables RxJS ?"
+      },
+      "options": [
+        {
+          "content": "catchError()",
+          "correct": true
+        },
+        {
+          "content": "try/catch"
+        },
+        {
+          "content": "errorHandler()"
+        },
+        {
+          "content": "onError()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal des Guards dans le routage Angular ?"
+      },
+      "options": [
+        {
+          "content": "Contrôler l'accès aux routes",
+          "correct": true
+        },
+        {
+          "content": "Charger des données avant d'activer une route"
+        },
+        {
+          "content": "Gérer les erreurs de routage"
+        },
+        {
+          "content": "Définir des redirections"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un pipe pur et un pipe impur en Angular ?"
+      },
+      "options": [
+        {
+          "content": "Un pipe pur est exécuté uniquement lorsque ses arguments changent, un pipe impur à chaque cycle de détection de changements",
+          "correct": true
+        },
+        {
+          "content": "Un pipe pur ne peut pas être utilisé avec des observables"
+        },
+        {
+          "content": "Un pipe impur est plus performant qu'un pipe pur"
+        },
+        {
+          "content": "Il n'y a pas de différence, ces termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @HostListener ?"
+      },
+      "options": [
+        {
+          "content": "Écouter les événements de l'élément hôte d'une directive",
+          "correct": true
+        },
+        {
+          "content": "Définir une propriété d'entrée"
+        },
+        {
+          "content": "Créer un service singleton"
+        },
+        {
+          "content": "Configurer le routage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter la lazy loading des modules en Angular ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser loadChildren dans la configuration des routes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le décorateur @LazyModule"
+        },
+        {
+          "content": "Importer manuellement les modules au runtime"
+        },
+        {
+          "content": "Utiliser la directive ngLazy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @HostBinding ?"
+      },
+      "options": [
+        {
+          "content": "Lier une propriété de la directive à une propriété de l'élément hôte",
+          "correct": true
+        },
+        {
+          "content": "Définir une méthode de cycle de vie"
+        },
+        {
+          "content": "Injecter un service"
+        },
+        {
+          "content": "Créer un pipe personnalisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre forRoot() et forChild() dans les modules de routage Angular ?"
+      },
+      "options": [
+        {
+          "content": "forRoot() est utilisé dans le module principal, forChild() dans les modules de fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "forRoot() est utilisé pour les routes enfants, forChild() pour les routes principales"
+        },
+        {
+          "content": "Il n'y a pas de différence, ces méthodes sont interchangeables"
+        },
+        {
+          "content": "forRoot() est déprécié, seul forChild() devrait être utilisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @ViewEncapsulation ?"
+      },
+      "options": [
+        {
+          "content": "Contrôler la portée des styles CSS d'un composant",
+          "correct": true
+        },
+        {
+          "content": "Définir la visibilité d'une propriété"
+        },
+        {
+          "content": "Gérer l'injection de dépendances"
+        },
+        {
+          "content": "Configurer les métadonnées du composant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter l'internationalisation (i18n) dans une application Angular ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le package @angular/localize et les outils CLI d'Angular",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des variables globales pour les traductions"
+        },
+        {
+          "content": "Créer manuellement des fichiers JSON pour chaque langue"
+        },
+        {
+          "content": "Utiliser uniquement des pipes de traduction personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @Injectable({ providedIn: 'root' }) ?"
+      },
+      "options": [
+        {
+          "content": "Créer un service singleton au niveau de l'application",
+          "correct": true
+        },
+        {
+          "content": "Injecter le service dans le composant racine"
+        },
+        {
+          "content": "Définir une dépendance circulaire"
+        },
+        {
+          "content": "Créer une instance par module"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre ng serve et ng build --prod ?"
+      },
+      "options": [
+        {
+          "content": "ng serve compile et sert l'application en mode développement, ng build --prod crée une version de production optimisée",
+          "correct": true
+        },
+        {
+          "content": "ng serve est utilisé en production, ng build --prod en développement"
+        },
+        {
+          "content": "ng serve crée un bundle, ng build --prod ne le fait pas"
+        },
+        {
+          "content": "Il n'y a pas de différence, ces commandes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'opérateur switchMap dans RxJS ?"
+      },
+      "options": [
+        {
+          "content": "Annuler la souscription précédente et émettre uniquement à partir du dernier observable",
+          "correct": true
+        },
+        {
+          "content": "Combiner plusieurs observables"
+        },
+        {
+          "content": "Filtrer les valeurs d'un observable"
+        },
+        {
+          "content": "Transformer les valeurs d'un observable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les souscriptions aux observables dans les composants Angular ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le pipe async ou se désabonner manuellement dans ngOnDestroy",
+          "correct": true
+        },
+        {
+          "content": "Ne jamais se désabonner, Angular le fait automatiquement"
+        },
+        {
+          "content": "Utiliser uniquement des BehaviorSubject"
+        },
+        {
+          "content": "Éviter complètement l'utilisation d'observables dans les composants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du décorateur @Self() dans l'injection de dépendances ?"
+      },
+      "options": [
+        {
+          "content": "Rechercher le service uniquement dans le propre injecteur du composant",
+          "correct": true
+        },
+        {
+          "content": "Créer une nouvelle instance du service pour chaque utilisation"
+        },
+        {
+          "content": "Injecter le service de manière lazy"
+        },
+        {
+          "content": "Forcer l'injection d'un service facultatif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un resolver et un guard dans le routage Angular ?"
+      },
+      "options": [
+        {
+          "content": "Un resolver pré-charge des données, un guard contrôle l'accès à une route",
+          "correct": true
+        },
+        {
+          "content": "Un resolver gère les erreurs de routage, un guard redirige vers une autre route"
+        },
+        {
+          "content": "Un resolver est utilisé pour les routes enfants, un guard pour les routes principales"
+        },
+        {
+          "content": "Il n'y a pas de différence, ces termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'attribut trackBy dans la directive *ngFor ?"
+      },
+      "options": [
+        {
+          "content": "Améliorer les performances en aidant Angular à identifier quels éléments ont changé",
+          "correct": true
+        },
+        {
+          "content": "Trier les éléments de la liste"
+        },
+        {
+          "content": "Filtrer les éléments de la liste"
+        },
+        {
+          "content": "Définir une clé unique pour chaque élément"
+        }
+      ]
+    }
+  ]
+}

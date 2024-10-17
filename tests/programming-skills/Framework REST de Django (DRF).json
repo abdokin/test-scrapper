@@ -1,0 +1,895 @@
+{
+  "title": "Framework REST de Django (DRF)",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les compétences techniques des développeurs travaillant avec le framework REST de Django. Il couvre les connaissances générales sur le DRF et s'attarde sur les modèles, les sérialiseurs, les vues, l'authentification, la pagination, le filtrage, et d'autres aspects avancés du framework.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Connaissances générales du DRF",
+      "Modèles Django",
+      "Sérialiseurs DRF",
+      "Vues DRF",
+      "Configuration des URLs",
+      "Authentification et permissions",
+      "Pagination",
+      "Filtrage et recherche",
+      "Validation des données",
+      "Gestion des relations",
+      "Optimisation des performances",
+      "Tests unitaires",
+      "Versioning d'API",
+      "Documentation d'API"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur backend Python utilisant Django et le DRF pour créer des API RESTful complexes et évolutives.",
+    "description": "Le test couvre les aspects fondamentaux et avancés du Django REST Framework, évaluant la capacité du candidat à créer des API efficaces, sécurisées et bien structurées.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le but principal du Django REST Framework ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la création d'API Web RESTful",
+          "correct": true
+        },
+        {
+          "content": "Gérer la base de données"
+        },
+        {
+          "content": "Créer des interfaces utilisateur"
+        },
+        {
+          "content": "Optimiser les requêtes SQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de base est généralement utilisée pour créer un sérialiseur dans DRF ?"
+      },
+      "options": [
+        {
+          "content": "serializers.Serializer",
+          "correct": true
+        },
+        {
+          "content": "models.Model"
+        },
+        {
+          "content": "views.View"
+        },
+        {
+          "content": "forms.Form"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de vue DRF permet de gérer les opérations CRUD sur un modèle ?"
+      },
+      "options": [
+        {
+          "content": "ModelViewSet",
+          "correct": true
+        },
+        {
+          "content": "APIView"
+        },
+        {
+          "content": "GenericView"
+        },
+        {
+          "content": "DetailView"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la différence principale entre ModelSerializer et Serializer ?"
+      },
+      "options": [
+        {
+          "content": "ModelSerializer génère automatiquement des champs basés sur le modèle",
+          "correct": true
+        },
+        {
+          "content": "Serializer ne peut pas être utilisé avec des modèles"
+        },
+        {
+          "content": "ModelSerializer ne supporte pas la validation"
+        },
+        {
+          "content": "Serializer est plus rapide que ModelSerializer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de permission DRF permet l'accès en lecture seule pour les requêtes non authentifiées ?"
+      },
+      "options": [
+        {
+          "content": "IsAuthenticatedOrReadOnly",
+          "correct": true
+        },
+        {
+          "content": "AllowAny"
+        },
+        {
+          "content": "IsAuthenticated"
+        },
+        {
+          "content": "DjangoModelPermissions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la sérialisation d'un champ spécifique dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "to_representation",
+          "correct": true
+        },
+        {
+          "content": "serialize_field"
+        },
+        {
+          "content": "custom_field"
+        },
+        {
+          "content": "field_to_json"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de pagination DRF limite le nombre d'objets retournés par page ?"
+      },
+      "options": [
+        {
+          "content": "PageNumberPagination",
+          "correct": true
+        },
+        {
+          "content": "LimitOffsetPagination"
+        },
+        {
+          "content": "CursorPagination"
+        },
+        {
+          "content": "CustomPagination"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel décorateur est utilisé pour spécifier les méthodes HTTP autorisées sur une vue basée sur une fonction ?"
+      },
+      "options": [
+        {
+          "content": "@api_view",
+          "correct": true
+        },
+        {
+          "content": "@method_decorator"
+        },
+        {
+          "content": "@permission_classes"
+        },
+        {
+          "content": "@renderer_classes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de filtre DRF permet de filtrer les résultats basés sur les paramètres de requête ?"
+      },
+      "options": [
+        {
+          "content": "DjangoFilterBackend",
+          "correct": true
+        },
+        {
+          "content": "SearchFilter"
+        },
+        {
+          "content": "OrderingFilter"
+        },
+        {
+          "content": "CustomFilter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est appelée pour valider les données d'un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "is_valid()",
+          "correct": true
+        },
+        {
+          "content": "validate()"
+        },
+        {
+          "content": "clean()"
+        },
+        {
+          "content": "check_validity()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel composant DRF est responsable de la conversion des requêtes entrantes en types de données Python natifs ?"
+      },
+      "options": [
+        {
+          "content": "Parser",
+          "correct": true
+        },
+        {
+          "content": "Renderer"
+        },
+        {
+          "content": "Serializer"
+        },
+        {
+          "content": "View"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de vue DRF combine CreateModelMixin, RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin et ListModelMixin ?"
+      },
+      "options": [
+        {
+          "content": "ModelViewSet",
+          "correct": true
+        },
+        {
+          "content": "GenericViewSet"
+        },
+        {
+          "content": "ReadOnlyModelViewSet"
+        },
+        {
+          "content": "APIView"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour surcharger le comportement de création d'un objet dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "perform_create",
+          "correct": true
+        },
+        {
+          "content": "create_object"
+        },
+        {
+          "content": "post"
+        },
+        {
+          "content": "save_object"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module DRF est utilisé pour définir des schémas d'API conformes à OpenAPI ?"
+      },
+      "options": [
+        {
+          "content": "rest_framework.schemas",
+          "correct": true
+        },
+        {
+          "content": "rest_framework.openapi"
+        },
+        {
+          "content": "rest_framework.docs"
+        },
+        {
+          "content": "rest_framework.swagger"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de base est utilisée pour créer des permissions personnalisées dans DRF ?"
+      },
+      "options": [
+        {
+          "content": "BasePermission",
+          "correct": true
+        },
+        {
+          "content": "CustomPermission"
+        },
+        {
+          "content": "PermissionBase"
+        },
+        {
+          "content": "APIPermission"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la désérialisation d'un champ spécifique dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "to_internal_value",
+          "correct": true
+        },
+        {
+          "content": "from_representation"
+        },
+        {
+          "content": "deserialize_field"
+        },
+        {
+          "content": "json_to_field"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour gérer l'authentification par jeton (token) ?"
+      },
+      "options": [
+        {
+          "content": "TokenAuthentication",
+          "correct": true
+        },
+        {
+          "content": "JWTAuthentication"
+        },
+        {
+          "content": "SessionAuthentication"
+        },
+        {
+          "content": "BasicAuthentication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la validation d'un champ spécifique dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "validate_<field_name>",
+          "correct": true
+        },
+        {
+          "content": "clean_<field_name>"
+        },
+        {
+          "content": "check_<field_name>"
+        },
+        {
+          "content": "verify_<field_name>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour gérer les relations many-to-many dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "ManyToManyField",
+          "correct": true
+        },
+        {
+          "content": "MultipleChoiceField"
+        },
+        {
+          "content": "ListField"
+        },
+        {
+          "content": "ArrayField"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la logique de mise à jour d'un objet dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "perform_update",
+          "correct": true
+        },
+        {
+          "content": "update_object"
+        },
+        {
+          "content": "put"
+        },
+        {
+          "content": "patch_object"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel décorateur est utilisé pour spécifier les classes de rendu pour une vue basée sur une fonction ?"
+      },
+      "options": [
+        {
+          "content": "@renderer_classes",
+          "correct": true
+        },
+        {
+          "content": "@api_view"
+        },
+        {
+          "content": "@parser_classes"
+        },
+        {
+          "content": "@authentication_classes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour gérer la négociation de contenu ?"
+      },
+      "options": [
+        {
+          "content": "ContentNegotiation",
+          "correct": true
+        },
+        {
+          "content": "Renderer"
+        },
+        {
+          "content": "Parser"
+        },
+        {
+          "content": "Throttle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la logique de suppression d'un objet dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "perform_destroy",
+          "correct": true
+        },
+        {
+          "content": "delete_object"
+        },
+        {
+          "content": "remove"
+        },
+        {
+          "content": "destroy_instance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour gérer le versioning d'API ?"
+      },
+      "options": [
+        {
+          "content": "versioning.BaseVersioning",
+          "correct": true
+        },
+        {
+          "content": "VersionControl"
+        },
+        {
+          "content": "APIVersion"
+        },
+        {
+          "content": "SchemaVersion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la logique de récupération d'un objet dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "get_object",
+          "correct": true
+        },
+        {
+          "content": "retrieve_instance"
+        },
+        {
+          "content": "fetch_object"
+        },
+        {
+          "content": "get_instance"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter la throttling (limitation de débit) ?"
+      },
+      "options": [
+        {
+          "content": "BaseThrottle",
+          "correct": true
+        },
+        {
+          "content": "RateLimit"
+        },
+        {
+          "content": "RequestLimit"
+        },
+        {
+          "content": "APIThrottle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la sérialisation de plusieurs objets dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "to_representation",
+          "correct": true
+        },
+        {
+          "content": "serialize_list"
+        },
+        {
+          "content": "to_json"
+        },
+        {
+          "content": "multiple_objects"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package DRF est utilisé pour générer une documentation API interactive ?"
+      },
+      "options": [
+        {
+          "content": "drf-yasg",
+          "correct": true
+        },
+        {
+          "content": "rest_framework.docs"
+        },
+        {
+          "content": "drf-spectaular"
+        },
+        {
+          "content": "api-documentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour gérer les relations one-to-many dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "PrimaryKeyRelatedField",
+          "correct": true
+        },
+        {
+          "content": "ForeignKeyField"
+        },
+        {
+          "content": "OneToManyField"
+        },
+        {
+          "content": "RelatedField"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la logique de filtrage dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "get_queryset",
+          "correct": true
+        },
+        {
+          "content": "filter_queryset"
+        },
+        {
+          "content": "apply_filters"
+        },
+        {
+          "content": "custom_filter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter une pagination personnalisée ?"
+      },
+      "options": [
+        {
+          "content": "BasePagination",
+          "correct": true
+        },
+        {
+          "content": "CustomPaginator"
+        },
+        {
+          "content": "PaginationClass"
+        },
+        {
+          "content": "PageSplitter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la validation de plusieurs champs à la fois dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "validate",
+          "correct": true
+        },
+        {
+          "content": "clean"
+        },
+        {
+          "content": "check_fields"
+        },
+        {
+          "content": "verify_data"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter l'authentification par session ?"
+      },
+      "options": [
+        {
+          "content": "SessionAuthentication",
+          "correct": true
+        },
+        {
+          "content": "CookieAuthentication"
+        },
+        {
+          "content": "BrowserAuthentication"
+        },
+        {
+          "content": "WebAuthentication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la sérialisation des erreurs de validation dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "to_representation",
+          "correct": true
+        },
+        {
+          "content": "serialize_errors"
+        },
+        {
+          "content": "format_errors"
+        },
+        {
+          "content": "error_to_json"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter des tests unitaires pour les API ?"
+      },
+      "options": [
+        {
+          "content": "APITestCase",
+          "correct": true
+        },
+        {
+          "content": "DRFTestCase"
+        },
+        {
+          "content": "RestTestCase"
+        },
+        {
+          "content": "ViewSetTest"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la création d'un objet à partir des données validées dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "create",
+          "correct": true
+        },
+        {
+          "content": "save"
+        },
+        {
+          "content": "perform_create"
+        },
+        {
+          "content": "make_instance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter le filtrage par recherche ?"
+      },
+      "options": [
+        {
+          "content": "SearchFilter",
+          "correct": true
+        },
+        {
+          "content": "QueryFilter"
+        },
+        {
+          "content": "LookupFilter"
+        },
+        {
+          "content": "FindFilter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la mise à jour d'un objet à partir des données validées dans un sérialiseur ?"
+      },
+      "options": [
+        {
+          "content": "update",
+          "correct": true
+        },
+        {
+          "content": "save"
+        },
+        {
+          "content": "perform_update"
+        },
+        {
+          "content": "modify_instance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter le tri des résultats ?"
+      },
+      "options": [
+        {
+          "content": "OrderingFilter",
+          "correct": true
+        },
+        {
+          "content": "SortFilter"
+        },
+        {
+          "content": "ArrangeFilter"
+        },
+        {
+          "content": "SequenceFilter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour personnaliser la façon dont les objets sont sérialisés dans une vue générique ?"
+      },
+      "options": [
+        {
+          "content": "get_serializer",
+          "correct": true
+        },
+        {
+          "content": "serialize_objects"
+        },
+        {
+          "content": "create_serializer"
+        },
+        {
+          "content": "make_serializer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe de DRF est utilisée pour implémenter des permissions basées sur les objets ?"
+      },
+      "options": [
+        {
+          "content": "DjangoObjectPermissions",
+          "correct": true
+        },
+        {
+          "content": "ModelPermissions"
+        },
+        {
+          "content": "InstancePermissions"
+        },
+        {
+          "content": "RecordPermissions"
+        }
+      ]
+    }
+  ]
+}

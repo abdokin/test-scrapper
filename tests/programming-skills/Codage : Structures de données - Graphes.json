@@ -1,0 +1,945 @@
+{
+  "title": "Codage : Structures de données - Graphes",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans la compréhension et l'utilisation des structures de données de graphes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de base des graphes",
+      "Types de graphes",
+      "Représentation des graphes",
+      "Parcours de graphes",
+      "Algorithmes de graphes",
+      "Pondération et orientation",
+      "Applications des graphes"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une bonne compréhension des structures de données avancées, en particulier les graphes, couramment utilisés dans divers domaines de l'informatique.",
+    "description": "Le test couvre les aspects intermédiaires des structures de données de graphes, évaluant la capacité du candidat à comprendre et à appliquer les concepts liés aux graphes.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 1800,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce qu'un graphe non orienté ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où les arêtes n'ont pas de direction spécifique",
+          "correct": true
+        },
+        {
+          "content": "Un graphe sans cycle"
+        },
+        {
+          "content": "Un graphe avec des poids sur les arêtes"
+        },
+        {
+          "content": "Un graphe avec un seul sommet"
+        },
+        {
+          "content": "Un graphe sans arêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_reponse",
+        "preview": true,
+        "content": "Quelle structure de données est couramment utilisée pour représenter un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Liste d'adjacence",
+          "correct": true
+        },
+        {
+          "content": "Matrice d'adjacence",
+          "correct": true
+        },
+        {
+          "content": "Arbre binaire"
+        },
+        {
+          "content": "Pile"
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "Liste chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel algorithme est utilisé pour trouver le plus court chemin dans un graphe pondéré ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme de Dijkstra",
+          "correct": true
+        },
+        {
+          "content": "Algorithme de tri rapide"
+        },
+        {
+          "content": "Algorithme de recherche binaire"
+        },
+        {
+          "content": "Algorithme de tri par fusion"
+        },
+        {
+          "content": "Algorithme de hachage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe biparti ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe dont les sommets peuvent être divisés en deux ensembles disjoints tels que chaque arête relie un sommet d'un ensemble à un sommet de l'autre ensemble",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec exactement deux sommets"
+        },
+        {
+          "content": "Un graphe avec deux composantes connexes"
+        },
+        {
+          "content": "Un graphe où chaque sommet a exactement deux voisins"
+        },
+        {
+          "content": "Un graphe avec deux cycles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de parcours en largeur (BFS) dans un graphe représenté par une liste d'adjacence ?"
+      },
+      "options": [
+        {
+          "content": "O(V + E), où V est le nombre de sommets et E le nombre d'arêtes",
+          "correct": true
+        },
+        {
+          "content": "O(V^2)"
+        },
+        {
+          "content": "O(E log V)"
+        },
+        {
+          "content": "O(V log E)"
+        },
+        {
+          "content": "O(V!)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe connexe ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où il existe un chemin entre chaque paire de sommets",
+          "correct": true
+        },
+        {
+          "content": "Un graphe sans cycle"
+        },
+        {
+          "content": "Un graphe avec un nombre pair de sommets"
+        },
+        {
+          "content": "Un graphe où tous les sommets ont le même degré"
+        },
+        {
+          "content": "Un graphe complet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_reponse",
+        "content": "Quel algorithme est utilisé pour trouver un arbre couvrant de poids minimum dans un graphe pondéré ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme de Kruskal",
+          "correct": true
+        },
+        {
+          "content": "Algorithme de Prim",
+          "correct": true
+        },
+        {
+          "content": "Algorithme de Floyd-Warshall"
+        },
+        {
+          "content": "Algorithme de Ford-Fulkerson"
+        },
+        {
+          "content": "Algorithme de Bellman-Ford"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un cycle dans un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Un chemin qui commence et se termine au même sommet sans répéter d'arête",
+          "correct": true
+        },
+        {
+          "content": "Un chemin qui visite tous les sommets exactement une fois"
+        },
+        {
+          "content": "Une série de sommets connectés en ligne droite"
+        },
+        {
+          "content": "Un graphe sans arête"
+        },
+        {
+          "content": "Un sommet isolé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un graphe orienté et un graphe non orienté ?"
+      },
+      "options": [
+        {
+          "content": "Dans un graphe orienté, les arêtes ont une direction spécifique",
+          "correct": true
+        },
+        {
+          "content": "Dans un graphe orienté, il n'y a pas de cycles"
+        },
+        {
+          "content": "Un graphe orienté a toujours plus de sommets qu'un graphe non orienté"
+        },
+        {
+          "content": "Un graphe non orienté ne peut pas avoir de poids sur ses arêtes"
+        },
+        {
+          "content": "Il n'y a aucune différence entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe pondéré ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où chaque arête a une valeur (poids) associée",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec un grand nombre de sommets"
+        },
+        {
+          "content": "Un graphe où tous les sommets ont le même degré"
+        },
+        {
+          "content": "Un graphe sans cycle"
+        },
+        {
+          "content": "Un graphe avec des sommets isolés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d'un chemin hamiltonien ?"
+      },
+      "options": [
+        {
+          "content": "Un chemin qui visite chaque sommet du graphe exactement une fois",
+          "correct": true
+        },
+        {
+          "content": "Un chemin qui visite chaque arête du graphe exactement une fois"
+        },
+        {
+          "content": "Un chemin qui forme un cycle"
+        },
+        {
+          "content": "Le plus court chemin entre deux sommets"
+        },
+        {
+          "content": "Un chemin qui passe par tous les sommets de degré pair"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe planaire ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe qui peut être dessiné sur un plan sans que ses arêtes ne se croisent",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec un nombre pair de sommets"
+        },
+        {
+          "content": "Un graphe sans cycle"
+        },
+        {
+          "content": "Un graphe avec exactement un sommet de degré 1"
+        },
+        {
+          "content": "Un graphe complet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Dijkstra pour trouver le plus court chemin dans un graphe pondéré avec des poids positifs ?"
+      },
+      "options": [
+        {
+          "content": "O((V + E) log V), où V est le nombre de sommets et E le nombre d'arêtes",
+          "correct": true
+        },
+        {
+          "content": "O(V^2)"
+        },
+        {
+          "content": "O(E log V)"
+        },
+        {
+          "content": "O(V!)"
+        },
+        {
+          "content": "O(2^V)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe complet ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où chaque paire de sommets distincts est reliée par une arête unique",
+          "correct": true
+        },
+        {
+          "content": "Un graphe sans arête"
+        },
+        {
+          "content": "Un graphe avec un seul sommet"
+        },
+        {
+          "content": "Un graphe avec autant d'arêtes que de sommets"
+        },
+        {
+          "content": "Un graphe où tous les sommets ont le même degré"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme est utilisé pour détecter les cycles dans un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Recherche en profondeur (DFS)",
+          "correct": true
+        },
+        {
+          "content": "Tri topologique"
+        },
+        {
+          "content": "Algorithme de Kruskal"
+        },
+        {
+          "content": "Algorithme de Floyd-Warshall"
+        },
+        {
+          "content": "Algorithme de Huffman"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe acyclique ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe sans cycle",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec exactement un cycle"
+        },
+        {
+          "content": "Un graphe avec des poids négatifs"
+        },
+        {
+          "content": "Un graphe non connexe"
+        },
+        {
+          "content": "Un graphe avec un nombre impair de sommets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition du degré d'un sommet dans un graphe non orienté ?"
+      },
+      "options": [
+        {
+          "content": "Le nombre d'arêtes incidentes à ce sommet",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de chemins partant de ce sommet"
+        },
+        {
+          "content": "La distance au sommet le plus éloigné"
+        },
+        {
+          "content": "Le poids total des arêtes connectées à ce sommet"
+        },
+        {
+          "content": "Le nombre de cycles passant par ce sommet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe biconnexe ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe connexe qui reste connexe après la suppression de n'importe quel sommet",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec exactement deux composantes connexes"
+        },
+        {
+          "content": "Un graphe où chaque sommet a exactement deux voisins"
+        },
+        {
+          "content": "Un graphe qui peut être coloré avec deux couleurs"
+        },
+        {
+          "content": "Un graphe avec deux cycles distincts"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité spatiale d'une représentation par matrice d'adjacence pour un graphe de n sommets ?"
+      },
+      "options": [
+        {
+          "content": "O(n^2)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(2^n)"
+        },
+        {
+          "content": "O(n!)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un arbre couvrant dans un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Un sous-graphe connexe et acyclique qui inclut tous les sommets du graphe original",
+          "correct": true
+        },
+        {
+          "content": "Un graphe qui ne contient que des feuilles"
+        },
+        {
+          "content": "Un graphe avec le nombre minimum d'arêtes"
+        },
+        {
+          "content": "Un graphe qui contient tous les cycles du graphe original"
+        },
+        {
+          "content": "Un graphe qui maximise le nombre de sommets isolés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la propriété principale d'un graphe eulérien ?"
+      },
+      "options": [
+        {
+          "content": "Il contient un cycle qui passe par chaque arête exactement une fois",
+          "correct": true
+        },
+        {
+          "content": "Il est toujours planaire"
+        },
+        {
+          "content": "Il n'a pas de sommet isolé"
+        },
+        {
+          "content": "Il est toujours biparti"
+        },
+        {
+          "content": "Il a un nombre pair de sommets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe fortement connexe ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe orienté où il existe un chemin orienté entre chaque paire de sommets",
+          "correct": true
+        },
+        {
+          "content": "Un graphe non orienté sans cycle"
+        },
+        {
+          "content": "Un graphe avec un degré minimum de 3 pour chaque sommet"
+        },
+        {
+          "content": "Un graphe qui ne peut pas être coloré avec moins de 4 couleurs"
+        },
+        {
+          "content": "Un graphe où tous les chemins ont la même longueur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme est utilisé pour trouver les composantes fortement connexes d'un graphe orienté ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme de Kosaraju",
+          "correct": true
+        },
+        {
+          "content": "Algorithme de Kruskal"
+        },
+        {
+          "content": "Algorithme de Dijkstra"
+        },
+        {
+          "content": "Algorithme de Prim"
+        },
+        {
+          "content": "Algorithme de Huffman"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe k-régulier ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où chaque sommet a exactement k voisins",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec k composantes connexes"
+        },
+        {
+          "content": "Un graphe qui peut être coloré avec k couleurs"
+        },
+        {
+          "content": "Un graphe avec k sommets"
+        },
+        {
+          "content": "Un graphe avec k arêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de Floyd-Warshall pour trouver les plus courts chemins entre toutes les paires de sommets ?"
+      },
+      "options": [
+        {
+          "content": "O(V^3), où V est le nombre de sommets",
+          "correct": true
+        },
+        {
+          "content": "O(V^2)"
+        },
+        {
+          "content": "O(E log V), où E est le nombre d'arêtes"
+        },
+        {
+          "content": "O(V log V)"
+        },
+        {
+          "content": "O(2^V)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un pont dans un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Une arête dont la suppression augmente le nombre de composantes connexes du graphe",
+          "correct": true
+        },
+        {
+          "content": "Un sommet qui relie deux composantes connexes"
+        },
+        {
+          "content": "Une arête qui fait partie de tous les cycles du graphe"
+        },
+        {
+          "content": "Un chemin qui visite tous les sommets exactement une fois"
+        },
+        {
+          "content": "Une arête avec le poids le plus élevé dans le graphe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d'un graphe biparti complet ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe biparti où chaque sommet d'un ensemble est relié à tous les sommets de l'autre ensemble",
+          "correct": true
+        },
+        {
+          "content": "Un graphe biparti avec un nombre égal de sommets dans chaque ensemble"
+        },
+        {
+          "content": "Un graphe biparti sans cycle"
+        },
+        {
+          "content": "Un graphe biparti avec exactement deux arêtes"
+        },
+        {
+          "content": "Un graphe biparti où tous les sommets ont le même degré"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe auto-complémentaire ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe isomorphe à son complément",
+          "correct": true
+        },
+        {
+          "content": "Un graphe qui n'a pas de complément"
+        },
+        {
+          "content": "Un graphe qui contient son propre complément comme sous-graphe"
+        },
+        {
+          "content": "Un graphe avec autant d'arêtes que son complément"
+        },
+        {
+          "content": "Un graphe complet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la propriété principale d'un graphe sans échelle (scale-free network) ?"
+      },
+      "options": [
+        {
+          "content": "La distribution des degrés des sommets suit une loi de puissance",
+          "correct": true
+        },
+        {
+          "content": "Tous les sommets ont le même degré"
+        },
+        {
+          "content": "Le graphe n'a pas de cycles"
+        },
+        {
+          "content": "Le graphe est toujours planaire"
+        },
+        {
+          "content": "Le graphe a un diamètre constant quelle que soit sa taille"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe parfait ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où le nombre chromatique est égal à la taille de la plus grande clique pour chaque sous-graphe induit",
+          "correct": true
+        },
+        {
+          "content": "Un graphe sans défaut topologique"
+        },
+        {
+          "content": "Un graphe avec un nombre égal de sommets et d'arêtes"
+        },
+        {
+          "content": "Un graphe qui peut être dessiné sans croisement d'arêtes"
+        },
+        {
+          "content": "Un graphe où tous les chemins ont la même longueur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d'un graphe k-colorable ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe dont les sommets peuvent être colorés avec k couleurs sans que deux sommets adjacents aient la même couleur",
+          "correct": true
+        },
+        {
+          "content": "Un graphe avec k composantes connexes"
+        },
+        {
+          "content": "Un graphe où chaque sommet a k voisins"
+        },
+        {
+          "content": "Un graphe qui contient k cycles indépendants"
+        },
+        {
+          "content": "Un graphe avec k sommets isolés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe de Cayley ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe qui représente la structure d'un groupe avec un ensemble de générateurs donné",
+          "correct": true
+        },
+        {
+          "content": "Un graphe nommé d'après le mathématicien Arthur Cayley"
+        },
+        {
+          "content": "Un graphe qui peut être dessiné sur une sphère sans croisement d'arêtes"
+        },
+        {
+          "content": "Un graphe avec un nombre premier de sommets"
+        },
+        {
+          "content": "Un graphe où chaque sommet a un degré différent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la propriété principale d'un graphe de Petersen ?"
+      },
+      "options": [
+        {
+          "content": "C'est un graphe cubique avec 10 sommets et 15 arêtes, souvent utilisé comme contre-exemple en théorie des graphes",
+          "correct": true
+        },
+        {
+          "content": "C'est le plus petit graphe non planaire"
+        },
+        {
+          "content": "C'est un graphe complet à 5 sommets"
+        },
+        {
+          "content": "C'est un graphe qui peut être coloré avec seulement deux couleurs"
+        },
+        {
+          "content": "C'est un graphe qui contient tous les autres graphes comme sous-graphes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe de De Bruijn ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe orienté représentant les chevauchements entre séquences de symboles",
+          "correct": true
+        },
+        {
+          "content": "Un graphe nommé d'après le mathématicien Nicolaas de Bruijn"
+        },
+        {
+          "content": "Un graphe utilisé exclusivement en cryptographie"
+        },
+        {
+          "content": "Un graphe qui modélise les interactions sociales dans un réseau"
+        },
+        {
+          "content": "Un graphe qui représente les mouvements possibles d'une pièce d'échecs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d'un graphe cordal ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où chaque cycle de longueur strictement supérieure à 3 possède une corde",
+          "correct": true
+        },
+        {
+          "content": "Un graphe qui peut être dessiné sur un tore"
+        },
+        {
+          "content": "Un graphe où tous les sommets ont un degré pair"
+        },
+        {
+          "content": "Un graphe qui ne contient que des cycles de longueur 3"
+        },
+        {
+          "content": "Un graphe qui peut être décomposé en chemins disjoints"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe d'intervalle ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe où chaque sommet représente un intervalle sur la droite réelle, et deux sommets sont adjacents si les intervalles correspondants se chevauchent",
+          "correct": true
+        },
+        {
+          "content": "Un graphe où la distance entre deux sommets quelconques est toujours un nombre entier"
+        },
+        {
+          "content": "Un graphe qui peut être divisé en intervalles réguliers"
+        },
+        {
+          "content": "Un graphe où chaque arête a une longueur comprise dans un intervalle donné"
+        },
+        {
+          "content": "Un graphe qui représente les intervalles de confiance en statistiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la caractéristique principale d'un graphe seuil ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe qui peut être construit à partir d'un ensemble de sommets isolés en ajoutant des arêtes une par une selon un ordre de poids croissant",
+          "correct": true
+        },
+        {
+          "content": "Un graphe où chaque arête a un poids supérieur à un certain seuil"
+        },
+        {
+          "content": "Un graphe où le nombre de sommets dépasse un certain seuil"
+        },
+        {
+          "content": "Un graphe qui devient déconnecté si on supprime plus d'un certain nombre d'arêtes"
+        },
+        {
+          "content": "Un graphe qui change de propriétés au-delà d'un certain nombre de sommets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'un graphe parfaitement ordonnable ?"
+      },
+      "options": [
+        {
+          "content": "Un graphe dont les sommets peuvent être ordonnés de manière à ce que l'algorithme glouton de coloration produise une coloration optimale pour chaque sous-graphe induit",
+          "correct": true
+        },
+        {
+          "content": "Un graphe où tous les sommets peuvent être triés selon leur degré"
+        },
+        {
+          "content": "Un graphe où il existe un ordre total sur les arêtes"
+        },
+        {
+          "content": "Un graphe qui peut être dessiné avec ses arêtes parfaitement alignées"
+        },
+        {
+          "content": "Un graphe où chaque chemin est de longueur croissante"
+        }
+      ]
+    }
+    ]
+    }

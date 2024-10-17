@@ -1,0 +1,855 @@
+{
+  "title": "Flutter : Compétences avancées en développement d'applications",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les compétences des candidats dans le développement d'applications mobiles à l'aide du framework Flutter.",
+    "level": "intermediate to advanced",
+    "covered_skills": [
+      "Widgets Flutter",
+      "Gestion d'état",
+      "Navigation",
+      "Intégration d'API",
+      "Conception d'interface utilisateur",
+      "Performance et optimisation",
+      "Tests unitaires et d'intégration",
+      "Plugins et packages Flutter",
+      "Animations",
+      "Gestion des données",
+      "Internationalisation",
+      "Architecture d'application",
+      "Déploiement et publication"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences avancées en développement d'applications mobiles cross-platform avec Flutter.",
+    "description": "Le test couvre les aspects fondamentaux, intermédiaires et avancés du développement Flutter, évaluant la capacité du candidat à créer des applications complexes, efficaces et à résoudre des problèmes avancés.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 40,
+    "duration_seconds": 2400,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel widget est utilisé pour créer une liste déroulante en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "DropdownButton",
+          "correct": true
+        },
+        {
+          "content": "ListTile"
+        },
+        {
+          "content": "PopupMenuButton"
+        },
+        {
+          "content": "SelectMenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour naviguer vers une nouvelle page en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "Navigator.push()",
+          "correct": true
+        },
+        {
+          "content": "Navigator.pop()"
+        },
+        {
+          "content": "Navigator.replace()"
+        },
+        {
+          "content": "Navigator.navigate()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package est couramment utilisé pour la gestion d'état en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "Provider",
+          "correct": true
+        },
+        {
+          "content": "Redux"
+        },
+        {
+          "content": "MobX"
+        },
+        {
+          "content": "GetX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel widget est utilisé pour créer une grille d'éléments en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "GridView",
+          "correct": true
+        },
+        {
+          "content": "ListView"
+        },
+        {
+          "content": "Column"
+        },
+        {
+          "content": "Row"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de tests disponibles en Flutter ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Unit tests",
+          "correct": true
+        },
+        {
+          "content": "Widget tests",
+          "correct": true
+        },
+        {
+          "content": "Integration tests",
+          "correct": true
+        },
+        {
+          "content": "Performance tests"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe est utilisée pour effectuer des requêtes HTTP en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "http.Client",
+          "correct": true
+        },
+        {
+          "content": "HttpRequest"
+        },
+        {
+          "content": "Dio"
+        },
+        {
+          "content": "Fetch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un espace flexible entre d'autres widgets ?"
+      },
+      "options": [
+        {
+          "content": "Spacer",
+          "correct": true
+        },
+        {
+          "content": "SizedBox"
+        },
+        {
+          "content": "Container"
+        },
+        {
+          "content": "Padding"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour exécuter du code asynchrone en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "async/await",
+          "correct": true
+        },
+        {
+          "content": "then()"
+        },
+        {
+          "content": "Completer"
+        },
+        {
+          "content": "Future.delayed()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel widget est utilisé pour créer une barre d'application en haut de l'écran ?"
+      },
+      "options": [
+        {
+          "content": "AppBar",
+          "correct": true
+        },
+        {
+          "content": "Toolbar"
+        },
+        {
+          "content": "ActionBar"
+        },
+        {
+          "content": "TopBar"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour initialiser l'état d'un StatefulWidget ?"
+      },
+      "options": [
+        {
+          "content": "initState()",
+          "correct": true
+        },
+        {
+          "content": "createState()"
+        },
+        {
+          "content": "build()"
+        },
+        {
+          "content": "setState()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package est utilisé pour accéder au stockage local sur l'appareil ?"
+      },
+      "options": [
+        {
+          "content": "shared_preferences",
+          "correct": true
+        },
+        {
+          "content": "local_storage"
+        },
+        {
+          "content": "flutter_secure_storage"
+        },
+        {
+          "content": "hive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour mettre à jour l'interface utilisateur d'un StatefulWidget ?"
+      },
+      "options": [
+        {
+          "content": "setState()",
+          "correct": true
+        },
+        {
+          "content": "updateUI()"
+        },
+        {
+          "content": "rebuild()"
+        },
+        {
+          "content": "refresh()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un bouton avec une icône et du texte ?"
+      },
+      "options": [
+        {
+          "content": "ElevatedButton.icon()",
+          "correct": true
+        },
+        {
+          "content": "IconButton"
+        },
+        {
+          "content": "TextButton"
+        },
+        {
+          "content": "FlatButton"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe est utilisée pour définir des thèmes personnalisés en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "ThemeData",
+          "correct": true
+        },
+        {
+          "content": "CustomTheme"
+        },
+        {
+          "content": "AppTheme"
+        },
+        {
+          "content": "StyleSheet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour exécuter du code après que le widget ait été construit ?"
+      },
+      "options": [
+        {
+          "content": "WidgetsBinding.instance.addPostFrameCallback",
+          "correct": true
+        },
+        {
+          "content": "Future.delayed"
+        },
+        {
+          "content": "Timer"
+        },
+        {
+          "content": "SchedulerBinding.instance.addPostFrameCallback"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer une animation de chargement circulaire ?"
+      },
+      "options": [
+        {
+          "content": "CircularProgressIndicator",
+          "correct": true
+        },
+        {
+          "content": "LinearProgressIndicator"
+        },
+        {
+          "content": "ProgressBar"
+        },
+        {
+          "content": "Spinner"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle classe est utilisée pour créer des animations personnalisées en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "AnimationController",
+          "correct": true
+        },
+        {
+          "content": "Tween"
+        },
+        {
+          "content": "AnimatedBuilder"
+        },
+        {
+          "content": "Animation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package est utilisé pour l'internationalisation en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "intl",
+          "correct": true
+        },
+        {
+          "content": "i18n"
+        },
+        {
+          "content": "localization"
+        },
+        {
+          "content": "flutter_localizations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour accéder au contexte du build dans un StatelessWidget ?"
+      },
+      "options": [
+        {
+          "content": "build(BuildContext context)",
+          "correct": true
+        },
+        {
+          "content": "getContext()"
+        },
+        {
+          "content": "context"
+        },
+        {
+          "content": "BuildContext.of(this)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de défilement parallaxe ?"
+      },
+      "options": [
+        {
+          "content": "CustomScrollView",
+          "correct": true
+        },
+        {
+          "content": "ParallaxView"
+        },
+        {
+          "content": "ScrollController"
+        },
+        {
+          "content": "NestedScrollView"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est utilisée pour formater une date en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "DateFormat()",
+          "correct": true
+        },
+        {
+          "content": "DateTime.format()"
+        },
+        {
+          "content": "Date.toString()"
+        },
+        {
+          "content": "formatDate()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer une liste de défilement infini ?"
+      },
+      "options": [
+        {
+          "content": "ListView.builder()",
+          "correct": true
+        },
+        {
+          "content": "InfiniteList"
+        },
+        {
+          "content": "EndlessList"
+        },
+        {
+          "content": "RecyclerView"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour convertir un JSON en objet Dart ?"
+      },
+      "options": [
+        {
+          "content": "jsonDecode()",
+          "correct": true
+        },
+        {
+          "content": "JSON.parse()"
+        },
+        {
+          "content": "convertJsonToObject()"
+        },
+        {
+          "content": "deserializeJson()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de transition entre deux widgets ?"
+      },
+      "options": [
+        {
+          "content": "AnimatedSwitcher",
+          "correct": true
+        },
+        {
+          "content": "Transition"
+        },
+        {
+          "content": "FadeTransition"
+        },
+        {
+          "content": "SwitchWidget"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour gérer les erreurs asynchrones en Dart ?"
+      },
+      "options": [
+        {
+          "content": "try/catch avec async/await",
+          "correct": true
+        },
+        {
+          "content": "onError()"
+        },
+        {
+          "content": "catchError()"
+        },
+        {
+          "content": "handleException()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de glisser pour supprimer ?"
+      },
+      "options": [
+        {
+          "content": "Dismissible",
+          "correct": true
+        },
+        {
+          "content": "Slidable"
+        },
+        {
+          "content": "SwipeToDelete"
+        },
+        {
+          "content": "GestureDetector"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour lancer une URL externe dans Flutter ?"
+      },
+      "options": [
+        {
+          "content": "url_launcher package",
+          "correct": true
+        },
+        {
+          "content": "WebView"
+        },
+        {
+          "content": "Navigator.pushNamed()"
+        },
+        {
+          "content": "openUrl()"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour obtenir la taille de l'écran en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "MediaQuery.of(context).size",
+          "correct": true
+        },
+        {
+          "content": "Screen.size"
+        },
+        {
+          "content": "Device.dimensions"
+        },
+        {
+          "content": "Window.getSize()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de parallaxe dans une liste ?"
+      },
+      "options": [
+        {
+          "content": "Flow",
+          "correct": true
+        },
+        {
+          "content": "ParallaxList"
+        },
+        {
+          "content": "ScrollEffect"
+        },
+        {
+          "content": "AnimatedList"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour créer un singleton en Dart ?"
+      },
+      "options": [
+        {
+          "content": "factory constructor",
+          "correct": true
+        },
+        {
+          "content": "static instance"
+        },
+        {
+          "content": "private constructor"
+        },
+        {
+          "content": "Singleton annotation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer une grille de défilement infini ?"
+      },
+      "options": [
+        {
+          "content": "GridView.builder()",
+          "correct": true
+        },
+        {
+          "content": "InfiniteGrid"
+        },
+        {
+          "content": "EndlessGridView"
+        },
+        {
+          "content": "RecyclerGrid"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour implémenter le routage nommé en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "Navigator.pushNamed()",
+          "correct": true
+        },
+        {
+          "content": "Router.navigate()"
+        },
+        {
+          "content": "Navigator.goTo()"
+        },
+        {
+          "content": "Routes.push()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package est couramment utilisé pour la gestion de l'état global en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "BLoC (Business Logic Component)",
+          "correct": true
+        },
+        {
+          "content": "Redux"
+        },
+        {
+          "content": "MobX"
+        },
+        {
+          "content": "GetX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour implémenter une animation de héros en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "Hero widget",
+          "correct": true
+        },
+        {
+          "content": "AnimatedHero"
+        },
+        {
+          "content": "TransitionEffect"
+        },
+        {
+          "content": "PageTransition"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de perspective 3D en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "Transform",
+          "correct": true
+        },
+        {
+          "content": "Perspective"
+        },
+        {
+          "content": "Matrix4"
+        },
+        {
+          "content": "3DEffect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour implémenter le pull-to-refresh en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "RefreshIndicator",
+          "correct": true
+        },
+        {
+          "content": "PullToRefresh"
+        },
+        {
+          "content": "SwipeToRefresh"
+        },
+        {
+          "content": "ListView.refresh()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un effet de flou en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "BackdropFilter",
+          "correct": true
+        },
+        {
+          "content": "BlurEffect"
+        },
+        {
+          "content": "GaussianBlur"
+        },
+        {
+          "content": "ImageFilter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour gérer les permissions dans une application Flutter ?"
+      },
+      "options": [
+        {
+          "content": "permission_handler package",
+          "correct": true
+        },
+        {
+          "content": "requestPermission()"
+        },
+        {
+          "content": "PermissionManager"
+        },
+        {
+          "content": "AndroidManifest.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel widget est utilisé pour créer un carrousel d'images en Flutter ?"
+      },
+      "options": [
+        {
+          "content": "PageView",
+          "correct": true
+        },
+        {
+          "content": "Carousel"
+        },
+        {
+          "content": "ImageSlider"
+        },
+        {
+          "content": "SwipeView"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "title": "Bash : Compétences en shell scripting",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Commandes de base Bash",
+      "Scripting Bash",
+      "Gestion des fichiers et répertoires",
+      "Redirections et pipes",
+      "Variables et paramètres",
+      "Structures de contrôle",
+      "Expressions régulières",
+      "Gestion des processus"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en administration système Linux ou en automatisation de tâches via des scripts Bash.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du shell Bash, évaluant la capacité du candidat à écrire des scripts efficaces et à utiliser les commandes Bash courantes.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier dans le terminal ?"
+      },
+      "options": [
+        {
+          "content": "cat",
+          "correct": true
+        },
+        {
+          "content": "show"
+        },
+        {
+          "content": "display"
+        },
+        {
+          "content": "print"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de lister les fichiers et répertoires, y compris les fichiers cachés ?"
+      },
+      "options": [
+        {
+          "content": "ls -a",
+          "correct": true
+        },
+        {
+          "content": "ls -l"
+        },
+        {
+          "content": "dir -h"
+        },
+        {
+          "content": "list --all"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment rediriger la sortie standard d'une commande vers un fichier, en écrasant son contenu existant ?"
+      },
+      "options": [
+        {
+          "content": ">",
+          "correct": true
+        },
+        {
+          "content": ">>"
+        },
+        {
+          "content": "<"
+        },
+        {
+          "content": "|"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande permet de rechercher un motif dans un fichier ?"
+      },
+      "options": [
+        {
+          "content": "grep",
+          "correct": true
+        },
+        {
+          "content": "find"
+        },
+        {
+          "content": "search"
+        },
+        {
+          "content": "locate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de la commande 'ls' permettent d'afficher les informations détaillées des fichiers ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "-l",
+          "correct": true
+        },
+        {
+          "content": "-a"
+        },
+        {
+          "content": "-h",
+          "correct": true
+        },
+        {
+          "content": "-r"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de changer les permissions d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "chmod",
+          "correct": true
+        },
+        {
+          "content": "chown"
+        },
+        {
+          "content": "chgrp"
+        },
+        {
+          "content": "perm"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment déclare-t-on une variable en Bash ?"
+      },
+      "options": [
+        {
+          "content": "NOM=valeur",
+          "correct": true
+        },
+        {
+          "content": "var NOM = valeur"
+        },
+        {
+          "content": "let NOM = valeur"
+        },
+        {
+          "content": "set NOM valeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'afficher les variables d'environnement ?"
+      },
+      "options": [
+        {
+          "content": "env",
+          "correct": true
+        },
+        {
+          "content": "printenv"
+        },
+        {
+          "content": "echo $ENV"
+        },
+        {
+          "content": "show_env"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accède-t-on au premier argument passé à un script Bash ?"
+      },
+      "options": [
+        {
+          "content": "$1",
+          "correct": true
+        },
+        {
+          "content": "$0"
+        },
+        {
+          "content": "${1}"
+        },
+        {
+          "content": "arg[1]"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle structure de contrôle permet d'exécuter une commande si une condition est vraie ?"
+      },
+      "options": [
+        {
+          "content": "if",
+          "correct": true
+        },
+        {
+          "content": "switch"
+        },
+        {
+          "content": "when"
+        },
+        {
+          "content": "case"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle boucle est utilisée pour itérer sur une liste de valeurs en Bash ?"
+      },
+      "options": [
+        {
+          "content": "for",
+          "correct": true
+        },
+        {
+          "content": "while"
+        },
+        {
+          "content": "do-while"
+        },
+        {
+          "content": "foreach"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réalise-t-on une comparaison numérique en Bash ?"
+      },
+      "options": [
+        {
+          "content": "-eq",
+          "correct": true
+        },
+        {
+          "content": "=="
+        },
+        {
+          "content": "="
+        },
+        {
+          "content": "-equal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels opérateurs sont utilisés pour les tests de fichiers en Bash ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "-e",
+          "correct": true
+        },
+        {
+          "content": "-f",
+          "correct": true
+        },
+        {
+          "content": "-d",
+          "correct": true
+        },
+        {
+          "content": "-x"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'exécuter un script en arrière-plan ?"
+      },
+      "options": [
+        {
+          "content": "&",
+          "correct": true
+        },
+        {
+          "content": "bg"
+        },
+        {
+          "content": "background"
+        },
+        {
+          "content": "nohup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment affiche-t-on la valeur d'une variable en Bash ?"
+      },
+      "options": [
+        {
+          "content": "echo $VARIABLE",
+          "correct": true
+        },
+        {
+          "content": "print VARIABLE"
+        },
+        {
+          "content": "echo VARIABLE"
+        },
+        {
+          "content": "show $VARIABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de compter le nombre de lignes dans un fichier ?"
+      },
+      "options": [
+        {
+          "content": "wc -l",
+          "correct": true
+        },
+        {
+          "content": "count -l"
+        },
+        {
+          "content": "line -count"
+        },
+        {
+          "content": "nl"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un alias pour une commande en Bash ?"
+      },
+      "options": [
+        {
+          "content": "alias nom='commande'",
+          "correct": true
+        },
+        {
+          "content": "create alias nom='commande'"
+        },
+        {
+          "content": "new_alias nom='commande'"
+        },
+        {
+          "content": "set alias nom='commande'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de trier les lignes d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "sort",
+          "correct": true
+        },
+        {
+          "content": "order"
+        },
+        {
+          "content": "arrange"
+        },
+        {
+          "content": "organize"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment obtenir le nombre d'arguments passés à un script Bash ?"
+      },
+      "options": [
+        {
+          "content": "$#",
+          "correct": true
+        },
+        {
+          "content": "$@"
+        },
+        {
+          "content": "$*"
+        },
+        {
+          "content": "$?"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de rechercher des fichiers dans le système de fichiers ?"
+      },
+      "options": [
+        {
+          "content": "find",
+          "correct": true
+        },
+        {
+          "content": "search"
+        },
+        {
+          "content": "locate"
+        },
+        {
+          "content": "whereis"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels caractères sont utilisés pour les commentaires en Bash ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "#",
+          "correct": true
+        },
+        {
+          "content": "//",
+          "correct": false
+        },
+        {
+          "content": "/*",
+          "correct": false
+        },
+        {
+          "content": ":",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de compresser un fichier en utilisant gzip ?"
+      },
+      "options": [
+        {
+          "content": "gzip",
+          "correct": true
+        },
+        {
+          "content": "zip"
+        },
+        {
+          "content": "compress"
+        },
+        {
+          "content": "tar"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on exécuter une commande uniquement si la précédente a réussi ?"
+      },
+      "options": [
+        {
+          "content": "&&",
+          "correct": true
+        },
+        {
+          "content": "||"
+        },
+        {
+          "content": ";"
+        },
+        {
+          "content": "|"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'afficher les processus en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "ps",
+          "correct": true
+        },
+        {
+          "content": "top"
+        },
+        {
+          "content": "proc"
+        },
+        {
+          "content": "list"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on remplacer une chaîne par une autre dans un fichier en utilisant sed ?"
+      },
+      "options": [
+        {
+          "content": "sed 's/ancien/nouveau/g' fichier",
+          "correct": true
+        },
+        {
+          "content": "sed 'r/ancien/nouveau/' fichier"
+        },
+        {
+          "content": "sed '/ancien/nouveau/' fichier"
+        },
+        {
+          "content": "sed 'ancien->nouveau' fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de compter le nombre d'occurrences d'un mot dans un fichier ?"
+      },
+      "options": [
+        {
+          "content": "grep -c",
+          "correct": true
+        },
+        {
+          "content": "wc -w"
+        },
+        {
+          "content": "count -o"
+        },
+        {
+          "content": "find -n"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on exécuter une commande à intervalles réguliers ?"
+      },
+      "options": [
+        {
+          "content": "watch",
+          "correct": true
+        },
+        {
+          "content": "repeat"
+        },
+        {
+          "content": "loop"
+        },
+        {
+          "content": "cycle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de créer un lien symbolique ?"
+      },
+      "options": [
+        {
+          "content": "ln -s",
+          "correct": true
+        },
+        {
+          "content": "link -s"
+        },
+        {
+          "content": "symlink"
+        },
+        {
+          "content": "mklink"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on afficher les 10 premières lignes d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "head -n 10",
+          "correct": true
+        },
+        {
+          "content": "top 10"
+        },
+        {
+          "content": "first 10"
+        },
+        {
+          "content": "cat -n 10"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de supprimer un répertoire et son contenu ?"
+      },
+      "options": [
+        {
+          "content": "rm -r",
+          "correct": true
+        },
+        {
+          "content": "rmdir"
+        },
+        {
+          "content": "del -r"
+        },
+        {
+          "content": "remove -all"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les opérateurs de redirection en Bash ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": ">",
+          "correct": true
+        },
+        {
+          "content": "<",
+          "correct": true
+        },
+        {
+          "content": ">>",
+          "correct": true
+        },
+        {
+          "content": "|",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de changer le propriétaire d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "chown",
+          "correct": true
+        },
+        {
+          "content": "chmod"
+        },
+        {
+          "content": "chgrp"
+        },
+        {
+          "content": "usermod"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on exécuter une commande en tant que superutilisateur ?"
+      },
+      "options": [
+        {
+          "content": "sudo",
+          "correct": true
+        },
+        {
+          "content": "su"
+        },
+        {
+          "content": "root"
+        },
+        {
+          "content": "admin"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'afficher l'espace disque utilisé ?"
+      },
+      "options": [
+        {
+          "content": "df",
+          "correct": true
+        },
+        {
+          "content": "du"
+        },
+        {
+          "content": "free"
+        },
+        {
+          "content": "space"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on définir une variable en lecture seule en Bash ?"
+      },
+      "options": [
+        {
+          "content": "readonly VAR=valeur",
+          "correct": true
+        },
+        {
+          "content": "const VAR=valeur"
+        },
+        {
+          "content": "final VAR=valeur"
+        },
+        {
+          "content": "static VAR=valeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de trier les lignes d'un fichier et supprimer les doublons ?"
+      },
+      "options": [
+        {
+          "content": "sort -u",
+          "correct": true
+        },
+        {
+          "content": "uniq"
+        },
+        {
+          "content": "distinct"
+        },
+        {
+          "content": "unique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on obtenir le chemin absolu du répertoire courant ?"
+      },
+      "options": [
+        {
+          "content": "pwd",
+          "correct": true
+        },
+        {
+          "content": "cd ."
+        },
+        {
+          "content": "path"
+        },
+        {
+          "content": "echo $PWD"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande permet de créer un nouveau répertoire ?"
+      },
+      "options": [
+        {
+          "content": "mkdir",
+          "correct": true
+        },
+        {
+          "content": "createdir"
+        },
+        {
+          "content": "newdir"
+        },
+        {
+          "content": "makedir"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on obtenir l'aide sur une commande en Bash ?"
+      },
+      "options": [
+        {
+          "content": "man commande",
+          "correct": true
+        },
+        {
+          "content": "help commande"
+        },
+        {
+          "content": "info commande"
+        },
+        {
+          "content": "manual commande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de comparer deux fichiers ligne par ligne ?"
+      },
+      "options": [
+        {
+          "content": "diff",
+          "correct": true
+        },
+        {
+          "content": "cmp"
+        },
+        {
+          "content": "compare"
+        },
+        {
+          "content": "fc"
+        }
+      ]
+    }
+  ]
+}

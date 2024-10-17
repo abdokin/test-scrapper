@@ -1,0 +1,867 @@
+{
+  "title": "Software Engineer : Principes fondamentaux de l'ingénierie logicielle",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur les principes fondamentaux de l'ingénierie logicielle, identifiant ceux capables d'appliquer la 'pensée d'ingénieur logiciel' pour résoudre efficacement les problèmes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Conception logicielle",
+      "Algorithmes et structures de données",
+      "Principes SOLID",
+      "Patterns de conception",
+      "Gestion de versions",
+      "Tests logiciels",
+      "Sécurité logicielle",
+      "Performance et optimisation",
+      "Architectures logicielles",
+      "Méthodologies de développement"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'ingénieur logiciel, développeur senior, ou tout rôle nécessitant une compréhension approfondie des principes d'ingénierie logicielle.",
+    "description": "Le test couvre les concepts fondamentaux de l'ingénierie logicielle, évaluant la capacité du candidat à concevoir, développer et maintenir des systèmes logiciels robustes et efficaces.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel principe SOLID stipule qu'une classe ne devrait avoir qu'une seule raison de changer ?"
+      },
+      "options": [
+        {
+          "content": "Principe de responsabilité unique",
+          "correct": true
+        },
+        {
+          "content": "Principe ouvert/fermé"
+        },
+        {
+          "content": "Principe de substitution de Liskov"
+        },
+        {
+          "content": "Principe de ségrégation des interfaces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter une pile (stack) ?"
+      },
+      "options": [
+        {
+          "content": "Liste chaînée",
+          "correct": true
+        },
+        {
+          "content": "Arbre binaire"
+        },
+        {
+          "content": "Tableau de hachage"
+        },
+        {
+          "content": "File de priorité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de conteneurs dans le développement logiciel ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Portabilité entre différents environnements",
+          "correct": true
+        },
+        {
+          "content": "Isolation des dépendances",
+          "correct": true
+        },
+        {
+          "content": "Facilité de déploiement et de mise à l'échelle",
+          "correct": true
+        },
+        {
+          "content": "Amélioration automatique des performances de l'application"
+        },
+        {
+          "content": "Cohérence entre les environnements de développement et de production",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel pattern de conception est utilisé pour créer une interface unifiée à un ensemble d'interfaces dans un sous-système ?"
+      },
+      "options": [
+        {
+          "content": "Façade",
+          "correct": true
+        },
+        {
+          "content": "Adaptateur"
+        },
+        {
+          "content": "Décorateur"
+        },
+        {
+          "content": "Proxy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'algorithme de recherche binaire dans le pire des cas ?"
+      },
+      "options": [
+        {
+          "content": "O(log n)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de test vérifie le bon fonctionnement d'une unité de code isolée ?"
+      },
+      "options": [
+        {
+          "content": "Test unitaire",
+          "correct": true
+        },
+        {
+          "content": "Test d'intégration"
+        },
+        {
+          "content": "Test fonctionnel"
+        },
+        {
+          "content": "Test de charge"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour réduire le couplage entre les modules d'un système ?"
+      },
+      "options": [
+        {
+          "content": "Injection de dépendances",
+          "correct": true
+        },
+        {
+          "content": "Héritage multiple"
+        },
+        {
+          "content": "Programmation procédurale"
+        },
+        {
+          "content": "Duplication de code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'architecture microservices ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Scalabilité indépendante des services",
+          "correct": true
+        },
+        {
+          "content": "Facilité de déploiement et de mise à jour",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité technologique",
+          "correct": true
+        },
+        {
+          "content": "Réduction de la complexité globale du système"
+        },
+        {
+          "content": "Résilience accrue",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe de conception encourage l'extension d'une classe sans modifier son code ?"
+      },
+      "options": [
+        {
+          "content": "Principe ouvert/fermé",
+          "correct": true
+        },
+        {
+          "content": "Principe de substitution de Liskov"
+        },
+        {
+          "content": "Principe d'inversion de dépendance"
+        },
+        {
+          "content": "Principe de ségrégation des interfaces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale différence entre un merge et un rebase dans Git ?"
+      },
+      "options": [
+        {
+          "content": "Le rebase réécrit l'historique, le merge crée un nouveau commit de fusion",
+          "correct": true
+        },
+        {
+          "content": "Le merge est plus rapide que le rebase"
+        },
+        {
+          "content": "Le rebase ne peut être utilisé que sur la branche principale"
+        },
+        {
+          "content": "Le merge supprime automatiquement les branches fusionnées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour améliorer les performances des requêtes de base de données répétitives ?"
+      },
+      "options": [
+        {
+          "content": "Mise en cache",
+          "correct": true
+        },
+        {
+          "content": "Indexation"
+        },
+        {
+          "content": "Normalisation"
+        },
+        {
+          "content": "Sharding"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon code selon le principe DRY ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Évite la duplication de code",
+          "correct": true
+        },
+        {
+          "content": "Favorise la réutilisation",
+          "correct": true
+        },
+        {
+          "content": "Réduit la maintenance",
+          "correct": true
+        },
+        {
+          "content": "Augmente la taille du code source"
+        },
+        {
+          "content": "Améliore la cohérence",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel pattern de conception est utilisé pour définir une famille d'algorithmes, encapsuler chacun d'eux et les rendre interchangeables ?"
+      },
+      "options": [
+        {
+          "content": "Stratégie",
+          "correct": true
+        },
+        {
+          "content": "Observateur"
+        },
+        {
+          "content": "Singleton"
+        },
+        {
+          "content": "Fabrique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche de développement met l'accent sur la création de tests avant l'écriture du code de production ?"
+      },
+      "options": [
+        {
+          "content": "Test-Driven Development (TDD)",
+          "correct": true
+        },
+        {
+          "content": "Behavior-Driven Development (BDD)"
+        },
+        {
+          "content": "Domain-Driven Design (DDD)"
+        },
+        {
+          "content": "Extreme Programming (XP)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel concept de programmation orientée objet permet à une classe d'avoir plusieurs implémentations d'une méthode ?"
+      },
+      "options": [
+        {
+          "content": "Polymorphisme",
+          "correct": true
+        },
+        {
+          "content": "Encapsulation"
+        },
+        {
+          "content": "Héritage"
+        },
+        {
+          "content": "Abstraction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'intégration continue (CI) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Détection précoce des bugs",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la qualité du code",
+          "correct": true
+        },
+        {
+          "content": "Réduction du temps de déploiement",
+          "correct": true
+        },
+        {
+          "content": "Elimination complète des erreurs humaines"
+        },
+        {
+          "content": "Facilitation de la collaboration entre développeurs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique de sécurité est utilisée pour prévenir les attaques par injection SQL ?"
+      },
+      "options": [
+        {
+          "content": "Utilisation de requêtes paramétrées",
+          "correct": true
+        },
+        {
+          "content": "Désactivation des messages d'erreur"
+        },
+        {
+          "content": "Utilisation exclusive de procédures stockées"
+        },
+        {
+          "content": "Chiffrement de la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe de conception encourage l'utilisation de plusieurs interfaces spécifiques plutôt qu'une seule interface générale ?"
+      },
+      "options": [
+        {
+          "content": "Principe de ségrégation des interfaces",
+          "correct": true
+        },
+        {
+          "content": "Principe de responsabilité unique"
+        },
+        {
+          "content": "Principe ouvert/fermé"
+        },
+        {
+          "content": "Principe de substitution de Liskov"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour améliorer les performances d'une application en répartissant la charge sur plusieurs serveurs ?"
+      },
+      "options": [
+        {
+          "content": "Load balancing",
+          "correct": true
+        },
+        {
+          "content": "Caching"
+        },
+        {
+          "content": "Indexation"
+        },
+        {
+          "content": "Compression"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de conteneurs dans un pipeline CI/CD ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Cohérence entre les environnements",
+          "correct": true
+        },
+        {
+          "content": "Isolation des dépendances",
+          "correct": true
+        },
+        {
+          "content": "Déploiements plus rapides et fiables",
+          "correct": true
+        },
+        {
+          "content": "Élimination complète des bugs"
+        },
+        {
+          "content": "Facilité de rollback",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de test vérifie le bon fonctionnement de l'intégration entre différents composants ou systèmes ?"
+      },
+      "options": [
+        {
+          "content": "Test d'intégration",
+          "correct": true
+        },
+        {
+          "content": "Test unitaire"
+        },
+        {
+          "content": "Test de performance"
+        },
+        {
+          "content": "Test d'acceptation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle pratique de développement consiste à retravailler le code existant sans en changer le comportement externe ?"
+      },
+      "options": [
+        {
+          "content": "Refactoring",
+          "correct": true
+        },
+        {
+          "content": "Debugging"
+        },
+        {
+          "content": "Optimisation"
+        },
+        {
+          "content": "Reverse engineering"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode de gestion de projet agile met l'accent sur la livraison incrémentale et itérative du produit ?"
+      },
+      "options": [
+        {
+          "content": "Scrum",
+          "correct": true
+        },
+        {
+          "content": "Waterfall"
+        },
+        {
+          "content": "Big Bang"
+        },
+        {
+          "content": "V-Model"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des expressions régulières dans le développement logiciel ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Validation efficace des entrées utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Recherche et remplacement de texte complexes",
+          "correct": true
+        },
+        {
+          "content": "Parsing de formats de données spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Optimisation automatique des performances du code"
+        },
+        {
+          "content": "Extraction de données structurées à partir de texte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe de conception encourage la dépendance envers des abstractions plutôt que des implémentations concrètes ?"
+      },
+      "options": [
+        {
+          "content": "Principe d'inversion de dépendance",
+          "correct": true
+        },
+        {
+          "content": "Principe de responsabilité unique"
+        },
+        {
+          "content": "Principe ouvert/fermé"
+        },
+        {
+          "content": "Principe de substitution de Liskov"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour stocker et gérer efficacement de grandes quantités de données non structurées ?"
+      },
+      "options": [
+        {
+          "content": "Base de données NoSQL",
+          "correct": true
+        },
+        {
+          "content": "Base de données relationnelle"
+        },
+        {
+          "content": "Système de fichiers distribué"
+        },
+        {
+          "content": "Cache en mémoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'approche API-first dans le développement logiciel ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Facilite la collaboration entre équipes",
+          "correct": true
+        },
+        {
+          "content": "Permet le développement parallèle du front-end et du back-end",
+          "correct": true
+        },
+        {
+          "content": "Améliore la réutilisabilité et l'interopérabilité",
+          "correct": true
+        },
+        {
+          "content": "Élimine complètement le besoin de documentation"
+        },
+        {
+          "content": "Facilite l'intégration avec des systèmes tiers",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique de programmation permet d'exécuter plusieurs tâches simultanément au sein d'un même programme ?"
+      },
+      "options": [
+        {
+          "content": "Multithreading",
+          "correct": true
+        },
+        {
+          "content": "Récursion"
+        },
+        {
+          "content": "Programmation fonctionnelle"
+        },
+        {
+          "content": "Programmation orientée aspect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel pattern architectural sépare la logique métier, la présentation et le stockage des données ?"
+      },
+      "options": [
+        {
+          "content": "Model-View-Controller (MVC)",
+          "correct": true
+        },
+        {
+          "content": "Publish-Subscribe"
+        },
+        {
+          "content": "Microservices"
+        },
+        {
+          "content": "Event-Driven"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la programmation fonctionnelle ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Code plus prévisible et testable",
+          "correct": true
+        },
+        {
+          "content": "Réduction des effets de bord",
+          "correct": true
+        },
+        {
+          "content": "Facilite le raisonnement sur le code",
+          "correct": true
+        },
+        {
+          "content": "Élimine complètement le besoin de gestion d'état"
+        },
+        {
+          "content": "Potentiel de parallélisation accru",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour gérer efficacement les dépendances externes dans un projet logiciel ?"
+      },
+      "options": [
+        {
+          "content": "Gestion des dépendances (ex: npm, Maven)",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller de code source"
+        },
+        {
+          "content": "Compilation statique de toutes les dépendances"
+        },
+        {
+          "content": "Développement de toutes les fonctionnalités en interne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel concept en programmation orientée objet permet de créer une nouvelle classe basée sur une classe existante ?"
+      },
+      "options": [
+        {
+          "content": "Héritage",
+          "correct": true
+        },
+        {
+          "content": "Encapsulation"
+        },
+        {
+          "content": "Polymorphisme"
+        },
+        {
+          "content": "Abstraction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation du versioning sémantique (SemVer) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Clarté sur la nature des changements entre versions",
+          "correct": true
+        },
+        {
+          "content": "Facilite la gestion des dépendances",
+          "correct": true
+        },
+        {
+          "content": "Améliore la communication entre développeurs et utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Garantit l'absence de bugs dans les nouvelles versions"
+        },
+        {
+          "content": "Aide à maintenir la rétrocompatibilité",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour réduire le temps de chargement initial d'une application web en chargeant le code à la demande ?"
+      },
+      "options": [
+        {
+          "content": "Lazy loading",
+          "correct": true
+        },
+        {
+          "content": "Preloading"
+        },
+        {
+          "content": "Bundling"
+        },
+        {
+          "content": "Minification"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel principe de conception encourage la création de classes qui dépendent d'interfaces plutôt que de classes concrètes ?"
+      },
+      "options": [
+        {
+          "content": "Principe d'inversion de dépendance",
+          "correct": true
+        },
+        {
+          "content": "Principe de responsabilité unique"
+        },
+        {
+          "content": "Principe ouvert/fermé"
+        },
+        {
+          "content": "Principe de substitution de Liskov"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'approche Domain-Driven Design (DDD) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Meilleure compréhension du domaine métier",
+          "correct": true
+        },
+        {
+          "content": "Facilite la communication entre développeurs et experts métier",
+          "correct": true
+        },
+        {
+          "content": "Aide à créer des modèles de domaine plus précis",
+          "correct": true
+        },
+        {
+          "content": "Garantit des performances optimales de l'application"
+        },
+        {
+          "content": "Favorise la création de logiciels plus maintenables",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour améliorer la lisibilité et la maintenabilité du code en le divisant en unités plus petites et plus gérables ?"
+      },
+      "options": [
+        {
+          "content": "Modularisation",
+          "correct": true
+        },
+        {
+          "content": "Obfuscation"
+        },
+        {
+          "content": "Compression"
+        },
+        {
+          "content": "Sérialisation"
+        }
+      ]
+    }
+  ]
+}

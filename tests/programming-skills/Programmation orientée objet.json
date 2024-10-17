@@ -1,0 +1,808 @@
+{
+  "title": "Programmation orientée objet",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les connaissances des candidats sur les concepts de la Programmation Orientée Objet (POO) et leur capacité à résoudre des tâches de programmation en appliquant ces concepts.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Classes et objets",
+      "Encapsulation",
+      "Héritage",
+      "Polymorphisme",
+      "Abstraction",
+      "Interfaces",
+      "Méthodes et attributs",
+      "Constructeurs et destructeurs",
+      "Surcharge et redéfinition",
+      "Classes abstraites",
+      "Composition et agrégation",
+      "Principes SOLID",
+      "Patrons de conception"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur nécessitant une solide compréhension de la POO pour créer des applications robustes et maintenables.",
+    "description": "Le test couvre les aspects fondamentaux et avancés de la POO, évaluant la capacité du candidat à concevoir et implémenter des solutions logicielles orientées objet efficaces.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le principal avantage de l'encapsulation en POO ?"
+      },
+      "options": [
+        {
+          "content": "Protéger les données et contrôler l'accès aux membres d'une classe",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances du programme"
+        },
+        {
+          "content": "Réduire la taille du code source"
+        },
+        {
+          "content": "Faciliter la création de nouvelles classes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que l'héritage en POO ?"
+      },
+      "options": [
+        {
+          "content": "Un mécanisme permettant à une classe d'hériter des propriétés et méthodes d'une autre classe",
+          "correct": true
+        },
+        {
+          "content": "Une façon de créer des objets"
+        },
+        {
+          "content": "Une technique pour optimiser le code"
+        },
+        {
+          "content": "Un moyen de cacher les détails d'implémentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du polymorphisme en POO ?"
+      },
+      "options": [
+        {
+          "content": "Permettre à des objets de classes différentes d'être traités de manière uniforme",
+          "correct": true
+        },
+        {
+          "content": "Créer des copies d'objets existants"
+        },
+        {
+          "content": "Empêcher la modification des objets après leur création"
+        },
+        {
+          "content": "Limiter le nombre d'instances d'une classe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce qu'une classe abstraite en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une classe qui ne peut pas être instanciée et qui peut contenir des méthodes abstraites",
+          "correct": true
+        },
+        {
+          "content": "Une classe qui ne contient que des méthodes statiques"
+        },
+        {
+          "content": "Une classe qui ne peut pas être héritée"
+        },
+        {
+          "content": "Une classe qui n'a pas d'attributs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre une interface et une classe abstraite ?"
+      },
+      "options": [
+        {
+          "content": "Une interface ne peut contenir que des signatures de méthodes, tandis qu'une classe abstraite peut avoir des implémentations",
+          "correct": true
+        },
+        {
+          "content": "Une interface peut être instanciée, mais pas une classe abstraite"
+        },
+        {
+          "content": "Une classe abstraite permet l'héritage multiple, mais pas une interface"
+        },
+        {
+          "content": "Il n'y a pas de différence significative entre les deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la surcharge de méthodes en POO ?"
+      },
+      "options": [
+        {
+          "content": "Définir plusieurs méthodes avec le même nom mais des paramètres différents",
+          "correct": true
+        },
+        {
+          "content": "Redéfinir une méthode dans une classe enfant"
+        },
+        {
+          "content": "Appeler une méthode avec trop d'arguments"
+        },
+        {
+          "content": "Créer une méthode qui retourne plusieurs valeurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle d'un constructeur dans une classe ?"
+      },
+      "options": [
+        {
+          "content": "Initialiser les attributs de l'objet lors de sa création",
+          "correct": true
+        },
+        {
+          "content": "Détruire l'objet lorsqu'il n'est plus utilisé"
+        },
+        {
+          "content": "Définir les méthodes de la classe"
+        },
+        {
+          "content": "Copier un objet existant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce que le principe de responsabilité unique (SRP) dans SOLID ?"
+      },
+      "options": [
+        {
+          "content": "Une classe ne devrait avoir qu'une seule raison de changer",
+          "correct": true
+        },
+        {
+          "content": "Une classe devrait avoir plusieurs responsabilités"
+        },
+        {
+          "content": "Une classe ne devrait pas être modifiée après sa création"
+        },
+        {
+          "content": "Une classe devrait hériter d'une seule classe parente"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la composition en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une relation 'a-un' entre objets où l'objet composé contrôle le cycle de vie de ses composants",
+          "correct": true
+        },
+        {
+          "content": "Une technique pour créer des objets à partir de classes abstraites"
+        },
+        {
+          "content": "Un moyen de partager des méthodes entre classes non liées"
+        },
+        {
+          "content": "Une façon de définir des constantes globales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Singleton ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès global à cette instance",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui permet de créer des objets sans spécifier leur classe concrète"
+        },
+        {
+          "content": "Un patron qui sépare un algorithme de la structure d'un objet"
+        },
+        {
+          "content": "Un patron qui définit une famille d'algorithmes encapsulés et interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la liaison dynamique (dynamic binding) en POO ?"
+      },
+      "options": [
+        {
+          "content": "La résolution d'un appel de méthode à l'exécution plutôt qu'à la compilation",
+          "correct": true
+        },
+        {
+          "content": "L'association d'un objet à une variable au moment de la compilation"
+        },
+        {
+          "content": "La création d'objets à la volée pendant l'exécution du programme"
+        },
+        {
+          "content": "L'allocation dynamique de mémoire pour les objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de l'abstraction en POO ?"
+      },
+      "options": [
+        {
+          "content": "Masquer les détails d'implémentation et montrer seulement les fonctionnalités essentielles",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances du programme"
+        },
+        {
+          "content": "Faciliter la création de nouvelles instances d'objets"
+        },
+        {
+          "content": "Permettre l'héritage multiple"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de substitution de Liskov dans SOLID ?"
+      },
+      "options": [
+        {
+          "content": "Les objets d'une classe dérivée doivent pouvoir être utilisés comme des objets de la classe de base sans altérer le comportement du programme",
+          "correct": true
+        },
+        {
+          "content": "Chaque classe ne doit avoir qu'une seule responsabilité"
+        },
+        {
+          "content": "Les classes doivent être ouvertes à l'extension mais fermées à la modification"
+        },
+        {
+          "content": "Les interfaces doivent être spécifiques à chaque client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la méthode 'toString()' dans la plupart des langages orientés objet ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode qui retourne une représentation textuelle de l'objet",
+          "correct": true
+        },
+        {
+          "content": "Une méthode qui convertit l'objet en chaîne de caractères"
+        },
+        {
+          "content": "Une méthode qui affiche l'objet à l'écran"
+        },
+        {
+          "content": "Une méthode qui compare deux objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Observer ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui définit une dépendance un-à-plusieurs entre objets, de sorte que lorsqu'un objet change d'état, tous ses dépendants sont notifiés et mis à jour automatiquement",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui encapsule une famille d'algorithmes et les rend interchangeables"
+        },
+        {
+          "content": "Un patron qui sépare la construction d'un objet complexe de sa représentation"
+        },
+        {
+          "content": "Un patron qui fournit une interface unifiée à un ensemble d'interfaces dans un sous-système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la méthode 'super()' dans de nombreux langages orientés objet ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode pour appeler le constructeur de la classe parente",
+          "correct": true
+        },
+        {
+          "content": "Une méthode pour accéder aux membres privés d'une classe"
+        },
+        {
+          "content": "Une méthode pour créer une instance de la classe actuelle"
+        },
+        {
+          "content": "Une méthode pour définir une classe comme abstraite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe d'inversion de dépendance dans SOLID ?"
+      },
+      "options": [
+        {
+          "content": "Les modules de haut niveau ne devraient pas dépendre des modules de bas niveau, les deux devraient dépendre d'abstractions",
+          "correct": true
+        },
+        {
+          "content": "Les classes devraient avoir une seule responsabilité"
+        },
+        {
+          "content": "Les classes doivent être ouvertes à l'extension mais fermées à la modification"
+        },
+        {
+          "content": "Les interfaces doivent être spécifiques à chaque client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la surcharge d'opérateurs en POO ?"
+      },
+      "options": [
+        {
+          "content": "La possibilité de donner une signification spéciale aux opérateurs standard pour des types définis par l'utilisateur",
+          "correct": true
+        },
+        {
+          "content": "L'utilisation excessive d'opérateurs dans une expression"
+        },
+        {
+          "content": "La définition de nouveaux opérateurs pour un langage"
+        },
+        {
+          "content": "La conversion automatique entre différents types de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'une classe imbriquée (nested class) en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une classe définie à l'intérieur d'une autre classe",
+          "correct": true
+        },
+        {
+          "content": "Une classe qui hérite de plusieurs classes parentes"
+        },
+        {
+          "content": "Une classe qui ne peut pas être instanciée"
+        },
+        {
+          "content": "Une classe qui implémente plusieurs interfaces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Factory Method ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui définit une interface pour créer un objet, mais laisse aux sous-classes le soin de décider quelle classe instancier",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
+        },
+        {
+          "content": "Un patron qui définit une dépendance un-à-plusieurs entre objets, de sorte que lorsqu'un objet change d'état, tous ses dépendants sont notifiés et mis à jour automatiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Factory Method ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui définit une interface pour créer un objet, mais laisse aux sous-classes le soin de décider quelle classe instancier",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
+        },
+        {
+          "content": "Un patron qui sépare un algorithme de la structure d'un objet"
+        },
+        {
+          "content": "Un patron qui permet d'ajouter des responsabilités à un objet dynamiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la programmation par contrat en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une approche de conception où les composants logiciels sont conçus pour respecter des préconditions, postconditions et invariants",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de développement basée sur des contrats légaux"
+        },
+        {
+          "content": "Une technique pour écrire des tests unitaires"
+        },
+        {
+          "content": "Un moyen de gérer les licences logicielles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe ouvert/fermé (OCP) dans SOLID ?"
+      },
+      "options": [
+        {
+          "content": "Les entités logicielles doivent être ouvertes à l'extension, mais fermées à la modification",
+          "correct": true
+        },
+        {
+          "content": "Les classes ne doivent avoir qu'une seule raison de changer"
+        },
+        {
+          "content": "Les dépendances doivent être inversées"
+        },
+        {
+          "content": "Les interfaces doivent être spécifiques au client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la méthode 'clone()' dans de nombreux langages orientés objet ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode pour créer une copie d'un objet",
+          "correct": true
+        },
+        {
+          "content": "Une méthode pour comparer deux objets"
+        },
+        {
+          "content": "Une méthode pour fusionner deux objets"
+        },
+        {
+          "content": "Une méthode pour convertir un objet en chaîne de caractères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Adapter ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui permet à des interfaces incompatibles de travailler ensemble",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui définit une dépendance un-à-plusieurs entre objets"
+        },
+        {
+          "content": "Un patron qui encapsule une requête comme un objet"
+        },
+        {
+          "content": "Un patron qui sépare la construction d'un objet complexe de sa représentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la liaison statique (static binding) en POO ?"
+      },
+      "options": [
+        {
+          "content": "La résolution d'un appel de méthode à la compilation plutôt qu'à l'exécution",
+          "correct": true
+        },
+        {
+          "content": "L'association d'un objet à une variable au moment de l'exécution"
+        },
+        {
+          "content": "La création d'objets statiques pendant l'exécution du programme"
+        },
+        {
+          "content": "L'allocation statique de mémoire pour les objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de ségrégation des interfaces (ISP) dans SOLID ?"
+      },
+      "options": [
+        {
+          "content": "Aucun client ne devrait être forcé de dépendre d'interfaces qu'il n'utilise pas",
+          "correct": true
+        },
+        {
+          "content": "Les classes devraient avoir une seule responsabilité"
+        },
+        {
+          "content": "Les classes doivent être ouvertes à l'extension mais fermées à la modification"
+        },
+        {
+          "content": "Les dépendances doivent être inversées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la méthode 'finalize()' dans certains langages orientés objet comme Java ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode appelée par le garbage collector avant de récupérer la mémoire d'un objet",
+          "correct": true
+        },
+        {
+          "content": "Une méthode pour terminer l'exécution d'un programme"
+        },
+        {
+          "content": "Une méthode pour rendre un objet immuable"
+        },
+        {
+          "content": "Une méthode pour finaliser la définition d'une classe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Decorator ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui permet d'ajouter des responsabilités à un objet dynamiquement",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui définit une famille d'algorithmes encapsulés et interchangeables"
+        },
+        {
+          "content": "Un patron qui sépare la construction d'un objet complexe de sa représentation"
+        },
+        {
+          "content": "Un patron qui fournit une interface unifiée à un ensemble d'interfaces dans un sous-système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que l'agrégation en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une relation 'a-un' entre objets où l'objet agrégé peut exister indépendamment de l'objet qui l'agrège",
+          "correct": true
+        },
+        {
+          "content": "Une technique pour créer des objets à partir de classes abstraites"
+        },
+        {
+          "content": "Un moyen de fusionner plusieurs classes en une seule"
+        },
+        {
+          "content": "Une façon de définir des constantes globales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le concept de 'covariance' en POO ?"
+      },
+      "options": [
+        {
+          "content": "La possibilité de remplacer un type de retour par un sous-type dans une méthode redéfinie",
+          "correct": true
+        },
+        {
+          "content": "La capacité d'une classe à hériter de plusieurs classes parentes"
+        },
+        {
+          "content": "La possibilité de surcharger les opérateurs"
+        },
+        {
+          "content": "L'encapsulation des données et des méthodes dans une classe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Strategy ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui définit une famille d'algorithmes, les encapsule et les rend interchangeables",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui sépare la construction d'un objet complexe de sa représentation"
+        },
+        {
+          "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
+        },
+        {
+          "content": "Un patron qui permet à des objets de modifier leur comportement quand leur état interne change"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le concept de 'classe interne' (inner class) en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une classe définie à l'intérieur d'une autre classe et ayant accès à ses membres privés",
+          "correct": true
+        },
+        {
+          "content": "Une classe qui ne peut pas être instanciée"
+        },
+        {
+          "content": "Une classe qui implémente une interface interne"
+        },
+        {
+          "content": "Une classe qui hérite d'une seule classe parente"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le concept de 'méthode par défaut' (default method) dans les interfaces en Java 8+ ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode dans une interface qui a une implémentation par défaut",
+          "correct": true
+        },
+        {
+          "content": "Une méthode qui est automatiquement appelée lors de la création d'un objet"
+        },
+        {
+          "content": "Une méthode qui ne peut pas être redéfinie dans les classes implémentant l'interface"
+        },
+        {
+          "content": "Une méthode qui est toujours abstraite dans une interface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le patron de conception Composite ?"
+      },
+      "options": [
+        {
+          "content": "Un patron qui compose des objets en structures arborescentes pour représenter des hiérarchies partie-tout",
+          "correct": true
+        },
+        {
+          "content": "Un patron qui sépare un algorithme de la structure d'un objet"
+        },
+        {
+          "content": "Un patron qui définit une dépendance un-à-plusieurs entre objets"
+        },
+        {
+          "content": "Un patron qui encapsule une requête comme un objet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le concept de 'classe anonyme' en POO ?"
+      },
+      "options": [
+        {
+          "content": "Une classe locale sans nom, déclarée et instantiée en même temps",
+          "correct": true
+        },
+        {
+          "content": "Une classe qui ne peut pas être instanciée"
+        },
+        {
+          "content": "Une classe dont le nom n'est pas visible en dehors de son package"
+        },
+        {
+          "content": "Une classe qui n'a pas de constructeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le concept de 'garbage collection' en POO ?"
+      },
+      "options": [
+        {
+          "content": "Un processus automatique de libération de la mémoire occupée par des objets qui ne sont plus utilisés",
+          "correct": true
+        },
+        {
+          "content": "Une technique pour optimiser le code source"
+        },
+        {
+          "content": "Un mécanisme pour supprimer les classes inutilisées"
+        },
+        {
+          "content": "Une méthode pour nettoyer les fichiers temporaires"
+        }
+      ]
+    }
+  ]
+}

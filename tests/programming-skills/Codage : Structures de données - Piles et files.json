@@ -1,0 +1,1200 @@
+{
+  "title": "Structures de données - Piles et files",
+  "attributes": {
+    "overview": "Ce test de niveau intermédiaire évalue les connaissances théoriques et pratiques des candidats sur les piles et les files.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de piles et files",
+      "Opérations sur les piles et files",
+      "Applications des piles et files",
+      "Complexité algorithmique",
+      "Résolution de problèmes avec piles et files"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur logiciel, ingénieur en algorithmique, ou tout rôle nécessitant une compréhension approfondie des structures de données fondamentales.",
+    "description": "Le test couvre les concepts théoriques, les opérations, et les applications pratiques des piles et des files à travers une série de questions à choix multiples et à réponses multiples.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale caractéristique d'une pile (stack) ?"
+      },
+      "options": [
+        {
+          "content": "LIFO (Last In First Out)",
+          "correct": true
+        },
+        {
+          "content": "FIFO (First In First Out)"
+        },
+        {
+          "content": "Accès aléatoire"
+        },
+        {
+          "content": "Tri automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale caractéristique d'une file (queue) ?"
+      },
+      "options": [
+        {
+          "content": "FIFO (First In First Out)",
+          "correct": true
+        },
+        {
+          "content": "LIFO (Last In First Out)"
+        },
+        {
+          "content": "Accès indexé"
+        },
+        {
+          "content": "Compression automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles opérations sont généralement disponibles sur une pile ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "push",
+          "correct": true
+        },
+        {
+          "content": "pop",
+          "correct": true
+        },
+        {
+          "content": "peek ou top",
+          "correct": true
+        },
+        {
+          "content": "isEmpty",
+          "correct": true
+        },
+        {
+          "content": "sort"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles opérations sont généralement disponibles sur une file ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "enqueue",
+          "correct": true
+        },
+        {
+          "content": "dequeue",
+          "correct": true
+        },
+        {
+          "content": "front",
+          "correct": true
+        },
+        {
+          "content": "isEmpty",
+          "correct": true
+        },
+        {
+          "content": "reverse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter la fonction 'undo' dans un éditeur de texte ?"
+      },
+      "options": [
+        {
+          "content": "Pile",
+          "correct": true
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "Liste chaînée"
+        },
+        {
+          "content": "Arbre binaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération push sur une pile implémentée avec un tableau dynamique (en moyenne) ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter un algorithme de parcours en largeur (BFS) d'un graphe ?"
+      },
+      "options": [
+        {
+          "content": "File",
+          "correct": true
+        },
+        {
+          "content": "Pile"
+        },
+        {
+          "content": "Arbre binaire de recherche"
+        },
+        {
+          "content": "Tableau trié"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant l'implémentation d'une pile avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Les opérations push et pop se font toujours en tête de liste",
+          "correct": true
+        },
+        {
+          "content": "Les opérations push et pop se font toujours en queue de liste"
+        },
+        {
+          "content": "L'opération push se fait en tête et pop en queue"
+        },
+        {
+          "content": "L'implémentation avec une liste chaînée n'est pas possible"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel problème peut être résolu efficacement en utilisant une pile ?"
+      },
+      "options": [
+        {
+          "content": "Vérifier si une expression contenant des parenthèses est bien équilibrée",
+          "correct": true
+        },
+        {
+          "content": "Trouver le plus court chemin dans un graphe"
+        },
+        {
+          "content": "Implémenter une file de priorité"
+        },
+        {
+          "content": "Trier un tableau d'entiers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les applications courantes des files ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Gestion des tâches dans un système d'exploitation",
+          "correct": true
+        },
+        {
+          "content": "Gestion des requêtes dans un serveur web",
+          "correct": true
+        },
+        {
+          "content": "Implémentation du parcours en largeur dans un graphe",
+          "correct": true
+        },
+        {
+          "content": "Évaluation d'expressions mathématiques en notation postfixe"
+        },
+        {
+          "content": "Mise en mémoire tampon (buffering) dans les flux de données",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération dequeue sur une file implémentée avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une file en utilisant deux piles ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une pile pour l'enqueue et l'autre pour le dequeue, en transférant les éléments si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Alterner l'utilisation des piles pour chaque opération"
+        },
+        {
+          "content": "Utiliser une pile pour les éléments pairs et l'autre pour les impairs"
+        },
+        {
+          "content": "Il est impossible d'implémenter une file avec deux piles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter un algorithme de parcours en profondeur (DFS) d'un graphe ?"
+      },
+      "options": [
+        {
+          "content": "Pile",
+          "correct": true
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "Tableau trié"
+        },
+        {
+          "content": "Liste doublement chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une pile pour évaluer des expressions mathématiques ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Facilite l'évaluation des expressions en notation postfixe",
+          "correct": true
+        },
+        {
+          "content": "Permet de gérer facilement les parenthèses imbriquées",
+          "correct": true
+        },
+        {
+          "content": "Simplifie la conversion entre différentes notations (infixe, postfixe, préfixe)",
+          "correct": true
+        },
+        {
+          "content": "Améliore automatiquement la précision des calculs"
+        },
+        {
+          "content": "Réduit la complexité temporelle de l'évaluation à O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant une file circulaire (circular queue) ?"
+      },
+      "options": [
+        {
+          "content": "Elle permet une meilleure utilisation de l'espace mémoire dans un tableau",
+          "correct": true
+        },
+        {
+          "content": "Elle inverse automatiquement l'ordre des éléments"
+        },
+        {
+          "content": "Elle ne peut pas être implémentée avec un tableau"
+        },
+        {
+          "content": "Elle a une complexité temporelle de O(n) pour toutes les opérations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une file de priorité et une file standard ?"
+      },
+      "options": [
+        {
+          "content": "Les éléments sont déqueués en fonction de leur priorité plutôt que de leur ordre d'arrivée",
+          "correct": true
+        },
+        {
+          "content": "Une file de priorité ne peut contenir que des nombres"
+        },
+        {
+          "content": "Une file de priorité utilise toujours moins de mémoire qu'une file standard"
+        },
+        {
+          "content": "Les opérations sur une file de priorité sont toujours en O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les applications courantes des piles ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Évaluation d'expressions mathématiques",
+          "correct": true
+        },
+        {
+          "content": "Gestion des appels de fonctions dans un programme",
+          "correct": true
+        },
+        {
+          "content": "Implémentation de l'algorithme de backtracking",
+          "correct": true
+        },
+        {
+          "content": "Conversion de nombres entre différentes bases",
+          "correct": true
+        },
+        {
+          "content": "Tri rapide d'un grand ensemble de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité spatiale d'une pile implémentée avec un tableau de taille fixe ?"
+      },
+      "options": [
+        {
+          "content": "O(n), où n est la taille du tableau",
+          "correct": true
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n^2)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans quel cas une file serait-elle préférable à une pile pour résoudre un problème ?"
+      },
+      "options": [
+        {
+          "content": "Pour implémenter un algorithme de niveau par niveau dans un arbre",
+          "correct": true
+        },
+        {
+          "content": "Pour vérifier si une chaîne est un palindrome"
+        },
+        {
+          "content": "Pour inverser l'ordre des éléments dans une séquence"
+        },
+        {
+          "content": "Pour implémenter la fonction 'redo' dans un éditeur de texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant l'implémentation d'une file avec un tableau circulaire ?"
+      },
+      "options": [
+        {
+          "content": "Elle permet d'éviter le décalage des éléments lors du dequeue",
+          "correct": true
+        },
+        {
+          "content": "Elle nécessite plus de mémoire qu'une implémentation avec une liste chaînée"
+        },
+        {
+          "content": "Elle rend impossible l'implémentation de l'opération front"
+        },
+        {
+          "content": "Elle augmente la complexité temporelle de toutes les opérations à O(n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération 'peek' (ou 'top') sur une pile correctement implémentée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une implémentation de pile utilisant un tableau, que se passe-t-il généralement si on essaie de faire un 'push' sur une pile pleine ?"
+      },
+      "options": [
+        {
+          "content": "Le tableau est redimensionné pour accueillir plus d'éléments",
+          "correct": true
+        },
+        {
+          "content": "L'opération échoue et renvoie une erreur"
+        },
+        {
+          "content": "L'élément le plus ancien est supprimé pour faire de la place"
+        },
+        {
+          "content": "L'élément est ajouté à la base de la pile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une file pour la gestion des tâches dans un système d'exploitation ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Garantit un ordre d'exécution équitable (premier arrivé, premier servi)",
+          "correct": true
+        },
+        {
+          "content": "Facilite l'implémentation de l'ordonnancement round-robin",
+          "correct": true
+        },
+        {
+          "content": "Permet une gestion efficace des interruptions",
+          "correct": true
+        },
+        {
+          "content": "Optimise automatiquement l'exécution des tâches les plus courtes"
+        },
+        {
+          "content": "Réduit la consommation de mémoire du système d'exploitation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un historique de navigation web avec fonctionnalités 'précédent' et 'suivant' ?"
+      },
+      "options": [
+        {
+          "content": "Deux piles",
+          "correct": true
+        },
+        {
+          "content": "Une file circulaire"
+        },
+        {
+          "content": "Un arbre binaire de recherche"
+        },
+        {
+          "content": "Un tableau trié"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une file et une file de priorité ?"
+      },
+      "options": [
+        {
+          "content": "Dans une file de priorité, les éléments sont déqueués selon leur priorité plutôt que leur ordre d'arrivée",
+          "correct": true
+        },
+        {
+          "content": "Une file de priorité ne peut contenir que des nombres entiers"
+        },
+        {
+          "content": "Une file standard a une capacité limitée, contrairement à une file de priorité"
+        },
+        {
+          "content": "Les opérations sur une file de priorité sont toujours plus rapides que sur une file standard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une pile pour l'évaluation d'expressions mathématiques ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Facilite la gestion des opérateurs et opérandes",
+          "correct": true
+        },
+        {
+          "content": "Permet de gérer facilement les parenthèses imbriquées",
+          "correct": true
+        },
+        {
+          "content": "Simplifie l'implémentation de la notation polonaise inverse (postfixe)",
+          "correct": true
+        },
+        {
+          "content": "Réduit la complexité temporelle de l'évaluation à O(1)"
+        },
+        {
+          "content": "Élimine le besoin de vérifier la validité de l'expression"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant l'implémentation d'une pile avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Les opérations push et pop sont généralement effectuées à la tête de la liste",
+          "correct": true
+        },
+        {
+          "content": "Une pile implémentée avec une liste chaînée a toujours une meilleure performance qu'avec un tableau"
+        },
+        {
+          "content": "Il est impossible d'implémenter l'opération 'peek' avec une liste chaînée"
+        },
+        {
+          "content": "L'opération pop a une complexité de O(n) dans le pire des cas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans quel scénario une file serait-elle plus appropriée qu'une pile ?"
+      },
+      "options": [
+        {
+          "content": "Implémentation d'un système de gestion des impressions",
+          "correct": true
+        },
+        {
+          "content": "Vérification de palindromes"
+        },
+        {
+          "content": "Implémentation de la fonction 'annuler' (undo) dans un éditeur de texte"
+        },
+        {
+          "content": "Évaluation d'expressions mathématiques en notation postfixe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une file circulaire par rapport à une file standard implémentée avec un tableau ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Meilleure utilisation de l'espace mémoire",
+          "correct": true
+        },
+        {
+          "content": "Évite le décalage des éléments lors du dequeue",
+          "correct": true
+        },
+        {
+          "content": "Permet une implémentation efficace d'une file de taille fixe",
+          "correct": true
+        },
+        {
+          "content": "Réduit automatiquement la complexité temporelle de toutes les opérations à O(1)"
+        },
+        {
+          "content": "Facilite l'implémentation d'opérations de rotation sur la file",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale limitation d'une pile implémentée avec un tableau de taille fixe ?"
+      },
+      "options": [
+        {
+          "content": "La taille maximale de la pile est limitée par la taille du tableau",
+          "correct": true
+        },
+        {
+          "content": "Les opérations push et pop ont une complexité de O(n)"
+        },
+        {
+          "content": "Il est impossible d'implémenter l'opération peek"
+        },
+        {
+          "content": "La pile ne peut contenir que des éléments du même type"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un algorithme de backtracking ?"
+      },
+      "options": [
+        {
+          "content": "Pile",
+          "correct": true
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "File de priorité"
+        },
+        {
+          "content": "Tableau trié"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les applications courantes des files dans les systèmes informatiques ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Gestion des tâches dans un système d'exploitation",
+          "correct": true
+        },
+        {
+          "content": "Mise en mémoire tampon pour les flux de données",
+          "correct": true
+        },
+        {
+          "content": "Gestion des requêtes dans un serveur web",
+          "correct": true
+        },
+        {
+          "content": "Implémentation de l'algorithme de parcours en profondeur"
+        },
+        {
+          "content": "Synchronisation entre producteurs et consommateurs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération 'enqueue' sur une file implémentée avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de file serait le plus approprié pour implémenter un cache avec politique de remplacement LRU (Least Recently Used) ?"
+      },
+      "options": [
+        {
+          "content": "File de priorité",
+          "correct": true
+        },
+        {
+          "content": "File circulaire"
+        },
+        {
+          "content": "File simple"
+        },
+        {
+          "content": "Deque (double-ended queue)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une pile pour l'analyse syntaxique ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Facilite la gestion des structures imbriquées",
+          "correct": true
+        },
+        {
+          "content": "Permet de suivre facilement le contexte actuel de l'analyse",
+          "correct": true
+        },
+        {
+          "content": "Simplifie l'implémentation des analyseurs descendants récursifs",
+          "correct": true
+        },
+        {
+          "content": "Réduit automatiquement la complexité de l'analyse à O(1)"
+        },
+        {
+          "content": "Élimine le besoin de tables d'analyse pour les grammaires LL(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant la comparaison entre une pile et une file ?"
+      },
+      "options": [
+        {
+          "content": "Une pile suit le principe LIFO, tandis qu'une file suit le principe FIFO",
+          "correct": true
+        },
+        {
+          "content": "Une pile est toujours plus efficace en termes d'utilisation de la mémoire qu'une file"
+        },
+        {
+          "content": "Les opérations sur une file sont généralement plus rapides que sur une pile"
+        },
+        {
+          "content": "Une pile peut être implémentée en utilisant un tableau, mais pas une file"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un système de gestion des appels dans un centre d'appels ?"
+      },
+      "options": [
+        {
+          "content": "File de priorité",
+          "correct": true
+        },
+        {
+          "content": "Pile"
+        },
+        {
+          "content": "Tableau trié"
+        },
+        {
+          "content": "Liste doublement chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération 'pop' sur une pile implémentée avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'une file de déque (double-ended queue) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Permet l'insertion et la suppression aux deux extrémités",
+          "correct": true
+        },
+        {
+          "content": "Peut fonctionner comme une pile et une file",
+          "correct": true
+        },
+        {
+          "content": "Offre un accès O(1) aux éléments des deux extrémités",
+          "correct": true
+        },
+        {
+          "content": "Trie automatiquement les éléments insérés"
+        },
+        {
+          "content": "Ne peut contenir qu'un nombre pair d'éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter une fonction 'annuler/rétablir' (undo/redo) dans une application ?"
+      },
+      "options": [
+        {
+          "content": "Deux piles",
+          "correct": true
+        },
+        {
+          "content": "Une file circulaire"
+        },
+        {
+          "content": "Un arbre binaire"
+        },
+        {
+          "content": "Une liste doublement chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une pile et une file de priorité ?"
+      },
+      "options": [
+        {
+          "content": "Une file de priorité ordonne les éléments selon leur priorité, une pile selon leur ordre d'insertion",
+          "correct": true
+        },
+        {
+          "content": "Une pile ne peut contenir que des entiers, une file de priorité peut contenir tout type de données"
+        },
+        {
+          "content": "Une file de priorité a toujours une meilleure performance qu'une pile"
+        },
+        {
+          "content": "Une pile peut être implémentée avec un tableau, une file de priorité ne le peut pas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une pile pour l'évaluation d'expressions en notation polonaise inverse (RPN) ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Simplifie l'évaluation des expressions sans parenthèses",
+          "correct": true
+        },
+        {
+          "content": "Permet une évaluation en un seul passage de l'expression",
+          "correct": true
+        },
+        {
+          "content": "Élimine le besoin de gérer la précédence des opérateurs",
+          "correct": true
+        },
+        {
+          "content": "Réduit la complexité temporelle à O(1) pour toutes les expressions"
+        },
+        {
+          "content": "Facilite la conversion d'expressions infixes en postfixes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un système de gestion de la mémoire (allocation/désallocation) ?"
+      },
+      "options": [
+        {
+          "content": "Pile",
+          "correct": true
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "Arbre binaire de recherche"
+        },
+        {
+          "content": "Liste doublement chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération d'insertion dans une file de priorité implémentée avec un tas binaire ?"
+      },
+      "options": [
+        {
+          "content": "O(log n)",
+          "correct": true
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une file circulaire ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utilisation efficace de l'espace mémoire",
+          "correct": true
+        },
+        {
+          "content": "Implémentation simple des opérations de rotation",
+          "correct": true
+        },
+        {
+          "content": "Évite le décalage des éléments lors des opérations d'enqueue et dequeue",
+          "correct": true
+        },
+        {
+          "content": "Permet un accès en O(1) à n'importe quel élément de la file"
+        },
+        {
+          "content": "Facilite l'implémentation de buffers circulaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un correcteur orthographique basé sur un dictionnaire ?"
+      },
+      "options": [
+        {
+          "content": "Trie (arbre préfixe)",
+          "correct": true
+        },
+        {
+          "content": "Pile"
+        },
+        {
+          "content": "File"
+        },
+        {
+          "content": "Liste chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une pile et une file dans leur implémentation avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "La pile insère et supprime à la même extrémité, la file insère à une extrémité et supprime à l'autre",
+          "correct": true
+        },
+        {
+          "content": "La pile utilise une liste simplement chaînée, la file une liste doublement chaînée"
+        },
+        {
+          "content": "La pile a une taille fixe, la file peut grandir dynamiquement"
+        },
+        {
+          "content": "La pile permet un accès aléatoire, la file ne le permet pas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels problèmes peuvent être résolus efficacement en utilisant une pile ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Vérification de la correspondance des parenthèses dans une expression",
+          "correct": true
+        },
+        {
+          "content": "Conversion d'expressions infixes en postfixes",
+          "correct": true
+        },
+        {
+          "content": "Implémentation de la récursion de manière itérative",
+          "correct": true
+        },
+        {
+          "content": "Tri d'un tableau par ordre croissant"
+        },
+        {
+          "content": "Évaluation d'expressions en notation polonaise inverse",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l'opération 'peek' (ou 'front') sur une file implémentée avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données serait la plus appropriée pour implémenter un système de gestion des processus dans un système d'exploitation ?"
+      },
+      "options": [
+        {
+          "content": "File de priorité",
+          "correct": true
+        },
+        {
+          "content": "Pile"
+        },
+        {
+          "content": "Tableau trié"
+        },
+        {
+          "content": "Liste simplement chaînée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser une file pour l'implémentation d'un buffer circulaire ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Gestion efficace des données en flux continu",
+          "correct": true
+        },
+        {
+          "content": "Utilisation optimale de l'espace mémoire",
+          "correct": true
+        },
+        {
+          "content": "Facilite la synchronisation entre producteurs et consommateurs",
+          "correct": true
+        },
+        {
+          "content": "Permet un accès aléatoire rapide à tous les éléments"
+        },
+        {
+          "content": "Évite les problèmes de fragmentation de la mémoire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation est vraie concernant l'implémentation d'une pile avec un tableau dynamique ?"
+      },
+      "options": [
+        {
+          "content": "Le redimensionnement du tableau peut entraîner occasionnellement une complexité amortie de O(n) pour l'opération push",
+          "correct": true
+        },
+        {
+          "content": "L'opération pop a toujours une complexité de O(n)"
+        },
+        {
+          "content": "Il est impossible d'implémenter l'opération peek"
+        },
+        {
+          "content": "La pile a toujours une capacité fixe qui ne peut pas être modifiée"
+        }
+      ]
+    }
+  ]
+}
