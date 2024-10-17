@@ -1,0 +1,939 @@
+{
+  "title": "Microsoft Excel (avancé)",
+  "attributes": {
+    "overview": "Ce test Excel avancé évalue la maîtrise par les candidats d'un large éventail de fonctions et de formules d'Excel. Ce test vous aidera à identifier les candidats capables d'organiser des données et d'en tirer des conclusions à l'aide de Microsoft Excel.",
+    "level": "advanced",
+    "covered_skills": [
+      "Fonctions avancées",
+      "Formules complexes",
+      "Analyse de données",
+      "Tableaux croisés dynamiques",
+      "Macros VBA",
+      "Power Query",
+      "Power Pivot",
+      "Modélisation de données"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une expertise avancée en Excel, tels que les analystes financiers, les data scientists ou les gestionnaires de projet.",
+    "description": "Le test couvre les aspects avancés de Microsoft Excel, évaluant la capacité du candidat à utiliser des fonctions complexes, à analyser des données et à automatiser des tâches.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction utiliseriez-vous pour extraire un nombre spécifique de caractères du côté gauche d'une chaîne de texte ?"
+      },
+      "options": [
+        {
+          "content": "LEFT()",
+          "correct": true
+        },
+        {
+          "content": "RIGHT()"
+        },
+        {
+          "content": "MID()"
+        },
+        {
+          "content": "EXTRACT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle formule matricielle renvoie la somme des 5 plus grandes valeurs dans la plage A1:A100 ?"
+      },
+      "options": [
+        {
+          "content": "=SUM(LARGE(A1:A100,{1,2,3,4,5}))",
+          "correct": true
+        },
+        {
+          "content": "=SUMIF(A1:A100,\">=\"&LARGE(A1:A100,5))"
+        },
+        {
+          "content": "=SUM(TOP(A1:A100,5))"
+        },
+        {
+          "content": "=SUMPRODUCT(LARGE(A1:A100,ROW(INDIRECT(\"1:5\"))))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles fonctions peuvent être utilisées pour concatener des chaînes de texte en Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "CONCAT()",
+          "correct": true
+        },
+        {
+          "content": "TEXTJOIN()",
+          "correct": true
+        },
+        {
+          "content": "&",
+          "correct": true
+        },
+        {
+          "content": "CONCATENATE()",
+          "correct": true
+        },
+        {
+          "content": "JOIN()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction permet de rechercher une valeur dans la première colonne d'un tableau et renvoie la valeur de la même ligne dans une colonne spécifiée ?"
+      },
+      "options": [
+        {
+          "content": "VLOOKUP()",
+          "correct": true
+        },
+        {
+          "content": "HLOOKUP()"
+        },
+        {
+          "content": "INDEX()"
+        },
+        {
+          "content": "MATCH()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle formule permet de compter le nombre de cellules non vides dans une plage, en excluant les cellules contenant une formule qui renvoie une chaîne vide ?"
+      },
+      "options": [
+        {
+          "content": "=COUNTA(A1:A100)",
+          "correct": true
+        },
+        {
+          "content": "=COUNT(A1:A100)"
+        },
+        {
+          "content": "=COUNTIF(A1:A100,\"<>\")"
+        },
+        {
+          "content": "=SUM(IF(LEN(A1:A100)>0,1,0))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer la valeur absolue d'un nombre ?"
+      },
+      "options": [
+        {
+          "content": "ABS()",
+          "correct": true
+        },
+        {
+          "content": "ABSOLUTE()"
+        },
+        {
+          "content": "POSITIVE()"
+        },
+        {
+          "content": "INT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes pour créer un tableau croisé dynamique ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Sélectionner les données source",
+          "correct": true
+        },
+        {
+          "content": "Aller dans l'onglet 'Insertion' et cliquer sur 'Tableau croisé dynamique'",
+          "correct": true
+        },
+        {
+          "content": "Choisir l'emplacement du tableau croisé dynamique",
+          "correct": true
+        },
+        {
+          "content": "Faire glisser les champs dans les zones appropriées",
+          "correct": true
+        },
+        {
+          "content": "Exécuter une macro VBA"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer le rang d'un nombre dans une liste de nombres ?"
+      },
+      "options": [
+        {
+          "content": "RANK()",
+          "correct": true
+        },
+        {
+          "content": "ORDER()"
+        },
+        {
+          "content": "POSITION()"
+        },
+        {
+          "content": "INDEX()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction permet de calculer le taux de rentabilité interne pour une série de flux de trésorerie ?"
+      },
+      "options": [
+        {
+          "content": "IRR()",
+          "correct": true
+        },
+        {
+          "content": "NPV()"
+        },
+        {
+          "content": "ROI()"
+        },
+        {
+          "content": "RATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer le plus petit nombre pair supérieur ou égal à un nombre donné ?"
+      },
+      "options": [
+        {
+          "content": "CEILING.EVEN()",
+          "correct": true
+        },
+        {
+          "content": "ROUNDUP()"
+        },
+        {
+          "content": "EVEN()"
+        },
+        {
+          "content": "MROUND()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Power Query dans Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Automatisation du nettoyage et de la transformation des données",
+          "correct": true
+        },
+        {
+          "content": "Fusion et ajout de requêtes",
+          "correct": true
+        },
+        {
+          "content": "Actualisation facile des données",
+          "correct": true
+        },
+        {
+          "content": "Création de visualisations de données complexes"
+        },
+        {
+          "content": "Remplacement complet des formules Excel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer le coefficient de corrélation entre deux ensembles de données ?"
+      },
+      "options": [
+        {
+          "content": "CORREL()",
+          "correct": true
+        },
+        {
+          "content": "COVARIANCE.P()"
+        },
+        {
+          "content": "PEARSON()"
+        },
+        {
+          "content": "RSQ()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de renvoyer la valeur correspondant à une probabilité donnée dans une distribution normale ?"
+      },
+      "options": [
+        {
+          "content": "NORM.INV()",
+          "correct": true
+        },
+        {
+          "content": "NORMDIST()"
+        },
+        {
+          "content": "NORMSDIST()"
+        },
+        {
+          "content": "NORMINV()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes pour créer un modèle de données dans Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Importer les données dans Power Query",
+          "correct": true
+        },
+        {
+          "content": "Définir les relations entre les tables",
+          "correct": true
+        },
+        {
+          "content": "Créer des mesures DAX",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Power Pivot pour analyser les données",
+          "correct": true
+        },
+        {
+          "content": "Exécuter des macros VBA"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour extraire le nom de fichier d'un chemin complet ?"
+      },
+      "options": [
+        {
+          "content": "=TRIM(RIGHT(SUBSTITUTE(A1,\"\\\",REPT(\" \",LEN(A1))),LEN(A1)))",
+          "correct": true
+        },
+        {
+          "content": "=MID(A1,FIND(\"*\",SUBSTITUTE(A1,\"\\\",\"*\",LEN(A1)-LEN(SUBSTITUTE(A1,\"\\\",\"\"))))+1,LEN(A1))"
+        },
+        {
+          "content": "=RIGHT(A1,LEN(A1)-FIND(\"@\",SUBSTITUTE(A1,\"\\\",\"@\",LEN(A1)-LEN(SUBSTITUTE(A1,\"\\\",\"\")))))"
+        },
+        {
+          "content": "=FILENAME(A1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX utiliseriez-vous pour calculer une somme cumulative ?"
+      },
+      "options": [
+        {
+          "content": "CALCULATE(SUM(Table[Column]), FILTER(ALL(Table), Table[Date] <= MAX(Table[Date])))",
+          "correct": true
+        },
+        {
+          "content": "SUMX(Table, Table[Column])"
+        },
+        {
+          "content": "TOTALYTD(SUM(Table[Column]), Table[Date])"
+        },
+        {
+          "content": "CUMULATIVESUM(Table[Column])"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Power Pivot dans Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Traitement de grands volumes de données",
+          "correct": true
+        },
+        {
+          "content": "Création de relations entre tables",
+          "correct": true
+        },
+        {
+          "content": "Utilisation de formules DAX avancées",
+          "correct": true
+        },
+        {
+          "content": "Création de visualisations de données interactives"
+        },
+        {
+          "content": "Remplacement complet des tableaux croisés dynamiques standard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer le kème plus grand élément d'un ensemble de données ?"
+      },
+      "options": [
+        {
+          "content": "LARGE()",
+          "correct": true
+        },
+        {
+          "content": "MAX()"
+        },
+        {
+          "content": "TOPK()"
+        },
+        {
+          "content": "RANK()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le nombre de jours ouvrés entre deux dates ?"
+      },
+      "options": [
+        {
+          "content": "NETWORKDAYS()",
+          "correct": true
+        },
+        {
+          "content": "WORKDAY()"
+        },
+        {
+          "content": "DATEDIF()"
+        },
+        {
+          "content": "BUSINESSDAYS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes pour créer une macro VBA dans Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Ouvrir l'éditeur Visual Basic",
+          "correct": true
+        },
+        {
+          "content": "Insérer un nouveau module",
+          "correct": true
+        },
+        {
+          "content": "Écrire le code VBA",
+          "correct": true
+        },
+        {
+          "content": "Assigner la macro à un bouton ou un raccourci clavier",
+          "correct": true
+        },
+        {
+          "content": "Compiler le code en un fichier exécutable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour extraire le nom de domaine d'une adresse e-mail ?"
+      },
+      "options": [
+        {
+          "content": "=MID(A1,FIND(\"@\",A1)+1,LEN(A1))",
+          "correct": true
+        },
+        {
+          "content": "=RIGHT(A1,LEN(A1)-FIND(\"@\",A1))"
+        },
+        {
+          "content": "=DOMAIN(A1)"
+        },
+        {
+          "content": "=EXTRACTDOMAIN(A1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX utiliseriez-vous pour calculer une moyenne mobile sur les 3 derniers mois ?"
+      },
+      "options": [
+        {
+          "content": "CALCULATE(AVERAGE(Sales[Amount]), DATESINPERIOD(Calendar[Date], MAX(Calendar[Date]), -3, MONTH))",
+          "correct": true
+        },
+        {
+          "content": "AVERAGEX(LASTMONTHS(3, Calendar[Date]), Sales[Amount])"
+        },
+        {
+          "content": "MOVINGAVERAGE(Sales[Amount], 3, MONTH)"
+        },
+        {
+          "content": "AVERAGE(FILTER(Sales, DATEDIFF(Sales[Date], MAX(Sales[Date]), MONTH) <= 3))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour protéger une feuille Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Protéger la feuille avec un mot de passe",
+          "correct": true
+        },
+        {
+          "content": "Masquer les formules",
+          "correct": true
+        },
+        {
+          "content": "Verrouiller les cellules",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction PROTECT()"
+        },
+        {
+          "content": "Crypter le fichier Excel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour convertir du texte en nombres ?"
+      },
+      "options": [
+        {
+          "content": "VALUE()",
+          "correct": true
+        },
+        {
+          "content": "CONVERT()"
+        },
+        {
+          "content": "TEXT2NUM()"
+        },
+        {
+          "content": "TONUMBER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de calculer le taux d'intérêt périodique pour un prêt ?"
+      },
+      "options": [
+        {
+          "content": "RATE()",
+          "correct": true
+        },
+        {
+          "content": "INTEREST()"
+        },
+        {
+          "content": "PMT()"
+        },
+        {
+          "content": "INTRATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des tableaux Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Formules de tableau automatiquement mises à jour",
+          "correct": true
+        },
+        {
+          "content": "Noms de colonnes faciles à utiliser dans les formules",
+          "correct": true
+        },
+        {
+          "content": "Filtrage et tri intégrés",
+          "correct": true
+        },
+        {
+          "content": "Création automatique de graphiques"
+        },
+        {
+          "content": "Insertion automatique de lignes de total",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour générer un nombre aléatoire entre 1 et 100 ?"
+      },
+      "options": [
+        {
+          "content": "=RANDBETWEEN(1,100)",
+          "correct": true
+        },
+        {
+          "content": "=RAND()*100"
+        },
+        {
+          "content": "=RANDOM(1,100)"
+        },
+        {
+          "content": "=INT(RAND()*100)+1"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de rechercher une valeur dans un tableau à deux dimensions et de renvoyer une valeur de la même ligne dans une colonne spécifiée ?"
+      },
+      "options": [
+        {
+          "content": "INDEX(MATCH())",
+          "correct": true
+        },
+        {
+          "content": "VLOOKUP()"
+        },
+        {
+          "content": "HLOOKUP()"
+        },
+        {
+          "content": "LOOKUP()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des noms définis dans Excel ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Rendre les formules plus lisibles",
+          "correct": true
+        },
+        {
+          "content": "Faciliter la mise à jour des plages de cellules",
+          "correct": true
+        },
+        {
+          "content": "Permettre l'utilisation de noms descriptifs dans les fonctions",
+          "correct": true
+        },
+        {
+          "content": "Augmenter automatiquement la précision des calculs"
+        },
+        {
+          "content": "Faciliter la navigation dans le classeur",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX utiliseriez-vous pour calculer le rang d'une valeur dans un ensemble de données ?"
+      },
+      "options": [
+        {
+          "content": "RANKX()",
+          "correct": true
+        },
+        {
+          "content": "RANK()"
+        },
+        {
+          "content": "ORDERBY()"
+        },
+        {
+          "content": "SORT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour combiner plusieurs plages ou chaînes de texte ?"
+      },
+      "options": [
+        {
+          "content": "TEXTJOIN()",
+          "correct": true
+        },
+        {
+          "content": "CONCATENATE()"
+        },
+        {
+          "content": "CONCAT()"
+        },
+        {
+          "content": "JOIN()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes pour créer une table de données à deux variables ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Créer une formule de résultat",
+          "correct": true
+        },
+        {
+          "content": "Définir les plages d'entrée pour les deux variables",
+          "correct": true
+        },
+        {
+          "content": "Sélectionner la plage de la table",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'outil Table de données dans l'onglet Données",
+          "correct": true
+        },
+        {
+          "content": "Exécuter une macro VBA"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le nombre de jours entre deux dates, en excluant les week-ends et les jours fériés spécifiés ?"
+      },
+      "options": [
+        {
+          "content": "NETWORKDAYS.INTL()",
+          "correct": true
+        },
+        {
+          "content": "WORKDAY()"
+        },
+        {
+          "content": "DATEDIF()"
+        },
+        {
+          "content": "DAYS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de calculer la valeur future d'un investissement avec des paiements périodiques constants ?"
+      },
+      "options": [
+        {
+          "content": "FV()",
+          "correct": true
+        },
+        {
+          "content": "PV()"
+        },
+        {
+          "content": "NPV()"
+        },
+        {
+          "content": "FVSCHEDULE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour optimiser les performances d'un classeur Excel volumineux ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Utiliser des formules matricielles",
+          "correct": true
+        },
+        {
+          "content": "Éviter les références circulaires",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des tableaux plutôt que des plages nommées",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le calcul automatique",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le nombre de feuilles de calcul"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer la somme des produits de plages correspondantes ?"
+      },
+      "options": [
+        {
+          "content": "SUMPRODUCT()",
+          "correct": true
+        },
+        {
+          "content": "SUMIF()"
+        },
+        {
+          "content": "PRODUCT()"
+        },
+        {
+          "content": "SUMX()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX utiliseriez-vous pour calculer une somme cumulée basée sur un ordre spécifié ?"
+      },
+      "options": [
+        {
+          "content": "CALCULATE(SUM(Table[Amount]), FILTER(ALL(Table), Table[Date] <= EARLIER(Table[Date])))",
+          "correct": true
+        },
+        {
+          "content": "SUMX(Table, Table[Amount])"
+        },
+        {
+          "content": "CUMULATIVESUM(Table[Amount], Table[Date])"
+        },
+        {
+          "content": "RUNNINGSUM(Table[Amount])"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des requêtes Power Query ? (Sélectionnez toutes les réponses applicables)"
+      },
+      "options": [
+        {
+          "content": "Nettoyage et transformation automatisés des données",
+          "correct": true
+        },
+        {
+          "content": "Combinaison de données provenant de sources multiples",
+          "correct": true
+        },
+        {
+          "content": "Actualisation facile des données",
+          "correct": true
+        },
+        {
+          "content": "Création de visualisations de données complexes"
+        },
+        {
+          "content": "Réduction de la taille du fichier Excel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le taux de rendement interne modifié (TRIM) d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "MIRR()",
+          "correct": true
+        },
+        {
+          "content": "IRR()"
+        },
+        {
+          "content": "XIRR()"
+        },
+        {
+          "content": "NPV()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour renvoyer la position relative d'un élément dans un tableau ?"
+      },
+      "options": [
+        {
+          "content": "MATCH()",
+          "correct": true
+        },
+        {
+          "content": "FIND()"
+        },
+        {
+          "content": "INDEX()"
+        },
+        {
+          "content": "SEARCH()"
+        }
+      ]
+    }
+  ]
+}

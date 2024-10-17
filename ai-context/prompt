@@ -8,3 +8,5 @@ and mark 3 to 4 question as preview.
 also the type of question can be either multiple-choice (select one) or multiple_response (select multiple)
 
 for the Count of options as test gorilla said in its doc: (For each question, you can provide between two and ten options, but 4 is the most often)
+
+also for the test category it can be  one of these (Cognitive ability | Language | Personality & culture | Programming skills | Role-specific skills | Situational judgment | Software skills | Typing speed)

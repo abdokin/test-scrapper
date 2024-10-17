@@ -1,0 +1,899 @@
+{
+  "title": "MariaDB (dév.)",
+  "attributes": {
+    "overview": "Ce test MariaDB (développement) évalue la capacité des candidats à développer dans MariaDB. Ce test de sélection vous aidera à recruter des experts en MariaDB capables de faire fonctionner efficacement votre base de données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "SQL de base",
+      "Gestion des tables",
+      "Requêtes avancées",
+      "Indexation",
+      "Transactions",
+      "Procédures stockées",
+      "Triggers",
+      "Optimisation des performances",
+      "Administration de base de données",
+      "Sécurité"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur de bases de données, d'administrateur de bases de données, ou tout rôle nécessitant une expertise en MariaDB.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du développement avec MariaDB, évaluant la capacité du candidat à concevoir, interroger, optimiser et administrer des bases de données MariaDB.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande SQL est utilisée pour créer une nouvelle table dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "CREATE TABLE",
+          "correct": true
+        },
+        {
+          "content": "NEW TABLE"
+        },
+        {
+          "content": "GENERATE TABLE"
+        },
+        {
+          "content": "BUILD TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour filtrer les résultats d'une requête SQL ?"
+      },
+      "options": [
+        {
+          "content": "WHERE",
+          "correct": true
+        },
+        {
+          "content": "FILTER"
+        },
+        {
+          "content": "HAVING"
+        },
+        {
+          "content": "CONDITION"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de jointures sont disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "INNER JOIN",
+          "correct": true
+        },
+        {
+          "content": "LEFT JOIN",
+          "correct": true
+        },
+        {
+          "content": "RIGHT JOIN",
+          "correct": true
+        },
+        {
+          "content": "FULL OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "CIRCULAR JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour ajouter une nouvelle colonne à une table existante ?"
+      },
+      "options": [
+        {
+          "content": "ALTER TABLE",
+          "correct": true
+        },
+        {
+          "content": "MODIFY TABLE"
+        },
+        {
+          "content": "UPDATE TABLE"
+        },
+        {
+          "content": "ADD COLUMN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'index est le plus couramment utilisé dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "B-tree",
+          "correct": true
+        },
+        {
+          "content": "Hash"
+        },
+        {
+          "content": "R-tree"
+        },
+        {
+          "content": "Full-text"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour commencer une transaction dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "START TRANSACTION",
+          "correct": true
+        },
+        {
+          "content": "BEGIN TRANSACTION"
+        },
+        {
+          "content": "INIT TRANSACTION"
+        },
+        {
+          "content": "OPEN TRANSACTION"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour grouper les résultats d'une requête SQL ?"
+      },
+      "options": [
+        {
+          "content": "GROUP BY",
+          "correct": true
+        },
+        {
+          "content": "CLUSTER BY"
+        },
+        {
+          "content": "SORT BY"
+        },
+        {
+          "content": "ORGANIZE BY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des procédures stockées ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Amélioration des performances",
+          "correct": true
+        },
+        {
+          "content": "Réutilisation du code",
+          "correct": true
+        },
+        {
+          "content": "Sécurité accrue",
+          "correct": true
+        },
+        {
+          "content": "Réduction du trafic réseau",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de la taille de la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un trigger dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "CREATE TRIGGER",
+          "correct": true
+        },
+        {
+          "content": "NEW TRIGGER"
+        },
+        {
+          "content": "ADD TRIGGER"
+        },
+        {
+          "content": "GENERATE TRIGGER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction est utilisée pour obtenir le nombre total de lignes dans un résultat de requête ?"
+      },
+      "options": [
+        {
+          "content": "COUNT()",
+          "correct": true
+        },
+        {
+          "content": "SUM()"
+        },
+        {
+          "content": "TOTAL()"
+        },
+        {
+          "content": "ROWS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de contrainte est utilisé pour s'assurer qu'une colonne ne contient pas de valeurs nulles ?"
+      },
+      "options": [
+        {
+          "content": "NOT NULL",
+          "correct": true
+        },
+        {
+          "content": "NO EMPTY"
+        },
+        {
+          "content": "REQUIRED"
+        },
+        {
+          "content": "MANDATORY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher la structure d'une table dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "DESCRIBE",
+          "correct": true
+        },
+        {
+          "content": "SHOW STRUCTURE"
+        },
+        {
+          "content": "TABLE INFO"
+        },
+        {
+          "content": "DISPLAY COLUMNS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de données numériques disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "INT",
+          "correct": true
+        },
+        {
+          "content": "DECIMAL",
+          "correct": true
+        },
+        {
+          "content": "FLOAT",
+          "correct": true
+        },
+        {
+          "content": "DOUBLE",
+          "correct": true
+        },
+        {
+          "content": "NUMBER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle clause est utilisée pour trier les résultats d'une requête SQL ?"
+      },
+      "options": [
+        {
+          "content": "ORDER BY",
+          "correct": true
+        },
+        {
+          "content": "SORT BY"
+        },
+        {
+          "content": "ARRANGE BY"
+        },
+        {
+          "content": "SEQUENCE BY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d'un index dans une base de données MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "Accélérer les requêtes",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la capacité de stockage"
+        },
+        {
+          "content": "Améliorer la sécurité des données"
+        },
+        {
+          "content": "Faciliter la sauvegarde des données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour supprimer une table dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "DROP TABLE",
+          "correct": true
+        },
+        {
+          "content": "DELETE TABLE"
+        },
+        {
+          "content": "REMOVE TABLE"
+        },
+        {
+          "content": "ERASE TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des vues dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Simplification des requêtes complexes",
+          "correct": true
+        },
+        {
+          "content": "Contrôle d'accès aux données",
+          "correct": true
+        },
+        {
+          "content": "Abstraction des données",
+          "correct": true
+        },
+        {
+          "content": "Amélioration des performances de la base de données",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de l'espace de stockage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour concaténer des chaînes de caractères dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "CONCAT()",
+          "correct": true
+        },
+        {
+          "content": "JOIN()"
+        },
+        {
+          "content": "MERGE()"
+        },
+        {
+          "content": "COMBINE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour limiter le nombre de résultats retournés par une requête ?"
+      },
+      "options": [
+        {
+          "content": "LIMIT",
+          "correct": true
+        },
+        {
+          "content": "RESTRICT"
+        },
+        {
+          "content": "CONSTRAINT"
+        },
+        {
+          "content": "MAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour afficher les bases de données existantes dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "SHOW DATABASES",
+          "correct": true
+        },
+        {
+          "content": "LIST DATABASES"
+        },
+        {
+          "content": "DISPLAY DATABASES"
+        },
+        {
+          "content": "VIEW DATABASES"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour obtenir la date et l'heure actuelles dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "NOW()",
+          "correct": true
+        },
+        {
+          "content": "CURRENT_TIMESTAMP()"
+        },
+        {
+          "content": "GETDATE()"
+        },
+        {
+          "content": "SYSDATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de clé est utilisé pour identifier de manière unique chaque enregistrement dans une table ?"
+      },
+      "options": [
+        {
+          "content": "Clé primaire",
+          "correct": true
+        },
+        {
+          "content": "Clé étrangère"
+        },
+        {
+          "content": "Clé unique"
+        },
+        {
+          "content": "Clé composite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de données de chaîne de caractères disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "CHAR",
+          "correct": true
+        },
+        {
+          "content": "VARCHAR",
+          "correct": true
+        },
+        {
+          "content": "TEXT",
+          "correct": true
+        },
+        {
+          "content": "BLOB",
+          "correct": true
+        },
+        {
+          "content": "STRING"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour modifier les privilèges d'un utilisateur dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "GRANT",
+          "correct": true
+        },
+        {
+          "content": "MODIFY PRIVILEGES"
+        },
+        {
+          "content": "SET PERMISSIONS"
+        },
+        {
+          "content": "CHANGE ACCESS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour arrondir un nombre à l'entier le plus proche dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "ROUND()",
+          "correct": true
+        },
+        {
+          "content": "CEIL()"
+        },
+        {
+          "content": "FLOOR()"
+        },
+        {
+          "content": "TRUNCATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour sauvegarder une base de données MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "mysqldump",
+          "correct": true
+        },
+        {
+          "content": "BACKUP DATABASE"
+        },
+        {
+          "content": "SAVE DATABASE"
+        },
+        {
+          "content": "EXPORT DATABASE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour spécifier une valeur par défaut pour une colonne lors de la création d'une table ?"
+      },
+      "options": [
+        {
+          "content": "DEFAULT",
+          "correct": true
+        },
+        {
+          "content": "INITIAL"
+        },
+        {
+          "content": "START"
+        },
+        {
+          "content": "VALUE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de variables disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Variables utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Variables système",
+          "correct": true
+        },
+        {
+          "content": "Variables locales",
+          "correct": true
+        },
+        {
+          "content": "Variables globales",
+          "correct": true
+        },
+        {
+          "content": "Variables temporaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un nouvel utilisateur dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "CREATE USER",
+          "correct": true
+        },
+        {
+          "content": "NEW USER"
+        },
+        {
+          "content": "ADD USER"
+        },
+        {
+          "content": "INSERT USER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de requête est utilisé pour combiner les résultats de deux ou plusieurs requêtes SELECT ?"
+      },
+      "options": [
+        {
+          "content": "UNION",
+          "correct": true
+        },
+        {
+          "content": "JOIN"
+        },
+        {
+          "content": "MERGE"
+        },
+        {
+          "content": "COMBINE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour extraire une sous-chaîne d'une chaîne de caractères dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "SUBSTRING()",
+          "correct": true
+        },
+        {
+          "content": "EXTRACT()"
+        },
+        {
+          "content": "SUBSTR()"
+        },
+        {
+          "content": "MID()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour supprimer des lignes d'une table dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "DELETE",
+          "correct": true
+        },
+        {
+          "content": "REMOVE"
+        },
+        {
+          "content": "ERASE"
+        },
+        {
+          "content": "CLEAR"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de contraintes disponibles dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "PRIMARY KEY",
+          "correct": true
+        },
+        {
+          "content": "FOREIGN KEY",
+          "correct": true
+        },
+        {
+          "content": "UNIQUE",
+          "correct": true
+        },
+        {
+          "content": "CHECK",
+          "correct": true
+        },
+        {
+          "content": "DEFAULT",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour renommer une table dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "RENAME TABLE",
+          "correct": true
+        },
+        {
+          "content": "ALTER TABLE"
+        },
+        {
+          "content": "MODIFY TABLE"
+        },
+        {
+          "content": "CHANGE TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour obtenir la longueur d'une chaîne de caractères dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "LENGTH()",
+          "correct": true
+        },
+        {
+          "content": "SIZE()"
+        },
+        {
+          "content": "STRLEN()"
+        },
+        {
+          "content": "CHARCOUNT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mot-clé est utilisé pour mettre à jour des données existantes dans une table ?"
+      },
+      "options": [
+        {
+          "content": "UPDATE",
+          "correct": true
+        },
+        {
+          "content": "MODIFY"
+        },
+        {
+          "content": "CHANGE"
+        },
+        {
+          "content": "ALTER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des transactions dans MariaDB ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Atomicité",
+          "correct": true
+        },
+        {
+          "content": "Cohérence",
+          "correct": true
+        },
+        {
+          "content": "Isolation",
+          "correct": true
+        },
+        {
+          "content": "Durabilité",
+          "correct": true
+        },
+        {
+          "content": "Rapidité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un index sur une colonne d'une table ?"
+      },
+      "options": [
+        {
+          "content": "CREATE INDEX",
+          "correct": true
+        },
+        {
+          "content": "ADD INDEX"
+        },
+        {
+          "content": "MAKE INDEX"
+        },
+        {
+          "content": "GENERATE INDEX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction est utilisée pour convertir une chaîne de caractères en majuscules dans MariaDB ?"
+      },
+      "options": [
+        {
+          "content": "UPPER()",
+          "correct": true
+        },
+        {
+          "content": "UPPERCASE()"
+        },
+        {
+          "content": "TOUPPER()"
+        },
+        {
+          "content": "CAPS()"
+        }
+      ]
+    }
+  ]
+}
