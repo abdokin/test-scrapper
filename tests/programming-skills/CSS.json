@@ -1,0 +1,980 @@
+{
+  "title": "CSS",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les connaissances et les compétences des candidats en matière de concepts et de techniques CSS pour la création de sites et d'applications Web modernes.",
+    "level": "intermediate to advanced",
+    "covered_skills": [
+      "Sélecteurs CSS avancés",
+      "Mise en page et positionnement complexe",
+      "Responsive design et media queries",
+      "Flexbox et Grid avancés",
+      "Animations et transitions complexes",
+      "Pseudo-classes et pseudo-éléments",
+      "Spécificité et cascade",
+      "Préprocesseurs CSS",
+      "CSS Variables",
+      "Optimisation des performances CSS",
+      "Compatibilité entre navigateurs",
+      "Techniques CSS modernes"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end senior, expert en UI/UX, ou tout poste nécessitant des compétences avancées en CSS.",
+    "description": "Le test couvre un large éventail de sujets CSS, des fondamentaux aux techniques les plus avancées, évaluant la capacité du candidat à créer des mises en page complexes, à optimiser les performances et à utiliser les fonctionnalités modernes de CSS.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 1200,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel sélecteur CSS cible tous les éléments &lt;p&gt; qui sont des enfants directs d'un élément avec la classe 'container' ?"
+      },
+      "options": [
+        {
+          "content": ".container &gt; p",
+          "correct": true
+        },
+        {
+          "content": ".container p"
+        },
+        {
+          "content": ".container + p"
+        },
+        {
+          "content": ".container ~ p"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle propriété CSS est utilisée pour créer un conteneur flex ?"
+      },
+      "options": [
+        {
+          "content": "display: flex;",
+          "correct": true
+        },
+        {
+          "content": "position: flex;"
+        },
+        {
+          "content": "flex: 1;"
+        },
+        {
+          "content": "flex-container: true;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle unité CSS est relative à la taille de la police de l'élément parent ?"
+      },
+      "options": [
+        {
+          "content": "em",
+          "correct": true
+        },
+        {
+          "content": "px"
+        },
+        {
+          "content": "vh"
+        },
+        {
+          "content": "rem"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir l'espacement entre les lignes de texte ?"
+      },
+      "options": [
+        {
+          "content": "line-height",
+          "correct": true
+        },
+        {
+          "content": "text-spacing"
+        },
+        {
+          "content": "letter-spacing"
+        },
+        {
+          "content": "word-spacing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle valeur de 'position' permet de positionner un élément par rapport à son conteneur le plus proche qui a une position autre que 'static' ?"
+      },
+      "options": [
+        {
+          "content": "absolute",
+          "correct": true
+        },
+        {
+          "content": "relative"
+        },
+        {
+          "content": "fixed"
+        },
+        {
+          "content": "sticky"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles propriétés font partie du modèle de boîte CSS ?"
+      },
+      "options": [
+        {
+          "content": "margin",
+          "correct": true
+        },
+        {
+          "content": "padding",
+          "correct": true
+        },
+        {
+          "content": "border",
+          "correct": true
+        },
+        {
+          "content": "content",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour créer des colonnes dans un layout ?"
+      },
+      "options": [
+        {
+          "content": "column-count",
+          "correct": true
+        },
+        {
+          "content": "grid-column"
+        },
+        {
+          "content": "flex-column"
+        },
+        {
+          "content": "divide-column"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle pseudo-classe CSS est utilisée pour cibler un élément lorsqu'il reçoit le focus ?"
+      },
+      "options": [
+        {
+          "content": ":focus",
+          "correct": true
+        },
+        {
+          "content": ":active"
+        },
+        {
+          "content": ":hover"
+        },
+        {
+          "content": ":target"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les valeurs valides pour la propriété 'display' ?"
+      },
+      "options": [
+        {
+          "content": "block",
+          "correct": true
+        },
+        {
+          "content": "inline",
+          "correct": true
+        },
+        {
+          "content": "flex",
+          "correct": true
+        },
+        {
+          "content": "visible"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la taille d'une police ?"
+      },
+      "options": [
+        {
+          "content": "font-size",
+          "correct": true
+        },
+        {
+          "content": "text-size"
+        },
+        {
+          "content": "font-height"
+        },
+        {
+          "content": "text-scale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle unité CSS représente 1% de la largeur du viewport ?"
+      },
+      "options": [
+        {
+          "content": "vw",
+          "correct": true
+        },
+        {
+          "content": "vh"
+        },
+        {
+          "content": "%"
+        },
+        {
+          "content": "em"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles propriétés font partie du module CSS Flexbox ?"
+      },
+      "options": [
+        {
+          "content": "flex-direction",
+          "correct": true
+        },
+        {
+          "content": "justify-content",
+          "correct": true
+        },
+        {
+          "content": "align-items",
+          "correct": true
+        },
+        {
+          "content": "grid-template-columns"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour ajouter une ombre à un élément ?"
+      },
+      "options": [
+        {
+          "content": "box-shadow",
+          "correct": true
+        },
+        {
+          "content": "text-shadow"
+        },
+        {
+          "content": "element-shadow"
+        },
+        {
+          "content": "shadow-effect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir l'opacité d'un élément ?"
+      },
+      "options": [
+        {
+          "content": "opacity",
+          "correct": true
+        },
+        {
+          "content": "transparency"
+        },
+        {
+          "content": "alpha"
+        },
+        {
+          "content": "visibility"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont des préprocesseurs CSS couramment utilisés ?"
+      },
+      "options": [
+        {
+          "content": "Sass",
+          "correct": true
+        },
+        {
+          "content": "Less",
+          "correct": true
+        },
+        {
+          "content": "Stylus",
+          "correct": true
+        },
+        {
+          "content": "CSS-Plus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour créer des animations ?"
+      },
+      "options": [
+        {
+          "content": "animation",
+          "correct": true
+        },
+        {
+          "content": "transition"
+        },
+        {
+          "content": "transform"
+        },
+        {
+          "content": "keyframe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour contrôler la disposition des éléments enfants dans un conteneur flexbox ?"
+      },
+      "options": [
+        {
+          "content": "flex-flow",
+          "correct": true
+        },
+        {
+          "content": "flex-layout"
+        },
+        {
+          "content": "flex-direction"
+        },
+        {
+          "content": "flex-wrap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction CSS est utilisée pour calculer des valeurs dynamiquement ?"
+      },
+      "options": [
+        {
+          "content": "calc()",
+          "correct": true
+        },
+        {
+          "content": "compute()"
+        },
+        {
+          "content": "evaluate()"
+        },
+        {
+          "content": "dynamic()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des propriétés valides pour le module CSS Grid ?"
+      },
+      "options": [
+        {
+          "content": "grid-template-columns",
+          "correct": true
+        },
+        {
+          "content": "grid-gap",
+          "correct": true
+        },
+        {
+          "content": "grid-auto-flow",
+          "correct": true
+        },
+        {
+          "content": "grid-flex"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la police de caractères ?"
+      },
+      "options": [
+        {
+          "content": "font-family",
+          "correct": true
+        },
+        {
+          "content": "text-font"
+        },
+        {
+          "content": "typeface"
+        },
+        {
+          "content": "font-type"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle pseudo-classe CSS est utilisée pour sélectionner un élément lorsque la souris le survole ?"
+      },
+      "options": [
+        {
+          "content": ":hover",
+          "correct": true
+        },
+        {
+          "content": ":active"
+        },
+        {
+          "content": ":focus"
+        },
+        {
+          "content": ":mouseover"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des unités de longueur relatives en CSS ?"
+      },
+      "options": [
+        {
+          "content": "em",
+          "correct": true
+        },
+        {
+          "content": "rem",
+          "correct": true
+        },
+        {
+          "content": "%",
+          "correct": true
+        },
+        {
+          "content": "px"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour contrôler l'espacement entre les lettres ?"
+      },
+      "options": [
+        {
+          "content": "letter-spacing",
+          "correct": true
+        },
+        {
+          "content": "text-spacing"
+        },
+        {
+          "content": "word-spacing"
+        },
+        {
+          "content": "character-gap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la couleur de fond d'un élément ?"
+      },
+      "options": [
+        {
+          "content": "background-color",
+          "correct": true
+        },
+        {
+          "content": "color"
+        },
+        {
+          "content": "bg-color"
+        },
+        {
+          "content": "fill-color"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des valeurs valides pour la propriété 'position' ?"
+      },
+      "options": [
+        {
+          "content": "static",
+          "correct": true
+        },
+        {
+          "content": "relative",
+          "correct": true
+        },
+        {
+          "content": "absolute",
+          "correct": true
+        },
+        {
+          "content": "center"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la largeur maximale d'un élément ?"
+      },
+      "options": [
+        {
+          "content": "max-width",
+          "correct": true
+        },
+        {
+          "content": "width-max"
+        },
+        {
+          "content": "largest-width"
+        },
+        {
+          "content": "width-limit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour créer un dégradé de couleur ?"
+      },
+      "options": [
+        {
+          "content": "background-image: linear-gradient();",
+          "correct": true
+        },
+        {
+          "content": "color-gradient"
+        },
+        {
+          "content": "gradient-color"
+        },
+        {
+          "content": "background-gradient"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des pseudo-classes liées aux formulaires en CSS ?"
+      },
+      "options": [
+        {
+          "content": ":valid",
+          "correct": true
+        },
+        {
+          "content": ":invalid",
+          "correct": true
+        },
+        {
+          "content": ":checked",
+          "correct": true
+        },
+        {
+          "content": ":submitted"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir l'ordre d'empilement des éléments ?"
+      },
+      "options": [
+        {
+          "content": "z-index",
+          "correct": true
+        },
+        {
+          "content": "stack-order"
+        },
+        {
+          "content": "layer-index"
+        },
+        {
+          "content": "depth-order"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour créer des colonnes dans un élément ?"
+      },
+      "options": [
+        {
+          "content": "column-count",
+          "correct": true
+        },
+        {
+          "content": "multi-column"
+        },
+        {
+          "content": "text-columns"
+        },
+        {
+          "content": "divide-columns"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des propriétés CSS utilisées pour contrôler la transition des éléments ?"
+      },
+      "options": [
+        {
+          "content": "transition-duration",
+          "correct": true
+        },
+        {
+          "content": "transition-property",
+          "correct": true
+        },
+        {
+          "content": "transition-timing-function",
+          "correct": true
+        },
+        {
+          "content": "transition-speed"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la hauteur d'un élément indépendamment de son contenu ?"
+      },
+      "options": [
+        {
+          "content": "height",
+          "correct": true
+        },
+        {
+          "content": "min-height"
+        },
+        {
+          "content": "max-height"
+        },
+        {
+          "content": "content-height"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir le style de la bordure d'un élément ?"
+      },
+      "options": [
+        {
+          "content": "border-style",
+          "correct": true
+        },
+        {
+          "content": "border-type"
+        },
+        {
+          "content": "border-look"
+        },
+        {
+          "content": "border-appearance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des valeurs valides pour la propriété 'text-align' ?"
+      },
+      "options": [
+        {
+          "content": "left",
+          "correct": true
+        },
+        {
+          "content": "center",
+          "correct": true
+        },
+        {
+          "content": "justify",
+          "correct": true
+        },
+        {
+          "content": "middle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir l'espace entre les cellules d'un tableau ?"
+      },
+      "options": [
+        {
+          "content": "border-spacing",
+          "correct": true
+        },
+        {
+          "content": "cell-spacing"
+        },
+        {
+          "content": "table-spacing"
+        },
+        {
+          "content": "gap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle unité CSS est basée sur la taille de la police de l'élément racine ?"
+      },
+      "options": [
+        {
+          "content": "rem",
+          "correct": true
+        },
+        {
+          "content": "em"
+        },
+        {
+          "content": "px"
+        },
+        {
+          "content": "vh"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des propriétés CSS utilisées pour créer des animations ?"
+      },
+      "options": [
+        {
+          "content": "animation-name",
+          "correct": true
+        },
+        {
+          "content": "animation-duration",
+          "correct": true
+        },
+        {
+          "content": "animation-timing-function",
+          "correct": true
+        },
+        {
+          "content": "animation-speed"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la transformation d'un élément en 2D ou 3D ?"
+      },
+      "options": [
+        {
+          "content": "transform",
+          "correct": true
+        },
+        {
+          "content": "transition"
+        },
+        {
+          "content": "animation"
+        },
+        {
+          "content": "rotate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la police en gras ?"
+      },
+      "options": [
+        {
+          "content": "font-weight",
+          "correct": true
+        },
+        {
+          "content": "text-weight"
+        },
+        {
+          "content": "font-bold"
+        },
+        {
+          "content": "text-bold"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont des valeurs valides pour la propriété 'overflow' ?"
+      },
+      "options": [
+        {
+          "content": "visible",
+          "correct": true
+        },
+        {
+          "content": "hidden",
+          "correct": true
+        },
+        {
+          "content": "scroll",
+          "correct": true
+        },
+        {
+          "content": "auto",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir l'espacement entre les mots ?"
+      },
+      "options": [
+        {
+          "content": "word-spacing",
+          "correct": true
+        },
+        {
+          "content": "letter-spacing"
+        },
+        {
+          "content": "text-spacing"
+        },
+        {
+          "content": "spacing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propriété CSS est utilisée pour définir la couleur du texte ?"
+      },
+      "options": [
+        {
+          "content": "color",
+          "correct": true
+        },
+        {
+          "content": "text-color"
+        },
+        {
+          "content": "font-color"
+        },
+        {
+          "content": "text-style"
+        }
+      ]
+    }
+  ]
+}
