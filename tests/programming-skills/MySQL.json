@@ -1,0 +1,958 @@
+{
+  "title": "MySQL",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les connaissances et les compétences des candidats en matière de MySQL, couvrant la manipulation de données, la gestion de bases de données, l'optimisation des requêtes et la résolution de problèmes complexes.",
+    "level": "advanced",
+    "covered_skills": [
+      "Requêtes SQL complexes",
+      "Gestion des bases de données",
+      "Optimisation des performances",
+      "Indexation",
+      "Transactions et verrouillage",
+      "Procédures stockées et fonctions",
+      "Déclencheurs",
+      "Jointures avancées",
+      "Sous-requêtes",
+      "Sécurité des bases de données",
+      "Réplication",
+      "Sauvegarde et restauration"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur back-end, administrateur de bases de données, ou tout poste nécessitant une expertise avancée en MySQL.",
+    "description": "Le test couvre un large éventail de sujets MySQL, des fondamentaux aux techniques les plus avancées, évaluant la capacité du candidat à concevoir, optimiser et gérer efficacement des bases de données MySQL.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande SQL est utilisée pour récupérer des données d'une table ?"
+      },
+      "options": [
+        {
+          "content": "SELECT",
+          "correct": true
+        },
+        {
+          "content": "FETCH"
+        },
+        {
+          "content": "GET"
+        },
+        {
+          "content": "RETRIEVE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle clause SQL est utilisée pour filtrer les résultats d'une requête ?"
+      },
+      "options": [
+        {
+          "content": "WHERE",
+          "correct": true
+        },
+        {
+          "content": "HAVING"
+        },
+        {
+          "content": "FILTER"
+        },
+        {
+          "content": "CONDITION"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel type de jointure retourne tous les enregistrements lorsqu'il y a une correspondance dans l'une ou l'autre table ?"
+      },
+      "options": [
+        {
+          "content": "FULL OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "INNER JOIN"
+        },
+        {
+          "content": "LEFT JOIN"
+        },
+        {
+          "content": "RIGHT JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour créer une nouvelle base de données dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "CREATE DATABASE",
+          "correct": true
+        },
+        {
+          "content": "NEW DATABASE"
+        },
+        {
+          "content": "GENERATE DATABASE"
+        },
+        {
+          "content": "MAKE DATABASE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL retourne le nombre total de lignes sélectionnées ?"
+      },
+      "options": [
+        {
+          "content": "COUNT()",
+          "correct": true
+        },
+        {
+          "content": "SUM()"
+        },
+        {
+          "content": "TOTAL()"
+        },
+        {
+          "content": "NUM()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de données numériques en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "INT",
+          "correct": true
+        },
+        {
+          "content": "FLOAT",
+          "correct": true
+        },
+        {
+          "content": "DECIMAL",
+          "correct": true
+        },
+        {
+          "content": "STRING"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour modifier la structure d'une table existante ?"
+      },
+      "options": [
+        {
+          "content": "ALTER TABLE",
+          "correct": true
+        },
+        {
+          "content": "MODIFY TABLE"
+        },
+        {
+          "content": "CHANGE TABLE"
+        },
+        {
+          "content": "UPDATE TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle clause est utilisée pour trier les résultats d'une requête ?"
+      },
+      "options": [
+        {
+          "content": "ORDER BY",
+          "correct": true
+        },
+        {
+          "content": "SORT BY"
+        },
+        {
+          "content": "ARRANGE BY"
+        },
+        {
+          "content": "GROUP BY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de clés dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "Clé primaire",
+          "correct": true
+        },
+        {
+          "content": "Clé étrangère",
+          "correct": true
+        },
+        {
+          "content": "Clé unique",
+          "correct": true
+        },
+        {
+          "content": "Clé secondaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour supprimer une table entière de la base de données ?"
+      },
+      "options": [
+        {
+          "content": "DROP TABLE",
+          "correct": true
+        },
+        {
+          "content": "DELETE TABLE"
+        },
+        {
+          "content": "REMOVE TABLE"
+        },
+        {
+          "content": "ERASE TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour concaténer des chaînes ?"
+      },
+      "options": [
+        {
+          "content": "CONCAT()",
+          "correct": true
+        },
+        {
+          "content": "MERGE()"
+        },
+        {
+          "content": "JOIN()"
+        },
+        {
+          "content": "COMBINE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de jointures en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "INNER JOIN",
+          "correct": true
+        },
+        {
+          "content": "LEFT JOIN",
+          "correct": true
+        },
+        {
+          "content": "RIGHT JOIN",
+          "correct": true
+        },
+        {
+          "content": "MIDDLE JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour ajouter une nouvelle colonne à une table existante ?"
+      },
+      "options": [
+        {
+          "content": "ALTER TABLE ADD COLUMN",
+          "correct": true
+        },
+        {
+          "content": "MODIFY TABLE ADD COLUMN"
+        },
+        {
+          "content": "UPDATE TABLE ADD COLUMN"
+        },
+        {
+          "content": "INSERT COLUMN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle clause est utilisée pour regrouper des lignes ayant des valeurs identiques dans des colonnes spécifiées ?"
+      },
+      "options": [
+        {
+          "content": "GROUP BY",
+          "correct": true
+        },
+        {
+          "content": "ORDER BY"
+        },
+        {
+          "content": "ARRANGE BY"
+        },
+        {
+          "content": "SORT BY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL retourne la date et l'heure actuelles ?"
+      },
+      "options": [
+        {
+          "content": "NOW()",
+          "correct": true
+        },
+        {
+          "content": "CURRENT()"
+        },
+        {
+          "content": "TODAY()"
+        },
+        {
+          "content": "DATETIME()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de contraintes dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "NOT NULL",
+          "correct": true
+        },
+        {
+          "content": "UNIQUE",
+          "correct": true
+        },
+        {
+          "content": "PRIMARY KEY",
+          "correct": true
+        },
+        {
+          "content": "MANDATORY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour créer un index sur une colonne d'une table ?"
+      },
+      "options": [
+        {
+          "content": "CREATE INDEX",
+          "correct": true
+        },
+        {
+          "content": "MAKE INDEX"
+        },
+        {
+          "content": "GENERATE INDEX"
+        },
+        {
+          "content": "ADD INDEX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle clause est utilisée pour combiner le résultat de deux ou plusieurs requêtes SELECT ?"
+      },
+      "options": [
+        {
+          "content": "UNION",
+          "correct": true
+        },
+        {
+          "content": "JOIN"
+        },
+        {
+          "content": "MERGE"
+        },
+        {
+          "content": "COMBINE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de sous-requêtes en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "Sous-requête scalaire",
+          "correct": true
+        },
+        {
+          "content": "Sous-requête de ligne",
+          "correct": true
+        },
+        {
+          "content": "Sous-requête corrélée",
+          "correct": true
+        },
+        {
+          "content": "Sous-requête principale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour supprimer toutes les lignes d'une table sans supprimer la table elle-même ?"
+      },
+      "options": [
+        {
+          "content": "TRUNCATE TABLE",
+          "correct": true
+        },
+        {
+          "content": "DELETE FROM"
+        },
+        {
+          "content": "REMOVE FROM"
+        },
+        {
+          "content": "CLEAR TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour arrondir un nombre à un certain nombre de décimales ?"
+      },
+      "options": [
+        {
+          "content": "ROUND()",
+          "correct": true
+        },
+        {
+          "content": "CEIL()"
+        },
+        {
+          "content": "FLOOR()"
+        },
+        {
+          "content": "TRUNCATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de transactions en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "READ UNCOMMITTED",
+          "correct": true
+        },
+        {
+          "content": "READ COMMITTED",
+          "correct": true
+        },
+        {
+          "content": "REPEATABLE READ",
+          "correct": true
+        },
+        {
+          "content": "SERIALIZABLE",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour créer une procédure stockée en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "CREATE PROCEDURE",
+          "correct": true
+        },
+        {
+          "content": "MAKE PROCEDURE"
+        },
+        {
+          "content": "GENERATE PROCEDURE"
+        },
+        {
+          "content": "ADD PROCEDURE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle clause est utilisée pour spécifier une condition de recherche pour un groupe de lignes ?"
+      },
+      "options": [
+        {
+          "content": "HAVING",
+          "correct": true
+        },
+        {
+          "content": "WHERE"
+        },
+        {
+          "content": "CONDITION"
+        },
+        {
+          "content": "FILTER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de déclencheurs (triggers) en MySQL ?"
+      },
+      "options": [
+        {
+          "content": "BEFORE INSERT",
+          "correct": true
+        },
+        {
+          "content": "AFTER UPDATE",
+          "correct": true
+        },
+        {
+          "content": "BEFORE DELETE",
+          "correct": true
+        },
+        {
+          "content": "DURING SELECT"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour accorder des privilèges à un utilisateur dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "GRANT",
+          "correct": true
+        },
+        {
+          "content": "ALLOW"
+        },
+        {
+          "content": "PERMIT"
+        },
+        {
+          "content": "AUTHORIZE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour obtenir la longueur d'une chaîne de caractères ?"
+      },
+      "options": [
+        {
+          "content": "LENGTH()",
+          "correct": true
+        },
+        {
+          "content": "SIZE()"
+        },
+        {
+          "content": "STRLEN()"
+        },
+        {
+          "content": "CHARCOUNT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de moteurs de stockage dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "InnoDB",
+          "correct": true
+        },
+        {
+          "content": "MyISAM",
+          "correct": true
+        },
+        {
+          "content": "Memory",
+          "correct": true
+        },
+        {
+          "content": "FastDB"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour sauvegarder une base de données MySQL ?"
+      },
+      "options": [
+        {
+          "content": "mysqldump",
+          "correct": true
+        },
+        {
+          "content": "backup"
+        },
+        {
+          "content": "dbcopy"
+        },
+        {
+          "content": "mysqlsave"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle clause est utilisée pour limiter le nombre de lignes retournées par une requête ?"
+      },
+      "options": [
+        {
+          "content": "LIMIT",
+          "correct": true
+        },
+        {
+          "content": "TOP"
+        },
+        {
+          "content": "ROWNUM"
+        },
+        {
+          "content": "MAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types d'index dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "B-Tree",
+          "correct": true
+        },
+        {
+          "content": "Hash",
+          "correct": true
+        },
+        {
+          "content": "Full-text",
+          "correct": true
+        },
+        {
+          "content": "Binary"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour créer une vue dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "CREATE VIEW",
+          "correct": true
+        },
+        {
+          "content": "MAKE VIEW"
+        },
+        {
+          "content": "GENERATE VIEW"
+        },
+        {
+          "content": "ADD VIEW"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour obtenir la valeur absolue d'un nombre ?"
+      },
+      "options": [
+        {
+          "content": "ABS()",
+          "correct": true
+        },
+        {
+          "content": "ABSOLUTE()"
+        },
+        {
+          "content": "MODULUS()"
+        },
+        {
+          "content": "POS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de réplication dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "Réplication asynchrone",
+          "correct": true
+        },
+        {
+          "content": "Réplication semi-synchrone",
+          "correct": true
+        },
+        {
+          "content": "Réplication synchrone",
+          "correct": true
+        },
+        {
+          "content": "Réplication partielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour renommer une table dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "RENAME TABLE",
+          "correct": true
+        },
+        {
+          "content": "ALTER TABLE RENAME"
+        },
+        {
+          "content": "MODIFY TABLE NAME"
+        },
+        {
+          "content": "CHANGE TABLE NAME"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour obtenir la date actuelle ?"
+      },
+      "options": [
+        {
+          "content": "CURDATE()",
+          "correct": true
+        },
+        {
+          "content": "GETDATE()"
+        },
+        {
+          "content": "TODAY()"
+        },
+        {
+          "content": "SYSDATE()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de partitionnement dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "RANGE",
+          "correct": true
+        },
+        {
+          "content": "LIST",
+          "correct": true
+        },
+        {
+          "content": "HASH",
+          "correct": true
+        },
+        {
+          "content": "KEY",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour créer un utilisateur dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "CREATE USER",
+          "correct": true
+        },
+        {
+          "content": "ADD USER"
+        },
+        {
+          "content": "MAKE USER"
+        },
+        {
+          "content": "GENERATE USER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction MySQL est utilisée pour convertir une chaîne en minuscules ?"
+      },
+      "options": [
+        {
+          "content": "LOWER()",
+          "correct": true
+        },
+        {
+          "content": "LCASE()"
+        },
+        {
+          "content": "DOWNCASE()"
+        },
+        {
+          "content": "TOLOWER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de jointures externes dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "LEFT OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "RIGHT OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "FULL OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "MIDDLE OUTER JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande est utilisée pour optimiser une table dans MySQL ?"
+      },
+      "options": [
+        {
+          "content": "OPTIMIZE TABLE",
+          "correct": true
+        },
+        {
+          "content": "REPAIR TABLE"
+        },
+        {
+          "content": "ANALYZE TABLE"
+        },
+        {
+          "content": "CHECK TABLE"
+        }
+      ]
+    }
+  ]
+}

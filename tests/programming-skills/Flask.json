@@ -2,7 +2,7 @@
   "title": "Flask",
   "attributes": {
     "overview": "Ce test évalue en profondeur les compétences des candidats dans l'utilisation du framework Flask pour développer des applications web en Python, couvrant un large éventail de concepts de base et avancés.",
-    "level": "intermediate to advanced",
+    "level": "advanced",
     "covered_skills": [
       "Configuration de Flask",
       "Routage et vues",

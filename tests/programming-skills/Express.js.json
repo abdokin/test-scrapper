@@ -1,0 +1,913 @@
+{
+  "title": "Express.js",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les connaissances et les compétences des candidats en matière d'Express.js, couvrant la configuration, le routage, les middlewares, la gestion des erreurs, et les fonctionnalités avancées du framework.",
+    "level": "advanced",
+    "covered_skills": [
+      "Configuration d'Express.js",
+      "Routage",
+      "Middlewares",
+      "Gestion des erreurs",
+      "Templates et moteurs de vue",
+      "Sessions et authentification",
+      "API RESTful",
+      "Intégration de bases de données",
+      "Sécurité",
+      "Tests unitaires",
+      "Performance et optimisation",
+      "Déploiement"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur back-end Node.js, ingénieur full-stack, ou tout poste nécessitant une expertise avancée en Express.js.",
+    "description": "Le test couvre un large éventail de sujets Express.js, des fondamentaux aux techniques les plus avancées, évaluant la capacité du candidat à concevoir, développer et maintenir des applications robustes avec Express.js.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est utilisée pour créer une instance d'application Express ?"
+      },
+      "options": [
+        {
+          "content": "express()",
+          "correct": true
+        },
+        {
+          "content": "new Express()"
+        },
+        {
+          "content": "createExpress()"
+        },
+        {
+          "content": "Express.create()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode HTTP est généralement utilisée pour récupérer des données d'une API RESTful ?"
+      },
+      "options": [
+        {
+          "content": "GET",
+          "correct": true
+        },
+        {
+          "content": "POST"
+        },
+        {
+          "content": "PUT"
+        },
+        {
+          "content": "DELETE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est utilisée pour définir un middleware dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "app.use()",
+          "correct": true
+        },
+        {
+          "content": "app.middleware()"
+        },
+        {
+          "content": "app.set()"
+        },
+        {
+          "content": "app.add()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir une route dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "app.get()",
+          "correct": true
+        },
+        {
+          "content": "app.route()"
+        },
+        {
+          "content": "app.path()"
+        },
+        {
+          "content": "app.url()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour analyser le corps des requêtes HTTP dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "body-parser",
+          "correct": true
+        },
+        {
+          "content": "request-parser"
+        },
+        {
+          "content": "http-parser"
+        },
+        {
+          "content": "express-parser"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de middleware dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Middleware d'application",
+          "correct": true
+        },
+        {
+          "content": "Middleware de routeur",
+          "correct": true
+        },
+        {
+          "content": "Middleware d'erreur",
+          "correct": true
+        },
+        {
+          "content": "Middleware de vue"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour envoyer une réponse JSON dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.json()",
+          "correct": true
+        },
+        {
+          "content": "res.send()"
+        },
+        {
+          "content": "res.render()"
+        },
+        {
+          "content": "res.end()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel objet contient les paramètres de route dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.params",
+          "correct": true
+        },
+        {
+          "content": "req.query"
+        },
+        {
+          "content": "req.body"
+        },
+        {
+          "content": "req.route"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Simplicité",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité",
+          "correct": true
+        },
+        {
+          "content": "Grande communauté",
+          "correct": true
+        },
+        {
+          "content": "Typage statique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir un moteur de vue dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "app.set('view engine', ...)",
+          "correct": true
+        },
+        {
+          "content": "app.use('view engine', ...)"
+        },
+        {
+          "content": "app.engine(...)"
+        },
+        {
+          "content": "app.view(...)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour rediriger une requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.redirect()",
+          "correct": true
+        },
+        {
+          "content": "res.send()"
+        },
+        {
+          "content": "res.render()"
+        },
+        {
+          "content": "res.forward()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de paramètres de requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Paramètres de route",
+          "correct": true
+        },
+        {
+          "content": "Paramètres de requête (query)",
+          "correct": true
+        },
+        {
+          "content": "Corps de la requête",
+          "correct": true
+        },
+        {
+          "content": "Paramètres de session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour gérer les erreurs de manière asynchrone dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "next(error)",
+          "correct": true
+        },
+        {
+          "content": "throw error"
+        },
+        {
+          "content": "res.error()"
+        },
+        {
+          "content": "app.error()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour gérer les sessions dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "express-session",
+          "correct": true
+        },
+        {
+          "content": "session-manager"
+        },
+        {
+          "content": "express-auth"
+        },
+        {
+          "content": "node-session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un routeur Express ?"
+      },
+      "options": [
+        {
+          "content": "Organisation du code",
+          "correct": true
+        },
+        {
+          "content": "Réutilisabilité",
+          "correct": true
+        },
+        {
+          "content": "Modularité",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour servir des fichiers statiques dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "express.static()",
+          "correct": true
+        },
+        {
+          "content": "app.static()"
+        },
+        {
+          "content": "express.public()"
+        },
+        {
+          "content": "app.serve()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel objet contient les en-têtes de requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.headers",
+          "correct": true
+        },
+        {
+          "content": "req.head"
+        },
+        {
+          "content": "req.meta"
+        },
+        {
+          "content": "req.info"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de test couramment utilisés avec Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Tests unitaires",
+          "correct": true
+        },
+        {
+          "content": "Tests d'intégration",
+          "correct": true
+        },
+        {
+          "content": "Tests fonctionnels",
+          "correct": true
+        },
+        {
+          "content": "Tests de performance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir une variable locale dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.locals",
+          "correct": true
+        },
+        {
+          "content": "app.locals"
+        },
+        {
+          "content": "req.locals"
+        },
+        {
+          "content": "express.locals"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour la validation des données dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "express-validator",
+          "correct": true
+        },
+        {
+          "content": "joi"
+        },
+        {
+          "content": "validator.js"
+        },
+        {
+          "content": "express-check"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un middleware d'authentification dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Sécurité renforcée",
+          "correct": true
+        },
+        {
+          "content": "Réutilisabilité du code",
+          "correct": true
+        },
+        {
+          "content": "Séparation des préoccupations",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir un cookie dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.cookie()",
+          "correct": true
+        },
+        {
+          "content": "req.cookie()"
+        },
+        {
+          "content": "app.setCookie()"
+        },
+        {
+          "content": "res.setCookie()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel objet contient les cookies de la requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.cookies",
+          "correct": true
+        },
+        {
+          "content": "req.cookieJar"
+        },
+        {
+          "content": "req.cookieStore"
+        },
+        {
+          "content": "req.cookieData"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un ORM avec Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Abstraction de la base de données",
+          "correct": true
+        },
+        {
+          "content": "Sécurité accrue",
+          "correct": true
+        },
+        {
+          "content": "Facilité de migration",
+          "correct": true
+        },
+        {
+          "content": "Performances optimales dans tous les cas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour terminer le cycle requête-réponse dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.end()",
+          "correct": true
+        },
+        {
+          "content": "res.finish()"
+        },
+        {
+          "content": "res.close()"
+        },
+        {
+          "content": "res.complete()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour obtenir la méthode HTTP de la requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.method",
+          "correct": true
+        },
+        {
+          "content": "req.type"
+        },
+        {
+          "content": "req.httpMethod"
+        },
+        {
+          "content": "req.requestType"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un système de templating avec Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Séparation de la logique et de la présentation",
+          "correct": true
+        },
+        {
+          "content": "Réutilisabilité des composants",
+          "correct": true
+        },
+        {
+          "content": "Facilité de maintenance",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des performances du serveur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir le statut de la réponse HTTP dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.status()",
+          "correct": true
+        },
+        {
+          "content": "res.setStatus()"
+        },
+        {
+          "content": "res.httpStatus()"
+        },
+        {
+          "content": "res.code()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour la compression des réponses dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "compression",
+          "correct": true
+        },
+        {
+          "content": "express-compress"
+        },
+        {
+          "content": "gzip"
+        },
+        {
+          "content": "shrink-response"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un système de journalisation (logging) dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Débogage facilité",
+          "correct": true
+        },
+        {
+          "content": "Suivi des performances",
+          "correct": true
+        },
+        {
+          "content": "Analyse de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Accélération du temps de réponse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir un en-tête de réponse dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.set()",
+          "correct": true
+        },
+        {
+          "content": "res.header()"
+        },
+        {
+          "content": "res.setHeader()"
+        },
+        {
+          "content": "res.addHeader()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel objet contient les paramètres de requête (query string) dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.query",
+          "correct": true
+        },
+        {
+          "content": "req.params"
+        },
+        {
+          "content": "req.queryString"
+        },
+        {
+          "content": "req.get"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un système de caching avec Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration des performances",
+          "correct": true
+        },
+        {
+          "content": "Réduction de la charge du serveur",
+          "correct": true
+        },
+        {
+          "content": "Économie de bande passante",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour définir le type de contenu de la réponse dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "res.type()",
+          "correct": true
+        },
+        {
+          "content": "res.contentType()"
+        },
+        {
+          "content": "res.setType()"
+        },
+        {
+          "content": "res.mimeType()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour la gestion des fichiers téléchargés dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "multer",
+          "correct": true
+        },
+        {
+          "content": "express-upload"
+        },
+        {
+          "content": "file-handler"
+        },
+        {
+          "content": "upload-manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un système de gestion des erreurs centralisé dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence dans la gestion des erreurs",
+          "correct": true
+        },
+        {
+          "content": "Facilité de maintenance",
+          "correct": true
+        },
+        {
+          "content": "Meilleure expérience utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la vitesse de traitement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode est utilisée pour obtenir l'URL de la requête dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "req.url",
+          "correct": true
+        },
+        {
+          "content": "req.path"
+        },
+        {
+          "content": "req.route"
+        },
+        {
+          "content": "req.address"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel module est couramment utilisé pour l'authentification JWT dans Express.js ?"
+      },
+      "options": [
+        {
+          "content": "jsonwebtoken",
+          "correct": true
+        },
+        {
+          "content": "express-jwt"
+        },
+        {
+          "content": "jwt-auth"
+        },
+        {
+          "content": "token-manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'utiliser un système de validation de schéma avec Express.js ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la qualité des données",
+          "correct": true
+        },
+        {
+          "content": "Réduction des erreurs côté serveur",
+          "correct": true
+        },
+        {
+          "content": "Facilitation du développement d'API",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la vitesse de traitement des requêtes"
+        }
+      ]
+    }
+  ]
+}

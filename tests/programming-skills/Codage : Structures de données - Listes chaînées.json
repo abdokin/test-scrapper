@@ -1,0 +1,906 @@
+{
+  "title": "Structures de données : Listes chaînées - Test approfondi",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur la compréhension des candidats sur les concepts, les opérations, et les applications des listes chaînées.",
+    "level": "advanced",
+    "covered_skills": [
+      "Concepts fondamentaux des listes chaînées",
+      "Opérations avancées sur les listes chaînées",
+      "Analyse de complexité",
+      "Comparaison avec d'autres structures de données",
+      "Applications pratiques des listes chaînées",
+      "Variantes de listes chaînées",
+      "Algorithmes sur les listes chaînées",
+      "Optimisation et cas d'utilisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur nécessitant une compréhension approfondie des structures de données et des algorithmes.",
+    "description": "Le test couvre un large éventail d'aspects des listes chaînées, de la théorie à la pratique, évaluant la capacité du candidat à comprendre, analyser et appliquer cette structure de données dans divers contextes.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 40,
+    "duration_seconds": 2400,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale caractéristique d'une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Chaque élément contient un lien vers l'élément suivant",
+          "correct": true
+        },
+        {
+          "content": "Les éléments sont stockés de manière contiguë en mémoire"
+        },
+        {
+          "content": "L'accès aux éléments se fait en temps constant O(1)"
+        },
+        {
+          "content": "La taille de la liste est fixe une fois créée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la complexité temporelle de l'insertion en tête d'une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est l'avantage principal d'une liste chaînée par rapport à un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Insertion et suppression dynamiques d'éléments",
+          "correct": true
+        },
+        {
+          "content": "Accès plus rapide aux éléments"
+        },
+        {
+          "content": "Utilisation plus efficace de la mémoire"
+        },
+        {
+          "content": "Tri plus rapide des éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de la recherche d'un élément dans une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l'inconvénient principal d'une liste chaînée par rapport à un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Accès séquentiel aux éléments",
+          "correct": true
+        },
+        {
+          "content": "Utilisation excessive de mémoire"
+        },
+        {
+          "content": "Difficulté d'implémentation"
+        },
+        {
+          "content": "Impossibilité de stocker des types de données complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle opération est généralement plus efficace avec une liste chaînée qu'avec un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Insertion au milieu de la liste",
+          "correct": true
+        },
+        {
+          "content": "Accès à un élément par son index"
+        },
+        {
+          "content": "Tri des éléments"
+        },
+        {
+          "content": "Recherche binaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Dans une liste chaînée simple, que contient chaque nœud ?"
+      },
+      "options": [
+        {
+          "content": "Une donnée et un pointeur vers le nœud suivant",
+          "correct": true
+        },
+        {
+          "content": "Une donnée et un pointeur vers le nœud précédent"
+        },
+        {
+          "content": "Une donnée et deux pointeurs (précédent et suivant)"
+        },
+        {
+          "content": "Uniquement une donnée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre une liste chaînée simple et une liste chaînée double ?"
+      },
+      "options": [
+        {
+          "content": "La liste double a des pointeurs vers le nœud précédent et le suivant",
+          "correct": true
+        },
+        {
+          "content": "La liste double peut contenir plus d'éléments"
+        },
+        {
+          "content": "La liste simple est plus rapide pour toutes les opérations"
+        },
+        {
+          "content": "La liste double utilise moins de mémoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de la suppression du dernier élément d'une liste chaînée simple ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l'avantage d'une liste chaînée circulaire ?"
+      },
+      "options": [
+        {
+          "content": "Facilite l'implémentation de structures comme les files circulaires",
+          "correct": true
+        },
+        {
+          "content": "Permet un accès plus rapide aux éléments"
+        },
+        {
+          "content": "Utilise moins de mémoire qu'une liste chaînée simple"
+        },
+        {
+          "content": "Simplifie l'insertion et la suppression d'éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle structure de données est souvent implémentée à l'aide d'une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Une pile (stack)",
+          "correct": true
+        },
+        {
+          "content": "Un tableau associatif (hash table)"
+        },
+        {
+          "content": "Un arbre binaire de recherche"
+        },
+        {
+          "content": "Un graphe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité spatiale d'une liste chaînée par rapport à un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Plus élevée en raison du stockage des pointeurs",
+          "correct": true
+        },
+        {
+          "content": "Identique"
+        },
+        {
+          "content": "Toujours inférieure"
+        },
+        {
+          "content": "Dépend uniquement du nombre d'éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle opération est généralement plus difficile à implémenter avec une liste chaînée qu'avec un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Accès aléatoire aux éléments",
+          "correct": true
+        },
+        {
+          "content": "Insertion en tête"
+        },
+        {
+          "content": "Suppression en tête"
+        },
+        {
+          "content": "Parcours séquentiel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Dans quel cas une liste chaînée est-elle préférable à un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Lorsque la taille de la collection change fréquemment",
+          "correct": true
+        },
+        {
+          "content": "Lorsqu'un accès rapide par index est nécessaire"
+        },
+        {
+          "content": "Lorsque la mémoire est très limitée"
+        },
+        {
+          "content": "Lorsque les éléments doivent être triés fréquemment"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la principale difficulté lors de l'implémentation d'une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "La gestion correcte des pointeurs",
+          "correct": true
+        },
+        {
+          "content": "L'allocation de mémoire contiguë"
+        },
+        {
+          "content": "Le tri des éléments"
+        },
+        {
+          "content": "La synchronisation dans un environnement multithreadé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de l'insertion d'un élément au milieu d'une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(1) si la position est connue",
+          "correct": true
+        },
+        {
+          "content": "O(n) dans tous les cas"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel type de liste chaînée permet un parcours bidirectionnel ?"
+      },
+      "options": [
+        {
+          "content": "Liste doublement chaînée",
+          "correct": true
+        },
+        {
+          "content": "Liste simplement chaînée"
+        },
+        {
+          "content": "Liste circulaire"
+        },
+        {
+          "content": "Liste non linéaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle opération devient plus efficace avec une liste doublement chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Suppression du dernier élément",
+          "correct": true
+        },
+        {
+          "content": "Insertion en tête"
+        },
+        {
+          "content": "Recherche d'un élément"
+        },
+        {
+          "content": "Tri de la liste"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l'avantage d'utiliser un nœud sentinelle dans une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Simplifie la gestion des cas limites",
+          "correct": true
+        },
+        {
+          "content": "Augmente la vitesse de recherche"
+        },
+        {
+          "content": "Réduit l'utilisation de la mémoire"
+        },
+        {
+          "content": "Permet le tri automatique des éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour détecter un cycle dans une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "L'algorithme du lièvre et de la tortue",
+          "correct": true
+        },
+        {
+          "content": "La recherche binaire"
+        },
+        {
+          "content": "Le tri par fusion"
+        },
+        {
+          "content": "L'algorithme de Dijkstra"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité spatiale de l'algorithme du lièvre et de la tortue pour détecter un cycle ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence principale entre une liste chaînée et une liste chaînée au saut (skip list) ?"
+      },
+      "options": [
+        {
+          "content": "La liste au saut a des liens supplémentaires pour accélérer la recherche",
+          "correct": true
+        },
+        {
+          "content": "La liste au saut utilise moins de mémoire"
+        },
+        {
+          "content": "La liste au saut ne permet pas l'insertion dynamique"
+        },
+        {
+          "content": "La liste au saut est toujours triée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle moyenne de la recherche dans une liste chaînée au saut (skip list) bien équilibrée ?"
+      },
+      "options": [
+        {
+          "content": "O(log n)",
+          "correct": true
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle opération peut être optimisée en utilisant une liste chaînée avec un pointeur vers le dernier élément ?"
+      },
+      "options": [
+        {
+          "content": "Insertion à la fin de la liste",
+          "correct": true
+        },
+        {
+          "content": "Suppression du premier élément"
+        },
+        {
+          "content": "Recherche d'un élément"
+        },
+        {
+          "content": "Inversion de la liste"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour fusionner deux listes chaînées triées en une seule liste triée ?"
+      },
+      "options": [
+        {
+          "content": "Comparaison et insertion séquentielle",
+          "correct": true
+        },
+        {
+          "content": "Tri rapide (quicksort)"
+        },
+        {
+          "content": "Tri par tas (heapsort)"
+        },
+        {
+          "content": "Hachage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de la fusion de deux listes chaînées triées de tailles n et m ?"
+      },
+      "options": [
+        {
+          "content": "O(n + m)",
+          "correct": true
+        },
+        {
+          "content": "O(n * m)"
+        },
+        {
+          "content": "O(log(n + m))"
+        },
+        {
+          "content": "O((n + m) log(n + m))"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle méthode peut être utilisée pour implémenter efficacement une file (queue) avec une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une liste avec des pointeurs vers la tête et la queue",
+          "correct": true
+        },
+        {
+          "content": "Utiliser une liste circulaire"
+        },
+        {
+          "content": "Utiliser une liste doublement chaînée"
+        },
+        {
+          "content": "Utiliser une liste avec un compteur d'éléments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l'avantage d'utiliser une liste chaînée pour implémenter une pile (stack) par rapport à un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Pas de limite de taille prédéfinie",
+          "correct": true
+        },
+        {
+          "content": "Accès plus rapide aux éléments"
+        },
+        {
+          "content": "Meilleure utilisation de la mémoire"
+        },
+        {
+          "content": "Facilité d'implémentation des opérations de base"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour inverser une liste chaînée en place ?"
+      },
+      "options": [
+        {
+          "content": "Modifier les pointeurs en parcourant la liste une seule fois",
+          "correct": true
+        },
+        {
+          "content": "Copier les éléments dans un tableau puis les remettre dans la liste"
+        },
+        {
+          "content": "Utiliser une pile auxiliaire"
+        },
+        {
+          "content": "Créer une nouvelle liste en insérant chaque élément en tête"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité spatiale de l'inversion d'une liste chaînée en place ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour trouver le milieu d'une liste chaînée en un seul passage ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser deux pointeurs, l'un avançant deux fois plus vite que l'autre",
+          "correct": true
+        },
+        {
+          "content": "Compter les éléments puis diviser par deux"
+        },
+        {
+          "content": "Utiliser une pile auxiliaire"
+        },
+        {
+          "content": "Transformer la liste en tableau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel problème peut survenir lors de l'utilisation de listes chaînées dans un environnement multithreadé ?"
+      },
+      "options": [
+        {
+          "content": "Conditions de course lors de la modification simultanée",
+          "correct": true
+        },
+        {
+          "content": "Fragmentation excessive de la mémoire"
+        },
+        {
+          "content": "Impossibilité d'utiliser des verrous"
+        },
+        {
+          "content": "Augmentation automatique de la taille de la liste"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure structure de données pour implémenter une liste chaînée dans un langage sans pointeurs ?"
+      },
+      "options": [
+        {
+          "content": "Un tableau d'objets avec des indices comme références",
+          "correct": true
+        },
+        {
+          "content": "Un tableau simple"
+        },
+        {
+          "content": "Une matrice"
+        },
+        {
+          "content": "Un arbre binaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de la recherche du k-ième élément à partir de la fin dans une liste chaînée simple ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(k)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour détecter et supprimer les doublons dans une liste chaînée non triée ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une table de hachage pour suivre les éléments vus",
+          "correct": true
+        },
+        {
+          "content": "Trier la liste puis supprimer les éléments adjacents identiques"
+        },
+        {
+          "content": "Comparer chaque élément avec tous les autres"
+        },
+        {
+          "content": "Utiliser un arbre binaire de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de la détection et suppression des doublons dans une liste chaînée non triée en utilisant une table de hachage ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour implémenter efficacement un cache LRU (Least Recently Used) ?"
+      },
+      "options": [
+        {
+          "content": "Une liste doublement chaînée combinée avec une table de hachage",
+          "correct": true
+        },
+        {
+          "content": "Une simple liste chaînée"
+        },
+        {
+          "content": "Un arbre binaire de recherche"
+        },
+        {
+          "content": "Un tableau dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle de l'insertion et de la suppression dans un cache LRU bien implémenté ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique peut être utilisée pour trier une liste chaînée de manière efficace ?"
+      },
+      "options": [
+        {
+          "content": "Tri fusion (Merge Sort)",
+          "correct": true
+        },
+        {
+          "content": "Tri rapide (Quicksort)"
+        },
+        {
+          "content": "Tri par tas (Heapsort)"
+        },
+        {
+          "content": "Tri à bulles (Bubble Sort)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexité temporelle du tri fusion sur une liste chaînée ?"
+      },
+      "options": [
+        {
+          "content": "O(n log n)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(log n)"
+        }
+      ]
+    }
+  ]
+}
