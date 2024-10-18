@@ -1,0 +1,862 @@
+{
+  "title": "Google Analytics",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances et compétences des candidats dans l'utilisation de Google Analytics pour analyser le trafic web et prendre des décisions basées sur les données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Configuration de Google Analytics",
+      "Analyse des rapports",
+      "Suivi des conversions",
+      "Segments et filtres",
+      "Objectifs et entonnoirs de conversion",
+      "Événements et dimensions personnalisées",
+      "Interprétation des données",
+      "Optimisation basée sur les insights"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de spécialiste marketing digital, analyste web, ou tout rôle nécessitant une compréhension approfondie de l'analyse de données web.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Analytics, évaluant la capacité du candidat à configurer l'outil, analyser les rapports et prendre des décisions basées sur les données pour atteindre les objectifs commerciaux.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle métrique représente le pourcentage de visites où un utilisateur ne consulte qu'une seule page avant de quitter le site ?"
+      },
+      "options": [
+        {
+          "content": "Taux de rebond",
+          "correct": true
+        },
+        {
+          "content": "Taux de sortie"
+        },
+        {
+          "content": "Taux de conversion"
+        },
+        {
+          "content": "Taux d'engagement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction permet de suivre les interactions spécifiques des utilisateurs sur votre site ?"
+      },
+      "options": [
+        {
+          "content": "Événements",
+          "correct": true
+        },
+        {
+          "content": "Objectifs"
+        },
+        {
+          "content": "Segments"
+        },
+        {
+          "content": "Dimensions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est recommandée pour exclure le trafic interne de votre entreprise des rapports Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Filtre IP",
+          "correct": true
+        },
+        {
+          "content": "Segment personnalisé"
+        },
+        {
+          "content": "Paramètre UTM"
+        },
+        {
+          "content": "Cookie d'exclusion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de suivre le parcours des utilisateurs à travers une série d'étapes prédéfinies ?"
+      },
+      "options": [
+        {
+          "content": "Entonnoir de conversion",
+          "correct": true
+        },
+        {
+          "content": "Flux de comportement"
+        },
+        {
+          "content": "Carte de chaleur"
+        },
+        {
+          "content": "Analyse de cohorte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des segments dans Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Analyser des sous-ensembles spécifiques de données",
+          "correct": true
+        },
+        {
+          "content": "Comparer différents groupes d'utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Augmenter automatiquement le trafic du site"
+        },
+        {
+          "content": "Identifier des opportunités d'optimisation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le nombre moyen de pages vues par session ?"
+      },
+      "options": [
+        {
+          "content": "Pages/session",
+          "correct": true
+        },
+        {
+          "content": "Durée moyenne de la session"
+        },
+        {
+          "content": "Taux de rebond"
+        },
+        {
+          "content": "Utilisateurs actifs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel rapport vous permet de voir les termes de recherche utilisés par les visiteurs sur votre site ?"
+      },
+      "options": [
+        {
+          "content": "Recherche sur site",
+          "correct": true
+        },
+        {
+          "content": "Acquisition"
+        },
+        {
+          "content": "Comportement"
+        },
+        {
+          "content": "Conversions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'objectifs pouvez-vous configurer dans Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Destination",
+          "correct": true
+        },
+        {
+          "content": "Durée",
+          "correct": true
+        },
+        {
+          "content": "Pages/session",
+          "correct": true
+        },
+        {
+          "content": "Événement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité vous permet de comparer les performances de différentes versions d'une page web ?"
+      },
+      "options": [
+        {
+          "content": "Expériences",
+          "correct": true
+        },
+        {
+          "content": "Segments"
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Annotations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle dimension indique si un utilisateur est nouveau ou s'il est déjà venu sur le site ?"
+      },
+      "options": [
+        {
+          "content": "Type d'utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Source/Support"
+        },
+        {
+          "content": "Appareil"
+        },
+        {
+          "content": "Emplacement géographique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles informations peuvent être incluses dans un rapport personnalisé ?"
+      },
+      "options": [
+        {
+          "content": "Dimensions",
+          "correct": true
+        },
+        {
+          "content": "Métriques",
+          "correct": true
+        },
+        {
+          "content": "Filtres",
+          "correct": true
+        },
+        {
+          "content": "Segments",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de suivre les interactions des utilisateurs sur plusieurs appareils ?"
+      },
+      "options": [
+        {
+          "content": "Suivi inter-appareils",
+          "correct": true
+        },
+        {
+          "content": "Suivi hors ligne"
+        },
+        {
+          "content": "Suivi e-commerce"
+        },
+        {
+          "content": "Suivi des événements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour envoyer des données d'e-commerce à Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Implémentation du code de suivi e-commerce",
+          "correct": true
+        },
+        {
+          "content": "Configuration d'un objectif"
+        },
+        {
+          "content": "Création d'un segment personnalisé"
+        },
+        {
+          "content": "Ajout d'une dimension personnalisée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans la section Acquisition de Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Tout le trafic",
+          "correct": true
+        },
+        {
+          "content": "Google Ads",
+          "correct": true
+        },
+        {
+          "content": "Search Console",
+          "correct": true
+        },
+        {
+          "content": "Réseaux sociaux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des groupes de contenu basés sur des règles spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Regroupement de contenu",
+          "correct": true
+        },
+        {
+          "content": "Segments avancés"
+        },
+        {
+          "content": "Filtres de vue"
+        },
+        {
+          "content": "Dimensions personnalisées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le pourcentage de visiteurs qui ont effectué une action spécifique sur votre site ?"
+      },
+      "options": [
+        {
+          "content": "Taux de conversion",
+          "correct": true
+        },
+        {
+          "content": "Taux de rebond"
+        },
+        {
+          "content": "Taux d'engagement"
+        },
+        {
+          "content": "Taux de clics"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de données peuvent être collectés à l'aide des dimensions personnalisées ?"
+      },
+      "options": [
+        {
+          "content": "Informations sur l'utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Détails sur le contenu",
+          "correct": true
+        },
+        {
+          "content": "Données de transaction",
+          "correct": true
+        },
+        {
+          "content": "Interactions spécifiques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de visualiser le parcours des utilisateurs à travers votre site ?"
+      },
+      "options": [
+        {
+          "content": "Flux de comportement",
+          "correct": true
+        },
+        {
+          "content": "Carte de chaleur"
+        },
+        {
+          "content": "Analyse de cohorte"
+        },
+        {
+          "content": "Entonnoir multicanal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour exclure les visites des robots et spiders des rapports Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Activer le filtrage des robots",
+          "correct": true
+        },
+        {
+          "content": "Créer un segment personnalisé"
+        },
+        {
+          "content": "Utiliser un filtre d'exclusion IP"
+        },
+        {
+          "content": "Modifier le code de suivi"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans la section Comportement de Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Contenu du site",
+          "correct": true
+        },
+        {
+          "content": "Vitesse du site",
+          "correct": true
+        },
+        {
+          "content": "Recherche sur site",
+          "correct": true
+        },
+        {
+          "content": "Événements",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de suivre les interactions des utilisateurs qui ne se produisent pas sur votre site web ?"
+      },
+      "options": [
+        {
+          "content": "Mesure de protocole",
+          "correct": true
+        },
+        {
+          "content": "Suivi des événements"
+        },
+        {
+          "content": "Dimensions personnalisées"
+        },
+        {
+          "content": "Objectifs virtuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le nombre moyen de sessions par utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Nombre de sessions par utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Taux de rebond"
+        },
+        {
+          "content": "Pages par session"
+        },
+        {
+          "content": "Durée moyenne de la session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de données peuvent être importés dans Google Analytics via l'importation de données ?"
+      },
+      "options": [
+        {
+          "content": "Coût des campagnes",
+          "correct": true
+        },
+        {
+          "content": "Données CRM",
+          "correct": true
+        },
+        {
+          "content": "Métriques personnalisées",
+          "correct": true
+        },
+        {
+          "content": "Données de refund",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de comparer les performances de différents segments d'utilisateurs ?"
+      },
+      "options": [
+        {
+          "content": "Analyse de cohorte",
+          "correct": true
+        },
+        {
+          "content": "Segments avancés"
+        },
+        {
+          "content": "Filtres de vue"
+        },
+        {
+          "content": "Regroupement de contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique indique le pourcentage de sessions au cours desquelles les utilisateurs ont quitté votre site à partir d'une page spécifique ?"
+      },
+      "options": [
+        {
+          "content": "Taux de sortie",
+          "correct": true
+        },
+        {
+          "content": "Taux de rebond"
+        },
+        {
+          "content": "Taux d'abandon"
+        },
+        {
+          "content": "Taux de conversion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans la section Conversions de Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Objectifs",
+          "correct": true
+        },
+        {
+          "content": "E-commerce",
+          "correct": true
+        },
+        {
+          "content": "Entonnoirs multicanaux",
+          "correct": true
+        },
+        {
+          "content": "Attribution",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de suivre les interactions des utilisateurs sur plusieurs sessions et canaux avant une conversion ?"
+      },
+      "options": [
+        {
+          "content": "Entonnoirs multicanaux",
+          "correct": true
+        },
+        {
+          "content": "Attribution"
+        },
+        {
+          "content": "Analyse de cohorte"
+        },
+        {
+          "content": "Flux de comportement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour envoyer des données à Google Analytics en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "Measurement Protocol",
+          "correct": true
+        },
+        {
+          "content": "Data Import"
+        },
+        {
+          "content": "User ID"
+        },
+        {
+          "content": "Custom Dimensions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de données peuvent être collectés à l'aide des métriques personnalisées ?"
+      },
+      "options": [
+        {
+          "content": "Temps passé sur une fonctionnalité spécifique",
+          "correct": true
+        },
+        {
+          "content": "Nombre de partages sociaux",
+          "correct": true
+        },
+        {
+          "content": "Valeur monétaire des actions non transactionnelles",
+          "correct": true
+        },
+        {
+          "content": "Nombre de vidéos visionnées",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de visualiser comment différents canaux contribuent aux conversions ?"
+      },
+      "options": [
+        {
+          "content": "Modèles d'attribution",
+          "correct": true
+        },
+        {
+          "content": "Entonnoirs de conversion"
+        },
+        {
+          "content": "Segments avancés"
+        },
+        {
+          "content": "Flux de comportement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour suivre les transactions sur plusieurs domaines appartenant à la même organisation ?"
+      },
+      "options": [
+        {
+          "content": "Suivi inter-domaines",
+          "correct": true
+        },
+        {
+          "content": "User ID"
+        },
+        {
+          "content": "Client ID"
+        },
+        {
+          "content": "Session unification"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de données peuvent être visualisés dans les rapports en temps réel de Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Nombre de visiteurs actifs",
+          "correct": true
+        },
+        {
+          "content": "Sources de trafic",
+          "correct": true
+        },
+        {
+          "content": "Pages vues",
+          "correct": true
+        },
+        {
+          "content": "Conversions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des rapports personnalisés combinant des dimensions et des métriques spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Rapports personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Tableaux de bord"
+        },
+        {
+          "content": "Segments avancés"
+        },
+        {
+          "content": "Vues filtrées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le temps moyen passé par les utilisateurs sur une page spécifique ?"
+      },
+      "options": [
+        {
+          "content": "Durée moyenne de la page",
+          "correct": true
+        },
+        {
+          "content": "Temps moyen sur le site"
+        },
+        {
+          "content": "Durée de la session"
+        },
+        {
+          "content": "Temps de chargement de la page"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'interactions peuvent être suivis à l'aide des événements dans Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Clics sur des boutons",
+          "correct": true
+        },
+        {
+          "content": "Téléchargements de fichiers",
+          "correct": true
+        },
+        {
+          "content": "Lectures de vidéos",
+          "correct": true
+        },
+        {
+          "content": "Soumissions de formulaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de regrouper plusieurs propriétés Google Analytics sous une seule vue d'ensemble ?"
+      },
+      "options": [
+        {
+          "content": "Rollup Reporting",
+          "correct": true
+        },
+        {
+          "content": "Cross-domain tracking"
+        },
+        {
+          "content": "Data Studio"
+        },
+        {
+          "content": "Property grouping"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour suivre les interactions des utilisateurs sur une application mobile ?"
+      },
+      "options": [
+        {
+          "content": "SDK Google Analytics pour applications mobiles",
+          "correct": true
+        },
+        {
+          "content": "Tag Manager"
+        },
+        {
+          "content": "Measurement Protocol"
+        },
+        {
+          "content": "App + Web Property"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans la section Audience de Google Analytics ?"
+      },
+      "options": [
+        {
+          "content": "Données démographiques",
+          "correct": true
+        },
+        {
+          "content": "Intérêts",
+          "correct": true
+        },
+        {
+          "content": "Géographie",
+          "correct": true
+        },
+        {
+          "content": "Comportement",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

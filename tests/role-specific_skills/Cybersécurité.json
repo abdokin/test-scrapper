@@ -1,0 +1,916 @@
+{
+  "title": "Cybersécurité",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques des candidats en matière de cybersécurité et leur capacité à identifier et à traiter les menaces informatiques.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Sécurité des réseaux",
+      "Cryptographie",
+      "Gestion des identités et des accès",
+      "Sécurité des applications",
+      "Analyse des menaces",
+      "Conformité et réglementation",
+      "Sécurité des données",
+      "Réponse aux incidents"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en cybersécurité, tels que les analystes en sécurité, les administrateurs réseau, et les consultants en sécurité informatique.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de la cybersécurité, évaluant la capacité du candidat à comprendre et à appliquer les principes de sécurité dans divers contextes informatiques.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel protocole est utilisé pour sécuriser les connexions HTTPS ?"
+      },
+      "options": [
+        {
+          "content": "SSL/TLS",
+          "correct": true
+        },
+        {
+          "content": "FTP"
+        },
+        {
+          "content": "SMTP"
+        },
+        {
+          "content": "HTTP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale fonction d'un pare-feu ?"
+      },
+      "options": [
+        {
+          "content": "Filtrer le trafic réseau",
+          "correct": true
+        },
+        {
+          "content": "Accélérer la connexion Internet"
+        },
+        {
+          "content": "Stocker des données"
+        },
+        {
+          "content": "Gérer les mots de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce qu'une attaque par déni de service (DoS) ?"
+      },
+      "options": [
+        {
+          "content": "Une tentative de rendre un système ou un réseau indisponible",
+          "correct": true
+        },
+        {
+          "content": "Un vol d'identité"
+        },
+        {
+          "content": "Une infection par un virus"
+        },
+        {
+          "content": "Une faille dans un logiciel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour créer un mot de passe fort ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une combinaison de lettres, chiffres et caractères spéciaux",
+          "correct": true
+        },
+        {
+          "content": "Utiliser son nom d'utilisateur"
+        },
+        {
+          "content": "Utiliser la même phrase pour tous les comptes"
+        },
+        {
+          "content": "Changer le mot de passe tous les jours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le phishing ?"
+      },
+      "options": [
+        {
+          "content": "Une technique pour obtenir des informations sensibles en se faisant passer pour une entité de confiance",
+          "correct": true
+        },
+        {
+          "content": "Un type de virus informatique"
+        },
+        {
+          "content": "Une méthode de chiffrement"
+        },
+        {
+          "content": "Un protocole de sécurité réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour sécuriser un réseau Wi-Fi ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le chiffrement WPA3",
+          "correct": true
+        },
+        {
+          "content": "Changer régulièrement le mot de passe",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le SSID broadcast",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le protocole WEP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'un VPN ?"
+      },
+      "options": [
+        {
+          "content": "Créer une connexion sécurisée et privée sur un réseau public",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de connexion"
+        },
+        {
+          "content": "Bloquer les publicités"
+        },
+        {
+          "content": "Gérer les mots de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode de sécurité qui nécessite deux formes d'identification",
+          "correct": true
+        },
+        {
+          "content": "Un type de chiffrement"
+        },
+        {
+          "content": "Un protocole de routage"
+        },
+        {
+          "content": "Un logiciel antivirus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une politique de sécurité informatique ?"
+      },
+      "options": [
+        {
+          "content": "Gestion des accès",
+          "correct": true
+        },
+        {
+          "content": "Protection des données",
+          "correct": true
+        },
+        {
+          "content": "Plan de continuité d'activité",
+          "correct": true
+        },
+        {
+          "content": "Augmentation du budget marketing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'une vulnérabilité zero-day ?"
+      },
+      "options": [
+        {
+          "content": "Une faille de sécurité inconnue du fabricant du logiciel",
+          "correct": true
+        },
+        {
+          "content": "Un virus qui se propage en 24 heures"
+        },
+        {
+          "content": "Un type de cryptomonnaie"
+        },
+        {
+          "content": "Un protocole de sécurité réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d'un SIEM (Security Information and Event Management) ?"
+      },
+      "options": [
+        {
+          "content": "Collecter et analyser les logs de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mots de passe"
+        },
+        {
+          "content": "Chiffrer les communications"
+        },
+        {
+          "content": "Bloquer les attaques DDoS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes typiques d'une réponse à incident ?"
+      },
+      "options": [
+        {
+          "content": "Préparation",
+          "correct": true
+        },
+        {
+          "content": "Détection et analyse",
+          "correct": true
+        },
+        {
+          "content": "Confinement et éradication",
+          "correct": true
+        },
+        {
+          "content": "Augmentation du budget marketing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe du moindre privilège ?"
+      },
+      "options": [
+        {
+          "content": "Accorder aux utilisateurs uniquement les droits nécessaires à leurs tâches",
+          "correct": true
+        },
+        {
+          "content": "Donner à tous les utilisateurs des droits d'administrateur"
+        },
+        {
+          "content": "Limiter l'accès Internet des employés"
+        },
+        {
+          "content": "Restreindre l'utilisation des appareils mobiles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du chiffrement des données ?"
+      },
+      "options": [
+        {
+          "content": "Protéger la confidentialité des informations",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de transmission"
+        },
+        {
+          "content": "Réduire la taille des fichiers"
+        },
+        {
+          "content": "Améliorer la qualité des images"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types courants d'attaques sur les applications web ?"
+      },
+      "options": [
+        {
+          "content": "Injection SQL",
+          "correct": true
+        },
+        {
+          "content": "Cross-Site Scripting (XSS)",
+          "correct": true
+        },
+        {
+          "content": "Cross-Site Request Forgery (CSRF)",
+          "correct": true
+        },
+        {
+          "content": "Attaque par force brute sur le BIOS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le RGPD ?"
+      },
+      "options": [
+        {
+          "content": "Un règlement européen sur la protection des données personnelles",
+          "correct": true
+        },
+        {
+          "content": "Un protocole de routage"
+        },
+        {
+          "content": "Un type de malware"
+        },
+        {
+          "content": "Un standard de chiffrement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un virus et un ver informatique ?"
+      },
+      "options": [
+        {
+          "content": "Un ver se propage automatiquement, un virus nécessite une action humaine",
+          "correct": true
+        },
+        {
+          "content": "Un virus est toujours plus dangereux qu'un ver"
+        },
+        {
+          "content": "Un ver affecte uniquement les réseaux, un virus uniquement les fichiers"
+        },
+        {
+          "content": "Il n'y a pas de différence, ce sont des synonymes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes courantes pour sécuriser un serveur web ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser HTTPS",
+          "correct": true
+        },
+        {
+          "content": "Maintenir les logiciels à jour",
+          "correct": true
+        },
+        {
+          "content": "Configurer correctement le pare-feu",
+          "correct": true
+        },
+        {
+          "content": "Désactiver toutes les connexions distantes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'une politique de mot de passe fort ?"
+      },
+      "options": [
+        {
+          "content": "Un ensemble de règles pour créer des mots de passe sécurisés",
+          "correct": true
+        },
+        {
+          "content": "Un logiciel qui génère des mots de passe aléatoires"
+        },
+        {
+          "content": "Une technique pour stocker les mots de passe en clair"
+        },
+        {
+          "content": "Un type de chiffrement pour les mots de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'un test d'intrusion ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les vulnérabilités dans un système ou un réseau",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances du réseau"
+        },
+        {
+          "content": "Former les employés à la sécurité"
+        },
+        {
+          "content": "Installer des mises à jour logicielles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les composantes d'une PKI (Infrastructure à Clés Publiques) ?"
+      },
+      "options": [
+        {
+          "content": "Autorité de certification",
+          "correct": true
+        },
+        {
+          "content": "Certificats numériques",
+          "correct": true
+        },
+        {
+          "content": "Clés publiques et privées",
+          "correct": true
+        },
+        {
+          "content": "Serveur DNS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de défense en profondeur ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser plusieurs couches de sécurité pour protéger un système",
+          "correct": true
+        },
+        {
+          "content": "Concentrer toutes les ressources sur un seul point de défense"
+        },
+        {
+          "content": "Utiliser uniquement des solutions de sécurité open-source"
+        },
+        {
+          "content": "Chiffrer toutes les données en permanence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'une attaque de l'homme du milieu (Man-in-the-Middle) ?"
+      },
+      "options": [
+        {
+          "content": "Une interception de la communication entre deux parties",
+          "correct": true
+        },
+        {
+          "content": "Une attaque visant les routeurs du milieu de réseau"
+        },
+        {
+          "content": "Un type de ver informatique"
+        },
+        {
+          "content": "Une technique de cryptographie"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les mesures efficaces contre les attaques par force brute ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des mots de passe complexes",
+          "correct": true
+        },
+        {
+          "content": "Implémenter un verrouillage de compte après plusieurs tentatives échouées",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'authentification à deux facteurs",
+          "correct": true
+        },
+        {
+          "content": "Désactiver tous les comptes utilisateurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de séparation des privilèges ?"
+      },
+      "options": [
+        {
+          "content": "Diviser les tâches critiques entre plusieurs utilisateurs ou systèmes",
+          "correct": true
+        },
+        {
+          "content": "Donner tous les privilèges à un seul administrateur"
+        },
+        {
+          "content": "Supprimer tous les privilèges des utilisateurs"
+        },
+        {
+          "content": "Changer les privilèges chaque jour"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'un IDS (Système de Détection d'Intrusion) ?"
+      },
+      "options": [
+        {
+          "content": "Détecter les activités suspectes ou malveillantes sur un réseau",
+          "correct": true
+        },
+        {
+          "content": "Bloquer tout le trafic entrant"
+        },
+        {
+          "content": "Accélérer la vitesse du réseau"
+        },
+        {
+          "content": "Gérer les mots de passe des utilisateurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation d'un gestionnaire de mots de passe ?"
+      },
+      "options": [
+        {
+          "content": "Génération de mots de passe complexes",
+          "correct": true
+        },
+        {
+          "content": "Stockage sécurisé des mots de passe",
+          "correct": true
+        },
+        {
+          "content": "Remplissage automatique des formulaires",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la vitesse de connexion Internet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le BYOD (Bring Your Own Device) ?"
+      },
+      "options": [
+        {
+          "content": "Une politique permettant aux employés d'utiliser leurs propres appareils au travail",
+          "correct": true
+        },
+        {
+          "content": "Un type de malware ciblant les appareils mobiles"
+        },
+        {
+          "content": "Un protocole de sécurité pour les réseaux sans fil"
+        },
+        {
+          "content": "Une technique de chiffrement pour les smartphones"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le hachage (hashing) en cryptographie ?"
+      },
+      "options": [
+        {
+          "content": "Une fonction qui convertit des données en une chaîne de caractères de taille fixe",
+          "correct": true
+        },
+        {
+          "content": "Un algorithme de compression de données"
+        },
+        {
+          "content": "Une méthode pour générer des clés de chiffrement"
+        },
+        {
+          "content": "Un protocole de communication sécurisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour sécuriser un cloud public ?"
+      },
+      "options": [
+        {
+          "content": "Chiffrer les données sensibles",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'authentification multifacteur",
+          "correct": true
+        },
+        {
+          "content": "Surveiller régulièrement les activités",
+          "correct": true
+        },
+        {
+          "content": "Partager les identifiants de connexion entre collègues"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de moindre connaissance (Need-to-Know) ?"
+      },
+      "options": [
+        {
+          "content": "Limiter l'accès aux informations uniquement à ceux qui en ont besoin",
+          "correct": true
+        },
+        {
+          "content": "Partager toutes les informations avec tous les employés"
+        },
+        {
+          "content": "Stocker toutes les données sur un seul serveur"
+        },
+        {
+          "content": "Utiliser un seul mot de passe pour tous les systèmes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d'un WAF (Web Application Firewall) ?"
+      },
+      "options": [
+        {
+          "content": "Protéger les applications web contre les attaques courantes",
+          "correct": true
+        },
+        {
+          "content": "Accélérer le chargement des pages web"
+        },
+        {
+          "content": "Gérer les bases de données"
+        },
+        {
+          "content": "Optimiser le référencement des sites web"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un plan de réponse aux incidents de sécurité ?"
+      },
+      "options": [
+        {
+          "content": "Identification des rôles et responsabilités",
+          "correct": true
+        },
+        {
+          "content": "Procédures de communication",
+          "correct": true
+        },
+        {
+          "content": "Étapes de containment et d'éradication",
+          "correct": true
+        },
+        {
+          "content": "Plan de restructuration de l'entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le sandboxing en sécurité informatique ?"
+      },
+      "options": [
+        {
+          "content": "Une technique d'isolation pour exécuter des programmes potentiellement dangereux",
+          "correct": true
+        },
+        {
+          "content": "Un type de malware"
+        },
+        {
+          "content": "Une méthode de chiffrement des données"
+        },
+        {
+          "content": "Un protocole de routage sécurisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de défaillance sécurisée (Fail-Safe) ?"
+      },
+      "options": [
+        {
+          "content": "En cas de panne, un système doit par défaut entrer dans un état sécurisé",
+          "correct": true
+        },
+        {
+          "content": "Toujours avoir un plan de secours en cas d'attaque"
+        },
+        {
+          "content": "Éteindre tous les systèmes en cas de brèche"
+        },
+        {
+          "content": "Sauvegarder les données quotidiennement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les composantes typiques d'un SOC (Security Operations Center) ?"
+      },
+      "options": [
+        {
+          "content": "Équipe d'analystes de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Outils de surveillance et d'alerte",
+          "correct": true
+        },
+        {
+          "content": "Procédures de réponse aux incidents",
+          "correct": true
+        },
+        {
+          "content": "Équipe de développement de logiciels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le CSIRT (Computer Security Incident Response Team) ?"
+      },
+      "options": [
+        {
+          "content": "Une équipe dédiée à la gestion des incidents de sécurité informatique",
+          "correct": true
+        },
+        {
+          "content": "Un logiciel antivirus avancé"
+        },
+        {
+          "content": "Un protocole de communication sécurisé"
+        },
+        {
+          "content": "Un type de firewall"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes de base de la sécurité de l'information selon le modèle CIA ?"
+      },
+      "options": [
+        {
+          "content": "Confidentialité",
+          "correct": true
+        },
+        {
+          "content": "Intégrité",
+          "correct": true
+        },
+        {
+          "content": "Disponibilité",
+          "correct": true
+        },
+        {
+          "content": "Authenticité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le SOAR (Security Orchestration, Automation and Response) ?"
+      },
+      "options": [
+        {
+          "content": "Un ensemble de technologies permettant d'automatiser et de coordonner les tâches de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Un type de malware sophistiqué"
+        },
+        {
+          "content": "Une technique de chiffrement avancée"
+        },
+        {
+          "content": "Un protocole de communication sécurisée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le principe de moindre fonctionnalité (Least Functionality) ?"
+      },
+      "options": [
+        {
+          "content": "Configurer les systèmes pour qu'ils n'exécutent que les fonctions essentielles",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le minimum de ressources système possible"
+        },
+        {
+          "content": "Limiter le nombre d'utilisateurs sur un système"
+        },
+        {
+          "content": "Réduire la complexité des mots de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les principales caractéristiques d'un bon système de gestion des logs de sécurité ?"
+      },
+      "options": [
+        {
+          "content": "Collecte centralisée des logs",
+          "correct": true
+        },
+        {
+          "content": "Analyse en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Capacité de stockage à long terme",
+          "correct": true
+        },
+        {
+          "content": "Capacité à modifier les logs existants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "title": "SketchUp Pro",
+  "attributes": {
+    "overview": "Ce test SketchUp Pro évalue les compétences des candidats liées au logiciel et leur capacité à créer des modélisations 3D détaillées et organisées pour des présentations et des rendus photoréalistes. Ce test de recrutement permet d'identifier les utilisateurs qualifiés de niveau intermédiaire de SketchUp Pro.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de SketchUp Pro",
+      "Outils de modélisation 3D",
+      "Gestion des composants et des groupes",
+      "Organisation des calques",
+      "Textures et matériaux",
+      "Rendu et présentation",
+      "Plugins et extensions",
+      "Bonnes pratiques de modélisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en modélisation 3D, architecture, design d'intérieur, ou tout autre domaine utilisant SketchUp Pro.",
+    "description": "Le test couvre les aspects intermédiaires de SketchUp Pro, évaluant la capacité du candidat à utiliser efficacement le logiciel pour créer des modèles 3D détaillés et professionnels.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est utilisé pour créer une forme 3D en extrudant une face 2D dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Pousser/Tirer",
+          "correct": true
+        },
+        {
+          "content": "Suivez-moi"
+        },
+        {
+          "content": "Échelle"
+        },
+        {
+          "content": "Rotation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale de l'outil 'Mètre' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Mesurer des distances"
+        },
+        {
+          "content": "Créer des guides de construction",
+          "correct": true
+        },
+        {
+          "content": "Dessiner des cercles"
+        },
+        {
+          "content": "Ajouter des textures"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les avantages de l'utilisation des composants dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Réduction de la taille du fichier",
+          "correct": true
+        },
+        {
+          "content": "Modification simultanée de plusieurs instances",
+          "correct": true
+        },
+        {
+          "content": "Organisation du modèle",
+          "correct": true
+        },
+        {
+          "content": "Amélioration automatique des performances de rendu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de créer une copie d'un objet alignée avec l'original dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+C, Ctrl+V"
+        },
+        {
+          "content": "Alt+Déplacer",
+          "correct": true
+        },
+        {
+          "content": "Shift+Déplacer"
+        },
+        {
+          "content": "Ctrl+D"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une forme 3D en suivant un chemin 2D dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Pousser/Tirer"
+        },
+        {
+          "content": "Suivez-moi",
+          "correct": true
+        },
+        {
+          "content": "Intersection"
+        },
+        {
+          "content": "Extrusion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour appliquer une texture à un objet dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil Pot de peinture",
+          "correct": true
+        },
+        {
+          "content": "Glisser-déposer depuis la bibliothèque de matériaux",
+          "correct": true
+        },
+        {
+          "content": "Appliquer via le menu Édition"
+        },
+        {
+          "content": "Utiliser l'inspecteur de matériaux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Décalage' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Créer une copie parallèle d'une face ou d'une arête",
+          "correct": true
+        },
+        {
+          "content": "Déplacer un objet sur un axe spécifique"
+        },
+        {
+          "content": "Rotationner un objet autour d'un point"
+        },
+        {
+          "content": "Mettre à l'échelle un objet uniformément"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on vérifier si un modèle contient des géométries non connectées dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Vérifier les géométries'"
+        },
+        {
+          "content": "Exécuter l'extension 'Solid Inspector'",
+          "correct": true
+        },
+        {
+          "content": "Activer l'option 'Afficher les géométries non connectées'"
+        },
+        {
+          "content": "Utiliser la commande 'Purger'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des scènes dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Sauvegarder différentes vues du modèle",
+          "correct": true
+        },
+        {
+          "content": "Créer des animations",
+          "correct": true
+        },
+        {
+          "content": "Organiser les calques"
+        },
+        {
+          "content": "Configurer différents styles visuels",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil 'Bac à sable' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Créer des terrains et des paysages",
+          "correct": true
+        },
+        {
+          "content": "Simuler des effets de physique"
+        },
+        {
+          "content": "Générer des textures réalistes"
+        },
+        {
+          "content": "Optimiser les performances du modèle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un toit à deux pentes dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Toit automatique'"
+        },
+        {
+          "content": "Dessiner un rectangle et utiliser l'outil 'Suivez-moi'"
+        },
+        {
+          "content": "Créer deux faces inclinées et les connecter",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'extension 'Roof Creator'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour optimiser les performances d'un modèle SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des composants",
+          "correct": true
+        },
+        {
+          "content": "Purger les éléments inutilisés",
+          "correct": true
+        },
+        {
+          "content": "Éviter les géométries complexes",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la résolution des textures"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre un groupe et un composant dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Les groupes peuvent être édités, pas les composants"
+        },
+        {
+          "content": "Les composants peuvent avoir plusieurs instances, pas les groupes",
+          "correct": true
+        },
+        {
+          "content": "Les groupes sont plus légers en termes de performance"
+        },
+        {
+          "content": "Les composants ne peuvent pas être imbriqués"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une copie circulaire d'un objet dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Rotation"
+        },
+        {
+          "content": "Suivez-moi"
+        },
+        {
+          "content": "Matrice circulaire",
+          "correct": true
+        },
+        {
+          "content": "Arc"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des styles dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Modifier l'apparence globale du modèle",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances de rendu",
+          "correct": true
+        },
+        {
+          "content": "Créer des présentations personnalisées",
+          "correct": true
+        },
+        {
+          "content": "Ajouter automatiquement des textures réalistes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle extension SketchUp Pro est couramment utilisée pour créer des rendus photoréalistes ?"
+      },
+      "options": [
+        {
+          "content": "V-Ray",
+          "correct": true
+        },
+        {
+          "content": "AutoCAD"
+        },
+        {
+          "content": "Photoshop"
+        },
+        {
+          "content": "RenderIn"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un arc parfait dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Arc' et spécifier le rayon"
+        },
+        {
+          "content": "Dessiner un cercle et le couper en deux"
+        },
+        {
+          "content": "Utiliser l'outil '2 Point Arc' et maintenir la touche Shift enfoncée",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'extension 'Arc Creator'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour importer des objets 3D dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Importer des fichiers 3D (.obj, .3ds, etc.)",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le 3D Warehouse",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller depuis un autre logiciel 3D"
+        },
+        {
+          "content": "Importer des composants depuis une bibliothèque locale",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Intersection' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Fusionner deux objets"
+        },
+        {
+          "content": "Créer une nouvelle géométrie à partir de l'intersection de deux solides",
+          "correct": true
+        },
+        {
+          "content": "Diviser un objet en deux parties égales"
+        },
+        {
+          "content": "Aligner deux objets sur un même plan"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un escalier hélicoïdal dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Escalier' prédéfini"
+        },
+        {
+          "content": "Dessiner un profil et utiliser l'outil 'Suivez-moi' le long d'une hélice",
+          "correct": true
+        },
+        {
+          "content": "Empiler des composants d'escalier en rotation"
+        },
+        {
+          "content": "Utiliser l'extension 'Spiral Maker'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des calques dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Organiser le modèle",
+          "correct": true
+        },
+        {
+          "content": "Contrôler la visibilité des éléments",
+          "correct": true
+        },
+        {
+          "content": "Appliquer des matériaux spécifiques à chaque calque"
+        },
+        {
+          "content": "Faciliter la sélection d'objets",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Boîte à outils' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Créer des formes géométriques de base"
+        },
+        {
+          "content": "Organiser et accéder rapidement aux outils fréquemment utilisés",
+          "correct": true
+        },
+        {
+          "content": "Gérer les extensions installées"
+        },
+        {
+          "content": "Appliquer des styles prédéfinis"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un rendu de nuit réaliste dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'option 'Mode nuit' intégrée"
+        },
+        {
+          "content": "Ajuster les paramètres d'ombrage et ajouter des sources lumineuses",
+          "correct": true
+        },
+        {
+          "content": "Appliquer un filtre de nuit post-traitement"
+        },
+        {
+          "content": "Utiliser uniquement des textures sombres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour créer des courbes complexes dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Courbe de Bézier'",
+          "correct": true
+        },
+        {
+          "content": "Combiner plusieurs arcs",
+          "correct": true
+        },
+        {
+          "content": "Importer des courbes depuis un fichier CAO",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'outil 'Courbe automatique'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de créer un terrain à partir de courbes de niveau dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Bac à sable' et la fonction 'À partir des contours'",
+          "correct": true
+        },
+        {
+          "content": "Extruder chaque courbe de niveau manuellement"
+        },
+        {
+          "content": "Importer un modèle de terrain préfabriqué"
+        },
+        {
+          "content": "Utiliser l'outil 'Suivez-moi' sur chaque courbe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer une animation de survol d'un bâtiment dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Animation' intégré"
+        },
+        {
+          "content": "Créer une série de scènes et utiliser la fonction 'Animation'",
+          "correct": true
+        },
+        {
+          "content": "Exporter le modèle vers un logiciel d'animation 3D"
+        },
+        {
+          "content": "Utiliser l'extension 'Fly-over Creator'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour organiser un modèle complexe dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des composants pour les éléments répétitifs",
+          "correct": true
+        },
+        {
+          "content": "Créer une hiérarchie logique de groupes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des calques pour séparer les différents éléments",
+          "correct": true
+        },
+        {
+          "content": "Éviter d'utiliser des composants pour garder le modèle simple"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Feuille' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Créer des arbres et de la végétation",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des textures de feuillage"
+        },
+        {
+          "content": "Générer des plans 2D à partir du modèle 3D"
+        },
+        {
+          "content": "Créer des surfaces courbes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un rendu d'architecture d'intérieur style aquarelle dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un style prédéfini 'Aquarelle'"
+        },
+        {
+          "content": "Appliquer un filtre post-traitement dans SketchUp"
+        },
+        {
+          "content": "Exporter le rendu et le modifier dans un logiciel de retouche d'image",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'extension 'Watercolor Renderer'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SketchUp Pro par rapport à SketchUp Free ?"
+      },
+      "options": [
+        {
+          "content": "Accès à des outils de modélisation avancés",
+          "correct": true
+        },
+        {
+          "content": "Possibilité d'importer et d'exporter plus de formats de fichiers",
+          "correct": true
+        },
+        {
+          "content": "Création de rendus photoréalistes intégrée"
+        },
+        {
+          "content": "Utilisation d'extensions tierces",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour créer des murs courbes dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Arc' et extruder"
+        },
+        {
+          "content": "Créer un cercle et le découper"
+        },
+        {
+          "content": "Utiliser l'outil 'Suivez-moi' le long d'un chemin courbe",
+          "correct": true
+        },
+        {
+          "content": "Assembler plusieurs segments droits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un modèle 3D à partir d'une image 2D dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Importer' et tracer sur l'image"
+        },
+        {
+          "content": "Utiliser la fonction 'Photo Match' pour aligner le modèle avec l'image",
+          "correct": true
+        },
+        {
+          "content": "Convertir automatiquement l'image en 3D"
+        },
+        {
+          "content": "Utiliser l'extension '2D to 3D Converter'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour optimiser le temps de rendu dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des textures de basse résolution",
+          "correct": true
+        },
+        {
+          "content": "Simplifier la géométrie du modèle",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des proxy pour les objets complexes",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la puissance de l'ordinateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Sectionner' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Diviser un objet en deux parties égales"
+        },
+        {
+          "content": "Créer une vue en coupe du modèle",
+          "correct": true
+        },
+        {
+          "content": "Découper une partie spécifique du modèle"
+        },
+        {
+          "content": "Créer des tranches horizontales du modèle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la fonction 'Faire correspondre la photo' dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Modéliser rapidement des bâtiments existants",
+          "correct": true
+        },
+        {
+          "content": "Créer des textures réalistes automatiquement"
+        },
+        {
+          "content": "Calibrer l'échelle du modèle",
+          "correct": true
+        },
+        {
+          "content": "Aligner précisément le modèle avec une photo de référence",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un toit mansardé dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Toit' prédéfini"
+        },
+        {
+          "content": "Créer deux pentes différentes avec l'outil 'Pousser/Tirer'",
+          "correct": true
+        },
+        {
+          "content": "Importer un composant de toit mansardé"
+        },
+        {
+          "content": "Utiliser l'extension 'Roof Creator'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de créer des fenêtres paramétriques dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Fenêtre' intégré"
+        },
+        {
+          "content": "Créer un composant dynamique avec des attributs variables",
+          "correct": true
+        },
+        {
+          "content": "Dessiner manuellement chaque fenêtre"
+        },
+        {
+          "content": "Utiliser l'extension 'Window Maker'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour créer des terrains complexes dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Bac à sable' avec des courbes de niveau",
+          "correct": true
+        },
+        {
+          "content": "Importer des données topographiques",
+          "correct": true
+        },
+        {
+          "content": "Sculpter manuellement avec les outils de bac à sable",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'outil 'Terrain automatique'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un rendu d'architecture d'extérieur style esquisse à main levée dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Appliquer un style prédéfini 'Esquisse'"
+        },
+        {
+          "content": "Exporter le modèle et le modifier dans un logiciel de dessin vectoriel",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'extension 'Sketchy Renderer'"
+        },
+        {
+          "content": "Activer l'option 'Rendu à main levée' dans les paramètres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des composants dynamiques dans SketchUp Pro ?"
+      },
+      "options": [
+        {
+          "content": "Créer des objets paramétriques",
+          "correct": true
+        },
+        {
+          "content": "Automatiser certaines tâches de modélisation",
+          "correct": true
+        },
+        {
+          "content": "Réduire la taille du fichier"
+        },
+        {
+          "content": "Faciliter la modification en masse d'objets similaires",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,873 @@
+{
+  "title": "Modélisation financière dans Excel",
+  "attributes": {
+    "overview": "Ce test évalue les compétences en modélisation financière et l'utilisation avancée d'Excel pour les analyses financières. Il est conçu pour évaluer la capacité des candidats à créer et manipuler des modèles financiers complexes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Fonctions financières d'Excel",
+      "Analyse de scénarios",
+      "Modélisation de flux de trésorerie",
+      "Évaluation d'entreprise",
+      "Analyse de sensibilité",
+      "Tableaux croisés dynamiques",
+      "Macros VBA",
+      "Visualisation des données financières"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes en finance d'entreprise, analyse financière, banque d'investissement et conseil financier.",
+    "description": "Le test couvre les aspects fondamentaux et avancés de la modélisation financière dans Excel, évaluant la capacité du candidat à construire des modèles robustes et à effectuer des analyses financières approfondies.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Excel est utilisée pour calculer la valeur actuelle nette (VAN) d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "VAN()",
+          "correct": true
+        },
+        {
+          "content": "TRI()"
+        },
+        {
+          "content": "VC()"
+        },
+        {
+          "content": "TAUX()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle touche de raccourci permet d'insérer rapidement la somme d'une plage de cellules dans Excel ?"
+      },
+      "options": [
+        {
+          "content": "Alt + ="
+        },
+        {
+          "content": "Ctrl + S"
+        },
+        {
+          "content": "Ctrl + ∑",
+          "correct": true
+        },
+        {
+          "content": "Alt + F4"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont généralement inclus dans un modèle de flux de trésorerie ?"
+      },
+      "options": [
+        {
+          "content": "Revenus d'exploitation",
+          "correct": true
+        },
+        {
+          "content": "Dépenses en capital",
+          "correct": true
+        },
+        {
+          "content": "Amortissement",
+          "correct": true
+        },
+        {
+          "content": "Prix des actions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode d'évaluation d'entreprise utilise les flux de trésorerie futurs actualisés ?"
+      },
+      "options": [
+        {
+          "content": "Méthode des multiples"
+        },
+        {
+          "content": "Méthode de la valeur comptable"
+        },
+        {
+          "content": "Méthode DCF (Discounted Cash Flow)",
+          "correct": true
+        },
+        {
+          "content": "Méthode des comparables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le taux de rendement interne (TRI) d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "TRI()"
+        },
+        {
+          "content": "XTRI()",
+          "correct": true
+        },
+        {
+          "content": "IRR()"
+        },
+        {
+          "content": "RENDEMENT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques sont couramment utilisés pour présenter des données financières ?"
+      },
+      "options": [
+        {
+          "content": "Graphique en courbes",
+          "correct": true
+        },
+        {
+          "content": "Graphique en barres",
+          "correct": true
+        },
+        {
+          "content": "Graphique circulaire",
+          "correct": true
+        },
+        {
+          "content": "Graphique en nuage de points",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le paiement périodique d'un prêt ?"
+      },
+      "options": [
+        {
+          "content": "PMT()",
+          "correct": true
+        },
+        {
+          "content": "PAIEMENT()"
+        },
+        {
+          "content": "VERSEMENT()"
+        },
+        {
+          "content": "REMBOURSEMENT()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour effectuer une analyse de sensibilité sur plusieurs variables ?"
+      },
+      "options": [
+        {
+          "content": "Solveur"
+        },
+        {
+          "content": "Scénarios"
+        },
+        {
+          "content": "Table de données",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de noms"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont généralement inclus dans un tableau de bord financier ?"
+      },
+      "options": [
+        {
+          "content": "KPIs financiers",
+          "correct": true
+        },
+        {
+          "content": "Graphiques de tendances",
+          "correct": true
+        },
+        {
+          "content": "Analyse des écarts",
+          "correct": true
+        },
+        {
+          "content": "Liste des employés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le taux d'intérêt effectif d'un prêt ?"
+      },
+      "options": [
+        {
+          "content": "TAUX()",
+          "correct": true
+        },
+        {
+          "content": "INTERET()"
+        },
+        {
+          "content": "TRI()"
+        },
+        {
+          "content": "TAUXEFFECTIF()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour lier dynamiquement des cellules entre différents classeurs Excel ?"
+      },
+      "options": [
+        {
+          "content": "Copier-coller"
+        },
+        {
+          "content": "Références externes",
+          "correct": true
+        },
+        {
+          "content": "Liaison hypertexte"
+        },
+        {
+          "content": "Macro VBA"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants lors de la création d'un modèle financier robuste ?"
+      },
+      "options": [
+        {
+          "content": "Structure claire et logique",
+          "correct": true
+        },
+        {
+          "content": "Documentation des hypothèses",
+          "correct": true
+        },
+        {
+          "content": "Séparation des inputs, calculs et outputs",
+          "correct": true
+        },
+        {
+          "content": "Utilisation excessive de couleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le nombre de périodes nécessaires pour rembourser un prêt ?"
+      },
+      "options": [
+        {
+          "content": "NPER()",
+          "correct": true
+        },
+        {
+          "content": "PERIODES()"
+        },
+        {
+          "content": "DUREE()"
+        },
+        {
+          "content": "TEMPS()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour consolider des données provenant de plusieurs feuilles ou classeurs ?"
+      },
+      "options": [
+        {
+          "content": "Filtre automatique"
+        },
+        {
+          "content": "Tableau croisé dynamique",
+          "correct": true
+        },
+        {
+          "content": "Graphique dynamique"
+        },
+        {
+          "content": "Mise en forme conditionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour la gestion des versions d'un modèle financier ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un système de contrôle de version",
+          "correct": true
+        },
+        {
+          "content": "Nommer clairement les versions",
+          "correct": true
+        },
+        {
+          "content": "Documenter les changements",
+          "correct": true
+        },
+        {
+          "content": "Supprimer les anciennes versions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer la dépréciation linéaire d'un actif ?"
+      },
+      "options": [
+        {
+          "content": "AMORT.LIN()",
+          "correct": true
+        },
+        {
+          "content": "DDB()"
+        },
+        {
+          "content": "SYD()"
+        },
+        {
+          "content": "VDB()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour automatiser des tâches répétitives dans un modèle financier ?"
+      },
+      "options": [
+        {
+          "content": "Formules"
+        },
+        {
+          "content": "Tableaux croisés dynamiques"
+        },
+        {
+          "content": "Macros VBA",
+          "correct": true
+        },
+        {
+          "content": "Mise en forme conditionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des tableaux Excel (Excel Tables) dans un modèle financier ?"
+      },
+      "options": [
+        {
+          "content": "Formules dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Mise en forme automatique",
+          "correct": true
+        },
+        {
+          "content": "Facilité de filtrage et de tri",
+          "correct": true
+        },
+        {
+          "content": "Calculs plus rapides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le taux de croissance annuel composé (TCAC) ?"
+      },
+      "options": [
+        {
+          "content": "TCAC()"
+        },
+        {
+          "content": "TAUX()",
+          "correct": true
+        },
+        {
+          "content": "CROISSANCE()"
+        },
+        {
+          "content": "TRI()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour créer une table d'amortissement d'un prêt ?"
+      },
+      "options": [
+        {
+          "content": "Tableau croisé dynamique"
+        },
+        {
+          "content": "Gestionnaire de scénarios"
+        },
+        {
+          "content": "Solveur"
+        },
+        {
+          "content": "Table de données",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer la valeur future d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "VF()",
+          "correct": true
+        },
+        {
+          "content": "VA()"
+        },
+        {
+          "content": "VALEUR.FUTURE()"
+        },
+        {
+          "content": "CUMUL.INTER()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un modèle de valorisation d'entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Prévisions financières",
+          "correct": true
+        },
+        {
+          "content": "Taux d'actualisation",
+          "correct": true
+        },
+        {
+          "content": "Analyse de sensibilité",
+          "correct": true
+        },
+        {
+          "content": "Liste des actionnaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le taux de rendement requis d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "TAUX()",
+          "correct": true
+        },
+        {
+          "content": "TRI()"
+        },
+        {
+          "content": "RENDEMENT()"
+        },
+        {
+          "content": "WACC()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour effectuer une analyse de régression ?"
+      },
+      "options": [
+        {
+          "content": "Analyse de scénarios"
+        },
+        {
+          "content": "Solveur"
+        },
+        {
+          "content": "Analyse de données",
+          "correct": true
+        },
+        {
+          "content": "Table de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants du coût moyen pondéré du capital (WACC) ?"
+      },
+      "options": [
+        {
+          "content": "Coût des fonds propres",
+          "correct": true
+        },
+        {
+          "content": "Coût de la dette",
+          "correct": true
+        },
+        {
+          "content": "Taux d'imposition",
+          "correct": true
+        },
+        {
+          "content": "Taux d'inflation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer l'amortissement dégressif d'un actif ?"
+      },
+      "options": [
+        {
+          "content": "AMORT.LIN()"
+        },
+        {
+          "content": "DDB()",
+          "correct": true
+        },
+        {
+          "content": "SYD()"
+        },
+        {
+          "content": "VDB()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour créer un tableau de bord financier interactif ?"
+      },
+      "options": [
+        {
+          "content": "Graphiques sparkline"
+        },
+        {
+          "content": "Tableaux croisés dynamiques"
+        },
+        {
+          "content": "Power Pivot"
+        },
+        {
+          "content": "Power BI",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des noms définis dans un modèle financier ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la lisibilité des formules",
+          "correct": true
+        },
+        {
+          "content": "Facilité de mise à jour du modèle",
+          "correct": true
+        },
+        {
+          "content": "Réduction des erreurs de formule",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la vitesse de calcul"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le bénéfice par action (BPA) ?"
+      },
+      "options": [
+        {
+          "content": "BPA()"
+        },
+        {
+          "content": "DIVISION()"
+        },
+        {
+          "content": "QUOTIENT()",
+          "correct": true
+        },
+        {
+          "content": "RATIO()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour effectuer une analyse de Monte Carlo ?"
+      },
+      "options": [
+        {
+          "content": "Analyse de scénarios"
+        },
+        {
+          "content": "Solveur"
+        },
+        {
+          "content": "Macros VBA",
+          "correct": true
+        },
+        {
+          "content": "Table de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une analyse de sensibilité ?"
+      },
+      "options": [
+        {
+          "content": "Variables d'entrée",
+          "correct": true
+        },
+        {
+          "content": "Plages de variation",
+          "correct": true
+        },
+        {
+          "content": "Mesure de l'impact sur les résultats",
+          "correct": true
+        },
+        {
+          "content": "Calcul de la moyenne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le taux de rentabilité interne modifié (TRIM) ?"
+      },
+      "options": [
+        {
+          "content": "TRI()"
+        },
+        {
+          "content": "TRIM()",
+          "correct": true
+        },
+        {
+          "content": "XTRI()"
+        },
+        {
+          "content": "MTRI()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour créer un graphique en cascade (waterfall chart) ?"
+      },
+      "options": [
+        {
+          "content": "Graphique en barres empilées",
+          "correct": true
+        },
+        {
+          "content": "Graphique en courbes"
+        },
+        {
+          "content": "Graphique en secteurs"
+        },
+        {
+          "content": "Graphique radar"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des tableaux croisés dynamiques dans un modèle financier ?"
+      },
+      "options": [
+        {
+          "content": "Analyse rapide de grands ensembles de données",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité dans la présentation des données",
+          "correct": true
+        },
+        {
+          "content": "Création facile de graphiques dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Automatisation des calculs complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer la valeur actualisée d'une série de flux de trésorerie irréguliers ?"
+      },
+      "options": [
+        {
+          "content": "VA()"
+        },
+        {
+          "content": "VAN()"
+        },
+        {
+          "content": "VAN.PAIEMENTS()",
+          "correct": true
+        },
+        {
+          "content": "VANM()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour effectuer une analyse de scénarios sur plusieurs variables ?"
+      },
+      "options": [
+        {
+          "content": "Gestionnaire de scénarios",
+          "correct": true
+        },
+        {
+          "content": "Table de données"
+        },
+        {
+          "content": "Valeur cible"
+        },
+        {
+          "content": "Solveur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un modèle de prévision des ventes ?"
+      },
+      "options": [
+        {
+          "content": "Historique des ventes",
+          "correct": true
+        },
+        {
+          "content": "Facteurs saisonniers",
+          "correct": true
+        },
+        {
+          "content": "Tendances du marché",
+          "correct": true
+        },
+        {
+          "content": "Liste des concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Excel est utilisée pour calculer le délai de récupération d'un investissement ?"
+      },
+      "options": [
+        {
+          "content": "DELAI.RECUPERATION()"
+        },
+        {
+          "content": "NPER()",
+          "correct": true
+        },
+        {
+          "content": "TEMPS.RECUPERATION()"
+        },
+        {
+          "content": "PAYBACK()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Excel est le plus approprié pour créer une matrice de corrélation entre différentes variables financières ?"
+      },
+      "options": [
+        {
+          "content": "Tableau croisé dynamique"
+        },
+        {
+          "content": "Analyse de données (Corrélation)",
+          "correct": true
+        },
+        {
+          "content": "Formule CORREL()"
+        },
+        {
+          "content": "Graphique de dispersion"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "title": "Adobe Photoshop pour designers",
+  "attributes": {
+    "overview": "Ce test Adobe Photoshop évalue les compétences techniques des candidats dans Photoshop, en mettant l'accent sur leur capacité à manipuler et à combiner des images avec du texte et d'autres éléments pour créer des œuvres d'art pour une variété d'objectifs et de médias.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de Photoshop",
+      "Outils de sélection",
+      "Calques et masques",
+      "Retouche d'image",
+      "Création de texte",
+      "Effets et filtres",
+      "Exportation et optimisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de designer graphique, infographiste, ou tout rôle nécessitant une maîtrise d'Adobe Photoshop.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'Adobe Photoshop, évaluant la capacité du candidat à utiliser efficacement les outils et fonctionnalités du logiciel pour créer et modifier des images.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est utilisé pour sélectionner une zone rectangulaire dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil de sélection rectangulaire",
+          "correct": true
+        },
+        {
+          "content": "Outil Lasso"
+        },
+        {
+          "content": "Outil Plume"
+        },
+        {
+          "content": "Outil Baguette magique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet de fusionner tous les calques visibles ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+E (Windows) ou Cmd+E (Mac)"
+        },
+        {
+          "content": "Ctrl+Shift+E (Windows) ou Cmd+Shift+E (Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+Alt+E (Windows) ou Cmd+Option+E (Mac)"
+        },
+        {
+          "content": "Ctrl+Shift+Alt+E (Windows) ou Cmd+Shift+Option+E (Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les modes de fusion qui éclaircissent généralement l'image ?"
+      },
+      "options": [
+        {
+          "content": "Superposition",
+          "correct": false
+        },
+        {
+          "content": "Éclaircir",
+          "correct": true
+        },
+        {
+          "content": "Incrustation",
+          "correct": false
+        },
+        {
+          "content": "Lumière tamisée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la résolution recommandée pour les images destinées à l'impression ?"
+      },
+      "options": [
+        {
+          "content": "72 ppi"
+        },
+        {
+          "content": "150 ppi"
+        },
+        {
+          "content": "300 ppi",
+          "correct": true
+        },
+        {
+          "content": "600 ppi"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer un dégradé dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Pinceau"
+        },
+        {
+          "content": "Outil Dégradé",
+          "correct": true
+        },
+        {
+          "content": "Outil Pot de peinture"
+        },
+        {
+          "content": "Outil Tampon de duplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels formats de fichier prennent en charge la transparence dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "PNG",
+          "correct": true
+        },
+        {
+          "content": "JPEG"
+        },
+        {
+          "content": "GIF",
+          "correct": true
+        },
+        {
+          "content": "TIFF",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet de redimensionner une image sans affecter sa résolution ?"
+      },
+      "options": [
+        {
+          "content": "Taille de l'image"
+        },
+        {
+          "content": "Taille de la zone de travail"
+        },
+        {
+          "content": "Échelle basée sur le contenu",
+          "correct": true
+        },
+        {
+          "content": "Transformation manuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour corriger les imperfections mineures d'une image ?"
+      },
+      "options": [
+        {
+          "content": "Outil Correcteur",
+          "correct": true
+        },
+        {
+          "content": "Outil Pinceau"
+        },
+        {
+          "content": "Outil Gomme"
+        },
+        {
+          "content": "Outil Doigt"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de calques disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Calque de pixel",
+          "correct": true
+        },
+        {
+          "content": "Calque de texte",
+          "correct": true
+        },
+        {
+          "content": "Calque de forme",
+          "correct": true
+        },
+        {
+          "content": "Calque de réglage",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande permet de créer un masque de fusion à partir d'une sélection ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+J (Windows) ou Cmd+J (Mac)"
+        },
+        {
+          "content": "Ctrl+[ (Windows) ou Cmd+[ (Mac)"
+        },
+        {
+          "content": "Ctrl+] (Windows) ou Cmd+] (Mac)"
+        },
+        {
+          "content": "Alt+clic (Windows) ou Option+clic (Mac) sur l'icône Ajouter un masque de fusion",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel mode colorimétrique est recommandé pour les images destinées à l'impression ?"
+      },
+      "options": [
+        {
+          "content": "RVB"
+        },
+        {
+          "content": "CMJN",
+          "correct": true
+        },
+        {
+          "content": "Lab"
+        },
+        {
+          "content": "Niveaux de gris"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels outils peuvent être utilisés pour créer une sélection dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Lasso",
+          "correct": true
+        },
+        {
+          "content": "Outil Baguette magique",
+          "correct": true
+        },
+        {
+          "content": "Outil Sélection rapide",
+          "correct": true
+        },
+        {
+          "content": "Outil Recadrage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un effet de flou gaussien ?"
+      },
+      "options": [
+        {
+          "content": "Filtre > Atténuation > Flou gaussien",
+          "correct": true
+        },
+        {
+          "content": "Filtre > Netteté > Accentuation"
+        },
+        {
+          "content": "Filtre > Bruit > Ajout de bruit"
+        },
+        {
+          "content": "Filtre > Rendu > Nuages"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet de créer un nouveau document dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+N (Windows) ou Cmd+N (Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+O (Windows) ou Cmd+O (Mac)"
+        },
+        {
+          "content": "Ctrl+S (Windows) ou Cmd+S (Mac)"
+        },
+        {
+          "content": "Ctrl+W (Windows) ou Cmd+W (Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de retouche disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Correcteur localisé",
+          "correct": true
+        },
+        {
+          "content": "Outil Pièce",
+          "correct": true
+        },
+        {
+          "content": "Outil Œil rouge",
+          "correct": true
+        },
+        {
+          "content": "Outil Plume"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet d'ajuster rapidement les niveaux d'une image ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+L (Windows) ou Cmd+L (Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+U (Windows) ou Cmd+U (Mac)"
+        },
+        {
+          "content": "Ctrl+B (Windows) ou Cmd+B (Mac)"
+        },
+        {
+          "content": "Ctrl+M (Windows) ou Cmd+M (Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de dessin vectoriel dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Plume",
+          "correct": true
+        },
+        {
+          "content": "Outil Rectangle",
+          "correct": true
+        },
+        {
+          "content": "Outil Ellipse",
+          "correct": true
+        },
+        {
+          "content": "Outil Pinceau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer des guides intelligents dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Affichage > Nouveau guide"
+        },
+        {
+          "content": "Affichage > Nouveau guide intelligent",
+          "correct": true
+        },
+        {
+          "content": "Édition > Préférences > Guides"
+        },
+        {
+          "content": "Fenêtre > Guides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer une sélection basée sur une plage de couleurs ?"
+      },
+      "options": [
+        {
+          "content": "Outil Baguette magique"
+        },
+        {
+          "content": "Outil Sélection rapide"
+        },
+        {
+          "content": "Sélection > Plage de couleurs",
+          "correct": true
+        },
+        {
+          "content": "Outil Lasso magnétique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les modes de fusion qui assombrissent généralement l'image ?"
+      },
+      "options": [
+        {
+          "content": "Produit",
+          "correct": true
+        },
+        {
+          "content": "Densité couleur+",
+          "correct": true
+        },
+        {
+          "content": "Densité linéaire+",
+          "correct": true
+        },
+        {
+          "content": "Incrustation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un masque vectoriel sur un calque ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur le calque > Ajouter un masque vectoriel",
+          "correct": true
+        },
+        {
+          "content": "Calque > Masque vectoriel > Révéler tout"
+        },
+        {
+          "content": "Fenêtre > Masques"
+        },
+        {
+          "content": "Édition > Créer un masque vectoriel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet de fusionner un calque avec celui du dessous ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+E (Windows) ou Cmd+E (Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+Shift+E (Windows) ou Cmd+Shift+E (Mac)"
+        },
+        {
+          "content": "Ctrl+Alt+E (Windows) ou Cmd+Option+E (Mac)"
+        },
+        {
+          "content": "Ctrl+J (Windows) ou Cmd+J (Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de duplication dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Tampon de duplication",
+          "correct": true
+        },
+        {
+          "content": "Outil Correcteur",
+          "correct": true
+        },
+        {
+          "content": "Outil Pinceau mélangeur"
+        },
+        {
+          "content": "Outil Tampon de motif",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un effet de flou de profondeur de champ ?"
+      },
+      "options": [
+        {
+          "content": "Filtre > Flou > Flou de l'objectif",
+          "correct": true
+        },
+        {
+          "content": "Filtre > Flou > Flou gaussien"
+        },
+        {
+          "content": "Filtre > Flou > Flou de surface"
+        },
+        {
+          "content": "Filtre > Flou > Flou radial"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer un dégradé de couleur personnalisé ?"
+      },
+      "options": [
+        {
+          "content": "Éditeur de dégradé",
+          "correct": true
+        },
+        {
+          "content": "Outil Pot de peinture"
+        },
+        {
+          "content": "Palette de couleurs"
+        },
+        {
+          "content": "Outil Pinceau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de guides disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Guides fixes",
+          "correct": true
+        },
+        {
+          "content": "Guides intelligents",
+          "correct": true
+        },
+        {
+          "content": "Repères",
+          "correct": true
+        },
+        {
+          "content": "Grille",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer une composition de calques ?"
+      },
+      "options": [
+        {
+          "content": "Fenêtre > Compositions de calques",
+          "correct": true
+        },
+        {
+          "content": "Calque > Nouvelle composition de calques"
+        },
+        {
+          "content": "Fichier > Automatisation > Composition de calques"
+        },
+        {
+          "content": "Édition > Composition de calques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer un tracé de détourage autour d'un objet ?"
+      },
+      "options": [
+        {
+          "content": "Outil Plume",
+          "correct": true
+        },
+        {
+          "content": "Outil Lasso"
+        },
+        {
+          "content": "Outil Sélection rapide"
+        },
+        {
+          "content": "Outil Recadrage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de calques de réglage disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Niveaux",
+          "correct": true
+        },
+        {
+          "content": "Courbes",
+          "correct": true
+        },
+        {
+          "content": "Teinte/Saturation",
+          "correct": true
+        },
+        {
+          "content": "Flou gaussien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande permet de transformer librement un objet ou une sélection ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+T (Windows) ou Cmd+T (Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+Shift+T (Windows) ou Cmd+Shift+T (Mac)"
+        },
+        {
+          "content": "Ctrl+Alt+T (Windows) ou Cmd+Option+T (Mac)"
+        },
+        {
+          "content": "Ctrl+R (Windows) ou Cmd+R (Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer un effet de flou directionnel ?"
+      },
+      "options": [
+        {
+          "content": "Outil Flou"
+        },
+        {
+          "content": "Outil Doigt"
+        },
+        {
+          "content": "Filtre > Flou > Flou directionnel",
+          "correct": true
+        },
+        {
+          "content": "Outil Goutte d'eau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les modes de fusion qui affectent le contraste de l'image ?"
+      },
+      "options": [
+        {
+          "content": "Superposition",
+          "correct": true
+        },
+        {
+          "content": "Lumière tamisée",
+          "correct": true
+        },
+        {
+          "content": "Lumière crue",
+          "correct": true
+        },
+        {
+          "content": "Différence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un effet de texte arqué ?"
+      },
+      "options": [
+        {
+          "content": "Texte > Déformation du texte",
+          "correct": true
+        },
+        {
+          "content": "Filtre > Déformation > Arc"
+        },
+        {
+          "content": "Édition > Transformation > Courbe"
+        },
+        {
+          "content": "Calque > Style de calque > Courbe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer une sélection en forme de polygone ?"
+      },
+      "options": [
+        {
+          "content": "Outil Lasso polygonal",
+          "correct": true
+        },
+        {
+          "content": "Outil Plume"
+        },
+        {
+          "content": "Outil Sélection de tracé"
+        },
+        {
+          "content": "Outil Forme personnalisée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de peinture disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Outil Pinceau",
+          "correct": true
+        },
+        {
+          "content": "Outil Crayon",
+          "correct": true
+        },
+        {
+          "content": "Outil Remplacement de couleur",
+          "correct": true
+        },
+        {
+          "content": "Outil Gomme",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un effet de perspective sur un objet ?"
+      },
+      "options": [
+        {
+          "content": "Édition > Transformation > Perspective",
+          "correct": true
+        },
+        {
+          "content": "Filtre > Point de fuite"
+        },
+        {
+          "content": "Objet > Perspective > Appliquer"
+        },
+        {
+          "content": "Calque > Style de calque > Biseau et estampage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil est utilisé pour créer un effet de dégradé radial ?"
+      },
+      "options": [
+        {
+          "content": "Outil Dégradé (mode radial)",
+          "correct": true
+        },
+        {
+          "content": "Outil Pinceau (forme ronde)"
+        },
+        {
+          "content": "Filtre > Rendu > Effets de lumière"
+        },
+        {
+          "content": "Outil Pot de peinture"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de sélection disponibles dans Photoshop ?"
+      },
+      "options": [
+        {
+          "content": "Sélection rectangulaire",
+          "correct": true
+        },
+        {
+          "content": "Sélection elliptique",
+          "correct": true
+        },
+        {
+          "content": "Sélection en colonne unique",
+          "correct": true
+        },
+        {
+          "content": "Sélection en rangée unique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de créer un effet de flou gaussien sélectif ?"
+      },
+      "options": [
+        {
+          "content": "Filtre > Flou > Flou gaussien",
+          "correct": true
+        },
+        {
+          "content": "Filtre > Netteté > Accentuation"
+        },
+        {
+          "content": "Filtre > Bruit > Flou intelligent"
+        },
+        {
+          "content": "Filtre > Rendu > Nuages"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel raccourci clavier permet d'afficher ou de masquer les calques ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+H (Windows) ou Cmd+H (Mac)"
+        },
+        {
+          "content": "Ctrl+, (Windows) ou Cmd+, (Mac)"
+        },
+        {
+          "content": "Ctrl+' (Windows) ou Cmd+' (Mac)"
+        },
+        {
+          "content": "Ctrl+; (Windows) ou Cmd+; (Mac)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les modes de fusion qui affectent principalement la luminosité de l'image ?"
+      },
+      "options": [
+        {
+          "content": "Éclaircir",
+          "correct": true
+        },
+        {
+          "content": "Obscurcir",
+          "correct": true
+        },
+        {
+          "content": "Densité couleur-",
+          "correct": true
+        },
+        {
+          "content": "Teinte"
+        }
+      ]
+    }
+  ]
+}

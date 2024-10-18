@@ -1,0 +1,876 @@
+{
+  "title": "Figma",
+  "attributes": {
+    "overview": "Ce test Figma évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des conceptions qui valorisent l'UX/UI en utilisant le système de conception Figma. Ce test vous permet d'identifier les concepteurs qui maîtrisent bien Figma et l'utilisent efficacement.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de Figma",
+      "Outils de conception",
+      "Composants et styles",
+      "Prototypage",
+      "Collaboration",
+      "Plugins et intégrations",
+      "Conception responsive",
+      "Exportation et partage"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de designers UI/UX, concepteurs d'interfaces utilisateur, et tout professionnel travaillant sur la création de maquettes et prototypes numériques.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Figma, évaluant la capacité du candidat à utiliser efficacement l'outil pour créer des designs d'interface utilisateur professionnels.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité de Figma permet de créer des éléments réutilisables dans différents designs ?"
+      },
+      "options": [
+        {
+          "content": "Composants",
+          "correct": true
+        },
+        {
+          "content": "Calques"
+        },
+        {
+          "content": "Frames"
+        },
+        {
+          "content": "Groupes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment appelle-t-on l'espace de travail principal dans Figma où vous créez et modifiez vos designs ?"
+      },
+      "options": [
+        {
+          "content": "Canvas",
+          "correct": true
+        },
+        {
+          "content": "Artboard"
+        },
+        {
+          "content": "Workspace"
+        },
+        {
+          "content": "Layout"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité de Figma permet de simuler l'interaction entre différents écrans d'une application ?"
+      },
+      "options": [
+        {
+          "content": "Prototypage",
+          "correct": true
+        },
+        {
+          "content": "Auto Layout"
+        },
+        {
+          "content": "Constraints"
+        },
+        {
+          "content": "Version History"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction de Figma permet de créer une grille de mise en page flexible ?"
+      },
+      "options": [
+        {
+          "content": "Auto Layout",
+          "correct": true
+        },
+        {
+          "content": "Grid"
+        },
+        {
+          "content": "Constraints"
+        },
+        {
+          "content": "Flex Box"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de définir comment un objet se comporte lorsque son cadre parent est redimensionné ?"
+      },
+      "options": [
+        {
+          "content": "Constraints",
+          "correct": true
+        },
+        {
+          "content": "Resize"
+        },
+        {
+          "content": "Scaling"
+        },
+        {
+          "content": "Responsive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des composants dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence du design",
+          "correct": true
+        },
+        {
+          "content": "Mise à jour centralisée",
+          "correct": true
+        },
+        {
+          "content": "Réutilisation facile",
+          "correct": true
+        },
+        {
+          "content": "Exportation automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des variations d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "Instances",
+          "correct": true
+        },
+        {
+          "content": "Duplicates"
+        },
+        {
+          "content": "Clones"
+        },
+        {
+          "content": "Variants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de collaborer en temps réel avec d'autres designers sur un même fichier Figma ?"
+      },
+      "options": [
+        {
+          "content": "Multiplayer",
+          "correct": true
+        },
+        {
+          "content": "Co-editing"
+        },
+        {
+          "content": "Team View"
+        },
+        {
+          "content": "Live Collaboration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des styles de texte réutilisables ?"
+      },
+      "options": [
+        {
+          "content": "Text Styles",
+          "correct": true
+        },
+        {
+          "content": "Font Presets"
+        },
+        {
+          "content": "Typography Components"
+        },
+        {
+          "content": "Text Templates"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de plugins peut-on utiliser dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Plugins de génération de contenu",
+          "correct": true
+        },
+        {
+          "content": "Plugins d'automatisation",
+          "correct": true
+        },
+        {
+          "content": "Plugins d'exportation",
+          "correct": true
+        },
+        {
+          "content": "Plugins de rendu 3D",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des designs adaptatifs pour différentes tailles d'écran ?"
+      },
+      "options": [
+        {
+          "content": "Constraints",
+          "correct": true
+        },
+        {
+          "content": "Responsive Design"
+        },
+        {
+          "content": "Auto Resize"
+        },
+        {
+          "content": "Flex Layout"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des animations entre différents états d'un design ?"
+      },
+      "options": [
+        {
+          "content": "Smart Animate",
+          "correct": true
+        },
+        {
+          "content": "Transition"
+        },
+        {
+          "content": "Motion Design"
+        },
+        {
+          "content": "Auto Animate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels formats d'exportation sont disponibles dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "PNG",
+          "correct": true
+        },
+        {
+          "content": "SVG",
+          "correct": true
+        },
+        {
+          "content": "PDF",
+          "correct": true
+        },
+        {
+          "content": "PSD"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des variables pour les couleurs, les typographies et autres propriétés de design ?"
+      },
+      "options": [
+        {
+          "content": "Design System",
+          "correct": true
+        },
+        {
+          "content": "Style Guide"
+        },
+        {
+          "content": "Variables"
+        },
+        {
+          "content": "Tokens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des commentaires directement sur le design dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Comments",
+          "correct": true
+        },
+        {
+          "content": "Feedback"
+        },
+        {
+          "content": "Notes"
+        },
+        {
+          "content": "Annotations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'Auto Layout dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Création de designs responsives",
+          "correct": true
+        },
+        {
+          "content": "Alignement automatique des éléments",
+          "correct": true
+        },
+        {
+          "content": "Ajustement dynamique de l'espacement",
+          "correct": true
+        },
+        {
+          "content": "Exportation automatique en code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des interactions conditionnelles dans les prototypes ?"
+      },
+      "options": [
+        {
+          "content": "Prototype Conditions",
+          "correct": true
+        },
+        {
+          "content": "Interactive States"
+        },
+        {
+          "content": "Dynamic Prototyping"
+        },
+        {
+          "content": "Conditional Links"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des mises en page en colonnes dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Layout Grid",
+          "correct": true
+        },
+        {
+          "content": "Column System"
+        },
+        {
+          "content": "Grid Layout"
+        },
+        {
+          "content": "Flex Columns"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes peuvent être appliqués à un objet dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Left and Right",
+          "correct": true
+        },
+        {
+          "content": "Top and Bottom",
+          "correct": true
+        },
+        {
+          "content": "Center",
+          "correct": true
+        },
+        {
+          "content": "Scale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des designs pour différents états d'un même composant ?"
+      },
+      "options": [
+        {
+          "content": "Variants",
+          "correct": true
+        },
+        {
+          "content": "States"
+        },
+        {
+          "content": "Instances"
+        },
+        {
+          "content": "Alternatives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de fusionner des formes dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Boolean Operations",
+          "correct": true
+        },
+        {
+          "content": "Shape Merge"
+        },
+        {
+          "content": "Path Combine"
+        },
+        {
+          "content": "Vector Union"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'effets peuvent être appliqués à un objet dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Drop Shadow",
+          "correct": true
+        },
+        {
+          "content": "Inner Shadow",
+          "correct": true
+        },
+        {
+          "content": "Layer Blur",
+          "correct": true
+        },
+        {
+          "content": "Gradient Overlay",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des designs accessibles en vérifiant les contrastes de couleurs ?"
+      },
+      "options": [
+        {
+          "content": "Contrast Checker",
+          "correct": true
+        },
+        {
+          "content": "Accessibility Tester"
+        },
+        {
+          "content": "Color Validator"
+        },
+        {
+          "content": "WCAG Inspector"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des liens entre différents fichiers Figma ?"
+      },
+      "options": [
+        {
+          "content": "Library",
+          "correct": true
+        },
+        {
+          "content": "Team Files"
+        },
+        {
+          "content": "Shared Components"
+        },
+        {
+          "content": "Project Links"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de grilles peuvent être créés dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Grid",
+          "correct": true
+        },
+        {
+          "content": "Columns",
+          "correct": true
+        },
+        {
+          "content": "Rows",
+          "correct": true
+        },
+        {
+          "content": "Radial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des dégradés complexes avec plusieurs points d'arrêt ?"
+      },
+      "options": [
+        {
+          "content": "Gradient Editor",
+          "correct": true
+        },
+        {
+          "content": "Color Blender"
+        },
+        {
+          "content": "Spectrum Tool"
+        },
+        {
+          "content": "Hue Mixer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des designs adaptatifs pour différents appareils dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Responsive Resize",
+          "correct": true
+        },
+        {
+          "content": "Device Mirroring"
+        },
+        {
+          "content": "Adaptive Layout"
+        },
+        {
+          "content": "Screen Scaling"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes peuvent être appliqués à un texte dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Fixed Width",
+          "correct": true
+        },
+        {
+          "content": "Auto Width",
+          "correct": true
+        },
+        {
+          "content": "Auto Height",
+          "correct": true
+        },
+        {
+          "content": "Fixed Height",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des styles de couleur réutilisables ?"
+      },
+      "options": [
+        {
+          "content": "Color Styles",
+          "correct": true
+        },
+        {
+          "content": "Swatches"
+        },
+        {
+          "content": "Palette Presets"
+        },
+        {
+          "content": "Hue Templates"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des masques dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Mask",
+          "correct": true
+        },
+        {
+          "content": "Clip"
+        },
+        {
+          "content": "Crop"
+        },
+        {
+          "content": "Hide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'interactions peuvent être ajoutés à un prototype dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Click",
+          "correct": true
+        },
+        {
+          "content": "Hover",
+          "correct": true
+        },
+        {
+          "content": "Drag",
+          "correct": true
+        },
+        {
+          "content": "Voice Command"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des composants avec des propriétés personnalisables ?"
+      },
+      "options": [
+        {
+          "content": "Component Properties",
+          "correct": true
+        },
+        {
+          "content": "Dynamic Components"
+        },
+        {
+          "content": "Variant Properties"
+        },
+        {
+          "content": "Instance Overrides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des guides d'alignement temporaires dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Smart Guides",
+          "correct": true
+        },
+        {
+          "content": "Snap Lines"
+        },
+        {
+          "content": "Alignment Helpers"
+        },
+        {
+          "content": "Dynamic Rulers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes peuvent être appliqués à un groupe dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Fix position when scrolling",
+          "correct": true
+        },
+        {
+          "content": "Clip content",
+          "correct": true
+        },
+        {
+          "content": "Horizontal scrolling",
+          "correct": true
+        },
+        {
+          "content": "Vertical scrolling",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des versions alternatives d'un design ?"
+      },
+      "options": [
+        {
+          "content": "Branches",
+          "correct": true
+        },
+        {
+          "content": "Versions"
+        },
+        {
+          "content": "Alternatives"
+        },
+        {
+          "content": "Duplicates"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des règles de design dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Design System",
+          "correct": true
+        },
+        {
+          "content": "Style Guide"
+        },
+        {
+          "content": "Brand Kit"
+        },
+        {
+          "content": "UI Kit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'effets peuvent être appliqués à un texte dans Figma ?"
+      },
+      "options": [
+        {
+          "content": "Drop Shadow",
+          "correct": true
+        },
+        {
+          "content": "Inner Shadow",
+          "correct": true
+        },
+        {
+          "content": "Layer Blur",
+          "correct": true
+        },
+        {
+          "content": "Background Blur",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Figma permet de créer des animations entre différents états d'un composant ?"
+      },
+      "options": [
+        {
+          "content": "Smart Animate",
+          "correct": true
+        },
+        {
+          "content": "State Transitions"
+        },
+        {
+          "content": "Component Animation"
+        },
+        {
+          "content": "Variant Morphing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de créer des liens vers des sections spécifiques d'un prototype Figma ?"
+      },
+      "options": [
+        {
+          "content": "Anchor Links",
+          "correct": true
+        },
+        {
+          "content": "Section Jumps"
+        },
+        {
+          "content": "Internal Links"
+        },
+        {
+          "content": "Page Shortcuts"
+        }
+      ]
+    }
+  ]
+}

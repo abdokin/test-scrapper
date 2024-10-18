@@ -1,0 +1,987 @@
+{
+  "title": "Power BI",
+  "attributes": {
+    "overview": "Ce test Power BI évalue les connaissances et compétences techniques des candidats au niveau du logiciel et leur capacité à créer des conceptions informatives et visuellement attrayantes. Ce test vous aide à identifier les candidats qui sont des utilisateurs compétents de Microsoft Power BI.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Importation et transformation de données",
+      "Modélisation de données",
+      "Création de visualisations",
+      "DAX (Data Analysis Expressions)",
+      "Partage et collaboration",
+      "Sécurité et administration"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'analyste de données, de business intelligence, ou tout rôle nécessitant des compétences en visualisation de données avec Power BI.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Power BI, évaluant la capacité du candidat à importer, transformer et visualiser des données efficacement.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale fonction de Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Création de présentations",
+          "correct": false
+        },
+        {
+          "content": "Analyse et visualisation de données",
+          "correct": true
+        },
+        {
+          "content": "Édition de documents",
+          "correct": false
+        },
+        {
+          "content": "Gestion de bases de données",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel format de fichier est spécifique à Power BI Desktop ?"
+      },
+      "options": [
+        {
+          "content": ".pbi",
+          "correct": false
+        },
+        {
+          "content": ".pbix",
+          "correct": true
+        },
+        {
+          "content": ".powerbi",
+          "correct": false
+        },
+        {
+          "content": ".pbd",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Power Query est utilisée pour combiner plusieurs requêtes en une seule ?"
+      },
+      "options": [
+        {
+          "content": "Merge Queries",
+          "correct": false
+        },
+        {
+          "content": "Append Queries",
+          "correct": true
+        },
+        {
+          "content": "Join Queries",
+          "correct": false
+        },
+        {
+          "content": "Combine Queries",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence principale entre Power BI Desktop et Power BI Service ?"
+      },
+      "options": [
+        {
+          "content": "Power BI Desktop est payant, Power BI Service est gratuit",
+          "correct": false
+        },
+        {
+          "content": "Power BI Desktop est une application locale, Power BI Service est basé sur le cloud",
+          "correct": true
+        },
+        {
+          "content": "Power BI Desktop est pour les débutants, Power BI Service pour les experts",
+          "correct": false
+        },
+        {
+          "content": "Power BI Desktop est pour l'analyse, Power BI Service pour la collecte de données",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de sources de données Power BI peut-il utiliser ?"
+      },
+      "options": [
+        {
+          "content": "Fichiers Excel",
+          "correct": true
+        },
+        {
+          "content": "Bases de données SQL",
+          "correct": true
+        },
+        {
+          "content": "Services en ligne (ex: Salesforce)",
+          "correct": true
+        },
+        {
+          "content": "Fichiers audio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour calculer la somme d'une colonne ?"
+      },
+      "options": [
+        {
+          "content": "SUM()",
+          "correct": true
+        },
+        {
+          "content": "TOTAL()",
+          "correct": false
+        },
+        {
+          "content": "SUMUP()",
+          "correct": false
+        },
+        {
+          "content": "ADD()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de visualisation est le plus approprié pour comparer des valeurs entre différentes catégories ?"
+      },
+      "options": [
+        {
+          "content": "Graphique en courbes",
+          "correct": false
+        },
+        {
+          "content": "Graphique à barres",
+          "correct": true
+        },
+        {
+          "content": "Graphique circulaire",
+          "correct": false
+        },
+        {
+          "content": "Nuage de points",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de filtrer les données dans plusieurs visuels simultanément ?"
+      },
+      "options": [
+        {
+          "content": "Slicers",
+          "correct": true
+        },
+        {
+          "content": "Bookmarks",
+          "correct": false
+        },
+        {
+          "content": "Drill-through",
+          "correct": false
+        },
+        {
+          "content": "Quick Insights",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes typiques du processus ETL dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Extract (Extraire)",
+          "correct": true
+        },
+        {
+          "content": "Transform (Transformer)",
+          "correct": true
+        },
+        {
+          "content": "Load (Charger)",
+          "correct": true
+        },
+        {
+          "content": "Execute (Exécuter)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour créer une table calendrier ?"
+      },
+      "options": [
+        {
+          "content": "CALENDAR()",
+          "correct": true
+        },
+        {
+          "content": "DATES()",
+          "correct": false
+        },
+        {
+          "content": "MAKECALENDAR()",
+          "correct": false
+        },
+        {
+          "content": "DATATABLE()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'une relation dans le modèle de données Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Fusionner des tables",
+          "correct": false
+        },
+        {
+          "content": "Créer des calculs",
+          "correct": false
+        },
+        {
+          "content": "Établir des liens entre les tables",
+          "correct": true
+        },
+        {
+          "content": "Filtrer des données",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de mesures DAX par rapport aux colonnes calculées ?"
+      },
+      "options": [
+        {
+          "content": "Elles sont recalculées à chaque interaction",
+          "correct": true
+        },
+        {
+          "content": "Elles n'augmentent pas la taille du modèle",
+          "correct": true
+        },
+        {
+          "content": "Elles peuvent utiliser des fonctions d'agrégation",
+          "correct": true
+        },
+        {
+          "content": "Elles sont plus rapides à calculer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de créer des sous-ensembles de données pour différents utilisateurs ?"
+      },
+      "options": [
+        {
+          "content": "Row-level security (RLS)",
+          "correct": true
+        },
+        {
+          "content": "Data masking",
+          "correct": false
+        },
+        {
+          "content": "Column-level security",
+          "correct": false
+        },
+        {
+          "content": "Data encryption",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour calculer le total cumulé ?"
+      },
+      "options": [
+        {
+          "content": "SUMX()",
+          "correct": false
+        },
+        {
+          "content": "TOTALYTD()",
+          "correct": false
+        },
+        {
+          "content": "CUMULATE()",
+          "correct": false
+        },
+        {
+          "content": "CALCULATE()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de licences Power BI sont disponibles ?"
+      },
+      "options": [
+        {
+          "content": "Power BI Free",
+          "correct": true
+        },
+        {
+          "content": "Power BI Pro",
+          "correct": true
+        },
+        {
+          "content": "Power BI Premium",
+          "correct": true
+        },
+        {
+          "content": "Power BI Ultimate",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des rapports paginés dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Power BI Report Builder",
+          "correct": true
+        },
+        {
+          "content": "Power BI Paginator",
+          "correct": false
+        },
+        {
+          "content": "Power BI Print Designer",
+          "correct": false
+        },
+        {
+          "content": "Power BI Page Maker",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour renvoyer la valeur précédente dans une table ?"
+      },
+      "options": [
+        {
+          "content": "PREVIOUS()",
+          "correct": false
+        },
+        {
+          "content": "EARLIER()",
+          "correct": false
+        },
+        {
+          "content": "LOOKUPVALUE()",
+          "correct": false
+        },
+        {
+          "content": "PREVIOUSQUARTER()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Power BI Dataflows ?"
+      },
+      "options": [
+        {
+          "content": "Réutilisation des transformations de données",
+          "correct": true
+        },
+        {
+          "content": "Centralisation de la logique métier",
+          "correct": true
+        },
+        {
+          "content": "Réduction de la charge sur les sources de données",
+          "correct": true
+        },
+        {
+          "content": "Création automatique de visualisations",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour créer une hiérarchie de temps ?"
+      },
+      "options": [
+        {
+          "content": "HIERARCHY()",
+          "correct": false
+        },
+        {
+          "content": "TIMEHIERARCHY()",
+          "correct": false
+        },
+        {
+          "content": "CALENDARAUTO()",
+          "correct": true
+        },
+        {
+          "content": "DATEHIERARCHY()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de créer des applications personnalisées intégrant des rapports ?"
+      },
+      "options": [
+        {
+          "content": "Power BI Embedded",
+          "correct": true
+        },
+        {
+          "content": "Power BI Custom Visuals",
+          "correct": false
+        },
+        {
+          "content": "Power BI Developer Tools",
+          "correct": false
+        },
+        {
+          "content": "Power BI API",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de connexions de données disponibles dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Import",
+          "correct": true
+        },
+        {
+          "content": "DirectQuery",
+          "correct": true
+        },
+        {
+          "content": "Live Connection",
+          "correct": true
+        },
+        {
+          "content": "Streaming",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour calculer la moyenne mobile sur une période donnée ?"
+      },
+      "options": [
+        {
+          "content": "AVERAGEX()",
+          "correct": false
+        },
+        {
+          "content": "MOVINGAVERAGE()",
+          "correct": false
+        },
+        {
+          "content": "AVERAGEIF()",
+          "correct": false
+        },
+        {
+          "content": "CALCULATE() avec FILTER()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des alertes basées sur les données dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Data Alerts",
+          "correct": true
+        },
+        {
+          "content": "Smart Notifications",
+          "correct": false
+        },
+        {
+          "content": "Trigger Warnings",
+          "correct": false
+        },
+        {
+          "content": "Insight Alerts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Power BI Premium ?"
+      },
+      "options": [
+        {
+          "content": "Capacité dédiée",
+          "correct": true
+        },
+        {
+          "content": "Tailles de modèles plus importantes",
+          "correct": true
+        },
+        {
+          "content": "Refresh plus fréquent",
+          "correct": true
+        },
+        {
+          "content": "Création illimitée de rapports",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour renvoyer la dernière date non vide dans une colonne ?"
+      },
+      "options": [
+        {
+          "content": "LASTDATE()",
+          "correct": true
+        },
+        {
+          "content": "MAXDATE()",
+          "correct": false
+        },
+        {
+          "content": "ENDOFMONTH()",
+          "correct": false
+        },
+        {
+          "content": "LASTNONBLANK()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de combiner plusieurs sources de données sans les fusionner ?"
+      },
+      "options": [
+        {
+          "content": "Composite Models",
+          "correct": true
+        },
+        {
+          "content": "Data Mashup",
+          "correct": false
+        },
+        {
+          "content": "Query Merging",
+          "correct": false
+        },
+        {
+          "content": "Multi-source Connector",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de visualisations sont natifs dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Treemap",
+          "correct": true
+        },
+        {
+          "content": "Funnel chart",
+          "correct": true
+        },
+        {
+          "content": "Waterfall chart",
+          "correct": true
+        },
+        {
+          "content": "Sankey diagram",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour créer une table virtuelle ?"
+      },
+      "options": [
+        {
+          "content": "CALCULATETABLE()",
+          "correct": true
+        },
+        {
+          "content": "VIRTUALTABLE()",
+          "correct": false
+        },
+        {
+          "content": "ADDCOLUMNS()",
+          "correct": false
+        },
+        {
+          "content": "SUMMARIZE()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de créer des modèles de rapports réutilisables ?"
+      },
+      "options": [
+        {
+          "content": "Report Themes",
+          "correct": true
+        },
+        {
+          "content": "Design Templates",
+          "correct": false
+        },
+        {
+          "content": "Visual Styles",
+          "correct": false
+        },
+        {
+          "content": "Layout Presets",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de rôles disponibles dans Power BI Service ?"
+      },
+      "options": [
+        {
+          "content": "Admin",
+          "correct": true
+        },
+        {
+          "content": "Member",
+          "correct": true
+        },
+        {
+          "content": "Contributor",
+          "correct": true
+        },
+        {
+          "content": "Developer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour renvoyer le rang d'une valeur dans une liste ?"
+      },
+      "options": [
+        {
+          "content": "RANK()",
+          "correct": false
+        },
+        {
+          "content": "RANKX()",
+          "correct": true
+        },
+        {
+          "content": "ORDERBY()",
+          "correct": false
+        },
+        {
+          "content": "SORT()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet d'analyser les performances des rapports ?"
+      },
+      "options": [
+        {
+          "content": "Performance Analyzer",
+          "correct": true
+        },
+        {
+          "content": "Query Diagnostics",
+          "correct": false
+        },
+        {
+          "content": "Report Inspector",
+          "correct": false
+        },
+        {
+          "content": "DAX Studio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Power BI Dataflows ?"
+      },
+      "options": [
+        {
+          "content": "Séparation de la préparation et de la modélisation des données",
+          "correct": true
+        },
+        {
+          "content": "Réutilisation des transformations de données entre les rapports",
+          "correct": true
+        },
+        {
+          "content": "Rafraîchissement automatique des données",
+          "correct": true
+        },
+        {
+          "content": "Création automatique de visualisations",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour calculer le pourcentage du total ?"
+      },
+      "options": [
+        {
+          "content": "DIVIDE()",
+          "correct": false
+        },
+        {
+          "content": "PERCENTAGE()",
+          "correct": false
+        },
+        {
+          "content": "TOTALRATIO()",
+          "correct": false
+        },
+        {
+          "content": "DIVIDE() avec CALCULATE()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de créer des rapports optimisés pour les appareils mobiles ?"
+      },
+      "options": [
+        {
+          "content": "Mobile Layout",
+          "correct": true
+        },
+        {
+          "content": "Responsive Design",
+          "correct": false
+        },
+        {
+          "content": "Phone View",
+          "correct": false
+        },
+        {
+          "content": "Tablet Optimizer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour créer une table de dates dynamique ?"
+      },
+      "options": [
+        {
+          "content": "CALENDAR()",
+          "correct": false
+        },
+        {
+          "content": "CALENDARAUTO()",
+          "correct": true
+        },
+        {
+          "content": "DATESBETWEEN()",
+          "correct": false
+        },
+        {
+          "content": "GENERATEDATE()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de DirectQuery dans Power BI ?"
+      },
+      "options": [
+        {
+          "content": "Données toujours à jour",
+          "correct": true
+        },
+        {
+          "content": "Pas de limite de taille de données",
+          "correct": true
+        },
+        {
+          "content": "Utilisation réduite de la mémoire",
+          "correct": true
+        },
+        {
+          "content": "Performances plus rapides que l'import",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Power BI permet de créer des interactions personnalisées entre les visuels ?"
+      },
+      "options": [
+        {
+          "content": "Cross-filtering",
+          "correct": false
+        },
+        {
+          "content": "Drill-through",
+          "correct": false
+        },
+        {
+          "content": "Bookmarks",
+          "correct": false
+        },
+        {
+          "content": "Report page tooltips",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction DAX est utilisée pour calculer la somme cumulative dans une table ?"
+      },
+      "options": [
+        {
+          "content": "SUMX()",
+          "correct": false
+        },
+        {
+          "content": "CALCULATE()",
+          "correct": false
+        },
+        {
+          "content": "CUMULATIVESUM()",
+          "correct": false
+        },
+        {
+          "content": "SUMX() avec FILTER()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de licences sont nécessaires pour partager des rapports Power BI avec des utilisateurs externes ?"
+      },
+      "options": [
+        {
+          "content": "Power BI Pro",
+          "correct": true
+        },
+        {
+          "content": "Power BI Premium Per User",
+          "correct": true
+        },
+        {
+          "content": "Power BI Premium Per Capacity",
+          "correct": true
+        },
+        {
+          "content": "Power BI Free",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

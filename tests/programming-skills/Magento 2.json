@@ -1,0 +1,874 @@
+{
+  "title": "Magento 2",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en développement de modules, de thèmes et de sites e-commerce avec Magento 2. Il aide à identifier les développeurs Magento 2 expérimentés capables de répondre aux besoins spécifiques de développement.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Architecture Magento 2",
+      "Développement de modules",
+      "Personnalisation de thèmes",
+      "Configuration du système",
+      "Gestion des produits et catégories",
+      "Optimisation des performances",
+      "Intégration de paiements",
+      "Sécurité Magento 2"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur Magento 2, d'intégrateur e-commerce ou d'administrateur de site Magento 2.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du développement Magento 2, évaluant la capacité du candidat à créer des modules, personnaliser des thèmes et optimiser les performances des sites e-commerce.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande Magento 2 est utilisée pour vider le cache ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento cache:flush",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento cache:clear"
+        },
+        {
+          "content": "php bin/magento cache:clean"
+        },
+        {
+          "content": "php bin/magento cache:remove"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Dans quel répertoire se trouvent les modules tiers (third-party) dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "app/code"
+        },
+        {
+          "content": "vendor",
+          "correct": true
+        },
+        {
+          "content": "lib"
+        },
+        {
+          "content": "pub"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les types de cache disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Configuration",
+          "correct": true
+        },
+        {
+          "content": "Layout",
+          "correct": true
+        },
+        {
+          "content": "Block HTML",
+          "correct": true
+        },
+        {
+          "content": "Database"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est l'extension de fichier utilisée pour les templates de bloc dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": ".php"
+        },
+        {
+          "content": ".html"
+        },
+        {
+          "content": ".phtml",
+          "correct": true
+        },
+        {
+          "content": ".tpl"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du fichier de configuration principal d'un module Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "config.xml"
+        },
+        {
+          "content": "module.xml",
+          "correct": true
+        },
+        {
+          "content": "settings.xml"
+        },
+        {
+          "content": "setup.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes d'application disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Developer",
+          "correct": true
+        },
+        {
+          "content": "Production",
+          "correct": true
+        },
+        {
+          "content": "Default",
+          "correct": true
+        },
+        {
+          "content": "Staging"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour générer du code dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento generate:code"
+        },
+        {
+          "content": "php bin/magento setup:di:compile",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento dev:code:generate"
+        },
+        {
+          "content": "php bin/magento compile:code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'outil de ligne de commande intégré à Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Magento CLI",
+          "correct": true
+        },
+        {
+          "content": "M2 Console"
+        },
+        {
+          "content": "Mage Tool"
+        },
+        {
+          "content": "Magento Shell"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de produits disponibles par défaut dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Simple",
+          "correct": true
+        },
+        {
+          "content": "Configurable",
+          "correct": true
+        },
+        {
+          "content": "Bundle",
+          "correct": true
+        },
+        {
+          "content": "Customizable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour étendre les fonctionnalités d'un module existant dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Modifier directement le code du module"
+        },
+        {
+          "content": "Utiliser des plugins",
+          "correct": true
+        },
+        {
+          "content": "Copier et renommer le module"
+        },
+        {
+          "content": "Utiliser des observers uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du framework JavaScript utilisé par défaut dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "jQuery",
+          "correct": true
+        },
+        {
+          "content": "React"
+        },
+        {
+          "content": "Vue.js"
+        },
+        {
+          "content": "Angular"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'index disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Product Flat",
+          "correct": true
+        },
+        {
+          "content": "Category Flat",
+          "correct": true
+        },
+        {
+          "content": "Stock Status",
+          "correct": true
+        },
+        {
+          "content": "Customer Rating"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour exécuter les tests unitaires dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento dev:tests:run unit",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento test:unit:run"
+        },
+        {
+          "content": "php phpunit.phar"
+        },
+        {
+          "content": "php bin/magento test:execute unit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du fichier de configuration utilisé pour définir les dépendances d'un module Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "composer.json",
+          "correct": true
+        },
+        {
+          "content": "dependencies.xml"
+        },
+        {
+          "content": "require.php"
+        },
+        {
+          "content": "module-info.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mise en page (layout) disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Page layout",
+          "correct": true
+        },
+        {
+          "content": "Generic layout",
+          "correct": true
+        },
+        {
+          "content": "Handle layout",
+          "correct": true
+        },
+        {
+          "content": "Dynamic layout"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour ajouter des scripts JavaScript personnalisés dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser require.js",
+          "correct": true
+        },
+        {
+          "content": "Inclure directement dans le fichier phtml"
+        },
+        {
+          "content": "Ajouter dans le fichier head.phtml"
+        },
+        {
+          "content": "Utiliser un CDN externe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'outil de gestion des dépendances utilisé par Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Composer",
+          "correct": true
+        },
+        {
+          "content": "npm"
+        },
+        {
+          "content": "Yarn"
+        },
+        {
+          "content": "Bower"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'attributs de produit disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Text",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Yes/No",
+          "correct": true
+        },
+        {
+          "content": "Rating"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de la classe de base pour les contrôleurs dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Magento\\Framework\\App\\Action\\Action",
+          "correct": true
+        },
+        {
+          "content": "Magento\\Core\\Controller\\Front\\Action"
+        },
+        {
+          "content": "Magento\\Controller\\Base"
+        },
+        {
+          "content": "Magento\\Framework\\Controller\\AbstractController"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour mettre à jour le schéma de la base de données dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento setup:upgrade",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento db:upgrade"
+        },
+        {
+          "content": "php bin/magento setup:db-schema:upgrade"
+        },
+        {
+          "content": "php bin/magento database:update"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de variables disponibles dans les templates Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "$block",
+          "correct": true
+        },
+        {
+          "content": "$this",
+          "correct": true
+        },
+        {
+          "content": "$escaper",
+          "correct": true
+        },
+        {
+          "content": "$helper"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour remplacer (override) un template dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Copier le template dans le thème personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Modifier directement le template dans le module d'origine"
+        },
+        {
+          "content": "Utiliser un plugin pour modifier le contenu du template"
+        },
+        {
+          "content": "Créer un nouveau module avec le même nom de template"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du fichier de configuration utilisé pour définir les routes dans un module Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "routes.xml",
+          "correct": true
+        },
+        {
+          "content": "config.xml"
+        },
+        {
+          "content": "router.xml"
+        },
+        {
+          "content": "frontname.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de messages disponibles dans le système de messagerie de Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Success",
+          "correct": true
+        },
+        {
+          "content": "Error",
+          "correct": true
+        },
+        {
+          "content": "Warning",
+          "correct": true
+        },
+        {
+          "content": "Debug"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour générer les fichiers de traduction dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento i18n:collect-phrases",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento translate:generate"
+        },
+        {
+          "content": "php bin/magento i18n:generate-files"
+        },
+        {
+          "content": "php bin/magento setup:static-content:deploy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'interface utilisée pour définir un bloc dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Magento\\Framework\\View\\Element\\BlockInterface",
+          "correct": true
+        },
+        {
+          "content": "Magento\\Block\\AbstractBlock"
+        },
+        {
+          "content": "Magento\\Framework\\Block\\Interface"
+        },
+        {
+          "content": "Magento\\View\\Block\\BlockInterface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de réductions (discounts) disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Coupon code",
+          "correct": true
+        },
+        {
+          "content": "Cart price rule",
+          "correct": true
+        },
+        {
+          "content": "Catalog price rule",
+          "correct": true
+        },
+        {
+          "content": "Customer loyalty discount"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour ajouter des styles CSS personnalisés dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser LESS/SASS dans un thème personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Modifier directement les fichiers CSS du thème Luma"
+        },
+        {
+          "content": "Ajouter des styles inline dans les templates phtml"
+        },
+        {
+          "content": "Utiliser uniquement JavaScript pour appliquer des styles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du fichier de configuration utilisé pour définir les observateurs (observers) dans un module Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "events.xml",
+          "correct": true
+        },
+        {
+          "content": "observers.xml"
+        },
+        {
+          "content": "config.xml"
+        },
+        {
+          "content": "listener.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de widgets disponibles par défaut dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "CMS Page Link",
+          "correct": true
+        },
+        {
+          "content": "Catalog Product List",
+          "correct": true
+        },
+        {
+          "content": "Orders and Returns",
+          "correct": true
+        },
+        {
+          "content": "Customer Reviews"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour déployer le contenu statique dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "php bin/magento setup:static-content:deploy",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento deploy:static-content"
+        },
+        {
+          "content": "php bin/magento static:deploy"
+        },
+        {
+          "content": "php bin/magento content:static-deploy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de la classe de base pour les modèles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Magento\\Framework\\Model\\AbstractModel",
+          "correct": true
+        },
+        {
+          "content": "Magento\\Core\\Model\\AbstractModel"
+        },
+        {
+          "content": "Magento\\Model\\Base"
+        },
+        {
+          "content": "Magento\\Framework\\AbstractModel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de données de configuration disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "System configuration",
+          "correct": true
+        },
+        {
+          "content": "Module configuration",
+          "correct": true
+        },
+        {
+          "content": "Theme configuration",
+          "correct": true
+        },
+        {
+          "content": "Database configuration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour implémenter une nouvelle méthode de paiement dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Créer un module de paiement personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Modifier directement le code du module de paiement existant"
+        },
+        {
+          "content": "Utiliser un plugin pour étendre un module de paiement existant"
+        },
+        {
+          "content": "Ajouter le code de paiement dans le thème actuel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du fichier de configuration utilisé pour définir les ACL (Access Control List) dans un module Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "acl.xml",
+          "correct": true
+        },
+        {
+          "content": "permissions.xml"
+        },
+        {
+          "content": "security.xml"
+        },
+        {
+          "content": "access.xml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de contraintes d'intégrité référentielle disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "CASCADE",
+          "correct": true
+        },
+        {
+          "content": "SET NULL",
+          "correct": true
+        },
+        {
+          "content": "NO ACTION",
+          "correct": true
+        },
+        {
+          "content": "RESTRICT"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour créer un nouveau module dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Il n'y a pas de commande intégrée, il faut créer manuellement la structure du module",
+          "correct": true
+        },
+        {
+          "content": "php bin/magento module:create"
+        },
+        {
+          "content": "php bin/magento setup:module:generate"
+        },
+        {
+          "content": "php bin/magento dev:module:new"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'interface utilisée pour définir un repository dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Magento\\Framework\\Api\\SearchCriteriaInterface",
+          "correct": true
+        },
+        {
+          "content": "Magento\\Framework\\Model\\ResourceModel\\Db\\Collection\\AbstractCollection"
+        },
+        {
+          "content": "Magento\\Framework\\Data\\Collection"
+        },
+        {
+          "content": "Magento\\Framework\\Api\\Search\\SearchResultInterface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de cron jobs disponibles dans Magento 2 ?"
+      },
+      "options": [
+        {
+          "content": "Default",
+          "correct": true
+        },
+        {
+          "content": "Index",
+          "correct": true
+        },
+        {
+          "content": "Magento",
+          "correct": true
+        },
+        {
+          "content": "Cleanup"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "title": "SQL Server Management Studio",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace de SQL Server Management Studio (SSMS) pour concevoir, développer et gérer des bases de données sur SQL Server.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface SSMS",
+      "Création et gestion de bases de données",
+      "Requêtes SQL",
+      "Gestion des utilisateurs et des autorisations",
+      "Sauvegarde et restauration",
+      "Optimisation des performances",
+      "Outils d'administration"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur de base de données, de développeur SQL ou tout rôle nécessitant une expertise en gestion de bases de données SQL Server.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de SQL Server Management Studio, évaluant la capacité du candidat à utiliser efficacement l'outil pour diverses tâches de gestion de bases de données.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité de SSMS permet de visualiser et modifier la structure d'une table existante ?"
+      },
+      "options": [
+        {
+          "content": "Concepteur de tables",
+          "correct": true
+        },
+        {
+          "content": "Explorateur d'objets"
+        },
+        {
+          "content": "Éditeur de requêtes"
+        },
+        {
+          "content": "Gestionnaire de configuration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande SQL est utilisée pour créer une nouvelle base de données dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "CREATE DATABASE",
+          "correct": true
+        },
+        {
+          "content": "NEW DATABASE"
+        },
+        {
+          "content": "GENERATE DATABASE"
+        },
+        {
+          "content": "INIT DATABASE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les types de sauvegardes disponibles dans SQL Server Management Studio ?"
+      },
+      "options": [
+        {
+          "content": "Sauvegarde complète",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde différentielle",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde de journal de transactions",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde incrémentielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil dans SSMS est utilisé pour analyser et optimiser les performances des requêtes ?"
+      },
+      "options": [
+        {
+          "content": "Plan d'exécution",
+          "correct": true
+        },
+        {
+          "content": "Profiler SQL"
+        },
+        {
+          "content": "Gestionnaire d'activité"
+        },
+        {
+          "content": "Database Engine Tuning Advisor"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité permet de créer un diagramme visuel des relations entre les tables ?"
+      },
+      "options": [
+        {
+          "content": "Concepteur de diagrammes de base de données",
+          "correct": true
+        },
+        {
+          "content": "Explorateur d'objets"
+        },
+        {
+          "content": "Éditeur de requêtes"
+        },
+        {
+          "content": "Gestionnaire de rapports"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types d'objets peuvent être créés à l'aide de l'Explorateur d'objets dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Tables",
+          "correct": true
+        },
+        {
+          "content": "Vues",
+          "correct": true
+        },
+        {
+          "content": "Procédures stockées",
+          "correct": true
+        },
+        {
+          "content": "Connexions réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet d'exécuter des requêtes SQL ?"
+      },
+      "options": [
+        {
+          "content": "Éditeur de requêtes",
+          "correct": true
+        },
+        {
+          "content": "Explorateur d'objets"
+        },
+        {
+          "content": "Gestionnaire de configuration"
+        },
+        {
+          "content": "Concepteur de tables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS permet de surveiller l'activité en temps réel sur le serveur SQL ?"
+      },
+      "options": [
+        {
+          "content": "Moniteur d'activité",
+          "correct": true
+        },
+        {
+          "content": "Profiler SQL"
+        },
+        {
+          "content": "Gestionnaire de configuration"
+        },
+        {
+          "content": "Explorateur d'objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles options de sauvegarde sont disponibles lors de la création d'une sauvegarde complète dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Compression",
+          "correct": true
+        },
+        {
+          "content": "Chiffrement",
+          "correct": true
+        },
+        {
+          "content": "Vérification",
+          "correct": true
+        },
+        {
+          "content": "Fragmentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de générer des scripts pour les objets de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Tâches > Générer des scripts",
+          "correct": true
+        },
+        {
+          "content": "Outils > Générer des scripts"
+        },
+        {
+          "content": "Fichier > Exporter"
+        },
+        {
+          "content": "Édition > Créer un script"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour configurer la réplication de bases de données ?"
+      },
+      "options": [
+        {
+          "content": "Assistant de configuration de la réplication",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de réplication"
+        },
+        {
+          "content": "Concepteur de réplication"
+        },
+        {
+          "content": "Moniteur de réplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types d'index peuvent être créés à l'aide de SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Index clustérisé",
+          "correct": true
+        },
+        {
+          "content": "Index non clustérisé",
+          "correct": true
+        },
+        {
+          "content": "Index columnstore",
+          "correct": true
+        },
+        {
+          "content": "Index spatial",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de comparer et synchroniser des schémas de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Comparaison de schémas",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de versions"
+        },
+        {
+          "content": "Synchroniseur de données"
+        },
+        {
+          "content": "Outil de migration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS permet de créer et gérer des tâches d'administration récurrentes ?"
+      },
+      "options": [
+        {
+          "content": "Agent SQL Server",
+          "correct": true
+        },
+        {
+          "content": "Planificateur de tâches"
+        },
+        {
+          "content": "Gestionnaire de configuration"
+        },
+        {
+          "content": "Moniteur d'activité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types de graphiques sont disponibles dans l'outil de requête avec résultats graphiques de SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Histogramme",
+          "correct": true
+        },
+        {
+          "content": "Graphique en courbes",
+          "correct": true
+        },
+        {
+          "content": "Graphique circulaire",
+          "correct": true
+        },
+        {
+          "content": "Nuage de points",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de définir des autorisations granulaires pour les utilisateurs et les rôles ?"
+      },
+      "options": [
+        {
+          "content": "Sécurité > Autorisations",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de sécurité"
+        },
+        {
+          "content": "Contrôle d'accès"
+        },
+        {
+          "content": "Gestionnaire de rôles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour importer et exporter des données entre différentes sources ?"
+      },
+      "options": [
+        {
+          "content": "Assistant Importation et exportation",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de transfert"
+        },
+        {
+          "content": "Outil ETL"
+        },
+        {
+          "content": "Convertisseur de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles options de configuration sont disponibles dans les propriétés d'une base de données dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Options de récupération",
+          "correct": true
+        },
+        {
+          "content": "Modèle de récupération",
+          "correct": true
+        },
+        {
+          "content": "Niveau de compatibilité",
+          "correct": true
+        },
+        {
+          "content": "Paramètres de chiffrement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de créer et gérer des instantanés de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Tâches > Créer un instantané de base de données",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de sauvegardes"
+        },
+        {
+          "content": "Outil de clonage"
+        },
+        {
+          "content": "Gestionnaire de versions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS permet de gérer les connexions et les sessions actives sur le serveur ?"
+      },
+      "options": [
+        {
+          "content": "Gestionnaire d'activité",
+          "correct": true
+        },
+        {
+          "content": "Moniteur de sessions"
+        },
+        {
+          "content": "Gestionnaire de connexions"
+        },
+        {
+          "content": "Contrôleur de trafic"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types de triggers peuvent être créés à l'aide de SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Triggers DML",
+          "correct": true
+        },
+        {
+          "content": "Triggers DDL",
+          "correct": true
+        },
+        {
+          "content": "Triggers de connexion",
+          "correct": true
+        },
+        {
+          "content": "Triggers de base de données",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de générer des rapports sur l'utilisation et les performances de la base de données ?"
+      },
+      "options": [
+        {
+          "content": "Rapports standard",
+          "correct": true
+        },
+        {
+          "content": "Générateur de rapports"
+        },
+        {
+          "content": "Analyseur de performances"
+        },
+        {
+          "content": "Tableau de bord d'utilisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour créer et gérer des plans de maintenance de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Assistant Plan de maintenance",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de tâches"
+        },
+        {
+          "content": "Planificateur d'entretien"
+        },
+        {
+          "content": "Outil d'optimisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles options sont disponibles lors de la création d'une nouvelle table dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Définir les colonnes",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des contraintes",
+          "correct": true
+        },
+        {
+          "content": "Créer des index",
+          "correct": true
+        },
+        {
+          "content": "Spécifier les déclencheurs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de visualiser et modifier les données d'une table ?"
+      },
+      "options": [
+        {
+          "content": "Modifier les 200 premières lignes",
+          "correct": true
+        },
+        {
+          "content": "Éditeur de données"
+        },
+        {
+          "content": "Visualiseur de contenu"
+        },
+        {
+          "content": "Explorateur de tables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour gérer les sauvegardes et les restaurations de bases de données ?"
+      },
+      "options": [
+        {
+          "content": "Plans de maintenance",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de sauvegardes"
+        },
+        {
+          "content": "Centre de récupération"
+        },
+        {
+          "content": "Outil de sauvegarde et restauration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types de fichiers peuvent être importés à l'aide de l'Assistant Importation et exportation dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "CSV",
+          "correct": true
+        },
+        {
+          "content": "Excel",
+          "correct": true
+        },
+        {
+          "content": "XML",
+          "correct": true
+        },
+        {
+          "content": "JSON",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de comparer le contenu de deux tables ?"
+      },
+      "options": [
+        {
+          "content": "Comparaison de données",
+          "correct": true
+        },
+        {
+          "content": "Analyseur de différences"
+        },
+        {
+          "content": "Outil de synchronisation"
+        },
+        {
+          "content": "Vérificateur de contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour configurer et gérer les paramètres de réplication ?"
+      },
+      "options": [
+        {
+          "content": "Configuration de la réplication",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire de distribution"
+        },
+        {
+          "content": "Centre de réplication"
+        },
+        {
+          "content": "Synchroniseur de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles options de configuration sont disponibles pour les index dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Facteur de remplissage",
+          "correct": true
+        },
+        {
+          "content": "Colonnes incluses",
+          "correct": true
+        },
+        {
+          "content": "Compression",
+          "correct": true
+        },
+        {
+          "content": "Filtre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de surveiller les performances des requêtes en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "Moniteur d'activité",
+          "correct": true
+        },
+        {
+          "content": "Profiler SQL"
+        },
+        {
+          "content": "Analyseur de requêtes"
+        },
+        {
+          "content": "Gestionnaire de performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour créer et gérer des tâches planifiées ?"
+      },
+      "options": [
+        {
+          "content": "Agent SQL Server",
+          "correct": true
+        },
+        {
+          "content": "Planificateur de tâches"
+        },
+        {
+          "content": "Gestionnaire de travaux"
+        },
+        {
+          "content": "Ordonnanceur SQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types de contraintes peuvent être ajoutés à une table dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Clé primaire",
+          "correct": true
+        },
+        {
+          "content": "Clé étrangère",
+          "correct": true
+        },
+        {
+          "content": "Contrainte unique",
+          "correct": true
+        },
+        {
+          "content": "Contrainte de vérification",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de générer des scripts pour les objets de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Tâches > Générer des scripts",
+          "correct": true
+        },
+        {
+          "content": "Exportateur de scripts"
+        },
+        {
+          "content": "Générateur de code SQL"
+        },
+        {
+          "content": "Assistant de script"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour analyser et optimiser les requêtes SQL ?"
+      },
+      "options": [
+        {
+          "content": "Analyse de requête",
+          "correct": true
+        },
+        {
+          "content": "Optimiseur SQL"
+        },
+        {
+          "content": "Tuning Advisor"
+        },
+        {
+          "content": "Gestionnaire de performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels types de diagrammes peuvent être créés dans le Concepteur de diagrammes de base de données de SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Diagramme d'entité-relation",
+          "correct": true
+        },
+        {
+          "content": "Diagramme de tables",
+          "correct": true
+        },
+        {
+          "content": "Diagramme de dépendances",
+          "correct": true
+        },
+        {
+          "content": "Diagramme de flux de données",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonctionnalité de SSMS permet de créer et gérer des utilisateurs et des rôles de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Sécurité",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire d'accès"
+        },
+        {
+          "content": "Contrôle des utilisateurs"
+        },
+        {
+          "content": "Centre de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel outil dans SSMS est utilisé pour configurer et gérer les paramètres de mirroring de base de données ?"
+      },
+      "options": [
+        {
+          "content": "Configuration du mirroring",
+          "correct": true
+        },
+        {
+          "content": "Assistant de réplication"
+        },
+        {
+          "content": "Gestionnaire de haute disponibilité"
+        },
+        {
+          "content": "Centre de redondance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles options sont disponibles lors de la création d'une nouvelle procédure stockée dans SSMS ?"
+      },
+      "options": [
+        {
+          "content": "Définir les paramètres",
+          "correct": true
+        },
+        {
+          "content": "Spécifier le corps de la procédure",
+          "correct": true
+        },
+        {
+          "content": "Configurer les options de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des commentaires",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

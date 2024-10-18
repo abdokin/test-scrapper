@@ -1,0 +1,880 @@
+{
+  "title": "Microsoft Word",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à utiliser Microsoft Word de manière professionnelle, facilitant le recrutement de personnes maîtrisant Word et l'intégrant efficacement dans la suite Microsoft Office pour leurs tâches quotidiennes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Mise en forme de texte",
+      "Gestion des styles",
+      "Création de tableaux",
+      "Insertion d'images et d'objets",
+      "Utilisation des outils de révision",
+      "Création de modèles",
+      "Publipostage",
+      "Collaboration et partage de documents"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière de Microsoft Word, tels que les assistants administratifs, les rédacteurs, les chargés de communication ou les gestionnaires de projet.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Microsoft Word, évaluant la capacité du candidat à créer, éditer et formater des documents professionnels.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle combinaison de touches permet de mettre un texte en gras dans Microsoft Word ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + G"
+        },
+        {
+          "content": "Ctrl + B",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + F"
+        },
+        {
+          "content": "Ctrl + I"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment appelle-t-on la fonction qui permet d'envoyer le même document à plusieurs destinataires avec des informations personnalisées ?"
+      },
+      "options": [
+        {
+          "content": "Fusion"
+        },
+        {
+          "content": "Diffusion"
+        },
+        {
+          "content": "Publipostage",
+          "correct": true
+        },
+        {
+          "content": "Mailing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel onglet contient l'option pour insérer un saut de page dans Microsoft Word ?"
+      },
+      "options": [
+        {
+          "content": "Accueil"
+        },
+        {
+          "content": "Insertion",
+          "correct": true
+        },
+        {
+          "content": "Mise en page"
+        },
+        {
+          "content": "Révision"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de vérifier automatiquement l'orthographe et la grammaire dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "AutoCorrection"
+        },
+        {
+          "content": "Vérificateur"
+        },
+        {
+          "content": "Grammaire+"
+        },
+        {
+          "content": "Correction automatique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on un ensemble de formats prédéfinis pour le texte, les paragraphes et les titres dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Thèmes"
+        },
+        {
+          "content": "Styles",
+          "correct": true
+        },
+        {
+          "content": "Modèles"
+        },
+        {
+          "content": "Formats"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour l'alignement du texte dans un paragraphe ?"
+      },
+      "options": [
+        {
+          "content": "Aligné à gauche",
+          "correct": true
+        },
+        {
+          "content": "Centré",
+          "correct": true
+        },
+        {
+          "content": "Aligné à droite",
+          "correct": true
+        },
+        {
+          "content": "Justifié",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une table des matières automatique dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Table des matières",
+          "correct": true
+        },
+        {
+          "content": "Références > Sommaire"
+        },
+        {
+          "content": "Mise en page > Table des matières"
+        },
+        {
+          "content": "Affichage > Insérer une table"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment s'appelle la fonction qui permet de comparer deux versions d'un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Fusionner"
+        },
+        {
+          "content": "Comparer",
+          "correct": true
+        },
+        {
+          "content": "Différencier"
+        },
+        {
+          "content": "Contraster"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de mise en forme disponibles pour les bordures d'un tableau dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Style de ligne",
+          "correct": true
+        },
+        {
+          "content": "Couleur",
+          "correct": true
+        },
+        {
+          "content": "Épaisseur",
+          "correct": true
+        },
+        {
+          "content": "Texture"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet d'insérer automatiquement la date du jour dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "AutoDate"
+        },
+        {
+          "content": "Insertion > Date"
+        },
+        {
+          "content": "Champ de date",
+          "correct": true
+        },
+        {
+          "content": "QuickDate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonction qui permet de créer un document Word à partir d'un modèle existant ?"
+      },
+      "options": [
+        {
+          "content": "Clonage"
+        },
+        {
+          "content": "Duplication"
+        },
+        {
+          "content": "Création à partir d'un modèle",
+          "correct": true
+        },
+        {
+          "content": "Reproduction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de sauts de section disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Page suivante",
+          "correct": true
+        },
+        {
+          "content": "Continu",
+          "correct": true
+        },
+        {
+          "content": "Page paire",
+          "correct": true
+        },
+        {
+          "content": "Page impaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un lien hypertexte dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + K",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + H"
+        },
+        {
+          "content": "Ctrl + L"
+        },
+        {
+          "content": "Ctrl + U"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonction qui permet de fusionner plusieurs cellules d'un tableau en une seule ?"
+      },
+      "options": [
+        {
+          "content": "Combiner"
+        },
+        {
+          "content": "Unir"
+        },
+        {
+          "content": "Fusionner",
+          "correct": true
+        },
+        {
+          "content": "Regrouper"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes d'affichage disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Mode Lecture",
+          "correct": true
+        },
+        {
+          "content": "Mode Page",
+          "correct": true
+        },
+        {
+          "content": "Mode Web",
+          "correct": true
+        },
+        {
+          "content": "Mode Plan",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une lettrine dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Lettrine",
+          "correct": true
+        },
+        {
+          "content": "Format > Première lettre"
+        },
+        {
+          "content": "Mise en page > Lettrine"
+        },
+        {
+          "content": "Accueil > Styles de texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment s'appelle la fonction qui permet de créer des étiquettes d'adresse à partir d'une liste de contacts dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Création d'étiquettes"
+        },
+        {
+          "content": "Publipostage",
+          "correct": true
+        },
+        {
+          "content": "Fusion d'adresses"
+        },
+        {
+          "content": "Impression en série"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mise en forme de paragraphe disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Interligne",
+          "correct": true
+        },
+        {
+          "content": "Retrait",
+          "correct": true
+        },
+        {
+          "content": "Espacement",
+          "correct": true
+        },
+        {
+          "content": "Alignement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un index dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Références > Insérer un index",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Index"
+        },
+        {
+          "content": "Mise en page > Créer un index"
+        },
+        {
+          "content": "Affichage > Index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonction qui permet de créer des en-têtes et des pieds de page différents pour les pages paires et impaires ?"
+      },
+      "options": [
+        {
+          "content": "En-têtes et pieds de page multiples"
+        },
+        {
+          "content": "En-têtes et pieds de page alternés"
+        },
+        {
+          "content": "Pages paires/impaires différentes",
+          "correct": true
+        },
+        {
+          "content": "En-têtes et pieds de page personnalisés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de puces disponibles par défaut dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Puces pleines",
+          "correct": true
+        },
+        {
+          "content": "Puces vides",
+          "correct": true
+        },
+        {
+          "content": "Puces carrées",
+          "correct": true
+        },
+        {
+          "content": "Puces triangulaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de protéger un document Word contre les modifications non autorisées ?"
+      },
+      "options": [
+        {
+          "content": "Chiffrement"
+        },
+        {
+          "content": "Verrouillage"
+        },
+        {
+          "content": "Restriction de modification",
+          "correct": true
+        },
+        {
+          "content": "Protection par mot de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment s'appelle la fonction qui permet de créer une table des illustrations dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Table des illustrations",
+          "correct": true
+        },
+        {
+          "content": "Références > Liste des figures"
+        },
+        {
+          "content": "Mise en page > Table des images"
+        },
+        {
+          "content": "Affichage > Insérer une table des illustrations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de numérotation disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Numérique",
+          "correct": true
+        },
+        {
+          "content": "Alphabétique",
+          "correct": true
+        },
+        {
+          "content": "Romain",
+          "correct": true
+        },
+        {
+          "content": "Personnalisé",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un filigrane dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Filigrane",
+          "correct": true
+        },
+        {
+          "content": "Mise en page > Arrière-plan"
+        },
+        {
+          "content": "Format > Filigrane"
+        },
+        {
+          "content": "Affichage > Insérer un filigrane"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment s'appelle la fonction qui permet de créer des notes de bas de page dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Note de bas de page",
+          "correct": true
+        },
+        {
+          "content": "Références > Ajouter une note"
+        },
+        {
+          "content": "Mise en page > Note de page"
+        },
+        {
+          "content": "Révision > Insérer une note"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mise en forme de caractères disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Gras",
+          "correct": true
+        },
+        {
+          "content": "Italique",
+          "correct": true
+        },
+        {
+          "content": "Souligné",
+          "correct": true
+        },
+        {
+          "content": "Barré",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une table des autorités dans un document juridique Word ?"
+      },
+      "options": [
+        {
+          "content": "Références > Table des autorités",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Table juridique"
+        },
+        {
+          "content": "Mise en page > Autorités"
+        },
+        {
+          "content": "Révision > Insérer une table des autorités"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonction qui permet de créer des colonnes dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Mise en page > Colonnes",
+          "correct": true
+        },
+        {
+          "content": "Format > Diviser en colonnes"
+        },
+        {
+          "content": "Insertion > Colonnes de texte"
+        },
+        {
+          "content": "Affichage > Colonnes multiples"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de sauts disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Saut de page",
+          "correct": true
+        },
+        {
+          "content": "Saut de colonne",
+          "correct": true
+        },
+        {
+          "content": "Saut de section",
+          "correct": true
+        },
+        {
+          "content": "Saut de ligne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un signet dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Signet",
+          "correct": true
+        },
+        {
+          "content": "Références > Ajouter un signet"
+        },
+        {
+          "content": "Affichage > Signet"
+        },
+        {
+          "content": "Révision > Marquer l'emplacement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment s'appelle la fonction qui permet de créer des formulaires interactifs dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Contrôles de formulaire",
+          "correct": true
+        },
+        {
+          "content": "Champs de saisie"
+        },
+        {
+          "content": "Zones interactives"
+        },
+        {
+          "content": "Éléments de formulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'orientation de page disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Portrait",
+          "correct": true
+        },
+        {
+          "content": "Paysage",
+          "correct": true
+        },
+        {
+          "content": "Carré"
+        },
+        {
+          "content": "Panoramique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un index des citations dans un document Word ?"
+      },
+      "options": [
+        {
+          "content": "Références > Insérer une table des citations",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Index des citations"
+        },
+        {
+          "content": "Révision > Créer un index des citations"
+        },
+        {
+          "content": "Affichage > Table des citations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonction qui permet de créer des styles personnalisés dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Création de style",
+          "correct": true
+        },
+        {
+          "content": "Format personnalisé"
+        },
+        {
+          "content": "Nouveau style"
+        },
+        {
+          "content": "Style utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mise en page disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Marges",
+          "correct": true
+        },
+        {
+          "content": "Orientation",
+          "correct": true
+        },
+        {
+          "content": "Taille du papier",
+          "correct": true
+        },
+        {
+          "content": "Colonnes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer un sommaire automatique dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Références > Table des matières",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Sommaire"
+        },
+        {
+          "content": "Affichage > Créer un sommaire"
+        },
+        {
+          "content": "Mise en page > Table des contenus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de révision disponibles dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Suivi des modifications",
+          "correct": true
+        },
+        {
+          "content": "Commentaires",
+          "correct": true
+        },
+        {
+          "content": "Comparaison de documents",
+          "correct": true
+        },
+        {
+          "content": "Validation des changements",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle combinaison de touches permet d'ouvrir la boîte de dialogue 'Rechercher et remplacer' dans Word ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + F"
+        },
+        {
+          "content": "Ctrl + H",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + R"
+        },
+        {
+          "content": "Ctrl + S"
+        }
+      ]
+    }
+  ]
+}

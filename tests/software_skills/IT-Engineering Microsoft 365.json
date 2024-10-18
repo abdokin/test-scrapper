@@ -1,0 +1,852 @@
+{
+  "title": "IT/Engineering Microsoft 365",
+  "attributes": {
+    "overview": "Ce test Microsoft 365 évalue les compétences techniques des candidats utilisant la plateforme Microsoft 365 (Exchange Online, Azure Active Directory, SharePoint et Microsoft Teams) et leur capacité à évaluer, concevoir, déployer et gérer les services Microsoft 365.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Exchange Online",
+      "Azure Active Directory",
+      "SharePoint",
+      "Microsoft Teams",
+      "Gestion des licences",
+      "Sécurité et conformité",
+      "PowerShell pour Microsoft 365",
+      "Intégration des applications"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur système, d'ingénieur cloud ou de spécialiste Microsoft 365 nécessitant une expertise approfondie de la suite Microsoft 365.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Microsoft 365, évaluant la capacité du candidat à gérer, configurer et dépanner les services Microsoft 365.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel service Microsoft 365 est principalement utilisé pour la gestion des identités et des accès ?"
+      },
+      "options": [
+        {
+          "content": "Azure Active Directory",
+          "correct": true
+        },
+        {
+          "content": "Exchange Online"
+        },
+        {
+          "content": "SharePoint Online"
+        },
+        {
+          "content": "Microsoft Teams"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de protéger les données sensibles dans les e-mails et les documents ?"
+      },
+      "options": [
+        {
+          "content": "Information Rights Management (IRM)",
+          "correct": true
+        },
+        {
+          "content": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "content": "Data Loss Prevention (DLP)"
+        },
+        {
+          "content": "Single Sign-On (SSO)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est utilisé pour gérer en masse les utilisateurs et les licences dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "PowerShell",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Graph API"
+        },
+        {
+          "content": "Centre d'administration Microsoft 365"
+        },
+        {
+          "content": "Microsoft Intune"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants principaux d'Exchange Online ?"
+      },
+      "options": [
+        {
+          "content": "Boîtes aux lettres",
+          "correct": true
+        },
+        {
+          "content": "Groupes de distribution",
+          "correct": true
+        },
+        {
+          "content": "Règles de transport",
+          "correct": true
+        },
+        {
+          "content": "Bibliothèques de documents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SharePoint Online permet de créer des flux de travail automatisés ?"
+      },
+      "options": [
+        {
+          "content": "Power Automate (anciennement Flow)",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Designer"
+        },
+        {
+          "content": "InfoPath"
+        },
+        {
+          "content": "SharePoint Framework"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la limite de stockage par défaut pour une boîte aux lettres Exchange Online dans un plan E3 ?"
+      },
+      "options": [
+        {
+          "content": "100 Go",
+          "correct": true
+        },
+        {
+          "content": "50 Go"
+        },
+        {
+          "content": "1 To"
+        },
+        {
+          "content": "250 Go"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation d'Azure AD Connect ?"
+      },
+      "options": [
+        {
+          "content": "Synchronisation des identités entre on-premises et le cloud",
+          "correct": true
+        },
+        {
+          "content": "Authentification unique (SSO)",
+          "correct": true
+        },
+        {
+          "content": "Gestion des licences Microsoft 365"
+        },
+        {
+          "content": "Sauvegarde des données Microsoft 365"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft Teams permet de créer des espaces de travail structurés pour des projets spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Canaux",
+          "correct": true
+        },
+        {
+          "content": "Onglets"
+        },
+        {
+          "content": "Connecteurs"
+        },
+        {
+          "content": "Bots"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour configurer les stratégies de rétention dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Centre de sécurité et conformité",
+          "correct": true
+        },
+        {
+          "content": "Centre d'administration Exchange"
+        },
+        {
+          "content": "Azure Information Protection"
+        },
+        {
+          "content": "Microsoft Intune"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes d'authentification prises en charge par Azure AD ?"
+      },
+      "options": [
+        {
+          "content": "Mot de passe",
+          "correct": true
+        },
+        {
+          "content": "Windows Hello for Business",
+          "correct": true
+        },
+        {
+          "content": "FIDO2 security keys",
+          "correct": true
+        },
+        {
+          "content": "Certificats auto-signés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SharePoint Online permet de personnaliser l'apparence d'un site sans code ?"
+      },
+      "options": [
+        {
+          "content": "SharePoint Design Manager",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Framework"
+        },
+        {
+          "content": "PowerApps"
+        },
+        {
+          "content": "Microsoft Flow"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est utilisé pour synchroniser les calendriers entre Outlook et les appareils mobiles ?"
+      },
+      "options": [
+        {
+          "content": "CalDAV",
+          "correct": true
+        },
+        {
+          "content": "IMAP"
+        },
+        {
+          "content": "POP3"
+        },
+        {
+          "content": "SMTP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de groupes disponibles dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Groupes Microsoft 365",
+          "correct": true
+        },
+        {
+          "content": "Groupes de distribution",
+          "correct": true
+        },
+        {
+          "content": "Groupes de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Groupes dynamiques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de gérer les appareils mobiles dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Microsoft Intune",
+          "correct": true
+        },
+        {
+          "content": "Azure AD Premium"
+        },
+        {
+          "content": "Microsoft Endpoint Manager"
+        },
+        {
+          "content": "System Center Configuration Manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Microsoft 365 est utilisé pour créer et gérer des formulaires en ligne ?"
+      },
+      "options": [
+        {
+          "content": "Microsoft Forms",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Lists"
+        },
+        {
+          "content": "Microsoft Surveys"
+        },
+        {
+          "content": "Excel Online"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de déploiement d'Office 365 ProPlus ?"
+      },
+      "options": [
+        {
+          "content": "Click-to-Run",
+          "correct": true
+        },
+        {
+          "content": "Office Deployment Tool",
+          "correct": true
+        },
+        {
+          "content": "Group Policy",
+          "correct": true
+        },
+        {
+          "content": "Windows Update"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de sécurité Microsoft 365 analyse automatiquement les pièces jointes et les liens dans les e-mails ?"
+      },
+      "options": [
+        {
+          "content": "Office 365 Advanced Threat Protection",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Defender for Endpoint"
+        },
+        {
+          "content": "Azure Information Protection"
+        },
+        {
+          "content": "Cloud App Security"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer des rapports personnalisés sur l'utilisation de Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Power BI",
+          "correct": true
+        },
+        {
+          "content": "Excel"
+        },
+        {
+          "content": "SharePoint"
+        },
+        {
+          "content": "Microsoft Forms"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes de migration vers Exchange Online ?"
+      },
+      "options": [
+        {
+          "content": "Migration par déplacement",
+          "correct": true
+        },
+        {
+          "content": "Migration intermédiaire",
+          "correct": true
+        },
+        {
+          "content": "Migration IMAP",
+          "correct": true
+        },
+        {
+          "content": "Migration POP3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft Teams permet d'intégrer des applications tierces ?"
+      },
+      "options": [
+        {
+          "content": "Connecteurs",
+          "correct": true
+        },
+        {
+          "content": "Bots"
+        },
+        {
+          "content": "Onglets"
+        },
+        {
+          "content": "Canaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Microsoft 365 est utilisé pour la gestion des droits d'information ?"
+      },
+      "options": [
+        {
+          "content": "Azure Information Protection",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Intune"
+        },
+        {
+          "content": "Azure Active Directory"
+        },
+        {
+          "content": "Microsoft Defender ATP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de sites disponibles dans SharePoint Online ?"
+      },
+      "options": [
+        {
+          "content": "Sites d'équipe",
+          "correct": true
+        },
+        {
+          "content": "Sites de communication",
+          "correct": true
+        },
+        {
+          "content": "Sites hub",
+          "correct": true
+        },
+        {
+          "content": "Sites personnels",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft 365 permet de découvrir, classer et protéger les informations sensibles ?"
+      },
+      "options": [
+        {
+          "content": "Data Loss Prevention (DLP)",
+          "correct": true
+        },
+        {
+          "content": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "content": "Single Sign-On (SSO)"
+        },
+        {
+          "content": "Conditional Access"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer des applications personnalisées sans code dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Power Apps",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Framework"
+        },
+        {
+          "content": "Visual Studio"
+        },
+        {
+          "content": "Microsoft Flow"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation d'Office Online ?"
+      },
+      "options": [
+        {
+          "content": "Collaboration en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Accès depuis n'importe quel appareil avec un navigateur",
+          "correct": true
+        },
+        {
+          "content": "Stockage automatique dans OneDrive",
+          "correct": true
+        },
+        {
+          "content": "Fonctionnalités avancées comme les macros"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de sécurité permet de contrôler l'accès aux ressources Microsoft 365 en fonction de divers facteurs comme l'emplacement ou l'appareil ?"
+      },
+      "options": [
+        {
+          "content": "Accès conditionnel",
+          "correct": true
+        },
+        {
+          "content": "Multi-Factor Authentication"
+        },
+        {
+          "content": "Information Rights Management"
+        },
+        {
+          "content": "Data Loss Prevention"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service Microsoft 365 est utilisé pour archiver et conserver les e-mails et autres contenus à des fins de conformité ?"
+      },
+      "options": [
+        {
+          "content": "In-Place Archive",
+          "correct": true
+        },
+        {
+          "content": "OneDrive for Business"
+        },
+        {
+          "content": "SharePoint Online"
+        },
+        {
+          "content": "Microsoft Stream"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de règles de transport disponibles dans Exchange Online ?"
+      },
+      "options": [
+        {
+          "content": "Règles de flux de messagerie",
+          "correct": true
+        },
+        {
+          "content": "Règles de journalisation",
+          "correct": true
+        },
+        {
+          "content": "Règles DLP",
+          "correct": true
+        },
+        {
+          "content": "Règles de routage automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft Teams permet de créer et gérer des flux de travail directement dans l'application ?"
+      },
+      "options": [
+        {
+          "content": "Power Automate",
+          "correct": true
+        },
+        {
+          "content": "Planner"
+        },
+        {
+          "content": "Forms"
+        },
+        {
+          "content": "OneNote"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour gérer les stratégies de groupe dans un environnement Azure AD ?"
+      },
+      "options": [
+        {
+          "content": "Intune",
+          "correct": true
+        },
+        {
+          "content": "Group Policy Management Console"
+        },
+        {
+          "content": "Active Directory Administrative Center"
+        },
+        {
+          "content": "Azure AD Connect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de partage de fichiers disponibles dans OneDrive for Business ?"
+      },
+      "options": [
+        {
+          "content": "Partage avec des utilisateurs spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Partage avec toute personne disposant du lien",
+          "correct": true
+        },
+        {
+          "content": "Partage avec des personnes de votre organisation",
+          "correct": true
+        },
+        {
+          "content": "Partage sur les réseaux sociaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft 365 permet de créer des workflows entre différentes applications ?"
+      },
+      "options": [
+        {
+          "content": "Power Automate",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Designer"
+        },
+        {
+          "content": "Microsoft Forms"
+        },
+        {
+          "content": "Teams Channels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service est utilisé pour gérer les licences et les abonnements Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Centre d'administration Microsoft 365",
+          "correct": true
+        },
+        {
+          "content": "Azure Portal"
+        },
+        {
+          "content": "Office Deployment Tool"
+        },
+        {
+          "content": "Windows Server Manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les fonctionnalités de sécurité incluses dans Microsoft 365 Business Premium ?"
+      },
+      "options": [
+        {
+          "content": "Microsoft Defender for Office 365",
+          "correct": true
+        },
+        {
+          "content": "Intune",
+          "correct": true
+        },
+        {
+          "content": "Azure Information Protection",
+          "correct": true
+        },
+        {
+          "content": "Windows Defender Advanced Threat Protection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des sites d'équipe connectés dans SharePoint Online ?"
+      },
+      "options": [
+        {
+          "content": "Hub Sites",
+          "correct": true
+        },
+        {
+          "content": "Communication Sites"
+        },
+        {
+          "content": "Team Sites"
+        },
+        {
+          "content": "Project Sites"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour migrer des boîtes aux lettres d'un serveur Exchange sur site vers Exchange Online ?"
+      },
+      "options": [
+        {
+          "content": "Exchange Hybrid Configuration Wizard",
+          "correct": true
+        },
+        {
+          "content": "SharePoint Migration Tool"
+        },
+        {
+          "content": "Azure AD Connect"
+        },
+        {
+          "content": "OneDrive Sync Client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de politiques de rétention disponibles dans Microsoft 365 ?"
+      },
+      "options": [
+        {
+          "content": "Politiques de rétention statiques",
+          "correct": true
+        },
+        {
+          "content": "Politiques de rétention dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Politiques de rétention automatiques",
+          "correct": true
+        },
+        {
+          "content": "Politiques de rétention manuelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de Microsoft Teams permet de créer des espaces de travail virtuels pour des équipes spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Équipes",
+          "correct": true
+        },
+        {
+          "content": "Canaux"
+        },
+        {
+          "content": "Onglets"
+        },
+        {
+          "content": "Connecteurs"
+        }
+      ]
+    }
+  ]
+}

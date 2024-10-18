@@ -1,0 +1,877 @@
+{
+  "title": "Google Sheets",
+  "attributes": {
+    "overview": "Ce test évalue la connaissance des candidats sur les fonctionnalités techniques de Google Sheets et leur capacité à l'utiliser pour la gestion et l'analyse des données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Formules et fonctions",
+      "Mise en forme conditionnelle",
+      "Filtres et tris",
+      "Tableaux croisés dynamiques",
+      "Graphiques",
+      "Collaboration et partage",
+      "Automatisation avec les macros",
+      "Intégration avec d'autres outils Google"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière de Google Sheets pour l'analyse de données, la gestion de projets ou la création de rapports.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Sheets, évaluant la capacité du candidat à utiliser efficacement l'outil pour diverses tâches liées aux données.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle formule utiliseriez-vous pour additionner les valeurs dans la plage A1:A10 ?"
+      },
+      "options": [
+        {
+          "content": "=SOMME(A1:A10)",
+          "correct": true
+        },
+        {
+          "content": "=ADDITION(A1:A10)"
+        },
+        {
+          "content": "=TOTAL(A1:A10)"
+        },
+        {
+          "content": "=SUM(A1:A10)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment appelez-vous une colonne fixe lors du déplacement d'une formule ?"
+      },
+      "options": [
+        {
+          "content": "Référence absolue",
+          "correct": true
+        },
+        {
+          "content": "Référence relative"
+        },
+        {
+          "content": "Référence mixte"
+        },
+        {
+          "content": "Référence dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules non vides dans une plage ?"
+      },
+      "options": [
+        {
+          "content": "=NB(plage)",
+          "correct": true
+        },
+        {
+          "content": "=COMPTE(plage)"
+        },
+        {
+          "content": "=TOTAL(plage)"
+        },
+        {
+          "content": "=SOMME(plage)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de rechercher une valeur dans un tableau et de renvoyer une valeur correspondante d'une autre colonne ?"
+      },
+      "options": [
+        {
+          "content": "RECHERCHEV",
+          "correct": true
+        },
+        {
+          "content": "CHERCHER"
+        },
+        {
+          "content": "TROUVER"
+        },
+        {
+          "content": "INDEXER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de figer les premières lignes ou colonnes d'une feuille de calcul ?"
+      },
+      "options": [
+        {
+          "content": "Figer les volets",
+          "correct": true
+        },
+        {
+          "content": "Verrouiller les cellules"
+        },
+        {
+          "content": "Immobiliser l'écran"
+        },
+        {
+          "content": "Ancrer les lignes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Histogramme",
+          "correct": true
+        },
+        {
+          "content": "Camembert",
+          "correct": true
+        },
+        {
+          "content": "Nuage de points",
+          "correct": true
+        },
+        {
+          "content": "Hologramme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour arrondir 3.7 à l'entier le plus proche ?"
+      },
+      "options": [
+        {
+          "content": "=ARRONDI(3.7; 0)",
+          "correct": true
+        },
+        {
+          "content": "=ARRONDI.SUP(3.7)"
+        },
+        {
+          "content": "=ARRONDI.INF(3.7)"
+        },
+        {
+          "content": "=TRONQUE(3.7)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on la fonctionnalité qui permet de filtrer les données en fonction de conditions spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Filtre",
+          "correct": true
+        },
+        {
+          "content": "Tri"
+        },
+        {
+          "content": "Pivot"
+        },
+        {
+          "content": "Segment"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de combiner le contenu de plusieurs cellules en une seule ?"
+      },
+      "options": [
+        {
+          "content": "CONCATENER",
+          "correct": true
+        },
+        {
+          "content": "JOINDRE"
+        },
+        {
+          "content": "FUSIONNER"
+        },
+        {
+          "content": "ASSEMBLER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des tableaux croisés dynamiques ?"
+      },
+      "options": [
+        {
+          "content": "Résumer rapidement de grandes quantités de données",
+          "correct": true
+        },
+        {
+          "content": "Créer des visualisations interactives",
+          "correct": true
+        },
+        {
+          "content": "Effectuer des calculs complexes automatiquement",
+          "correct": true
+        },
+        {
+          "content": "Modifier les données source"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour trouver la valeur maximale dans une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "=MAX(plage)",
+          "correct": true
+        },
+        {
+          "content": "=MAXIMUM(plage)"
+        },
+        {
+          "content": "=GRAND(plage)"
+        },
+        {
+          "content": "=PLUS_GRAND(plage)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de modifier l'apparence des cellules en fonction de leur contenu ?"
+      },
+      "options": [
+        {
+          "content": "Mise en forme conditionnelle",
+          "correct": true
+        },
+        {
+          "content": "Formatage dynamique"
+        },
+        {
+          "content": "Stylisation automatique"
+        },
+        {
+          "content": "Coloration contextuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de partage disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Partager avec des utilisateurs spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Partager via un lien",
+          "correct": true
+        },
+        {
+          "content": "Publier sur le web",
+          "correct": true
+        },
+        {
+          "content": "Partager sur les réseaux sociaux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules dans une plage qui répondent à un critère spécifique ?"
+      },
+      "options": [
+        {
+          "content": "=NB.SI(plage; critère)",
+          "correct": true
+        },
+        {
+          "content": "=COMPTE.SI(plage; critère)"
+        },
+        {
+          "content": "=SOMME.SI(plage; critère)"
+        },
+        {
+          "content": "=TOTAL.SI(plage; critère)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet d'extraire des données d'une feuille et de les insérer dans une autre ?"
+      },
+      "options": [
+        {
+          "content": "IMPORTRANGE",
+          "correct": true
+        },
+        {
+          "content": "EXTRAIRE"
+        },
+        {
+          "content": "COPIER"
+        },
+        {
+          "content": "LIER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de protection disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Protection de feuille",
+          "correct": true
+        },
+        {
+          "content": "Protection de plage",
+          "correct": true
+        },
+        {
+          "content": "Protection de cellule",
+          "correct": true
+        },
+        {
+          "content": "Protection de formule"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer le nombre de jours entre deux dates ?"
+      },
+      "options": [
+        {
+          "content": "=DAYS(date_fin; date_début)",
+          "correct": true
+        },
+        {
+          "content": "=DATEDIF(date_début; date_fin; \"D\")"
+        },
+        {
+          "content": "=JOUR.OUVRE(date_début; date_fin)"
+        },
+        {
+          "content": "=INTERVALLE(date_début; date_fin)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet d'appliquer automatiquement des formats à une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "Mise en forme automatique",
+          "correct": true
+        },
+        {
+          "content": "Style rapide"
+        },
+        {
+          "content": "Formatage instantané"
+        },
+        {
+          "content": "Thème de cellules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de validation de données sont disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Liste de choix",
+          "correct": true
+        },
+        {
+          "content": "Plage de nombres",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Expression régulière",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour trouver une valeur dans un tableau trié ?"
+      },
+      "options": [
+        {
+          "content": "=RECHERCHE",
+          "correct": true
+        },
+        {
+          "content": "=TROUVE"
+        },
+        {
+          "content": "=CHERCHE"
+        },
+        {
+          "content": "=LOCALISE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des règles pour formater automatiquement les cellules en fonction de leur contenu ?"
+      },
+      "options": [
+        {
+          "content": "Mise en forme conditionnelle",
+          "correct": true
+        },
+        {
+          "content": "Formatage intelligent"
+        },
+        {
+          "content": "Style dynamique"
+        },
+        {
+          "content": "Règles de cellules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Ligne",
+          "correct": true
+        },
+        {
+          "content": "Aire",
+          "correct": true
+        },
+        {
+          "content": "Radar",
+          "correct": true
+        },
+        {
+          "content": "Bulle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour extraire le jour de la semaine d'une date ?"
+      },
+      "options": [
+        {
+          "content": "=JOURSEM(date)",
+          "correct": true
+        },
+        {
+          "content": "=JOUR(date)"
+        },
+        {
+          "content": "=SEMAINE(date)"
+        },
+        {
+          "content": "=JOURDELASEMAINE(date)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des formulaires liés à une feuille de calcul ?"
+      },
+      "options": [
+        {
+          "content": "Google Forms",
+          "correct": true
+        },
+        {
+          "content": "Sheets Survey"
+        },
+        {
+          "content": "Data Collector"
+        },
+        {
+          "content": "Sheet Query"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de protection de données sont disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Protection de feuille",
+          "correct": true
+        },
+        {
+          "content": "Protection de plage",
+          "correct": true
+        },
+        {
+          "content": "Protection de cellules",
+          "correct": true
+        },
+        {
+          "content": "Protection de formules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour convertir du texte en majuscules ?"
+      },
+      "options": [
+        {
+          "content": "=MAJUSCULE(texte)",
+          "correct": true
+        },
+        {
+          "content": "=UPPERCASE(texte)"
+        },
+        {
+          "content": "=TOUPPER(texte)"
+        },
+        {
+          "content": "=CAPITAL(texte)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des tableaux de bord interactifs dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Explorateur de données",
+          "correct": true
+        },
+        {
+          "content": "Dashboard Builder"
+        },
+        {
+          "content": "Rapport interactif"
+        },
+        {
+          "content": "Visualiseur de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Google Sheets pour la collaboration ?"
+      },
+      "options": [
+        {
+          "content": "Édition en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Commentaires et suggestions",
+          "correct": true
+        },
+        {
+          "content": "Historique des versions",
+          "correct": true
+        },
+        {
+          "content": "Modification hors ligne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules non vides dans une plage ?"
+      },
+      "options": [
+        {
+          "content": "=NB(plage)",
+          "correct": true
+        },
+        {
+          "content": "=COMPTE(plage)"
+        },
+        {
+          "content": "=SOMME(plage)"
+        },
+        {
+          "content": "=TOTAL(plage)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des règles pour formater automatiquement les cellules en fonction de leur contenu ?"
+      },
+      "options": [
+        {
+          "content": "Mise en forme conditionnelle",
+          "correct": true
+        },
+        {
+          "content": "Formatage intelligent"
+        },
+        {
+          "content": "Style dynamique"
+        },
+        {
+          "content": "Règles de cellules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Histogramme",
+          "correct": true
+        },
+        {
+          "content": "Courbe",
+          "correct": true
+        },
+        {
+          "content": "Secteur",
+          "correct": true
+        },
+        {
+          "content": "Nuage de points",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour rechercher une valeur dans un tableau et renvoyer la valeur correspondante d'une autre colonne ?"
+      },
+      "options": [
+        {
+          "content": "=RECHERCHEV",
+          "correct": true
+        },
+        {
+          "content": "=RECHERCHEH"
+        },
+        {
+          "content": "=TROUVE"
+        },
+        {
+          "content": "=INDEX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des segments de données pour filtrer rapidement les informations dans un tableau croisé dynamique ?"
+      },
+      "options": [
+        {
+          "content": "Segments",
+          "correct": true
+        },
+        {
+          "content": "Filtres"
+        },
+        {
+          "content": "Groupes"
+        },
+        {
+          "content": "Catégories"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de validation de données disponibles dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Liste déroulante",
+          "correct": true
+        },
+        {
+          "content": "Plage de nombres",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Texte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour combiner le contenu de plusieurs cellules en une seule ?"
+      },
+      "options": [
+        {
+          "content": "=CONCATENER",
+          "correct": true
+        },
+        {
+          "content": "=JOINDRE"
+        },
+        {
+          "content": "=FUSIONNER"
+        },
+        {
+          "content": "=COMBINER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet d'automatiser des tâches répétitives dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Apps Script",
+          "correct": true
+        },
+        {
+          "content": "Macros"
+        },
+        {
+          "content": "Automatisation"
+        },
+        {
+          "content": "Workflow"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des tableaux croisés dynamiques dans Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Synthèse rapide des données",
+          "correct": true
+        },
+        {
+          "content": "Analyse multidimensionnelle",
+          "correct": true
+        },
+        {
+          "content": "Filtrage interactif",
+          "correct": true
+        },
+        {
+          "content": "Création automatique de graphiques",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction utiliseriez-vous pour calculer la moyenne d'une plage de cellules ?"
+      },
+      "options": [
+        {
+          "content": "=MOYENNE",
+          "correct": true
+        },
+        {
+          "content": "=MOYEN"
+        },
+        {
+          "content": "=AVG"
+        },
+        {
+          "content": "=AVERAGE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des liens hypertextes dans une cellule ?"
+      },
+      "options": [
+        {
+          "content": "=LIEN_HYPERTEXTE",
+          "correct": true
+        },
+        {
+          "content": "=HYPERLINK"
+        },
+        {
+          "content": "=URL"
+        },
+        {
+          "content": "=LIEN"
+        }
+      ]
+    }
+  ]
+}

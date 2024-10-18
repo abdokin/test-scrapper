@@ -1,0 +1,898 @@
+{
+  "title": "AutoCAD",
+  "attributes": {
+    "overview": "Ce test AutoCAD évalue la capacité des candidats à produire, modifier et gérer des dessins pertinents pour n'importe quelle industrie, en 2D et en 3D. Ce test de sélection vous aidera à recruter des experts en conception qui maîtrisent AutoCAD et ne nécessitent aucune formation supplémentaire.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface utilisateur d'AutoCAD",
+      "Dessin 2D",
+      "Modélisation 3D",
+      "Annotation et cotation",
+      "Gestion des calques",
+      "Blocs et références externes",
+      "Impression et publication",
+      "Personnalisation et automatisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de dessinateur, concepteur CAO, ingénieur en conception, ou tout rôle nécessitant une expertise en AutoCAD.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'AutoCAD, évaluant la capacité du candidat à utiliser efficacement le logiciel pour la conception 2D et 3D.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande utilisez-vous pour créer un cercle dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "CERCLE",
+          "correct": true
+        },
+        {
+          "content": "ARC"
+        },
+        {
+          "content": "ELLIPSE"
+        },
+        {
+          "content": "SPLINE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande TRIM dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Couper des objets à leurs intersections",
+          "correct": true
+        },
+        {
+          "content": "Étirer des objets"
+        },
+        {
+          "content": "Créer des copies d'objets"
+        },
+        {
+          "content": "Aligner des objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types d'objets 3D que vous pouvez créer dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Boîte",
+          "correct": true
+        },
+        {
+          "content": "Sphère",
+          "correct": true
+        },
+        {
+          "content": "Cylindre",
+          "correct": true
+        },
+        {
+          "content": "Hexagone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une copie miroir d'un objet ?"
+      },
+      "options": [
+        {
+          "content": "MIROIR",
+          "correct": true
+        },
+        {
+          "content": "COPIER"
+        },
+        {
+          "content": "ROTATION"
+        },
+        {
+          "content": "SYMÉTRIE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le raccourci clavier pour annuler la dernière action dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+Z",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+Y"
+        },
+        {
+          "content": "Ctrl+X"
+        },
+        {
+          "content": "Ctrl+A"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer un dégradé entre deux courbes ?"
+      },
+      "options": [
+        {
+          "content": "LISSAGE",
+          "correct": true
+        },
+        {
+          "content": "FUSION"
+        },
+        {
+          "content": "BLEND"
+        },
+        {
+          "content": "INTERPOLER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de l'utilisation des blocs dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Réduire la taille du fichier",
+          "correct": true
+        },
+        {
+          "content": "Faciliter la modification d'objets répétitifs",
+          "correct": true
+        },
+        {
+          "content": "Améliorer la cohérence du dessin",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de rendu 3D",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer un réseau rectangulaire d'objets ?"
+      },
+      "options": [
+        {
+          "content": "RÉSEAU",
+          "correct": true
+        },
+        {
+          "content": "MATRICE"
+        },
+        {
+          "content": "COPIER"
+        },
+        {
+          "content": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande PEDIT dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Modifier des polylignes",
+          "correct": true
+        },
+        {
+          "content": "Éditer du texte"
+        },
+        {
+          "content": "Modifier des hachures"
+        },
+        {
+          "content": "Éditer des blocs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de cotation disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Linéaire",
+          "correct": true
+        },
+        {
+          "content": "Angulaire",
+          "correct": true
+        },
+        {
+          "content": "Rayon",
+          "correct": true
+        },
+        {
+          "content": "Volumétrique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande utilisez-vous pour créer une vue en coupe d'un modèle 3D ?"
+      },
+      "options": [
+        {
+          "content": "COUPE",
+          "correct": true
+        },
+        {
+          "content": "SECTION"
+        },
+        {
+          "content": "TRANCHE"
+        },
+        {
+          "content": "DÉCOUPE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande PURGE dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Supprimer les éléments inutilisés du dessin",
+          "correct": true
+        },
+        {
+          "content": "Nettoyer l'écran"
+        },
+        {
+          "content": "Supprimer tous les calques"
+        },
+        {
+          "content": "Effacer l'historique des commandes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de l'utilisation des références externes (Xref) dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Réduire la taille du fichier principal",
+          "correct": true
+        },
+        {
+          "content": "Faciliter la collaboration entre plusieurs utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Permettre la mise à jour automatique des modifications",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de calcul des rendus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une vue aplatie d'un objet 3D ?"
+      },
+      "options": [
+        {
+          "content": "APLATIR",
+          "correct": true
+        },
+        {
+          "content": "PROJETER"
+        },
+        {
+          "content": "2D"
+        },
+        {
+          "content": "PLANIFIER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande JOIN dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Fusionner des objets colinéaires ou coplanaires",
+          "correct": true
+        },
+        {
+          "content": "Joindre des fichiers externes"
+        },
+        {
+          "content": "Combiner des calques"
+        },
+        {
+          "content": "Unir des blocs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de rendu disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Filaire",
+          "correct": true
+        },
+        {
+          "content": "Ombré",
+          "correct": true
+        },
+        {
+          "content": "Réaliste",
+          "correct": true
+        },
+        {
+          "content": "Holographique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une vue isométrique d'un objet 3D ?"
+      },
+      "options": [
+        {
+          "content": "VUEISO",
+          "correct": true
+        },
+        {
+          "content": "ISO3D"
+        },
+        {
+          "content": "3DISO"
+        },
+        {
+          "content": "ISOMÉTRIQUE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande OFFSET dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Créer des copies parallèles d'objets",
+          "correct": true
+        },
+        {
+          "content": "Déplacer des objets"
+        },
+        {
+          "content": "Étirer des objets"
+        },
+        {
+          "content": "Aligner des objets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de contraintes disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Géométriques",
+          "correct": true
+        },
+        {
+          "content": "Dimensionnelles",
+          "correct": true
+        },
+        {
+          "content": "Dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Temporelles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une surface à partir de courbes dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "SURFRESEAU",
+          "correct": true
+        },
+        {
+          "content": "CRÉERSURF"
+        },
+        {
+          "content": "SURFACE"
+        },
+        {
+          "content": "RÉSEAU3D"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande WBLOCK dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Créer un fichier de dessin à partir d'objets ou de blocs",
+          "correct": true
+        },
+        {
+          "content": "Insérer un bloc"
+        },
+        {
+          "content": "Modifier un bloc"
+        },
+        {
+          "content": "Supprimer un bloc"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une vue en plan d'un modèle 3D ?"
+      },
+      "options": [
+        {
+          "content": "PLANEVIEW",
+          "correct": true
+        },
+        {
+          "content": "VUE2D"
+        },
+        {
+          "content": "PLAN"
+        },
+        {
+          "content": "FLATVIEW"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de hachures disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Prédéfinies",
+          "correct": true
+        },
+        {
+          "content": "Personnalisées",
+          "correct": true
+        },
+        {
+          "content": "Dégradées",
+          "correct": true
+        },
+        {
+          "content": "Animées",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer un congé entre deux lignes ?"
+      },
+      "options": [
+        {
+          "content": "FILLET",
+          "correct": true
+        },
+        {
+          "content": "CHANFREIN"
+        },
+        {
+          "content": "ARRONDI"
+        },
+        {
+          "content": "JONCTION"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande ALIGN dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Aligner des objets en fonction de points de référence",
+          "correct": true
+        },
+        {
+          "content": "Aligner du texte"
+        },
+        {
+          "content": "Aligner des calques"
+        },
+        {
+          "content": "Aligner des vues"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de l'utilisation des groupes dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la sélection d'objets liés",
+          "correct": true
+        },
+        {
+          "content": "Appliquer des modifications à plusieurs objets simultanément",
+          "correct": true
+        },
+        {
+          "content": "Organiser les objets de manière logique",
+          "correct": true
+        },
+        {
+          "content": "Réduire le temps de chargement du fichier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une polyligne 3D ?"
+      },
+      "options": [
+        {
+          "content": "3DPOLY",
+          "correct": true
+        },
+        {
+          "content": "POLYLIGNE3D"
+        },
+        {
+          "content": "3DLINE"
+        },
+        {
+          "content": "SPLINE3D"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande XPLODE dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Décomposer des objets complexes en éléments simples",
+          "correct": true
+        },
+        {
+          "content": "Créer une explosion visuelle"
+        },
+        {
+          "content": "Supprimer tous les objets du dessin"
+        },
+        {
+          "content": "Générer un rendu 3D explosé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de systèmes de coordonnées disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Système de coordonnées général (WCS)",
+          "correct": true
+        },
+        {
+          "content": "Système de coordonnées utilisateur (UCS)",
+          "correct": true
+        },
+        {
+          "content": "Système de coordonnées dynamique (DCS)",
+          "correct": true
+        },
+        {
+          "content": "Système de coordonnées relatif (RCS)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une vue de détail d'une partie spécifique du dessin ?"
+      },
+      "options": [
+        {
+          "content": "VIEWDETAIL",
+          "correct": true
+        },
+        {
+          "content": "ZOOM"
+        },
+        {
+          "content": "LOUPE"
+        },
+        {
+          "content": "DÉTAIL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande MTEXT dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Créer du texte multiligne avec formatage",
+          "correct": true
+        },
+        {
+          "content": "Modifier du texte existant"
+        },
+        {
+          "content": "Créer du texte sur une seule ligne"
+        },
+        {
+          "content": "Importer du texte depuis un fichier externe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de sélection disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Fenêtre",
+          "correct": true
+        },
+        {
+          "content": "Capture",
+          "correct": true
+        },
+        {
+          "content": "Clôture",
+          "correct": true
+        },
+        {
+          "content": "Magnétique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une matrice polaire d'objets ?"
+      },
+      "options": [
+        {
+          "content": "ARRAYPOLAR",
+          "correct": true
+        },
+        {
+          "content": "POLARMATRIX"
+        },
+        {
+          "content": "CIRCULARARRAY"
+        },
+        {
+          "content": "ROTATEARRAY"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande SWEEP dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Créer un solide 3D en balayant un profil le long d'un chemin",
+          "correct": true
+        },
+        {
+          "content": "Nettoyer le dessin des objets inutilisés"
+        },
+        {
+          "content": "Balayer une zone pour sélectionner des objets"
+        },
+        {
+          "content": "Créer une surface courbe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de projection orthographique disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Vue de face",
+          "correct": true
+        },
+        {
+          "content": "Vue de dessus",
+          "correct": true
+        },
+        {
+          "content": "Vue de côté",
+          "correct": true
+        },
+        {
+          "content": "Vue en perspective",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utilisez-vous pour créer une coupe transversale d'un solide 3D ?"
+      },
+      "options": [
+        {
+          "content": "SECTION",
+          "correct": true
+        },
+        {
+          "content": "SLICE"
+        },
+        {
+          "content": "CUT"
+        },
+        {
+          "content": "DIVIDE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction de la commande LAYISO dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Isoler des calques sélectionnés",
+          "correct": true
+        },
+        {
+          "content": "Créer un nouveau calque"
+        },
+        {
+          "content": "Fusionner des calques"
+        },
+        {
+          "content": "Verrouiller des calques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de rendu d'arête disponibles dans AutoCAD ?"
+      },
+      "options": [
+        {
+          "content": "Isolignes",
+          "correct": true
+        },
+        {
+          "content": "Arêtes cachées",
+          "correct": true
+        },
+        {
+          "content": "Silhouette",
+          "correct": true
+        },
+        {
+          "content": "Contour ombré",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

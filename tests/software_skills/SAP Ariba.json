@@ -1,0 +1,941 @@
+{
+  "title": "SAP Ariba",
+  "attributes": {
+    "overview": "Ce test SAP Ariba permet d'évaluer les compétences techniques et fonctionnelles des employés et consultants de la chaîne logistique liées à SAP Ariba. Il vous aidera à identifier les candidats les plus à même de proposer des solutions créatives et des opérations SAP Ariba efficaces.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Fondamentaux de SAP Ariba",
+      "Approvisionnement stratégique",
+      "Gestion des contrats",
+      "Gestion des fournisseurs",
+      "Analyse des dépenses",
+      "Intégration avec d'autres systèmes SAP",
+      "Configuration et personnalisation",
+      "Meilleures pratiques en matière de chaîne logistique"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une expertise en SAP Ariba, notamment les consultants, les gestionnaires de projet et les professionnels de la chaîne logistique.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de SAP Ariba, évaluant la capacité du candidat à utiliser efficacement la plateforme pour optimiser les processus de la chaîne logistique.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale fonction de SAP Ariba ?"
+      },
+      "options": [
+        {
+          "content": "Gestion de la relation client",
+          "correct": false
+        },
+        {
+          "content": "Gestion des ressources humaines",
+          "correct": false
+        },
+        {
+          "content": "Gestion de la chaîne logistique et des achats",
+          "correct": true
+        },
+        {
+          "content": "Gestion de la production",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les appels d'offres et les enchères inversées ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Network",
+          "correct": false
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": true
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité de SAP Ariba permet d'analyser les dépenses de l'entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Spend Analysis",
+          "correct": true
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Invoice Management",
+          "correct": false
+        },
+        {
+          "content": "Ariba Catalog",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l'avantage principal de l'utilisation d'Ariba Network pour les fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Réduction des coûts de stockage",
+          "correct": false
+        },
+        {
+          "content": "Amélioration de la visibilité sur les opportunités commerciales",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la production",
+          "correct": false
+        },
+        {
+          "content": "Gestion des ressources humaines",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba pour la gestion des contrats ?"
+      },
+      "options": [
+        {
+          "content": "Centralisation des contrats dans un référentiel unique",
+          "correct": true
+        },
+        {
+          "content": "Automatisation des processus d'approbation",
+          "correct": true
+        },
+        {
+          "content": "Gestion des stocks en temps réel",
+          "correct": false
+        },
+        {
+          "content": "Suivi des échéances et des renouvellements",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de créer et de gérer des catalogues de produits ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Catalog",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les factures fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Invoice Management",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de dépenses peuvent être gérés avec SAP Ariba ?"
+      },
+      "options": [
+        {
+          "content": "Dépenses directes",
+          "correct": true
+        },
+        {
+          "content": "Dépenses indirectes",
+          "correct": true
+        },
+        {
+          "content": "Services",
+          "correct": true
+        },
+        {
+          "content": "Salaires des employés",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet d'évaluer et de gérer les risques liés aux fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Supplier Risk",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Network",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel format de fichier est couramment utilisé pour l'intégration de catalogues dans SAP Ariba ?"
+      },
+      "options": [
+        {
+          "content": "XML",
+          "correct": false
+        },
+        {
+          "content": "JSON",
+          "correct": false
+        },
+        {
+          "content": "CIF (Catalog Interchange Format)",
+          "correct": true
+        },
+        {
+          "content": "CSV",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba pour la gestion des fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la visibilité sur les performances des fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Centralisation des informations sur les fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Automatisation de la production",
+          "correct": false
+        },
+        {
+          "content": "Simplification du processus d'onboarding des fournisseurs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de créer et de gérer des demandes d'achat ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Buying",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Invoice Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les processus d'approbation des achats ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Buying and Invoicing",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans SAP Ariba Spend Analysis ?"
+      },
+      "options": [
+        {
+          "content": "Analyse des dépenses par catégorie",
+          "correct": true
+        },
+        {
+          "content": "Analyse des dépenses par fournisseur",
+          "correct": true
+        },
+        {
+          "content": "Analyse des performances des employés",
+          "correct": false
+        },
+        {
+          "content": "Analyse des opportunités d'économies",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus de qualification et d'évaluation des fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Supplier Lifecycle and Performance",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'intégration de SAP Ariba avec SAP ERP ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la gestion des ressources humaines",
+          "correct": false
+        },
+        {
+          "content": "Synchronisation des données entre les systèmes d'achat et financiers",
+          "correct": true
+        },
+        {
+          "content": "Optimisation de la production",
+          "correct": false
+        },
+        {
+          "content": "Gestion des stocks en temps réel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba Strategic Sourcing ?"
+      },
+      "options": [
+        {
+          "content": "Réduction des coûts d'approvisionnement",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la collaboration avec les fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Automatisation des processus d'appel d'offres",
+          "correct": true
+        },
+        {
+          "content": "Gestion des stocks en temps réel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les réclamations et les litiges avec les fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Supplier Management",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour automatiser le processus de création et de gestion des bons de commande ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Buying and Invoicing",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'enchères peuvent être gérés avec SAP Ariba Sourcing ?"
+      },
+      "options": [
+        {
+          "content": "Enchères inversées",
+          "correct": true
+        },
+        {
+          "content": "Enchères hollandaises",
+          "correct": true
+        },
+        {
+          "content": "Enchères japonaises",
+          "correct": true
+        },
+        {
+          "content": "Enchères anglaises",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de comparer les prix des fournisseurs pour un même produit ou service ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": true
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Catalog",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba pour la gestion des contrats ?"
+      },
+      "options": [
+        {
+          "content": "Réduction des risques contractuels",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la conformité",
+          "correct": true
+        },
+        {
+          "content": "Automatisation de la production",
+          "correct": false
+        },
+        {
+          "content": "Optimisation des processus de négociation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus de paiement des fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Discount Management",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les processus d'approvisionnement de services ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Services Procurement",
+          "correct": true
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans SAP Ariba Supplier Management ?"
+      },
+      "options": [
+        {
+          "content": "Évaluation des performances des fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Analyse des risques fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Suivi des certifications des fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Analyse des ventes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus d'approbation des factures ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Invoice Management",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation de SAP Ariba Spot Buy ?"
+      },
+      "options": [
+        {
+          "content": "Gestion des contrats à long terme",
+          "correct": false
+        },
+        {
+          "content": "Optimisation des achats ponctuels et non planifiés",
+          "correct": true
+        },
+        {
+          "content": "Analyse des dépenses",
+          "correct": false
+        },
+        {
+          "content": "Gestion des fournisseurs stratégiques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba Spend Analysis ?"
+      },
+      "options": [
+        {
+          "content": "Identification des opportunités d'économies",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la visibilité sur les dépenses",
+          "correct": true
+        },
+        {
+          "content": "Optimisation de la gestion des stocks",
+          "correct": false
+        },
+        {
+          "content": "Aide à la prise de décision stratégique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus de qualification et d'onboarding des fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Supplier Lifecycle and Performance",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les processus de demande de devis (RFQ) ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Sourcing",
+          "correct": true
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Supplier Management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'intégrations sont possibles avec SAP Ariba ?"
+      },
+      "options": [
+        {
+          "content": "Intégration avec SAP ERP",
+          "correct": true
+        },
+        {
+          "content": "Intégration avec des systèmes de gestion de la relation client (CRM)",
+          "correct": true
+        },
+        {
+          "content": "Intégration avec des systèmes de gestion des ressources humaines",
+          "correct": false
+        },
+        {
+          "content": "Intégration avec des systèmes de gestion des entrepôts",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les enchères inversées en temps réel ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Live Auction",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de SAP Ariba Guided Buying ?"
+      },
+      "options": [
+        {
+          "content": "Simplification du processus d'achat pour les utilisateurs finaux",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la conformité aux politiques d'achat",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de l'utilisation des contrats négociés",
+          "correct": true
+        },
+        {
+          "content": "Gestion des stocks en temps réel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel module de SAP Ariba est utilisé pour gérer les processus de gestion des performances des fournisseurs ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Supplier Performance Management",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus de facturation électronique ?"
+      },
+      "options": [
+        {
+          "content": "Ariba Network",
+          "correct": true
+        },
+        {
+          "content": "Ariba Sourcing",
+          "correct": false
+        },
+        {
+          "content": "Ariba Contracts",
+          "correct": false
+        },
+        {
+          "content": "Ariba Buying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de données peuvent être analysés avec SAP Ariba Spend Analysis ?"
+      },
+      "options": [
+        {
+          "content": "Dépenses par catégorie",
+          "correct": true
+        },
+        {
+          "content": "Dépenses par fournisseur",
+          "correct": true
+        },
+        {
+          "content": "Dépenses par région géographique",
+          "correct": true
+        },
+        {
+          "content": "Revenus des ventes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation de SAP Ariba Supply Chain Collaboration ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la visibilité et de la collaboration avec les fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Gestion des contrats à long terme",
+          "correct": false
+        },
+        {
+          "content": "Analyse des dépenses",
+          "correct": false
+        },
+        {
+          "content": "Gestion des enchères inversées",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les fonctionnalités offertes par SAP Ariba Catalog ?"
+      },
+      "options": [
+        {
+          "content": "Création et gestion de catalogues de produits",
+          "correct": true
+        },
+        {
+          "content": "Intégration de catalogues fournisseurs",
+          "correct": true
+        },
+        {
+          "content": "Gestion des prix et des promotions",
+          "correct": true
+        },
+        {
+          "content": "Gestion des stocks en temps réel",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

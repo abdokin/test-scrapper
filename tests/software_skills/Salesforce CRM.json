@@ -1,0 +1,952 @@
+{
+  "title": "Salesforce CRM",
+  "attributes": {
+    "overview": "Le test CRM Salesforce évalue la connaissance des candidats des concepts de base et des fonctionnalités standard du CRM Salesforce. Il facilite l'embauche de candidats avec une expérience dans l'utilisation de Salesforce dans leurs fonctions.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface utilisateur Salesforce",
+      "Gestion des comptes et contacts",
+      "Gestion des opportunités",
+      "Rapports et tableaux de bord",
+      "Automatisation des processus",
+      "Personnalisation de base",
+      "Sécurité et partage",
+      "Intégration et API"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une expérience pratique avec Salesforce CRM, tels que les administrateurs Salesforce, les gestionnaires de comptes ou les professionnels des ventes utilisant Salesforce.",
+    "description": "Le test couvre les fonctionnalités essentielles de Salesforce CRM, évaluant la capacité du candidat à naviguer dans l'interface, gérer les données client, et utiliser les outils de productivité de Salesforce.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le terme utilisé dans Salesforce pour représenter une entreprise ou une organisation ?"
+      },
+      "options": [
+        {
+          "content": "Compte",
+          "correct": true
+        },
+        {
+          "content": "Client"
+        },
+        {
+          "content": "Entreprise"
+        },
+        {
+          "content": "Organisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet d'automatiser les processus métier ?"
+      },
+      "options": [
+        {
+          "content": "Process Builder",
+          "correct": true
+        },
+        {
+          "content": "Workflow"
+        },
+        {
+          "content": "Flow"
+        },
+        {
+          "content": "Apex"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les types de rapports disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Tabulaire",
+          "correct": true
+        },
+        {
+          "content": "Récapitulatif",
+          "correct": true
+        },
+        {
+          "content": "Matriciel",
+          "correct": true
+        },
+        {
+          "content": "Joint",
+          "correct": true
+        },
+        {
+          "content": "Circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un contact et un lead dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Un lead est un prospect non qualifié, tandis qu'un contact est associé à un compte",
+          "correct": true
+        },
+        {
+          "content": "Un contact est un prospect non qualifié, tandis qu'un lead est associé à un compte"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        },
+        {
+          "content": "Un lead est toujours converti en opportunité, un contact ne l'est jamais"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Salesforce permet de créer des visualisations de données interactives ?"
+      },
+      "options": [
+        {
+          "content": "Tableaux de bord",
+          "correct": true
+        },
+        {
+          "content": "Rapports"
+        },
+        {
+          "content": "Liste de vues"
+        },
+        {
+          "content": "Einstein Analytics"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de champs personnalisés que vous pouvez créer dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Texte",
+          "correct": true
+        },
+        {
+          "content": "Numérique",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Liste de sélection",
+          "correct": true
+        },
+        {
+          "content": "Formule",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de définir des règles de partage de données ?"
+      },
+      "options": [
+        {
+          "content": "Modèle de partage",
+          "correct": true
+        },
+        {
+          "content": "Sécurité au niveau du champ"
+        },
+        {
+          "content": "Profils utilisateurs"
+        },
+        {
+          "content": "Ensembles d'autorisations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le but principal de la fonction 'Chatter' dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Collaboration et communication interne",
+          "correct": true
+        },
+        {
+          "content": "Gestion des emails externes"
+        },
+        {
+          "content": "Création de rapports"
+        },
+        {
+          "content": "Automatisation des tâches"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un rôle et un profil dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Les rôles déterminent l'accès aux données, les profils déterminent les autorisations fonctionnelles",
+          "correct": true
+        },
+        {
+          "content": "Les profils déterminent l'accès aux données, les rôles déterminent les autorisations fonctionnelles"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        },
+        {
+          "content": "Les rôles sont pour les utilisateurs internes, les profils pour les utilisateurs externes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments qui peuvent être inclus dans une page de présentation Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Champs",
+          "correct": true
+        },
+        {
+          "content": "Boutons",
+          "correct": true
+        },
+        {
+          "content": "Liens",
+          "correct": true
+        },
+        {
+          "content": "Listes associées",
+          "correct": true
+        },
+        {
+          "content": "Composants Visualforce",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre une opportunité et un lead dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Une opportunité est associée à un compte, un lead ne l'est pas",
+          "correct": true
+        },
+        {
+          "content": "Un lead est toujours associé à une vente, une opportunité ne l'est pas"
+        },
+        {
+          "content": "Une opportunité est un prospect non qualifié, un lead est qualifié"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Salesforce permet de créer des applications personnalisées sans code ?"
+      },
+      "options": [
+        {
+          "content": "Lightning App Builder",
+          "correct": true
+        },
+        {
+          "content": "Apex"
+        },
+        {
+          "content": "Visualforce"
+        },
+        {
+          "content": "Process Builder"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de licences Salesforce couramment utilisées ?"
+      },
+      "options": [
+        {
+          "content": "Sales Cloud",
+          "correct": true
+        },
+        {
+          "content": "Service Cloud",
+          "correct": true
+        },
+        {
+          "content": "Marketing Cloud",
+          "correct": true
+        },
+        {
+          "content": "Community Cloud",
+          "correct": true
+        },
+        {
+          "content": "Analytics Cloud"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de créer des modèles d'email personnalisés ?"
+      },
+      "options": [
+        {
+          "content": "Email Templates",
+          "correct": true
+        },
+        {
+          "content": "Email-to-Case"
+        },
+        {
+          "content": "Web-to-Lead"
+        },
+        {
+          "content": "Email Relay"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Validation Rules' dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Assurer l'intégrité des données",
+          "correct": true
+        },
+        {
+          "content": "Automatiser les processus métier"
+        },
+        {
+          "content": "Générer des rapports"
+        },
+        {
+          "content": "Gérer les autorisations utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de relations entre objets dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Relation maître-détail",
+          "correct": true
+        },
+        {
+          "content": "Relation de recherche",
+          "correct": true
+        },
+        {
+          "content": "Relation plusieurs-à-plusieurs",
+          "correct": true
+        },
+        {
+          "content": "Relation hiérarchique",
+          "correct": true
+        },
+        {
+          "content": "Relation circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de créer des processus d'approbation personnalisés ?"
+      },
+      "options": [
+        {
+          "content": "Approval Processes",
+          "correct": true
+        },
+        {
+          "content": "Workflow Rules"
+        },
+        {
+          "content": "Process Builder"
+        },
+        {
+          "content": "Flow Builder"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Salesforce Identity' ?"
+      },
+      "options": [
+        {
+          "content": "Gérer l'authentification et l'autorisation des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Créer des rapports personnalisés"
+        },
+        {
+          "content": "Automatiser les processus de vente"
+        },
+        {
+          "content": "Gérer les campagnes marketing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de tableaux de bord disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Privé",
+          "correct": true
+        },
+        {
+          "content": "Public",
+          "correct": true
+        },
+        {
+          "content": "Dynamique",
+          "correct": true
+        },
+        {
+          "content": "Statique"
+        },
+        {
+          "content": "Interactif",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de personnaliser l'interface utilisateur sans code ?"
+      },
+      "options": [
+        {
+          "content": "Lightning App Builder",
+          "correct": true
+        },
+        {
+          "content": "Apex"
+        },
+        {
+          "content": "Visualforce"
+        },
+        {
+          "content": "SOQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le langage de requête utilisé pour interroger les données dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "SOQL (Salesforce Object Query Language)",
+          "correct": true
+        },
+        {
+          "content": "SQL"
+        },
+        {
+          "content": "SPARQL"
+        },
+        {
+          "content": "GraphQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'automatisation disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Workflow Rules",
+          "correct": true
+        },
+        {
+          "content": "Process Builder",
+          "correct": true
+        },
+        {
+          "content": "Flow Builder",
+          "correct": true
+        },
+        {
+          "content": "Apex Triggers",
+          "correct": true
+        },
+        {
+          "content": "Validation Rules",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de suivre les modifications apportées aux enregistrements au fil du temps ?"
+      },
+      "options": [
+        {
+          "content": "Field History Tracking",
+          "correct": true
+        },
+        {
+          "content": "Audit Trail"
+        },
+        {
+          "content": "Data Loader"
+        },
+        {
+          "content": "Change Sets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Salesforce AppExchange' ?"
+      },
+      "options": [
+        {
+          "content": "Marketplace pour des applications et composants tiers",
+          "correct": true
+        },
+        {
+          "content": "Outil de développement d'applications"
+        },
+        {
+          "content": "Plateforme de formation Salesforce"
+        },
+        {
+          "content": "Système de gestion des versions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de notifications disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Notifications par email",
+          "correct": true
+        },
+        {
+          "content": "Notifications in-app",
+          "correct": true
+        },
+        {
+          "content": "Notifications push mobiles",
+          "correct": true
+        },
+        {
+          "content": "Notifications Chatter",
+          "correct": true
+        },
+        {
+          "content": "Notifications SMS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de créer des formulaires Web pour capturer des leads ?"
+      },
+      "options": [
+        {
+          "content": "Web-to-Lead",
+          "correct": true
+        },
+        {
+          "content": "Web-to-Case"
+        },
+        {
+          "content": "Web-to-Opportunity"
+        },
+        {
+          "content": "Web Forms"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Salesforce Sandbox' ?"
+      },
+      "options": [
+        {
+          "content": "Environnement de test et de développement",
+          "correct": true
+        },
+        {
+          "content": "Stockage de données à long terme"
+        },
+        {
+          "content": "Gestion des utilisateurs"
+        },
+        {
+          "content": "Analyse de données en temps réel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de champs de formule disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Texte",
+          "correct": true
+        },
+        {
+          "content": "Numérique",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Case à cocher",
+          "correct": true
+        },
+        {
+          "content": "Pourcentage",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de créer des pages Web personnalisées ?"
+      },
+      "options": [
+        {
+          "content": "Visualforce",
+          "correct": true
+        },
+        {
+          "content": "Lightning Web Components"
+        },
+        {
+          "content": "Apex"
+        },
+        {
+          "content": "Flow Builder"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Salesforce Connect' ?"
+      },
+      "options": [
+        {
+          "content": "Intégrer des données externes en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Gérer les connexions utilisateur"
+        },
+        {
+          "content": "Créer des rapports cross-objets"
+        },
+        {
+          "content": "Automatiser les processus de vente"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de composants Lightning disponibles ?"
+      },
+      "options": [
+        {
+          "content": "Composants standard",
+          "correct": true
+        },
+        {
+          "content": "Composants personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Composants Web Lightning",
+          "correct": true
+        },
+        {
+          "content": "Composants Aura",
+          "correct": true
+        },
+        {
+          "content": "Composants Visualforce",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de gérer les processus de support client ?"
+      },
+      "options": [
+        {
+          "content": "Service Cloud",
+          "correct": true
+        },
+        {
+          "content": "Sales Cloud"
+        },
+        {
+          "content": "Marketing Cloud"
+        },
+        {
+          "content": "Commerce Cloud"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la fonction 'Salesforce Einstein' ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des capacités d'intelligence artificielle",
+          "correct": true
+        },
+        {
+          "content": "Gérer les intégrations tierces"
+        },
+        {
+          "content": "Créer des rapports personnalisés"
+        },
+        {
+          "content": "Automatiser les processus de déploiement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de tableaux de bord disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Tableaux de bord privés",
+          "correct": true
+        },
+        {
+          "content": "Tableaux de bord publics",
+          "correct": true
+        },
+        {
+          "content": "Tableaux de bord dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Tableaux de bord avec abonnement",
+          "correct": true
+        },
+        {
+          "content": "Tableaux de bord en temps réel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de gérer les processus de vente ?"
+      },
+      "options": [
+        {
+          "content": "Sales Cloud",
+          "correct": true
+        },
+        {
+          "content": "Service Cloud"
+        },
+        {
+          "content": "Marketing Cloud"
+        },
+        {
+          "content": "Analytics Cloud"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de gérer les campagnes marketing ?"
+      },
+      "options": [
+        {
+          "content": "Campagnes",
+          "correct": true
+        },
+        {
+          "content": "Opportunités"
+        },
+        {
+          "content": "Leads"
+        },
+        {
+          "content": "Comptes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de champs personnalisés disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Texte",
+          "correct": true
+        },
+        {
+          "content": "Numérique",
+          "correct": true
+        },
+        {
+          "content": "Date/Heure",
+          "correct": true
+        },
+        {
+          "content": "Liste de sélection",
+          "correct": true
+        },
+        {
+          "content": "Géolocalisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des règles de workflow automatisées dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Process Builder",
+          "correct": true
+        },
+        {
+          "content": "Flow Builder"
+        },
+        {
+          "content": "Apex Triggers"
+        },
+        {
+          "content": "Lightning Components"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de rapports standard disponibles dans Salesforce ?"
+      },
+      "options": [
+        {
+          "content": "Rapports d'activités",
+          "correct": true
+        },
+        {
+          "content": "Rapports de campagnes",
+          "correct": true
+        },
+        {
+          "content": "Rapports d'opportunités",
+          "correct": true
+        },
+        {
+          "content": "Rapports de prévisions"
+        },
+        {
+          "content": "Rapports de cas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité Salesforce permet de définir des jalons pour les processus de support client ?"
+      },
+      "options": [
+        {
+          "content": "Entitlements",
+          "correct": true
+        },
+        {
+          "content": "Service Contracts"
+        },
+        {
+          "content": "Case Teams"
+        },
+        {
+          "content": "Knowledge Base"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,23 @@
-we're developing an app like TestGorilla where you create an assessment and invite candidates to pass it
-so for the Test library we need some tests data
+We are building an assessment app similar to TestGorilla, where users can create tests and invite candidates to take them. Here's what we need for generating test data:
 
-Generate test data with a pool of 40+ questions. The number of questions to be answered by the user is specified by `questions_to_answer`. Estimate `duration_seconds` based on `questions_to_answer`, keeping in mind level of test which can be one of these (entry_level, intermediate, advanced)
+We're building an app similar to TestGorilla, where businesses can create assessments and invite candidates to complete them. To populate the Test Library, we need to generate test data, with the following requirements:
 
-and mark 3 to 4 question as preview.
+1- Test Language: The test data should be in French.
 
-also the type of question can be either multiple-choice (select one) or multiple_response (select multiple)
+2- Test Structure:
+- Generate a test with a pool of 40+ questions. Each test will randomly select a number of questions to be answered, specified by the variable questions_to_answer.
+- The test should include 3 to 4 preview questions that are clearly marked.
 
-for the Count of options as test gorilla said in its doc: (For each question, you can provide between two and ten options, but 4 is the most often)
+3- Question Types:
+- Use two question formats: multiple-choice (one correct answer) and multiple-response (multiple correct answers).
+- Ensure that most questions are multiple-choice, as per the TestGorilla guidelines.
+- Each question should have exactly 4 answer options.
+- For multiple-response questions, randomly vary the number of correct answers between 1 and 4. Avoid patterns where all or most of the multiple-response questions have the same number of correct answers (e.g., avoid always having 3 correct answers).
+  - Ensure a good mix across the test, where some multiple-response questions have only 1 or 2 correct answers, while others may have 3 or 4. This will prevent predictability and ensure a varied test-taking experience.
 
-also as in the docs of TestGorilla: (The majority of your test questions should be multiple-choice questions.)
+4- Test Duration: Estimate the total test time (duration_seconds) based on the number of questions and the level of difficulty (entry_level, intermediate, or advanced).
 
-also for the test category it can be  one of these (Cognitive ability | Language | Personality & culture | Programming skills | Role-specific skills | Situational judgment | Software skills | Typing speed)
+5- Test Categories:
+- Each test belongs to one category, selected from the following: Cognitive ability, Language, Personality & culture, Programming skills, Role-specific skills, Situational judgment, Software skills, or Typing speed.
+
+6- JSON Format: The generated test data must adhere to the format specified in the attached JSON template for consistency.

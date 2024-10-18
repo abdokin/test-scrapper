@@ -1,0 +1,894 @@
+{
+  "title": "MongoDB",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans l'utilisation de MongoDB, une base de données NoSQL populaire, en mettant l'accent sur les meilleures pratiques en matière de sécurité, d'infrastructure, de performance et de fiabilité.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Opérations CRUD",
+      "Indexation",
+      "Agrégation",
+      "Modélisation de données",
+      "Sécurité",
+      "Performance",
+      "Réplication et sharding",
+      "Administration de base de données"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur back-end, d'administrateur de base de données, et d'architecte de solutions utilisant MongoDB.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de MongoDB, évaluant la capacité du candidat à concevoir, implémenter et optimiser des solutions basées sur MongoDB.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande MongoDB est utilisée pour insérer un document dans une collection ?"
+      },
+      "options": [
+        {
+          "content": "db.collection.insertOne()",
+          "correct": true
+        },
+        {
+          "content": "db.collection.add()"
+        },
+        {
+          "content": "db.collection.insert()"
+        },
+        {
+          "content": "db.collection.create()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le type de données utilisé par MongoDB pour les identifiants uniques ?"
+      },
+      "options": [
+        {
+          "content": "ObjectId",
+          "correct": true
+        },
+        {
+          "content": "UUID"
+        },
+        {
+          "content": "Integer"
+        },
+        {
+          "content": "String"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est utilisée pour effectuer une requête de recherche dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "find()",
+          "correct": true
+        },
+        {
+          "content": "search()"
+        },
+        {
+          "content": "query()"
+        },
+        {
+          "content": "select()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel opérateur est utilisé pour effectuer une recherche par égalité dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "$eq",
+          "correct": true
+        },
+        {
+          "content": "$equal"
+        },
+        {
+          "content": "$same"
+        },
+        {
+          "content": "$match"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'index MongoDB supporte-t-il ?"
+      },
+      "options": [
+        {
+          "content": "Index simple",
+          "correct": true
+        },
+        {
+          "content": "Index composé",
+          "correct": true
+        },
+        {
+          "content": "Index géospatial",
+          "correct": true
+        },
+        {
+          "content": "Index relationnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un index dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "createIndex()",
+          "correct": true
+        },
+        {
+          "content": "addIndex()"
+        },
+        {
+          "content": "newIndex()"
+        },
+        {
+          "content": "makeIndex()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel framework d'agrégation MongoDB utilise-t-il ?"
+      },
+      "options": [
+        {
+          "content": "Pipeline d'agrégation",
+          "correct": true
+        },
+        {
+          "content": "MapReduce"
+        },
+        {
+          "content": "SQL"
+        },
+        {
+          "content": "LINQ"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes courantes dans un pipeline d'agrégation MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "$match",
+          "correct": true
+        },
+        {
+          "content": "$group",
+          "correct": true
+        },
+        {
+          "content": "$sort",
+          "correct": true
+        },
+        {
+          "content": "$join"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour modéliser des relations one-to-many dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Embedded documents",
+          "correct": true
+        },
+        {
+          "content": "Références",
+          "correct": true
+        },
+        {
+          "content": "Jointures"
+        },
+        {
+          "content": "Tables séparées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel mécanisme MongoDB utilise-t-il pour assurer la haute disponibilité ?"
+      },
+      "options": [
+        {
+          "content": "Réplication",
+          "correct": true
+        },
+        {
+          "content": "Sharding"
+        },
+        {
+          "content": "Clustering"
+        },
+        {
+          "content": "Mirroring"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques de sécurité pour MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Activer l'authentification",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le chiffrement",
+          "correct": true
+        },
+        {
+          "content": "Configurer le contrôle d'accès basé sur les rôles",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le pare-feu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer une sauvegarde de la base de données MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "mongodump",
+          "correct": true
+        },
+        {
+          "content": "mongobackup"
+        },
+        {
+          "content": "dbdump"
+        },
+        {
+          "content": "backup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal du sharding dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Distribuer les données sur plusieurs serveurs",
+          "correct": true
+        },
+        {
+          "content": "Améliorer la sécurité"
+        },
+        {
+          "content": "Réduire la taille de la base de données"
+        },
+        {
+          "content": "Accélérer les requêtes de jointure"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants d'un cluster shardé MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Shards",
+          "correct": true
+        },
+        {
+          "content": "Config servers",
+          "correct": true
+        },
+        {
+          "content": "Mongos routers",
+          "correct": true
+        },
+        {
+          "content": "Load balancers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour mettre à jour un document dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "updateOne()",
+          "correct": true
+        },
+        {
+          "content": "modify()"
+        },
+        {
+          "content": "change()"
+        },
+        {
+          "content": "alter()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel opérateur est utilisé pour effectuer une mise à jour conditionnelle dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "$set",
+          "correct": true
+        },
+        {
+          "content": "$update"
+        },
+        {
+          "content": "$modify"
+        },
+        {
+          "content": "$change"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des index dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration des performances de recherche",
+          "correct": true
+        },
+        {
+          "content": "Tri plus rapide",
+          "correct": true
+        },
+        {
+          "content": "Réduction de l'utilisation du disque",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la capacité de stockage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la limite de taille d'un document BSON dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "16 Mo",
+          "correct": true
+        },
+        {
+          "content": "32 Mo"
+        },
+        {
+          "content": "64 Mo"
+        },
+        {
+          "content": "128 Mo"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'index est recommandé pour les requêtes de recherche de texte dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Index de texte",
+          "correct": true
+        },
+        {
+          "content": "Index B-tree"
+        },
+        {
+          "content": "Index composé"
+        },
+        {
+          "content": "Index géospatial"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de consistance offertes par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Strong consistency",
+          "correct": true
+        },
+        {
+          "content": "Eventual consistency",
+          "correct": true
+        },
+        {
+          "content": "Causal consistency",
+          "correct": true
+        },
+        {
+          "content": "ACID consistency"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour exécuter des opérations JavaScript sur le serveur MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "eval()",
+          "correct": true
+        },
+        {
+          "content": "execute()"
+        },
+        {
+          "content": "run()"
+        },
+        {
+          "content": "script()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'outil d'interface graphique officiel pour MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "MongoDB Compass",
+          "correct": true
+        },
+        {
+          "content": "MongoDB Studio"
+        },
+        {
+          "content": "MongoDB Explorer"
+        },
+        {
+          "content": "MongoDB UI"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de réplication supportés par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Primary-Secondary",
+          "correct": true
+        },
+        {
+          "content": "Primary-Primary",
+          "correct": true
+        },
+        {
+          "content": "Arbiter",
+          "correct": true
+        },
+        {
+          "content": "Master-Slave"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande utilisée pour vérifier l'état d'un replica set MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "rs.status()",
+          "correct": true
+        },
+        {
+          "content": "replicaSet.status()"
+        },
+        {
+          "content": "db.replicaSetStatus()"
+        },
+        {
+          "content": "mongo.rs.status()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le langage de requête utilisé dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "MQL (MongoDB Query Language)",
+          "correct": true
+        },
+        {
+          "content": "SQL"
+        },
+        {
+          "content": "NoSQL"
+        },
+        {
+          "content": "BSON Query Language"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de données supportés par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "String",
+          "correct": true
+        },
+        {
+          "content": "Number",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Boolean",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour supprimer un document dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "deleteOne()",
+          "correct": true
+        },
+        {
+          "content": "remove()"
+        },
+        {
+          "content": "erase()"
+        },
+        {
+          "content": "drop()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le format de stockage par défaut utilisé par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "BSON",
+          "correct": true
+        },
+        {
+          "content": "JSON"
+        },
+        {
+          "content": "XML"
+        },
+        {
+          "content": "CSV"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'authentification supportés par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "SCRAM",
+          "correct": true
+        },
+        {
+          "content": "X.509",
+          "correct": true
+        },
+        {
+          "content": "LDAP",
+          "correct": true
+        },
+        {
+          "content": "OAuth"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour importer des données JSON dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "mongoimport",
+          "correct": true
+        },
+        {
+          "content": "mongoinsert"
+        },
+        {
+          "content": "mongorestore"
+        },
+        {
+          "content": "mongoupload"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel opérateur est utilisé pour effectuer une recherche par expression régulière dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "$regex",
+          "correct": true
+        },
+        {
+          "content": "$regexp"
+        },
+        {
+          "content": "$match"
+        },
+        {
+          "content": "$pattern"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages du sharding dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la capacité de lecture/écriture",
+          "correct": true
+        },
+        {
+          "content": "Distribution des données sur plusieurs serveurs",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la disponibilité",
+          "correct": true
+        },
+        {
+          "content": "Réduction de la complexité des requêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande utilisée pour créer une nouvelle base de données dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "use",
+          "correct": true
+        },
+        {
+          "content": "create"
+        },
+        {
+          "content": "new"
+        },
+        {
+          "content": "makedb"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le port par défaut utilisé par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "27017",
+          "correct": true
+        },
+        {
+          "content": "3306"
+        },
+        {
+          "content": "5432"
+        },
+        {
+          "content": "8080"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de stockage offertes par MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "WiredTiger",
+          "correct": true
+        },
+        {
+          "content": "In-Memory",
+          "correct": true
+        },
+        {
+          "content": "MMAPv1 (déprécié)",
+          "correct": true
+        },
+        {
+          "content": "B-tree"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour effectuer une opération de mise à jour atomique dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "findAndModify()",
+          "correct": true
+        },
+        {
+          "content": "atomicUpdate()"
+        },
+        {
+          "content": "updateAtomic()"
+        },
+        {
+          "content": "modifyAtomic()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil MongoDB est utilisé pour surveiller les performances et les statistiques de la base de données ?"
+      },
+      "options": [
+        {
+          "content": "MongoDB Atlas",
+          "correct": true
+        },
+        {
+          "content": "MongoDB Compass"
+        },
+        {
+          "content": "MongoDB Ops Manager"
+        },
+        {
+          "content": "MongoDB Cloud Manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de jointures supportés dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "$lookup",
+          "correct": true
+        },
+        {
+          "content": "$graphLookup",
+          "correct": true
+        },
+        {
+          "content": "Inner join"
+        },
+        {
+          "content": "Outer join"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour effectuer des mises à jour en masse dans MongoDB ?"
+      },
+      "options": [
+        {
+          "content": "updateMany()",
+          "correct": true
+        },
+        {
+          "content": "bulkWrite()"
+        },
+        {
+          "content": "massUpdate()"
+        },
+        {
+          "content": "batchUpdate()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom de l'outil en ligne de commande MongoDB pour interagir avec la base de données ?"
+      },
+      "options": [
+        {
+          "content": "mongo shell",
+          "correct": true
+        },
+        {
+          "content": "mongod"
+        },
+        {
+          "content": "mongos"
+        },
+        {
+          "content": "mongodbcli"
+        }
+      ]
+    }
+  ]
+}
