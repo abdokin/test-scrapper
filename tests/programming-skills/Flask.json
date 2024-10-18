@@ -1,0 +1,918 @@
+{
+  "title": "Flask",
+  "attributes": {
+    "overview": "Ce test évalue en profondeur les compétences des candidats dans l'utilisation du framework Flask pour développer des applications web en Python, couvrant un large éventail de concepts de base et avancés.",
+    "level": "intermediate to advanced",
+    "covered_skills": [
+      "Configuration de Flask",
+      "Routage et vues",
+      "Templates Jinja2",
+      "Gestion des formulaires",
+      "Base de données avec Flask-SQLAlchemy",
+      "Authentification et autorisation",
+      "API RESTful avec Flask",
+      "Tests unitaires pour Flask",
+      "Déploiement d'applications Flask",
+      "Gestion des erreurs",
+      "Blueprints",
+      "Extensions Flask",
+      "Sécurité",
+      "Performance et mise en cache",
+      "Websockets avec Flask"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur Python spécialisé dans le développement web, en particulier pour les projets utilisant Flask.",
+    "description": "Le test couvre les aspects fondamentaux et avancés de Flask, évaluant la capacité du candidat à créer des applications web complètes, sécurisées et performantes avec ce framework.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la méthode correcte pour créer une instance de l'application Flask ?"
+      },
+      "options": [
+        {
+          "content": "app = Flask(__name__)",
+          "correct": true
+        },
+        {
+          "content": "app = new Flask()"
+        },
+        {
+          "content": "app = Flask.create()"
+        },
+        {
+          "content": "app = FlaskApp()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment définit-on une route dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "@app.route('/chemin')",
+          "correct": true
+        },
+        {
+          "content": "app.add_route('/chemin')"
+        },
+        {
+          "content": "@Flask.route('/chemin')"
+        },
+        {
+          "content": "app.route = '/chemin'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la syntaxe correcte pour utiliser une variable dans un template Jinja2 ?"
+      },
+      "options": [
+        {
+          "content": "{{ variable }}",
+          "correct": true
+        },
+        {
+          "content": "{% variable %}"
+        },
+        {
+          "content": "{$ variable $}"
+        },
+        {
+          "content": "&lt;% variable %&gt;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment récupère-t-on les données d'un formulaire POST dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "request.form.get('champ')",
+          "correct": true
+        },
+        {
+          "content": "request.post['champ']"
+        },
+        {
+          "content": "form.data['champ']"
+        },
+        {
+          "content": "request.get_form('champ')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle extension Flask est couramment utilisée pour gérer les bases de données ?"
+      },
+      "options": [
+        {
+          "content": "Flask-SQLAlchemy",
+          "correct": true
+        },
+        {
+          "content": "Flask-Database"
+        },
+        {
+          "content": "Flask-ORM"
+        },
+        {
+          "content": "Flask-DataStore"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une route avec un paramètre variable dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "@app.route('/utilisateur/&lt;id&gt;')",
+          "correct": true
+        },
+        {
+          "content": "@app.route('/utilisateur/:id')"
+        },
+        {
+          "content": "@app.route('/utilisateur/{id}')"
+        },
+        {
+          "content": "@app.route('/utilisateur/[id]')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes HTTP valides que Flask peut gérer par défaut ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "GET",
+          "correct": true
+        },
+        {
+          "content": "POST",
+          "correct": true
+        },
+        {
+          "content": "PUT",
+          "correct": true
+        },
+        {
+          "content": "DELETE",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les sessions dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "flask.session",
+          "correct": true
+        },
+        {
+          "content": "request.session"
+        },
+        {
+          "content": "app.session"
+        },
+        {
+          "content": "Flask.Session()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment configure-t-on une base de données SQLite avec Flask-SQLAlchemy ?"
+      },
+      "options": [
+        {
+          "content": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'",
+          "correct": true
+        },
+        {
+          "content": "app.config.database = 'sqlite:///database.db'"
+        },
+        {
+          "content": "app.set_database('sqlite:///database.db')"
+        },
+        {
+          "content": "SQLAlchemy(app, 'sqlite:///database.db')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Blueprints dans Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Organisation modulaire du code",
+          "correct": true
+        },
+        {
+          "content": "Réutilisation des composants",
+          "correct": true
+        },
+        {
+          "content": "Séparation des préoccupations",
+          "correct": true
+        },
+        {
+          "content": "Amélioration automatique des performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les erreurs 404 dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "@app.errorhandler(404)",
+          "correct": true
+        },
+        {
+          "content": "app.handle_404()"
+        },
+        {
+          "content": "@app.route('404')"
+        },
+        {
+          "content": "Flask.error_404()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajoute-t-on des en-têtes personnalisés à une réponse Flask ?"
+      },
+      "options": [
+        {
+          "content": "response.headers['Custom-Header'] = 'Value'",
+          "correct": true
+        },
+        {
+          "content": "Flask.add_header('Custom-Header', 'Value')"
+        },
+        {
+          "content": "app.headers.append('Custom-Header', 'Value')"
+        },
+        {
+          "content": "request.set_header('Custom-Header', 'Value')"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour sécuriser une application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser HTTPS",
+          "correct": true
+        },
+        {
+          "content": "Hacher les mots de passe",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des tokens CSRF",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le mode debug en production",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle extension Flask est couramment utilisée pour gérer l'authentification des utilisateurs ?"
+      },
+      "options": [
+        {
+          "content": "Flask-Login",
+          "correct": true
+        },
+        {
+          "content": "Flask-Auth"
+        },
+        {
+          "content": "Flask-User"
+        },
+        {
+          "content": "Flask-Security"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment crée-t-on un test unitaire pour une application Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser unittest et app.test_client()",
+          "correct": true
+        },
+        {
+          "content": "Utiliser pytest et Flask.test()"
+        },
+        {
+          "content": "Utiliser FlaskTest.create()"
+        },
+        {
+          "content": "Utiliser app.run(test=True)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter la pagination dans une application Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-SQLAlchemy avec query.paginate()",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask.paginate()"
+        },
+        {
+          "content": "Implémenter manuellement avec LIMIT et OFFSET dans SQL"
+        },
+        {
+          "content": "Utiliser l'extension Flask-Pagination"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les configurations d'environnement dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des variables d'environnement et les charger avec python-dotenv",
+          "correct": true
+        },
+        {
+          "content": "Stocker les configurations dans un fichier JSON"
+        },
+        {
+          "content": "Hardcoder les configurations dans le code"
+        },
+        {
+          "content": "Utiliser un fichier de configuration global pour tous les environnements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour optimiser les performances d'une application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser un système de mise en cache",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les requêtes de base de données",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un serveur WSGI comme Gunicorn",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le nombre de workers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter l'internationalisation (i18n) dans une application Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Babel",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask-i18n"
+        },
+        {
+          "content": "Implémenter manuellement avec des fichiers de traduction"
+        },
+        {
+          "content": "Utiliser Google Translate API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour gérer les migrations de base de données avec Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Migrate",
+          "correct": true
+        },
+        {
+          "content": "Utiliser SQLAlchemy-migrate"
+        },
+        {
+          "content": "Gérer manuellement les scripts SQL"
+        },
+        {
+          "content": "Utiliser l'ORM pour générer automatiquement les migrations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une tâche en arrière-plan dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Celery avec Flask",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask-Background"
+        },
+        {
+          "content": "Créer un thread séparé dans l'application Flask"
+        },
+        {
+          "content": "Utiliser Flask.background_task()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour structurer une grande application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser des Blueprints",
+          "correct": true
+        },
+        {
+          "content": "Séparer les modèles, vues et contrôleurs",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un gestionnaire de configuration",
+          "correct": true
+        },
+        {
+          "content": "Mettre tout le code dans un seul fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les uploads de fichiers dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser request.files et werkzeug.utils.secure_filename()",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask-Upload"
+        },
+        {
+          "content": "Stocker les configurations dans un fichier JSON"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les uploads de fichiers dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser request.files et werkzeug.utils.secure_filename()",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask-Upload"
+        },
+        {
+          "content": "Stocker directement les fichiers dans la base de données"
+        },
+        {
+          "content": "Utiliser un service tiers comme Amazon S3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une API RESTful avec Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-RESTful",
+          "correct": true
+        },
+        {
+          "content": "Implémenter manuellement avec les routes Flask"
+        },
+        {
+          "content": "Utiliser Flask-API"
+        },
+        {
+          "content": "Utiliser Django REST framework avec Flask"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour sécuriser une API Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser HTTPS",
+          "correct": true
+        },
+        {
+          "content": "Implémenter une authentification par token",
+          "correct": true
+        },
+        {
+          "content": "Valider et nettoyer les entrées utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Stocker les clés API en clair dans le code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les erreurs dans une API Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser abort() et des gestionnaires d'erreurs personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Utiliser try/except dans chaque route"
+        },
+        {
+          "content": "Laisser Flask gérer automatiquement les erreurs"
+        },
+        {
+          "content": "Retourner toujours un code 200 avec un message d'erreur dans le corps"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter la validation de formulaires dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser WTForms avec Flask-WTF",
+          "correct": true
+        },
+        {
+          "content": "Valider manuellement chaque champ"
+        },
+        {
+          "content": "Utiliser JavaScript côté client uniquement"
+        },
+        {
+          "content": "Utiliser Django forms avec Flask"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser un ORM comme SQLAlchemy avec Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Abstraction de la base de données",
+          "correct": true
+        },
+        {
+          "content": "Facilité de migration entre différents SGBD",
+          "correct": true
+        },
+        {
+          "content": "Protection contre les injections SQL",
+          "correct": true
+        },
+        {
+          "content": "Amélioration automatique des performances des requêtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les variables d'environnement dans une application Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser python-dotenv pour charger les variables depuis un fichier .env",
+          "correct": true
+        },
+        {
+          "content": "Définir les variables directement dans le code"
+        },
+        {
+          "content": "Utiliser un fichier de configuration JSON"
+        },
+        {
+          "content": "Passer toutes les variables en arguments de ligne de commande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une authentification JWT dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-JWT-Extended",
+          "correct": true
+        },
+        {
+          "content": "Implémenter manuellement avec la bibliothèque PyJWT"
+        },
+        {
+          "content": "Utiliser Flask-Login avec des tokens JWT"
+        },
+        {
+          "content": "Utiliser OAuth2 à la place de JWT"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour le déploiement d'une application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser un serveur WSGI comme Gunicorn",
+          "correct": true
+        },
+        {
+          "content": "Configurer un reverse proxy comme Nginx",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un gestionnaire de processus comme Supervisor",
+          "correct": true
+        },
+        {
+          "content": "Déployer directement avec le serveur de développement Flask"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les sessions utilisateur dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Session avec un backend comme Redis",
+          "correct": true
+        },
+        {
+          "content": "Utiliser les sessions côté client avec des cookies signés"
+        },
+        {
+          "content": "Stocker les sessions dans la base de données principale"
+        },
+        {
+          "content": "Utiliser des variables globales pour stocker l'état de session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter la limitation de débit (rate limiting) dans une API Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Limiter",
+          "correct": true
+        },
+        {
+          "content": "Implémenter manuellement avec Redis"
+        },
+        {
+          "content": "Utiliser un middleware WSGI externe"
+        },
+        {
+          "content": "Configurer la limitation au niveau du serveur web"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour le logging dans une application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser le module logging de Python",
+          "correct": true
+        },
+        {
+          "content": "Configurer différents niveaux de log selon l'environnement",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un service de logging externe pour la production",
+          "correct": true
+        },
+        {
+          "content": "Logger toutes les requêtes et réponses en production"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les tâches asynchrones dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Celery avec Flask",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des threads Python standard"
+        },
+        {
+          "content": "Utiliser asyncio avec Flask"
+        },
+        {
+          "content": "Exécuter toutes les tâches de manière synchrone"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le contrôle d'accès basé sur les rôles (RBAC) dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Principal",
+          "correct": true
+        },
+        {
+          "content": "Implémenter manuellement avec des décorateurs personnalisés"
+        },
+        {
+          "content": "Utiliser Flask-Security"
+        },
+        {
+          "content": "Vérifier les rôles dans chaque vue individuellement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour optimiser les performances d'une application Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser un système de mise en cache comme Flask-Caching",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les requêtes de base de données",
+          "correct": true
+        },
+        {
+          "content": "Minimiser et compresser les assets statiques",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la complexité du code pour le rendre plus rapide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les migrations de base de données dans Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-Migrate (basé sur Alembic)",
+          "correct": true
+        },
+        {
+          "content": "Écrire des scripts SQL manuels"
+        },
+        {
+          "content": "Utiliser SQLAlchemy-Utils"
+        },
+        {
+          "content": "Recréer la base de données à chaque déploiement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter des websockets dans une application Flask ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flask-SocketIO",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Flask-Sockets"
+        },
+        {
+          "content": "Implémenter manuellement avec gevent-websocket"
+        },
+        {
+          "content": "Utiliser une solution tierce comme Socket.io séparément"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour la gestion des erreurs dans Flask ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Utiliser app.errorhandler pour gérer les erreurs globalement",
+          "correct": true
+        },
+        {
+          "content": "Logger les erreurs pour le débogage",
+          "correct": true
+        },
+        {
+          "content": "Retourner des réponses d'erreur appropriées en JSON pour les API",
+          "correct": true
+        },
+        {
+          "content": "Afficher les traces d'erreur complètes en production"
+        }
+      ]
+    }
+  ]
+}
