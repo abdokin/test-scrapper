@@ -1,20 +1,24 @@
 {
-  "title": "Bash : Compétences en shell scripting",
+  "title": "Code propre : Principes et pratiques",
   "attributes": {
-    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
+    "overview": "Ce test évalue la compréhension et l'application des principes de code propre, essentiels pour tout développeur souhaitant créer des logiciels maintenables et efficaces.",
     "level": "intermediate",
     "covered_skills": [
-      "Commandes de base Bash",
-      "Scripting Bash",
-      "Gestion des fichiers et répertoires",
-      "Redirections et pipes",
-      "Variables et paramètres",
-      "Structures de contrôle",
-      "Expressions régulières",
-      "Gestion des processus"
+      "Principes SOLID",
+      "Nommage significatif",
+      "Gestion des commentaires",
+      "Formatage du code",
+      "Gestion des erreurs",
+      "Conception de fonctions",
+      "Refactoring",
+      "Tests unitaires",
+      "Gestion de la complexité",
+      "Principes de conception",
+      "Architecture logicielle",
+      "Bonnes pratiques de codage"
     ],
-    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en administration système Linux ou en automatisation de tâches via des scripts Bash.",
-    "description": "Le test couvre les aspects fondamentaux et intermédiaires du shell Bash, évaluant la capacité du candidat à écrire des scripts efficaces et à utiliser les commandes Bash courantes.",
+    "relevancy": "Ce test est pertinent pour tous les postes de développement logiciel, quelle que soit la technologie utilisée.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires du code propre, évaluant la capacité du candidat à écrire un code lisible, maintenable et efficace.",
     "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 15,
@@ -26,63 +30,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier dans le terminal ?"
+        "content": "Quel est le principal avantage d'un code propre ?"
       },
       "options": [
         {
-          "content": "cat",
+          "content": "Facilité de maintenance",
           "correct": true
         },
         {
-          "content": "show"
+          "content": "Exécution plus rapide"
         },
         {
-          "content": "display"
+          "content": "Utilisation de moins de mémoire"
         },
         {
-          "content": "print"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de lister les fichiers et répertoires, y compris les fichiers cachés ?"
-      },
-      "options": [
-        {
-          "content": "ls -a",
-          "correct": true
-        },
-        {
-          "content": "ls -l"
-        },
-        {
-          "content": "dir -h"
-        },
-        {
-          "content": "list --all"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment rediriger la sortie standard d'une commande vers un fichier, en écrasant son contenu existant ?"
-      },
-      "options": [
-        {
-          "content": ">",
-          "correct": true
-        },
-        {
-          "content": ">>"
-        },
-        {
-          "content": "<"
-        },
-        {
-          "content": "|"
+          "content": "Compatibilité avec tous les systèmes d'exploitation"
         }
       ]
     },
@@ -90,106 +52,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Quelle commande permet de rechercher un motif dans un fichier ?"
+        "content": "Que signifie l'acronyme DRY en programmation ?"
       },
       "options": [
         {
-          "content": "grep",
+          "content": "Don't Repeat Yourself",
           "correct": true
         },
         {
-          "content": "find"
+          "content": "Do Repeat Yourself"
         },
         {
-          "content": "search"
+          "content": "Don't Rewrite Yet"
         },
         {
-          "content": "locate"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quelles options de la commande 'ls' permettent d'afficher les informations détaillées des fichiers ? (Sélectionnez toutes les réponses correctes)"
-      },
-      "options": [
-        {
-          "content": "-l",
-          "correct": true
-        },
-        {
-          "content": "-a"
-        },
-        {
-          "content": "-h",
-          "correct": true
-        },
-        {
-          "content": "-r"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de changer les permissions d'un fichier ?"
-      },
-      "options": [
-        {
-          "content": "chmod",
-          "correct": true
-        },
-        {
-          "content": "chown"
-        },
-        {
-          "content": "chgrp"
-        },
-        {
-          "content": "perm"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet d'afficher les variables d'environnement ?"
-      },
-      "options": [
-        {
-          "content": "env",
-          "correct": true
-        },
-        {
-          "content": "printenv"
-        },
-        {
-          "content": "echo $ENV"
-        },
-        {
-          "content": "show_env"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment accède-t-on au premier argument passé à un script Bash ?"
-      },
-      "options": [
-        {
-          "content": "$1",
-          "correct": true
-        },
-        {
-          "content": "$0"
-        },
-        {
-          "content": "${1}"
-        },
-        {
-          "content": "arg[1]"
+          "content": "Do Review Yourself"
         }
       ]
     },
@@ -197,469 +74,237 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Quelle structure de contrôle permet d'exécuter une commande si une condition est vraie ?"
+        "content": "Quelle est la meilleure pratique pour nommer une variable représentant un nombre de jours ?"
       },
       "options": [
         {
-          "content": "if",
+          "content": "nombreDeJours",
           "correct": true
         },
         {
-          "content": "switch"
+          "content": "x"
         },
         {
-          "content": "when"
+          "content": "nj"
         },
         {
-          "content": "case"
+          "content": "variable1"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle boucle est utilisée pour itérer sur une liste de valeurs en Bash ?"
+        "content": "Quel principe SOLID est violé si une classe a plus d'une raison de changer ?"
       },
       "options": [
         {
-          "content": "for",
+          "content": "Principe de responsabilité unique",
           "correct": true
         },
         {
-          "content": "while"
+          "content": "Principe ouvert/fermé"
         },
         {
-          "content": "do-while"
+          "content": "Principe de substitution de Liskov"
         },
         {
-          "content": "foreach"
+          "content": "Principe de ségrégation des interfaces"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment réalise-t-on une comparaison numérique en Bash ?"
+        "content": "Quelle est la meilleure approche pour gérer la complexité dans une fonction ?"
       },
       "options": [
         {
-          "content": "-eq",
+          "content": "Diviser la fonction en plusieurs fonctions plus petites",
           "correct": true
         },
         {
-          "content": "=="
+          "content": "Utiliser plus de commentaires"
         },
         {
-          "content": "="
+          "content": "Utiliser des noms de variables plus longs"
         },
         {
-          "content": "-equal"
+          "content": "Augmenter l'indentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique concernant les commentaires dans le code ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des commentaires pour expliquer pourquoi, pas comment",
+          "correct": true
+        },
+        {
+          "content": "Commenter chaque ligne de code"
+        },
+        {
+          "content": "Éviter complètement les commentaires"
+        },
+        {
+          "content": "Utiliser des commentaires uniquement pour les fonctions complexes"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels opérateurs sont utilisés pour les tests de fichiers en Bash ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les avantages d'un code propre ? (Sélectionnez toutes les réponses correctes)"
       },
       "options": [
         {
-          "content": "-e",
+          "content": "Facilite la collaboration entre développeurs",
           "correct": true
         },
         {
-          "content": "-f",
+          "content": "Réduit le temps nécessaire pour comprendre le code",
           "correct": true
         },
         {
-          "content": "-d",
+          "content": "Diminue le risque d'introduire des bugs",
           "correct": true
         },
         {
-          "content": "-x"
+          "content": "Augmente la vitesse d'exécution du code"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet d'exécuter un script en arrière-plan ?"
+        "content": "Quelle est la meilleure pratique pour gérer les exceptions ?"
       },
       "options": [
         {
-          "content": "&",
+          "content": "Attraper les exceptions spécifiques plutôt que génériques",
           "correct": true
         },
         {
-          "content": "bg"
+          "content": "Toujours utiliser un bloc try-catch"
         },
         {
-          "content": "background"
+          "content": "Ignorer les exceptions"
         },
         {
-          "content": "nohup"
+          "content": "Utiliser uniquement des exceptions génériques"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment affiche-t-on la valeur d'une variable en Bash ?"
+        "content": "Quel est le but principal du refactoring ?"
       },
       "options": [
         {
-          "content": "echo $VARIABLE",
+          "content": "Améliorer la structure interne du code sans modifier son comportement externe",
           "correct": true
         },
         {
-          "content": "print VARIABLE"
+          "content": "Ajouter de nouvelles fonctionnalités"
         },
         {
-          "content": "echo VARIABLE"
+          "content": "Corriger les bugs"
         },
         {
-          "content": "show $VARIABLE"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de compter le nombre de lignes dans un fichier ?"
-      },
-      "options": [
-        {
-          "content": "wc -l",
-          "correct": true
-        },
-        {
-          "content": "count -l"
-        },
-        {
-          "content": "line -count"
-        },
-        {
-          "content": "nl"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment créer un alias pour une commande en Bash ?"
-      },
-      "options": [
-        {
-          "content": "alias nom='commande'",
-          "correct": true
-        },
-        {
-          "content": "create alias nom='commande'"
-        },
-        {
-          "content": "new_alias nom='commande'"
-        },
-        {
-          "content": "set alias nom='commande'"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de trier les lignes d'un fichier ?"
-      },
-      "options": [
-        {
-          "content": "sort",
-          "correct": true
-        },
-        {
-          "content": "order"
-        },
-        {
-          "content": "arrange"
-        },
-        {
-          "content": "organize"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment obtenir le nombre d'arguments passés à un script Bash ?"
-      },
-      "options": [
-        {
-          "content": "$#",
-          "correct": true
-        },
-        {
-          "content": "$@"
-        },
-        {
-          "content": "$*"
-        },
-        {
-          "content": "$?"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de rechercher des fichiers dans le système de fichiers ?"
-      },
-      "options": [
-        {
-          "content": "find",
-          "correct": true
-        },
-        {
-          "content": "search"
-        },
-        {
-          "content": "locate"
-        },
-        {
-          "content": "whereis"
+          "content": "Optimiser les performances"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels caractères sont utilisés pour les commentaires en Bash ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quelles sont les bonnes pratiques pour écrire des fonctions propres ? (Sélectionnez toutes les réponses correctes)"
       },
       "options": [
         {
-          "content": "#",
+          "content": "Limiter le nombre de paramètres",
           "correct": true
         },
         {
-          "content": "//",
-          "correct": false
-        },
-        {
-          "content": "/*",
-          "correct": false
-        },
-        {
-          "content": ":",
+          "content": "Avoir une seule responsabilité",
           "correct": true
+        },
+        {
+          "content": "Éviter les effets de bord",
+          "correct": true
+        },
+        {
+          "content": "Toujours retourner une valeur"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet de compresser un fichier en utilisant gzip ?"
+        "content": "Quel est le principal avantage des tests unitaires dans le contexte du code propre ?"
       },
       "options": [
         {
-          "content": "gzip",
+          "content": "Ils servent de documentation vivante du code",
           "correct": true
         },
         {
-          "content": "zip"
+          "content": "Ils remplacent les commentaires"
         },
         {
-          "content": "compress"
+          "content": "Ils augmentent la performance du code"
         },
         {
-          "content": "tar"
+          "content": "Ils réduisent la taille du code"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment peut-on exécuter une commande uniquement si la précédente a réussi ?"
+        "content": "Quelle est la meilleure approche pour gérer la duplication de code ?"
       },
       "options": [
         {
-          "content": "&&",
+          "content": "Extraire le code dupliqué dans une fonction réutilisable",
           "correct": true
         },
         {
-          "content": "||"
+          "content": "Copier-coller le code là où il est nécessaire"
         },
         {
-          "content": ";"
+          "content": "Utiliser des commentaires pour expliquer la duplication"
         },
         {
-          "content": "|"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet d'afficher les processus en cours d'exécution ?"
-      },
-      "options": [
-        {
-          "content": "ps",
-          "correct": true
-        },
-        {
-          "content": "top"
-        },
-        {
-          "content": "proc"
-        },
-        {
-          "content": "list"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment peut-on remplacer une chaîne par une autre dans un fichier en utilisant sed ?"
-      },
-      "options": [
-        {
-          "content": "sed 's/ancien/nouveau/g' fichier",
-          "correct": true
-        },
-        {
-          "content": "sed 'r/ancien/nouveau/' fichier"
-        },
-        {
-          "content": "sed '/ancien/nouveau/' fichier"
-        },
-        {
-          "content": "sed 'ancien->nouveau' fichier"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de compter le nombre d'occurrences d'un mot dans un fichier ?"
-      },
-      "options": [
-        {
-          "content": "grep -c",
-          "correct": true
-        },
-        {
-          "content": "wc -w"
-        },
-        {
-          "content": "count -o"
-        },
-        {
-          "content": "find -n"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment peut-on exécuter une commande à intervalles réguliers ?"
-      },
-      "options": [
-        {
-          "content": "watch",
-          "correct": true
-        },
-        {
-          "content": "repeat"
-        },
-        {
-          "content": "loop"
-        },
-        {
-          "content": "cycle"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de créer un lien symbolique ?"
-      },
-      "options": [
-        {
-          "content": "ln -s",
-          "correct": true
-        },
-        {
-          "content": "link -s"
-        },
-        {
-          "content": "symlink"
-        },
-        {
-          "content": "mklink"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment peut-on afficher les 10 premières lignes d'un fichier ?"
-      },
-      "options": [
-        {
-          "content": "head -n 10",
-          "correct": true
-        },
-        {
-          "content": "top 10"
-        },
-        {
-          "content": "first 10"
-        },
-        {
-          "content": "cat -n 10"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle commande permet de supprimer un répertoire et son contenu ?"
-      },
-      "options": [
-        {
-          "content": "rm -r",
-          "correct": true
-        },
-        {
-          "content": "rmdir"
-        },
-        {
-          "content": "del -r"
-        },
-        {
-          "content": "remove -all"
+          "content": "Ignorer la duplication si elle n'est pas trop importante"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les opérateurs de redirection en Bash ? (Sélectionnez toutes les réponses correctes)"
+        "content": "Quels sont les principes SOLID ? (Sélectionnez toutes les réponses correctes)"
       },
       "options": [
         {
-          "content": ">",
+          "content": "Single Responsibility Principle",
           "correct": true
         },
         {
-          "content": "<",
+          "content": "Open/Closed Principle",
           "correct": true
         },
         {
-          "content": ">>",
+          "content": "Liskov Substitution Principle",
           "correct": true
         },
         {
-          "content": "|",
+          "content": "Dependency Inversion Principle",
           "correct": true
         }
       ]
@@ -667,190 +312,562 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet de changer le propriétaire d'un fichier ?"
+        "content": "Quelle est la meilleure pratique pour le formatage du code ?"
       },
       "options": [
         {
-          "content": "chown",
+          "content": "Utiliser un style cohérent dans tout le projet",
           "correct": true
         },
         {
-          "content": "chmod"
+          "content": "Laisser chaque développeur utiliser son propre style"
         },
         {
-          "content": "chgrp"
+          "content": "Ne pas se soucier du formatage"
         },
         {
-          "content": "usermod"
+          "content": "Utiliser le moins d'espaces possible pour économiser de la mémoire"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment peut-on exécuter une commande en tant que superutilisateur ?"
+        "content": "Quel est le principal avantage de l'utilisation de noms significatifs pour les variables et les fonctions ?"
       },
       "options": [
         {
-          "content": "sudo",
+          "content": "Cela rend le code auto-documenté",
           "correct": true
         },
         {
-          "content": "su"
+          "content": "Cela améliore les performances du code"
         },
         {
-          "content": "root"
+          "content": "Cela réduit la taille du code compilé"
         },
         {
-          "content": "admin"
+          "content": "Cela permet d'éviter les tests unitaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'une bonne fonction ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Elle fait une seule chose",
+          "correct": true
+        },
+        {
+          "content": "Elle est courte",
+          "correct": true
+        },
+        {
+          "content": "Elle a un nom descriptif",
+          "correct": true
+        },
+        {
+          "content": "Elle contient beaucoup de commentaires"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet d'afficher l'espace disque utilisé ?"
+        "content": "Quelle est la meilleure pratique pour gérer la complexité conditionnelle ?"
       },
       "options": [
         {
-          "content": "df",
+          "content": "Extraire les conditions complexes dans des fonctions bien nommées",
           "correct": true
         },
         {
-          "content": "du"
+          "content": "Utiliser des commentaires pour expliquer la logique"
         },
         {
-          "content": "free"
+          "content": "Imbriquer autant de conditions que nécessaire"
         },
         {
-          "content": "space"
+          "content": "Éviter complètement les structures conditionnelles"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment peut-on définir une variable en lecture seule en Bash ?"
+        "content": "Quel est le principal avantage de l'utilisation de constantes nommées plutôt que de valeurs littérales dans le code ?"
       },
       "options": [
         {
-          "content": "readonly VAR=valeur",
+          "content": "Cela améliore la lisibilité et la maintenabilité du code",
           "correct": true
         },
         {
-          "content": "const VAR=valeur"
+          "content": "Cela améliore les performances du code"
         },
         {
-          "content": "final VAR=valeur"
+          "content": "Cela réduit la taille du code compilé"
         },
         {
-          "content": "static VAR=valeur"
+          "content": "Cela permet d'éviter les erreurs de compilation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation d'un outil de formatage automatique du code ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Assure la cohérence du style dans tout le projet",
+          "correct": true
+        },
+        {
+          "content": "Réduit les conflits lors des fusions de code",
+          "correct": true
+        },
+        {
+          "content": "Permet aux développeurs de se concentrer sur la logique plutôt que sur le formatage",
+          "correct": true
+        },
+        {
+          "content": "Corrige automatiquement les bugs logiques"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet de trier les lignes d'un fichier et supprimer les doublons ?"
+        "content": "Quel principe de conception encourage la composition plutôt que l'héritage ?"
       },
       "options": [
         {
-          "content": "sort -u",
+          "content": "Favoriser la composition sur l'héritage",
           "correct": true
         },
         {
-          "content": "uniq"
+          "content": "Principe de responsabilité unique"
         },
         {
-          "content": "distinct"
+          "content": "Principe d'inversion de dépendance"
         },
         {
-          "content": "unique"
+          "content": "Principe de substitution de Liskov"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment peut-on obtenir le chemin absolu du répertoire courant ?"
+        "content": "Quelle est la meilleure approche pour gérer la complexité cyclomatique élevée ?"
       },
       "options": [
         {
-          "content": "pwd",
+          "content": "Refactoriser le code en plusieurs fonctions plus petites",
           "correct": true
         },
         {
-          "content": "cd ."
+          "content": "Ajouter plus de commentaires"
         },
         {
-          "content": "path"
+          "content": "Augmenter la limite de complexité acceptée"
         },
         {
-          "content": "echo $PWD"
+          "content": "Ignorer les avertissements de l'analyseur de code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de l'injection de dépendances ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Facilite les tests unitaires",
+          "correct": true
+        },
+        {
+          "content": "Réduit le couplage entre les classes",
+          "correct": true
+        },
+        {
+          "content": "Améliore la flexibilité et la réutilisabilité du code",
+          "correct": true
+        },
+        {
+          "content": "Augmente la vitesse d'exécution du code"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "preview": true,
-        "content": "Quelle commande permet de créer un nouveau répertoire ?"
+        "content": "Quel est le principal avantage de l'utilisation des expressions lambda dans le code ?"
       },
       "options": [
         {
-          "content": "mkdir",
+          "content": "Elles permettent d'écrire un code plus concis et lisible",
           "correct": true
         },
         {
-          "content": "createdir"
+          "content": "Elles améliorent toujours les performances du code"
         },
         {
-          "content": "newdir"
+          "content": "Elles remplacent complètement les boucles traditionnelles"
         },
         {
-          "content": "makedir"
+          "content": "Elles éliminent le besoin de classes anonymes"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment peut-on obtenir l'aide sur une commande en Bash ?"
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs dans un code propre ?"
       },
       "options": [
         {
-          "content": "man commande",
+          "content": "Utiliser des exceptions pour les cas exceptionnels et des codes de retour pour les erreurs attendues",
           "correct": true
         },
         {
-          "content": "help commande"
+          "content": "Toujours utiliser des exceptions pour toutes les erreurs"
         },
         {
-          "content": "info commande"
+          "content": "Utiliser uniquement des codes de retour pour toutes les erreurs"
         },
         {
-          "content": "manual commande"
+          "content": "Ignorer la gestion des erreurs pour simplifier le code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des interfaces dans un code propre ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Elles permettent de définir un contrat clair entre les classes",
+          "correct": true
+        },
+        {
+          "content": "Elles facilitent le polymorphisme",
+          "correct": true
+        },
+        {
+          "content": "Elles améliorent la modularité du code",
+          "correct": true
+        },
+        {
+          "content": "Elles augmentent toujours les performances du code"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande permet de comparer deux fichiers ligne par ligne ?"
+        "content": "Quel est le principal avantage de l'utilisation des design patterns dans un code propre ?"
       },
       "options": [
         {
-          "content": "diff",
+          "content": "Ils fournissent des solutions éprouvées à des problèmes récurrents",
           "correct": true
         },
         {
-          "content": "cmp"
+          "content": "Ils rendent le code plus rapide"
         },
         {
-          "content": "compare"
+          "content": "Ils remplacent le besoin de documentation"
         },
         {
-          "content": "fc"
+          "content": "Ils éliminent le besoin de tests unitaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer la complexité dans une classe ?"
+      },
+      "options": [
+        {
+          "content": "Diviser la classe en plusieurs classes plus petites et spécialisées",
+          "correct": true
+        },
+        {
+          "content": "Ajouter plus de méthodes à la classe"
+        },
+        {
+          "content": "Utiliser plus de variables globales"
+        },
+        {
+          "content": "Augmenter l'héritage entre les classes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des énumérations dans un code propre ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Elles améliorent la lisibilité du code",
+          "correct": true
+        },
+        {
+          "content": "Elles réduisent les erreurs liées aux constantes magiques",
+          "correct": true
+        },
+        {
+          "content": "Elles facilitent le refactoring",
+          "correct": true
+        },
+        {
+          "content": "Elles augmentent toujours les performances du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation des assertions dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Elles permettent de détecter rapidement les erreurs de programmation",
+          "correct": true
+        },
+        {
+          "content": "Elles remplacent les tests unitaires"
+        },
+        {
+          "content": "Elles améliorent les performances du code"
+        },
+        {
+          "content": "Elles simplifient la gestion des exceptions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les dépendances externes dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un gestionnaire de dépendances et définir clairement les versions requises",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller le code des dépendances directement dans le projet"
+        },
+        {
+          "content": "Toujours utiliser la dernière version disponible de chaque dépendance"
+        },
+        {
+          "content": "Éviter complètement l'utilisation de dépendances externes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la programmation fonctionnelle dans un code propre ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Elle favorise l'immutabilité, réduisant les effets de bord",
+          "correct": true
+        },
+        {
+          "content": "Elle facilite le parallélisme et la concurrence",
+          "correct": true
+        },
+        {
+          "content": "Elle améliore la testabilité du code",
+          "correct": true
+        },
+        {
+          "content": "Elle élimine complètement le besoin de programmation orientée objet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation des generics dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Ils permettent d'écrire du code réutilisable et type-safe",
+          "correct": true
+        },
+        {
+          "content": "Ils améliorent toujours les performances du code"
+        },
+        {
+          "content": "Ils remplacent le besoin d'héritage"
+        },
+        {
+          "content": "Ils simplifient la gestion des exceptions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer la configuration dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des fichiers de configuration externes et injecter les valeurs dans le code",
+          "correct": true
+        },
+        {
+          "content": "Hardcoder les valeurs de configuration directement dans le code"
+        },
+        {
+          "content": "Utiliser des variables d'environnement pour toutes les configurations"
+        },
+        {
+          "content": "Demander à l'utilisateur de saisir les valeurs de configuration à chaque exécution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des streams dans un code propre ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Ils permettent d'écrire un code plus déclaratif",
+          "correct": true
+        },
+        {
+          "content": "Ils facilitent le traitement parallèle des données",
+          "correct": true
+        },
+        {
+          "content": "Ils améliorent la lisibilité du code pour les opérations sur les collections",
+          "correct": true
+        },
+        {
+          "content": "Ils remplacent complètement le besoin de boucles traditionnelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation des méthodes statiques dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Elles permettent de regrouper des fonctionnalités utilitaires sans nécessiter d'instance",
+          "correct": true
+        },
+        {
+          "content": "Elles améliorent toujours les performances du code"
+        },
+        {
+          "content": "Elles remplacent le besoin de classes non statiques"
+        },
+        {
+          "content": "Elles facilitent la gestion de l'état global de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les ressources (fichiers, connexions réseau, etc.) dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des blocs try-with-resources ou l'équivalent dans votre langage",
+          "correct": true
+        },
+        {
+          "content": "Fermer manuellement les ressources à la fin de chaque méthode"
+        },
+        {
+          "content": "Laisser le garbage collector gérer la fermeture des ressources"
+        },
+        {
+          "content": "Éviter d'utiliser des ressources externes pour simplifier le code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des classes immuables dans un code propre ? (Sélectionnez toutes les réponses correctes)"
+      },
+      "options": [
+        {
+          "content": "Elles sont thread-safe par nature",
+          "correct": true
+        },
+        {
+          "content": "Elles simplifient le raisonnement sur le code",
+          "correct": true
+        },
+        {
+          "content": "Elles peuvent être utilisées en toute sécurité comme clés dans les collections",
+          "correct": true
+        },
+        {
+          "content": "Elles améliorent toujours les performances du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage de l'utilisation des annotations dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Elles permettent d'ajouter des métadonnées au code de manière structurée",
+          "correct": true
+        },
+        {
+          "content": "Elles remplacent le besoin de documentation"
+        },
+        {
+          "content": "Elles améliorent toujours les performances du code"
+        },
+        {
+          "content": "Elles éliminent le besoin de tests unitaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les variables globales dans un code propre ?"
+      },
+      "options": [
+        {
+          "content": "Éviter autant que possible l'utilisation de variables globales",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des variables globales pour toutes les données partagées"
+        },
+        {
+          "content": "Rendre toutes les variables globales publiques pour faciliter l'accès"
+        },
+        {
+          "content": "Utiliser des variables globales uniquement pour les constantes"
         }
       ]
     }
