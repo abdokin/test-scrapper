@@ -1,0 +1,1013 @@
+{
+  "title": "Confluence Cloud",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques des candidats sur Confluence Cloud, leur capacité à effectuer des tâches d'administration et des actions utilisateur courantes. Il permet d'identifier les utilisateurs qui maîtrisent efficacement Confluence Cloud.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Navigation dans Confluence",
+      "Création et édition de contenu",
+      "Gestion des espaces",
+      "Autorisations et sécurité",
+      "Intégrations et macros",
+      "Administration de base",
+      "Collaboration et partage",
+      "Personnalisation de l'interface"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière de Confluence Cloud, tels que les gestionnaires de contenu, les chefs de projet ou les administrateurs système.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Confluence Cloud, évaluant la capacité du candidat à utiliser efficacement l'outil pour la gestion de contenu et la collaboration.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale de Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "Gestion de projet",
+          "correct": false
+        },
+        {
+          "content": "Gestion de contenu et collaboration",
+          "correct": true
+        },
+        {
+          "content": "Gestion des tâches",
+          "correct": false
+        },
+        {
+          "content": "Gestion des tickets",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment crée-t-on une nouvelle page dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En cliquant sur le bouton '+' dans la barre supérieure",
+          "correct": true
+        },
+        {
+          "content": "En utilisant le menu 'Fichier > Nouvelle page'",
+          "correct": false
+        },
+        {
+          "content": "En faisant un clic droit dans l'arborescence",
+          "correct": false
+        },
+        {
+          "content": "En utilisant le raccourci clavier Ctrl+N",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de contenu que l'on peut créer dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Pages",
+          "correct": true
+        },
+        {
+          "content": "Blogs",
+          "correct": true
+        },
+        {
+          "content": "Espaces",
+          "correct": true
+        },
+        {
+          "content": "Tickets",
+          "correct": false
+        },
+        {
+          "content": "Tableaux de bord",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de structurer le contenu dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "Arborescence de pages",
+          "correct": true
+        },
+        {
+          "content": "Dossiers",
+          "correct": false
+        },
+        {
+          "content": "Tags",
+          "correct": false
+        },
+        {
+          "content": "Catégories",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on partager une page Confluence avec des utilisateurs externes ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant la fonction 'Partager'",
+          "correct": true
+        },
+        {
+          "content": "En envoyant un e-mail avec le lien",
+          "correct": false
+        },
+        {
+          "content": "En exportant la page en PDF",
+          "correct": false
+        },
+        {
+          "content": "Ce n'est pas possible avec Confluence Cloud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un espace global et un espace personnel dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "Les espaces globaux sont accessibles à tous, les espaces personnels sont privés",
+          "correct": true
+        },
+        {
+          "content": "Les espaces globaux sont payants, les espaces personnels sont gratuits",
+          "correct": false
+        },
+        {
+          "content": "Les espaces globaux ont plus de fonctionnalités",
+          "correct": false
+        },
+        {
+          "content": "Il n'y a pas de différence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions peuvent être effectuées sur une page Confluence ?)"
+      },
+      "options": [
+        {
+          "content": "Éditer",
+          "correct": true
+        },
+        {
+          "content": "Commenter",
+          "correct": true
+        },
+        {
+          "content": "Partager",
+          "correct": true
+        },
+        {
+          "content": "Supprimer",
+          "correct": true
+        },
+        {
+          "content": "Verrouiller",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on suivre les modifications apportées à une page Confluence ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant l'historique des versions",
+          "correct": true
+        },
+        {
+          "content": "En activant les notifications par e-mail",
+          "correct": false
+        },
+        {
+          "content": "En consultant le journal d'audit",
+          "correct": false
+        },
+        {
+          "content": "En utilisant un outil tiers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet d'ajouter des éléments interactifs à une page Confluence ?"
+      },
+      "options": [
+        {
+          "content": "Macros",
+          "correct": true
+        },
+        {
+          "content": "Widgets",
+          "correct": false
+        },
+        {
+          "content": "Plugins",
+          "correct": false
+        },
+        {
+          "content": "Extensions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on restreindre l'accès à un espace Confluence ?"
+      },
+      "options": [
+        {
+          "content": "En configurant les autorisations de l'espace",
+          "correct": true
+        },
+        {
+          "content": "En le rendant invisible",
+          "correct": false
+        },
+        {
+          "content": "En le verrouillant",
+          "correct": false
+        },
+        {
+          "content": "En le déplaçant dans un dossier privé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contenu peuvent être importés dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Documents Word",
+          "correct": true
+        },
+        {
+          "content": "Pages HTML",
+          "correct": true
+        },
+        {
+          "content": "Fichiers PDF",
+          "correct": true
+        },
+        {
+          "content": "Feuilles de calcul Excel",
+          "correct": true
+        },
+        {
+          "content": "Images",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une table des matières automatique dans Confluence ?"
+      },
+      "options": [
+        {
+          "content": "La macro 'Table of Contents'",
+          "correct": true
+        },
+        {
+          "content": "L'outil 'Index'",
+          "correct": false
+        },
+        {
+          "content": "Le bouton 'Générer sommaire'",
+          "correct": false
+        },
+        {
+          "content": "La fonction 'Structurer la page'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on rechercher du contenu dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant la barre de recherche globale",
+          "correct": true
+        },
+        {
+          "content": "En parcourant manuellement les espaces",
+          "correct": false
+        },
+        {
+          "content": "En utilisant un moteur de recherche externe",
+          "correct": false
+        },
+        {
+          "content": "En consultant l'index du site",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de personnalisation disponibles pour un espace Confluence ?)"
+      },
+      "options": [
+        {
+          "content": "Changer le logo",
+          "correct": true
+        },
+        {
+          "content": "Modifier le thème de couleurs",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des widgets personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Créer des modèles de page",
+          "correct": true
+        },
+        {
+          "content": "Définir une page d'accueil personnalisée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de collaborer en temps réel sur une page Confluence ?"
+      },
+      "options": [
+        {
+          "content": "Édition collaborative",
+          "correct": true
+        },
+        {
+          "content": "Chat intégré",
+          "correct": false
+        },
+        {
+          "content": "Vidéoconférence",
+          "correct": false
+        },
+        {
+          "content": "Partage d'écran",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on organiser les pages dans un espace Confluence ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant une structure hiérarchique",
+          "correct": true
+        },
+        {
+          "content": "En créant des dossiers",
+          "correct": false
+        },
+        {
+          "content": "En utilisant des étiquettes",
+          "correct": false
+        },
+        {
+          "content": "En les regroupant par date",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'intégrations sont disponibles dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Jira",
+          "correct": true
+        },
+        {
+          "content": "Trello",
+          "correct": true
+        },
+        {
+          "content": "Slack",
+          "correct": true
+        },
+        {
+          "content": "Google Drive",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Teams",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des diagrammes directement dans Confluence ?"
+      },
+      "options": [
+        {
+          "content": "Gliffy ou draw.io",
+          "correct": true
+        },
+        {
+          "content": "Visio",
+          "correct": false
+        },
+        {
+          "content": "Lucidchart",
+          "correct": false
+        },
+        {
+          "content": "Mermaid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on exporter le contenu d'un espace Confluence ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant l'option 'Exporter l'espace' dans les paramètres",
+          "correct": true
+        },
+        {
+          "content": "En copiant manuellement chaque page",
+          "correct": false
+        },
+        {
+          "content": "En utilisant un outil tiers",
+          "correct": false
+        },
+        {
+          "content": "Ce n'est pas possible d'exporter un espace entier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les rôles d'utilisateur disponibles dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Administrateur du site",
+          "correct": true
+        },
+        {
+          "content": "Administrateur d'espace",
+          "correct": true
+        },
+        {
+          "content": "Utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Invité",
+          "correct": true
+        },
+        {
+          "content": "Modérateur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des tâches directement dans une page Confluence ?"
+      },
+      "options": [
+        {
+          "content": "La macro 'Task List'",
+          "correct": true
+        },
+        {
+          "content": "L'intégration Jira",
+          "correct": false
+        },
+        {
+          "content": "Le plugin 'To-Do List'",
+          "correct": false
+        },
+        {
+          "content": "La fonction 'Assign Task'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un modèle de page personnalisé dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En créant une page normale et en la marquant comme modèle",
+          "correct": true
+        },
+        {
+          "content": "En important un modèle depuis un fichier externe",
+          "correct": false
+        },
+        {
+          "content": "En utilisant l'outil 'Créateur de modèles'",
+          "correct": false
+        },
+        {
+          "content": "En copiant un modèle existant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de notification disponibles dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Notifications par e-mail",
+          "correct": true
+        },
+        {
+          "content": "Notifications dans l'application",
+          "correct": true
+        },
+        {
+          "content": "Notifications push sur mobile",
+          "correct": true
+        },
+        {
+          "content": "Notifications Slack",
+          "correct": true
+        },
+        {
+          "content": "Notifications SMS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de suivre les modifications apportées à plusieurs pages en même temps ?"
+      },
+      "options": [
+        {
+          "content": "Le tableau de bord d'activité",
+          "correct": true
+        },
+        {
+          "content": "Les notifications groupées",
+          "correct": false
+        },
+        {
+          "content": "Le rapport de modifications",
+          "correct": false
+        },
+        {
+          "content": "L'historique global",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on restaurer une version précédente d'une page dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant l'historique des versions et en sélectionnant 'Restaurer cette version'",
+          "correct": true
+        },
+        {
+          "content": "En contactant le support Atlassian",
+          "correct": false
+        },
+        {
+          "content": "En important une sauvegarde de la page",
+          "correct": false
+        },
+        {
+          "content": "Ce n'est pas possible de restaurer une version précédente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contenu peuvent être ajoutés à une page Confluence à l'aide de macros ?)"
+      },
+      "options": [
+        {
+          "content": "Tableaux",
+          "correct": true
+        },
+        {
+          "content": "Diagrammes",
+          "correct": true
+        },
+        {
+          "content": "Listes de tâches",
+          "correct": true
+        },
+        {
+          "content": "Fichiers joints",
+          "correct": true
+        },
+        {
+          "content": "Contenu dynamique d'autres applications",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une présentation à partir du contenu Confluence ?"
+      },
+      "options": [
+        {
+          "content": "Confluence Slides",
+          "correct": true
+        },
+        {
+          "content": "Présentation intégrée",
+          "correct": false
+        },
+        {
+          "content": "Export PowerPoint",
+          "correct": false
+        },
+        {
+          "content": "Mode diaporama",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on gérer les autorisations au niveau d'une page individuelle dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant les restrictions de page",
+          "correct": true
+        },
+        {
+          "content": "En modifiant les paramètres de l'espace",
+          "correct": false
+        },
+        {
+          "content": "En créant un groupe d'utilisateurs spécifique",
+          "correct": false
+        },
+        {
+          "content": "Ce n'est pas possible au niveau de la page",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions peuvent être effectuées par un administrateur d'espace dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Gérer les autorisations de l'espace",
+          "correct": true
+        },
+        {
+          "content": "Personnaliser l'apparence de l'espace",
+          "correct": true
+        },
+        {
+          "content": "Créer et gérer les modèles de page",
+          "correct": true
+        },
+        {
+          "content": "Archiver ou supprimer l'espace",
+          "correct": true
+        },
+        {
+          "content": "Modifier les paramètres globaux de Confluence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une page avec une structure prédéfinie dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "Blueprints",
+          "correct": true
+        },
+        {
+          "content": "Templates",
+          "correct": false
+        },
+        {
+          "content": "Page Wizards",
+          "correct": false
+        },
+        {
+          "content": "Quick Start",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on organiser le contenu entre différents espaces dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant les liens entre espaces",
+          "correct": true
+        },
+        {
+          "content": "En créant des dossiers partagés",
+          "correct": false
+        },
+        {
+          "content": "En fusionnant les espaces",
+          "correct": false
+        },
+        {
+          "content": "En utilisant des tags globaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de rapports sont disponibles dans Confluence Cloud ?)"
+      },
+      "options": [
+        {
+          "content": "Rapport d'utilisation de l'espace",
+          "correct": true
+        },
+        {
+          "content": "Rapport d'activité des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Rapport de contenu populaire",
+          "correct": true
+        },
+        {
+          "content": "Rapport de pages orphelines",
+          "correct": true
+        },
+        {
+          "content": "Rapport de performance du serveur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une table des matières dynamique dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "La macro 'Page Tree'",
+          "correct": true
+        },
+        {
+          "content": "L'outil 'Auto-index'",
+          "correct": false
+        },
+        {
+          "content": "Le widget 'Content Map'",
+          "correct": false
+        },
+        {
+          "content": "La fonction 'Dynamic ToC'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter des commentaires à une page spécifique dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant la section commentaires en bas de la page",
+          "correct": true
+        },
+        {
+          "content": "En envoyant un e-mail à l'auteur de la page",
+          "correct": false
+        },
+        {
+          "content": "En créant une page de discussion séparée",
+          "correct": false
+        },
+        {
+          "content": "En utilisant la fonction de chat intégrée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour partager du contenu Confluence avec des utilisateurs externes ?)"
+      },
+      "options": [
+        {
+          "content": "Partage de lien public",
+          "correct": true
+        },
+        {
+          "content": "Invitation par e-mail",
+          "correct": true
+        },
+        {
+          "content": "Accès anonyme",
+          "correct": true
+        },
+        {
+          "content": "Export PDF",
+          "correct": true
+        },
+        {
+          "content": "Partage sur les réseaux sociaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des formulaires interactifs dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "La macro 'Forms for Confluence'",
+          "correct": true
+        },
+        {
+          "content": "L'intégration Google Forms",
+          "correct": false
+        },
+        {
+          "content": "Le plugin 'Survey Maker'",
+          "correct": false
+        },
+        {
+          "content": "L'outil 'Confluence Questionnaire'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on organiser une réunion en utilisant Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "En créant une page avec le blueprint 'Meeting Notes'",
+          "correct": true
+        },
+        {
+          "content": "En utilisant l'intégration Calendrier",
+          "correct": false
+        },
+        {
+          "content": "En créant un espace dédié aux réunions",
+          "correct": false
+        },
+        {
+          "content": "En utilisant la fonction 'Schedule Meeting'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de personnalisation disponibles pour le tableau de bord Confluence ?)"
+      },
+      "options": [
+        {
+          "content": "Ajouter des gadgets",
+          "correct": true
+        },
+        {
+          "content": "Réorganiser les éléments",
+          "correct": true
+        },
+        {
+          "content": "Créer plusieurs tableaux de bord",
+          "correct": true
+        },
+        {
+          "content": "Partager des tableaux de bord personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Intégrer des widgets externes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des graphiques et des diagrammes directement dans Confluence Cloud ?"
+      },
+      "options": [
+        {
+          "content": "Draw.io ou Gliffy",
+          "correct": true
+        },
+        {
+          "content": "Confluence Charts",
+          "correct": false
+        },
+        {
+          "content": "Integrated Visio",
+          "correct": false
+        },
+        {
+          "content": "Graph Maker",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

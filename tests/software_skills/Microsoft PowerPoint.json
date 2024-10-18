@@ -1,0 +1,830 @@
+{
+  "title": "Microsoft PowerPoint",
+  "attributes": {
+    "overview": "Ce test Microsoft PowerPoint évalue les compétences conceptuelles et créatives des candidats en matière de conception de présentations convaincantes. Il teste également leurs compétences techniques en matière de création de diapositives efficaces à l'aide de PowerPoint, qui fait partie de la suite Microsoft Office.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de PowerPoint",
+      "Création et modification de diapositives",
+      "Utilisation de thèmes et de modèles",
+      "Insertion et formatage de texte",
+      "Ajout d'images et de formes",
+      "Création de graphiques et de tableaux",
+      "Animations et transitions",
+      "Présentation en mode diaporama",
+      "Collaboration et partage"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en création de présentations professionnelles, tels que les postes en marketing, ventes, gestion de projet ou formation.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Microsoft PowerPoint, évaluant la capacité du candidat à créer des présentations efficaces et visuellement attrayantes.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale de l'onglet 'Insertion' dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter de nouveaux éléments à une diapositive",
+          "correct": true
+        },
+        {
+          "content": "Modifier la mise en page des diapositives"
+        },
+        {
+          "content": "Appliquer des animations"
+        },
+        {
+          "content": "Gérer les transitions entre les diapositives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder rapidement au mode Diaporama ?"
+      },
+      "options": [
+        {
+          "content": "Appuyer sur la touche F5",
+          "correct": true
+        },
+        {
+          "content": "Cliquer sur le bouton 'Lecture' dans la barre d'outils Accès rapide"
+        },
+        {
+          "content": "Aller dans l'onglet 'Affichage' et sélectionner 'Diaporama'"
+        },
+        {
+          "content": "Double-cliquer sur la première diapositive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour assurer la lisibilité du texte sur les diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un contraste élevé entre le texte et l'arrière-plan",
+          "correct": true
+        },
+        {
+          "content": "Utiliser autant de texte que possible sur chaque diapositive"
+        },
+        {
+          "content": "Utiliser des polices décoratives pour attirer l'attention"
+        },
+        {
+          "content": "Varier la taille de la police pour chaque ligne de texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles sont les options disponibles pour ajouter une nouvelle diapositive à une présentation ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur 'Nouvelle diapositive' dans l'onglet Accueil",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le raccourci clavier Ctrl+M",
+          "correct": true
+        },
+        {
+          "content": "Cliquer avec le bouton droit dans le volet des miniatures et sélectionner 'Nouvelle diapositive'",
+          "correct": true
+        },
+        {
+          "content": "Appuyer sur la touche Enter à la fin d'une diapositive existante"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de maintenir une apparence cohérente dans toute la présentation ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un thème",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller manuellement les éléments entre les diapositives"
+        },
+        {
+          "content": "Appliquer un arrière-plan personnalisé à chaque diapositive"
+        },
+        {
+          "content": "Utiliser uniquement des images comme contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un graphique dans une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Onglet Insertion > Graphique",
+          "correct": true
+        },
+        {
+          "content": "Onglet Accueil > Nouveau graphique"
+        },
+        {
+          "content": "Onglet Révision > Insérer graphique"
+        },
+        {
+          "content": "Onglet Affichage > Graphiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du mode Masque des diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Modifier la mise en page et les éléments communs à toutes les diapositives",
+          "correct": true
+        },
+        {
+          "content": "Prévisualiser la présentation en mode plein écran"
+        },
+        {
+          "content": "Ajouter des notes à chaque diapositive"
+        },
+        {
+          "content": "Organiser l'ordre des diapositives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'animations peuvent être appliqués aux objets dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Entrée",
+          "correct": true
+        },
+        {
+          "content": "Emphase",
+          "correct": true
+        },
+        {
+          "content": "Sortie",
+          "correct": true
+        },
+        {
+          "content": "Trajectoires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un lien hypertexte vers une autre diapositive dans la même présentation ?"
+      },
+      "options": [
+        {
+          "content": "Insérer > Lien hypertexte > Emplacement dans ce document",
+          "correct": true
+        },
+        {
+          "content": "Accueil > Nouveau lien > Diapositive"
+        },
+        {
+          "content": "Révision > Liens internes > Sélectionner diapositive"
+        },
+        {
+          "content": "Affichage > Navigation > Lier les diapositives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de collaborer en temps réel sur une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Co-édition dans PowerPoint Online ou Microsoft 365",
+          "correct": true
+        },
+        {
+          "content": "Envoyer la présentation par e-mail à chaque modification"
+        },
+        {
+          "content": "Utiliser la fonction 'Fusionner les présentations'"
+        },
+        {
+          "content": "Partager l'écran via un logiciel de vidéoconférence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une vidéo à une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Vidéo",
+          "correct": true
+        },
+        {
+          "content": "Accueil > Insérer > Vidéo"
+        },
+        {
+          "content": "Affichage > Multimédia > Vidéo"
+        },
+        {
+          "content": "Révision > Ajouter vidéo"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour créer une présentation efficace ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des puces pour organiser l'information",
+          "correct": true
+        },
+        {
+          "content": "Limiter la quantité de texte par diapositive",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des images pertinentes pour illustrer les points clés",
+          "correct": true
+        },
+        {
+          "content": "Ajouter autant d'animations que possible pour impressionner l'audience"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un arrière-plan personnalisé pour une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur la diapositive > Format de l'arrière-plan",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Nouvelle image d'arrière-plan"
+        },
+        {
+          "content": "Accueil > Styles > Arrière-plan personnalisé"
+        },
+        {
+          "content": "Affichage > Modifier l'arrière-plan"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du mode Présentateur dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Afficher des notes et contrôler la présentation sur un écran séparé",
+          "correct": true
+        },
+        {
+          "content": "Permettre à l'audience de contrôler la présentation"
+        },
+        {
+          "content": "Créer automatiquement un résumé de la présentation"
+        },
+        {
+          "content": "Enregistrer la voix du présentateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un tableau dans une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Tableau",
+          "correct": true
+        },
+        {
+          "content": "Accueil > Nouveau > Tableau"
+        },
+        {
+          "content": "Affichage > Insérer tableau"
+        },
+        {
+          "content": "Format > Créer tableau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de transitions peuvent être appliqués entre les diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Fondu",
+          "correct": true
+        },
+        {
+          "content": "Poussé",
+          "correct": true
+        },
+        {
+          "content": "Fracture",
+          "correct": true
+        },
+        {
+          "content": "Explosion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment aligner plusieurs objets sur une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Sélectionner les objets > Format > Aligner",
+          "correct": true
+        },
+        {
+          "content": "Clic droit > Organiser > Aligner"
+        },
+        {
+          "content": "Accueil > Disposition > Aligner objets"
+        },
+        {
+          "content": "Insertion > Alignement > Sélectionner type"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un sommaire interactif dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des liens hypertextes vers les diapositives",
+          "correct": true
+        },
+        {
+          "content": "Insérer un index automatique"
+        },
+        {
+          "content": "Ajouter une table des matières dynamique"
+        },
+        {
+          "content": "Créer un menu déroulant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une zone de texte à une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Zone de texte",
+          "correct": true
+        },
+        {
+          "content": "Accueil > Nouveau > Zone de texte"
+        },
+        {
+          "content": "Format > Insérer texte"
+        },
+        {
+          "content": "Affichage > Ajouter > Zone de texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour partager une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer par e-mail",
+          "correct": true
+        },
+        {
+          "content": "Partager via OneDrive ou SharePoint",
+          "correct": true
+        },
+        {
+          "content": "Publier sur le web",
+          "correct": true
+        },
+        {
+          "content": "Exporter comme vidéo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un organigramme dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > SmartArt > Hiérarchie",
+          "correct": true
+        },
+        {
+          "content": "Accueil > Nouveau > Organigramme"
+        },
+        {
+          "content": "Format > Insérer > Structure organisationnelle"
+        },
+        {
+          "content": "Affichage > Graphiques > Organigramme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du mode Plan dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Afficher et organiser le contenu textuel de la présentation",
+          "correct": true
+        },
+        {
+          "content": "Créer un plan de présentation automatique"
+        },
+        {
+          "content": "Dessiner des formes et des flèches entre les diapositives"
+        },
+        {
+          "content": "Générer une table des matières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de fichiers peuvent être insérés dans une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Images (JPEG, PNG, GIF)",
+          "correct": true
+        },
+        {
+          "content": "Fichiers audio (MP3, WAV)",
+          "correct": true
+        },
+        {
+          "content": "Vidéos (MP4, AVI)",
+          "correct": true
+        },
+        {
+          "content": "Documents PDF"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter un en-tête ou un pied de page à toutes les diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > En-tête et pied de page",
+          "correct": true
+        },
+        {
+          "content": "Affichage > Masque des diapositives > Ajouter en-tête/pied de page"
+        },
+        {
+          "content": "Format > Page > En-tête et pied de page"
+        },
+        {
+          "content": "Accueil > Édition > Ajouter en-tête/pied de page"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de comparer deux versions d'une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Révision > Comparer",
+          "correct": true
+        },
+        {
+          "content": "Affichage > Versions > Comparer"
+        },
+        {
+          "content": "Fichier > Informations > Comparer les versions"
+        },
+        {
+          "content": "Outils > Analyse > Comparer les présentations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un effet de zoom sur une partie spécifique d'une image ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction 'Zoom' dans l'onglet Insertion",
+          "correct": true
+        },
+        {
+          "content": "Appliquer une animation d'agrandissement à l'image"
+        },
+        {
+          "content": "Dupliquer l'image et recadrer la copie"
+        },
+        {
+          "content": "Utiliser l'outil loupe dans les options d'image"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour protéger une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter un mot de passe pour ouvrir le fichier",
+          "correct": true
+        },
+        {
+          "content": "Marquer comme final",
+          "correct": true
+        },
+        {
+          "content": "Restreindre l'accès",
+          "correct": true
+        },
+        {
+          "content": "Chiffrer le contenu des diapositives individuellement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un fichier Excel dans PowerPoint en tant que tableau lié ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Objet > Créer à partir d'un fichier > Lier",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller le tableau depuis Excel"
+        },
+        {
+          "content": "Insertion > Tableau > Importer depuis Excel"
+        },
+        {
+          "content": "Fichier > Importer > Tableau Excel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Pipette' dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Copier une couleur exacte d'un objet",
+          "correct": true
+        },
+        {
+          "content": "Dessiner des lignes courbes"
+        },
+        {
+          "content": "Effacer des parties d'une image"
+        },
+        {
+          "content": "Mesurer la distance entre deux points"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des sections dans une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Organiser les diapositives en groupes logiques",
+          "correct": true
+        },
+        {
+          "content": "Faciliter la navigation dans les présentations longues",
+          "correct": true
+        },
+        {
+          "content": "Appliquer des transitions différentes à chaque section",
+          "correct": true
+        },
+        {
+          "content": "Augmenter automatiquement la taille du fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un bouton d'action dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Formes > Boutons d'action",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Liens > Nouveau bouton"
+        },
+        {
+          "content": "Accueil > Dessiner > Bouton interactif"
+        },
+        {
+          "content": "Animation > Ajouter bouton d'action"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une présentation qui s'exécute automatiquement ?"
+      },
+      "options": [
+        {
+          "content": "Diaporama > Configurer le diaporama > Exécuter en continu",
+          "correct": true
+        },
+        {
+          "content": "Animation > Lecture automatique"
+        },
+        {
+          "content": "Transitions > Avancer automatiquement"
+        },
+        {
+          "content": "Fichier > Options > Diaporama automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour enregistrer une présentation PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Présentation PowerPoint (.pptx)",
+          "correct": true
+        },
+        {
+          "content": "Modèle PowerPoint (.potx)",
+          "correct": true
+        },
+        {
+          "content": "Diaporama PowerPoint (.ppsx)",
+          "correct": true
+        },
+        {
+          "content": "PDF (.pdf)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un graphique 3D dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Graphique > Choisir un type de graphique 3D",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Formes 3D > Graphique"
+        },
+        {
+          "content": "Format > Effets 3D > Appliquer au graphique"
+        },
+        {
+          "content": "Affichage > 3D > Nouveau graphique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l'outil 'Forme de fusion' dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Combiner deux formes pour en créer une nouvelle",
+          "correct": true
+        },
+        {
+          "content": "Mélanger les couleurs de deux objets"
+        },
+        {
+          "content": "Fusionner deux diapositives"
+        },
+        {
+          "content": "Créer un dégradé entre deux couleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour rendre une présentation PowerPoint plus accessible ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des contrastes de couleurs élevés",
+          "correct": true
+        },
+        {
+          "content": "Ajouter du texte alternatif aux images",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des polices lisibles et de taille suffisante",
+          "correct": true
+        },
+        {
+          "content": "Éviter l'utilisation de sous-titres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un arrière-plan transparent pour une forme dans PowerPoint ?"
+      },
+      "options": [
+        {
+          "content": "Format de la forme > Remplissage > Aucun remplissage",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Effets > Transparence"
+        },
+        {
+          "content": "Accueil > Styles de forme > Transparent"
+        },
+        {
+          "content": "Affichage > Arrière-plan > Définir comme transparent"
+        }
+      ]
+    }
+  ]
+}

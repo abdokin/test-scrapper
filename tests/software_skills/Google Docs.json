@@ -1,0 +1,900 @@
+{
+  "title": "Google Docs : Maîtrise et efficacité",
+  "attributes": {
+    "overview": "Ce test Google Docs évalue les connaissances techniques des candidats sur le logiciel et leur capacité à créer des documents pour l'impression et le Web. Ce test vous permet d'identifier les créateurs de documents qui maîtrisent bien Google Docs et l'utilisent efficacement.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de Google Docs",
+      "Formatage de texte",
+      "Gestion des styles",
+      "Insertion d'éléments",
+      "Collaboration en temps réel",
+      "Outils de révision",
+      "Fonctions avancées",
+      "Intégration avec d'autres outils Google"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière de Google Docs, tels que les assistants administratifs, les rédacteurs, les gestionnaires de projets ou les professionnels de la communication.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Docs, évaluant la capacité du candidat à créer, formater et collaborer efficacement sur des documents.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale de l'outil 'Suggestion' dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Proposer des modifications sans les appliquer directement",
+          "correct": true
+        },
+        {
+          "content": "Corriger automatiquement l'orthographe"
+        },
+        {
+          "content": "Ajouter des commentaires"
+        },
+        {
+          "content": "Traduire le document"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un saut de page dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + Enter",
+          "correct": true
+        },
+        {
+          "content": "Alt + P"
+        },
+        {
+          "content": "Shift + Enter"
+        },
+        {
+          "content": "Cmd + P"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des styles dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence dans la mise en forme",
+          "correct": true
+        },
+        {
+          "content": "Facilité de mise à jour globale",
+          "correct": true
+        },
+        {
+          "content": "Génération automatique de table des matières",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la vitesse de chargement du document"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de voir les modifications apportées à un document au fil du temps ?"
+      },
+      "options": [
+        {
+          "content": "Historique des versions",
+          "correct": true
+        },
+        {
+          "content": "Mode suggestion"
+        },
+        {
+          "content": "Commentaires"
+        },
+        {
+          "content": "Partage de document"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une table des matières dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Table des matières",
+          "correct": true
+        },
+        {
+          "content": "Outils > Table des matières"
+        },
+        {
+          "content": "Format > Table des matières"
+        },
+        {
+          "content": "Fichier > Insérer > Table des matières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de partage sont disponibles dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Modifier",
+          "correct": true
+        },
+        {
+          "content": "Commenter",
+          "correct": true
+        },
+        {
+          "content": "Afficher",
+          "correct": true
+        },
+        {
+          "content": "Télécharger"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet d'insérer des équations mathématiques dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Équation",
+          "correct": true
+        },
+        {
+          "content": "Outils > Mathématiques"
+        },
+        {
+          "content": "Format > Équation"
+        },
+        {
+          "content": "Extensions > MathType"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la vérification orthographique en temps réel dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Outils > Correction orthographique > Correction automatique",
+          "correct": true
+        },
+        {
+          "content": "Fichier > Préférences > Orthographe"
+        },
+        {
+          "content": "Format > Correction orthographique"
+        },
+        {
+          "content": "Édition > Activer la correction orthographique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'éléments peuvent être insérés dans un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Images",
+          "correct": true
+        },
+        {
+          "content": "Tableaux",
+          "correct": true
+        },
+        {
+          "content": "Graphiques",
+          "correct": true
+        },
+        {
+          "content": "Vidéos YouTube",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de travailler sur un document Google Docs hors ligne ?"
+      },
+      "options": [
+        {
+          "content": "Activer la synchronisation hors ligne",
+          "correct": true
+        },
+        {
+          "content": "Télécharger le document en PDF"
+        },
+        {
+          "content": "Utiliser l'application mobile Google Docs"
+        },
+        {
+          "content": "Partager le document avec soi-même"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un lien hypertexte dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + K (ou Cmd + K sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Clic droit > Insérer un lien"
+        },
+        {
+          "content": "Insertion > Lien hypertexte"
+        },
+        {
+          "content": "Format > Lien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Google Docs par rapport à un traitement de texte traditionnel ?"
+      },
+      "options": [
+        {
+          "content": "Collaboration en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde automatique",
+          "correct": true
+        },
+        {
+          "content": "Accessibilité depuis n'importe quel appareil connecté",
+          "correct": true
+        },
+        {
+          "content": "Fonctionnalités de mise en page avancées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un commentaire dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + Alt + M (ou Cmd + Option + M sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Clic droit > Ajouter un commentaire"
+        },
+        {
+          "content": "Insertion > Commentaire"
+        },
+        {
+          "content": "Outils > Commentaires > Ajouter"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de comparer deux versions d'un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Fichier > Historique des versions > Comparer les versions",
+          "correct": true
+        },
+        {
+          "content": "Outils > Comparer les documents"
+        },
+        {
+          "content": "Édition > Rechercher les différences"
+        },
+        {
+          "content": "Affichage > Mode comparaison"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de formatage de paragraphe sont disponibles dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Alignement",
+          "correct": true
+        },
+        {
+          "content": "Interligne",
+          "correct": true
+        },
+        {
+          "content": "Retrait",
+          "correct": true
+        },
+        {
+          "content": "Espacement avant/après",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer une note de bas de page dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Note de bas de page",
+          "correct": true
+        },
+        {
+          "content": "Format > Note de bas de page"
+        },
+        {
+          "content": "Outils > Notes > Ajouter une note de bas de page"
+        },
+        {
+          "content": "Ctrl + F (ou Cmd + F sur Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un modèle de document dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Fichier > Nouveau > À partir d'un modèle",
+          "correct": true
+        },
+        {
+          "content": "Outils > Créer un modèle"
+        },
+        {
+          "content": "Format > Enregistrer comme modèle"
+        },
+        {
+          "content": "Édition > Convertir en modèle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de fichiers peuvent être importés dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": ".docx (Microsoft Word)",
+          "correct": true
+        },
+        {
+          "content": ".txt (Texte brut)",
+          "correct": true
+        },
+        {
+          "content": ".rtf (Rich Text Format)",
+          "correct": true
+        },
+        {
+          "content": ".pdf (Portable Document Format)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer le mode 'Focus' dans Google Docs pour réduire les distractions ?"
+      },
+      "options": [
+        {
+          "content": "Affichage > Mode Focus",
+          "correct": true
+        },
+        {
+          "content": "Outils > Concentration"
+        },
+        {
+          "content": "Format > Plein écran"
+        },
+        {
+          "content": "Fichier > Préférences > Mode Focus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de traduire un document entier dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Outils > Traduire le document",
+          "correct": true
+        },
+        {
+          "content": "Fichier > Langue > Traduire"
+        },
+        {
+          "content": "Extensions > Google Translate"
+        },
+        {
+          "content": "Édition > Traduire le texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de graphiques peuvent être insérés dans un document Google Docs via l'intégration avec Google Sheets ?"
+      },
+      "options": [
+        {
+          "content": "Graphique en barres",
+          "correct": true
+        },
+        {
+          "content": "Graphique linéaire",
+          "correct": true
+        },
+        {
+          "content": "Graphique circulaire",
+          "correct": true
+        },
+        {
+          "content": "Graphique en aires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter une signature numérique à un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une extension tierce comme DocuSign",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Signature"
+        },
+        {
+          "content": "Outils > Signature numérique"
+        },
+        {
+          "content": "Format > Ajouter une signature"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un publipostage dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'extension 'Fusion de documents'",
+          "correct": true
+        },
+        {
+          "content": "Outils > Publipostage"
+        },
+        {
+          "content": "Insertion > Fusion et publipostage"
+        },
+        {
+          "content": "Format > Publipostage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels raccourcis clavier sont utiles dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + / (ou Cmd + / sur Mac) pour voir tous les raccourcis",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + Shift + V (ou Cmd + Shift + V sur Mac) pour coller sans mise en forme",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + Alt + M (ou Cmd + Option + M sur Mac) pour ajouter un commentaire",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + Alt + H (ou Cmd + Option + H sur Mac) pour ouvrir l'historique des versions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un saut de colonne dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Saut > Saut de colonne",
+          "correct": true
+        },
+        {
+          "content": "Format > Colonnes > Insérer un saut"
+        },
+        {
+          "content": "Ctrl + Enter (ou Cmd + Enter sur Mac)"
+        },
+        {
+          "content": "Outils > Mise en page > Saut de colonne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un index dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une extension tierce comme 'Table of Contents & References'",
+          "correct": true
+        },
+        {
+          "content": "Insertion > Index"
+        },
+        {
+          "content": "Outils > Créer un index"
+        },
+        {
+          "content": "Format > Index automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options sont disponibles pour le partage d'un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Partager via un lien",
+          "correct": true
+        },
+        {
+          "content": "Inviter des personnes par e-mail",
+          "correct": true
+        },
+        {
+          "content": "Publier sur le Web",
+          "correct": true
+        },
+        {
+          "content": "Partager sur les réseaux sociaux directement depuis Google Docs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un filigrane dans un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Filigrane",
+          "correct": true
+        },
+        {
+          "content": "Format > Arrière-plan > Ajouter un filigrane"
+        },
+        {
+          "content": "Outils > Filigrane"
+        },
+        {
+          "content": "Fichier > Mise en page > Filigrane"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de compter les mots en temps réel dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Outils > Nombre de mots",
+          "correct": true
+        },
+        {
+          "content": "Affichage > Afficher le nombre de mots"
+        },
+        {
+          "content": "Fichier > Propriétés du document > Statistiques"
+        },
+        {
+          "content": "Édition > Compter les mots"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de listes peuvent être créés dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Liste à puces",
+          "correct": true
+        },
+        {
+          "content": "Liste numérotée",
+          "correct": true
+        },
+        {
+          "content": "Liste à plusieurs niveaux",
+          "correct": true
+        },
+        {
+          "content": "Liste de cases à cocher",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un lien vers un titre spécifique dans le même document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Lien > Titres et signets",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + K (ou Cmd + K sur Mac) > Sélectionner le titre"
+        },
+        {
+          "content": "Format > Lien > Lien interne"
+        },
+        {
+          "content": "Outils > Liens > Lier au titre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un document Google Docs à partir d'une image contenant du texte ?"
+      },
+      "options": [
+        {
+          "content": "Fichier > Nouveau > Importer > Téléverser > Extraction de texte",
+          "correct": true
+        },
+        {
+          "content": "Outils > OCR > Créer un document"
+        },
+        {
+          "content": "Insertion > Image > Extraire le texte"
+        },
+        {
+          "content": "Extensions > Google Vision > Texte vers document"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contenus peuvent être ajoutés à l'en-tête ou au pied de page d'un document Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Numéro de page",
+          "correct": true
+        },
+        {
+          "content": "Titre du document",
+          "correct": true
+        },
+        {
+          "content": "Date",
+          "correct": true
+        },
+        {
+          "content": "Image"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer le mode suggéré pour les modifications dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur 'Mode suggestion' dans le coin supérieur droit",
+          "correct": true
+        },
+        {
+          "content": "Outils > Mode suggestion"
+        },
+        {
+          "content": "Édition > Activer les suggestions"
+        },
+        {
+          "content": "Affichage > Mode de modification > Suggestion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un diagramme directement dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Dessin > Nouveau",
+          "correct": true
+        },
+        {
+          "content": "Outils > Diagramme"
+        },
+        {
+          "content": "Format > Insérer un diagramme"
+        },
+        {
+          "content": "Extensions > Google Drawings"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de références peuvent être gérés automatiquement dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Citations",
+          "correct": true
+        },
+        {
+          "content": "Bibliographie",
+          "correct": true
+        },
+        {
+          "content": "Notes de bas de page",
+          "correct": true
+        },
+        {
+          "content": "Index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une table des matières automatique dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Table des matières",
+          "correct": true
+        },
+        {
+          "content": "Format > Table des matières"
+        },
+        {
+          "content": "Outils > Créer une table des matières"
+        },
+        {
+          "content": "Fichier > Insérer > Table des matières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de mise en page sont disponibles dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Orientation (portrait/paysage)",
+          "correct": true
+        },
+        {
+          "content": "Taille du papier",
+          "correct": true
+        },
+        {
+          "content": "Marges",
+          "correct": true
+        },
+        {
+          "content": "Colonnes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un saut de section dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Insertion > Saut > Saut de section",
+          "correct": true
+        },
+        {
+          "content": "Format > Saut de section"
+        },
+        {
+          "content": "Outils > Insérer un saut > Section"
+        },
+        {
+          "content": "Édition > Ajouter un saut de section"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un modèle de document personnalisé dans Google Docs ?"
+      },
+      "options": [
+        {
+          "content": "Fichier > Nouveau > Modèle > Galerie de modèles > Soumettre un modèle",
+          "correct": true
+        },
+        {
+          "content": "Outils > Créer un modèle"
+        },
+        {
+          "content": "Format > Enregistrer comme modèle"
+        },
+        {
+          "content": "Extensions > Créateur de modèles"
+        }
+      ]
+    }
+  ]
+}

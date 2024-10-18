@@ -1,0 +1,984 @@
+{
+  "title": "VMware",
+  "attributes": {
+    "overview": "Ce test VMware évalue les compétences techniques des candidats et leur connaissance de VMware vSphere, des machines virtuelles et des technologies connexes. Ce test de sélection vous aidera à recruter des experts en virtualisation VMware pour réduire vos coûts et améliorer votre efficacité.",
+    "level": "intermediate",
+    "covered_skills": [
+      "VMware vSphere",
+      "Machines virtuelles",
+      "Gestion des ressources",
+      "Stockage virtuel",
+      "Réseau virtuel",
+      "Haute disponibilité",
+      "Sécurité",
+      "Dépannage"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur système, d'ingénieur en virtualisation, et de spécialiste en infrastructure cloud nécessitant une expertise en VMware.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de VMware, évaluant la capacité du candidat à configurer, gérer et dépanner des environnements virtualisés.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la fonction principale de VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "Plateforme de virtualisation des serveurs",
+          "correct": true
+        },
+        {
+          "content": "Logiciel de bureautique"
+        },
+        {
+          "content": "Système d'exploitation"
+        },
+        {
+          "content": "Outil de sauvegarde de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les composants principaux de VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "ESXi",
+          "correct": true
+        },
+        {
+          "content": "vCenter Server",
+          "correct": true
+        },
+        {
+          "content": "vSphere Client",
+          "correct": true
+        },
+        {
+          "content": "Docker"
+        },
+        {
+          "content": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre une machine virtuelle et un conteneur ?"
+      },
+      "options": [
+        {
+          "content": "Une VM émule un système complet, un conteneur partage le noyau de l'hôte",
+          "correct": true
+        },
+        {
+          "content": "Une VM est plus légère qu'un conteneur"
+        },
+        {
+          "content": "Un conteneur nécessite son propre système d'exploitation"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce que vMotion dans VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "Une technologie permettant de migrer des VMs en direct",
+          "correct": true
+        },
+        {
+          "content": "Un outil de sauvegarde"
+        },
+        {
+          "content": "Un système de monitoring"
+        },
+        {
+          "content": "Un logiciel antivirus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de la virtualisation ?"
+      },
+      "options": [
+        {
+          "content": "Meilleure utilisation des ressources matérielles",
+          "correct": true
+        },
+        {
+          "content": "Réduction des coûts d'infrastructure",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité et agilité accrues",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la consommation d'énergie"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le thin provisioning dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "Une méthode d'allocation dynamique de l'espace de stockage",
+          "correct": true
+        },
+        {
+          "content": "Une technique de compression des données"
+        },
+        {
+          "content": "Un type de réseau virtuel"
+        },
+        {
+          "content": "Un outil de gestion des snapshots"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware High Availability (HA) ?"
+      },
+      "options": [
+        {
+          "content": "Redémarrer automatiquement les VMs en cas de panne d'un hôte",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances des VMs"
+        },
+        {
+          "content": "Gérer les sauvegardes des VMs"
+        },
+        {
+          "content": "Configurer les pare-feu virtuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de stockage pris en charge par VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "VMFS",
+          "correct": true
+        },
+        {
+          "content": "NFS",
+          "correct": true
+        },
+        {
+          "content": "iSCSI",
+          "correct": true
+        },
+        {
+          "content": "Fibre Channel",
+          "correct": true
+        },
+        {
+          "content": "NTFS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que DRS (Distributed Resource Scheduler) dans VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "Un outil d'équilibrage de charge automatique des VMs",
+          "correct": true
+        },
+        {
+          "content": "Un système de sauvegarde distribuée"
+        },
+        {
+          "content": "Un outil de gestion des mises à jour"
+        },
+        {
+          "content": "Un antivirus pour environnements virtuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le rôle du fichier VMX dans une machine virtuelle VMware ?"
+      },
+      "options": [
+        {
+          "content": "Définir la configuration de la VM",
+          "correct": true
+        },
+        {
+          "content": "Stocker les données de la VM"
+        },
+        {
+          "content": "Gérer les snapshots de la VM"
+        },
+        {
+          "content": "Contrôler l'accès réseau de la VM"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les fonctionnalités de sécurité offertes par VMware vSphere ?"
+      },
+      "options": [
+        {
+          "content": "VMware vShield",
+          "correct": true
+        },
+        {
+          "content": "Chiffrement des VMs",
+          "correct": true
+        },
+        {
+          "content": "Contrôle d'accès basé sur les rôles (RBAC)",
+          "correct": true
+        },
+        {
+          "content": "Pare-feu intégré",
+          "correct": true
+        },
+        {
+          "content": "Antivirus natif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre un clone lié et un clone complet dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "Un clone lié partage des blocs de disque avec la VM parent",
+          "correct": true
+        },
+        {
+          "content": "Un clone lié est plus rapide à créer qu'un clone complet"
+        },
+        {
+          "content": "Un clone complet partage la mémoire avec la VM parent"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que VMware Tools ?"
+      },
+      "options": [
+        {
+          "content": "Un ensemble de pilotes et utilitaires pour optimiser les VMs",
+          "correct": true
+        },
+        {
+          "content": "Un outil de gestion des licences VMware"
+        },
+        {
+          "content": "Un système de mise à jour automatique pour ESXi"
+        },
+        {
+          "content": "Une suite de tests de performance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de VMware vSAN ?"
+      },
+      "options": [
+        {
+          "content": "Stockage hyperconvergé",
+          "correct": true
+        },
+        {
+          "content": "Évolutivité simplifiée",
+          "correct": true
+        },
+        {
+          "content": "Réduction des coûts de stockage",
+          "correct": true
+        },
+        {
+          "content": "Intégration native avec vSphere",
+          "correct": true
+        },
+        {
+          "content": "Support des disques optiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware vRealize Operations ?"
+      },
+      "options": [
+        {
+          "content": "Surveillance et gestion des performances de l'infrastructure",
+          "correct": true
+        },
+        {
+          "content": "Création de machines virtuelles"
+        },
+        {
+          "content": "Gestion des sauvegardes"
+        },
+        {
+          "content": "Configuration des réseaux virtuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMDK dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "Un format de disque virtuel",
+          "correct": true
+        },
+        {
+          "content": "Un outil de déploiement de VM"
+        },
+        {
+          "content": "Un protocole de communication"
+        },
+        {
+          "content": "Un type de réseau virtuel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de snapshots disponibles dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "Snapshot de mémoire",
+          "correct": true
+        },
+        {
+          "content": "Snapshot de disque",
+          "correct": true
+        },
+        {
+          "content": "Snapshot quiescent",
+          "correct": true
+        },
+        {
+          "content": "Snapshot de configuration"
+        },
+        {
+          "content": "Snapshot de réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre VMware Workstation et VMware ESXi ?"
+      },
+      "options": [
+        {
+          "content": "ESXi est un hyperviseur de type 1, Workstation de type 2",
+          "correct": true
+        },
+        {
+          "content": "Workstation supporte plus de VMs qu'ESXi"
+        },
+        {
+          "content": "ESXi est gratuit, Workstation est payant"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere Distributed Switch (VDS) ?"
+      },
+      "options": [
+        {
+          "content": "Un switch virtuel géré de manière centralisée",
+          "correct": true
+        },
+        {
+          "content": "Un outil de distribution de mises à jour"
+        },
+        {
+          "content": "Un système de répartition de charge"
+        },
+        {
+          "content": "Un protocole de communication entre VMs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les composants d'une machine virtuelle VMware ?"
+      },
+      "options": [
+        {
+          "content": "Fichier de configuration (VMX)",
+          "correct": true
+        },
+        {
+          "content": "Disque virtuel (VMDK)",
+          "correct": true
+        },
+        {
+          "content": "Fichier de swap (VSWP)",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de logs",
+          "correct": true
+        },
+        {
+          "content": "Fichier de licence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware Fault Tolerance (FT) ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une disponibilité continue sans temps d'arrêt",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les performances des VMs"
+        },
+        {
+          "content": "Gérer les sauvegardes des VMs"
+        },
+        {
+          "content": "Distribuer la charge entre les hôtes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de mise en réseau virtuelle proposés par VMware ?"
+      },
+      "options": [
+        {
+          "content": "Bridged",
+          "correct": true
+        },
+        {
+          "content": "NAT",
+          "correct": true
+        },
+        {
+          "content": "Host-only",
+          "correct": true
+        },
+        {
+          "content": "Direct",
+          "correct": true
+        },
+        {
+          "content": "Mesh"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere Update Manager ?"
+      },
+      "options": [
+        {
+          "content": "Un outil pour gérer les mises à jour des hôtes et des VMs",
+          "correct": true
+        },
+        {
+          "content": "Un système de gestion des licences"
+        },
+        {
+          "content": "Un outil de surveillance des performances"
+        },
+        {
+          "content": "Un logiciel de sauvegarde"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre thick et thin provisioning dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "Thin alloue l'espace de stockage de manière dynamique, thick l'alloue immédiatement",
+          "correct": true
+        },
+        {
+          "content": "Thick est plus rapide que thin"
+        },
+        {
+          "content": "Thin permet de stocker plus de données que thick"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de VMware vSphere Content Library ?"
+      },
+      "options": [
+        {
+          "content": "Centralisation des modèles et fichiers ISO",
+          "correct": true
+        },
+        {
+          "content": "Synchronisation entre sites",
+          "correct": true
+        },
+        {
+          "content": "Gestion simplifiée des versions",
+          "correct": true
+        },
+        {
+          "content": "Déploiement rapide de VMs",
+          "correct": true
+        },
+        {
+          "content": "Optimisation automatique des performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere Storage DRS ?"
+      },
+      "options": [
+        {
+          "content": "Un outil d'équilibrage automatique du stockage",
+          "correct": true
+        },
+        {
+          "content": "Un système de compression des données"
+        },
+        {
+          "content": "Un protocole de réplication"
+        },
+        {
+          "content": "Un outil de déduplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware vSphere Replication ?"
+      },
+      "options": [
+        {
+          "content": "Réplication asynchrone des VMs entre sites",
+          "correct": true
+        },
+        {
+          "content": "Synchronisation des configurations vSphere"
+        },
+        {
+          "content": "Mise à jour automatique des VMs"
+        },
+        {
+          "content": "Création de snapshots programmés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de ressources que vous pouvez allouer à une VM dans VMware ?"
+      },
+      "options": [
+        {
+          "content": "CPU",
+          "correct": true
+        },
+        {
+          "content": "Mémoire",
+          "correct": true
+        },
+        {
+          "content": "Stockage",
+          "correct": true
+        },
+        {
+          "content": "Réseau",
+          "correct": true
+        },
+        {
+          "content": "Licences"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere vMotion ?"
+      },
+      "options": [
+        {
+          "content": "Une technologie permettant de migrer des VMs en cours d'exécution",
+          "correct": true
+        },
+        {
+          "content": "Un outil de sauvegarde à chaud"
+        },
+        {
+          "content": "Un système de réplication de données"
+        },
+        {
+          "content": "Un protocole de communication entre VMs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la différence entre VMware vSphere Essentials et vSphere Enterprise Plus ?"
+      },
+      "options": [
+        {
+          "content": "Enterprise Plus offre plus de fonctionnalités avancées",
+          "correct": true
+        },
+        {
+          "content": "Essentials est plus cher qu'Enterprise Plus"
+        },
+        {
+          "content": "Enterprise Plus est limité à 3 hôtes"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les composants de VMware vSAN ?"
+      },
+      "options": [
+        {
+          "content": "Cache Layer",
+          "correct": true
+        },
+        {
+          "content": "Capacity Layer",
+          "correct": true
+        },
+        {
+          "content": "Witness",
+          "correct": true
+        },
+        {
+          "content": "vSAN Datastore",
+          "correct": true
+        },
+        {
+          "content": "vSAN Controller"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere Storage Policy-Based Management (SPBM) ?"
+      },
+      "options": [
+        {
+          "content": "Un cadre pour gérer le stockage basé sur des politiques",
+          "correct": true
+        },
+        {
+          "content": "Un outil de compression du stockage"
+        },
+        {
+          "content": "Un système de quotas de stockage"
+        },
+        {
+          "content": "Un protocole de réplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware NSX ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des services de réseau et de sécurité virtualisés",
+          "correct": true
+        },
+        {
+          "content": "Gérer les sauvegardes des VMs"
+        },
+        {
+          "content": "Optimiser les performances des VMs"
+        },
+        {
+          "content": "Créer des snapshots automatiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de VMware vSphere Integrated Containers ?"
+      },
+      "options": [
+        {
+          "content": "Exécution de conteneurs sur l'infrastructure vSphere existante",
+          "correct": true
+        },
+        {
+          "content": "Gestion unifiée des VMs et des conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Sécurité et isolation améliorées pour les conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Intégration avec les outils Docker existants",
+          "correct": true
+        },
+        {
+          "content": "Remplacement complet de Kubernetes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que VMware Horizon ?"
+      },
+      "options": [
+        {
+          "content": "Une solution de virtualisation des postes de travail et des applications",
+          "correct": true
+        },
+        {
+          "content": "Un outil de gestion des sauvegardes"
+        },
+        {
+          "content": "Un système de surveillance des performances"
+        },
+        {
+          "content": "Un logiciel de gestion de réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de VMware vSphere with Tanzu ?"
+      },
+      "options": [
+        {
+          "content": "Exécution de conteneurs Kubernetes nativement sur vSphere",
+          "correct": true
+        },
+        {
+          "content": "Gestion unifiée des VMs et des conteneurs",
+          "correct": true
+        },
+        {
+          "content": "Utilisation des fonctionnalités de sécurité et de réseau de vSphere",
+          "correct": true
+        },
+        {
+          "content": "Déploiement simplifié des applications cloud-native",
+          "correct": true
+        },
+        {
+          "content": "Remplacement complet de Docker"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere Client ?"
+      },
+      "options": [
+        {
+          "content": "Une interface graphique pour gérer l'infrastructure vSphere",
+          "correct": true
+        },
+        {
+          "content": "Un outil de ligne de commande pour ESXi"
+        },
+        {
+          "content": "Un logiciel de virtualisation pour postes de travail"
+        },
+        {
+          "content": "Un système de gestion des licences"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fonction principale de VMware Site Recovery Manager (SRM) ?"
+      },
+      "options": [
+        {
+          "content": "Automatiser la reprise d'activité et la migration des datacenters",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mises à jour des hôtes ESXi"
+        },
+        {
+          "content": "Optimiser les performances des VMs"
+        },
+        {
+          "content": "Configurer les pare-feu virtuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les composants d'un cluster VMware vSAN ?"
+      },
+      "options": [
+        {
+          "content": "Hôtes ESXi",
+          "correct": true
+        },
+        {
+          "content": "Disques cache (flash)",
+          "correct": true
+        },
+        {
+          "content": "Disques de capacité",
+          "correct": true
+        },
+        {
+          "content": "Réseau 10 Gbps minimum",
+          "correct": true
+        },
+        {
+          "content": "Serveur de licences dédié"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu'est-ce que le VMware vSphere PowerCLI ?"
+      },
+      "options": [
+        {
+          "content": "Un outil d'automatisation basé sur PowerShell pour vSphere",
+          "correct": true
+        },
+        {
+          "content": "Une interface graphique pour gérer vSphere"
+        },
+        {
+          "content": "Un système de gestion de l'alimentation des hôtes"
+        },
+        {
+          "content": "Un outil de monitoring des performances"
+        }
+      ]
+    }
+  ]
+}

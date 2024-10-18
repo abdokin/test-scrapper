@@ -1,0 +1,1073 @@
+{
+  "title": "Microsoft Windows",
+  "attributes": {
+    "overview": "Ce test évalue la compréhension et l'application des concepts de base de Windows par les candidats. Il aide à identifier les candidats qui sont à l'aise avec Windows comme framework de la suite logicielle Microsoft Office et pour les tâches quotidiennes de bureau.",
+    "level": "entry_level",
+    "covered_skills": [
+      "Interface utilisateur de Windows",
+      "Gestion des fichiers et dossiers",
+      "Paramètres système",
+      "Outils de base Windows",
+      "Sécurité et mises à jour",
+      "Résolution de problèmes simples"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation quotidienne de Windows, tels que les assistants administratifs, les employés de bureau et les postes d'entrée de gamme en informatique.",
+    "description": "Le test couvre les aspects fondamentaux de Microsoft Windows, évaluant la capacité du candidat à naviguer efficacement dans l'interface, à gérer les fichiers et à utiliser les outils de base.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle touche du clavier ouvre le menu Démarrer de Windows ?"
+      },
+      "options": [
+        {
+          "content": "La touche Windows",
+          "correct": true
+        },
+        {
+          "content": "La touche Ctrl"
+        },
+        {
+          "content": "La touche Alt"
+        },
+        {
+          "content": "La touche Échap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel raccourci clavier permet de copier un élément sélectionné ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + C",
+          "correct": true
+        },
+        {
+          "content": "Ctrl + V"
+        },
+        {
+          "content": "Ctrl + X"
+        },
+        {
+          "content": "Ctrl + Z"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les façons de fermer une application dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur le bouton 'X' dans le coin supérieur droit de la fenêtre",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le raccourci Alt + F4",
+          "correct": true
+        },
+        {
+          "content": "Cliquer avec le bouton droit sur l'icône de l'application dans la barre des tâches et sélectionner 'Fermer'",
+          "correct": true
+        },
+        {
+          "content": "Appuyer sur la touche Échap"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le nom du gestionnaire de fichiers par défaut dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Explorateur de fichiers",
+          "correct": true
+        },
+        {
+          "content": "Finder"
+        },
+        {
+          "content": "Gestionnaire de documents"
+        },
+        {
+          "content": "Navigateur Windows"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accède-t-on au Panneau de configuration dans Windows 10 ?"
+      },
+      "options": [
+        {
+          "content": "Via le menu Démarrer > Système Windows > Panneau de configuration",
+          "correct": true
+        },
+        {
+          "content": "En cliquant sur l'icône du bureau"
+        },
+        {
+          "content": "Dans le menu Fichier de l'Explorateur de fichiers"
+        },
+        {
+          "content": "En appuyant sur Ctrl + P"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments généralement présents sur le bureau Windows ?"
+      },
+      "options": [
+        {
+          "content": "Corbeille",
+          "correct": true
+        },
+        {
+          "content": "Icônes de programmes",
+          "correct": true
+        },
+        {
+          "content": "Ce PC (ou Ordinateur)",
+          "correct": true
+        },
+        {
+          "content": "Barre des tâches",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du Gestionnaire des tâches ?"
+      },
+      "options": [
+        {
+          "content": "Surveiller les performances du système et gérer les processus",
+          "correct": true
+        },
+        {
+          "content": "Gérer les fichiers et dossiers"
+        },
+        {
+          "content": "Installer de nouveaux logiciels"
+        },
+        {
+          "content": "Configurer les paramètres réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un nouveau dossier dans l'Explorateur de fichiers ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit > Nouveau > Dossier",
+          "correct": true
+        },
+        {
+          "content": "Appuyer sur la touche F5"
+        },
+        {
+          "content": "Cliquer sur l'icône 'Télécharger'"
+        },
+        {
+          "content": "Utiliser le raccourci Ctrl + P"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles lors du clic droit sur la barre des tâches ?"
+      },
+      "options": [
+        {
+          "content": "Barre des tâches verrouillée",
+          "correct": true
+        },
+        {
+          "content": "Afficher le bouton Visualisation des tâches",
+          "correct": true
+        },
+        {
+          "content": "Paramètres de la barre des tâches",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire des tâches",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le rôle principal de Windows Defender ?"
+      },
+      "options": [
+        {
+          "content": "Protéger l'ordinateur contre les virus et les logiciels malveillants",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mises à jour du système"
+        },
+        {
+          "content": "Optimiser les performances du disque dur"
+        },
+        {
+          "content": "Configurer les paramètres réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder rapidement à la recherche Windows ?"
+      },
+      "options": [
+        {
+          "content": "Appuyer sur la touche Windows + S",
+          "correct": true
+        },
+        {
+          "content": "Cliquer sur l'icône du bureau"
+        },
+        {
+          "content": "Ouvrir le Panneau de configuration"
+        },
+        {
+          "content": "Utiliser le raccourci Ctrl + F"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de comptes utilisateur disponibles dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Administrateur",
+          "correct": true
+        },
+        {
+          "content": "Utilisateur standard",
+          "correct": true
+        },
+        {
+          "content": "Invité",
+          "correct": true
+        },
+        {
+          "content": "Superutilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du Presse-papiers dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Stocker temporairement des éléments copiés ou coupés",
+          "correct": true
+        },
+        {
+          "content": "Gérer les imprimantes"
+        },
+        {
+          "content": "Organiser les fichiers"
+        },
+        {
+          "content": "Contrôler les mises à jour"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on vérifier l'espace disque disponible sur un lecteur ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur le lecteur > Propriétés",
+          "correct": true
+        },
+        {
+          "content": "Ouvrir le Gestionnaire des tâches"
+        },
+        {
+          "content": "Utiliser la commande 'diskspace' dans l'invite de commandes"
+        },
+        {
+          "content": "Vérifier dans les paramètres du système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les moyens de personnaliser l'apparence de Windows ?"
+      },
+      "options": [
+        {
+          "content": "Changer le fond d'écran",
+          "correct": true
+        },
+        {
+          "content": "Modifier les couleurs d'accentuation",
+          "correct": true
+        },
+        {
+          "content": "Ajuster la taille du texte",
+          "correct": true
+        },
+        {
+          "content": "Choisir un thème",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de la touche Windows + L ?"
+      },
+      "options": [
+        {
+          "content": "Verrouiller l'ordinateur",
+          "correct": true
+        },
+        {
+          "content": "Ouvrir l'Explorateur de fichiers"
+        },
+        {
+          "content": "Lancer une recherche"
+        },
+        {
+          "content": "Afficher le bureau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on désinstaller un programme dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Via le Panneau de configuration > Programmes et fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "En supprimant le dossier du programme"
+        },
+        {
+          "content": "En utilisant le Gestionnaire des tâches"
+        },
+        {
+          "content": "Via l'Explorateur de fichiers > Outils système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des raccourcis clavier dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Gain de temps",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la productivité",
+          "correct": true
+        },
+        {
+          "content": "Réduction de l'utilisation de la souris",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la vitesse du processeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de la touche Windows + D ?"
+      },
+      "options": [
+        {
+          "content": "Afficher le bureau",
+          "correct": true
+        },
+        {
+          "content": "Ouvrir le menu Démarrer"
+        },
+        {
+          "content": "Lancer une recherche"
+        },
+        {
+          "content": "Ouvrir le Gestionnaire des tâches"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder aux paramètres de notification dans Windows 10 ?"
+      },
+      "options": [
+        {
+          "content": "Paramètres > Système > Notifications et actions",
+          "correct": true
+        },
+        {
+          "content": "Panneau de configuration > Centre de notifications"
+        },
+        {
+          "content": "Clic droit sur la barre des tâches > Notifications"
+        },
+        {
+          "content": "Menu Démarrer > Notifications"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de stockage généralement disponibles sur un PC Windows ?"
+      },
+      "options": [
+        {
+          "content": "Disque dur (HDD)",
+          "correct": true
+        },
+        {
+          "content": "Disque SSD",
+          "correct": true
+        },
+        {
+          "content": "Clé USB",
+          "correct": true
+        },
+        {
+          "content": "DVD-ROM"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de la Restauration du système dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Ramener le système à un état antérieur en cas de problème",
+          "correct": true
+        },
+        {
+          "content": "Nettoyer le disque dur"
+        },
+        {
+          "content": "Installer de nouveaux pilotes"
+        },
+        {
+          "content": "Mettre à jour le système d'exploitation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder au Gestionnaire de périphériques dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur Ce PC > Gérer > Gestionnaire de périphériques",
+          "correct": true
+        },
+        {
+          "content": "Menu Démarrer > Panneau de configuration > Gestionnaire de périphériques"
+        },
+        {
+          "content": "Explorateur de fichiers > Outils > Gestionnaire de périphériques"
+        },
+        {
+          "content": "Bureau > Clic droit > Gestionnaire de périphériques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour effectuer une capture d'écran sous Windows ?"
+      },
+      "options": [
+        {
+          "content": "Touche PrtScn (Impr écran)",
+          "correct": true
+        },
+        {
+          "content": "Windows + Shift + S",
+          "correct": true
+        },
+        {
+          "content": "Outil Capture d'écran",
+          "correct": true
+        },
+        {
+          "content": "Alt + F4"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal du Pare-feu Windows ?"
+      },
+      "options": [
+        {
+          "content": "Protéger l'ordinateur contre les menaces réseau",
+          "correct": true
+        },
+        {
+          "content": "Accélérer la connexion Internet"
+        },
+        {
+          "content": "Gérer les fichiers système"
+        },
+        {
+          "content": "Optimiser les performances du processeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on vérifier la version de Windows installée sur un ordinateur ?"
+      },
+      "options": [
+        {
+          "content": "Paramètres > Système > À propos",
+          "correct": true
+        },
+        {
+          "content": "Menu Démarrer > Panneau de configuration > Système"
+        },
+        {
+          "content": "Explorateur de fichiers > Ce PC > Propriétés"
+        },
+        {
+          "content": "Bureau > Clic droit > Propriétés système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments généralement présents dans la barre des tâches de Windows ?"
+      },
+      "options": [
+        {
+          "content": "Bouton Démarrer",
+          "correct": true
+        },
+        {
+          "content": "Zone de recherche",
+          "correct": true
+        },
+        {
+          "content": "Icônes des applications ouvertes",
+          "correct": true
+        },
+        {
+          "content": "Zone de notification (systray)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du Mode tablette dans Windows 10 ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser l'interface pour une utilisation tactile",
+          "correct": true
+        },
+        {
+          "content": "Améliorer les performances graphiques"
+        },
+        {
+          "content": "Activer la reconnaissance vocale"
+        },
+        {
+          "content": "Désactiver les mises à jour automatiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder aux options d'alimentation dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur l'icône de batterie dans la barre des tâches",
+          "correct": true
+        },
+        {
+          "content": "Menu Démarrer > Alimentation"
+        },
+        {
+          "content": "Panneau de configuration > Système et sécurité > Options d'alimentation"
+        },
+        {
+          "content": "Toutes les réponses ci-dessus sont correctes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de la mise à jour régulière de Windows ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la sécurité",
+          "correct": true
+        },
+        {
+          "content": "Correction de bugs",
+          "correct": true
+        },
+        {
+          "content": "Ajout de nouvelles fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la capacité de stockage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal de l'Optimisation de lecteur (anciennement Défragmentation) dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Réorganiser les données sur le disque dur pour améliorer les performances",
+          "correct": true
+        },
+        {
+          "content": "Supprimer les fichiers inutiles"
+        },
+        {
+          "content": "Installer de nouveaux pilotes"
+        },
+        {
+          "content": "Augmenter la capacité de stockage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder à l'Invite de commandes dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Menu Démarrer > Taper 'cmd' > Invite de commandes",
+          "correct": true
+        },
+        {
+          "content": "Explorateur de fichiers > Outils > Invite de commandes"
+        },
+        {
+          "content": "Bureau > Clic droit > Invite de commandes"
+        },
+        {
+          "content": "Panneau de configuration > Système et sécurité > Invite de commandes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de comptes Microsoft qu'on peut utiliser pour se connecter à Windows ?"
+      },
+      "options": [
+        {
+          "content": "Compte Microsoft personnel",
+          "correct": true
+        },
+        {
+          "content": "Compte professionnel ou scolaire",
+          "correct": true
+        },
+        {
+          "content": "Compte local",
+          "correct": true
+        },
+        {
+          "content": "Compte invité",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du Centre de sécurité Windows ?"
+      },
+      "options": [
+        {
+          "content": "Centraliser la gestion de la sécurité du système",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mises à jour du système"
+        },
+        {
+          "content": "Configurer les paramètres réseau"
+        },
+        {
+          "content": "Organiser les fichiers et dossiers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder rapidement au menu contextuel d'une application dans la barre des tâches ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur l'icône de l'application",
+          "correct": true
+        },
+        {
+          "content": "Double-clic sur l'icône de l'application"
+        },
+        {
+          "content": "Appuyer sur la touche Windows + numéro de l'application"
+        },
+        {
+          "content": "Faire glisser l'icône vers le haut"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de support de stockage amovible couramment utilisés avec Windows ?"
+      },
+      "options": [
+        {
+          "content": "Clé USB",
+          "correct": true
+        },
+        {
+          "content": "Carte SD",
+          "correct": true
+        },
+        {
+          "content": "Disque dur externe",
+          "correct": true
+        },
+        {
+          "content": "CD/DVD"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de la fonctionnalité 'Historique des fichiers' dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Sauvegarder automatiquement les fichiers personnels",
+          "correct": true
+        },
+        {
+          "content": "Organiser les fichiers par date"
+        },
+        {
+          "content": "Supprimer les anciens fichiers"
+        },
+        {
+          "content": "Partager des fichiers sur le réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder aux paramètres d'affichage dans Windows 10 ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur le bureau > Paramètres d'affichage",
+          "correct": true
+        },
+        {
+          "content": "Menu Démarrer > Panneau de configuration > Affichage"
+        },
+        {
+          "content": "Explorateur de fichiers > Outils > Affichage"
+        },
+        {
+          "content": "Barre des tâches > Paramètres d'affichage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du raccourci clavier Windows + E ?"
+      },
+      "options": [
+        {
+          "content": "Ouvrir l'Explorateur de fichiers",
+          "correct": true
+        },
+        {
+          "content": "Ouvrir la messagerie électronique"
+        },
+        {
+          "content": "Ouvrir le menu Démarrer"
+        },
+        {
+          "content": "Afficher le bureau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les moyens de partager des fichiers entre ordinateurs Windows sur un réseau local ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des dossiers partagés",
+          "correct": true
+        },
+        {
+          "content": "Utiliser OneDrive",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonctionnalité 'Partage à proximité'",
+          "correct": true
+        },
+        {
+          "content": "Envoyer par e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder aux options d'accessibilité dans Windows 10 ?"
+      },
+      "options": [
+        {
+          "content": "Paramètres > Accessibilité",
+          "correct": true
+        },
+        {
+          "content": "Panneau de configuration > Options d'accessibilité"
+        },
+        {
+          "content": "Menu Démarrer > Accessibilité"
+        },
+        {
+          "content": "Bureau > Clic droit > Options d'accessibilité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil 'Nettoyage de disque' dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Supprimer les fichiers inutiles pour libérer de l'espace disque",
+          "correct": true
+        },
+        {
+          "content": "Défragmenter le disque dur"
+        },
+        {
+          "content": "Installer de nouveaux pilotes"
+        },
+        {
+          "content": "Analyser le disque pour détecter les erreurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de connexion réseau couramment utilisés dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Wi-Fi",
+          "correct": true
+        },
+        {
+          "content": "Ethernet",
+          "correct": true
+        },
+        {
+          "content": "Bluetooth",
+          "correct": true
+        },
+        {
+          "content": "VPN",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on changer le nom d'un fichier ou d'un dossier dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit sur l'élément > Renommer",
+          "correct": true
+        },
+        {
+          "content": "Double-clic sur le nom de l'élément"
+        },
+        {
+          "content": "Sélectionner l'élément et appuyer sur Ctrl + R"
+        },
+        {
+          "content": "Utiliser l'outil 'Renommer' dans le menu Fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil 'Contrôle du compte d'utilisateur' (UAC) dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Empêcher les modifications non autorisées du système",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mots de passe des utilisateurs"
+        },
+        {
+          "content": "Contrôler l'accès à Internet"
+        },
+        {
+          "content": "Surveiller l'utilisation des ressources système"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments qui peuvent être épinglés à la barre des tâches de Windows ?"
+      },
+      "options": [
+        {
+          "content": "Applications",
+          "correct": true
+        },
+        {
+          "content": "Dossiers",
+          "correct": true
+        },
+        {
+          "content": "Fichiers",
+          "correct": true
+        },
+        {
+          "content": "Sites web (avec Microsoft Edge)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on accéder au 'Mode sans échec' lors du démarrage de Windows ?"
+      },
+      "options": [
+        {
+          "content": "Redémarrer en maintenant la touche F8 enfoncée",
+          "correct": true
+        },
+        {
+          "content": "Appuyer sur Ctrl + Alt + Suppr au démarrage"
+        },
+        {
+          "content": "Sélectionner 'Mode sans échec' dans le menu Démarrer"
+        },
+        {
+          "content": "Utiliser l'option 'Démarrage avancé' dans les paramètres de récupération"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil 'Moniteur de ressources' dans Windows ?"
+      },
+      "options": [
+        {
+          "content": "Afficher des informations détaillées sur l'utilisation des ressources système",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mises à jour du système"
+        },
+        {
+          "content": "Configurer les paramètres réseau"
+        },
+        {
+          "content": "Analyser les fichiers à la recherche de virus"
+        }
+      ]
+    }
+  ]
+}

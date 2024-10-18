@@ -1,0 +1,948 @@
+{
+  "title": "Messagerie électronique (Gmail)",
+  "attributes": {
+    "overview": "Ce test Gmail évalue les compétences générales des candidats en matière de messagerie électronique via Gmail. Ce test vous aidera à recruter des candidats qui comprennent les processus de base de la messagerie électronique, qui connaissent les meilleures pratiques et l'étiquette appropriée au courrier électronique dans un contexte professionnel et capables de les appliquer dans Gmail.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface Gmail",
+      "Gestion des e-mails",
+      "Organisation et étiquettes",
+      "Recherche avancée",
+      "Paramètres et personnalisation",
+      "Sécurité et confidentialité",
+      "Collaboration et partage",
+      "Étiquette professionnelle des e-mails"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation régulière de la messagerie électronique, en particulier Gmail, dans un contexte professionnel.",
+    "description": "Le test couvre les fonctionnalités de base et avancées de Gmail, évaluant la capacité du candidat à utiliser efficacement cet outil de messagerie dans un environnement professionnel.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Gmail permet d'envoyer un e-mail à une date et une heure spécifiques dans le futur ?"
+      },
+      "options": [
+        {
+          "content": "Programmer l'envoi",
+          "correct": true
+        },
+        {
+          "content": "Envoi différé"
+        },
+        {
+          "content": "Planification d'e-mail"
+        },
+        {
+          "content": "Envoi automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment marquer un e-mail comme important dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur l'icône en forme d'étoile",
+          "correct": true
+        },
+        {
+          "content": "Ajouter un drapeau rouge"
+        },
+        {
+          "content": "Utiliser l'étiquette 'Important'"
+        },
+        {
+          "content": "Déplacer dans le dossier 'Important'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour trier les e-mails dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Par date",
+          "correct": true
+        },
+        {
+          "content": "Par expéditeur",
+          "correct": true
+        },
+        {
+          "content": "Par taille",
+          "correct": true
+        },
+        {
+          "content": "Par importance",
+          "correct": true
+        },
+        {
+          "content": "Par couleur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Gmail permet de récupérer un e-mail envoyé par erreur ?"
+      },
+      "options": [
+        {
+          "content": "Annuler l'envoi",
+          "correct": true
+        },
+        {
+          "content": "Rappel d'e-mail"
+        },
+        {
+          "content": "Supprimer l'envoi"
+        },
+        {
+          "content": "Récupération d'urgence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un filtre dans Gmail pour gérer automatiquement les e-mails entrants ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction 'Créer un filtre' dans les paramètres",
+          "correct": true
+        },
+        {
+          "content": "Cliquer sur 'Nouveau filtre' dans la barre d'outils"
+        },
+        {
+          "content": "Utiliser l'option 'Filtrer les messages comme celui-ci' dans le menu déroulant d'un e-mail"
+        },
+        {
+          "content": "Aller dans 'Filtres et adresses bloquées' et cliquer sur 'Créer un nouveau filtre'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de réponse disponibles pour un e-mail dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Répondre",
+          "correct": true
+        },
+        {
+          "content": "Répondre à tous",
+          "correct": true
+        },
+        {
+          "content": "Transférer",
+          "correct": true
+        },
+        {
+          "content": "Répondre en privé"
+        },
+        {
+          "content": "Répondre plus tard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la limite de taille pour les pièces jointes dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "25 Mo",
+          "correct": true
+        },
+        {
+          "content": "10 Mo"
+        },
+        {
+          "content": "50 Mo"
+        },
+        {
+          "content": "100 Mo"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la réponse automatique (message d'absence) dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Dans les paramètres, sous 'Général', activer 'Réponse automatique'",
+          "correct": true
+        },
+        {
+          "content": "Dans la boîte de réception, cliquer sur 'Activer la réponse automatique'"
+        },
+        {
+          "content": "Dans le menu 'Plus', sélectionner 'Définir un message d'absence'"
+        },
+        {
+          "content": "Dans les paramètres du compte, activer 'Mode vacances'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de confidentialité disponibles lors de l'envoi d'un e-mail confidentiel dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Définir une date d'expiration",
+          "correct": true
+        },
+        {
+          "content": "Demander un code SMS pour l'ouverture",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le transfert",
+          "correct": true
+        },
+        {
+          "content": "Désactiver l'impression",
+          "correct": true
+        },
+        {
+          "content": "Crypter le contenu de l'e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité Gmail permet de regrouper automatiquement les e-mails similaires ?"
+      },
+      "options": [
+        {
+          "content": "Catégories",
+          "correct": true
+        },
+        {
+          "content": "Étiquettes"
+        },
+        {
+          "content": "Dossiers"
+        },
+        {
+          "content": "Filtres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la vérification en deux étapes pour un compte Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Dans les paramètres de sécurité du compte Google",
+          "correct": true
+        },
+        {
+          "content": "Dans les paramètres Gmail, sous 'Sécurité'"
+        },
+        {
+          "content": "En cliquant sur l'icône de cadenas dans la boîte de réception"
+        },
+        {
+          "content": "En contactant le support Gmail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des étiquettes dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Organiser les e-mails",
+          "correct": true
+        },
+        {
+          "content": "Faciliter la recherche",
+          "correct": true
+        },
+        {
+          "content": "Appliquer plusieurs catégories à un même e-mail",
+          "correct": true
+        },
+        {
+          "content": "Augmenter l'espace de stockage"
+        },
+        {
+          "content": "Accélérer l'envoi des e-mails"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de programmer l'envoi d'e-mails récurrents ?"
+      },
+      "options": [
+        {
+          "content": "Cette fonction n'existe pas nativement dans Gmail",
+          "correct": true
+        },
+        {
+          "content": "Envoi récurrent"
+        },
+        {
+          "content": "Planification automatique"
+        },
+        {
+          "content": "Répétition d'e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment archiver un e-mail dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur l'icône d'archive (boîte avec une flèche vers le bas)",
+          "correct": true
+        },
+        {
+          "content": "Déplacer l'e-mail dans le dossier 'Archives'"
+        },
+        {
+          "content": "Utiliser le raccourci clavier 'A'"
+        },
+        {
+          "content": "Sélectionner 'Archiver' dans le menu déroulant de l'e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour personnaliser l'apparence de Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Changer le thème",
+          "correct": true
+        },
+        {
+          "content": "Modifier la densité d'affichage",
+          "correct": true
+        },
+        {
+          "content": "Personnaliser les libellés de boîte de réception",
+          "correct": true
+        },
+        {
+          "content": "Changer la police des e-mails"
+        },
+        {
+          "content": "Modifier la couleur de fond de la boîte de réception"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de créer et envoyer un sondage directement depuis un e-mail ?"
+      },
+      "options": [
+        {
+          "content": "Cette fonction n'existe pas nativement dans Gmail",
+          "correct": true
+        },
+        {
+          "content": "Sondage Gmail"
+        },
+        {
+          "content": "Enquête rapide"
+        },
+        {
+          "content": "Formulaire intégré"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer le mode hors connexion dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Dans les paramètres, sous 'Hors connexion', activer 'Activer la messagerie hors connexion'",
+          "correct": true
+        },
+        {
+          "content": "Cliquer sur l'icône 'Hors connexion' dans la barre d'outils"
+        },
+        {
+          "content": "Installer l'extension Gmail Hors connexion"
+        },
+        {
+          "content": "Dans le menu 'Plus', sélectionner 'Activer le mode hors connexion'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de recherche avancée disponibles dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Recherche par expéditeur",
+          "correct": true
+        },
+        {
+          "content": "Recherche par mot-clé",
+          "correct": true
+        },
+        {
+          "content": "Recherche par date",
+          "correct": true
+        },
+        {
+          "content": "Recherche par taille de pièce jointe",
+          "correct": true
+        },
+        {
+          "content": "Recherche par couleur d'étiquette",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de créer une signature personnalisée pour vos e-mails ?"
+      },
+      "options": [
+        {
+          "content": "Dans les paramètres, sous 'Général', section 'Signature'",
+          "correct": true
+        },
+        {
+          "content": "Dans le menu 'Plus' lors de la rédaction d'un e-mail"
+        },
+        {
+          "content": "Dans les paramètres du compte, sous 'Personnalisation'"
+        },
+        {
+          "content": "En cliquant sur 'Ajouter une signature' en bas de chaque e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment activer la fonction de réponse intelligente (Smart Reply) dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Dans les paramètres, sous 'Général', activer 'Suggestions de réponses'",
+          "correct": true
+        },
+        {
+          "content": "Cette fonction est activée par défaut et ne peut pas être désactivée"
+        },
+        {
+          "content": "Dans les paramètres, sous 'Avancé', activer 'Smart Reply'"
+        },
+        {
+          "content": "Cette fonction n'est disponible que pour les comptes G Suite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour gérer les pièces jointes volumineuses dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Google Drive pour envoyer des fichiers volumineux",
+          "correct": true
+        },
+        {
+          "content": "Compresser les fichiers avant l'envoi",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un service tiers de transfert de fichiers",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la limite de taille des pièces jointes dans les paramètres"
+        },
+        {
+          "content": "Envoyer les fichiers en plusieurs e-mails séparés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un groupe de contacts dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Dans Google Contacts, créer une étiquette et y ajouter les contacts souhaités",
+          "correct": true
+        },
+        {
+          "content": "Dans Gmail, cliquer sur 'Créer un groupe' dans le menu latéral"
+        },
+        {
+          "content": "Lors de la rédaction d'un e-mail, sélectionner 'Nouveau groupe' dans le champ des destinataires"
+        },
+        {
+          "content": "Cette fonction n'est pas disponible dans Gmail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de programmer des rappels pour les e-mails importants ?"
+      },
+      "options": [
+        {
+          "content": "Snooze (Reporter)",
+          "correct": true
+        },
+        {
+          "content": "Reminder (Rappel)"
+        },
+        {
+          "content": "Follow-up (Suivi)"
+        },
+        {
+          "content": "Alert (Alerte)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de confidentialité disponibles pour protéger vos e-mails dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Activer la vérification en deux étapes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le mode confidentiel pour les e-mails sensibles",
+          "correct": true
+        },
+        {
+          "content": "Vérifier les activités suspectes dans le compte",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un VPN lors de l'accès à Gmail",
+          "correct": true
+        },
+        {
+          "content": "Crypter automatiquement tous les e-mails sortants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la fonction de suivi des e-mails dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cette fonction n'est pas disponible nativement dans Gmail",
+          "correct": true
+        },
+        {
+          "content": "Dans les paramètres, sous 'Avancé', activer 'Suivi des e-mails'"
+        },
+        {
+          "content": "Installer une extension tierce pour le suivi des e-mails"
+        },
+        {
+          "content": "Activer l'option 'Accusé de réception' lors de l'envoi d'un e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode recommandée pour se déconnecter en toute sécurité de Gmail sur un ordinateur partagé ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur l'icône du compte, puis sur 'Se déconnecter'",
+          "correct": true
+        },
+        {
+          "content": "Fermer simplement le navigateur"
+        },
+        {
+          "content": "Supprimer l'historique de navigation"
+        },
+        {
+          "content": "Utiliser le mode de navigation privée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour rédiger un e-mail professionnel dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une ligne d'objet claire et concise",
+          "correct": true
+        },
+        {
+          "content": "Commencer par une salutation appropriée",
+          "correct": true
+        },
+        {
+          "content": "Structurer le contenu en paragraphes courts",
+          "correct": true
+        },
+        {
+          "content": "Terminer par une signature professionnelle",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des émoticônes pour paraître plus amical"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un modèle d'e-mail dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Rédiger l'e-mail, cliquer sur les trois points verticaux, puis 'Sauvegarder le brouillon comme modèle'",
+          "correct": true
+        },
+        {
+          "content": "Dans les paramètres, sous 'Avancé', activer 'Modèles'"
+        },
+        {
+          "content": "Cliquer sur 'Créer un modèle' dans le menu latéral"
+        },
+        {
+          "content": "Cette fonction n'est pas disponible dans Gmail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de regrouper automatiquement les e-mails d'une conversation ?"
+      },
+      "options": [
+        {
+          "content": "Affichage par conversation",
+          "correct": true
+        },
+        {
+          "content": "Regroupement automatique"
+        },
+        {
+          "content": "Fil de discussion"
+        },
+        {
+          "content": "Mode chronologique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour personnaliser la boîte de réception Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Modifier la disposition (par défaut, confortable, compact)",
+          "correct": true
+        },
+        {
+          "content": "Activer ou désactiver les onglets de catégories",
+          "correct": true
+        },
+        {
+          "content": "Personnaliser les libellés et leur ordre d'affichage",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des widgets personnalisés"
+        },
+        {
+          "content": "Modifier la couleur de fond de chaque e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la fonction de correction orthographique automatique dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cette fonction est généralement activée par défaut et gérée par le navigateur",
+          "correct": true
+        },
+        {
+          "content": "Dans les paramètres Gmail, sous 'Général', activer 'Correction orthographique'"
+        },
+        {
+          "content": "Installer une extension de correction orthographique"
+        },
+        {
+          "content": "Cette fonction n'est pas disponible dans Gmail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la limite de stockage gratuit pour un compte Gmail standard ?"
+      },
+      "options": [
+        {
+          "content": "15 Go (partagés avec Google Drive et Google Photos)",
+          "correct": true
+        },
+        {
+          "content": "5 Go"
+        },
+        {
+          "content": "10 Go"
+        },
+        {
+          "content": "Illimité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour gérer les e-mails indésirables dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Marquer comme spam",
+          "correct": true
+        },
+        {
+          "content": "Créer des filtres pour bloquer certains expéditeurs",
+          "correct": true
+        },
+        {
+          "content": "Ajuster les paramètres de spam dans les options de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'option 'Ne plus recevoir' dans les e-mails de newsletter",
+          "correct": true
+        },
+        {
+          "content": "Payer pour un service anti-spam premium"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder aux e-mails archivés dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur 'Tous les messages' dans le menu latéral",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la recherche avec le mot-clé 'in:archive'"
+        },
+        {
+          "content": "Aller dans le dossier 'Archives' dans le menu latéral"
+        },
+        {
+          "content": "Les e-mails archivés ne sont pas accessibles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de programmer l'envoi d'un e-mail à une date et heure spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Programmer l'envoi",
+          "correct": true
+        },
+        {
+          "content": "Envoi différé"
+        },
+        {
+          "content": "Planification d'e-mail"
+        },
+        {
+          "content": "Envoi automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour collaborer sur un e-mail dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction 'Rédiger à plusieurs' pour co-écrire un e-mail",
+          "correct": true
+        },
+        {
+          "content": "Partager un brouillon avec d'autres utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Utiliser Google Docs pour rédiger le contenu et le copier dans l'e-mail",
+          "correct": true
+        },
+        {
+          "content": "Activer le mode 'Collaboration en temps réel' dans les paramètres"
+        },
+        {
+          "content": "Utiliser la fonction de chat intégrée pour discuter du contenu de l'e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Gmail permet de créer des alias d'adresse e-mail en ajoutant un '+' à votre adresse ?"
+      },
+      "options": [
+        {
+          "content": "Gmail Plus Addressing",
+          "correct": true
+        },
+        {
+          "content": "Alias Generator"
+        },
+        {
+          "content": "Email Multiplier"
+        },
+        {
+          "content": "Address Extender"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la fonction 'Conversation View' dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Regrouper les e-mails liés en un seul fil",
+          "correct": true
+        },
+        {
+          "content": "Faciliter le suivi des échanges",
+          "correct": true
+        },
+        {
+          "content": "Réduire l'encombrement de la boîte de réception",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de chargement des e-mails"
+        },
+        {
+          "content": "Trier automatiquement les e-mails par importance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la fonction 'Undo Send' (Annuler l'envoi) dans Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Cette fonction est activée par défaut, le délai peut être ajusté dans les paramètres",
+          "correct": true
+        },
+        {
+          "content": "Dans les paramètres, sous 'Avancé', activer 'Undo Send'"
+        },
+        {
+          "content": "Cette fonction n'est disponible que pour les comptes G Suite"
+        },
+        {
+          "content": "Cliquer sur 'Activer Undo Send' après chaque envoi d'e-mail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour gérer efficacement sa boîte de réception Gmail ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des filtres pour trier automatiquement les e-mails",
+          "correct": true
+        },
+        {
+          "content": "Archiver régulièrement les e-mails traités",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des étiquettes pour organiser les e-mails",
+          "correct": true
+        },
+        {
+          "content": "Désactiver les notifications pour éviter les distractions",
+          "correct": true
+        },
+        {
+          "content": "Supprimer tous les e-mails après les avoir lus"
+        }
+      ]
+    }
+  ]
+}

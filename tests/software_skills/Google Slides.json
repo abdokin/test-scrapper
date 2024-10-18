@@ -1,0 +1,879 @@
+{
+  "title": "Google Slides",
+  "attributes": {
+    "overview": "Ce test Google Slides évalue les connaissances techniques des candidats sur l'outil et leur capacité à concevoir et construire des diaporamas attrayants, tout en adoptant des approches intelligentes et efficaces pour le faire.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface de Google Slides",
+      "Création et édition de diapositives",
+      "Mise en forme et design",
+      "Insertion et manipulation d'objets",
+      "Animations et transitions",
+      "Collaboration et partage",
+      "Présentations efficaces",
+      "Fonctionnalités avancées"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en création de présentations professionnelles et en utilisation efficace de Google Slides.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Slides, évaluant la capacité du candidat à créer des présentations efficaces et à utiliser les fonctionnalités clés de l'outil.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la façon la plus rapide d'ajouter une nouvelle diapositive dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + M (ou Cmd + M sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Cliquer sur le bouton '+' dans la barre d'outils"
+        },
+        {
+          "content": "Menu Insertion > Nouvelle diapositive"
+        },
+        {
+          "content": "Clic droit > Nouvelle diapositive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on modifier le thème d'une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Menu Diapositive > Modifier le thème"
+        },
+        {
+          "content": "Menu Affichage > Thèmes"
+        },
+        {
+          "content": "Menu Format > Appliquer un thème"
+        },
+        {
+          "content": "Menu Diapositives > Appliquer un thème",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour aligner des objets dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Aligner à gauche",
+          "correct": true
+        },
+        {
+          "content": "Aligner au centre",
+          "correct": true
+        },
+        {
+          "content": "Aligner à droite",
+          "correct": true
+        },
+        {
+          "content": "Aligner en diagonale"
+        },
+        {
+          "content": "Distribuer horizontalement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle combinaison de touches permet de lancer le mode présentation dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl + F5"
+        },
+        {
+          "content": "F5"
+        },
+        {
+          "content": "Ctrl + Entrée (ou Cmd + Entrée sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Alt + P"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment insérer un lien hypertexte dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Menu Insertion > Lien"
+        },
+        {
+          "content": "Ctrl + K (ou Cmd + K sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Clic droit > Insérer un lien"
+        },
+        {
+          "content": "Menu Format > Lien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de fichiers peuvent être insérés directement dans une diapositive Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Images",
+          "correct": true
+        },
+        {
+          "content": "Vidéos",
+          "correct": true
+        },
+        {
+          "content": "Fichiers audio",
+          "correct": true
+        },
+        {
+          "content": "Documents PDF"
+        },
+        {
+          "content": "Tableaux Google Sheets",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une présentation interactive avec des chemins de navigation personnalisés ?"
+      },
+      "options": [
+        {
+          "content": "Hyperliens",
+          "correct": true
+        },
+        {
+          "content": "Animations"
+        },
+        {
+          "content": "Transitions"
+        },
+        {
+          "content": "Sections"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter des notes de présentation à une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Menu Insertion > Notes"
+        },
+        {
+          "content": "Cliquer sur 'Ajouter des notes' sous la diapositive",
+          "correct": true
+        },
+        {
+          "content": "Menu Affichage > Notes du présentateur"
+        },
+        {
+          "content": "Double-cliquer sur le bas de la diapositive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de collaboration sont disponibles dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Partage en temps réel",
+          "correct": true
+        },
+        {
+          "content": "Commentaires",
+          "correct": true
+        },
+        {
+          "content": "Suggestions",
+          "correct": true
+        },
+        {
+          "content": "Historique des versions",
+          "correct": true
+        },
+        {
+          "content": "Fusion de présentations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité permet de maintenir la cohérence visuelle entre les diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Masque des diapositives",
+          "correct": true
+        },
+        {
+          "content": "Thèmes"
+        },
+        {
+          "content": "Styles prédéfinis"
+        },
+        {
+          "content": "Mise en page automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on redimensionner plusieurs objets simultanément tout en conservant leurs proportions ?"
+      },
+      "options": [
+        {
+          "content": "Maintenir Ctrl (ou Cmd sur Mac) en redimensionnant"
+        },
+        {
+          "content": "Maintenir Shift en redimensionnant",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'outil de redimensionnement groupé"
+        },
+        {
+          "content": "Double-cliquer sur la poignée de redimensionnement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'animations peuvent être appliqués aux objets dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Apparition",
+          "correct": true
+        },
+        {
+          "content": "Disparition",
+          "correct": true
+        },
+        {
+          "content": "Emphase",
+          "correct": true
+        },
+        {
+          "content": "Mouvement",
+          "correct": true
+        },
+        {
+          "content": "Transformation 3D"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer un sommaire interactif dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Table des matières automatique"
+        },
+        {
+          "content": "Liens internes vers les diapositives",
+          "correct": true
+        },
+        {
+          "content": "Sections de présentation"
+        },
+        {
+          "content": "Navigation par onglets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on insérer un graphique depuis Google Sheets dans une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Copier-coller depuis Sheets",
+          "correct": true
+        },
+        {
+          "content": "Menu Insertion > Graphique > Depuis Sheets"
+        },
+        {
+          "content": "Glisser-déposer depuis Sheets"
+        },
+        {
+          "content": "Importer le fichier Sheets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de partage sont disponibles pour une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Partage par lien",
+          "correct": true
+        },
+        {
+          "content": "Partage par e-mail",
+          "correct": true
+        },
+        {
+          "content": "Publication sur le web",
+          "correct": true
+        },
+        {
+          "content": "Téléchargement au format PowerPoint",
+          "correct": true
+        },
+        {
+          "content": "Partage sur les réseaux sociaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des diagrammes et des organigrammes dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Formes intelligentes"
+        },
+        {
+          "content": "Diagrammes automatiques"
+        },
+        {
+          "content": "Insertion > Diagramme"
+        },
+        {
+          "content": "Formes et lignes de connexion",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter une vidéo YouTube à une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Menu Insertion > Vidéo",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller le lien YouTube"
+        },
+        {
+          "content": "Télécharger la vidéo puis l'insérer"
+        },
+        {
+          "content": "Menu Insertion > Par URL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de mise en page sont disponibles pour les diapositives dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Titre",
+          "correct": true
+        },
+        {
+          "content": "Titre et corps de texte",
+          "correct": true
+        },
+        {
+          "content": "Deux colonnes",
+          "correct": true
+        },
+        {
+          "content": "Comparaison",
+          "correct": true
+        },
+        {
+          "content": "Vide",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une présentation à partir de plusieurs images ?"
+      },
+      "options": [
+        {
+          "content": "Importation d'images en masse"
+        },
+        {
+          "content": "Assistant de création d'album photo",
+          "correct": true
+        },
+        {
+          "content": "Conversion automatique d'images en diapositives"
+        },
+        {
+          "content": "Glisser-déposer plusieurs images"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un arrière-plan personnalisé pour une diapositive ?"
+      },
+      "options": [
+        {
+          "content": "Menu Format > Options d'arrière-plan",
+          "correct": true
+        },
+        {
+          "content": "Clic droit > Modifier l'arrière-plan"
+        },
+        {
+          "content": "Menu Insertion > Arrière-plan"
+        },
+        {
+          "content": "Double-cliquer sur l'arrière-plan de la diapositive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de transitions entre diapositives sont disponibles dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Fondu",
+          "correct": true
+        },
+        {
+          "content": "Glissement",
+          "correct": true
+        },
+        {
+          "content": "Rotation",
+          "correct": true
+        },
+        {
+          "content": "Cube"
+        },
+        {
+          "content": "Aucune transition",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de comparer deux versions d'une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Historique des versions",
+          "correct": true
+        },
+        {
+          "content": "Outil de comparaison"
+        },
+        {
+          "content": "Mode de révision"
+        },
+        {
+          "content": "Affichage côte à côte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter une bordure à une image dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Menu Format > Bordure et lignes",
+          "correct": true
+        },
+        {
+          "content": "Clic droit sur l'image > Ajouter une bordure"
+        },
+        {
+          "content": "Menu Insertion > Bordure"
+        },
+        {
+          "content": "Double-cliquer sur l'image > Onglet Bordure"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options sont disponibles pour l'exportation d'une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Microsoft PowerPoint (.pptx)",
+          "correct": true
+        },
+        {
+          "content": "PDF",
+          "correct": true
+        },
+        {
+          "content": "Image JPEG",
+          "correct": true
+        },
+        {
+          "content": "Texte brut (.txt)",
+          "correct": true
+        },
+        {
+          "content": "HTML"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet d'insérer automatiquement du texte de substitution dans une présentation ?"
+      },
+      "options": [
+        {
+          "content": "Champs de fusion"
+        },
+        {
+          "content": "Variables de texte"
+        },
+        {
+          "content": "Espaces réservés"
+        },
+        {
+          "content": "Complétion automatique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on créer un modèle personnalisé dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Menu Fichier > Nouveau > Modèle"
+        },
+        {
+          "content": "Modifier le masque des diapositives et enregistrer comme modèle",
+          "correct": true
+        },
+        {
+          "content": "Menu Outils > Créer un modèle"
+        },
+        {
+          "content": "Exporter la présentation au format .gstemplate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de formatage de texte sont disponibles dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Gras, italique, souligné",
+          "correct": true
+        },
+        {
+          "content": "Couleur de texte et de surlignage",
+          "correct": true
+        },
+        {
+          "content": "Espacement des caractères",
+          "correct": true
+        },
+        {
+          "content": "Exposant et indice",
+          "correct": true
+        },
+        {
+          "content": "Ombre et reflet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de synchroniser le timing des animations avec une narration audio ?"
+      },
+      "options": [
+        {
+          "content": "Enregistrement de la présentation",
+          "correct": true
+        },
+        {
+          "content": "Synchronisation automatique"
+        },
+        {
+          "content": "Mode présentateur"
+        },
+        {
+          "content": "Minuteur d'animations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on insérer des équations mathématiques dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Menu Insertion > Équation",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l'outil de dessin pour les créer manuellement"
+        },
+        {
+          "content": "Copier-coller depuis Google Docs"
+        },
+        {
+          "content": "Insérer une image d'équation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options sont disponibles pour personnaliser les puces dans une liste à puces ?"
+      },
+      "options": [
+        {
+          "content": "Changer la couleur des puces",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des images comme puces",
+          "correct": true
+        },
+        {
+          "content": "Ajuster la taille des puces",
+          "correct": true
+        },
+        {
+          "content": "Changer la forme des puces",
+          "correct": true
+        },
+        {
+          "content": "Animer individuellement les puces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer une présentation interactive avec des questions pour l'audience ?"
+      },
+      "options": [
+        {
+          "content": "Google Forms intégré"
+        },
+        {
+          "content": "Mode Q&A",
+          "correct": true
+        },
+        {
+          "content": "Sondages en direct"
+        },
+        {
+          "content": "Diapositives interactives"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter des sous-titres en temps réel pendant une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Activer les sous-titres instantanés dans les paramètres de présentation",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un service de transcription tiers"
+        },
+        {
+          "content": "Ajouter manuellement des sous-titres à chaque diapositive"
+        },
+        {
+          "content": "Cette fonctionnalité n'est pas disponible dans Google Slides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options de collaboration sont disponibles lors du partage d'une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Éditeur",
+          "correct": true
+        },
+        {
+          "content": "Commentateur",
+          "correct": true
+        },
+        {
+          "content": "Lecteur",
+          "correct": true
+        },
+        {
+          "content": "Propriétaire",
+          "correct": true
+        },
+        {
+          "content": "Observateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des présentations adaptatives qui s'ajustent automatiquement à différentes tailles d'écran ?"
+      },
+      "options": [
+        {
+          "content": "Mise en page réactive"
+        },
+        {
+          "content": "Ajustement automatique",
+          "correct": true
+        },
+        {
+          "content": "Redimensionnement intelligent"
+        },
+        {
+          "content": "Mode adaptatif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on ajouter une table des matières dynamique à une présentation Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction de sommaire automatique"
+        },
+        {
+          "content": "Créer manuellement des liens vers chaque diapositive",
+          "correct": true
+        },
+        {
+          "content": "Insérer un index généré automatiquement"
+        },
+        {
+          "content": "Utiliser l'outil de navigation par sections"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options sont disponibles pour personnaliser les transitions entre les diapositives ?"
+      },
+      "options": [
+        {
+          "content": "Durée de la transition",
+          "correct": true
+        },
+        {
+          "content": "Déclenchement automatique ou sur clic",
+          "correct": true
+        },
+        {
+          "content": "Application à toutes les diapositives",
+          "correct": true
+        },
+        {
+          "content": "Ajout d'effets sonores",
+          "correct": true
+        },
+        {
+          "content": "Personnalisation du chemin de transition"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de créer des animations complexes avec plusieurs objets dans Google Slides ?"
+      },
+      "options": [
+        {
+          "content": "Animations groupées"
+        },
+        {
+          "content": "Séquence d'animations",
+          "correct": true
+        },
+        {
+          "content": "Animations en couches"
+        },
+        {
+          "content": "Effets de mouvement avancés"
+        }
+      ]
+    }
+  ]
+}

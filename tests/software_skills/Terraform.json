@@ -1,0 +1,900 @@
+{
+  "title": "Terraform",
+  "attributes": {
+    "overview": "Ce test Terraform évalue les connaissances techniques des candidats sur Terraform. Ce test vous aidera à identifier les ingénieurs qui maîtrisent bien Terraform et sont capables de l'utiliser efficacement comme outil de mise en œuvre de l'infrastructure en tant que code.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de base de Terraform",
+      "Configuration HCL",
+      "Gestion des ressources",
+      "Variables et outputs",
+      "Modules Terraform",
+      "État et backend",
+      "Provisioners",
+      "Intégration avec les fournisseurs cloud"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'ingénieur DevOps, d'architecte cloud, et tout rôle impliquant la gestion d'infrastructure as code.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Terraform, évaluant la capacité du candidat à concevoir, déployer et gérer l'infrastructure en utilisant Terraform.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande Terraform est utilisée pour créer un plan d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "terraform plan",
+          "correct": true
+        },
+        {
+          "content": "terraform apply"
+        },
+        {
+          "content": "terraform init"
+        },
+        {
+          "content": "terraform create"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le format de fichier principal utilisé pour écrire la configuration Terraform ?"
+      },
+      "options": [
+        {
+          "content": "HCL (HashiCorp Configuration Language)",
+          "correct": true
+        },
+        {
+          "content": "YAML"
+        },
+        {
+          "content": "XML"
+        },
+        {
+          "content": "JSON"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Terraform ?"
+      },
+      "options": [
+        {
+          "content": "Infrastructure as Code",
+          "correct": true
+        },
+        {
+          "content": "Gestion de l'état",
+          "correct": true
+        },
+        {
+          "content": "Support multi-cloud",
+          "correct": true
+        },
+        {
+          "content": "Exécution de code arbitraire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour initialiser un répertoire de travail Terraform ?"
+      },
+      "options": [
+        {
+          "content": "terraform init",
+          "correct": true
+        },
+        {
+          "content": "terraform start"
+        },
+        {
+          "content": "terraform begin"
+        },
+        {
+          "content": "terraform setup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment déclare-t-on une variable dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "variable \"nom\" {}",
+          "correct": true
+        },
+        {
+          "content": "var nom = {}"
+        },
+        {
+          "content": "define variable \"nom\""
+        },
+        {
+          "content": "set variable nom"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de backend Terraform prend-il en charge ?"
+      },
+      "options": [
+        {
+          "content": "S3",
+          "correct": true
+        },
+        {
+          "content": "Consul",
+          "correct": true
+        },
+        {
+          "content": "Local",
+          "correct": true
+        },
+        {
+          "content": "MongoDB"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour détruire toutes les ressources gérées par Terraform ?"
+      },
+      "options": [
+        {
+          "content": "terraform destroy",
+          "correct": true
+        },
+        {
+          "content": "terraform delete"
+        },
+        {
+          "content": "terraform remove"
+        },
+        {
+          "content": "terraform clean"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment référence-t-on la valeur d'une variable dans une configuration Terraform ?"
+      },
+      "options": [
+        {
+          "content": "${var.nom_variable}",
+          "correct": true
+        },
+        {
+          "content": "$var.nom_variable"
+        },
+        {
+          "content": "var.nom_variable"
+        },
+        {
+          "content": "{{var.nom_variable}}"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de provisioners disponibles dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "local-exec",
+          "correct": true
+        },
+        {
+          "content": "remote-exec",
+          "correct": true
+        },
+        {
+          "content": "file",
+          "correct": true
+        },
+        {
+          "content": "docker-exec"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande Terraform est utilisée pour rafraîchir l'état sans créer un plan ou apporter des modifications ?"
+      },
+      "options": [
+        {
+          "content": "terraform refresh",
+          "correct": true
+        },
+        {
+          "content": "terraform update"
+        },
+        {
+          "content": "terraform sync"
+        },
+        {
+          "content": "terraform reload"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une dépendance explicite entre deux ressources dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "depends_on = [resource.name]",
+          "correct": true
+        },
+        {
+          "content": "dependency = resource.name"
+        },
+        {
+          "content": "require = [resource.name]"
+        },
+        {
+          "content": "needs = resource.name"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un module Terraform ?"
+      },
+      "options": [
+        {
+          "content": "Input variables",
+          "correct": true
+        },
+        {
+          "content": "Resources",
+          "correct": true
+        },
+        {
+          "content": "Output values",
+          "correct": true
+        },
+        {
+          "content": "Providers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour générer un hash sécurisé d'une chaîne donnée ?"
+      },
+      "options": [
+        {
+          "content": "base64encode",
+          "correct": true
+        },
+        {
+          "content": "md5"
+        },
+        {
+          "content": "sha256"
+        },
+        {
+          "content": "encrypt"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment spécifie-t-on une version spécifique d'un provider dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "version = \"X.Y.Z\"",
+          "correct": true
+        },
+        {
+          "content": "provider_version = \"X.Y.Z\""
+        },
+        {
+          "content": "use_version = \"X.Y.Z\""
+        },
+        {
+          "content": "set_version = \"X.Y.Z\""
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de données pris en charge par Terraform ?"
+      },
+      "options": [
+        {
+          "content": "string",
+          "correct": true
+        },
+        {
+          "content": "number",
+          "correct": true
+        },
+        {
+          "content": "bool",
+          "correct": true
+        },
+        {
+          "content": "list",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Terraform est utilisée pour formater les fichiers de configuration de manière cohérente ?"
+      },
+      "options": [
+        {
+          "content": "terraform fmt",
+          "correct": true
+        },
+        {
+          "content": "terraform format"
+        },
+        {
+          "content": "terraform style"
+        },
+        {
+          "content": "terraform beautify"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment référence-t-on un attribut d'une ressource dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "${resource_type.resource_name.attribute}",
+          "correct": true
+        },
+        {
+          "content": "resource_type.resource_name.attribute"
+        },
+        {
+          "content": "$(resource_type.resource_name.attribute)"
+        },
+        {
+          "content": "{{resource_type.resource_name.attribute}}"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de modules dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "Réutilisation du code",
+          "correct": true
+        },
+        {
+          "content": "Encapsulation",
+          "correct": true
+        },
+        {
+          "content": "Organisation du code",
+          "correct": true
+        },
+        {
+          "content": "Exécution plus rapide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour récupérer le chemin du module en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "path.module",
+          "correct": true
+        },
+        {
+          "content": "module.path"
+        },
+        {
+          "content": "current_path"
+        },
+        {
+          "content": "module_directory"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une valeur par défaut pour une variable dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "default = value",
+          "correct": true
+        },
+        {
+          "content": "value = default"
+        },
+        {
+          "content": "set_default(value)"
+        },
+        {
+          "content": "default_value = value"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de blocs de données disponibles dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "data",
+          "correct": true
+        },
+        {
+          "content": "resource",
+          "correct": true
+        },
+        {
+          "content": "provider",
+          "correct": true
+        },
+        {
+          "content": "module",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Terraform est utilisée pour valider la syntaxe des fichiers de configuration ?"
+      },
+      "options": [
+        {
+          "content": "terraform validate",
+          "correct": true
+        },
+        {
+          "content": "terraform check"
+        },
+        {
+          "content": "terraform lint"
+        },
+        {
+          "content": "terraform test"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment spécifie-t-on une condition dans une ressource Terraform ?"
+      },
+      "options": [
+        {
+          "content": "count = condition ? 1 : 0",
+          "correct": true
+        },
+        {
+          "content": "if condition then create"
+        },
+        {
+          "content": "condition ? create : ignore"
+        },
+        {
+          "content": "create_if = condition"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de variables d'environnement reconnus par Terraform ?"
+      },
+      "options": [
+        {
+          "content": "TF_VAR_name",
+          "correct": true
+        },
+        {
+          "content": "TF_LOG",
+          "correct": true
+        },
+        {
+          "content": "TF_CLI_ARGS",
+          "correct": true
+        },
+        {
+          "content": "TF_WORKSPACE",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour joindre plusieurs éléments d'une liste en une seule chaîne ?"
+      },
+      "options": [
+        {
+          "content": "join",
+          "correct": true
+        },
+        {
+          "content": "concat"
+        },
+        {
+          "content": "merge"
+        },
+        {
+          "content": "flatten"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on un bloc de sortie (output) dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "output \"nom\" { value = expression }",
+          "correct": true
+        },
+        {
+          "content": "export \"nom\" = expression"
+        },
+        {
+          "content": "return { \"nom\": expression }"
+        },
+        {
+          "content": "output = { \"nom\": expression }"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de provisioners disponibles dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "local-exec",
+          "correct": true
+        },
+        {
+          "content": "remote-exec",
+          "correct": true
+        },
+        {
+          "content": "file",
+          "correct": true
+        },
+        {
+          "content": "chef"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Terraform est utilisée pour importer une ressource existante dans l'état Terraform ?"
+      },
+      "options": [
+        {
+          "content": "terraform import",
+          "correct": true
+        },
+        {
+          "content": "terraform add"
+        },
+        {
+          "content": "terraform include"
+        },
+        {
+          "content": "terraform fetch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment référence-t-on un module enfant dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "module.nom_module",
+          "correct": true
+        },
+        {
+          "content": "child.nom_module"
+        },
+        {
+          "content": "modules[\"nom_module\"]"
+        },
+        {
+          "content": "nom_module.module"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de workspaces dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "Isoler les environnements",
+          "correct": true
+        },
+        {
+          "content": "Tester des changements",
+          "correct": true
+        },
+        {
+          "content": "Gestion de versions multiples",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse d'exécution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour générer un UUID ?"
+      },
+      "options": [
+        {
+          "content": "uuid()",
+          "correct": true
+        },
+        {
+          "content": "generate_uuid()"
+        },
+        {
+          "content": "random_uuid()"
+        },
+        {
+          "content": "create_uuid()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment spécifie-t-on une dépendance implicite entre deux ressources dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "En référençant un attribut d'une ressource dans une autre",
+          "correct": true
+        },
+        {
+          "content": "En utilisant le bloc 'depends_on'"
+        },
+        {
+          "content": "En définissant un ordre dans le fichier de configuration"
+        },
+        {
+          "content": "En utilisant la fonction 'dependency()'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de backend supportés par Terraform ?"
+      },
+      "options": [
+        {
+          "content": "S3",
+          "correct": true
+        },
+        {
+          "content": "Consul",
+          "correct": true
+        },
+        {
+          "content": "etcd",
+          "correct": true
+        },
+        {
+          "content": "Local",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Terraform est utilisée pour afficher le graphe de dépendances des ressources ?"
+      },
+      "options": [
+        {
+          "content": "terraform graph",
+          "correct": true
+        },
+        {
+          "content": "terraform show"
+        },
+        {
+          "content": "terraform visualize"
+        },
+        {
+          "content": "terraform dependencies"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment définit-on une variable de type map dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "variable \"nom\" { type = map(string) }",
+          "correct": true
+        },
+        {
+          "content": "map \"nom\" { type = string }"
+        },
+        {
+          "content": "variable \"nom\" = { type: \"map\" }"
+        },
+        {
+          "content": "define map \"nom\" of string"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de data sources dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "Récupérer des informations externes",
+          "correct": true
+        },
+        {
+          "content": "Réutiliser des ressources existantes",
+          "correct": true
+        },
+        {
+          "content": "Maintenir la cohérence des données",
+          "correct": true
+        },
+        {
+          "content": "Augmenter la vitesse de déploiement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour encoder une chaîne en base64 ?"
+      },
+      "options": [
+        {
+          "content": "base64encode",
+          "correct": true
+        },
+        {
+          "content": "encode64"
+        },
+        {
+          "content": "to_base64"
+        },
+        {
+          "content": "base64"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment spécifie-t-on une condition pour créer une ressource uniquement si une variable est définie ?"
+      },
+      "options": [
+        {
+          "content": "count = var.condition ? 1 : 0",
+          "correct": true
+        },
+        {
+          "content": "if var.condition then create"
+        },
+        {
+          "content": "create_if = var.condition"
+        },
+        {
+          "content": "condition = var.condition ? create : ignore"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de méta-arguments disponibles pour les ressources dans Terraform ?"
+      },
+      "options": [
+        {
+          "content": "count",
+          "correct": true
+        },
+        {
+          "content": "for_each",
+          "correct": true
+        },
+        {
+          "content": "lifecycle",
+          "correct": true
+        },
+        {
+          "content": "provider",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Terraform est utilisée pour lire le contenu d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "file",
+          "correct": true
+        },
+        {
+          "content": "read_file"
+        },
+        {
+          "content": "load_file"
+        },
+        {
+          "content": "get_file_content"
+        }
+      ]
+    }
+  ]
+}

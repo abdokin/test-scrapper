@@ -1,0 +1,949 @@
+{
+  "title": "Google Ads",
+  "attributes": {
+    "overview": "Le test Google Ads évalue les connaissances des candidats sur les principaux concepts et les fonctionnalités essentielles de Google Ads. Ce test vous aidera à recruter des experts de Google Ads capables d'utiliser la plateforme pour obtenir des résultats tant pour les campagnes de recherche que pour les campagnes payantes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de base de Google Ads",
+      "Structure des campagnes",
+      "Types d'enchères",
+      "Ciblage d'audience",
+      "Création d'annonces",
+      "Optimisation des campagnes",
+      "Rapports et analyses",
+      "Remarketing"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de spécialiste marketing digital, gestionnaire de campagnes publicitaires en ligne, ou tout rôle nécessitant une expertise en Google Ads.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Ads, évaluant la capacité du candidat à créer, gérer et optimiser des campagnes publicitaires efficaces sur la plateforme Google Ads.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le principal objectif du score de qualité dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Mesurer la pertinence de vos annonces, mots-clés et pages de destination",
+          "correct": true
+        },
+        {
+          "content": "Déterminer le coût par clic de vos annonces"
+        },
+        {
+          "content": "Calculer le retour sur investissement de vos campagnes"
+        },
+        {
+          "content": "Évaluer la performance globale de votre compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le pourcentage de clics que votre annonce reçoit lorsqu'elle est affichée ?"
+      },
+      "options": [
+        {
+          "content": "Taux de conversion"
+        },
+        {
+          "content": "Taux de clics (CTR)",
+          "correct": true
+        },
+        {
+          "content": "Impressions"
+        },
+        {
+          "content": "Position moyenne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de correspondance de mots-clés disponibles dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Exact",
+          "correct": true
+        },
+        {
+          "content": "Expression",
+          "correct": true
+        },
+        {
+          "content": "Large",
+          "correct": true
+        },
+        {
+          "content": "Négative",
+          "correct": true
+        },
+        {
+          "content": "Partielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce que le CPC maximum dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Le montant le plus élevé que vous êtes prêt à payer pour un clic sur votre annonce",
+          "correct": true
+        },
+        {
+          "content": "Le coût moyen par clic de vos annonces"
+        },
+        {
+          "content": "Le coût total de votre campagne divisé par le nombre de clics"
+        },
+        {
+          "content": "Le montant minimum nécessaire pour afficher votre annonce"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonctionnalité permet de cibler les utilisateurs qui ont déjà interagi avec votre site web ou application mobile ?"
+      },
+      "options": [
+        {
+          "content": "Ciblage démographique"
+        },
+        {
+          "content": "Ciblage par intérêts"
+        },
+        {
+          "content": "Remarketing",
+          "correct": true
+        },
+        {
+          "content": "Ciblage contextuel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments font partie d'une annonce textuelle standard sur le Réseau de Recherche Google ?"
+      },
+      "options": [
+        {
+          "content": "Titres",
+          "correct": true
+        },
+        {
+          "content": "Description",
+          "correct": true
+        },
+        {
+          "content": "URL d'affichage",
+          "correct": true
+        },
+        {
+          "content": "URL finale",
+          "correct": true
+        },
+        {
+          "content": "Image"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle stratégie d'enchères automatiques vise à maximiser le nombre de conversions dans la limite de votre budget ?"
+      },
+      "options": [
+        {
+          "content": "CPC amélioré"
+        },
+        {
+          "content": "Maximiser les conversions",
+          "correct": true
+        },
+        {
+          "content": "Maximiser la valeur des conversions"
+        },
+        {
+          "content": "CPA cible"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que l'extension d'annonce 'sitelink' ?"
+      },
+      "options": [
+        {
+          "content": "Un lien vers votre page Facebook"
+        },
+        {
+          "content": "Des liens supplémentaires vers des pages spécifiques de votre site",
+          "correct": true
+        },
+        {
+          "content": "Un numéro de téléphone cliquable"
+        },
+        {
+          "content": "Une note d'avis client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages du remarketing dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Cibler des utilisateurs qui ont déjà montré un intérêt pour vos produits ou services",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le taux de conversion",
+          "correct": true
+        },
+        {
+          "content": "Réduire le coût par acquisition",
+          "correct": true
+        },
+        {
+          "content": "Améliorer la notoriété de la marque",
+          "correct": true
+        },
+        {
+          "content": "Garantir un classement n°1 dans les résultats de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale différence entre le Réseau de Recherche et le Réseau Display de Google ?"
+      },
+      "options": [
+        {
+          "content": "Le Réseau de Recherche affiche des annonces textuelles, le Réseau Display des annonces visuelles",
+          "correct": true
+        },
+        {
+          "content": "Le Réseau de Recherche est gratuit, le Réseau Display est payant"
+        },
+        {
+          "content": "Le Réseau de Recherche cible les mobiles, le Réseau Display les ordinateurs"
+        },
+        {
+          "content": "Le Réseau de Recherche est automatique, le Réseau Display nécessite une configuration manuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le Quality Score dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Une mesure de la qualité de votre site web"
+        },
+        {
+          "content": "Une estimation de la qualité de vos annonces, mots-clés et pages de destination",
+          "correct": true
+        },
+        {
+          "content": "Le nombre total de clics sur vos annonces"
+        },
+        {
+          "content": "Le pourcentage de conversions de vos campagnes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels facteurs influencent le classement des annonces dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Enchère",
+          "correct": true
+        },
+        {
+          "content": "Quality Score",
+          "correct": true
+        },
+        {
+          "content": "Extensions d'annonce",
+          "correct": true
+        },
+        {
+          "content": "Contexte de la recherche",
+          "correct": true
+        },
+        {
+          "content": "Ancienneté du compte Google Ads"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode de ciblage permet d'afficher vos annonces aux utilisateurs en fonction de leurs centres d'intérêt ?"
+      },
+      "options": [
+        {
+          "content": "Ciblage démographique"
+        },
+        {
+          "content": "Ciblage par mots-clés"
+        },
+        {
+          "content": "Ciblage par centres d'intérêt",
+          "correct": true
+        },
+        {
+          "content": "Ciblage géographique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le CPA (Coût Par Acquisition) dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Le coût total de votre campagne"
+        },
+        {
+          "content": "Le coût moyen pour obtenir une conversion",
+          "correct": true
+        },
+        {
+          "content": "Le coût par clic sur votre annonce"
+        },
+        {
+          "content": "Le coût pour atteindre 1000 impressions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages des annonces responsives sur le Réseau de Recherche ?"
+      },
+      "options": [
+        {
+          "content": "Adaptation automatique à différents formats d'affichage",
+          "correct": true
+        },
+        {
+          "content": "Test de multiples combinaisons de titres et descriptions",
+          "correct": true
+        },
+        {
+          "content": "Optimisation basée sur les performances",
+          "correct": true
+        },
+        {
+          "content": "Réduction du temps nécessaire à la création d'annonces",
+          "correct": true
+        },
+        {
+          "content": "Garantie de la première position dans les résultats de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction dans Google Ads permet de prévoir le volume de recherche pour des mots-clés spécifiques ?"
+      },
+      "options": [
+        {
+          "content": "Outil de planification des mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Rapport de termes de recherche"
+        },
+        {
+          "content": "Outil de prévision de campagne"
+        },
+        {
+          "content": "Analyse de la concurrence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le remarketing dynamique dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Afficher des annonces personnalisées basées sur les produits ou services consultés par l'utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Changer automatiquement vos enchères en fonction de l'heure de la journée"
+        },
+        {
+          "content": "Créer des annonces qui s'adaptent à différentes tailles d'écran"
+        },
+        {
+          "content": "Modifier vos annonces en temps réel en fonction des tendances actuelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de campagnes disponibles dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Recherche",
+          "correct": true
+        },
+        {
+          "content": "Display",
+          "correct": true
+        },
+        {
+          "content": "Shopping",
+          "correct": true
+        },
+        {
+          "content": "Vidéo",
+          "correct": true
+        },
+        {
+          "content": "Applications",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle métrique mesure le rapport entre les conversions et le nombre de clics sur vos annonces ?"
+      },
+      "options": [
+        {
+          "content": "Taux de conversion",
+          "correct": true
+        },
+        {
+          "content": "Taux de clics (CTR)"
+        },
+        {
+          "content": "Retour sur investissement (ROI)"
+        },
+        {
+          "content": "Coût par acquisition (CPA)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Smart Bidding' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Une stratégie d'enchères utilisant l'apprentissage automatique pour optimiser les conversions",
+          "correct": true
+        },
+        {
+          "content": "Un outil pour créer automatiquement des annonces"
+        },
+        {
+          "content": "Une fonction pour générer des rapports intelligents"
+        },
+        {
+          "content": "Un système de notation des mots-clés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de ciblage disponibles pour les campagnes Display ?"
+      },
+      "options": [
+        {
+          "content": "Données démographiques",
+          "correct": true
+        },
+        {
+          "content": "Centres d'intérêt",
+          "correct": true
+        },
+        {
+          "content": "Mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Emplacements (sites web)",
+          "correct": true
+        },
+        {
+          "content": "Remarketing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre le CPC (Coût Par Clic) et le CPM (Coût Pour Mille) ?"
+      },
+      "options": [
+        {
+          "content": "Le CPC facture pour chaque clic, le CPM pour chaque mille impressions",
+          "correct": true
+        },
+        {
+          "content": "Le CPC est utilisé sur le Réseau de Recherche, le CPM sur le Réseau Display"
+        },
+        {
+          "content": "Le CPC optimise les conversions, le CPM optimise la visibilité"
+        },
+        {
+          "content": "Le CPC est manuel, le CPM est automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'ad rank' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "La position de votre annonce dans les résultats de recherche"
+        },
+        {
+          "content": "Un score calculé pour déterminer si et où votre annonce apparaîtra",
+          "correct": true
+        },
+        {
+          "content": "Le classement de votre site web dans les résultats organiques"
+        },
+        {
+          "content": "Le nombre total de clics sur votre annonce"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages des extensions d'annonce dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Augmentation de la visibilité de l'annonce",
+          "correct": true
+        },
+        {
+          "content": "Amélioration du taux de clics (CTR)",
+          "correct": true
+        },
+        {
+          "content": "Fourniture d'informations supplémentaires aux utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Possibilité d'apparaître au-dessus des résultats de recherche organiques",
+          "correct": true
+        },
+        {
+          "content": "Garantie d'un meilleur classement dans les résultats de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil de planification des mots-clés dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Générer automatiquement des annonces"
+        },
+        {
+          "content": "Analyser le volume de recherche et suggérer de nouveaux mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les enchères pour les mots-clés existants"
+        },
+        {
+          "content": "Créer des groupes d'annonces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Quality Score' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Une mesure de la qualité de votre site web"
+        },
+        {
+          "content": "Un score de 1 à 10 estimant la qualité de vos annonces et mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Le pourcentage de clics sur vos annonces"
+        },
+        {
+          "content": "Le classement de votre annonce dans les résultats de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels facteurs influencent le Quality Score dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Taux de clics (CTR) attendu",
+          "correct": true
+        },
+        {
+          "content": "Pertinence de l'annonce",
+          "correct": true
+        },
+        {
+          "content": "Expérience de la page de destination",
+          "correct": true
+        },
+        {
+          "content": "Historique des performances du compte"
+        },
+        {
+          "content": "Montant de l'enchère"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle stratégie d'enchère vise à maximiser le nombre de clics dans la limite de votre budget quotidien ?"
+      },
+      "options": [
+        {
+          "content": "CPC manuel"
+        },
+        {
+          "content": "Maximiser les clics",
+          "correct": true
+        },
+        {
+          "content": "CPA cible"
+        },
+        {
+          "content": "Maximiser les conversions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Search Terms Report' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Un rapport montrant les termes de recherche réels qui ont déclenché vos annonces",
+          "correct": true
+        },
+        {
+          "content": "Une liste de mots-clés suggérés pour votre campagne"
+        },
+        {
+          "content": "Un outil pour rechercher des idées de contenu pour vos annonces"
+        },
+        {
+          "content": "Un rapport sur les positions moyennes de vos annonces"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages des campagnes de remarketing dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Cibler des utilisateurs qui ont déjà interagi avec votre site",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le taux de conversion",
+          "correct": true
+        },
+        {
+          "content": "Améliorer le retour sur investissement (ROI)",
+          "correct": true
+        },
+        {
+          "content": "Renforcer la notoriété de la marque",
+          "correct": true
+        },
+        {
+          "content": "Réduire le coût par clic (CPC)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre les conversions et les micro-conversions dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Les conversions sont des actions principales, les micro-conversions sont des étapes intermédiaires",
+          "correct": true
+        },
+        {
+          "content": "Les conversions sont gratuites, les micro-conversions sont payantes"
+        },
+        {
+          "content": "Les conversions sont automatiques, les micro-conversions sont manuelles"
+        },
+        {
+          "content": "Les conversions sont pour le Réseau de Recherche, les micro-conversions pour le Réseau Display"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Impression Share' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Le pourcentage d'impressions que vos annonces ont reçu par rapport au total possible",
+          "correct": true
+        },
+        {
+          "content": "Le nombre total d'impressions de vos annonces"
+        },
+        {
+          "content": "Le coût moyen par impression"
+        },
+        {
+          "content": "Le rapport entre les impressions et les clics"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments d'une structure de compte Google Ads bien organisée ?"
+      },
+      "options": [
+        {
+          "content": "Campagnes",
+          "correct": true
+        },
+        {
+          "content": "Groupes d'annonces",
+          "correct": true
+        },
+        {
+          "content": "Mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Annonces",
+          "correct": true
+        },
+        {
+          "content": "Extensions d'annonce",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale des audiences similaires (similar audiences) dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Atteindre de nouveaux utilisateurs ayant des caractéristiques similaires à votre audience existante",
+          "correct": true
+        },
+        {
+          "content": "Exclure les utilisateurs qui ont déjà converti"
+        },
+        {
+          "content": "Cibler uniquement les utilisateurs qui ont déjà visité votre site"
+        },
+        {
+          "content": "Créer des groupes d'annonces automatiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Dynamic Search Ads' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Des annonces générées automatiquement basées sur le contenu de votre site web",
+          "correct": true
+        },
+        {
+          "content": "Des annonces qui changent en fonction de l'heure de la journée"
+        },
+        {
+          "content": "Des annonces qui s'adaptent à différentes tailles d'écran"
+        },
+        {
+          "content": "Des annonces qui modifient automatiquement les enchères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Ad Schedule' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Un calendrier pour planifier la création de nouvelles annonces"
+        },
+        {
+          "content": "Une fonctionnalité permettant d'ajuster les enchères ou de désactiver les annonces à certaines heures ou certains jours",
+          "correct": true
+        },
+        {
+          "content": "Un outil pour programmer la publication automatique des annonces"
+        },
+        {
+          "content": "Un rapport montrant les performances des annonces au fil du temps"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages des annonces vidéo TrueView sur YouTube ?"
+      },
+      "options": [
+        {
+          "content": "Vous ne payez que lorsque les utilisateurs choisissent de regarder votre annonce",
+          "correct": true
+        },
+        {
+          "content": "Possibilité de cibler un public spécifique",
+          "correct": true
+        },
+        {
+          "content": "Format engageant pour raconter l'histoire de votre marque",
+          "correct": true
+        },
+        {
+          "content": "Mesure précise des vues et des interactions",
+          "correct": true
+        },
+        {
+          "content": "Garantie d'un placement en première page des résultats de recherche YouTube"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale de l'outil 'Expériences' (anciennement 'Experiments') dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Tester différentes versions de vos campagnes pour optimiser les performances",
+          "correct": true
+        },
+        {
+          "content": "Créer automatiquement de nouvelles annonces"
+        },
+        {
+          "content": "Analyser le comportement des utilisateurs sur votre site web"
+        },
+        {
+          "content": "Générer des rapports détaillés sur les performances des campagnes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le 'Negative Keyword' dans Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Un mot-clé qui a une performance négative"
+        },
+        {
+          "content": "Un type de mot-clé qui empêche votre annonce d'apparaître pour certaines recherches",
+          "correct": true
+        },
+        {
+          "content": "Un mot-clé avec un score de qualité faible"
+        },
+        {
+          "content": "Un mot-clé utilisé par vos concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les facteurs à considérer lors de l'optimisation d'une landing page pour Google Ads ?"
+      },
+      "options": [
+        {
+          "content": "Pertinence du contenu par rapport à l'annonce et aux mots-clés",
+          "correct": true
+        },
+        {
+          "content": "Vitesse de chargement de la page",
+          "correct": true
+        },
+        {
+          "content": "Expérience utilisateur sur mobile",
+          "correct": true
+        },
+        {
+          "content": "Présence d'un appel à l'action clair",
+          "correct": true
+        },
+        {
+          "content": "Utilisation de pop-ups agressifs pour capturer les leads"
+        }
+      ]
+    }
+  ]
+}

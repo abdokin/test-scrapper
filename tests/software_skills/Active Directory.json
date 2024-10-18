@@ -1,0 +1,918 @@
+{
+  "title": "Active Directory",
+  "attributes": {
+    "overview": "Ce test Active Directory évalue les compétences de mise en œuvre et d'administration lors du recrutement. Le test aide les employeurs à identifier les candidats capables d'installer, d'exploiter et de diagnostiquer efficacement Active Directory dans un réseau informatique de petite ou moyenne taille.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Installation et configuration d'Active Directory",
+      "Gestion des utilisateurs et des groupes",
+      "Stratégies de groupe (GPO)",
+      "Réplication et sites",
+      "Sécurité et autorisations",
+      "Dépannage d'Active Directory",
+      "Sauvegarde et récupération",
+      "Intégration avec d'autres services Microsoft"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur système, d'ingénieur réseau ou tout rôle impliquant la gestion d'infrastructures Windows Server.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'Active Directory, évaluant la capacité du candidat à gérer efficacement l'infrastructure d'annuaire d'une entreprise.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande PowerShell est utilisée pour créer un nouveau domaine Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Install-ADDSDomain",
+          "correct": true
+        },
+        {
+          "content": "New-ADDomain"
+        },
+        {
+          "content": "Create-ADDomain"
+        },
+        {
+          "content": "Set-ADDomain"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle FSMO responsable de la gestion des schémas dans une forêt Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Maître de schéma",
+          "correct": true
+        },
+        {
+          "content": "Maître d'attribution des RID"
+        },
+        {
+          "content": "Maître d'infrastructure"
+        },
+        {
+          "content": "Maître d'émulation PDC"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des stratégies de groupe (GPO) dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Centralisation de la gestion des configurations",
+          "correct": true
+        },
+        {
+          "content": "Application automatique des paramètres de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Réduction des tâches administratives manuelles",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la bande passante réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la commande PowerShell pour afficher tous les contrôleurs de domaine dans un domaine ?"
+      },
+      "options": [
+        {
+          "content": "Get-ADDomainController",
+          "correct": true
+        },
+        {
+          "content": "Show-ADDomainController"
+        },
+        {
+          "content": "List-ADDomainController"
+        },
+        {
+          "content": "Display-ADDomainController"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est utilisé par défaut pour la réplication Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "RPC sur IP",
+          "correct": true
+        },
+        {
+          "content": "SMTP"
+        },
+        {
+          "content": "HTTP"
+        },
+        {
+          "content": "FTP"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes recommandées pour sauvegarder Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Sauvegarde système d'état",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde complète du serveur",
+          "correct": true
+        },
+        {
+          "content": "Snapshot de machine virtuelle",
+          "correct": true
+        },
+        {
+          "content": "Copie manuelle des fichiers de base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour gérer les attributs de schéma dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "ADSI Edit",
+          "correct": true
+        },
+        {
+          "content": "Active Directory Users and Computers"
+        },
+        {
+          "content": "Group Policy Management Console"
+        },
+        {
+          "content": "DNS Manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un groupe de sécurité et un groupe de distribution dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Les groupes de sécurité peuvent avoir des autorisations, les groupes de distribution non",
+          "correct": true
+        },
+        {
+          "content": "Les groupes de distribution sont uniquement pour Exchange"
+        },
+        {
+          "content": "Les groupes de sécurité ne peuvent pas être utilisés pour l'envoi d'e-mails"
+        },
+        {
+          "content": "Il n'y a aucune différence fonctionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants d'un objet stratégie de groupe (GPO) ?"
+      },
+      "options": [
+        {
+          "content": "Conteneur de stratégie de groupe",
+          "correct": true
+        },
+        {
+          "content": "Modèle d'administration",
+          "correct": true
+        },
+        {
+          "content": "Objet de stratégie de groupe",
+          "correct": true
+        },
+        {
+          "content": "Filtre WMI"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande PowerShell est utilisée pour forcer la réplication entre deux contrôleurs de domaine ?"
+      },
+      "options": [
+        {
+          "content": "Sync-ADObject",
+          "correct": true
+        },
+        {
+          "content": "Replicate-AD"
+        },
+        {
+          "content": "Force-ADReplication"
+        },
+        {
+          "content": "Update-ADReplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le niveau fonctionnel de domaine minimum requis pour utiliser les stratégies de groupe de démarrage ?"
+      },
+      "options": [
+        {
+          "content": "Windows Server 2008",
+          "correct": true
+        },
+        {
+          "content": "Windows Server 2003"
+        },
+        {
+          "content": "Windows Server 2012"
+        },
+        {
+          "content": "Windows Server 2016"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de sites dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Optimisation du trafic de réplication",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de l'authentification des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Contrôle de la réplication entre les emplacements géographiques",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de la sécurité du réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du catalogue global dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des informations sur les objets de tous les domaines d'une forêt",
+          "correct": true
+        },
+        {
+          "content": "Gérer les licences des produits Microsoft"
+        },
+        {
+          "content": "Stocker les sauvegardes de la base de données Active Directory"
+        },
+        {
+          "content": "Contrôler l'accès Internet pour tous les utilisateurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est recommandé pour diagnostiquer les problèmes de réplication Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "dcdiag",
+          "correct": true
+        },
+        {
+          "content": "nslookup"
+        },
+        {
+          "content": "ping"
+        },
+        {
+          "content": "tracert"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour sécuriser Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des mots de passe complexes pour les comptes administrateurs",
+          "correct": true
+        },
+        {
+          "content": "Mettre en place une stratégie de rotation des mots de passe",
+          "correct": true
+        },
+        {
+          "content": "Auditer régulièrement les autorisations et les accès",
+          "correct": true
+        },
+        {
+          "content": "Désactiver complètement le pare-feu Windows"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la durée de vie par défaut d'un ticket Kerberos dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "10 heures",
+          "correct": true
+        },
+        {
+          "content": "24 heures"
+        },
+        {
+          "content": "8 heures"
+        },
+        {
+          "content": "48 heures"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du DNS dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Localiser les contrôleurs de domaine et les services",
+          "correct": true
+        },
+        {
+          "content": "Gérer les stratégies de groupe"
+        },
+        {
+          "content": "Stocker les mots de passe des utilisateurs"
+        },
+        {
+          "content": "Configurer les paramètres de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d'objets couramment trouvés dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Groupes",
+          "correct": true
+        },
+        {
+          "content": "Ordinateurs",
+          "correct": true
+        },
+        {
+          "content": "Fichiers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un domaine et une forêt dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Une forêt est une collection de domaines partageant un schéma commun",
+          "correct": true
+        },
+        {
+          "content": "Un domaine est plus grand qu'une forêt"
+        },
+        {
+          "content": "Une forêt ne peut contenir qu'un seul domaine"
+        },
+        {
+          "content": "Il n'y a pas de différence, les termes sont interchangeables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du contrôleur de schéma dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Gérer les modifications apportées au schéma Active Directory",
+          "correct": true
+        },
+        {
+          "content": "Contrôler l'accès aux ressources réseau"
+        },
+        {
+          "content": "Gérer les stratégies de mot de passe"
+        },
+        {
+          "content": "Surveiller les performances du réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de groupes imbriqués dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Simplification de la gestion des autorisations",
+          "correct": true
+        },
+        {
+          "content": "Réduction du nombre total de groupes nécessaires",
+          "correct": true
+        },
+        {
+          "content": "Facilitation de l'application des stratégies de groupe",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de la sécurité du réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande PowerShell est utilisée pour créer un nouvel utilisateur dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "New-ADUser",
+          "correct": true
+        },
+        {
+          "content": "Add-ADUser"
+        },
+        {
+          "content": "Create-ADUser"
+        },
+        {
+          "content": "Set-ADUser"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation des unités organisationnelles (OU) dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Organisation logique des objets",
+          "correct": true
+        },
+        {
+          "content": "Application ciblée des stratégies de groupe",
+          "correct": true
+        },
+        {
+          "content": "Délégation d'administration",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique de la bande passante réseau"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le port par défaut utilisé pour la communication LDAP non sécurisée ?"
+      },
+      "options": [
+        {
+          "content": "389",
+          "correct": true
+        },
+        {
+          "content": "636"
+        },
+        {
+          "content": "3268"
+        },
+        {
+          "content": "3269"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre un contrôleur de domaine en lecture seule (RODC) et un contrôleur de domaine standard ?"
+      },
+      "options": [
+        {
+          "content": "Un RODC ne stocke pas de mots de passe et ne permet pas les modifications",
+          "correct": true
+        },
+        {
+          "content": "Un RODC ne participe pas à la réplication"
+        },
+        {
+          "content": "Un RODC ne peut pas authentifier les utilisateurs"
+        },
+        {
+          "content": "Il n'y a aucune différence fonctionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants d'un nom distinctif (DN) dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Common Name (CN)",
+          "correct": true
+        },
+        {
+          "content": "Organizational Unit (OU)",
+          "correct": true
+        },
+        {
+          "content": "Domain Component (DC)",
+          "correct": true
+        },
+        {
+          "content": "User Principal Name (UPN)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour gérer les stratégies de groupe dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Group Policy Management Console (GPMC)",
+          "correct": true
+        },
+        {
+          "content": "Active Directory Users and Computers"
+        },
+        {
+          "content": "Server Manager"
+        },
+        {
+          "content": "Event Viewer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du service KCC (Knowledge Consistency Checker) dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Gérer la topologie de réplication",
+          "correct": true
+        },
+        {
+          "content": "Vérifier l'intégrité de la base de données"
+        },
+        {
+          "content": "Synchroniser l'heure entre les contrôleurs de domaine"
+        },
+        {
+          "content": "Gérer les stratégies de mot de passe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Read-Only Domain Controllers (RODC) ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la sécurité dans les sites distants",
+          "correct": true
+        },
+        {
+          "content": "Réduction du trafic de réplication",
+          "correct": true
+        },
+        {
+          "content": "Authentification locale dans les succursales",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des performances de réplication bidirectionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande PowerShell pour vérifier la réplication Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Get-ADReplicationPartnerMetadata",
+          "correct": true
+        },
+        {
+          "content": "Test-ADReplication"
+        },
+        {
+          "content": "Verify-ADReplication"
+        },
+        {
+          "content": "Check-ADReplicationStatus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du Global Catalog dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des informations sur les objets de tous les domaines d'une forêt",
+          "correct": true
+        },
+        {
+          "content": "Gérer les mises à jour de sécurité"
+        },
+        {
+          "content": "Contrôler le trafic réseau entre les sites"
+        },
+        {
+          "content": "Stocker les sauvegardes de la base de données AD"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour joindre un ordinateur à un domaine Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Via l'interface graphique des propriétés système",
+          "correct": true
+        },
+        {
+          "content": "Utilisation de la commande PowerShell Add-Computer",
+          "correct": true
+        },
+        {
+          "content": "Par le biais d'une stratégie de groupe",
+          "correct": true
+        },
+        {
+          "content": "En modifiant manuellement le registre Windows"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction principale du rôle FSMO PDC Emulator ?"
+      },
+      "options": [
+        {
+          "content": "Gérer les modifications de mot de passe et la synchronisation du temps",
+          "correct": true
+        },
+        {
+          "content": "Attribuer des identificateurs uniques aux objets"
+        },
+        {
+          "content": "Gérer les modifications du schéma"
+        },
+        {
+          "content": "Maintenir la cohérence entre les domaines d'une forêt"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est utilisé par Active Directory pour la résolution de noms ?"
+      },
+      "options": [
+        {
+          "content": "DNS",
+          "correct": true
+        },
+        {
+          "content": "WINS"
+        },
+        {
+          "content": "DHCP"
+        },
+        {
+          "content": "NetBIOS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la fonctionnalité de corbeille dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Récupération facile des objets supprimés",
+          "correct": true
+        },
+        {
+          "content": "Préservation des relations entre objets",
+          "correct": true
+        },
+        {
+          "content": "Réduction du risque de perte de données accidentelle",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique des performances du serveur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande PowerShell est utilisée pour déplacer un objet dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Move-ADObject",
+          "correct": true
+        },
+        {
+          "content": "Set-ADObject"
+        },
+        {
+          "content": "Change-ADObjectLocation"
+        },
+        {
+          "content": "Update-ADObjectPath"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le nom du service responsable de la réplication Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "NTDS",
+          "correct": true
+        },
+        {
+          "content": "KDC"
+        },
+        {
+          "content": "DFSR"
+        },
+        {
+          "content": "ADWS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de groupes disponibles dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Sécurité",
+          "correct": true
+        },
+        {
+          "content": "Distribution",
+          "correct": true
+        },
+        {
+          "content": "Universel",
+          "correct": true
+        },
+        {
+          "content": "Conditionnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre les approbations à sens unique et bidirectionnelles dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Les approbations à sens unique permettent l'accès dans une seule direction, les bidirectionnelles dans les deux",
+          "correct": true
+        },
+        {
+          "content": "Les approbations à sens unique sont automatiques, les bidirectionnelles sont manuelles"
+        },
+        {
+          "content": "Les approbations bidirectionnelles ne fonctionnent qu'entre domaines de la même forêt"
+        },
+        {
+          "content": "Il n'y a pas de différence fonctionnelle entre les deux types"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour analyser et réparer les problèmes de réplication Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "repadmin",
+          "correct": true
+        },
+        {
+          "content": "adrestore"
+        },
+        {
+          "content": "ntdsutil"
+        },
+        {
+          "content": "dsamain"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de la délégation d'administration dans Active Directory ?"
+      },
+      "options": [
+        {
+          "content": "Répartition des tâches administratives",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la sécurité en limitant les privilèges",
+          "correct": true
+        },
+        {
+          "content": "Facilitation de la gestion des grandes organisations",
+          "correct": true
+        },
+        {
+          "content": "Augmentation automatique des performances du réseau"
+        }
+      ]
+    }
+  ]
+}

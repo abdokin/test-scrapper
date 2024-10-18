@@ -1,0 +1,914 @@
+{
+  "title": "CAO SolidWorks 3D",
+  "attributes": {
+    "overview": "Ce test de CAO 3D SolidWorks évalue la maîtrise du logiciel SolidWorks par les candidats, ainsi que leur compréhension de la manière d'utiliser le logiciel comme outil pour résoudre des problèmes pratiques de conception technique et de fabrication.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Modélisation 3D",
+      "Assemblage",
+      "Mise en plan",
+      "Simulation",
+      "Gestion des fichiers",
+      "Outils de productivité",
+      "Bonnes pratiques de conception"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'ingénieur en conception mécanique, de concepteur industriel, et tout poste nécessitant une expertise en CAO 3D avec SolidWorks.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de SolidWorks, évaluant la capacité du candidat à créer des modèles 3D, des assemblages, et à utiliser efficacement les fonctionnalités du logiciel.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonctionnalité SolidWorks permet de créer une copie circulaire d'une entité?"
+      },
+      "options": [
+        {
+          "content": "Répétition circulaire",
+          "correct": true
+        },
+        {
+          "content": "Miroir"
+        },
+        {
+          "content": "Symétrie"
+        },
+        {
+          "content": "Rotation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer un plan de référence parallèle à un plan existant?"
+      },
+      "options": [
+        {
+          "content": "Plan parallèle",
+          "correct": true
+        },
+        {
+          "content": "Plan perpendiculaire"
+        },
+        {
+          "content": "Plan tangent"
+        },
+        {
+          "content": "Plan de référence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes sont disponibles dans l'environnement d'assemblage de SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Coïncident",
+          "correct": true
+        },
+        {
+          "content": "Parallèle",
+          "correct": true
+        },
+        {
+          "content": "Perpendiculaire",
+          "correct": true
+        },
+        {
+          "content": "Tangent",
+          "correct": true
+        },
+        {
+          "content": "Diagonal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction permet de créer une copie en miroir d'une pièce ou d'un assemblage?"
+      },
+      "options": [
+        {
+          "content": "Symétrie",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller"
+        },
+        {
+          "content": "Répétition linéaire"
+        },
+        {
+          "content": "Rotation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer un perçage fileté dans SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Assistant Perçage",
+          "correct": true
+        },
+        {
+          "content": "Extrusion coupée"
+        },
+        {
+          "content": "Révolution coupée"
+        },
+        {
+          "content": "Balayage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une coque à partir d'un solide?"
+      },
+      "options": [
+        {
+          "content": "Coque",
+          "correct": true
+        },
+        {
+          "content": "Enlever la matière"
+        },
+        {
+          "content": "Décalage de surface"
+        },
+        {
+          "content": "Épaisseur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de vues sont disponibles dans l'environnement de mise en plan de SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Vue de face",
+          "correct": true
+        },
+        {
+          "content": "Vue de dessus",
+          "correct": true
+        },
+        {
+          "content": "Vue isométrique",
+          "correct": true
+        },
+        {
+          "content": "Vue en coupe",
+          "correct": true
+        },
+        {
+          "content": "Vue explosive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en déplaçant un profil le long d'une trajectoire?"
+      },
+      "options": [
+        {
+          "content": "Balayage",
+          "correct": true
+        },
+        {
+          "content": "Extrusion"
+        },
+        {
+          "content": "Révolution"
+        },
+        {
+          "content": "Lissage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est utilisé pour analyser les interférences entre les pièces d'un assemblage?"
+      },
+      "options": [
+        {
+          "content": "Détection d'interférences",
+          "correct": true
+        },
+        {
+          "content": "Vérification de l'assemblage"
+        },
+        {
+          "content": "Analyse des collisions"
+        },
+        {
+          "content": "Contrôle de qualité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une géométrie de construction qui n'apparaît pas dans le modèle final?"
+      },
+      "options": [
+        {
+          "content": "Esquisse 3D",
+          "correct": true
+        },
+        {
+          "content": "Plan de construction"
+        },
+        {
+          "content": "Géométrie de référence"
+        },
+        {
+          "content": "Ligne de construction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de simulations sont disponibles dans SolidWorks Simulation?"
+      },
+      "options": [
+        {
+          "content": "Analyse statique",
+          "correct": true
+        },
+        {
+          "content": "Analyse de fatigue",
+          "correct": true
+        },
+        {
+          "content": "Analyse thermique",
+          "correct": true
+        },
+        {
+          "content": "Analyse de fréquence",
+          "correct": true
+        },
+        {
+          "content": "Analyse quantique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en faisant pivoter un profil autour d'un axe?"
+      },
+      "options": [
+        {
+          "content": "Révolution",
+          "correct": true
+        },
+        {
+          "content": "Rotation"
+        },
+        {
+          "content": "Balayage circulaire"
+        },
+        {
+          "content": "Extrusion circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer un arrondi à rayon variable?"
+      },
+      "options": [
+        {
+          "content": "Congé à rayon variable",
+          "correct": true
+        },
+        {
+          "content": "Congé simple"
+        },
+        {
+          "content": "Chanfrein"
+        },
+        {
+          "content": "Lissage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en reliant plusieurs profils?"
+      },
+      "options": [
+        {
+          "content": "Lissage",
+          "correct": true
+        },
+        {
+          "content": "Balayage"
+        },
+        {
+          "content": "Extrusion"
+        },
+        {
+          "content": "Révolution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de configurations sont disponibles dans SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Configuration manuelle",
+          "correct": true
+        },
+        {
+          "content": "Configuration par table",
+          "correct": true
+        },
+        {
+          "content": "Configuration dérivée",
+          "correct": true
+        },
+        {
+          "content": "Configuration automatique"
+        },
+        {
+          "content": "Configuration dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une représentation simplifiée d'un assemblage complexe?"
+      },
+      "options": [
+        {
+          "content": "Enveloppe",
+          "correct": true
+        },
+        {
+          "content": "Sous-assemblage"
+        },
+        {
+          "content": "Composant virtuel"
+        },
+        {
+          "content": "Groupe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une copie en miroir d'une feature?"
+      },
+      "options": [
+        {
+          "content": "Symétrie de feature",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller"
+        },
+        {
+          "content": "Répétition"
+        },
+        {
+          "content": "Duplication"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de relations sont disponibles dans l'esquisse 2D de SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Coïncident",
+          "correct": true
+        },
+        {
+          "content": "Parallèle",
+          "correct": true
+        },
+        {
+          "content": "Perpendiculaire",
+          "correct": true
+        },
+        {
+          "content": "Tangent",
+          "correct": true
+        },
+        {
+          "content": "Horizontal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une vue éclatée d'un assemblage?"
+      },
+      "options": [
+        {
+          "content": "Éclaté",
+          "correct": true
+        },
+        {
+          "content": "Décomposition"
+        },
+        {
+          "content": "Explosion"
+        },
+        {
+          "content": "Séparation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en projetant un profil sur une surface?"
+      },
+      "options": [
+        {
+          "content": "Projeter la courbe",
+          "correct": true
+        },
+        {
+          "content": "Extrusion sur surface"
+        },
+        {
+          "content": "Balayage surfacique"
+        },
+        {
+          "content": "Lissage de surface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction SolidWorks permet de créer une forme en balayant un profil le long de plusieurs trajectoires?"
+      },
+      "options": [
+        {
+          "content": "Balayage composite",
+          "correct": true
+        },
+        {
+          "content": "Balayage multiple"
+        },
+        {
+          "content": "Lissage"
+        },
+        {
+          "content": "Extrusion sur chemin"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes de mouvement peut-on appliquer dans une étude de mouvement SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Moteur",
+          "correct": true
+        },
+        {
+          "content": "Ressort",
+          "correct": true
+        },
+        {
+          "content": "Amortisseur",
+          "correct": true
+        },
+        {
+          "content": "Gravité",
+          "correct": true
+        },
+        {
+          "content": "Magnétisme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une forme en remplissant l'espace entre des surfaces?"
+      },
+      "options": [
+        {
+          "content": "Remplissage de surface",
+          "correct": true
+        },
+        {
+          "content": "Lissage"
+        },
+        {
+          "content": "Raccord"
+        },
+        {
+          "content": "Boucher les trous"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une géométrie de référence à l'intersection de deux plans?"
+      },
+      "options": [
+        {
+          "content": "Courbe d'intersection",
+          "correct": true
+        },
+        {
+          "content": "Ligne de partage"
+        },
+        {
+          "content": "Esquisse 3D"
+        },
+        {
+          "content": "Projection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de relations peuvent être utilisés dans un croquis 3D?"
+      },
+      "options": [
+        {
+          "content": "Coïncident",
+          "correct": true
+        },
+        {
+          "content": "Colinéaire",
+          "correct": true
+        },
+        {
+          "content": "Parallèle",
+          "correct": true
+        },
+        {
+          "content": "Perpendiculaire",
+          "correct": true
+        },
+        {
+          "content": "Tangent",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en balayant un profil le long d'une hélice?"
+      },
+      "options": [
+        {
+          "content": "Balayage hélicoïdal",
+          "correct": true
+        },
+        {
+          "content": "Spirale"
+        },
+        {
+          "content": "Révolution hélicoïdale"
+        },
+        {
+          "content": "Extrusion en spirale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une nervure le long d'une courbe?"
+      },
+      "options": [
+        {
+          "content": "Nervure",
+          "correct": true
+        },
+        {
+          "content": "Balayage"
+        },
+        {
+          "content": "Extrusion"
+        },
+        {
+          "content": "Lissage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'études sont disponibles dans SolidWorks Flow Simulation?"
+      },
+      "options": [
+        {
+          "content": "Écoulement interne",
+          "correct": true
+        },
+        {
+          "content": "Écoulement externe",
+          "correct": true
+        },
+        {
+          "content": "Transfert de chaleur conjugué",
+          "correct": true
+        },
+        {
+          "content": "Écoulement compressible",
+          "correct": true
+        },
+        {
+          "content": "Écoulement quantique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en projetant une esquisse sur une face non plane?"
+      },
+      "options": [
+        {
+          "content": "Extrusion sur surface",
+          "correct": true
+        },
+        {
+          "content": "Projection"
+        },
+        {
+          "content": "Balayage"
+        },
+        {
+          "content": "Lissage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer un plan tangent à une surface cylindrique?"
+      },
+      "options": [
+        {
+          "content": "Plan tangent",
+          "correct": true
+        },
+        {
+          "content": "Plan de référence"
+        },
+        {
+          "content": "Plan parallèle"
+        },
+        {
+          "content": "Plan perpendiculaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes peuvent être utilisés dans une étude de maillage SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Contrôle de maillage global",
+          "correct": true
+        },
+        {
+          "content": "Contrôle de maillage local",
+          "correct": true
+        },
+        {
+          "content": "Raffinement automatique",
+          "correct": true
+        },
+        {
+          "content": "Maillage basé sur la courbure",
+          "correct": true
+        },
+        {
+          "content": "Maillage quantique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en reliant plusieurs profils avec des guides?"
+      },
+      "options": [
+        {
+          "content": "Lissage guidé",
+          "correct": true
+        },
+        {
+          "content": "Balayage multiple"
+        },
+        {
+          "content": "Extrusion guidée"
+        },
+        {
+          "content": "Révolution guidée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une forme en enroulant une esquisse autour d'un axe conique?"
+      },
+      "options": [
+        {
+          "content": "Enroulement",
+          "correct": true
+        },
+        {
+          "content": "Révolution conique"
+        },
+        {
+          "content": "Balayage hélicoïdal"
+        },
+        {
+          "content": "Spirale conique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types d'analyses sont disponibles dans SolidWorks Plastics?"
+      },
+      "options": [
+        {
+          "content": "Analyse de remplissage",
+          "correct": true
+        },
+        {
+          "content": "Analyse de compactage",
+          "correct": true
+        },
+        {
+          "content": "Analyse de refroidissement",
+          "correct": true
+        },
+        {
+          "content": "Analyse de gauchissement",
+          "correct": true
+        },
+        {
+          "content": "Analyse de cristallisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en déformant une surface existante?"
+      },
+      "options": [
+        {
+          "content": "Déformer",
+          "correct": true
+        },
+        {
+          "content": "Étirer"
+        },
+        {
+          "content": "Tordre"
+        },
+        {
+          "content": "Plier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une forme en coupant une pièce avec une surface complexe?"
+      },
+      "options": [
+        {
+          "content": "Coupe avec surface",
+          "correct": true
+        },
+        {
+          "content": "Découpe"
+        },
+        {
+          "content": "Intersection"
+        },
+        {
+          "content": "Séparation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de contraintes peuvent être utilisés dans une étude d'optimisation topologique SolidWorks?"
+      },
+      "options": [
+        {
+          "content": "Masse cible",
+          "correct": true
+        },
+        {
+          "content": "Déplacement maximal",
+          "correct": true
+        },
+        {
+          "content": "Contrainte maximale",
+          "correct": true
+        },
+        {
+          "content": "Fréquence propre",
+          "correct": true
+        },
+        {
+          "content": "Conductivité thermique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer une forme en décalant une surface existante?"
+      },
+      "options": [
+        {
+          "content": "Décalage de surface",
+          "correct": true
+        },
+        {
+          "content": "Épaisseur"
+        },
+        {
+          "content": "Coque"
+        },
+        {
+          "content": "Offset"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilisé pour créer une forme en reliant deux profils avec une transition lisse?"
+      },
+      "options": [
+        {
+          "content": "Loft",
+          "correct": true
+        },
+        {
+          "content": "Balayage"
+        },
+        {
+          "content": "Raccord"
+        },
+        {
+          "content": "Courbe"
+        }
+      ]
+    }
+  ]
+}

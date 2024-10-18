@@ -1,0 +1,919 @@
+{
+  "title": "Oracle DBMS",
+  "attributes": {
+    "overview": "Ce test sur Oracle DBMS évalue les connaissances techniques des candidats sur la base de données Oracle, notamment l'architecture de la base de données, la structure de stockage, les objets de schéma, les techniques de sauvegarde et de récupération et la gestion de la sécurité de la base de données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Architecture de la base de données Oracle",
+      "Structure de stockage",
+      "Objets de schéma",
+      "Techniques de sauvegarde et de récupération",
+      "Gestion de la sécurité de la base de données",
+      "SQL et PL/SQL",
+      "Optimisation des performances",
+      "Administration de base de données"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur de base de données, d'administrateur de base de données Oracle, ou tout rôle nécessitant une compréhension approfondie d'Oracle DBMS.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires d'Oracle DBMS, évaluant la capacité du candidat à comprendre et à travailler efficacement avec les bases de données Oracle.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale fonction d'un tablespace dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Stocker des objets de base de données logiques",
+          "correct": true
+        },
+        {
+          "content": "Gérer les connexions utilisateur"
+        },
+        {
+          "content": "Exécuter des requêtes SQL"
+        },
+        {
+          "content": "Contrôler les sauvegardes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Oracle est utilisé pour effectuer des sauvegardes à chaud ?"
+      },
+      "options": [
+        {
+          "content": "RMAN (Recovery Manager)",
+          "correct": true
+        },
+        {
+          "content": "SQL*Loader"
+        },
+        {
+          "content": "Data Pump"
+        },
+        {
+          "content": "SQL*Plus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants principaux d'une instance Oracle ?"
+      },
+      "options": [
+        {
+          "content": "SGA (System Global Area)",
+          "correct": true
+        },
+        {
+          "content": "PGA (Program Global Area)",
+          "correct": true
+        },
+        {
+          "content": "Processus background",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande SQL est utilisée pour accorder des privilèges à un utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "GRANT",
+          "correct": true
+        },
+        {
+          "content": "ALLOW"
+        },
+        {
+          "content": "PERMIT"
+        },
+        {
+          "content": "AUTHORIZE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal du processus PMON (Process Monitor) ?"
+      },
+      "options": [
+        {
+          "content": "Nettoyer les processus défaillants",
+          "correct": true
+        },
+        {
+          "content": "Gérer la mémoire SGA"
+        },
+        {
+          "content": "Écrire dans les fichiers de journalisation"
+        },
+        {
+          "content": "Gérer les verrous de base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de fichiers sont essentiels pour la récupération d'une base de données Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Fichiers de données",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de contrôle",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de journalisation redo",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de paramètres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour démarrer une instance Oracle sans monter la base de données ?"
+      },
+      "options": [
+        {
+          "content": "STARTUP NOMOUNT",
+          "correct": true
+        },
+        {
+          "content": "STARTUP MOUNT"
+        },
+        {
+          "content": "STARTUP OPEN"
+        },
+        {
+          "content": "STARTUP FORCE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel package PL/SQL est couramment utilisé pour générer des sorties dynamiques ?"
+      },
+      "options": [
+        {
+          "content": "DBMS_OUTPUT",
+          "correct": true
+        },
+        {
+          "content": "DBMS_PRINT"
+        },
+        {
+          "content": "DBMS_DISPLAY"
+        },
+        {
+          "content": "DBMS_CONSOLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes valides pour optimiser les performances d'une requête Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Créer des index appropriés",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des conseils (hints) SQL",
+          "correct": true
+        },
+        {
+          "content": "Partitionner les tables volumineuses",
+          "correct": true
+        },
+        {
+          "content": "Toujours utiliser SELECT *"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel utilitaire Oracle est utilisé pour charger des données externes dans une base de données Oracle ?"
+      },
+      "options": [
+        {
+          "content": "SQL*Loader",
+          "correct": true
+        },
+        {
+          "content": "Data Pump"
+        },
+        {
+          "content": "Import"
+        },
+        {
+          "content": "RMAN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle vue du dictionnaire de données contient des informations sur tous les objets de la base de données ?"
+      },
+      "options": [
+        {
+          "content": "DBA_OBJECTS",
+          "correct": true
+        },
+        {
+          "content": "ALL_TABLES"
+        },
+        {
+          "content": "USER_INDEXES"
+        },
+        {
+          "content": "V$INSTANCE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de verrous Oracle couramment utilisés ?"
+      },
+      "options": [
+        {
+          "content": "Verrous de table",
+          "correct": true
+        },
+        {
+          "content": "Verrous de ligne",
+          "correct": true
+        },
+        {
+          "content": "Verrous de système",
+          "correct": true
+        },
+        {
+          "content": "Verrous de session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un synonyme dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "CREATE SYNONYM",
+          "correct": true
+        },
+        {
+          "content": "CREATE ALIAS"
+        },
+        {
+          "content": "CREATE REFERENCE"
+        },
+        {
+          "content": "CREATE SHORTCUT"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de jointure Oracle retourne toutes les lignes de la table de gauche, même s'il n'y a pas de correspondance dans la table de droite ?"
+      },
+      "options": [
+        {
+          "content": "LEFT OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "RIGHT OUTER JOIN"
+        },
+        {
+          "content": "FULL OUTER JOIN"
+        },
+        {
+          "content": "INNER JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de vues matérialisées dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration des performances des requêtes",
+          "correct": true
+        },
+        {
+          "content": "Réplication des données",
+          "correct": true
+        },
+        {
+          "content": "Résumés de données précalculés",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la taille de la base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle clause SQL est utilisée pour éliminer les doublons dans un résultat de requête ?"
+      },
+      "options": [
+        {
+          "content": "DISTINCT",
+          "correct": true
+        },
+        {
+          "content": "UNIQUE"
+        },
+        {
+          "content": "NODUPLICATE"
+        },
+        {
+          "content": "SINGLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Oracle est utilisé pour surveiller les performances en temps réel de la base de données ?"
+      },
+      "options": [
+        {
+          "content": "Enterprise Manager",
+          "correct": true
+        },
+        {
+          "content": "SQL*Plus"
+        },
+        {
+          "content": "Data Pump"
+        },
+        {
+          "content": "SQL Developer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de déclencheurs (triggers) disponibles dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Déclencheurs de ligne",
+          "correct": true
+        },
+        {
+          "content": "Déclencheurs de déclaration",
+          "correct": true
+        },
+        {
+          "content": "Déclencheurs de système",
+          "correct": true
+        },
+        {
+          "content": "Déclencheurs de session"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction agrégée Oracle renvoie le nombre de lignes non NULL dans un groupe ?"
+      },
+      "options": [
+        {
+          "content": "COUNT",
+          "correct": true
+        },
+        {
+          "content": "SUM"
+        },
+        {
+          "content": "AVG"
+        },
+        {
+          "content": "MAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'index Oracle est le plus approprié pour les colonnes avec un faible niveau de cardinalité ?"
+      },
+      "options": [
+        {
+          "content": "Index bitmap",
+          "correct": true
+        },
+        {
+          "content": "Index B-tree"
+        },
+        {
+          "content": "Index basé sur la fonction"
+        },
+        {
+          "content": "Index de texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes valides pour sauvegarder une base de données Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Sauvegarde à froid",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde à chaud",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde incrémentielle",
+          "correct": true
+        },
+        {
+          "content": "Sauvegarde virtuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Oracle est utilisée pour modifier la structure d'une table existante ?"
+      },
+      "options": [
+        {
+          "content": "ALTER TABLE",
+          "correct": true
+        },
+        {
+          "content": "MODIFY TABLE"
+        },
+        {
+          "content": "CHANGE TABLE"
+        },
+        {
+          "content": "UPDATE TABLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de contraintes disponibles dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "PRIMARY KEY",
+          "correct": true
+        },
+        {
+          "content": "FOREIGN KEY",
+          "correct": true
+        },
+        {
+          "content": "UNIQUE",
+          "correct": true
+        },
+        {
+          "content": "CHECK",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Oracle est utilisée pour convertir une chaîne de caractères en date ?"
+      },
+      "options": [
+        {
+          "content": "TO_DATE",
+          "correct": true
+        },
+        {
+          "content": "CONVERT_TO_DATE"
+        },
+        {
+          "content": "STR_TO_DATE"
+        },
+        {
+          "content": "CAST_DATE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'objet Oracle est utilisé pour stocker et exécuter du code PL/SQL ?"
+      },
+      "options": [
+        {
+          "content": "Procédure stockée",
+          "correct": true
+        },
+        {
+          "content": "Vue"
+        },
+        {
+          "content": "Trigger"
+        },
+        {
+          "content": "Séquence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de partitions dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration des performances",
+          "correct": true
+        },
+        {
+          "content": "Gestion plus facile des grandes tables",
+          "correct": true
+        },
+        {
+          "content": "Meilleure disponibilité",
+          "correct": true
+        },
+        {
+          "content": "Réduction de l'utilisation du CPU"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour créer un utilisateur dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "CREATE USER",
+          "correct": true
+        },
+        {
+          "content": "ADD USER"
+        },
+        {
+          "content": "NEW USER"
+        },
+        {
+          "content": "INSERT USER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type de jointure Oracle combine les résultats d'une LEFT OUTER JOIN et d'une RIGHT OUTER JOIN ?"
+      },
+      "options": [
+        {
+          "content": "FULL OUTER JOIN",
+          "correct": true
+        },
+        {
+          "content": "CROSS JOIN"
+        },
+        {
+          "content": "NATURAL JOIN"
+        },
+        {
+          "content": "SELF JOIN"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de sauvegardes RMAN disponibles dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Full backup",
+          "correct": true
+        },
+        {
+          "content": "Incremental backup",
+          "correct": true
+        },
+        {
+          "content": "Differential backup",
+          "correct": true
+        },
+        {
+          "content": "Virtual backup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Oracle est utilisée pour annuler les modifications non validées dans une transaction ?"
+      },
+      "options": [
+        {
+          "content": "ROLLBACK",
+          "correct": true
+        },
+        {
+          "content": "UNDO"
+        },
+        {
+          "content": "CANCEL"
+        },
+        {
+          "content": "REVERT"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil Oracle est utilisé pour créer et gérer des tâches planifiées ?"
+      },
+      "options": [
+        {
+          "content": "DBMS_SCHEDULER",
+          "correct": true
+        },
+        {
+          "content": "DBMS_JOB"
+        },
+        {
+          "content": "CRON"
+        },
+        {
+          "content": "TASK_MANAGER"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de tables temporaires dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Global temporary tables",
+          "correct": true
+        },
+        {
+          "content": "Private temporary tables",
+          "correct": true
+        },
+        {
+          "content": "Session-specific temporary tables",
+          "correct": true
+        },
+        {
+          "content": "Permanent temporary tables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction Oracle renvoie le nombre de mois entre deux dates ?"
+      },
+      "options": [
+        {
+          "content": "MONTHS_BETWEEN",
+          "correct": true
+        },
+        {
+          "content": "DATEDIFF"
+        },
+        {
+          "content": "DATE_SUBTRACT"
+        },
+        {
+          "content": "MONTH_DIFF"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel paramètre d'initialisation Oracle contrôle la taille de la SGA ?"
+      },
+      "options": [
+        {
+          "content": "SGA_TARGET",
+          "correct": true
+        },
+        {
+          "content": "SGA_SIZE"
+        },
+        {
+          "content": "MEMORY_TARGET"
+        },
+        {
+          "content": "DB_CACHE_SIZE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de vues dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Simple views",
+          "correct": true
+        },
+        {
+          "content": "Complex views",
+          "correct": true
+        },
+        {
+          "content": "Materialized views",
+          "correct": true
+        },
+        {
+          "content": "Dynamic views"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Oracle est utilisée pour accorder des privilèges système à un utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "GRANT",
+          "correct": true
+        },
+        {
+          "content": "ALLOW"
+        },
+        {
+          "content": "PERMIT"
+        },
+        {
+          "content": "AUTHORIZE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'index Oracle est créé automatiquement pour la clé primaire d'une table ?"
+      },
+      "options": [
+        {
+          "content": "Unique index",
+          "correct": true
+        },
+        {
+          "content": "Bitmap index"
+        },
+        {
+          "content": "Function-based index"
+        },
+        {
+          "content": "Reverse key index"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de blocages (locks) dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Exclusive locks",
+          "correct": true
+        },
+        {
+          "content": "Shared locks",
+          "correct": true
+        },
+        {
+          "content": "Row-level locks",
+          "correct": true
+        },
+        {
+          "content": "Global locks"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Oracle est utilisée pour forcer la libération d'un verrou détenu par une session ?"
+      },
+      "options": [
+        {
+          "content": "ALTER SYSTEM KILL SESSION",
+          "correct": true
+        },
+        {
+          "content": "RELEASE LOCK"
+        },
+        {
+          "content": "FREE SESSION"
+        },
+        {
+          "content": "UNLOCK SESSION"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel package Oracle est utilisé pour envoyer des e-mails depuis la base de données ?"
+      },
+      "options": [
+        {
+          "content": "UTL_MAIL",
+          "correct": true
+        },
+        {
+          "content": "DBMS_MAIL"
+        },
+        {
+          "content": "SEND_MAIL"
+        },
+        {
+          "content": "EMAIL_PKG"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de flashback disponibles dans Oracle ?"
+      },
+      "options": [
+        {
+          "content": "Flashback Query",
+          "correct": true
+        },
+        {
+          "content": "Flashback Table",
+          "correct": true
+        },
+        {
+          "content": "Flashback Database",
+          "correct": true
+        },
+        {
+          "content": "Flashback Index"
+        }
+      ]
+    }
+  ]
+}

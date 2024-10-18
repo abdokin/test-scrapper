@@ -1,0 +1,852 @@
+{
+  "title": "Git",
+  "attributes": {
+    "overview": "Ce test Git évalue les connaissances techniques des candidats sur Git. Ce test vous aidera à identifier les ingénieurs et les développeurs qui maîtrisent bien Git et sont capables de l'utiliser comme outil pour travailler sur de grands projets logiciels.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts de base de Git",
+      "Gestion des branches",
+      "Résolution de conflits",
+      "Commandes Git avancées",
+      "Collaboration avec des dépôts distants",
+      "Gestion des tags et des versions",
+      "Utilisation de Git dans un environnement d'équipe",
+      "Bonnes pratiques Git"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur, d'ingénieur logiciel, et tout rôle nécessitant une utilisation régulière de Git pour la gestion de code source.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Git, évaluant la capacité du candidat à utiliser efficacement Git dans un environnement de développement professionnel.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande Git est utilisée pour créer une nouvelle branche ?"
+      },
+      "options": [
+        {
+          "content": "git branch nouvelle-branche",
+          "correct": true
+        },
+        {
+          "content": "git checkout nouvelle-branche"
+        },
+        {
+          "content": "git create nouvelle-branche"
+        },
+        {
+          "content": "git new nouvelle-branche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir l'historique des commits ?"
+      },
+      "options": [
+        {
+          "content": "git log",
+          "correct": true
+        },
+        {
+          "content": "git history"
+        },
+        {
+          "content": "git show"
+        },
+        {
+          "content": "git commits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles commandes peuvent être utilisées pour annuler des modifications non commitées ?"
+      },
+      "options": [
+        {
+          "content": "git checkout -- <file>",
+          "correct": true
+        },
+        {
+          "content": "git reset --hard",
+          "correct": true
+        },
+        {
+          "content": "git revert"
+        },
+        {
+          "content": "git clean -df",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande est utilisée pour fusionner une branche dans la branche courante ?"
+      },
+      "options": [
+        {
+          "content": "git merge <branch>",
+          "correct": true
+        },
+        {
+          "content": "git join <branch>"
+        },
+        {
+          "content": "git combine <branch>"
+        },
+        {
+          "content": "git fusion <branch>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que fait la commande 'git pull' ?"
+      },
+      "options": [
+        {
+          "content": "Elle récupère les modifications du dépôt distant et les fusionne dans la branche locale",
+          "correct": true
+        },
+        {
+          "content": "Elle pousse les modifications locales vers le dépôt distant"
+        },
+        {
+          "content": "Elle crée une nouvelle branche"
+        },
+        {
+          "content": "Elle supprime une branche distante"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes pour créer un commit ?"
+      },
+      "options": [
+        {
+          "content": "Modifier des fichiers",
+          "correct": true
+        },
+        {
+          "content": "git add <files>",
+          "correct": true
+        },
+        {
+          "content": "git commit -m 'message'",
+          "correct": true
+        },
+        {
+          "content": "git push"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les différences entre l'espace de travail et l'index ?"
+      },
+      "options": [
+        {
+          "content": "git diff",
+          "correct": true
+        },
+        {
+          "content": "git show"
+        },
+        {
+          "content": "git status"
+        },
+        {
+          "content": "git compare"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment créer un tag annoté en Git ?"
+      },
+      "options": [
+        {
+          "content": "git tag -a v1.0 -m 'Version 1.0'",
+          "correct": true
+        },
+        {
+          "content": "git create-tag v1.0"
+        },
+        {
+          "content": "git tag v1.0"
+        },
+        {
+          "content": "git version v1.0"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les branches distantes ?"
+      },
+      "options": [
+        {
+          "content": "git branch -r",
+          "correct": true
+        },
+        {
+          "content": "git remote"
+        },
+        {
+          "content": "git show-branch"
+        },
+        {
+          "content": "git ls-remote"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour écrire un message de commit ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'impératif présent",
+          "correct": true
+        },
+        {
+          "content": "Limiter la première ligne à 50 caractères",
+          "correct": true
+        },
+        {
+          "content": "Inclure un ID de ticket si applicable",
+          "correct": true
+        },
+        {
+          "content": "Toujours écrire en majuscules"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir l'état actuel du dépôt Git ?"
+      },
+      "options": [
+        {
+          "content": "git status",
+          "correct": true
+        },
+        {
+          "content": "git info"
+        },
+        {
+          "content": "git state"
+        },
+        {
+          "content": "git check"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment renommer une branche locale en Git ?"
+      },
+      "options": [
+        {
+          "content": "git branch -m ancien-nom nouveau-nom",
+          "correct": true
+        },
+        {
+          "content": "git rename ancien-nom nouveau-nom"
+        },
+        {
+          "content": "git change-name ancien-nom nouveau-nom"
+        },
+        {
+          "content": "git mv ancien-nom nouveau-nom"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les façons de résoudre un conflit de fusion en Git ?"
+      },
+      "options": [
+        {
+          "content": "Éditer manuellement les fichiers en conflit",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un outil de fusion graphique",
+          "correct": true
+        },
+        {
+          "content": "Choisir la version de la branche courante avec git checkout --ours",
+          "correct": true
+        },
+        {
+          "content": "Ignorer tous les conflits avec git merge --force"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les modifications apportées par un commit spécifique ?"
+      },
+      "options": [
+        {
+          "content": "git show <commit-hash>",
+          "correct": true
+        },
+        {
+          "content": "git diff <commit-hash>"
+        },
+        {
+          "content": "git log <commit-hash>"
+        },
+        {
+          "content": "git view <commit-hash>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment supprimer une branche distante en Git ?"
+      },
+      "options": [
+        {
+          "content": "git push origin --delete nom-branche",
+          "correct": true
+        },
+        {
+          "content": "git branch -d nom-branche"
+        },
+        {
+          "content": "git remote remove nom-branche"
+        },
+        {
+          "content": "git delete origin/nom-branche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options courantes de git rebase ?"
+      },
+      "options": [
+        {
+          "content": "-i (interactif)",
+          "correct": true
+        },
+        {
+          "content": "--onto",
+          "correct": true
+        },
+        {
+          "content": "--continue",
+          "correct": true
+        },
+        {
+          "content": "--force"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de récupérer les modifications d'un dépôt distant sans les fusionner ?"
+      },
+      "options": [
+        {
+          "content": "git fetch",
+          "correct": true
+        },
+        {
+          "content": "git pull"
+        },
+        {
+          "content": "git clone"
+        },
+        {
+          "content": "git sync"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment ajouter un fichier spécifique à la zone de staging ?"
+      },
+      "options": [
+        {
+          "content": "git add <filename>",
+          "correct": true
+        },
+        {
+          "content": "git stage <filename>"
+        },
+        {
+          "content": "git commit <filename>"
+        },
+        {
+          "content": "git include <filename>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des branches feature ?"
+      },
+      "options": [
+        {
+          "content": "Isolation du développement de nouvelles fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Facilite les revues de code",
+          "correct": true
+        },
+        {
+          "content": "Permet de travailler sur plusieurs fonctionnalités en parallèle",
+          "correct": true
+        },
+        {
+          "content": "Augmente automatiquement les performances du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir l'historique des modifications d'un fichier spécifique ?"
+      },
+      "options": [
+        {
+          "content": "git log -- <filename>",
+          "correct": true
+        },
+        {
+          "content": "git history <filename>"
+        },
+        {
+          "content": "git show <filename>"
+        },
+        {
+          "content": "git trace <filename>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment annuler le dernier commit tout en conservant les modifications ?"
+      },
+      "options": [
+        {
+          "content": "git reset --soft HEAD~1",
+          "correct": true
+        },
+        {
+          "content": "git revert HEAD"
+        },
+        {
+          "content": "git undo"
+        },
+        {
+          "content": "git uncommit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour utiliser Git dans une équipe ?"
+      },
+      "options": [
+        {
+          "content": "Commiter fréquemment",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des branches pour les nouvelles fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Écrire des messages de commit descriptifs",
+          "correct": true
+        },
+        {
+          "content": "Toujours travailler directement sur la branche master"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les différences entre deux branches ?"
+      },
+      "options": [
+        {
+          "content": "git diff branch1..branch2",
+          "correct": true
+        },
+        {
+          "content": "git compare branch1 branch2"
+        },
+        {
+          "content": "git show branch1 branch2"
+        },
+        {
+          "content": "git branch-diff branch1 branch2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un alias Git pour une commande longue ?"
+      },
+      "options": [
+        {
+          "content": "git config --global alias.<shortcut> '<command>'",
+          "correct": true
+        },
+        {
+          "content": "git alias <shortcut> '<command>'"
+        },
+        {
+          "content": "git create-alias <shortcut> '<command>'"
+        },
+        {
+          "content": "git shortcut <shortcut> '<command>'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options courantes de git stash ?"
+      },
+      "options": [
+        {
+          "content": "save",
+          "correct": true
+        },
+        {
+          "content": "pop",
+          "correct": true
+        },
+        {
+          "content": "apply",
+          "correct": true
+        },
+        {
+          "content": "delete"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les modifications qui ont été stagées ?"
+      },
+      "options": [
+        {
+          "content": "git diff --staged",
+          "correct": true
+        },
+        {
+          "content": "git show --staged"
+        },
+        {
+          "content": "git status --detailed"
+        },
+        {
+          "content": "git log --staged"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment fusionner une branche en créant toujours un nouveau commit de fusion ?"
+      },
+      "options": [
+        {
+          "content": "git merge --no-ff <branch>",
+          "correct": true
+        },
+        {
+          "content": "git merge --commit <branch>"
+        },
+        {
+          "content": "git merge --force <branch>"
+        },
+        {
+          "content": "git merge --always-commit <branch>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour intégrer les modifications d'une branche dans une autre ?"
+      },
+      "options": [
+        {
+          "content": "Merge",
+          "correct": true
+        },
+        {
+          "content": "Rebase",
+          "correct": true
+        },
+        {
+          "content": "Cherry-pick",
+          "correct": true
+        },
+        {
+          "content": "Copy-paste"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les commits qui ne sont pas encore poussés vers le dépôt distant ?"
+      },
+      "options": [
+        {
+          "content": "git log origin/master..HEAD",
+          "correct": true
+        },
+        {
+          "content": "git status --unpushed"
+        },
+        {
+          "content": "git diff origin/master"
+        },
+        {
+          "content": "git show --local-only"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment modifier le message du dernier commit ?"
+      },
+      "options": [
+        {
+          "content": "git commit --amend",
+          "correct": true
+        },
+        {
+          "content": "git commit --edit"
+        },
+        {
+          "content": "git modify-commit"
+        },
+        {
+          "content": "git change-message"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser git rebase ?"
+      },
+      "options": [
+        {
+          "content": "Crée un historique linéaire",
+          "correct": true
+        },
+        {
+          "content": "Permet de nettoyer l'historique des commits",
+          "correct": true
+        },
+        {
+          "content": "Facilite l'intégration de branches longues",
+          "correct": true
+        },
+        {
+          "content": "Résout automatiquement tous les conflits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les modifications apportées par les 3 derniers commits ?"
+      },
+      "options": [
+        {
+          "content": "git diff HEAD~3..HEAD",
+          "correct": true
+        },
+        {
+          "content": "git log -3 --patch"
+        },
+        {
+          "content": "git show HEAD-3"
+        },
+        {
+          "content": "git history -3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment supprimer un fichier du suivi Git tout en le gardant localement ?"
+      },
+      "options": [
+        {
+          "content": "git rm --cached <file>",
+          "correct": true
+        },
+        {
+          "content": "git untrack <file>"
+        },
+        {
+          "content": "git ignore <file>"
+        },
+        {
+          "content": "git remove --local <file>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments typiquement inclus dans un fichier .gitignore ?"
+      },
+      "options": [
+        {
+          "content": "Fichiers de logs",
+          "correct": true
+        },
+        {
+          "content": "Fichiers de configuration spécifiques à l'environnement",
+          "correct": true
+        },
+        {
+          "content": "Dossiers de dépendances (comme node_modules)",
+          "correct": true
+        },
+        {
+          "content": "Fichiers source principaux de l'application"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir qui a modifié chaque ligne d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "git blame <file>",
+          "correct": true
+        },
+        {
+          "content": "git annotate <file>"
+        },
+        {
+          "content": "git history <file>"
+        },
+        {
+          "content": "git who <file>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une branche à partir d'un commit spécifique ?"
+      },
+      "options": [
+        {
+          "content": "git branch <new-branch> <commit-hash>",
+          "correct": true
+        },
+        {
+          "content": "git checkout -b <new-branch> <commit-hash>"
+        },
+        {
+          "content": "git create <new-branch> <commit-hash>"
+        },
+        {
+          "content": "git start <new-branch> <commit-hash>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour gérer les secrets (comme les clés API) dans un projet Git ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des variables d'environnement",
+          "correct": true
+        },
+        {
+          "content": "Stocker les secrets dans un fichier séparé non versionné",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un gestionnaire de secrets",
+          "correct": true
+        },
+        {
+          "content": "Encoder les secrets en base64 dans le code source"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir un résumé graphique de l'historique des commits ?"
+      },
+      "options": [
+        {
+          "content": "git log --graph --oneline --all",
+          "correct": true
+        },
+        {
+          "content": "git tree"
+        },
+        {
+          "content": "git history --graph"
+        },
+        {
+          "content": "git show --tree"
+        }
+      ]
+    }
+  ]
+}

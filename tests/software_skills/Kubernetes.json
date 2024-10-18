@@ -1,0 +1,968 @@
+{
+  "title": "Kubernetes",
+  "attributes": {
+    "overview": "Le test Kubernetes évalue la capacité des candidats à déployer, configurer, administrer et dépanner Kubernetes via des scénarios réalistes, permettant d'identifier ceux possédant des compétences solides en administration Kubernetes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Architecture Kubernetes",
+      "Déploiement d'applications",
+      "Gestion des pods et des conteneurs",
+      "Services et réseaux",
+      "Stockage persistant",
+      "Configuration et sécurité",
+      "Surveillance et logging",
+      "Mise à l'échelle et mise à jour"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'administrateur Kubernetes, d'ingénieur DevOps, et de développeur d'applications cloud-native.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Kubernetes, évaluant la capacité du candidat à gérer efficacement des clusters Kubernetes et à résoudre des problèmes courants.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel composant Kubernetes est responsable de la planification des pods sur les nœuds ?"
+      },
+      "options": [
+        {
+          "content": "kube-scheduler",
+          "correct": true
+        },
+        {
+          "content": "kubelet"
+        },
+        {
+          "content": "kube-proxy"
+        },
+        {
+          "content": "etcd"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande kubectl est utilisée pour afficher les pods en cours d'exécution dans tous les namespaces ?"
+      },
+      "options": [
+        {
+          "content": "kubectl get pods --all-namespaces",
+          "correct": true
+        },
+        {
+          "content": "kubectl list pods -n all"
+        },
+        {
+          "content": "kubectl show pods --global"
+        },
+        {
+          "content": "kubectl describe pods --everywhere"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les types de services Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "ClusterIP",
+          "correct": true
+        },
+        {
+          "content": "NodePort",
+          "correct": true
+        },
+        {
+          "content": "LoadBalancer",
+          "correct": true
+        },
+        {
+          "content": "ExternalName",
+          "correct": true
+        },
+        {
+          "content": "IngressPort"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle ressource Kubernetes est utilisée pour stocker des données de configuration et des secrets ?"
+      },
+      "options": [
+        {
+          "content": "ConfigMap",
+          "correct": true
+        },
+        {
+          "content": "Secret"
+        },
+        {
+          "content": "Volume"
+        },
+        {
+          "content": "Deployment"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de créer un déploiement à partir d'un fichier YAML ?"
+      },
+      "options": [
+        {
+          "content": "kubectl apply -f deployment.yaml",
+          "correct": true
+        },
+        {
+          "content": "kubectl create -f deployment.yaml"
+        },
+        {
+          "content": "kubectl run -f deployment.yaml"
+        },
+        {
+          "content": "kubectl start -f deployment.yaml"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'utilisation de Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Mise à l'échelle automatique",
+          "correct": true
+        },
+        {
+          "content": "Auto-réparation",
+          "correct": true
+        },
+        {
+          "content": "Déploiement déclaratif",
+          "correct": true
+        },
+        {
+          "content": "Gestion des secrets",
+          "correct": true
+        },
+        {
+          "content": "Développement d'applications"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour garantir qu'un certain nombre de pods soit toujours en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "ReplicaSet",
+          "correct": true
+        },
+        {
+          "content": "Deployment"
+        },
+        {
+          "content": "DaemonSet"
+        },
+        {
+          "content": "StatefulSet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande permet d'obtenir des informations détaillées sur un pod spécifique ?"
+      },
+      "options": [
+        {
+          "content": "kubectl describe pod <pod-name>",
+          "correct": true
+        },
+        {
+          "content": "kubectl get pod <pod-name>"
+        },
+        {
+          "content": "kubectl info pod <pod-name>"
+        },
+        {
+          "content": "kubectl show pod <pod-name>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel composant Kubernetes est responsable de la communication entre les services et les pods ?"
+      },
+      "options": [
+        {
+          "content": "kube-proxy",
+          "correct": true
+        },
+        {
+          "content": "kubelet"
+        },
+        {
+          "content": "kube-apiserver"
+        },
+        {
+          "content": "etcd"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de volumes persistants dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "NFS",
+          "correct": true
+        },
+        {
+          "content": "iSCSI",
+          "correct": true
+        },
+        {
+          "content": "GlusterFS",
+          "correct": true
+        },
+        {
+          "content": "AWS EBS",
+          "correct": true
+        },
+        {
+          "content": "LocalStorage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle ressource Kubernetes est utilisée pour configurer l'accès réseau aux services dans un cluster ?"
+      },
+      "options": [
+        {
+          "content": "Ingress",
+          "correct": true
+        },
+        {
+          "content": "NetworkPolicy"
+        },
+        {
+          "content": "Service"
+        },
+        {
+          "content": "Endpoint"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de mettre à jour l'image d'un déploiement existant ?"
+      },
+      "options": [
+        {
+          "content": "kubectl set image deployment/<deployment-name> <container-name>=<new-image>",
+          "correct": true
+        },
+        {
+          "content": "kubectl update deployment/<deployment-name> --image=<new-image>"
+        },
+        {
+          "content": "kubectl change image deployment/<deployment-name> <container-name>=<new-image>"
+        },
+        {
+          "content": "kubectl modify deployment/<deployment-name> --container=<container-name> --image=<new-image>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les outils couramment utilisés pour la surveillance de Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Prometheus",
+          "correct": true
+        },
+        {
+          "content": "Grafana",
+          "correct": true
+        },
+        {
+          "content": "Kibana",
+          "correct": true
+        },
+        {
+          "content": "Datadog",
+          "correct": true
+        },
+        {
+          "content": "Jenkins"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de créer un nouveau namespace dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "kubectl create namespace <namespace-name>",
+          "correct": true
+        },
+        {
+          "content": "kubectl new namespace <namespace-name>"
+        },
+        {
+          "content": "kubectl add namespace <namespace-name>"
+        },
+        {
+          "content": "kubectl namespace create <namespace-name>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour exécuter des tâches ponctuelles ou périodiques ?"
+      },
+      "options": [
+        {
+          "content": "Job",
+          "correct": true
+        },
+        {
+          "content": "CronJob"
+        },
+        {
+          "content": "Task"
+        },
+        {
+          "content": "Schedule"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants d'un nœud Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "kubelet",
+          "correct": true
+        },
+        {
+          "content": "kube-proxy",
+          "correct": true
+        },
+        {
+          "content": "Container runtime",
+          "correct": true
+        },
+        {
+          "content": "etcd"
+        },
+        {
+          "content": "kube-scheduler"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'obtenir les logs d'un pod spécifique ?"
+      },
+      "options": [
+        {
+          "content": "kubectl logs <pod-name>",
+          "correct": true
+        },
+        {
+          "content": "kubectl get logs <pod-name>"
+        },
+        {
+          "content": "kubectl show logs <pod-name>"
+        },
+        {
+          "content": "kubectl describe logs <pod-name>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour définir des limites de ressources pour un namespace ?"
+      },
+      "options": [
+        {
+          "content": "ResourceQuota",
+          "correct": true
+        },
+        {
+          "content": "LimitRange"
+        },
+        {
+          "content": "NamespaceLimit"
+        },
+        {
+          "content": "ResourceLimit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de stratégies de mise à jour dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "RollingUpdate",
+          "correct": true
+        },
+        {
+          "content": "Recreate",
+          "correct": true
+        },
+        {
+          "content": "BlueGreen",
+          "correct": true
+        },
+        {
+          "content": "Canary",
+          "correct": true
+        },
+        {
+          "content": "Immediate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de forcer la suppression d'un pod ?"
+      },
+      "options": [
+        {
+          "content": "kubectl delete pod <pod-name> --grace-period=0 --force",
+          "correct": true
+        },
+        {
+          "content": "kubectl remove pod <pod-name> --force"
+        },
+        {
+          "content": "kubectl kill pod <pod-name>"
+        },
+        {
+          "content": "kubectl terminate pod <pod-name> --immediate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour gérer les certificats TLS automatiquement ?"
+      },
+      "options": [
+        {
+          "content": "CertManager",
+          "correct": true
+        },
+        {
+          "content": "TLSManager"
+        },
+        {
+          "content": "SecretManager"
+        },
+        {
+          "content": "CertificateAuthority"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de sondes (probes) disponibles dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Liveness",
+          "correct": true
+        },
+        {
+          "content": "Readiness",
+          "correct": true
+        },
+        {
+          "content": "Startup",
+          "correct": true
+        },
+        {
+          "content": "Health"
+        },
+        {
+          "content": "Performance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'obtenir la liste des nœuds dans un cluster Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "kubectl get nodes",
+          "correct": true
+        },
+        {
+          "content": "kubectl list nodes"
+        },
+        {
+          "content": "kubectl show nodes"
+        },
+        {
+          "content": "kubectl describe nodes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour configurer l'authentification et l'autorisation des utilisateurs ?"
+      },
+      "options": [
+        {
+          "content": "RBAC (Role-Based Access Control)",
+          "correct": true
+        },
+        {
+          "content": "AuthPolicy"
+        },
+        {
+          "content": "UserManager"
+        },
+        {
+          "content": "AccessControl"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de volumes éphémères dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "emptyDir",
+          "correct": true
+        },
+        {
+          "content": "configMap",
+          "correct": true
+        },
+        {
+          "content": "secret",
+          "correct": true
+        },
+        {
+          "content": "downwardAPI",
+          "correct": true
+        },
+        {
+          "content": "persistentVolume"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de mettre à l'échelle un déploiement ?"
+      },
+      "options": [
+        {
+          "content": "kubectl scale deployment/<deployment-name> --replicas=<number>",
+          "correct": true
+        },
+        {
+          "content": "kubectl resize deployment/<deployment-name> --size=<number>"
+        },
+        {
+          "content": "kubectl update deployment/<deployment-name> --replicas=<number>"
+        },
+        {
+          "content": "kubectl set replicas deployment/<deployment-name> <number>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est couramment utilisé pour gérer les packages Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Helm",
+          "correct": true
+        },
+        {
+          "content": "Docker Compose"
+        },
+        {
+          "content": "Ansible"
+        },
+        {
+          "content": "Maven"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes de service NodePort disponibles ?"
+      },
+      "options": [
+        {
+          "content": "ClusterIP",
+          "correct": true
+        },
+        {
+          "content": "NodePort",
+          "correct": true
+        },
+        {
+          "content": "LoadBalancer",
+          "correct": true
+        },
+        {
+          "content": "ExternalName",
+          "correct": true
+        },
+        {
+          "content": "IngressPort"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet d'exécuter une commande dans un conteneur en cours d'exécution ?"
+      },
+      "options": [
+        {
+          "content": "kubectl exec -it <pod-name> -- <command>",
+          "correct": true
+        },
+        {
+          "content": "kubectl run -it <pod-name> <command>"
+        },
+        {
+          "content": "kubectl enter <pod-name> <command>"
+        },
+        {
+          "content": "kubectl execute <pod-name> -- <command>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel objet Kubernetes est utilisé pour garantir qu'un pod s'exécute sur chaque nœud du cluster ?"
+      },
+      "options": [
+        {
+          "content": "DaemonSet",
+          "correct": true
+        },
+        {
+          "content": "StatefulSet"
+        },
+        {
+          "content": "ReplicaSet"
+        },
+        {
+          "content": "Deployment"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de stratégies de redémarrage pour les conteneurs dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Always",
+          "correct": true
+        },
+        {
+          "content": "OnFailure",
+          "correct": true
+        },
+        {
+          "content": "Never",
+          "correct": true
+        },
+        {
+          "content": "Sometimes"
+        },
+        {
+          "content": "Periodic"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de créer un secret à partir d'un fichier ?"
+      },
+      "options": [
+        {
+          "content": "kubectl create secret generic <secret-name> --from-file=<path-to-file>",
+          "correct": true
+        },
+        {
+          "content": "kubectl add secret <secret-name> --file=<path-to-file>"
+        },
+        {
+          "content": "kubectl generate secret <secret-name> --source=<path-to-file>"
+        },
+        {
+          "content": "kubectl new secret <secret-name> --from=<path-to-file>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel composant Kubernetes est responsable du stockage de l'état du cluster ?"
+      },
+      "options": [
+        {
+          "content": "etcd",
+          "correct": true
+        },
+        {
+          "content": "kube-apiserver"
+        },
+        {
+          "content": "kube-controller-manager"
+        },
+        {
+          "content": "kubelet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de mises à jour automatiques disponibles dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "RollingUpdate",
+          "correct": true
+        },
+        {
+          "content": "Recreate",
+          "correct": true
+        },
+        {
+          "content": "Canary",
+          "correct": true
+        },
+        {
+          "content": "BlueGreen",
+          "correct": true
+        },
+        {
+          "content": "Immediate"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de voir les événements récents dans un cluster Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "kubectl get events",
+          "correct": true
+        },
+        {
+          "content": "kubectl show events"
+        },
+        {
+          "content": "kubectl describe events"
+        },
+        {
+          "content": "kubectl list events"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel objet Kubernetes est utilisé pour définir des politiques de sécurité au niveau du pod ?"
+      },
+      "options": [
+        {
+          "content": "PodSecurityPolicy",
+          "correct": true
+        },
+        {
+          "content": "SecurityContext"
+        },
+        {
+          "content": "NetworkPolicy"
+        },
+        {
+          "content": "RoleBinding"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de vérifier l'état de santé d'un cluster Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "kubectl get componentstatuses",
+          "correct": true
+        },
+        {
+          "content": "kubectl cluster-health"
+        },
+        {
+          "content": "kubectl check cluster"
+        },
+        {
+          "content": "kubectl describe cluster"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de stratégies de gestion des ressources dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Requests",
+          "correct": true
+        },
+        {
+          "content": "Limits",
+          "correct": true
+        },
+        {
+          "content": "QoS Classes",
+          "correct": true
+        },
+        {
+          "content": "LimitRanges",
+          "correct": true
+        },
+        {
+          "content": "ResourceQuotas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est couramment utilisé pour la gestion de la configuration dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "Kustomize",
+          "correct": true
+        },
+        {
+          "content": "Ansible"
+        },
+        {
+          "content": "Puppet"
+        },
+        {
+          "content": "Chef"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de forcer le redémarrage d'un déploiement sans modifier son image ou sa configuration ?"
+      },
+      "options": [
+        {
+          "content": "kubectl rollout restart deployment/<deployment-name>",
+          "correct": true
+        },
+        {
+          "content": "kubectl restart deployment/<deployment-name>"
+        },
+        {
+          "content": "kubectl force-restart deployment/<deployment-name>"
+        },
+        {
+          "content": "kubectl apply deployment/<deployment-name> --restart"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de volumes persistants supportés nativement par Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "NFS",
+          "correct": true
+        },
+        {
+          "content": "iSCSI",
+          "correct": true
+        },
+        {
+          "content": "Ceph RBD",
+          "correct": true
+        },
+        {
+          "content": "GlusterFS",
+          "correct": true
+        },
+        {
+          "content": "Local",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "title": "Email (Microsoft Outlook)",
+  "attributes": {
+    "overview": "Le test Email (Microsoft Outlook) évalue les compétences des candidats en courrier électronique avec MS Outlook. Il facilite le recrutement de candidats maîtrisant l'étiquette et les bases de la messagerie dans un contexte professionnel avec Microsoft Office.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface Outlook",
+      "Gestion des e-mails",
+      "Calendrier et rendez-vous",
+      "Contacts et carnet d'adresses",
+      "Tâches et to-do lists",
+      "Règles et automatisation",
+      "Recherche et archivage",
+      "Étiquette professionnelle par e-mail"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une utilisation quotidienne d'Outlook pour la communication professionnelle et la gestion du temps.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de Microsoft Outlook, évaluant la capacité du candidat à utiliser efficacement cet outil de messagerie dans un environnement professionnel.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction permet d'envoyer une copie d'un e-mail à un destinataire sans que les autres destinataires ne le sachent ?"
+      },
+      "options": [
+        {
+          "content": "CC",
+          "correct": false
+        },
+        {
+          "content": "BCC",
+          "correct": true
+        },
+        {
+          "content": "À",
+          "correct": false
+        },
+        {
+          "content": "Répondre à tous",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement marquer un e-mail comme important dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur le drapeau à côté de l'e-mail",
+          "correct": true
+        },
+        {
+          "content": "Appuyer sur Ctrl+Shift+I",
+          "correct": false
+        },
+        {
+          "content": "Faire un clic droit et sélectionner 'Marquer comme important'",
+          "correct": false
+        },
+        {
+          "content": "Déplacer l'e-mail dans un dossier 'Important'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour rédiger un e-mail professionnel ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une ligne d'objet claire et concise",
+          "correct": true
+        },
+        {
+          "content": "Commencer par une salutation appropriée",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des émoticônes pour exprimer ses émotions",
+          "correct": false
+        },
+        {
+          "content": "Relire l'e-mail avant de l'envoyer",
+          "correct": true
+        },
+        {
+          "content": "Écrire tout le texte en majuscules pour attirer l'attention",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Outlook permet de programmer l'envoi d'un e-mail à une date et heure ultérieures ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer plus tard",
+          "correct": true
+        },
+        {
+          "content": "Planifier l'envoi",
+          "correct": false
+        },
+        {
+          "content": "Différer la livraison",
+          "correct": false
+        },
+        {
+          "content": "Envoi programmé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment créer une signature automatique pour vos e-mails dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Fichier > Options > Courrier > Signatures",
+          "correct": true
+        },
+        {
+          "content": "Outils > Paramètres > Signature",
+          "correct": false
+        },
+        {
+          "content": "Accueil > Nouveau > Signature",
+          "correct": false
+        },
+        {
+          "content": "Affichage > Signature > Créer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles actions peuvent être automatisées à l'aide des règles dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Déplacer des e-mails dans des dossiers spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Marquer des e-mails comme lus",
+          "correct": true
+        },
+        {
+          "content": "Répondre automatiquement à certains e-mails",
+          "correct": true
+        },
+        {
+          "content": "Supprimer des pièces jointes",
+          "correct": true
+        },
+        {
+          "content": "Modifier le contenu des e-mails reçus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction permet de récupérer un e-mail envoyé par erreur dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Rappeler ce message",
+          "correct": true
+        },
+        {
+          "content": "Annuler l'envoi",
+          "correct": false
+        },
+        {
+          "content": "Retirer l'e-mail",
+          "correct": false
+        },
+        {
+          "content": "Supprimer de la boîte de réception du destinataire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver tous les e-mails d'un expéditeur spécifique dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction de recherche avec 'from:[adresse e-mail]'",
+          "correct": true
+        },
+        {
+          "content": "Trier les e-mails par expéditeur",
+          "correct": false
+        },
+        {
+          "content": "Créer un dossier pour chaque expéditeur",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Grouper par'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles lors de la configuration d'un rendez-vous dans le calendrier Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Définir une récurrence",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des participants",
+          "correct": true
+        },
+        {
+          "content": "Joindre des fichiers",
+          "correct": true
+        },
+        {
+          "content": "Définir un rappel",
+          "correct": true
+        },
+        {
+          "content": "Programmer un e-mail de suivi automatique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle fonction Outlook permet de gérer efficacement les tâches et les to-do lists ?"
+      },
+      "options": [
+        {
+          "content": "Tâches",
+          "correct": true
+        },
+        {
+          "content": "Notes",
+          "correct": false
+        },
+        {
+          "content": "Journal",
+          "correct": false
+        },
+        {
+          "content": "Agenda",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement archiver des anciens e-mails dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction 'Archiver'",
+          "correct": true
+        },
+        {
+          "content": "Créer manuellement des dossiers d'archive",
+          "correct": false
+        },
+        {
+          "content": "Supprimer les anciens e-mails",
+          "correct": false
+        },
+        {
+          "content": "Exporter les e-mails vers un fichier externe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour gérer efficacement sa boîte de réception Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des dossiers pour organiser les e-mails",
+          "correct": true
+        },
+        {
+          "content": "Traiter immédiatement les e-mails qui prennent moins de 2 minutes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des catégories ou des étiquettes pour classer les e-mails",
+          "correct": true
+        },
+        {
+          "content": "Garder tous les e-mails dans la boîte de réception principale",
+          "correct": false
+        },
+        {
+          "content": "Configurer des règles pour automatiser le tri des e-mails",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de partager votre calendrier avec des collègues ?"
+      },
+      "options": [
+        {
+          "content": "Partager le calendrier",
+          "correct": true
+        },
+        {
+          "content": "Exporter le calendrier",
+          "correct": false
+        },
+        {
+          "content": "Publier le calendrier",
+          "correct": false
+        },
+        {
+          "content": "Synchroniser le calendrier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver un contact dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la barre de recherche dans les Contacts",
+          "correct": true
+        },
+        {
+          "content": "Parcourir manuellement la liste des contacts",
+          "correct": false
+        },
+        {
+          "content": "Créer un groupe pour chaque lettre de l'alphabet",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Trier par'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour personnaliser l'affichage de votre boîte de réception Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Modifier la disposition des colonnes",
+          "correct": true
+        },
+        {
+          "content": "Changer le thème de couleur",
+          "correct": true
+        },
+        {
+          "content": "Ajuster la taille de la police",
+          "correct": true
+        },
+        {
+          "content": "Masquer certains dossiers",
+          "correct": true
+        },
+        {
+          "content": "Modifier le logo Microsoft Outlook",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer des modèles d'e-mails réutilisables ?"
+      },
+      "options": [
+        {
+          "content": "Modèles",
+          "correct": true
+        },
+        {
+          "content": "Brouillons",
+          "correct": false
+        },
+        {
+          "content": "Favoris",
+          "correct": false
+        },
+        {
+          "content": "Signatures",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous configurer une réponse automatique en cas d'absence dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la fonction 'Réponses automatiques'",
+          "correct": true
+        },
+        {
+          "content": "Créer une règle de messagerie",
+          "correct": false
+        },
+        {
+          "content": "Configurer une signature spéciale",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Hors bureau'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options de suivi disponibles pour les e-mails envoyés dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Demander un accusé de réception",
+          "correct": true
+        },
+        {
+          "content": "Demander une confirmation de lecture",
+          "correct": true
+        },
+        {
+          "content": "Ajouter un rappel de suivi",
+          "correct": true
+        },
+        {
+          "content": "Marquer pour le suivi",
+          "correct": true
+        },
+        {
+          "content": "Programmer une relance automatique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de nettoyer rapidement les conversations redondantes ?"
+      },
+      "options": [
+        {
+          "content": "Nettoyer la conversation",
+          "correct": true
+        },
+        {
+          "content": "Supprimer les doublons",
+          "correct": false
+        },
+        {
+          "content": "Compresser les e-mails",
+          "correct": false
+        },
+        {
+          "content": "Archiver la conversation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trier vos e-mails par taille dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur l'en-tête de colonne 'Taille'",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction de recherche avancée",
+          "correct": false
+        },
+        {
+          "content": "Créer une règle de tri automatique",
+          "correct": false
+        },
+        {
+          "content": "Utiliser l'option 'Trier par' dans le menu contextuel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour gérer les pièces jointes dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Prévisualiser les pièces jointes sans les ouvrir",
+          "correct": true
+        },
+        {
+          "content": "Enregistrer toutes les pièces jointes en un clic",
+          "correct": true
+        },
+        {
+          "content": "Partager les pièces jointes via OneDrive",
+          "correct": true
+        },
+        {
+          "content": "Compresser automatiquement les pièces jointes volumineuses",
+          "correct": true
+        },
+        {
+          "content": "Modifier le contenu des pièces jointes directement dans Outlook",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer rapidement une réunion à partir d'un e-mail ?"
+      },
+      "options": [
+        {
+          "content": "Répondre avec une réunion",
+          "correct": true
+        },
+        {
+          "content": "Convertir en rendez-vous",
+          "correct": false
+        },
+        {
+          "content": "Planifier une réunion",
+          "correct": false
+        },
+        {
+          "content": "Créer un événement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement retrouver un e-mail contenant une pièce jointe spécifique dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la recherche avancée avec le filtre 'A des pièces jointes'",
+          "correct": true
+        },
+        {
+          "content": "Trier les e-mails par pièce jointe",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Rechercher des pièces jointes'",
+          "correct": false
+        },
+        {
+          "content": "Parcourir manuellement tous les e-mails",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour organiser efficacement ses contacts dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des groupes de contacts",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des notes personnalisées aux contacts",
+          "correct": true
+        },
+        {
+          "content": "Synchroniser les contacts avec d'autres appareils",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des catégories pour classer les contacts",
+          "correct": true
+        },
+        {
+          "content": "Créer un contact pour chaque e-mail reçu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de gérer efficacement plusieurs comptes e-mail dans une seule interface ?"
+      },
+      "options": [
+        {
+          "content": "Boîte de réception prioritaire",
+          "correct": true
+        },
+        {
+          "content": "Comptes multiples",
+          "correct": false
+        },
+        {
+          "content": "Gestion de profils",
+          "correct": false
+        },
+        {
+          "content": "Fusion de boîtes de réception",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement marquer un e-mail pour suivi ultérieur dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Cliquer sur le drapeau à côté de l'e-mail",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction 'Rappel'",
+          "correct": false
+        },
+        {
+          "content": "Déplacer l'e-mail dans un dossier 'À suivre'",
+          "correct": false
+        },
+        {
+          "content": "Ajouter une étiquette 'Suivi' à l'e-mail",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour personnaliser l'affichage du calendrier dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Changer la vue (jour, semaine, mois)",
+          "correct": true
+        },
+        {
+          "content": "Afficher plusieurs calendriers côte à côte",
+          "correct": true
+        },
+        {
+          "content": "Personnaliser les couleurs des événements",
+          "correct": true
+        },
+        {
+          "content": "Masquer certains jours de la semaine",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des images de fond au calendrier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer une liste de distribution pour envoyer des e-mails à un groupe de personnes ?"
+      },
+      "options": [
+        {
+          "content": "Liste de distribution",
+          "correct": true
+        },
+        {
+          "content": "Groupe de contacts",
+          "correct": false
+        },
+        {
+          "content": "Liste de diffusion",
+          "correct": false
+        },
+        {
+          "content": "Carnet d'adresses groupé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour personnaliser la barre d'outils à accès rapide dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter des commandes fréquemment utilisées",
+          "correct": true
+        },
+        {
+          "content": "Supprimer des commandes existantes",
+          "correct": true
+        },
+        {
+          "content": "Réorganiser l'ordre des commandes",
+          "correct": true
+        },
+        {
+          "content": "Créer des groupes de commandes personnalisés",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des commandes d'autres applications Office",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver des e-mails contenant des pièces jointes de grande taille dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la recherche avancée avec le filtre 'Taille > 5 Mo'",
+          "correct": true
+        },
+        {
+          "content": "Trier les e-mails par taille de pièce jointe",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Rechercher des fichiers volumineux'",
+          "correct": false
+        },
+        {
+          "content": "Parcourir manuellement tous les e-mails avec des pièces jointes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de catégoriser rapidement les e-mails par couleur ?"
+      },
+      "options": [
+        {
+          "content": "Catégories de couleur",
+          "correct": true
+        },
+        {
+          "content": "Étiquettes colorées",
+          "correct": false
+        },
+        {
+          "content": "Marqueurs de priorité",
+          "correct": false
+        },
+        {
+          "content": "Indicateurs de suivi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour gérer efficacement les invitations à des réunions dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Répondre rapidement aux invitations",
+          "correct": true
+        },
+        {
+          "content": "Vérifier les conflits d'horaire avant d'accepter",
+          "correct": true
+        },
+        {
+          "content": "Proposer une nouvelle heure si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des notes personnelles à l'invitation",
+          "correct": true
+        },
+        {
+          "content": "Ignorer systématiquement les invitations optionnelles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous empêcher Outlook de télécharger automatiquement les images dans les e-mails ?"
+      },
+      "options": [
+        {
+          "content": "Modifier les paramètres de confidentialité",
+          "correct": true
+        },
+        {
+          "content": "Désactiver HTML dans les e-mails",
+          "correct": false
+        },
+        {
+          "content": "Bloquer tous les expéditeurs externes",
+          "correct": false
+        },
+        {
+          "content": "Utiliser le mode hors connexion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer une signature numérique pour sécuriser vos e-mails ?"
+      },
+      "options": [
+        {
+          "content": "Certificats de sécurité",
+          "correct": true
+        },
+        {
+          "content": "Chiffrement de bout en bout",
+          "correct": false
+        },
+        {
+          "content": "Authentification à deux facteurs",
+          "correct": false
+        },
+        {
+          "content": "Verrouillage des e-mails",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour gérer efficacement les spams dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le filtre anti-spam intégré",
+          "correct": true
+        },
+        {
+          "content": "Bloquer des expéditeurs spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Créer des règles pour filtrer les e-mails indésirables",
+          "correct": true
+        },
+        {
+          "content": "Signaler les messages suspects comme spam",
+          "correct": true
+        },
+        {
+          "content": "Désactiver complètement la réception d'e-mails externes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver des e-mails non lus dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser le filtre 'Non lu' dans la barre de recherche",
+          "correct": true
+        },
+        {
+          "content": "Trier les e-mails par statut de lecture",
+          "correct": false
+        },
+        {
+          "content": "Créer un dossier 'Non lu' et y déplacer les e-mails",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Rechercher des e-mails non lus'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de planifier l'envoi d'un e-mail récurrent ?"
+      },
+      "options": [
+        {
+          "content": "Tâches récurrentes",
+          "correct": true
+        },
+        {
+          "content": "Planification d'e-mails",
+          "correct": false
+        },
+        {
+          "content": "Envoi automatique",
+          "correct": false
+        },
+        {
+          "content": "E-mails programmés",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour utiliser efficacement la fonction de recherche dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des opérateurs de recherche (AND, OR, NOT)",
+          "correct": true
+        },
+        {
+          "content": "Exploiter les filtres de recherche avancée",
+          "correct": true
+        },
+        {
+          "content": "Créer des dossiers de recherche pour les requêtes fréquentes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des mots-clés spécifiques plutôt que des termes généraux",
+          "correct": true
+        },
+        {
+          "content": "Toujours effectuer une recherche dans tous les dossiers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement marquer plusieurs e-mails comme lus dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Sélectionner les e-mails et utiliser le bouton 'Marquer comme lu'",
+          "correct": true
+        },
+        {
+          "content": "Faire un clic droit et choisir 'Marquer comme lu'",
+          "correct": false
+        },
+        {
+          "content": "Utiliser le raccourci clavier Ctrl+Q",
+          "correct": false
+        },
+        {
+          "content": "Déplacer les e-mails dans un dossier 'Lu'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer un sondage rapide dans un e-mail ?"
+      },
+      "options": [
+        {
+          "content": "Sondage rapide",
+          "correct": true
+        },
+        {
+          "content": "Enquête par e-mail",
+          "correct": false
+        },
+        {
+          "content": "Questionnaire intégré",
+          "correct": false
+        },
+        {
+          "content": "Formulaire de vote",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour personnaliser l'apparence des e-mails dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Changer la police et la taille du texte",
+          "correct": true
+        },
+        {
+          "content": "Ajouter un arrière-plan ou un thème",
+          "correct": true
+        },
+        {
+          "content": "Insérer des images ou des éléments graphiques",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des styles de paragraphe prédéfinis",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des animations ou des effets sonores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver et supprimer les grands fichiers qui encombrent votre boîte Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l'outil 'Nettoyage de la boîte aux lettres'",
+          "correct": true
+        },
+        {
+          "content": "Trier manuellement tous les e-mails par taille",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Recherche de fichiers volumineux'",
+          "correct": false
+        },
+        {
+          "content": "Exécuter l'assistant de nettoyage Windows",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer automatiquement des tâches à partir des e-mails ?"
+      },
+      "options": [
+        {
+          "content": "Glisser-déposer l'e-mail sur l'icône Tâches",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction 'Convertir en tâche'",
+          "correct": false
+        },
+        {
+          "content": "Créer une règle de conversion automatique",
+          "correct": false
+        },
+        {
+          "content": "Marquer l'e-mail avec un drapeau de tâche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour gérer efficacement plusieurs calendriers dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des couleurs différentes pour chaque calendrier",
+          "correct": true
+        },
+        {
+          "content": "Créer des groupes de calendriers",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la vue superposée pour comparer les calendriers",
+          "correct": true
+        },
+        {
+          "content": "Partager les calendriers pertinents avec les collègues",
+          "correct": true
+        },
+        {
+          "content": "Créer un nouveau calendrier pour chaque jour de la semaine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment pouvez-vous rapidement trouver tous les e-mails avec des pièces jointes dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la recherche avec 'hasattachment:yes'",
+          "correct": true
+        },
+        {
+          "content": "Trier les e-mails par icône de pièce jointe",
+          "correct": false
+        },
+        {
+          "content": "Créer un dossier 'Pièces jointes' et y déplacer les e-mails",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la fonction 'Rechercher des pièces jointes'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle fonction Outlook permet de créer une signature électronique avec une image ou un logo ?"
+      },
+      "options": [
+        {
+          "content": "Éditeur de signatures",
+          "correct": true
+        },
+        {
+          "content": "Insertion d'images dans les e-mails",
+          "correct": false
+        },
+        {
+          "content": "Personnalisation du pied de page",
+          "correct": false
+        },
+        {
+          "content": "Création de modèles d'e-mails",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les options disponibles pour gérer efficacement les notifications dans Outlook ?"
+      },
+      "options": [
+        {
+          "content": "Personnaliser les sons de notification",
+          "correct": true
+        },
+        {
+          "content": "Désactiver les notifications pour certains expéditeurs",
+          "correct": true
+        },
+        {
+          "content": "Configurer des notifications différentes pour chaque compte",
+          "correct": true
+        },
+        {
+          "content": "Définir des heures de silence pour les notifications",
+          "correct": true
+        },
+        {
+          "content": "Recevoir des notifications uniquement pour les e-mails importants",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
