@@ -1,5 +1,5 @@
 {
-  "title": "Bash : Compétences en shell scripting",
+  "title": "Bash",
   "attributes": {
     "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
     "level": "intermediate",
@@ -43,5 +43,6 @@
           "content": "print"
         }
       ]
-    } ]
+    }
+  ]
 }

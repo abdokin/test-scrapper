@@ -1,0 +1,909 @@
+{
+  "title": "Account Management",
+  "attributes": {
+    "overview": "Ce test de Account Management évalue la capacité du candidat à servir et à développer des comptes de clients de manière efficace. Ce test vous aidera à recruter des experts en gestion de comptes qui augmentent les revenus tout en établissant et en maintenant des relations stratégiques pour votre entreprise.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion des relations clients",
+      "Développement commercial",
+      "Négociation",
+      "Analyse des besoins clients",
+      "Planification stratégique",
+      "Communication",
+      "Résolution de problèmes",
+      "Gestion de projet"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de gestionnaire de comptes, chargé de clientèle, ou tout rôle impliquant la gestion et le développement de relations clients B2B.",
+    "description": "Le test couvre les aspects essentiels de la gestion de comptes, y compris la stratégie client, la négociation, la résolution de problèmes et la communication efficace.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure approche pour gérer les attentes d'un client insatisfait ?"
+      },
+      "options": [
+        {
+          "content": "Écouter activement et proposer des solutions réalistes",
+          "correct": true
+        },
+        {
+          "content": "Promettre de résoudre tous les problèmes immédiatement"
+        },
+        {
+          "content": "Transférer la plainte à un supérieur"
+        },
+        {
+          "content": "Minimiser l'importance du problème"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l'objectif principal d'une réunion de revue trimestrielle avec un client ?"
+      },
+      "options": [
+        {
+          "content": "Évaluer les performances et planifier l'avenir",
+          "correct": true
+        },
+        {
+          "content": "Vendre de nouveaux produits"
+        },
+        {
+          "content": "Socialiser avec le client"
+        },
+        {
+          "content": "Présenter de nouvelles offres promotionnelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les étapes clés pour préparer une présentation efficace à un client potentiel ?"
+      },
+      "options": [
+        {
+          "content": "Rechercher l'entreprise du client",
+          "correct": true
+        },
+        {
+          "content": "Définir des objectifs clairs pour la présentation",
+          "correct": true
+        },
+        {
+          "content": "Préparer des réponses aux objections potentielles",
+          "correct": true
+        },
+        {
+          "content": "Inclure autant d'informations techniques que possible"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle technique est la plus efficace pour identifier de nouvelles opportunités de vente avec un client existant ?"
+      },
+      "options": [
+        {
+          "content": "Analyser régulièrement les besoins et défis du client",
+          "correct": true
+        },
+        {
+          "content": "Envoyer des catalogues de produits mensuels"
+        },
+        {
+          "content": "Attendre que le client demande de nouveaux produits"
+        },
+        {
+          "content": "Proposer systématiquement tous les produits disponibles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment gérer au mieux un client qui demande une réduction de prix significative ?"
+      },
+      "options": [
+        {
+          "content": "Négocier en mettant l'accent sur la valeur ajoutée",
+          "correct": true
+        },
+        {
+          "content": "Accepter immédiatement pour satisfaire le client"
+        },
+        {
+          "content": "Refuser catégoriquement toute réduction"
+        },
+        {
+          "content": "Ignorer la demande et changer de sujet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments devraient être inclus dans un plan de compte client annuel ?"
+      },
+      "options": [
+        {
+          "content": "Objectifs de croissance",
+          "correct": true
+        },
+        {
+          "content": "Analyse SWOT",
+          "correct": true
+        },
+        {
+          "content": "Stratégies d'engagement",
+          "correct": true
+        },
+        {
+          "content": "Liste des concurrents du client",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de gérer un conflit entre les besoins du client et les politiques de votre entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Chercher un compromis qui satisfasse les deux parties",
+          "correct": true
+        },
+        {
+          "content": "Privilégier systématiquement les besoins du client"
+        },
+        {
+          "content": "Appliquer strictement les politiques de l'entreprise"
+        },
+        {
+          "content": "Éviter d'aborder le sujet avec le client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'utiliser un CRM (Customer Relationship Management) dans la gestion de comptes ?"
+      },
+      "options": [
+        {
+          "content": "Centralisation et suivi efficace des interactions clients",
+          "correct": true
+        },
+        {
+          "content": "Réduction automatique des coûts opérationnels"
+        },
+        {
+          "content": "Élimination du besoin de contact personnel avec les clients"
+        },
+        {
+          "content": "Augmentation garantie des ventes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les meilleures pratiques pour maintenir une relation client à long terme ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer régulièrement",
+          "correct": true
+        },
+        {
+          "content": "Anticiper et répondre aux besoins du client",
+          "correct": true
+        },
+        {
+          "content": "Être transparent et honnête",
+          "correct": true
+        },
+        {
+          "content": "Offrir des cadeaux coûteux à chaque rencontre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment réagir lorsqu'un client demande un service que votre entreprise ne peut pas fournir ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer honnêtement et proposer des alternatives si possible",
+          "correct": true
+        },
+        {
+          "content": "Promettre de fournir le service malgré tout"
+        },
+        {
+          "content": "Ignorer la demande"
+        },
+        {
+          "content": "Suggérer au client de chercher ailleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est la plus efficace pour introduire de nouveaux produits ou services à un client existant ?"
+      },
+      "options": [
+        {
+          "content": "Démontrer comment ils répondent aux besoins spécifiques du client",
+          "correct": true
+        },
+        {
+          "content": "Envoyer un e-mail avec une liste de tous les nouveaux produits"
+        },
+        {
+          "content": "Attendre que le client pose des questions sur les nouveautés"
+        },
+        {
+          "content": "Offrir une remise importante pour encourager l'essai"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les indicateurs clés de performance (KPI) importants à suivre dans la gestion de comptes ?"
+      },
+      "options": [
+        {
+          "content": "Taux de rétention des clients",
+          "correct": true
+        },
+        {
+          "content": "Croissance du chiffre d'affaires par compte",
+          "correct": true
+        },
+        {
+          "content": "Niveau de satisfaction client",
+          "correct": true
+        },
+        {
+          "content": "Nombre de déjeuners d'affaires par mois"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de gérer les attentes irréalistes d'un client ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement et proposer des alternatives réalistes",
+          "correct": true
+        },
+        {
+          "content": "Accepter les demandes pour éviter les conflits"
+        },
+        {
+          "content": "Ignorer les demandes en espérant qu'elles disparaissent"
+        },
+        {
+          "content": "Transférer le client à un autre gestionnaire de compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal objectif d'une analyse de la concurrence dans la gestion de comptes ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les opportunités et menaces pour mieux positionner vos offres",
+          "correct": true
+        },
+        {
+          "content": "Copier les stratégies des concurrents"
+        },
+        {
+          "content": "Réduire les prix pour être moins cher que la concurrence"
+        },
+        {
+          "content": "Critiquer les produits des concurrents auprès des clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les compétences essentielles pour un gestionnaire de comptes efficace ?"
+      },
+      "options": [
+        {
+          "content": "Excellentes capacités de communication",
+          "correct": true
+        },
+        {
+          "content": "Compétences en négociation",
+          "correct": true
+        },
+        {
+          "content": "Aptitude à résoudre des problèmes",
+          "correct": true
+        },
+        {
+          "content": "Maîtrise de plusieurs langues étrangères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment aborder la perte d'un client important ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les raisons, apprendre et améliorer les processus",
+          "correct": true
+        },
+        {
+          "content": "Blâmer l'équipe de vente"
+        },
+        {
+          "content": "Ignorer la perte et se concentrer uniquement sur de nouveaux clients"
+        },
+        {
+          "content": "Baisser les prix pour tous les autres clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour gérer les plaintes des clients ?"
+      },
+      "options": [
+        {
+          "content": "Écouter, reconnaître le problème et agir rapidement pour le résoudre",
+          "correct": true
+        },
+        {
+          "content": "Offrir immédiatement un remboursement"
+        },
+        {
+          "content": "Défendre vigoureusement la position de l'entreprise"
+        },
+        {
+          "content": "Transférer systématiquement la plainte à un supérieur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments devraient être inclus dans un rapport de visite client ?"
+      },
+      "options": [
+        {
+          "content": "Résumé des discussions clés",
+          "correct": true
+        },
+        {
+          "content": "Actions à suivre",
+          "correct": true
+        },
+        {
+          "content": "Opportunités identifiées",
+          "correct": true
+        },
+        {
+          "content": "Détails personnels sur la vie privée du client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de gérer un client qui tarde régulièrement à payer ses factures ?"
+      },
+      "options": [
+        {
+          "content": "Discuter ouvertement du problème et proposer des solutions de paiement",
+          "correct": true
+        },
+        {
+          "content": "Cesser immédiatement de fournir des services"
+        },
+        {
+          "content": "Ignorer le problème pour maintenir une bonne relation"
+        },
+        {
+          "content": "Augmenter les prix pour compenser les retards"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage de la segmentation des clients dans la gestion de comptes ?"
+      },
+      "options": [
+        {
+          "content": "Personnalisation des stratégies et allocation efficace des ressources",
+          "correct": true
+        },
+        {
+          "content": "Réduction du nombre total de clients"
+        },
+        {
+          "content": "Simplification de la tarification"
+        },
+        {
+          "content": "Augmentation automatique des ventes pour tous les segments"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour présenter une augmentation de prix à un client de longue date ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer clairement les raisons et démontrer la valeur ajoutée",
+          "correct": true
+        },
+        {
+          "content": "Introduire l'augmentation sans explication"
+        },
+        {
+          "content": "Offrir une réduction sur d'autres produits pour compenser"
+        },
+        {
+          "content": "Attendre que le client remarque le changement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés d'un plan de développement de compte client ?"
+      },
+      "options": [
+        {
+          "content": "Analyse de la situation actuelle",
+          "correct": true
+        },
+        {
+          "content": "Objectifs de croissance spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Stratégies d'expansion des ventes",
+          "correct": true
+        },
+        {
+          "content": "Liste des concurrents du client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment gérer efficacement un client qui demande constamment des services supplémentaires gratuits ?"
+      },
+      "options": [
+        {
+          "content": "Établir clairement les limites et proposer des options payantes",
+          "correct": true
+        },
+        {
+          "content": "Accéder à toutes les demandes pour maintenir la relation"
+        },
+        {
+          "content": "Ignorer les demandes en espérant qu'elles cessent"
+        },
+        {
+          "content": "Transférer le client à un autre gestionnaire de compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de maintenir la relation avec un client pendant une période où il n'y a pas de projets actifs ?"
+      },
+      "options": [
+        {
+          "content": "Rester en contact régulier et partager des informations pertinentes",
+          "correct": true
+        },
+        {
+          "content": "Attendre que le client reprenne contact"
+        },
+        {
+          "content": "Envoyer des offres promotionnelles hebdomadaires"
+        },
+        {
+          "content": "Réduire la fréquence des contacts au minimum"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les meilleures pratiques pour mener une réunion de revue annuelle avec un client ?"
+      },
+      "options": [
+        {
+          "content": "Préparer un ordre du jour détaillé",
+          "correct": true
+        },
+        {
+          "content": "Revoir les objectifs et réalisations de l'année écoulée",
+          "correct": true
+        },
+        {
+          "content": "Discuter des plans et objectifs pour l'année à venir",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur les aspects négatifs à améliorer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment gérer une situation où un client demande un service que votre entreprise n'est pas en mesure de fournir ?"
+      },
+      "options": [
+        {
+          "content": "Être honnête et recommander un partenaire de confiance si possible",
+          "correct": true
+        },
+        {
+          "content": "Promettre de fournir le service malgré le manque de capacité"
+        },
+        {
+          "content": "Refuser sans explication"
+        },
+        {
+          "content": "Sous-traiter le service sans en informer le client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour gérer les attentes d'un client concernant les délais de livraison ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer des délais réalistes et tenir le client informé",
+          "correct": true
+        },
+        {
+          "content": "Promettre des délais courts pour satisfaire le client"
+        },
+        {
+          "content": "Éviter de donner des délais précis"
+        },
+        {
+          "content": "Laisser le service de production gérer les attentes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d'une stratégie de compte clé (key account) ?"
+      },
+      "options": [
+        {
+          "content": "Augmentation de la fidélité client",
+          "correct": true
+        },
+        {
+          "content": "Croissance des revenus",
+          "correct": true
+        },
+        {
+          "content": "Meilleure compréhension des besoins du client",
+          "correct": true
+        },
+        {
+          "content": "Réduction automatique des coûts opérationnels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment aborder la négociation de renouvellement de contrat avec un client important ?"
+      },
+      "options": [
+        {
+          "content": "Préparer une analyse de la valeur ajoutée et des options d'amélioration",
+          "correct": true
+        },
+        {
+          "content": "Proposer immédiatement une réduction de prix"
+        },
+        {
+          "content": "Attendre que le client initie les discussions"
+        },
+        {
+          "content": "Menacer de mettre fin à la relation si les termes ne sont pas acceptés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de gérer un conflit d'intérêts entre deux clients ?"
+      },
+      "options": [
+        {
+          "content": "Divulguer la situation et établir des barrières éthiques claires",
+          "correct": true
+        },
+        {
+          "content": "Ignorer le conflit et servir les deux clients normalement"
+        },
+        {
+          "content": "Choisir le client le plus rentable et abandonner l'autre"
+        },
+        {
+          "content": "Cacher l'information aux deux clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés d'une stratégie de cross-selling efficace ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre les besoins du client",
+          "correct": true
+        },
+        {
+          "content": "Identifier les produits complémentaires pertinents",
+          "correct": true
+        },
+        {
+          "content": "Démontrer la valeur ajoutée pour le client",
+          "correct": true
+        },
+        {
+          "content": "Imposer l'achat de produits supplémentaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment gérer une situation où un client demande une customisation importante d'un produit standard ?"
+      },
+      "options": [
+        {
+          "content": "Évaluer la faisabilité et les coûts avant de s'engager",
+          "correct": true
+        },
+        {
+          "content": "Refuser catégoriquement toute customisation"
+        },
+        {
+          "content": "Accepter immédiatement pour satisfaire le client"
+        },
+        {
+          "content": "Suggérer au client de chercher un autre fournisseur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour introduire un nouveau gestionnaire de compte auprès d'un client existant ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une réunion de transition avec l'ancien et le nouveau gestionnaire",
+          "correct": true
+        },
+        {
+          "content": "Envoyer un simple e-mail informant du changement"
+        },
+        {
+          "content": "Laisser le nouveau gestionnaire se présenter lui-même"
+        },
+        {
+          "content": "Attendre que le client remarque le changement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les signes qu'un client pourrait être à risque de churn (départ) ?"
+      },
+      "options": [
+        {
+          "content": "Diminution de la fréquence des commandes",
+          "correct": true
+        },
+        {
+          "content": "Baisse du niveau d'engagement dans les communications",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des plaintes ou insatisfactions",
+          "correct": true
+        },
+        {
+          "content": "Demande d'informations sur de nouveaux produits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment aborder une situation où votre entreprise a commis une erreur importante affectant le client ?"
+      },
+      "options": [
+        {
+          "content": "Reconnaître l'erreur, s'excuser et proposer une solution rapide",
+          "correct": true
+        },
+        {
+          "content": "Minimiser l'importance de l'erreur"
+        },
+        {
+          "content": "Nier toute responsabilité"
+        },
+        {
+          "content": "Blâmer le client pour le malentendu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon de gérer les objectifs de vente à court terme tout en maintenant des relations clients à long terme ?"
+      },
+      "options": [
+        {
+          "content": "Équilibrer les objectifs de vente avec la satisfaction et la valeur pour le client",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur les objectifs de vente à court terme"
+        },
+        {
+          "content": "Ignorer les objectifs de vente pour privilégier les relations"
+        },
+        {
+          "content": "Alternance entre périodes de vente intense et périodes de relation pure"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés d'un processus d'onboarding efficace pour un nouveau client ?"
+      },
+      "options": [
+        {
+          "content": "Clarification des attentes mutuelles",
+          "correct": true
+        },
+        {
+          "content": "Formation sur les produits ou services",
+          "correct": true
+        },
+        {
+          "content": "Établissement des canaux de communication",
+          "correct": true
+        },
+        {
+          "content": "Présentation de l'historique complet de l'entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment gérer un client qui compare constamment vos services à ceux d'un concurrent moins cher ?"
+      },
+      "options": [
+        {
+          "content": "Mettre l'accent sur la valeur ajoutée et les différenciateurs de votre offre",
+          "correct": true
+        },
+        {
+          "content": "Baisser vos prix pour s'aligner sur le concurrent"
+        },
+        {
+          "content": "Critiquer ouvertement la qualité du concurrent"
+        },
+        {
+          "content": "Ignorer les comparaisons et changer de sujet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour gérer les attentes d'un client concernant le support après-vente ?"
+      },
+      "options": [
+        {
+          "content": "Définir clairement les niveaux de service dès le début de la relation",
+          "correct": true
+        },
+        {
+          "content": "Promettre un support illimité pour rassurer le client"
+        },
+        {
+          "content": "Éviter de discuter du support jusqu'à ce qu'un problème survienne"
+        },
+        {
+          "content": "Laisser le service après-vente gérer toutes les attentes"
+        }
+      ]
+    }
+  ]
+}

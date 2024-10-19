@@ -1,0 +1,895 @@
+{
+  "title": "Éthique commerciale et conformité",
+  "attributes": {
+    "overview": "Le test d'éthique commerciale évalue la sensibilisation, le jugement et les connaissances des candidats sur les problèmes éthiques en contexte commercial. Il facilite le recrutement de personnes ayant un sens éthique et adhérant aux politiques d'entreprise.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Prise de décision éthique",
+      "Conformité réglementaire",
+      "Gestion des conflits d'intérêts",
+      "Confidentialité et protection des données",
+      "Responsabilité sociale des entreprises",
+      "Anti-corruption et anti-pots-de-vin",
+      "Éthique environnementale",
+      "Droits de l'homme et pratiques de travail"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une forte intégrité éthique, notamment dans les domaines de la gestion, des ressources humaines, de la conformité et de la gouvernance d'entreprise.",
+    "description": "Le test couvre les aspects fondamentaux de l'éthique des affaires et de la conformité, évaluant la capacité du candidat à naviguer dans des situations éthiquement complexes et à prendre des décisions conformes aux normes éthiques et légales.",
+    "category": "Situational judgment",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure façon de gérer un conflit d'intérêts potentiel ?"
+      },
+      "options": [
+        {
+          "content": "L'ignorer tant qu'il n'y a pas de problème évident"
+        },
+        {
+          "content": "Le divulguer immédiatement à votre supérieur ou au service des ressources humaines",
+          "correct": true
+        },
+        {
+          "content": "En parler uniquement à vos collègues proches"
+        },
+        {
+          "content": "Attendre que quelqu'un d'autre le remarque et le signale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce que le &quot;greenwashing&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une technique de nettoyage écologique"
+        },
+        {
+          "content": "Une pratique marketing trompeuse sur l'impact environnemental d'un produit",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de recyclage avancée"
+        },
+        {
+          "content": "Un programme de plantation d'arbres en entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les éléments clés d'un programme de conformité efficace ?"
+      },
+      "options": [
+        {
+          "content": "Formation régulière des employés",
+          "correct": true
+        },
+        {
+          "content": "Politiques et procédures clairement définies",
+          "correct": true
+        },
+        {
+          "content": "Mécanismes de signalement confidentiels",
+          "correct": true
+        },
+        {
+          "content": "Rémunération basée uniquement sur les performances financières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie le terme &quot;due diligence&quot; en éthique des affaires ?"
+      },
+      "options": [
+        {
+          "content": "Un processus d'enquête approfondie avant une transaction ou un partenariat",
+          "correct": true
+        },
+        {
+          "content": "Une forme de publicité trompeuse"
+        },
+        {
+          "content": "Un type de contrat commercial"
+        },
+        {
+          "content": "Une méthode de résolution des conflits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principe de base du &quot;whistleblowing&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Signaler des activités illégales ou non éthiques au sein de l'organisation",
+          "correct": true
+        },
+        {
+          "content": "Promouvoir les produits de l'entreprise"
+        },
+        {
+          "content": "Organiser des compétitions sportives en entreprise"
+        },
+        {
+          "content": "Communiquer avec les clients mécontents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles pratiques sont considérées comme de la corruption ?"
+      },
+      "options": [
+        {
+          "content": "Offrir un pot-de-vin pour obtenir un contrat",
+          "correct": true
+        },
+        {
+          "content": "Faire un don à une organisation caritative légitime"
+        },
+        {
+          "content": "Faciliter des paiements pour accélérer des processus administratifs",
+          "correct": true
+        },
+        {
+          "content": "Offrir des cadeaux excessifs à des fonctionnaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie le terme &quot;RSE&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Réglementation des Services Externes"
+        },
+        {
+          "content": "Responsabilité Sociale des Entreprises",
+          "correct": true
+        },
+        {
+          "content": "Réseau de Sécurité Économique"
+        },
+        {
+          "content": "Réforme du Système Éducatif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les données personnelles des clients ?"
+      },
+      "options": [
+        {
+          "content": "Les partager librement avec les partenaires commerciaux"
+        },
+        {
+          "content": "Les utiliser uniquement aux fins pour lesquelles elles ont été collectées",
+          "correct": true
+        },
+        {
+          "content": "Les conserver indéfiniment pour usage futur"
+        },
+        {
+          "content": "Les vendre à des tiers pour générer des revenus supplémentaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes fondamentaux de l'éthique des affaires ?"
+      },
+      "options": [
+        {
+          "content": "Intégrité",
+          "correct": true
+        },
+        {
+          "content": "Transparence",
+          "correct": true
+        },
+        {
+          "content": "Responsabilité",
+          "correct": true
+        },
+        {
+          "content": "Maximisation du profit à tout prix"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce qu'une &quot;ligne éthique&quot; dans une entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Un canal de communication pour signaler des problèmes éthiques",
+          "correct": true
+        },
+        {
+          "content": "Une ligne de produits écologiques"
+        },
+        {
+          "content": "Un code vestimentaire strict"
+        },
+        {
+          "content": "Une limite de budget pour les dépenses"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal d'un code de conduite d'entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Augmenter les profits de l'entreprise"
+        },
+        {
+          "content": "Définir les attentes en matière de comportement éthique",
+          "correct": true
+        },
+        {
+          "content": "Réduire les coûts opérationnels"
+        },
+        {
+          "content": "Améliorer l'image publique de l'entreprise uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions peuvent être considérées comme du harcèlement sur le lieu de travail ?"
+      },
+      "options": [
+        {
+          "content": "Faire des commentaires déplacés sur l'apparence d'un collègue",
+          "correct": true
+        },
+        {
+          "content": "Exclure systématiquement un collègue des activités d'équipe",
+          "correct": true
+        },
+        {
+          "content": "Donner un feedback constructif sur le travail d'un collègue"
+        },
+        {
+          "content": "Envoyer des emails inappropriés ou offensants",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;blanchiment d'argent&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une technique de nettoyage des billets de banque"
+        },
+        {
+          "content": "Un processus pour rendre l'origine des fonds illégaux apparemment légale",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de comptabilité créative"
+        },
+        {
+          "content": "Un type d'investissement à faible risque"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un conflit entre les valeurs personnelles et les exigences professionnelles ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer vos valeurs personnelles et suivre les ordres"
+        },
+        {
+          "content": "Démissionner immédiatement"
+        },
+        {
+          "content": "En discuter ouvertement avec votre supérieur ou les RH",
+          "correct": true
+        },
+        {
+          "content": "Agir selon vos valeurs sans en informer personne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'une culture d'entreprise éthique ?"
+      },
+      "options": [
+        {
+          "content": "Communication ouverte et transparente",
+          "correct": true
+        },
+        {
+          "content": "Responsabilisation des employés",
+          "correct": true
+        },
+        {
+          "content": "Priorité donnée aux résultats financiers à court terme"
+        },
+        {
+          "content": "Leadership éthique à tous les niveaux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;commerce équitable&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Un système commercial basé sur le dialogue, la transparence et le respect",
+          "correct": true
+        },
+        {
+          "content": "Un type de troc entre entreprises"
+        },
+        {
+          "content": "Une forme de monopole commercial"
+        },
+        {
+          "content": "Un système de tarification fixe pour tous les produits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principe de &quot;confidentialité&quot; dans l'éthique des affaires ?"
+      },
+      "options": [
+        {
+          "content": "Garder toutes les informations secrètes, même légalement requises"
+        },
+        {
+          "content": "Protéger les informations sensibles et respecter la vie privée",
+          "correct": true
+        },
+        {
+          "content": "Partager toutes les informations ouvertement"
+        },
+        {
+          "content": "Utiliser les informations pour un avantage personnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions peuvent être considérées comme des pratiques commerciales déloyales ?"
+      },
+      "options": [
+        {
+          "content": "Publicité trompeuse",
+          "correct": true
+        },
+        {
+          "content": "Fixation des prix avec les concurrents",
+          "correct": true
+        },
+        {
+          "content": "Offre de garanties sur les produits"
+        },
+        {
+          "content": "Abus de position dominante sur le marché",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie le terme &quot;gouvernance d'entreprise&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Le système par lequel les entreprises sont dirigées et contrôlées",
+          "correct": true
+        },
+        {
+          "content": "La structure hiérarchique d'une entreprise"
+        },
+        {
+          "content": "Les lois régissant la création d'entreprises"
+        },
+        {
+          "content": "Le processus de prise de décision quotidienne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;devoir fiduciaire&quot; ?"
+      },
+      "options": [
+        {
+          "content": "L'obligation légale d'agir dans le meilleur intérêt d'une autre partie",
+          "correct": true
+        },
+        {
+          "content": "Un type de taxe sur les transactions financières"
+        },
+        {
+          "content": "Une méthode de calcul des bénéfices"
+        },
+        {
+          "content": "Un accord entre concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'avoir une forte culture éthique en entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la réputation de l'entreprise",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la confiance des parties prenantes",
+          "correct": true
+        },
+        {
+          "content": "Réduction des risques juridiques et réglementaires",
+          "correct": true
+        },
+        {
+          "content": "Diminution de la productivité des employés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;greenwashing&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une technique de nettoyage écologique"
+        },
+        {
+          "content": "Une pratique marketing trompeuse sur l'impact environnemental d'un produit",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de recyclage avancée"
+        },
+        {
+          "content": "Un programme de plantation d'arbres en entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les piliers du développement durable en entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Économique",
+          "correct": true
+        },
+        {
+          "content": "Social",
+          "correct": true
+        },
+        {
+          "content": "Environnemental",
+          "correct": true
+        },
+        {
+          "content": "Technologique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;insider trading&quot; ?"
+      },
+      "options": [
+        {
+          "content": "L'utilisation d'informations privilégiées pour des transactions boursières",
+          "correct": true
+        },
+        {
+          "content": "Un système de formation interne pour les employés"
+        },
+        {
+          "content": "Une méthode de recrutement interne"
+        },
+        {
+          "content": "Un type de commerce équitable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principe de &quot;neutralité carbone&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Éliminer complètement les émissions de CO2"
+        },
+        {
+          "content": "Équilibrer les émissions de CO2 par des actions de compensation",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement des énergies renouvelables"
+        },
+        {
+          "content": "Planter un arbre pour chaque tonne de CO2 émise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles pratiques peuvent être considérées comme du harcèlement sexuel au travail ?"
+      },
+      "options": [
+        {
+          "content": "Faire des remarques suggestives ou offensantes",
+          "correct": true
+        },
+        {
+          "content": "Demander poliment un rendez-vous à un collègue"
+        },
+        {
+          "content": "Envoyer des emails ou messages à caractère sexuel non sollicités",
+          "correct": true
+        },
+        {
+          "content": "Faire des gestes ou contacts physiques non désirés",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la &quot;diligence raisonnable&quot; en matière de droits humains ?"
+      },
+      "options": [
+        {
+          "content": "Un processus d'identification et de gestion des risques liés aux droits humains",
+          "correct": true
+        },
+        {
+          "content": "Une forme de philanthropie d'entreprise"
+        },
+        {
+          "content": "Un type de contrat de travail"
+        },
+        {
+          "content": "Une méthode de résolution des conflits syndicaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;lobbying&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une pratique illégale de corruption"
+        },
+        {
+          "content": "Une activité visant à influencer les décisions des pouvoirs publics",
+          "correct": true
+        },
+        {
+          "content": "Une méthode de marketing direct"
+        },
+        {
+          "content": "Un type de réunion d'entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes de base de la protection des données personnelles ?"
+      },
+      "options": [
+        {
+          "content": "Consentement",
+          "correct": true
+        },
+        {
+          "content": "Finalité",
+          "correct": true
+        },
+        {
+          "content": "Minimisation des données",
+          "correct": true
+        },
+        {
+          "content": "Collecte maximale pour analyse future"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la &quot;discrimination positive&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une forme de favoritisme"
+        },
+        {
+          "content": "Une politique visant à favoriser des groupes historiquement désavantagés",
+          "correct": true
+        },
+        {
+          "content": "Une technique de motivation des employés"
+        },
+        {
+          "content": "Un système de bonus basé sur la performance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie le terme &quot;compliance&quot; ?"
+      },
+      "options": [
+        {
+          "content": "La capacité à se plier aux exigences des clients"
+        },
+        {
+          "content": "Le respect des lois, règlements et normes éthiques",
+          "correct": true
+        },
+        {
+          "content": "La flexibilité dans les horaires de travail"
+        },
+        {
+          "content": "L'obéissance aveugle aux ordres des supérieurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon programme de formation à l'éthique ?"
+      },
+      "options": [
+        {
+          "content": "Régularité des sessions",
+          "correct": true
+        },
+        {
+          "content": "Contenu adapté aux réalités de l'entreprise",
+          "correct": true
+        },
+        {
+          "content": "Implication de la direction",
+          "correct": true
+        },
+        {
+          "content": "Focus exclusif sur les sanctions en cas de non-respect"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;whistleblowing&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une technique de management participatif"
+        },
+        {
+          "content": "Le signalement de pratiques illégales ou non éthiques dans une organisation",
+          "correct": true
+        },
+        {
+          "content": "Un système d'alerte en cas d'incendie"
+        },
+        {
+          "content": "Une méthode de communication interne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie l'acronyme &quot;ESG&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Économie Sociale et Générale"
+        },
+        {
+          "content": "Environnement, Social et Gouvernance",
+          "correct": true
+        },
+        {
+          "content": "Éthique et Stratégie Globale"
+        },
+        {
+          "content": "Engagement Sociétal Graduel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'une politique de diversité et d'inclusion en entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de la créativité et de l'innovation",
+          "correct": true
+        },
+        {
+          "content": "Meilleure compréhension des marchés diversifiés",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de l'engagement des employés",
+          "correct": true
+        },
+        {
+          "content": "Réduction des coûts de formation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;dumping social&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Une politique de réduction des effectifs"
+        },
+        {
+          "content": "Une pratique consistant à réduire les coûts en diminuant la protection sociale",
+          "correct": true
+        },
+        {
+          "content": "Un programme de soutien aux employés en difficulté"
+        },
+        {
+          "content": "Une méthode de recrutement massive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principe de &quot;transparence&quot; en éthique des affaires ?"
+      },
+      "options": [
+        {
+          "content": "Divulguer toutes les informations de l'entreprise au public"
+        },
+        {
+          "content": "Communiquer de manière claire et honnête sur les activités et les décisions",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des vitres transparentes dans les bureaux"
+        },
+        {
+          "content": "Permettre aux employés de travailler à domicile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les composantes d'une chaîne d'approvisionnement éthique ?"
+      },
+      "options": [
+        {
+          "content": "Respect des droits humains",
+          "correct": true
+        },
+        {
+          "content": "Conditions de travail équitables",
+          "correct": true
+        },
+        {
+          "content": "Gestion responsable de l'environnement",
+          "correct": true
+        },
+        {
+          "content": "Utilisation exclusive de fournisseurs locaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;capitalisme des parties prenantes&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Un système où seuls les actionnaires prennent les décisions"
+        },
+        {
+          "content": "Un modèle économique prenant en compte les intérêts de toutes les parties prenantes",
+          "correct": true
+        },
+        {
+          "content": "Une forme de communisme d'entreprise"
+        },
+        {
+          "content": "Un système de rémunération basé sur la participation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que signifie le concept de &quot;matérialité&quot; en reporting ESG ?"
+      },
+      "options": [
+        {
+          "content": "L'utilisation de matériaux durables dans la production"
+        },
+        {
+          "content": "L'importance relative des enjeux ESG pour l'entreprise et ses parties prenantes",
+          "correct": true
+        },
+        {
+          "content": "La quantité de matières premières utilisées"
+        },
+        {
+          "content": "Le coût des équipements de l'entreprise"
+        }
+      ]
+    }
+  ]
+}

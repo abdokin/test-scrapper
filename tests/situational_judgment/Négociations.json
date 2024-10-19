@@ -1,0 +1,989 @@
+{
+  "title": "Négociations",
+  "attributes": {
+    "overview": "Ce test de négociation évalue la capacité d'un candidat à négocier dans un contexte commercial. Ce test de sélection vous aidera à embaucher des employés capables de négocier pour vos intérêts dans divers contextes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Communication efficace",
+      "Résolution de conflits",
+      "Analyse des intérêts",
+      "Créativité dans la recherche de solutions",
+      "Gestion des émotions",
+      "Techniques de persuasion",
+      "Écoute active",
+      "Stratégie de négociation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes impliquant des négociations commerciales, tels que les ventes, les achats, la gestion de comptes ou les relations clients.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires des techniques de négociation, évaluant la capacité du candidat à gérer efficacement diverses situations de négociation.",
+    "category": "Situational judgment",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 780,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la première étape cruciale dans une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Faire une offre agressive",
+          "correct": false
+        },
+        {
+          "content": "Préparer et planifier",
+          "correct": true
+        },
+        {
+          "content": "Fixer un ultimatum",
+          "correct": false
+        },
+        {
+          "content": "Critiquer la position adverse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu'est-ce que la technique du &quot;bon flic, mauvais flic&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Une stratégie pour éviter les conflits",
+          "correct": false
+        },
+        {
+          "content": "Une technique pour gagner du temps",
+          "correct": false
+        },
+        {
+          "content": "Une méthode pour manipuler l'adversaire",
+          "correct": true
+        },
+        {
+          "content": "Un moyen de diviser l'équipe adverse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les éléments clés d'une négociation réussie ?"
+      },
+      "options": [
+        {
+          "content": "Préparation minutieuse",
+          "correct": true
+        },
+        {
+          "content": "Écoute active",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité dans les propositions",
+          "correct": true
+        },
+        {
+          "content": "Refus de tout compromis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche face à un négociateur agressif ?"
+      },
+      "options": [
+        {
+          "content": "Répondre avec la même agressivité",
+          "correct": false
+        },
+        {
+          "content": "Rester calme et professionnel",
+          "correct": true
+        },
+        {
+          "content": "Quitter immédiatement la négociation",
+          "correct": false
+        },
+        {
+          "content": "Ignorer complètement son comportement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la BATNA en négociation ?"
+      },
+      "options": [
+        {
+          "content": "La meilleure alternative à un accord négocié",
+          "correct": true
+        },
+        {
+          "content": "Une technique de persuasion",
+          "correct": false
+        },
+        {
+          "content": "Un type de contrat commercial",
+          "correct": false
+        },
+        {
+          "content": "Une méthode d'évaluation des risques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'une négociation gagnant-gagnant ?"
+      },
+      "options": [
+        {
+          "content": "Relations à long terme améliorées",
+          "correct": true
+        },
+        {
+          "content": "Satisfaction mutuelle accrue",
+          "correct": true
+        },
+        {
+          "content": "Réduction des conflits futurs",
+          "correct": true
+        },
+        {
+          "content": "Domination totale de l'adversaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utile pour débloquer une impasse dans une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Faire une pause et reprendre plus tard",
+          "correct": true
+        },
+        {
+          "content": "Menacer de quitter la négociation",
+          "correct": false
+        },
+        {
+          "content": "Ignorer les points de désaccord",
+          "correct": false
+        },
+        {
+          "content": "Insister sur sa position initiale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;cadrage&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "La manière de présenter une information",
+          "correct": true
+        },
+        {
+          "content": "Une technique de manipulation",
+          "correct": false
+        },
+        {
+          "content": "Un type de contrat",
+          "correct": false
+        },
+        {
+          "content": "Une méthode d'évaluation des risques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes clés de la négociation raisonnée ?"
+      },
+      "options": [
+        {
+          "content": "Séparer les personnes du problème",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer sur les intérêts, pas les positions",
+          "correct": true
+        },
+        {
+          "content": "Inventer des options gagnant-gagnant",
+          "correct": true
+        },
+        {
+          "content": "Toujours rechercher un avantage unilatéral",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les émotions pendant une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Les ignorer complètement",
+          "correct": false
+        },
+        {
+          "content": "Les exprimer librement",
+          "correct": false
+        },
+        {
+          "content": "Les reconnaître et les gérer de manière constructive",
+          "correct": true
+        },
+        {
+          "content": "Les utiliser pour manipuler l'autre partie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;salami&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Diviser une grande demande en plusieurs petites",
+          "correct": true
+        },
+        {
+          "content": "Offrir un repas pour apaiser les tensions",
+          "correct": false
+        },
+        {
+          "content": "Utiliser des graphiques en forme de cercle",
+          "correct": false
+        },
+        {
+          "content": "Négocier uniquement sur le prix",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l'écoute active en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Mieux comprendre les besoins de l'autre partie",
+          "correct": true
+        },
+        {
+          "content": "Construire la confiance et le rapport",
+          "correct": true
+        },
+        {
+          "content": "Identifier des opportunités de compromis",
+          "correct": true
+        },
+        {
+          "content": "Dominer la conversation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les différences culturelles en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Les ignorer complètement",
+          "correct": false
+        },
+        {
+          "content": "Imposer sa propre culture",
+          "correct": false
+        },
+        {
+          "content": "Se renseigner et s'adapter aux différences culturelles",
+          "correct": true
+        },
+        {
+          "content": "Éviter toute négociation interculturelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;point d'ancrage&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Le point de non-retour dans une négociation",
+          "correct": false
+        },
+        {
+          "content": "La première offre qui influence les négociations ultérieures",
+          "correct": true
+        },
+        {
+          "content": "Le moment où l'accord est signé",
+          "correct": false
+        },
+        {
+          "content": "La limite inférieure d'une offre acceptable",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon négociateur ?"
+      },
+      "options": [
+        {
+          "content": "Patience et persévérance",
+          "correct": true
+        },
+        {
+          "content": "Flexibilité et créativité",
+          "correct": true
+        },
+        {
+          "content": "Empathie et écoute active",
+          "correct": true
+        },
+        {
+          "content": "Agressivité et intimidation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de conclure une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Résumer les points d'accord et les prochaines étapes",
+          "correct": true
+        },
+        {
+          "content": "Partir rapidement avant que l'autre partie ne change d'avis",
+          "correct": false
+        },
+        {
+          "content": "Continuer à négocier jusqu'à épuisement",
+          "correct": false
+        },
+        {
+          "content": "Laisser les détails pour plus tard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;pied dans la porte&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Commencer par une petite demande pour obtenir un accord plus important plus tard",
+          "correct": true
+        },
+        {
+          "content": "Empêcher physiquement l'autre partie de partir",
+          "correct": false
+        },
+        {
+          "content": "Négocier uniquement en face à face",
+          "correct": false
+        },
+        {
+          "content": "Forcer l'entrée dans une négociation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les risques potentiels d'une négociation mal menée ?"
+      },
+      "options": [
+        {
+          "content": "Perte d'opportunités commerciales",
+          "correct": true
+        },
+        {
+          "content": "Détérioration des relations d'affaires",
+          "correct": true
+        },
+        {
+          "content": "Réputation endommagée",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la position concurrentielle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer une impasse dans une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Chercher des intérêts communs et des solutions créatives",
+          "correct": true
+        },
+        {
+          "content": "Menacer de mettre fin à la négociation",
+          "correct": false
+        },
+        {
+          "content": "Céder sur tous les points de désaccord",
+          "correct": false
+        },
+        {
+          "content": "Ignorer l'impasse et continuer comme si de rien n'était",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de la préparation avant une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Meilleure compréhension de ses propres objectifs",
+          "correct": true
+        },
+        {
+          "content": "Anticipation des arguments de l'autre partie",
+          "correct": true
+        },
+        {
+          "content": "Développement de stratégies alternatives",
+          "correct": true
+        },
+        {
+          "content": "Garantie d'un résultat favorable",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;boulanger&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter des éléments à l'accord pour augmenter sa valeur globale",
+          "correct": true
+        },
+        {
+          "content": "Diviser équitablement les ressources comme un gâteau",
+          "correct": false
+        },
+        {
+          "content": "Offrir des concessions mineures pour gagner la confiance",
+          "correct": false
+        },
+        {
+          "content": "Utiliser des métaphores culinaires dans la négociation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la signification de &quot;ZOPA&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Zone of Possible Agreement (Zone d'accord possible)",
+          "correct": true
+        },
+        {
+          "content": "Zero Options Pending Approval (Aucune option en attente d'approbation)",
+          "correct": false
+        },
+        {
+          "content": "Zealous Offer Proposal Approach (Approche de proposition d'offre zélée)",
+          "correct": false
+        },
+        {
+          "content": "Zonal Operating Procedure Agreement (Accord de procédure opérationnelle zonale)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les compétences essentielles pour une négociation efficace ?"
+      },
+      "options": [
+        {
+          "content": "Communication claire et persuasive",
+          "correct": true
+        },
+        {
+          "content": "Analyse et résolution de problèmes",
+          "correct": true
+        },
+        {
+          "content": "Intelligence émotionnelle",
+          "correct": true
+        },
+        {
+          "content": "Capacité à intimider l'adversaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer une tactique de pression temporelle en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Rester calme et évaluer objectivement la situation",
+          "correct": true
+        },
+        {
+          "content": "Céder immédiatement pour éviter les conflits",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la même tactique en retour",
+          "correct": false
+        },
+        {
+          "content": "Ignorer complètement la contrainte de temps",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;pouvoir de partir&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "La capacité de quitter la négociation si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Le droit de mettre fin à un contrat",
+          "correct": false
+        },
+        {
+          "content": "La capacité de déléguer la négociation",
+          "correct": false
+        },
+        {
+          "content": "L'autorité de changer de lieu de négociation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser des questions ouvertes en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Obtenir plus d'informations",
+          "correct": true
+        },
+        {
+          "content": "Encourager la discussion",
+          "correct": true
+        },
+        {
+          "content": "Mieux comprendre les motivations de l'autre partie",
+          "correct": true
+        },
+        {
+          "content": "Limiter les options de l'adversaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer une tactique de &quot;bon flic, mauvais flic&quot; ?"
+      },
+      "options": [
+        {
+          "content": "Reconnaître la tactique et traiter les deux négociateurs comme une seule entité",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur le &quot;bon flic&quot;",
+          "correct": false
+        },
+        {
+          "content": "Ignorer le &quot;mauvais flic&quot; et quitter la négociation",
+          "correct": false
+        },
+        {
+          "content": "Utiliser la même tactique en retour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;highball/lowball&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Faire une offre initiale extrême pour ancrer la négociation",
+          "correct": true
+        },
+        {
+          "content": "Alterner entre des offres élevées et basses",
+          "correct": false
+        },
+        {
+          "content": "Utiliser des métaphores sportives dans la négociation",
+          "correct": false
+        },
+        {
+          "content": "Négocier uniquement sur le prix le plus élevé ou le plus bas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une stratégie de négociation efficace ?"
+      },
+      "options": [
+        {
+          "content": "Définition claire des objectifs",
+          "correct": true
+        },
+        {
+          "content": "Analyse approfondie de la situation",
+          "correct": true
+        },
+        {
+          "content": "Préparation d'alternatives et de concessions potentielles",
+          "correct": true
+        },
+        {
+          "content": "Refus catégorique de tout compromis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer une demande déraisonnable en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Demander des clarifications et explorer les motivations sous-jacentes",
+          "correct": true
+        },
+        {
+          "content": "Rejeter immédiatement la demande",
+          "correct": false
+        },
+        {
+          "content": "Accepter la demande pour éviter les conflits",
+          "correct": false
+        },
+        {
+          "content": "Ignorer la demande et changer de sujet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;nibble&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Demander de petites concessions supplémentaires après un accord principal",
+          "correct": true
+        },
+        {
+          "content": "Faire des pauses fréquentes pour manger pendant la négociation",
+          "correct": false
+        },
+        {
+          "content": "Réduire progressivement ses demandes",
+          "correct": false
+        },
+        {
+          "content": "Diviser l'accord en petites parties négociables",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'utiliser la médiation dans une négociation difficile ?"
+      },
+      "options": [
+        {
+          "content": "Facilite la communication entre les parties",
+          "correct": true
+        },
+        {
+          "content": "Apporte un point de vue neutre et objectif",
+          "correct": true
+        },
+        {
+          "content": "Aide à trouver des solutions créatives",
+          "correct": true
+        },
+        {
+          "content": "Garantit un résultat favorable à une partie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que la technique du &quot;bridging&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Créer un lien entre deux positions apparemment opposées",
+          "correct": true
+        },
+        {
+          "content": "Interrompre temporairement la négociation",
+          "correct": false
+        },
+        {
+          "content": "Changer brusquement de sujet",
+          "correct": false
+        },
+        {
+          "content": "Introduire un nouveau négociateur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'une approche collaborative en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Création de valeur mutuelle",
+          "correct": true
+        },
+        {
+          "content": "Amélioration des relations à long terme",
+          "correct": true
+        },
+        {
+          "content": "Résolution plus créative des problèmes",
+          "correct": true
+        },
+        {
+          "content": "Garantie de gains unilatéraux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un négociateur qui utilise des tactiques d'intimidation ?"
+      },
+      "options": [
+        {
+          "content": "Rester calme et professionnel, tout en établissant des limites claires",
+          "correct": true
+        },
+        {
+          "content": "Répondre avec la même tactique d'intimidation",
+          "correct": false
+        },
+        {
+          "content": "Céder immédiatement pour éviter le conflit",
+          "correct": false
+        },
+        {
+          "content": "Quitter la négociation sans explication",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu'est-ce que le &quot;MESORe&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Meilleure Solution de Rechange",
+          "correct": true
+        },
+        {
+          "content": "Méthode d'Évaluation Stratégique des Offres Restreintes",
+          "correct": false
+        },
+        {
+          "content": "Modèle d'Équilibre Synergique des Options Réalisées",
+          "correct": false
+        },
+        {
+          "content": "Mesure d'Efficacité des Stratégies Opérationnelles Réversibles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les risques potentiels d'une approche trop compétitive en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Détérioration des relations à long terme",
+          "correct": true
+        },
+        {
+          "content": "Perte d'opportunités de création de valeur mutuelle",
+          "correct": true
+        },
+        {
+          "content": "Risque d'impasse ou d'échec de la négociation",
+          "correct": true
+        },
+        {
+          "content": "Amélioration de la réputation professionnelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la signification du terme &quot;WATNA&quot; en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Worst Alternative To a Negotiated Agreement (Pire alternative à un accord négocié)",
+          "correct": true
+        },
+        {
+          "content": "Winning Attitude Towards Negotiation Approach (Attitude gagnante envers l'approche de négociation)",
+          "correct": false
+        },
+        {
+          "content": "Weighted Average Total Negotiation Assessment (Evaluation moyenne pondérée de la négociation totale)",
+          "correct": false
+        },
+        {
+          "content": "Willingness And Tendency to Negotiate Aggressively (Volonté et tendance à négocier agressivement)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les différences de pouvoir en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Se concentrer sur les intérêts mutuels et la création de valeur",
+          "correct": true
+        },
+        {
+          "content": "Exploiter son avantage de pouvoir au maximum",
+          "correct": false
+        },
+        {
+          "content": "Céder immédiatement à la partie la plus puissante",
+          "correct": false
+        },
+        {
+          "content": "Refuser de négocier en cas de déséquilibre de pouvoir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une communication efficace en négociation ?"
+      },
+      "options": [
+        {
+          "content": "Écoute active et empathique",
+          "correct": true
+        },
+        {
+          "content": "Clarté et précision dans l'expression des idées",
+          "correct": true
+        },
+        {
+          "content": "Gestion appropriée du langage non verbal",
+          "correct": true
+        },
+        {
+          "content": "Utilisation systématique de l'intimidation verbale",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

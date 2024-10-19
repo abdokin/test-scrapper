@@ -12,8 +12,7 @@ We're building an app similar to TestGorilla, where businesses can create assess
 - Use two question formats: multiple-choice (one correct answer) and multiple-response (multiple correct answers).
 - Ensure that most questions are multiple-choice, as per the TestGorilla guidelines.
 - Each question should have exactly 4 answer options.
-- For multiple-response questions, randomly vary the number of correct answers between 1 and 4. Avoid patterns where all or most of the multiple-response questions have the same number of correct answers (e.g., avoid always having 3 correct answers).
-  - Ensure a good mix across the test, where some multiple-response questions have only 1 or 2 correct answers, while others may have 3 or 4. This will prevent predictability and ensure a varied test-taking experience.
+- For multiple-response questions, diversify the number of correct options. Do not stick to a predictable pattern (e.g., 3 or 4 correct options). Vary the number of correct answers between 1 and 4, ensuring a mix of scenarios where only 1 or 2 options are correct, along with those having 3 or 4 correct options.
 
 4- Test Duration: Estimate the total test time (duration_seconds) based on the number of questions and the level of difficulty (entry_level, intermediate, or advanced).
 
@@ -21,3 +20,6 @@ We're building an app similar to TestGorilla, where businesses can create assess
 - Each test belongs to one category, selected from the following: Cognitive ability, Language, Personality & culture, Programming skills, Role-specific skills, Situational judgment, Software skills, or Typing speed.
 
 6- JSON Format: The generated test data must adhere to the format specified in the attached JSON template for consistency.
+And Don't forget to make content of questions options html safe
+
+so generate the data for this following test:

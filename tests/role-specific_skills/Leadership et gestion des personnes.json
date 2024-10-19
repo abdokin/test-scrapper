@@ -1,0 +1,895 @@
+{
+  "title": "Leadership et gestion des personnes",
+  "attributes": {
+    "overview": "Le test de leadership évalue la capacité du candidat à diriger en utilisant influence et orientation. Il facilite le recrutement de leaders soutenant le développement d'autres personnes pour la croissance de l'organisation.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Communication efficace",
+      "Prise de décision",
+      "Motivation d'équipe",
+      "Résolution de conflits",
+      "Délégation",
+      "Gestion du changement",
+      "Coaching et mentorat",
+      "Planification stratégique"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de direction, de gestion d'équipe ou tout rôle nécessitant des compétences en leadership.",
+    "description": "Le test évalue les compétences essentielles en leadership, y compris la communication, la prise de décision, la motivation d'équipe et la gestion des conflits.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure approche pour motiver une équipe démotivée ?"
+      },
+      "options": [
+        {
+          "content": "Fixer des objectifs clairs et atteignables",
+          "correct": true
+        },
+        {
+          "content": "Augmenter les salaires de tous les membres de l'équipe"
+        },
+        {
+          "content": "Menacer de sanctions en cas de mauvaise performance"
+        },
+        {
+          "content": "Ignorer le problème en espérant qu'il se résolve de lui-même"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le principal avantage de la délégation pour un leader ?"
+      },
+      "options": [
+        {
+          "content": "Développer les compétences de l'équipe",
+          "correct": true
+        },
+        {
+          "content": "Réduire sa propre charge de travail"
+        },
+        {
+          "content": "Éviter les responsabilités difficiles"
+        },
+        {
+          "content": "Montrer son autorité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles sont les caractéristiques d'une communication efficace en leadership ?"
+      },
+      "options": [
+        {
+          "content": "Être clair et concis",
+          "correct": true
+        },
+        {
+          "content": "Écouter activement",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un jargon technique complexe"
+        },
+        {
+          "content": "Adapter son style à l'audience",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour gérer un conflit au sein d'une équipe ?"
+      },
+      "options": [
+        {
+          "content": "Encourager une discussion ouverte et honnête",
+          "correct": true
+        },
+        {
+          "content": "Ignorer le conflit en espérant qu'il se résolve seul"
+        },
+        {
+          "content": "Prendre parti pour le membre le plus ancien de l'équipe"
+        },
+        {
+          "content": "Imposer une solution sans consulter les parties concernées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moyen de promouvoir l'innovation au sein d'une équipe ?"
+      },
+      "options": [
+        {
+          "content": "Créer un environnement où les erreurs sont vues comme des opportunités d'apprentissage",
+          "correct": true
+        },
+        {
+          "content": "Récompenser uniquement les idées qui réussissent"
+        },
+        {
+          "content": "Limiter les discussions d'équipe pour éviter les conflits"
+        },
+        {
+          "content": "Imposer des quotas d'idées nouvelles par semaine"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de donner un feedback constructif ?"
+      },
+      "options": [
+        {
+          "content": "Être spécifique, objectif et orienté vers des solutions",
+          "correct": true
+        },
+        {
+          "content": "Attendre la revue annuelle de performance"
+        },
+        {
+          "content": "Se concentrer uniquement sur les points négatifs"
+        },
+        {
+          "content": "Donner le feedback devant toute l'équipe pour maximiser l'impact"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les qualités essentielles d'un bon mentor ?"
+      },
+      "options": [
+        {
+          "content": "Être à l'écoute",
+          "correct": true
+        },
+        {
+          "content": "Partager son expérience",
+          "correct": true
+        },
+        {
+          "content": "Imposer ses propres solutions"
+        },
+        {
+          "content": "Encourager la réflexion et l'autonomie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour gérer le changement organisationnel ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement les raisons et les bénéfices du changement",
+          "correct": true
+        },
+        {
+          "content": "Imposer le changement sans explication"
+        },
+        {
+          "content": "Laisser chaque département gérer le changement à sa manière"
+        },
+        {
+          "content": "Ignorer les préoccupations des employés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux promouvoir la diversité et l'inclusion au sein de son équipe ?"
+      },
+      "options": [
+        {
+          "content": "Créer des opportunités égales et valoriser les perspectives diverses",
+          "correct": true
+        },
+        {
+          "content": "Imposer des quotas stricts pour chaque groupe démographique"
+        },
+        {
+          "content": "Éviter de discuter des différences pour ne pas créer de tensions"
+        },
+        {
+          "content": "Traiter tout le monde de manière identique, sans tenir compte des besoins individuels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une vision stratégique efficace ?"
+      },
+      "options": [
+        {
+          "content": "Claire et inspirante",
+          "correct": true
+        },
+        {
+          "content": "Alignée avec les valeurs de l'organisation",
+          "correct": true
+        },
+        {
+          "content": "Focalisée uniquement sur les profits à court terme"
+        },
+        {
+          "content": "Orientée vers l'avenir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un employé sous-performant ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les causes, offrir du soutien et établir un plan d'amélioration",
+          "correct": true
+        },
+        {
+          "content": "Le licencier immédiatement"
+        },
+        {
+          "content": "Ignorer le problème pour éviter la confrontation"
+        },
+        {
+          "content": "Réduire ses responsabilités sans discussion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d'un leader dans la gestion de crise ?"
+      },
+      "options": [
+        {
+          "content": "Fournir une direction claire et rassurer l'équipe",
+          "correct": true
+        },
+        {
+          "content": "Trouver quelqu'un à blâmer pour la crise"
+        },
+        {
+          "content": "Minimiser l'importance de la situation"
+        },
+        {
+          "content": "Laisser l'équipe gérer la crise sans intervention"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'une décision éthique en leadership ?"
+      },
+      "options": [
+        {
+          "content": "Respecte les valeurs de l'organisation",
+          "correct": true
+        },
+        {
+          "content": "Considère l'impact sur toutes les parties prenantes",
+          "correct": true
+        },
+        {
+          "content": "Maximise les profits à court terme"
+        },
+        {
+          "content": "Est transparente et peut être expliquée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour développer les compétences de leadership au sein d'une équipe ?"
+      },
+      "options": [
+        {
+          "content": "Offrir des opportunités de leadership et fournir un feedback régulier",
+          "correct": true
+        },
+        {
+          "content": "Envoyer tous les membres de l'équipe à des formations coûteuses"
+        },
+        {
+          "content": "Attendre que les individus demandent des responsabilités supplémentaires"
+        },
+        {
+          "content": "Promouvoir automatiquement les employés les plus anciens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux gérer son propre stress et éviter l'épuisement professionnel ?"
+      },
+      "options": [
+        {
+          "content": "Pratiquer l'équilibre travail-vie personnelle et déléguer efficacement",
+          "correct": true
+        },
+        {
+          "content": "Travailler plus d'heures pour tout accomplir"
+        },
+        {
+          "content": "Ignorer les signes de stress"
+        },
+        {
+          "content": "Transférer tout le stress sur l'équipe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les composantes d'un bon plan de succession ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les postes clés",
+          "correct": true
+        },
+        {
+          "content": "Développer les talents internes",
+          "correct": true
+        },
+        {
+          "content": "Garder le plan secret de tous les employés"
+        },
+        {
+          "content": "Créer des opportunités de mentorat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de célébrer les succès de l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Reconnaître publiquement les efforts collectifs et individuels",
+          "correct": true
+        },
+        {
+          "content": "Donner une prime uniquement au manager"
+        },
+        {
+          "content": "Ignorer les succès pour éviter la complaisance"
+        },
+        {
+          "content": "Organiser une fête coûteuse sans discussion sur les réalisations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux encourager la créativité au sein de son équipe ?"
+      },
+      "options": [
+        {
+          "content": "Créer un environnement sûr pour partager des idées et expérimenter",
+          "correct": true
+        },
+        {
+          "content": "Imposer des séances de brainstorming obligatoires quotidiennes"
+        },
+        {
+          "content": "Punir les idées qui échouent"
+        },
+        {
+          "content": "Limiter les ressources pour forcer l'innovation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une culture d'entreprise positive ?"
+      },
+      "options": [
+        {
+          "content": "Communication ouverte",
+          "correct": true
+        },
+        {
+          "content": "Reconnaissance des contributions",
+          "correct": true
+        },
+        {
+          "content": "Compétition interne intense"
+        },
+        {
+          "content": "Opportunités de développement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les conflits intergénérationnels au sein d'une équipe ?"
+      },
+      "options": [
+        {
+          "content": "Promouvoir la compréhension mutuelle et valoriser les perspectives diverses",
+          "correct": true
+        },
+        {
+          "content": "Séparer les générations en équipes distinctes"
+        },
+        {
+          "content": "Ignorer les différences générationnelles"
+        },
+        {
+          "content": "Favoriser la génération la plus représentée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux gérer une équipe distante ou hybride ?"
+      },
+      "options": [
+        {
+          "content": "Établir des processus de communication clairs et utiliser des outils collaboratifs",
+          "correct": true
+        },
+        {
+          "content": "Imposer des horaires de travail rigides pour tous"
+        },
+        {
+          "content": "Privilégier les employés travaillant au bureau"
+        },
+        {
+          "content": "Organiser des réunions quotidiennes de plusieurs heures"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les qualités essentielles pour diriger efficacement pendant une période de changement ?"
+      },
+      "options": [
+        {
+          "content": "Flexibilité et adaptabilité",
+          "correct": true
+        },
+        {
+          "content": "Communication transparente",
+          "correct": true
+        },
+        {
+          "content": "Rigidité dans la planification"
+        },
+        {
+          "content": "Empathie envers les préoccupations de l'équipe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour un leader face à ses propres erreurs ?"
+      },
+      "options": [
+        {
+          "content": "Reconnaître l'erreur, s'excuser et proposer des solutions",
+          "correct": true
+        },
+        {
+          "content": "Blâmer les circonstances ou d'autres personnes"
+        },
+        {
+          "content": "Ignorer l'erreur en espérant que personne ne la remarque"
+        },
+        {
+          "content": "Démissionner immédiatement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux promouvoir l'apprentissage continu au sein de son équipe ?"
+      },
+      "options": [
+        {
+          "content": "Créer une culture qui valorise le développement et offrir des opportunités d'apprentissage",
+          "correct": true
+        },
+        {
+          "content": "Imposer des formations obligatoires sans tenir compte des intérêts individuels"
+        },
+        {
+          "content": "Laisser chaque employé gérer son propre développement sans soutien"
+        },
+        {
+          "content": "Concentrer les ressources de formation uniquement sur les hauts potentiels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un feedback efficace ?"
+      },
+      "options": [
+        {
+          "content": "Spécifique et basé sur des faits",
+          "correct": true
+        },
+        {
+          "content": "Orienté vers l'amélioration",
+          "correct": true
+        },
+        {
+          "content": "Donné uniquement lors des évaluations annuelles"
+        },
+        {
+          "content": "Équilibré entre points positifs et axes d'amélioration",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon pour un leader de gérer les désaccords au sein de son équipe de direction ?"
+      },
+      "options": [
+        {
+          "content": "Encourager un débat ouvert et constructif, puis faciliter un consensus",
+          "correct": true
+        },
+        {
+          "content": "Imposer sa propre décision sans discussion"
+        },
+        {
+          "content": "Éviter les sujets de désaccord pour maintenir l'harmonie"
+        },
+        {
+          "content": "Laisser les désaccords s'envenimer sans intervention"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il efficacement déléguer des tâches importantes ?"
+      },
+      "options": [
+        {
+          "content": "Choisir la bonne personne, fournir des instructions claires et offrir du soutien",
+          "correct": true
+        },
+        {
+          "content": "Assigner la tâche au premier volontaire sans considération des compétences"
+        },
+        {
+          "content": "Déléguer uniquement les tâches les moins importantes"
+        },
+        {
+          "content": "Microgérer chaque aspect de la tâche déléguée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un objectif SMART efficace ?"
+      },
+      "options": [
+        {
+          "content": "Spécifique",
+          "correct": true
+        },
+        {
+          "content": "Mesurable",
+          "correct": true
+        },
+        {
+          "content": "Ambitieux sans considération des ressources disponibles"
+        },
+        {
+          "content": "Temporellement défini",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour un leader face à une baisse de motivation de l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les causes, réengager l'équipe et ajuster les objectifs si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Menacer de sanctions pour stimuler la productivité"
+        },
+        {
+          "content": "Ignorer le problème en espérant qu'il se résolve de lui-même"
+        },
+        {
+          "content": "Remplacer immédiatement les membres les moins productifs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux gérer les attentes irréalistes de la direction ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement les défis, proposer des alternatives réalistes et négocier",
+          "correct": true
+        },
+        {
+          "content": "Accepter les attentes sans discussion pour éviter les conflits"
+        },
+        {
+          "content": "Blâmer l'équipe pour son incapacité à atteindre les objectifs"
+        },
+        {
+          "content": "Ignorer les attentes et fixer ses propres objectifs en secret"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une stratégie de gestion des talents efficace ?"
+      },
+      "options": [
+        {
+          "content": "Recrutement ciblé",
+          "correct": true
+        },
+        {
+          "content": "Développement des compétences",
+          "correct": true
+        },
+        {
+          "content": "Rotation fréquente et obligatoire des postes"
+        },
+        {
+          "content": "Plan de succession",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon pour un leader de promouvoir l'innovation au sein de son organisation ?"
+      },
+      "options": [
+        {
+          "content": "Créer un environnement sûr pour la prise de risques et récompenser la créativité",
+          "correct": true
+        },
+        {
+          "content": "Imposer des quotas d'idées nouvelles par employé"
+        },
+        {
+          "content": "Limiter l'innovation à un département spécifique"
+        },
+        {
+          "content": "Copier les innovations des concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il efficacement gérer les résistances au changement ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement, impliquer les employés et adresser leurs préoccupations",
+          "correct": true
+        },
+        {
+          "content": "Imposer le changement sans explication"
+        },
+        {
+          "content": "Ignorer les résistances en espérant qu'elles disparaissent"
+        },
+        {
+          "content": "Sanctionner ceux qui résistent au changement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une culture d'entreprise éthique ?"
+      },
+      "options": [
+        {
+          "content": "Leadership exemplaire",
+          "correct": true
+        },
+        {
+          "content": "Politiques claires et appliquées",
+          "correct": true
+        },
+        {
+          "content": "Priorité absolue aux profits"
+        },
+        {
+          "content": "Formation régulière sur l'éthique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour un leader face à un conflit d'intérêts potentiel ?"
+      },
+      "options": [
+        {
+          "content": "Divulguer immédiatement le conflit et se récuser si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Ignorer le conflit tant qu'il n'est pas découvert"
+        },
+        {
+          "content": "Demander à un collègue de prendre la décision sans explication"
+        },
+        {
+          "content": "Procéder normalement en pensant pouvoir rester objectif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une stratégie de gestion de crise efficace ?"
+      },
+      "options": [
+        {
+          "content": "Plan de communication clair",
+          "correct": true
+        },
+        {
+          "content": "Équipe de gestion de crise désignée",
+          "correct": true
+        },
+        {
+          "content": "Attendre que la crise passe d'elle-même"
+        },
+        {
+          "content": "Procédures d'escalade définies",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux promouvoir l'équilibre travail-vie personnelle au sein de son équipe ?"
+      },
+      "options": [
+        {
+          "content": "Montrer l'exemple et encourager des limites saines",
+          "correct": true
+        },
+        {
+          "content": "Récompenser ceux qui travaillent le plus d'heures"
+        },
+        {
+          "content": "Ignorer la question car c'est une responsabilité personnelle"
+        },
+        {
+          "content": "Imposer des horaires de travail rigides pour tous"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon pour un leader de gérer un employé talentueux mais difficile à travailler en équipe ?"
+      },
+      "options": [
+        {
+          "content": "Coaching personnalisé et établissement d'attentes claires en matière de comportement",
+          "correct": true
+        },
+        {
+          "content": "L'isoler pour travailler seul"
+        },
+        {
+          "content": "Ignorer les problèmes tant que le travail est bien fait"
+        },
+        {
+          "content": "Le licencier immédiatement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un processus de prise de décision efficace en leadership ?"
+      },
+      "options": [
+        {
+          "content": "Collecte et analyse de données pertinentes",
+          "correct": true
+        },
+        {
+          "content": "Consultation des parties prenantes clés",
+          "correct": true
+        },
+        {
+          "content": "Prise de décision rapide basée uniquement sur l'intuition"
+        },
+        {
+          "content": "Évaluation des risques et des conséquences potentielles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un leader peut-il le mieux gérer les attentes divergentes entre les actionnaires et les employés ?"
+      },
+      "options": [
+        {
+          "content": "Chercher un équilibre en communicant ouvertement avec les deux parties",
+          "correct": true
+        },
+        {
+          "content": "Privilégier systématiquement les intérêts des actionnaires"
+        },
+        {
+          "content": "Ignorer les attentes des employés"
+        },
+        {
+          "content": "Démissionner face à ce dilemme"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "title": "Jugement commercial",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à faire des compromis et prendre de bonnes décisions dans un contexte commercial, aidant à recruter des cadres et consultants en stratégie capables de détecter la valeur.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Prise de décision",
+      "Analyse stratégique",
+      "Gestion des risques",
+      "Négociation",
+      "Compréhension financière",
+      "Résolution de problèmes",
+      "Pensée critique",
+      "Éthique des affaires"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de cadres, consultants en stratégie, et autres rôles nécessitant un jugement commercial solide.",
+    "description": "Le test évalue la capacité à analyser des situations commerciales complexes, à identifier les opportunités et les risques, et à prendre des décisions éclairées.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Une entreprise envisage d'entrer sur un nouveau marché. Quel facteur est le plus important à considérer ?"
+      },
+      "options": [
+        {
+          "content": "La taille du marché potentiel",
+          "correct": false
+        },
+        {
+          "content": "Le coût d'entrée sur le marché",
+          "correct": false
+        },
+        {
+          "content": "La concurrence existante",
+          "correct": false
+        },
+        {
+          "content": "L'adéquation avec les compétences et ressources de l'entreprise",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer un conflit avec un client important ?"
+      },
+      "options": [
+        {
+          "content": "Céder à toutes les demandes du client",
+          "correct": false
+        },
+        {
+          "content": "Maintenir fermement sa position sans compromis",
+          "correct": false
+        },
+        {
+          "content": "Chercher un compromis mutuellement bénéfique",
+          "correct": true
+        },
+        {
+          "content": "Ignorer le conflit en espérant qu'il se résolve de lui-même",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés à considérer lors de l'évaluation d'un investissement potentiel ?"
+      },
+      "options": [
+        {
+          "content": "Le retour sur investissement attendu",
+          "correct": true
+        },
+        {
+          "content": "Les risques associés",
+          "correct": true
+        },
+        {
+          "content": "L'alignement avec la stratégie de l'entreprise",
+          "correct": true
+        },
+        {
+          "content": "La popularité de l'investissement parmi les concurrents",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour fixer le prix d'un nouveau produit innovant ?"
+      },
+      "options": [
+        {
+          "content": "Fixer un prix bas pour pénétrer rapidement le marché",
+          "correct": false
+        },
+        {
+          "content": "Fixer un prix élevé pour maximiser les profits initiaux",
+          "correct": false
+        },
+        {
+          "content": "Aligner le prix sur celui des concurrents",
+          "correct": false
+        },
+        {
+          "content": "Baser le prix sur la valeur perçue par le client",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Dans une négociation commerciale, quelle stratégie est généralement la plus efficace ?"
+      },
+      "options": [
+        {
+          "content": "Chercher à maximiser ses propres gains à tout prix",
+          "correct": false
+        },
+        {
+          "content": "Faire des concessions importantes dès le début",
+          "correct": false
+        },
+        {
+          "content": "Viser un résultat gagnant-gagnant",
+          "correct": true
+        },
+        {
+          "content": "Rester inflexible sur toutes ses positions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels facteurs doivent être pris en compte lors de l'évaluation d'une opportunité d'expansion internationale ?"
+      },
+      "options": [
+        {
+          "content": "Les différences culturelles et linguistiques",
+          "correct": true
+        },
+        {
+          "content": "Le cadre réglementaire du pays cible",
+          "correct": true
+        },
+        {
+          "content": "La stabilité politique et économique",
+          "correct": true
+        },
+        {
+          "content": "La proximité géographique avec le siège social",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est la plus appropriée face à un concurrent qui baisse agressivement ses prix ?"
+      },
+      "options": [
+        {
+          "content": "Baisser immédiatement vos prix pour maintenir votre part de marché",
+          "correct": false
+        },
+        {
+          "content": "Ignorer la baisse de prix et maintenir votre stratégie actuelle",
+          "correct": false
+        },
+        {
+          "content": "Augmenter les dépenses marketing pour justifier vos prix plus élevés",
+          "correct": false
+        },
+        {
+          "content": "Analyser la situation et ajuster votre stratégie en conséquence",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de diversification pour une entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Réduction des risques liés à la dépendance à un seul marché",
+          "correct": true
+        },
+        {
+          "content": "Garantie de profits à court terme",
+          "correct": false
+        },
+        {
+          "content": "Simplification des opérations de l'entreprise",
+          "correct": false
+        },
+        {
+          "content": "Élimination de la concurrence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les signes qu'une entreprise devrait envisager de pivoter sa stratégie ?"
+      },
+      "options": [
+        {
+          "content": "Baisse constante des ventes malgré les efforts marketing",
+          "correct": true
+        },
+        {
+          "content": "Changements technologiques majeurs dans l'industrie",
+          "correct": true
+        },
+        {
+          "content": "Feedback négatif récurrent des clients",
+          "correct": true
+        },
+        {
+          "content": "Augmentation temporaire des coûts de production",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une crise de réputation ?"
+      },
+      "options": [
+        {
+          "content": "Nier toute responsabilité",
+          "correct": false
+        },
+        {
+          "content": "Ignorer la situation en espérant qu'elle se tasse",
+          "correct": false
+        },
+        {
+          "content": "Communiquer de manière transparente et prendre des mesures correctives",
+          "correct": true
+        },
+        {
+          "content": "Blâmer des parties externes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de niche par rapport à une stratégie de marché de masse ?"
+      },
+      "options": [
+        {
+          "content": "Potentiel de croissance illimité",
+          "correct": false
+        },
+        {
+          "content": "Coûts de marketing réduits",
+          "correct": false
+        },
+        {
+          "content": "Meilleure capacité à répondre aux besoins spécifiques des clients",
+          "correct": true
+        },
+        {
+          "content": "Elimination totale de la concurrence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages potentiels d'une fusion ou acquisition pour une entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Accès à de nouveaux marchés",
+          "correct": true
+        },
+        {
+          "content": "Économies d'échelle",
+          "correct": true
+        },
+        {
+          "content": "Acquisition de nouvelles technologies ou compétences",
+          "correct": true
+        },
+        {
+          "content": "Garantie de succès immédiat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer un projet qui dépasse le budget ?"
+      },
+      "options": [
+        {
+          "content": "Continuer comme prévu en espérant rattraper le retard",
+          "correct": false
+        },
+        {
+          "content": "Annuler immédiatement le projet",
+          "correct": false
+        },
+        {
+          "content": "Réévaluer les objectifs et ajuster le plan en conséquence",
+          "correct": true
+        },
+        {
+          "content": "Blâmer l'équipe pour les dépassements de coûts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de différenciation par rapport à une stratégie de leadership par les coûts ?"
+      },
+      "options": [
+        {
+          "content": "Garantie de parts de marché plus importantes",
+          "correct": false
+        },
+        {
+          "content": "Capacité à justifier des prix plus élevés",
+          "correct": true
+        },
+        {
+          "content": "Réduction automatique des coûts de production",
+          "correct": false
+        },
+        {
+          "content": "Élimination de la nécessité de l'innovation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels facteurs devraient être considérés lors de l'évaluation de la viabilité à long terme d'un modèle d'affaires ?"
+      },
+      "options": [
+        {
+          "content": "La scalabilité du modèle",
+          "correct": true
+        },
+        {
+          "content": "La résilience face aux changements du marché",
+          "correct": true
+        },
+        {
+          "content": "Le potentiel d'innovation continue",
+          "correct": true
+        },
+        {
+          "content": "La popularité actuelle du modèle d'affaires",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une équipe démotivée ?"
+      },
+      "options": [
+        {
+          "content": "Augmenter les salaires de tous les employés",
+          "correct": false
+        },
+        {
+          "content": "Ignorer le problème en espérant qu'il se résolve de lui-même",
+          "correct": false
+        },
+        {
+          "content": "Menacer de licenciements pour stimuler la productivité",
+          "correct": false
+        },
+        {
+          "content": "Identifier les causes profondes et mettre en place des actions correctives",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de croissance organique par rapport à une croissance par acquisition ?"
+      },
+      "options": [
+        {
+          "content": "Rapidité de l'expansion",
+          "correct": false
+        },
+        {
+          "content": "Contrôle plus important sur le processus de croissance",
+          "correct": true
+        },
+        {
+          "content": "Garantie de succès à court terme",
+          "correct": false
+        },
+        {
+          "content": "Élimination de tous les risques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages potentiels d'adopter une stratégie de responsabilité sociale d'entreprise (RSE) ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de l'image de marque",
+          "correct": true
+        },
+        {
+          "content": "Attraction et rétention des talents",
+          "correct": true
+        },
+        {
+          "content": "Opportunités d'innovation",
+          "correct": true
+        },
+        {
+          "content": "Garantie de profits à court terme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour répondre à une plainte d'un client important ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer la plainte en espérant que le client oublie",
+          "correct": false
+        },
+        {
+          "content": "Répondre rapidement et proposer une solution",
+          "correct": true
+        },
+        {
+          "content": "Blâmer le client pour le problème",
+          "correct": false
+        },
+        {
+          "content": "Transférer systématiquement la plainte à un supérieur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels facteurs devraient être pris en compte lors de l'évaluation d'un partenariat stratégique potentiel ?"
+      },
+      "options": [
+        {
+          "content": "La complémentarité des compétences et ressources",
+          "correct": true
+        },
+        {
+          "content": "L'alignement des valeurs et de la culture d'entreprise",
+          "correct": true
+        },
+        {
+          "content": "Le potentiel de synergie à long terme",
+          "correct": true
+        },
+        {
+          "content": "La popularité médiatique du partenaire potentiel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une baisse soudaine des ventes ?"
+      },
+      "options": [
+        {
+          "content": "Réduire immédiatement les prix de tous les produits",
+          "correct": false
+        },
+        {
+          "content": "Licencier du personnel pour réduire les coûts",
+          "correct": false
+        },
+        {
+          "content": "Analyser les causes et ajuster la stratégie en conséquence",
+          "correct": true
+        },
+        {
+          "content": "Augmenter massivement le budget marketing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de premier entrant sur un nouveau marché ?"
+      },
+      "options": [
+        {
+          "content": "Garantie de succès à long terme",
+          "correct": false
+        },
+        {
+          "content": "Opportunité d'établir une forte reconnaissance de marque",
+          "correct": true
+        },
+        {
+          "content": "Élimination de tous les risques",
+          "correct": false
+        },
+        {
+          "content": "Coûts de développement réduits",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages potentiels de l'adoption d'une stratégie de transformation digitale ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de l'efficacité opérationnelle",
+          "correct": true
+        },
+        {
+          "content": "Meilleure expérience client",
+          "correct": true
+        },
+        {
+          "content": "Nouvelles opportunités de revenus",
+          "correct": true
+        },
+        {
+          "content": "Élimination immédiate de tous les concurrents",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer un conflit entre deux employés clés ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer le conflit en espérant qu'il se résolve seul",
+          "correct": false
+        },
+        {
+          "content": "Prendre parti pour l'employé le plus ancien",
+          "correct": false
+        },
+        {
+          "content": "Licencier les deux employés pour éviter tout problème futur",
+          "correct": false
+        },
+        {
+          "content": "Faciliter une discussion ouverte pour trouver une résolution",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de croissance par franchise ?"
+      },
+      "options": [
+        {
+          "content": "Expansion rapide avec un investissement limité",
+          "correct": true
+        },
+        {
+          "content": "Contrôle total sur toutes les opérations",
+          "correct": false
+        },
+        {
+          "content": "Élimination de tous les risques financiers",
+          "correct": false
+        },
+        {
+          "content": "Garantie de profits immédiats",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels facteurs devraient être considérés lors de l'évaluation d'un investissement en recherche et développement (R&D) ?"
+      },
+      "options": [
+        {
+          "content": "L'alignement avec la stratégie à long terme de l'entreprise",
+          "correct": true
+        },
+        {
+          "content": "Le potentiel de retour sur investissement",
+          "correct": true
+        },
+        {
+          "content": "Les risques technologiques et de marché",
+          "correct": true
+        },
+        {
+          "content": "La popularité actuelle du domaine de recherche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour introduire un changement organisationnel majeur ?"
+      },
+      "options": [
+        {
+          "content": "Imposer le changement sans consultation préalable",
+          "correct": false
+        },
+        {
+          "content": "Annoncer le changement au dernier moment pour éviter la résistance",
+          "correct": false
+        },
+        {
+          "content": "Communiquer clairement et impliquer les employés dans le processus",
+          "correct": true
+        },
+        {
+          "content": "Laisser les employés décider entièrement du changement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de prix premium ?"
+      },
+      "options": [
+        {
+          "content": "Garantie de parts de marché importantes",
+          "correct": false
+        },
+        {
+          "content": "Marges bénéficiaires potentiellement plus élevées",
+          "correct": true
+        },
+        {
+          "content": "Élimination de toute concurrence",
+          "correct": false
+        },
+        {
+          "content": "Réduction des coûts de production",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages potentiels d'une stratégie d'internationalisation pour une entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Diversification des risques géographiques",
+          "correct": true
+        },
+        {
+          "content": "Accès à de nouveaux marchés et clients",
+          "correct": true
+        },
+        {
+          "content": "Opportunités d'économies d'échelle",
+          "correct": true
+        },
+        {
+          "content": "Garantie de succès immédiat dans tous les pays",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une crise de trésorerie à court terme ?"
+      },
+      "options": [
+        {
+          "content": "Emprunter massivement sans plan de remboursement",
+          "correct": false
+        },
+        {
+          "content": "Vendre rapidement des actifs clés de l'entreprise",
+          "correct": false
+        },
+        {
+          "content": "Retarder tous les paiements aux fournisseurs",
+          "correct": false
+        },
+        {
+          "content": "Élaborer un plan de gestion de trésorerie et négocier avec les créanciers",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de leadership par les coûts ?"
+      },
+      "options": [
+        {
+          "content": "Capacité à offrir des prix plus bas tout en maintenant la rentabilité",
+          "correct": true
+        },
+        {
+          "content": "Garantie de la meilleure qualité de produit",
+          "correct": false
+        },
+        {
+          "content": "Élimination de toute concurrence",
+          "correct": false
+        },
+        {
+          "content": "Fidélisation automatique des clients",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés à considérer lors de l'élaboration d'une stratégie de gestion des talents ?"
+      },
+      "options": [
+        {
+          "content": "L'alignement avec les objectifs stratégiques de l'entreprise",
+          "correct": true
+        },
+        {
+          "content": "Les tendances du marché du travail",
+          "correct": true
+        },
+        {
+          "content": "Les besoins de développement des employés",
+          "correct": true
+        },
+        {
+          "content": "La popularité des titres de postes sur les réseaux sociaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une innovation disruptive dans votre industrie ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer l'innovation en espérant qu'elle échoue",
+          "correct": false
+        },
+        {
+          "content": "Copier immédiatement l'innovation sans réflexion stratégique",
+          "correct": false
+        },
+        {
+          "content": "Poursuivre en justice l'entreprise innovante",
+          "correct": false
+        },
+        {
+          "content": "Évaluer l'impact potentiel et adapter votre stratégie en conséquence",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie de diversification non liée ?"
+      },
+      "options": [
+        {
+          "content": "Réduction des risques liés à un seul secteur d'activité",
+          "correct": true
+        },
+        {
+          "content": "Garantie de synergies opérationnelles",
+          "correct": false
+        },
+        {
+          "content": "Simplicité de gestion",
+          "correct": false
+        },
+        {
+          "content": "Élimination de toute concurrence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages potentiels d'une stratégie de développement durable pour une entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Amélioration de l'image de marque",
+          "correct": true
+        },
+        {
+          "content": "Réduction des coûts à long terme",
+          "correct": true
+        },
+        {
+          "content": "Attraction de clients et investisseurs conscients",
+          "correct": true
+        },
+        {
+          "content": "Garantie de profits à court terme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle approche est généralement la plus efficace pour gérer une baisse de la qualité des produits ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer le problème en espérant que les clients ne le remarquent pas",
+          "correct": false
+        },
+        {
+          "content": "Baisser les prix pour compenser la baisse de qualité",
+          "correct": false
+        },
+        {
+          "content": "Blâmer les fournisseurs ou les employés publiquement",
+          "correct": false
+        },
+        {
+          "content": "Identifier les causes profondes et mettre en place des mesures correctives",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est le principal avantage d'une stratégie d'intégration verticale ?"
+      },
+      "options": [
+        {
+          "content": "Meilleur contrôle sur la chaîne de valeur",
+          "correct": true
+        },
+        {
+          "content": "Garantie de profits immédiats",
+          "correct": false
+        },
+        {
+          "content": "Élimination de toute concurrence",
+          "correct": false
+        },
+        {
+          "content": "Simplification des opérations de l'entreprise",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

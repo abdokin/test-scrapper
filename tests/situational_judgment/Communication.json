@@ -1,0 +1,980 @@
+{
+  "title": "Communication",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en communication claire et efficace, en mettant l'accent sur les règles de savoir-vivre en entreprise, la communication écrite et orale, la communication non verbale et l'écoute active.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Communication écrite",
+      "Communication orale",
+      "Communication non verbale",
+      "Écoute active",
+      "Savoir-vivre en entreprise",
+      "Résolution de conflits",
+      "Présentation",
+      "Feedback constructif"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant d'excellentes compétences en communication, tels que les relations publiques, le service client, la gestion d'équipe ou les ventes.",
+    "description": "Le test couvre les aspects fondamentaux et intermédiaires de la communication professionnelle, évaluant la capacité du candidat à communiquer efficacement dans divers contextes professionnels.",
+    "category": "Situational judgment",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 480,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure façon de commencer un e-mail professionnel ?"
+      },
+      "options": [
+        {
+          "content": "Bonjour [Nom],",
+          "correct": true
+        },
+        {
+          "content": "Salut !"
+        },
+        {
+          "content": "Hey toi !"
+        },
+        {
+          "content": "Cher Monsieur/Madame,"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle technique d'écoute active est la plus efficace ?"
+      },
+      "options": [
+        {
+          "content": "Interrompre pour poser des questions"
+        },
+        {
+          "content": "Hocher la tête et maintenir un contact visuel",
+          "correct": true
+        },
+        {
+          "content": "Penser à votre réponse pendant que l'autre parle"
+        },
+        {
+          "content": "Rester immobile et silencieux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments font partie d'une communication non verbale positive ?"
+      },
+      "options": [
+        {
+          "content": "Sourire",
+          "correct": true
+        },
+        {
+          "content": "Croiser les bras"
+        },
+        {
+          "content": "Maintenir un contact visuel approprié",
+          "correct": true
+        },
+        {
+          "content": "Avoir une posture ouverte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour donner un feedback négatif à un collègue ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer un e-mail détaillé"
+        },
+        {
+          "content": "Le dire devant toute l'équipe pour servir d'exemple"
+        },
+        {
+          "content": "L'ignorer pour éviter les conflits"
+        },
+        {
+          "content": "Organiser une réunion privée en face à face",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moyen de gérer un désaccord avec un collègue ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer le problème et espérer qu'il se résolve seul"
+        },
+        {
+          "content": "Discuter calmement en privé pour trouver un compromis",
+          "correct": true
+        },
+        {
+          "content": "Se plaindre à votre supérieur immédiatement"
+        },
+        {
+          "content": "Insister sur votre point de vue jusqu'à ce que l'autre cède"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de commencer une présentation professionnelle ?"
+      },
+      "options": [
+        {
+          "content": "Raconter une blague pour détendre l'atmosphère"
+        },
+        {
+          "content": "Commencer immédiatement avec les détails techniques"
+        },
+        {
+          "content": "Présenter un aperçu clair de ce qui va être couvert",
+          "correct": true
+        },
+        {
+          "content": "S'excuser d'avance pour toute erreur potentielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon communicateur en entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Être concis et clair",
+          "correct": true
+        },
+        {
+          "content": "Utiliser beaucoup de jargon technique"
+        },
+        {
+          "content": "Écouter activement",
+          "correct": true
+        },
+        {
+          "content": "Adapter son style de communication à l'audience",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer une interruption pendant une réunion ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer la personne qui interrompt"
+        },
+        {
+          "content": "Arrêter de parler immédiatement"
+        },
+        {
+          "content": "Demander poliment à la personne d'attendre son tour",
+          "correct": true
+        },
+        {
+          "content": "Hausser la voix pour couvrir l'interruption"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moyen de clarifier une information que vous n'avez pas comprise ?"
+      },
+      "options": [
+        {
+          "content": "Faire semblant d'avoir compris pour ne pas paraître incompétent"
+        },
+        {
+          "content": "Demander à un collègue plus tard"
+        },
+        {
+          "content": "Poser des questions de clarification",
+          "correct": true
+        },
+        {
+          "content": "Ignorer l'information et espérer que ce n'est pas important"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments contribuent à une communication écrite efficace ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un langage clair et concis",
+          "correct": true
+        },
+        {
+          "content": "Inclure tous les détails possibles, quelle que soit leur pertinence"
+        },
+        {
+          "content": "Structurer le message de manière logique",
+          "correct": true
+        },
+        {
+          "content": "Vérifier l'orthographe et la grammaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour communiquer un changement important dans l'entreprise ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer un e-mail général à tous les employés"
+        },
+        {
+          "content": "Organiser une réunion d'équipe pour expliquer et répondre aux questions",
+          "correct": true
+        },
+        {
+          "content": "Laisser les rumeurs se propager naturellement"
+        },
+        {
+          "content": "Afficher une note sur le tableau d'affichage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous avez commis une erreur au travail ?"
+      },
+      "options": [
+        {
+          "content": "Essayer de la cacher en espérant que personne ne la remarquera"
+        },
+        {
+          "content": "Blâmer quelqu'un d'autre"
+        },
+        {
+          "content": "Admettre l'erreur, s'excuser et proposer une solution",
+          "correct": true
+        },
+        {
+          "content": "Minimiser l'importance de l'erreur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un feedback constructif ?"
+      },
+      "options": [
+        {
+          "content": "Être spécifique et factuel",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur les points négatifs"
+        },
+        {
+          "content": "Offrir des suggestions d'amélioration",
+          "correct": true
+        },
+        {
+          "content": "Être respectueux et bienveillant",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un conflit entre deux membres de votre équipe ?"
+      },
+      "options": [
+        {
+          "content": "Les laisser régler le problème entre eux"
+        },
+        {
+          "content": "Prendre parti pour l'un d'entre eux"
+        },
+        {
+          "content": "Organiser une médiation pour trouver une solution commune",
+          "correct": true
+        },
+        {
+          "content": "Les séparer et les affecter à des projets différents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de conclure une présentation professionnelle ?"
+      },
+      "options": [
+        {
+          "content": "Terminer abruptement et partir rapidement"
+        },
+        {
+          "content": "Résumer les points clés et inviter aux questions",
+          "correct": true
+        },
+        {
+          "content": "S'excuser pour la longueur de la présentation"
+        },
+        {
+          "content": "Ajouter de nouvelles informations à la dernière minute"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour une communication efficace par e-mail ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un objet clair et pertinent",
+          "correct": true
+        },
+        {
+          "content": "Écrire de longs paragraphes détaillés"
+        },
+        {
+          "content": "Vérifier le ton et le style avant l'envoi",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la fonction 'Répondre à tous' systématiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous ne connaissez pas la réponse à une question posée par un client ou un collègue ?"
+      },
+      "options": [
+        {
+          "content": "Inventer une réponse pour ne pas perdre la face"
+        },
+        {
+          "content": "Admettre que vous ne savez pas et proposer de chercher l'information",
+          "correct": true
+        },
+        {
+          "content": "Changer de sujet pour éviter la question"
+        },
+        {
+          "content": "Dire que ce n'est pas votre domaine de responsabilité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour communiquer avec un collègue qui a un style de communication très différent du vôtre ?"
+      },
+      "options": [
+        {
+          "content": "Insister pour qu'il s'adapte à votre style"
+        },
+        {
+          "content": "L'éviter autant que possible"
+        },
+        {
+          "content": "Essayer de comprendre son style et adapter votre approche",
+          "correct": true
+        },
+        {
+          "content": "Demander à un autre collègue de servir d'intermédiaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments importants à considérer lors de la communication interculturelle ?"
+      },
+      "options": [
+        {
+          "content": "Être conscient des différences culturelles",
+          "correct": true
+        },
+        {
+          "content": "Éviter tout contact visuel"
+        },
+        {
+          "content": "Être ouvert et respectueux des différences",
+          "correct": true
+        },
+        {
+          "content": "Adapter son style de communication si nécessaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer une conversation difficile avec un collègue ?"
+      },
+      "options": [
+        {
+          "content": "L'éviter aussi longtemps que possible"
+        },
+        {
+          "content": "Envoyer un e-mail plutôt que de parler en personne"
+        },
+        {
+          "content": "Préparer à l'avance et choisir un moment et un lieu appropriés",
+          "correct": true
+        },
+        {
+          "content": "Demander à votre supérieur de gérer la situation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir lorsqu'un collègue vous interrompt constamment pendant les réunions ?"
+      },
+      "options": [
+        {
+          "content": "L'interrompre à votre tour pour lui donner une leçon"
+        },
+        {
+          "content": "Ignorer son comportement et continuer à parler"
+        },
+        {
+          "content": "Lui en parler en privé après la réunion",
+          "correct": true
+        },
+        {
+          "content": "Se plaindre au responsable de la réunion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'une communication assertive ?"
+      },
+      "options": [
+        {
+          "content": "Exprimer ses besoins et opinions de manière claire",
+          "correct": true
+        },
+        {
+          "content": "Respecter les droits et opinions des autres",
+          "correct": true
+        },
+        {
+          "content": "Être agressif pour faire valoir son point de vue"
+        },
+        {
+          "content": "Utiliser le 'je' plutôt que le 'tu' accusateur",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de commencer une conversation difficile avec un client mécontent ?"
+      },
+      "options": [
+        {
+          "content": "S'excuser immédiatement, même si vous n'êtes pas en tort"
+        },
+        {
+          "content": "Écouter attentivement ses préoccupations sans l'interrompre",
+          "correct": true
+        },
+        {
+          "content": "Expliquer pourquoi le client a tort"
+        },
+        {
+          "content": "Transférer immédiatement l'appel à un supérieur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous avez accidentellement envoyé un e-mail contenant des informations sensibles au mauvais destinataire ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer l'erreur et espérer que personne ne s'en apercevra"
+        },
+        {
+          "content": "Envoyer un e-mail d'excuse et demander de supprimer le message précédent",
+          "correct": true
+        },
+        {
+          "content": "Blâmer le système de messagerie pour l'erreur"
+        },
+        {
+          "content": "Prétendre que votre compte a été piraté"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une communication efficace lors d'une présentation en ligne ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des aides visuelles claires et pertinentes",
+          "correct": true
+        },
+        {
+          "content": "Parler rapidement pour couvrir plus de contenu"
+        },
+        {
+          "content": "Encourager l'interaction et les questions",
+          "correct": true
+        },
+        {
+          "content": "S'assurer que votre connexion et votre audio sont de bonne qualité",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de répondre à un collègue qui fait constamment des commentaires négatifs sur l'entreprise ou l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "L'ignorer complètement"
+        },
+        {
+          "content": "Lui demander d'arrêter de se plaindre devant tout le monde"
+        },
+        {
+          "content": "Discuter en privé pour comprendre ses préoccupations et proposer des solutions constructives",
+          "correct": true
+        },
+        {
+          "content": "Rapporter son comportement à la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous êtes en désaccord avec une décision prise par votre supérieur ?"
+      },
+      "options": [
+        {
+          "content": "Exprimer votre désaccord publiquement lors de la prochaine réunion d'équipe"
+        },
+        {
+          "content": "Ignorer la décision et continuer à travailler comme avant"
+        },
+        {
+          "content": "Demander un entretien privé pour discuter de vos préoccupations de manière respectueuse",
+          "correct": true
+        },
+        {
+          "content": "Envoyer un e-mail détaillant tous les problèmes que vous voyez avec la décision"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes d'une communication efficace lors d'une négociation ?"
+      },
+      "options": [
+        {
+          "content": "Écouter activement l'autre partie",
+          "correct": true
+        },
+        {
+          "content": "Rester inflexible sur votre position initiale"
+        },
+        {
+          "content": "Chercher des solutions mutuellement bénéfiques",
+          "correct": true
+        },
+        {
+          "content": "Communiquer clairement vos besoins et limites",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour donner un feedback à un collègue dont le travail ne répond pas aux attentes ?"
+      },
+      "options": [
+        {
+          "content": "Attendre l'évaluation annuelle pour aborder le problème"
+        },
+        {
+          "content": "Envoyer un e-mail détaillant tous les problèmes"
+        },
+        {
+          "content": "Organiser une rencontre en personne pour discuter de manière constructive",
+          "correct": true
+        },
+        {
+          "content": "Demander à un autre collègue de lui en parler"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous avez mal compris une instruction importante de votre supérieur ?"
+      },
+      "options": [
+        {
+          "content": "Continuer le travail en espérant que le résultat sera acceptable"
+        },
+        {
+          "content": "Admettre l'erreur, demander des clarifications et proposer de corriger le travail",
+          "correct": true
+        },
+        {
+          "content": "Blâmer votre supérieur pour ne pas avoir été clair"
+        },
+        {
+          "content": "Demander à un collègue de corriger le travail à votre place"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une communication efficace lors d'une gestion de crise ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer rapidement et régulièrement",
+          "correct": true
+        },
+        {
+          "content": "Être transparent sur la situation",
+          "correct": true
+        },
+        {
+          "content": "Minimiser systématiquement l'importance de la crise"
+        },
+        {
+          "content": "Fournir des informations claires sur les actions entreprises",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de communiquer un changement impopulaire dans l'organisation ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer un e-mail général sans entrer dans les détails"
+        },
+        {
+          "content": "Laisser les rumeurs se propager avant d'aborder le sujet"
+        },
+        {
+          "content": "Organiser une réunion pour expliquer les raisons du changement et répondre aux préoccupations",
+          "correct": true
+        },
+        {
+          "content": "Demander aux managers de communiquer individuellement avec chaque employé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir lorsqu'un collègue vous demande de garder secret un comportement non éthique dont vous avez été témoin ?"
+      },
+      "options": [
+        {
+          "content": "Accepter de garder le secret pour maintenir de bonnes relations"
+        },
+        {
+          "content": "Ignorer la situation et espérer qu'elle se résoudra d'elle-même"
+        },
+        {
+          "content": "Informer immédiatement votre supérieur ou le service des ressources humaines",
+          "correct": true
+        },
+        {
+          "content": "Confronter directement la personne responsable du comportement non éthique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour une communication efficace dans une équipe multiculturelle ?"
+      },
+      "options": [
+        {
+          "content": "Être conscient des différences culturelles dans les styles de communication",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un langage simple et éviter les expressions idiomatiques",
+          "correct": true
+        },
+        {
+          "content": "Imposer un style de communication unique pour toute l'équipe"
+        },
+        {
+          "content": "Encourager le partage et l'apprentissage mutuel des différences culturelles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de communiquer avec un collègue qui est constamment en retard pour les réunions ?"
+      },
+      "options": [
+        {
+          "content": "L'humilier publiquement lors de la prochaine réunion"
+        },
+        {
+          "content": "Envoyer un e-mail à toute l'équipe sur l'importance de la ponctualité"
+        },
+        {
+          "content": "Lui parler en privé pour comprendre la raison et trouver une solution",
+          "correct": true
+        },
+        {
+          "content": "Commencer les réunions sans lui"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une communication efficace lors d'un entretien d'embauche ?"
+      },
+      "options": [
+        {
+          "content": "Préparer des exemples concrets de vos réalisations",
+          "correct": true
+        },
+        {
+          "content": "Écouter attentivement les questions et y répondre de manière précise",
+          "correct": true
+        },
+        {
+          "content": "Interrompre l'interviewer pour montrer votre enthousiasme"
+        },
+        {
+          "content": "Maintenir un langage corporel ouvert et engagé",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous devez communiquer une mauvaise nouvelle à votre équipe ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer un e-mail pour éviter la confrontation directe"
+        },
+        {
+          "content": "Être direct, honnête et empathique lors d'une réunion d'équipe",
+          "correct": true
+        },
+        {
+          "content": "Demander à votre supérieur de le faire à votre place"
+        },
+        {
+          "content": "Minimiser l'importance de la nouvelle pour éviter les inquiétudes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour demander une augmentation à votre supérieur ?"
+      },
+      "options": [
+        {
+          "content": "Menacer de démissionner si vous n'obtenez pas l'augmentation"
+        },
+        {
+          "content": "Envoyer un long e-mail détaillant vos réalisations"
+        },
+        {
+          "content": "Préparer vos arguments et demander une réunion en tête-à-tête",
+          "correct": true
+        },
+        {
+          "content": "Attendre que votre supérieur aborde le sujet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes d'une communication efficace lors d'un brainstorming d'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Encourager toutes les idées sans jugement immédiat",
+          "correct": true
+        },
+        {
+          "content": "Écouter activement et construire sur les idées des autres",
+          "correct": true
+        },
+        {
+          "content": "Critiquer immédiatement les idées qui semblent irréalisables"
+        },
+        {
+          "content": "Favoriser un environnement ouvert et collaboratif",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir lorsqu'un collègue prend le crédit pour votre travail lors d'une réunion ?"
+      },
+      "options": [
+        {
+          "content": "L'interrompre immédiatement pour rectifier la situation"
+        },
+        {
+          "content": "Ne rien dire et en parler à votre supérieur plus tard"
+        },
+        {
+          "content": "Attendre un moment approprié pour apporter poliment des précisions",
+          "correct": true
+        },
+        {
+          "content": "Envoyer un e-mail à toute l'équipe pour clarifier votre contribution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de communiquer vos limites professionnelles à un collègue qui vous sollicite trop souvent ?"
+      },
+      "options": [
+        {
+          "content": "L'ignorer complètement"
+        },
+        {
+          "content": "Lui dire fermement de vous laisser tranquille"
+        },
+        {
+          "content": "Expliquer calmement vos contraintes et proposer des alternatives",
+          "correct": true
+        },
+        {
+          "content": "Se plaindre à votre supérieur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une communication efficace lors d'un conflit d'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Rester calme et professionnel",
+          "correct": true
+        },
+        {
+          "content": "Écouter activement tous les points de vue",
+          "correct": true
+        },
+        {
+          "content": "Chercher à blâmer quelqu'un pour le conflit"
+        },
+        {
+          "content": "Chercher des solutions qui satisfont toutes les parties",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où vous devez communiquer avec un client mécontent sur les réseaux sociaux ?"
+      },
+      "options": [
+        {
+          "content": "Ignorer le commentaire négatif"
+        },
+        {
+          "content": "Répondre rapidement et proposer de résoudre le problème en privé",
+          "correct": true
+        },
+        {
+          "content": "Supprimer le commentaire négatif"
+        },
+        {
+          "content": "Engager un débat public avec le client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de communiquer un retard dans un projet à votre client ?"
+      },
+      "options": [
+        {
+          "content": "Attendre le dernier moment pour l'informer"
+        },
+        {
+          "content": "Blâmer les autres membres de l'équipe pour le retard"
+        },
+        {
+          "content": "Informer rapidement, expliquer les raisons et proposer un plan d'action",
+          "correct": true
+        },
+        {
+          "content": "Minimiser l'importance du retard"
+        }
+      ]
+    }
+  ]
+}
