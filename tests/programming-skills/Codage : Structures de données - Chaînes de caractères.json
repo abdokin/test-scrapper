@@ -1,0 +1,743 @@
+{
+  "title": "Structures de données - Chaînes de caractères",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans la manipulation et le traitement des chaînes de caractères, couvrant les concepts fondamentaux et les techniques avancées.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Manipulation de chaînes",
+      "Algorithmes de recherche",
+      "Expressions régulières",
+      "Transformation de chaînes",
+      "Optimisation et complexité",
+      "Encodage de caractères",
+      "Algorithmes de correspondance",
+      "Parsing et tokenisation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur nécessitant une expertise en traitement de texte et manipulation de chaînes de caractères.",
+    "description": "Le test évalue la compréhension des algorithmes de manipulation de chaînes, des structures de données associées et des techniques d&#39;optimisation.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 2100,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la complexité temporelle de la recherche d&#39;un caractère dans une chaîne de longueur n en utilisant une méthode naïve ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode est la plus efficace pour concaténer de nombreuses chaînes en Java ?"
+      },
+      "options": [
+        {
+          "content": "StringBuilder",
+          "correct": true
+        },
+        {
+          "content": "Opérateur +"
+        },
+        {
+          "content": "concat()"
+        },
+        {
+          "content": "String.join()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles affirmations sont vraies concernant l&#39;immutabilité des chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Les chaînes sont immuables par défaut",
+          "correct": true
+        },
+        {
+          "content": "L&#39;immutabilité améliore la sécurité",
+          "correct": true
+        },
+        {
+          "content": "L&#39;immutabilité permet le partage de chaînes",
+          "correct": true
+        },
+        {
+          "content": "L&#39;immutabilité réduit les performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel algorithme a la meilleure complexité pour la recherche de sous-chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Boyer-Moore",
+          "correct": true
+        },
+        {
+          "content": "Recherche naïve"
+        },
+        {
+          "content": "Force brute"
+        },
+        {
+          "content": "Recherche linéaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité spatiale d&#39;un tableau des suffixes ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Pour quelle opération l&#39;arbre des suffixes est-il le plus efficace ?"
+      },
+      "options": [
+        {
+          "content": "Recherche de motifs multiples",
+          "correct": true
+        },
+        {
+          "content": "Modification de chaînes"
+        },
+        {
+          "content": "Tri de chaînes"
+        },
+        {
+          "content": "Compression de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l&#39;utilisation d&#39;un trie ?"
+      },
+      "options": [
+        {
+          "content": "Recherche préfixe efficace",
+          "correct": true
+        },
+        {
+          "content": "Économie d&#39;espace pour les préfixes communs",
+          "correct": true
+        },
+        {
+          "content": "Insertion rapide",
+          "correct": true
+        },
+        {
+          "content": "Modification de chaînes efficace"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure est la plus adaptée pour un correcteur orthographique ?"
+      },
+      "options": [
+        {
+          "content": "Arbre DAWG",
+          "correct": true
+        },
+        {
+          "content": "Tableau simple"
+        },
+        {
+          "content": "Liste chaînée"
+        },
+        {
+          "content": "Pile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus efficace pour comparer deux chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Comparaison caractère par caractère avec arrêt précoce",
+          "correct": true
+        },
+        {
+          "content": "Conversion en tableaux"
+        },
+        {
+          "content": "Hachage complet"
+        },
+        {
+          "content": "Comparaison de longueur uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles techniques sont efficaces pour la compression de chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Codage de Huffman",
+          "correct": true
+        },
+        {
+          "content": "LZ77",
+          "correct": true
+        },
+        {
+          "content": "Run-length encoding",
+          "correct": true
+        },
+        {
+          "content": "Chiffrement symétrique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité temporelle de l&#39;algorithme de Manacher pour trouver tous les palindromes ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(2^n)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle structure de données est la plus appropriée pour implémenter un auto-complètement ?"
+      },
+      "options": [
+        {
+          "content": "Trie",
+          "correct": true
+        },
+        {
+          "content": "Tableau hash"
+        },
+        {
+          "content": "Liste chaînée"
+        },
+        {
+          "content": "Arbre binaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d&#39;une bonne fonction de hachage pour les chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Distribution uniforme",
+          "correct": true
+        },
+        {
+          "content": "Effet avalanche",
+          "correct": true
+        },
+        {
+          "content": "Rapidité de calcul",
+          "correct": true
+        },
+        {
+          "content": "Réversibilité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour comparer des chaînes ignorant la casse ?"
+      },
+      "options": [
+        {
+          "content": "Conversion en minuscules puis comparaison",
+          "correct": true
+        },
+        {
+          "content": "Comparaison caractère par caractère directe"
+        },
+        {
+          "content": "Conversion en majuscules puis minuscules"
+        },
+        {
+          "content": "Utilisation d&#39;expressions régulières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est la plus efficace pour détecter les anagrammes ?"
+      },
+      "options": [
+        {
+          "content": "Tri des caractères et comparaison",
+          "correct": true
+        },
+        {
+          "content": "Comparaison caractère par caractère"
+        },
+        {
+          "content": "Calcul de la longueur"
+        },
+        {
+          "content": "Recherche de sous-chaînes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels problèmes peuvent être résolus efficacement avec un arbre des suffixes ?"
+      },
+      "options": [
+        {
+          "content": "Plus longue sous-chaîne commune",
+          "correct": true
+        },
+        {
+          "content": "Recherche de motifs multiples",
+          "correct": true
+        },
+        {
+          "content": "Plus long palindrome",
+          "correct": true
+        },
+        {
+          "content": "Tri de chaînes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure structure pour stocker un dictionnaire de mots avec recherche par préfixe ?"
+      },
+      "options": [
+        {
+          "content": "Trie compressé",
+          "correct": true
+        },
+        {
+          "content": "Arbre binaire"
+        },
+        {
+          "content": "Table de hachage"
+        },
+        {
+          "content": "Liste triée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour la recherche de sous-chaînes multiples ?"
+      },
+      "options": [
+        {
+          "content": "Algorithme Aho-Corasick",
+          "correct": true
+        },
+        {
+          "content": "KMP multiple"
+        },
+        {
+          "content": "Boyer-Moore multiple"
+        },
+        {
+          "content": "Force brute"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles opérations sont efficaces avec une table de hachage de chaînes ?"
+      },
+      "options": [
+        {
+          "content": "Recherche exacte",
+          "correct": true
+        },
+        {
+          "content": "Insertion",
+          "correct": true
+        },
+        {
+          "content": "Suppression",
+          "correct": true
+        },
+        {
+          "content": "Recherche par préfixe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la complexité de la construction d&#39;un arbre des suffixes ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(n log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(n³)"
+        }
+      ]
+    },
+    {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle technique est recommandée pour la manipulation de très grandes chaînes de caractères ?"
+        },
+        "options": [
+          {
+            "content": "Memory mapped files",
+            "correct": true
+          },
+          {
+            "content": "Chargement complet en mémoire"
+          },
+          {
+            "content": "Découpage en petits morceaux"
+          },
+          {
+            "content": "Compression avant traitement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les bonnes pratiques pour l&#39;internationalisation des chaînes ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser UTF-8",
+            "correct": true
+          },
+          {
+            "content": "Supporter Unicode",
+            "correct": true
+          },
+          {
+            "content": "Gérer les caractères bidirectionnels",
+            "correct": true
+          },
+          {
+            "content": "Utiliser ASCII uniquement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle structure permet la meilleure compression pour un dictionnaire de mots ?"
+        },
+        "options": [
+          {
+            "content": "DAWG (Directed Acyclic Word Graph)",
+            "correct": true
+          },
+          {
+            "content": "Trie simple"
+          },
+          {
+            "content": "Arbre binaire"
+          },
+          {
+            "content": "Table de hachage"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la complexité de l&#39;algorithme de distance de Levenshtein ?"
+        },
+        "options": [
+          {
+            "content": "O(mn)",
+            "correct": true
+          },
+          {
+            "content": "O(m+n)"
+          },
+          {
+            "content": "O(max(m,n))"
+          },
+          {
+            "content": "O(min(m,n))"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles optimisations sont possibles pour la recherche approximative de chaînes ?"
+        },
+        "options": [
+          {
+            "content": "Index n-grammes",
+            "correct": true
+          },
+          {
+            "content": "Filtrage par longueur",
+            "correct": true
+          },
+          {
+            "content": "Signature de caractères",
+            "correct": true
+          },
+          {
+            "content": "Compression des données"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle approche est la plus efficace pour la tokenisation de texte ?"
+        },
+        "options": [
+          {
+            "content": "Automate fini déterministe",
+            "correct": true
+          },
+          {
+            "content": "Expression régulière simple"
+          },
+          {
+            "content": "Split sur les espaces"
+          },
+          {
+            "content": "Parsing caractère par caractère"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle structure de données est optimale pour un cache de chaînes fréquemment utilisées ?"
+        },
+        "options": [
+          {
+            "content": "LRU Cache avec table de hachage",
+            "correct": true
+          },
+          {
+            "content": "ArrayList simple"
+          },
+          {
+            "content": "Pile FIFO"
+          },
+          {
+            "content": "Arbre binaire"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles techniques sont efficaces pour la détection de palindromes ?"
+        },
+        "options": [
+          {
+            "content": "Algorithme de Manacher",
+            "correct": true
+          },
+          {
+            "content": "Technique des deux pointeurs",
+            "correct": true
+          },
+          {
+            "content": "Expansion autour du centre",
+            "correct": true
+          },
+          {
+            "content": "Tri lexicographique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour gérer les chaînes immutables dans une application haute performance ?"
+        },
+        "options": [
+          {
+            "content": "String Pool avec flyweight pattern",
+            "correct": true
+          },
+          {
+            "content": "Création à la demande"
+          },
+          {
+            "content": "Cache global"
+          },
+          {
+            "content": "Copie défensive"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle technique est la plus appropriée pour la comparaison de grandes chaînes de caractères ?"
+        },
+        "options": [
+          {
+            "content": "Comparaison par hachage progressif",
+            "correct": true
+          },
+          {
+            "content": "Comparaison caractère par caractère"
+          },
+          {
+            "content": "Conversion en tableau"
+          },
+          {
+            "content": "Split et compare"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles stratégies sont efficaces pour la gestion de la mémoire avec les chaînes ?"
+        },
+        "options": [
+          {
+            "content": "String interning",
+            "correct": true
+          },
+          {
+            "content": "Buffer pooling",
+            "correct": true
+          },
+          {
+            "content": "Slicing sans copie",
+            "correct": true
+          },
+          {
+            "content": "Allocation dynamique continue"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle structure est la plus adaptée pour un moteur de recherche de texte ?"
+        },
+        "options": [
+          {
+            "content": "Index inversé",
+            "correct": true
+          },
+          {
+            "content": "B-tree"
+          },
+          {
+            "content": "Table de hachage"
+          },
+          {
+            "content": "Liste chaînée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle approche est la plus efficace pour la validation de format de chaînes ?"
+        },
+        "options": [
+          {
+            "content": "Automate fini déterministe",
+            "correct": true
+          },
+          {
+            "content": "Expression régulière complète"
+          },
+          {
+            "content": "Validation caractère par caractère"
+          },
+          {
+            "content": "Split et validation"
+          }
+        ]
+      }
+    ]
+  }

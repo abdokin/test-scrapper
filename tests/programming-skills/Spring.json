@@ -1,0 +1,932 @@
+{
+  "title": "Spring Framework",
+  "attributes": {
+    "overview": "Ce test évalue la maîtrise du framework Spring et Spring Boot, couvrant les concepts fondamentaux et les fonctionnalités avancées.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Spring Core",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "Spring Data JPA",
+      "Injection de dépendances",
+      "Configuration Spring",
+      "Tests avec Spring"
+    ],
+    "relevancy": "Ce test est essentiel pour les postes de développeur Java nécessitant une expertise en Spring Framework.",
+    "description": "Le test évalue la compréhension des concepts clés de Spring et la capacité à les appliquer efficacement.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle annotation est utilis&eacute;e pour injecter une d&eacute;pendance en Spring ?"
+      },
+      "options": [
+        {
+          "content": "@Autowired",
+          "correct": true
+        },
+        {
+          "content": "@Inject"
+        },
+        {
+          "content": "@Resource"
+        },
+        {
+          "content": "@Component"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la diff&eacute;rence principale entre @Component et @Service ?"
+      },
+      "options": [
+        {
+          "content": "@Service est une sp&eacute;cialisation s&eacute;mantique de @Component",
+          "correct": true
+        },
+        {
+          "content": "@Component ne peut pas être utilis&eacute; dans la couche service"
+        },
+        {
+          "content": "@Service offre des fonctionnalit&eacute;s suppl&eacute;mentaires"
+        },
+        {
+          "content": "@Component ne cr&eacute;e pas de bean Spring"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles sont les caract&eacute;ristiques de Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Configuration automatique",
+          "correct": true
+        },
+        {
+          "content": "Serveur embarqu&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Starters pr&eacute;configur&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Performance r&eacute;duite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation est utilis&eacute;e pour d&eacute;finir un point d&#39;entr&eacute;e REST dans Spring MVC ?"
+      },
+      "options": [
+        {
+          "content": "@RestController",
+          "correct": true
+        },
+        {
+          "content": "@Controller"
+        },
+        {
+          "content": "@Service"
+        },
+        {
+          "content": "@Repository"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment d&eacute;finir un bean Spring manuellement ?"
+      },
+      "options": [
+        {
+          "content": "@Bean dans une classe @Configuration",
+          "correct": true
+        },
+        {
+          "content": "XML uniquement"
+        },
+        {
+          "content": "@Component sur une m&eacute;thode"
+        },
+        {
+          "content": "@Autowired sur une classe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les scopes disponibles pour un bean Spring ?"
+      },
+      "options": [
+        {
+          "content": "singleton",
+          "correct": true
+        },
+        {
+          "content": "prototype",
+          "correct": true
+        },
+        {
+          "content": "request",
+          "correct": true
+        },
+        {
+          "content": "static"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;annotation pour d&eacute;finir une transaction en Spring ?"
+      },
+      "options": [
+        {
+          "content": "@Transactional",
+          "correct": true
+        },
+        {
+          "content": "@Transaction"
+        },
+        {
+          "content": "@TransactionManagement"
+        },
+        {
+          "content": "@Commit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment activer Spring Security dans une application Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter la d&eacute;pendance spring-boot-starter-security",
+          "correct": true
+        },
+        {
+          "content": "@EnableSecurity"
+        },
+        {
+          "content": "Configurer web.xml"
+        },
+        {
+          "content": "@Security"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les m&eacute;thodes de configuration disponibles dans Spring ?"
+      },
+      "options": [
+        {
+          "content": "Java Configuration",
+          "correct": true
+        },
+        {
+          "content": "XML Configuration",
+          "correct": true
+        },
+        {
+          "content": "Annotation-based Configuration",
+          "correct": true
+        },
+        {
+          "content": "Database Configuration"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation permet de personnaliser le nom d&#39;un bean Spring ?"
+      },
+      "options": [
+        {
+          "content": "@Qualifier",
+          "correct": true
+        },
+        {
+          "content": "@Name"
+        },
+        {
+          "content": "@BeanName"
+        },
+        {
+          "content": "@Id"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation utiliser pour injecter des valeurs depuis application.properties ?"
+      },
+      "options": [
+        {
+          "content": "@Value",
+          "correct": true
+        },
+        {
+          "content": "@Property"
+        },
+        {
+          "content": "@Inject"
+        },
+        {
+          "content": "@Config"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de l&#39;utilisation de Spring Data JPA ?"
+      },
+      "options": [
+        {
+          "content": "G&eacute;n&eacute;ration automatique des requ&ecirc;tes",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;duction du code boilerplate",
+          "correct": true
+        },
+        {
+          "content": "Support des m&eacute;thodes de requ&ecirc;te personnalis&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Performances sup&eacute;rieures à JDBC pur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment d&eacute;finir un profil Spring actif ?"
+      },
+      "options": [
+        {
+          "content": "spring.profiles.active=dev",
+          "correct": true
+        },
+        {
+          "content": "active.profile=dev"
+        },
+        {
+          "content": "spring.profile=dev"
+        },
+        {
+          "content": "profile.active=dev"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;annotation pour les tests d&#39;int&eacute;gration Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "@SpringBootTest",
+          "correct": true
+        },
+        {
+          "content": "@SpringTest"
+        },
+        {
+          "content": "@IntegrationTest"
+        },
+        {
+          "content": "@BootTest"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les m&eacute;thodes pour g&eacute;rer les exceptions dans Spring MVC ?"
+      },
+      "options": [
+        {
+          "content": "@ExceptionHandler",
+          "correct": true
+        },
+        {
+          "content": "@ControllerAdvice",
+          "correct": true
+        },
+        {
+          "content": "ResponseEntityExceptionHandler",
+          "correct": true
+        },
+        {
+          "content": "@ErrorMapping"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment configurer le port d&#39;une application Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "server.port=8080",
+          "correct": true
+        },
+        {
+          "content": "application.port=8080"
+        },
+        {
+          "content": "port=8080"
+        },
+        {
+          "content": "spring.port=8080"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation permet de cr&eacute;er un point d&#39;acc&egrave;s GraphQL dans Spring ?"
+      },
+      "options": [
+        {
+          "content": "@SchemaMapping",
+          "correct": true
+        },
+        {
+          "content": "@GraphQLMapping"
+        },
+        {
+          "content": "@QueryMapping"
+        },
+        {
+          "content": "@Resolver"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de tests possibles avec Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Tests unitaires",
+          "correct": true
+        },
+        {
+          "content": "Tests d&#39;int&eacute;gration",
+          "correct": true
+        },
+        {
+          "content": "Tests de slice",
+          "correct": true
+        },
+        {
+          "content": "Tests de performance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment activer la mise en cache dans Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "@EnableCaching",
+          "correct": true
+        },
+        {
+          "content": "@Cache"
+        },
+        {
+          "content": "@Cacheable"
+        },
+        {
+          "content": "@CacheConfig"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la diff&eacute;rence entre @Controller et @RestController ?"
+      },
+      "options": [
+        {
+          "content": "@RestController inclut @ResponseBody",
+          "correct": true
+        },
+        {
+          "content": "@Controller est d&eacute;pr&eacute;ci&eacute;"
+        },
+        {
+          "content": "@RestController ne supporte que JSON"
+        },
+        {
+          "content": "Aucune diff&eacute;rence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation utiliser pour planifier l&#39;ex&eacute;cution d&#39;une tâche en Spring ?"
+      },
+      "options": [
+        {
+          "content": "@Scheduled",
+          "correct": true
+        },
+        {
+          "content": "@Cron"
+        },
+        {
+          "content": "@Timer"
+        },
+        {
+          "content": "@Task"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types d&#39;injection de d&eacute;pendances support&eacute;s par Spring ?"
+      },
+      "options": [
+        {
+          "content": "Constructor Injection",
+          "correct": true
+        },
+        {
+          "content": "Setter Injection",
+          "correct": true
+        },
+        {
+          "content": "Field Injection",
+          "correct": true
+        },
+        {
+          "content": "Method Parameter Injection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment configurer JPA pour cr&eacute;er automatiquement les tables ?"
+      },
+      "options": [
+        {
+          "content": "spring.jpa.hibernate.ddl-auto=create",
+          "correct": true
+        },
+        {
+          "content": "spring.jpa.generate-ddl=true"
+        },
+        {
+          "content": "spring.jpa.database-platform=create"
+        },
+        {
+          "content": "spring.jpa.create-tables=true"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation utiliser pour valider un param&egrave;tre de requ&ecirc;te HTTP ?"
+      },
+      "options": [
+        {
+          "content": "@Valid",
+          "correct": true
+        },
+        {
+          "content": "@Validate"
+        },
+        {
+          "content": "@Check"
+        },
+        {
+          "content": "@Verify"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les annotations de s&eacute;curit&eacute; courantes dans Spring Security ?"
+      },
+      "options": [
+        {
+          "content": "@Secured",
+          "correct": true
+        },
+        {
+          "content": "@PreAuthorize",
+          "correct": true
+        },
+        {
+          "content": "@RolesAllowed",
+          "correct": true
+        },
+        {
+          "content": "@Security"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment activer l&#39;actuator dans Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter spring-boot-starter-actuator",
+          "correct": true
+        },
+        {
+          "content": "@EnableActuator"
+        },
+        {
+          "content": "Configuration XML"
+        },
+        {
+          "content": "@Actuator"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la diff&eacute;rence entre @PathVariable et @RequestParam ?"
+      },
+      "options": [
+        {
+          "content": "@PathVariable extrait les valeurs de l&#39;URL, @RequestParam des param&egrave;tres de requ&ecirc;te",
+          "correct": true
+        },
+        {
+          "content": "Aucune diff&eacute;rence"
+        },
+        {
+          "content": "@PathVariable est d&eacute;pr&eacute;ci&eacute;"
+        },
+        {
+          "content": "@RequestParam est uniquement pour POST"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages de Spring Boot DevTools ?"
+      },
+      "options": [
+        {
+          "content": "Red&eacute;marrage automatique",
+          "correct": true
+        },
+        {
+          "content": "Cache d&eacute;sactiv&eacute; par d&eacute;faut",
+          "correct": true
+        },
+        {
+          "content": "Live Reload",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;bogage avanc&eacute;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les migrations de base de donn&eacute;es dans Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Flyway ou Liquibase",
+          "correct": true
+        },
+        {
+          "content": "Uniquement hibernate.ddl-auto"
+        },
+        {
+          "content": "Scripts SQL manuels"
+        },
+        {
+          "content": "Spring Migration Tool"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle annotation permet de d&eacute;finir un aspect dans Spring AOP ?"
+      },
+      "options": [
+        {
+          "content": "@Aspect",
+          "correct": true
+        },
+        {
+          "content": "@AOP"
+        },
+        {
+          "content": "@Pointcut"
+        },
+        {
+          "content": "@Advice"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment activer la documentation OpenAPI (Swagger) dans Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "Ajouter springdoc-openapi-ui",
+          "correct": true
+        },
+        {
+          "content": "@EnableSwagger"
+        },
+        {
+          "content": "spring.swagger.enabled=true"
+        },
+        {
+          "content": "@OpenAPI"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de messages support&eacute;s par Spring WebSocket ?"
+      },
+      "options": [
+        {
+          "content": "Text",
+          "correct": true
+        },
+        {
+          "content": "Binary",
+          "correct": true
+        },
+        {
+          "content": "JSON",
+          "correct": true
+        },
+        {
+          "content": "SQL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure pratique pour l&#39;injection de d&eacute;pendances ?"
+      },
+      "options": [
+        {
+          "content": "Constructor Injection",
+          "correct": true
+        },
+        {
+          "content": "Field Injection"
+        },
+        {
+          "content": "Setter Injection"
+        },
+        {
+          "content": "Method Injection"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les types de proxy support&eacute;s par Spring AOP ?"
+      },
+      "options": [
+        {
+          "content": "JDK Dynamic Proxy",
+          "correct": true
+        },
+        {
+          "content": "CGLIB Proxy",
+          "correct": true
+        },
+        {
+          "content": "Interface-based Proxy",
+          "correct": true
+        },
+        {
+          "content": "Static Proxy"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment configurer plusieurs sources de donn&eacute;es dans Spring Boot ?"
+      },
+      "options": [
+        {
+          "content": "@ConfigurationProperties pour chaque source",
+          "correct": true
+        },
+        {
+          "content": "Un seul fichier application.properties"
+        },
+        {
+          "content": "@MultipleDataSources"
+        },
+        {
+          "content": "Impossible avec Spring Boot"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;annotation pour cr&eacute;er un client REST dans Spring ?"
+      },
+      "options": [
+        {
+          "content": "@FeignClient",
+          "correct": true
+        },
+        {
+          "content": "@RestClient"
+        },
+        {
+          "content": "@HttpClient"
+        },
+        {
+          "content": "@WebClient"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les strat&eacute;gies de gestion des erreurs dans Spring MVC ?"
+      },
+      "options": [
+        {
+          "content": "Gestionnaire d&#39;exceptions global",
+          "correct": true
+        },
+        {
+          "content": "Gestionnaire d&#39;exceptions par contr&ocirc;leur",
+          "correct": true
+        },
+        {
+          "content": "Pages d&#39;erreur personnalis&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Logging automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment impl&eacute;menter la pagination avec Spring Data JPA ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser Pageable comme param&egrave;tre",
+          "correct": true
+        },
+        {
+          "content": "@Pagination"
+        },
+        {
+          "content": "Impl&eacute;mentation manuelle"
+        },
+        {
+          "content": "Configuration XML"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la diff&eacute;rence entre @Component et @Bean ?"
+      },
+      "options": [
+        {
+          "content": "@Bean s&#39;applique aux m&eacute;thodes, @Component aux classes",
+          "correct": true
+        },
+        {
+          "content": "Aucune diff&eacute;rence"
+        },
+        {
+          "content": "@Component est d&eacute;pr&eacute;ci&eacute;"
+        },
+        {
+          "content": "@Bean est uniquement pour la configuration XML"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages du cache dans Spring ?"
+      },
+      "options": [
+        {
+          "content": "Am&eacute;lioration des performances",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;duction de la charge serveur",
+          "correct": true
+        },
+        {
+          "content": "Configuration d&eacute;clarative",
+          "correct": true
+        },
+        {
+          "content": "Persistance automatique"
+        }
+      ]
+    }
+]
+}

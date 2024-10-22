@@ -1,0 +1,863 @@
+{
+    "title": "Structures de données : Arbres binaires",
+    "attributes": {
+      "overview": "Ce test évalue la compréhension et la manipulation des arbres binaires de recherche, couvrant les concepts fondamentaux et les algorithmes courants.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Manipulation d'arbres binaires",
+        "Parcours d'arbres",
+        "Algorithmes de recherche",
+        "Équilibrage d'arbres",
+        "Opérations CRUD sur les arbres",
+        "Complexité algorithmique",
+        "Structures de données avancées",
+        "Optimisation de performances"
+      ],
+      "relevancy": "Ce test est essentiel pour les postes de développeur nécessitant une solide compréhension des structures de données et des algorithmes.",
+      "description": "Le test évalue la capacité du candidat à comprendre, implémenter et optimiser les opérations sur les arbres binaires de recherche.",
+      "category": "Programming skills",
+      "language": "french",
+      "questions_to_answer": 15,
+      "duration_seconds": 2100,
+      "position": 1
+    },
+    
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la hauteur maximale d&#39;un arbre binaire équilibr&eacute; contenant 15 nœuds ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "8"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Dans un arbre binaire de recherche, où se trouve le plus petit &eacute;l&eacute;ment ?"
+      },
+      "options": [
+        {
+          "content": "Le nœud le plus &agrave; gauche",
+          "correct": true
+        },
+        {
+          "content": "La racine"
+        },
+        {
+          "content": "Le nœud le plus &agrave; droite"
+        },
+        {
+          "content": "N&#39;importe où dans l&#39;arbre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles affirmations sont vraies concernant un arbre binaire de recherche ?"
+      },
+      "options": [
+        {
+          "content": "Chaque nœud a au maximum deux enfants",
+          "correct": true
+        },
+        {
+          "content": "Les &eacute;l&eacute;ments &agrave; gauche sont plus petits que le nœud parent",
+          "correct": true
+        },
+        {
+          "content": "La racine est toujours le plus grand &eacute;l&eacute;ment"
+        },
+        {
+          "content": "Le parcours infixe donne les &eacute;l&eacute;ments en ordre croissant",
+          "correct": true
+        }
+      ]
+    },    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexit&eacute; temporelle moyenne de la recherche dans un arbre binaire de recherche &eacute;quilibr&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "O(log n)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment appelle-t-on un arbre binaire où chaque nœud non-feuille a exactement deux enfants ?"
+      },
+      "options": [
+        {
+          "content": "Arbre binaire complet",
+          "correct": true
+        },
+        {
+          "content": "Arbre binaire parfait"
+        },
+        {
+          "content": "Arbre binaire &eacute;quilibr&eacute;"
+        },
+        {
+          "content": "Arbre binaire strict"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles op&eacute;rations peuvent d&eacute;s&eacute;quilibrer un arbre binaire de recherche ?"
+      },
+      "options": [
+        {
+          "content": "Insertion s&eacute;quentielle d&#39;&eacute;l&eacute;ments tri&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Suppression du nœud racine",
+          "correct": true
+        },
+        {
+          "content": "Recherche d&#39;un &eacute;l&eacute;ment"
+        },
+        {
+          "content": "Parcours de l&#39;arbre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel type de parcours visite d&#39;abord la racine, puis le sous-arbre gauche, et enfin le sous-arbre droit ?"
+      },
+      "options": [
+        {
+          "content": "Parcours pr&eacute;fixe",
+          "correct": true
+        },
+        {
+          "content": "Parcours infixe"
+        },
+        {
+          "content": "Parcours postfixe"
+        },
+        {
+          "content": "Parcours en largeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les propri&eacute;t&eacute;s d&#39;un arbre AVL ?"
+      },
+      "options": [
+        {
+          "content": "La différence de hauteur entre sous-arbres est au plus 1",
+          "correct": true
+        },
+        {
+          "content": "C&#39;est un arbre binaire de recherche",
+          "correct": true
+        },
+        {
+          "content": "Tous les niveaux sont compl&egrave;tement remplis"
+        },
+        {
+          "content": "Les rotations maintiennent l&#39;&eacute;quilibre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la hauteur minimale possible d&#39;un arbre binaire avec 7 nœuds ?"
+      },
+      "options": [
+        {
+          "content": "3",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Dans un arbre binaire de recherche, où se trouve le successeur d&#39;un nœud donn&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "Le plus petit &eacute;l&eacute;ment du sous-arbre droit",
+          "correct": true
+        },
+        {
+          "content": "Le plus grand &eacute;l&eacute;ment du sous-arbre gauche"
+        },
+        {
+          "content": "Toujours le parent direct"
+        },
+        {
+          "content": "Toujours l&#39;enfant droit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d&#39;utiliser un arbre binaire de recherche ?"
+      },
+      "options": [
+        {
+          "content": "Recherche efficace",
+          "correct": true
+        },
+        {
+          "content": "Maintien de l&#39;ordre des &eacute;l&eacute;ments",
+          "correct": true
+        },
+        {
+          "content": "Utilisation optimale de la m&eacute;moire",
+          "correct": true
+        },
+        {
+          "content": "Insertion en temps constant"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle rotation est n&eacute;cessaire quand un nœud est ajout&eacute; à gauche de l&#39;enfant gauche ?"
+      },
+      "options": [
+        {
+          "content": "Rotation simple droite",
+          "correct": true
+        },
+        {
+          "content": "Rotation simple gauche"
+        },
+        {
+          "content": "Rotation double droite-gauche"
+        },
+        {
+          "content": "Rotation double gauche-droite"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment calcule-t-on le facteur d&#39;&eacute;quilibre dans un arbre AVL ?"
+      },
+      "options": [
+        {
+          "content": "hauteur(sous-arbre_gauche) - hauteur(sous-arbre_droit)",
+          "correct": true
+        },
+        {
+          "content": "hauteur(sous-arbre_droit) - hauteur(sous-arbre_gauche)"
+        },
+        {
+          "content": "nombre_nœuds(gauche) - nombre_nœuds(droit)"
+        },
+        {
+          "content": "profondeur(gauche) + profondeur(droit)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles situations n&eacute;cessitent un r&eacute;&eacute;quilibrage dans un arbre AVL ?"
+      },
+      "options": [
+        {
+          "content": "Facteur d&#39;&eacute;quilibre > 1",
+          "correct": true
+        },
+        {
+          "content": "Facteur d&#39;&eacute;quilibre < -1",
+          "correct": true
+        },
+        {
+          "content": "Insertion d&#39;un nouvel &eacute;l&eacute;ment"
+        },
+        {
+          "content": "Parcours de l&#39;arbre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexit&eacute; spatiale d&#39;un arbre binaire ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(1)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+
+    {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la propri&eacute;t&eacute; principale d&#39;un tas binaire (binary heap) ?"
+        },
+        "options": [
+          {
+            "content": "Chaque nœud parent est sup&eacute;rieur à ses enfants (max-heap)",
+            "correct": true
+          },
+          {
+            "content": "Les nœuds sont tri&eacute;s de gauche à droite"
+          },
+          {
+            "content": "Chaque niveau doit être complet"
+          },
+          {
+            "content": "La racine est toujours la m&eacute;diane"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les conditions pour qu&#39;un arbre binaire soit consid&eacute;r&eacute; comme parfait ?"
+        },
+        "options": [
+          {
+            "content": "Toutes les feuilles sont au même niveau",
+            "correct": true
+          },
+          {
+            "content": "Chaque nœud interne a exactement deux enfants",
+            "correct": true
+          },
+          {
+            "content": "L&#39;arbre est &eacute;quilibr&eacute;"
+          },
+          {
+            "content": "Le dernier niveau est compl&egrave;tement rempli",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexit&eacute; de la suppression d&#39;un nœud dans un arbre rouge-noir ?"
+        },
+        "options": [
+          {
+            "content": "O(log n)",
+            "correct": true
+          },
+          {
+            "content": "O(n)"
+          },
+          {
+            "content": "O(1)"
+          },
+          {
+            "content": "O(n log n)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles op&eacute;rations sont n&eacute;cessaires lors de l&#39;insertion dans un arbre rouge-noir ?"
+        },
+        "options": [
+          {
+            "content": "Coloration des nœuds",
+            "correct": true
+          },
+          {
+            "content": "Rotations",
+            "correct": true
+          },
+          {
+            "content": "V&eacute;rification des propri&eacute;t&eacute;s rouge-noir",
+            "correct": true
+          },
+          {
+            "content": "Recalcul complet de la hauteur"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment appelle-t-on un arbre binaire où tous les niveaux sauf le dernier sont compl&egrave;tement remplis ?"
+        },
+        "options": [
+          {
+            "content": "Arbre binaire complet",
+            "correct": true
+          },
+          {
+            "content": "Arbre binaire parfait"
+          },
+          {
+            "content": "Arbre binaire &eacute;quilibr&eacute;"
+          },
+          {
+            "content": "Arbre binaire plein"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la formule pour calculer le nombre maximum de nœuds dans un arbre binaire de hauteur h ?"
+        },
+        "options": [
+          {
+            "content": "2^(h+1) - 1",
+            "correct": true
+          },
+          {
+            "content": "2^h - 1"
+          },
+          {
+            "content": "2^h + 1"
+          },
+          {
+            "content": "2^(h-1)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les propri&eacute;t&eacute;s d&#39;un arbre rouge-noir ?"
+        },
+        "options": [
+          {
+            "content": "La racine est toujours noire",
+            "correct": true
+          },
+          {
+            "content": "Les feuilles NULL sont noires",
+            "correct": true
+          },
+          {
+            "content": "Pas de nœuds rouges cons&eacute;cutifs",
+            "correct": true
+          },
+          {
+            "content": "Tous les nœuds internes sont rouges"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure est utilis&eacute;e pour le parcours it&eacute;ratif en profondeur d&#39;un arbre binaire ?"
+        },
+        "options": [
+          {
+            "content": "Pile (Stack)",
+            "correct": true
+          },
+          {
+            "content": "File (Queue)"
+          },
+          {
+            "content": "Liste cha&icirc;n&eacute;e"
+          },
+          {
+            "content": "Tableau dynamique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Dans un arbre binaire de recherche, où se trouve le pr&eacute;d&eacute;cesseur d&#39;un nœud ?"
+        },
+        "options": [
+          {
+            "content": "Le plus grand &eacute;l&eacute;ment du sous-arbre gauche",
+            "correct": true
+          },
+          {
+            "content": "Le plus petit &eacute;l&eacute;ment du sous-arbre droit"
+          },
+          {
+            "content": "Toujours le parent"
+          },
+          {
+            "content": "Toujours l&#39;enfant gauche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les cas qui n&eacute;cessitent une rotation double dans un arbre AVL ?"
+        },
+        "options": [
+          {
+            "content": "Insertion en zigzag gauche-droite",
+            "correct": true
+          },
+          {
+            "content": "Insertion en zigzag droite-gauche",
+            "correct": true
+          },
+          {
+            "content": "Insertion directe à gauche"
+          },
+          {
+            "content": "Insertion directe à droite"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexit&eacute; du parcours en largeur (BFS) d&#39;un arbre binaire ?"
+        },
+        "options": [
+          {
+            "content": "O(n)",
+            "correct": true
+          },
+          {
+            "content": "O(log n)"
+          },
+          {
+            "content": "O(h) où h est la hauteur"
+          },
+          {
+            "content": "O(n²)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure est utilis&eacute;e pour le parcours en largeur d&#39;un arbre binaire ?"
+        },
+        "options": [
+          {
+            "content": "File (Queue)",
+            "correct": true
+          },
+          {
+            "content": "Pile (Stack)"
+          },
+          {
+            "content": "Liste cha&icirc;n&eacute;e"
+          },
+          {
+            "content": "Tableau tri&eacute;"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la principale diff&eacute;rence entre un arbre AVL et un arbre rouge-noir ?"
+        },
+        "options": [
+          {
+            "content": "L&#39;arbre AVL est plus strictement &eacute;quilibr&eacute;",
+            "correct": true
+          },
+          {
+            "content": "L&#39;arbre rouge-noir est toujours parfait"
+          },
+          {
+            "content": "L&#39;arbre AVL ne permet pas les doublons"
+          },
+          {
+            "content": "L&#39;arbre rouge-noir est plus rapide en recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles situations peuvent conduire à un arbre d&eacute;g&eacute;n&eacute;r&eacute; ?"
+        },
+        "options": [
+          {
+            "content": "Insertion de donn&eacute;es tri&eacute;es",
+            "correct": true
+          },
+          {
+            "content": "Suppression s&eacute;quentielle de la racine",
+            "correct": true
+          },
+          {
+            "content": "Parcours en profondeur"
+          },
+          {
+            "content": "Recherche d&#39;&eacute;l&eacute;ments"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le nombre minimum de nœuds noirs sur tout chemin de la racine à une feuille dans un arbre rouge-noir ?"
+        },
+        "options": [
+          {
+            "content": "log₂(n+1)",
+            "correct": true
+          },
+          {
+            "content": "n/2"
+          },
+          {
+            "content": "log₂(n)"
+          },
+          {
+            "content": "n/4"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages d&#39;un arbre rouge-noir par rapport à un arbre AVL ?"
+        },
+        "options": [
+          {
+            "content": "Moins de rotations lors des insertions",
+            "correct": true
+          },
+          {
+            "content": "Meilleure performance en cas de modifications fr&eacute;quentes",
+            "correct": true
+          },
+          {
+            "content": "Utilisation dans de nombreuses impl&eacute;mentations de collections",
+            "correct": true
+          },
+          {
+            "content": "Recherche plus rapide"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment d&eacute;terminer si un arbre binaire est symétrique ?"
+        },
+        "options": [
+          {
+            "content": "Comparer r&eacute;cursivement les sous-arbres gauche et droit en miroir",
+            "correct": true
+          },
+          {
+            "content": "V&eacute;rifier que tous les niveaux ont le même nombre de nœuds"
+          },
+          {
+            "content": "Comparer le nombre de nœuds à gauche et à droite"
+          },
+          {
+            "content": "V&eacute;rifier que l&#39;arbre est &eacute;quilibr&eacute;"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexit&eacute; de la construction d&#39;un arbre binaire de recherche à partir d&#39;un tableau tri&eacute; ?"
+        },
+        "options": [
+          {
+            "content": "O(n)",
+            "correct": true
+          },
+          {
+            "content": "O(n log n)"
+          },
+          {
+            "content": "O(log n)"
+          },
+          {
+            "content": "O(n²)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les applications courantes des arbres binaires ?"
+        },
+        "options": [
+          {
+            "content": "Impl&eacute;mentation de dictionnaires",
+            "correct": true
+          },
+          {
+            "content": "Compression de donn&eacute;es (Huffman)",
+            "correct": true
+          },
+          {
+            "content": "Syst&egrave;mes de fichiers",
+            "correct": true
+          },
+          {
+            "content": "Stockage de donn&eacute;es lin&eacute;aires"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment calculer la profondeur d&#39;un nœud dans un arbre binaire ?"
+        },
+        "options": [
+          {
+            "content": "Nombre d&#39;arêtes depuis la racine jusqu&#39;au nœud",
+            "correct": true
+          },
+          {
+            "content": "Nombre de nœuds dans le sous-arbre"
+          },
+          {
+            "content": "Distance jusqu&#39;à la feuille la plus proche"
+          },
+          {
+            "content": "Nombre d&#39;enfants du nœud"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la propri&eacute;t&eacute; qui distingue un tas binaire d&#39;un arbre binaire de recherche ?"
+        },
+        "options": [
+          {
+            "content": "L&#39;ordre des &eacute;l&eacute;ments entre parent et enfants uniquement",
+            "correct": true
+          },
+          {
+            "content": "La structure compl&egrave;te de l&#39;arbre"
+          },
+          {
+            "content": "Le nombre maximum d&#39;enfants"
+          },
+          {
+            "content": "La hauteur de l&#39;arbre"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles op&eacute;rations peuvent être optimis&eacute;es en utilisant un arbre binaire de recherche &eacute;quilibr&eacute; ?"
+        },
+        "options": [
+          {
+            "content": "Recherche d&#39;&eacute;l&eacute;ments",
+            "correct": true
+          },
+          {
+            "content": "Maintien de l&#39;ordre",
+            "correct": true
+          },
+          {
+            "content": "Recherche par intervalle",
+            "correct": true
+          },
+          {
+            "content": "Tri des &eacute;l&eacute;ments"
+          }
+        ]
+      }
+    ]
+}

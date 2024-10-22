@@ -1,0 +1,697 @@
+{
+  "title": "Gatsby.js",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans le développement avec Gatsby.js, couvrant les concepts fondamentaux jusqu&#39;aux fonctionnalités avancées du framework.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Configuration de Gatsby",
+      "GraphQL",
+      "Gestion des plugins",
+      "Routage et pages",
+      "Gestion des données",
+      "Performance et SEO",
+      "Déploiement",
+      "Images et assets"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur front-end nécessitant une expertise en développement de sites statiques avec Gatsby.js.",
+    "description": "Le test couvre la création de sites web performants avec Gatsby.js, incluant la configuration, le développement, l&#39;optimisation et le déploiement.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle commande est utilisée pour créer un nouveau projet Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "gatsby new mon-projet",
+          "correct": true
+        },
+        {
+          "content": "create-gatsby mon-projet"
+        },
+        {
+          "content": "npm create gatsby"
+        },
+        {
+          "content": "gatsby create mon-projet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel hook est utilisé pour effectuer des requêtes GraphQL dans un composant ?"
+      },
+      "options": [
+        {
+          "content": "useStaticQuery",
+          "correct": true
+        },
+        {
+          "content": "useGraphQL"
+        },
+        {
+          "content": "useQuery"
+        },
+        {
+          "content": "useGatsbyQuery"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les avantages principaux de Gatsby.js ?"
+      },
+      "options": [
+        {
+          "content": "Génération de sites statiques",
+          "correct": true
+        },
+        {
+          "content": "Performance optimisée",
+          "correct": true
+        },
+        {
+          "content": "SEO amélioré",
+          "correct": true
+        },
+        {
+          "content": "Base de données intégrée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Où doit-on définir les métadonnées globales du site ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-config.js",
+          "correct": true
+        },
+        {
+          "content": "package.json"
+        },
+        {
+          "content": "gatsby-node.js"
+        },
+        {
+          "content": "gatsby-browser.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande pour lancer le serveur de développement ?"
+      },
+      "options": [
+        {
+          "content": "gatsby develop",
+          "correct": true
+        },
+        {
+          "content": "gatsby start"
+        },
+        {
+          "content": "gatsby serve"
+        },
+        {
+          "content": "gatsby dev"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels fichiers sont essentiels dans un projet Gatsby.js ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-config.js",
+          "correct": true
+        },
+        {
+          "content": "package.json",
+          "correct": true
+        },
+        {
+          "content": "gatsby-node.js",
+          "correct": true
+        },
+        {
+          "content": "webpack.config.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une page dynamique dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser gatsby-node.js avec createPages",
+          "correct": true
+        },
+        {
+          "content": "Créer un fichier .jsx dans pages"
+        },
+        {
+          "content": "Modifier gatsby-config.js"
+        },
+        {
+          "content": "Utiliser gatsby-browser.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel composant est utilisé pour l&#39;optimisation des images ?"
+      },
+      "options": [
+        {
+          "content": "GatsbyImage",
+          "correct": true
+        },
+        {
+          "content": "StaticImage"
+        },
+        {
+          "content": "OptimizedImage"
+        },
+        {
+          "content": "LazyImage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour le SEO dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser react-helmet",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les images",
+          "correct": true
+        },
+        {
+          "content": "Structurer les métadonnées",
+          "correct": true
+        },
+        {
+          "content": "Désactiver le SSR"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer les styles CSS dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "CSS Modules",
+          "correct": true
+        },
+        {
+          "content": "Uniquement Inline CSS"
+        },
+        {
+          "content": "Seulement styled-components"
+        },
+        {
+          "content": "CSS externe uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande génère le build de production ?"
+      },
+      "options": [
+        {
+          "content": "gatsby build",
+          "correct": true
+        },
+        {
+          "content": "gatsby deploy"
+        },
+        {
+          "content": "gatsby production"
+        },
+        {
+          "content": "gatsby compile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles fonctionnalités sont incluses par défaut dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Code splitting",
+          "correct": true
+        },
+        {
+          "content": "Prefetching",
+          "correct": true
+        },
+        {
+          "content": "Image optimization",
+          "correct": true
+        },
+        {
+          "content": "Base de données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter le client-side routing dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Composant Link de Gatsby",
+          "correct": true
+        },
+        {
+          "content": "React Router"
+        },
+        {
+          "content": "Balise a href"
+        },
+        {
+          "content": "window.location"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel fichier permet de modifier le webpack config ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-node.js",
+          "correct": true
+        },
+        {
+          "content": "webpack.config.js"
+        },
+        {
+          "content": "gatsby-webpack.js"
+        },
+        {
+          "content": "gatsby-config.js"
+        }
+      ]
+    },{
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle API permet de personnaliser le HTML généré ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-ssr.js",
+          "correct": true
+        },
+        {
+          "content": "gatsby-html.js"
+        },
+        {
+          "content": "gatsby-document.js"
+        },
+        {
+          "content": "gatsby-template.js"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer l&#39;authentification dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-plugin-auth avec client-only routes",
+          "correct": true
+        },
+        {
+          "content": "Express middleware"
+        },
+        {
+          "content": "Sessions côté serveur"
+        },
+        {
+          "content": "Cookies uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles méthodes sont disponibles pour le data sourcing ?"
+      },
+      "options": [
+        {
+          "content": "Source plugins",
+          "correct": true
+        },
+        {
+          "content": "API REST",
+          "correct": true
+        },
+        {
+          "content": "GraphQL queries",
+          "correct": true
+        },
+        {
+          "content": "WebSocket"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment implémenter le lazy loading des images ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-plugin-image",
+          "correct": true
+        },
+        {
+          "content": "lazy attribute HTML"
+        },
+        {
+          "content": "JavaScript manuel"
+        },
+        {
+          "content": "CSS loading"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les variables d&#39;environnement ?"
+      },
+      "options": [
+        {
+          "content": "Fichiers .env.* avec gatsby-config",
+          "correct": true
+        },
+        {
+          "content": "Variables globales"
+        },
+        {
+          "content": "Process.env direct"
+        },
+        {
+          "content": "Configuration JSON"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels hooks sont spécifiques à Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "useStaticQuery",
+          "correct": true
+        },
+        {
+          "content": "useSiteMetadata",
+          "correct": true
+        },
+        {
+          "content": "useLocation",
+          "correct": true
+        },
+        {
+          "content": "useHistory"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser le chargement des polices dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-plugin-webfonts avec preload",
+          "correct": true
+        },
+        {
+          "content": "CDN externe"
+        },
+        {
+          "content": "Import CSS direct"
+        },
+        {
+          "content": "Chargement synchrone"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour le testing dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Jest avec gatsby-jest-preset",
+          "correct": true
+        },
+        {
+          "content": "Mocha"
+        },
+        {
+          "content": "Jasmine"
+        },
+        {
+          "content": "Test manuel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles stratégies de cache sont utilisées par Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Page-data.json",
+          "correct": true
+        },
+        {
+          "content": "Static query results",
+          "correct": true
+        },
+        {
+          "content": "gatsby-browser cache",
+          "correct": true
+        },
+        {
+          "content": "Session storage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer les redirections dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-plugin-netlify avec _redirects",
+          "correct": true
+        },
+        {
+          "content": "HTAccess"
+        },
+        {
+          "content": "JavaScript redirect"
+        },
+        {
+          "content": "Meta refresh"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est recommandée pour l&#39;internationalisation ?"
+      },
+      "options": [
+        {
+          "content": "gatsby-plugin-intl",
+          "correct": true
+        },
+        {
+          "content": "Traduction manuelle"
+        },
+        {
+          "content": "Sous-domaines"
+        },
+        {
+          "content": "Variables globales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les bonnes pratiques pour le déploiement Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "CI/CD automatisé",
+          "correct": true
+        },
+        {
+          "content": "Tests avant déploiement",
+          "correct": true
+        },
+        {
+          "content": "Cache invalidation",
+          "correct": true
+        },
+        {
+          "content": "Déploiement manuel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser les performances de build ?"
+      },
+      "options": [
+        {
+          "content": "Gatsby Cloud avec parallel builds",
+          "correct": true
+        },
+        {
+          "content": "Réduire les plugins"
+        },
+        {
+          "content": "Build local"
+        },
+        {
+          "content": "Skip builds"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les formulaires ?"
+      },
+      "options": [
+        {
+          "content": "Formik avec validation côté client",
+          "correct": true
+        },
+        {
+          "content": "HTML forms"
+        },
+        {
+          "content": "Custom validation"
+        },
+        {
+          "content": "Sans validation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels outils sont recommandés pour le debugging Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "GraphiQL",
+          "correct": true
+        },
+        {
+          "content": "React DevTools",
+          "correct": true
+        },
+        {
+          "content": "Gatsby Debug",
+          "correct": true
+        },
+        {
+          "content": "Console.log"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer le state global dans Gatsby ?"
+      },
+      "options": [
+        {
+          "content": "Redux ou Context API",
+          "correct": true
+        },
+        {
+          "content": "Variables globales"
+        },
+        {
+          "content": "LocalStorage"
+        },
+        {
+          "content": "URL parameters"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour le SEO dynamique ?"
+      },
+      "options": [
+        {
+          "content": "React Helmet avec données GraphQL",
+          "correct": true
+        },
+        {
+          "content": "Meta tags statiques"
+        },
+        {
+          "content": "JavaScript injection"
+        },
+        {
+          "content": "Headers HTTP"
+        }
+      ]
+    }
+  ]
+}

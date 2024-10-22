@@ -1,0 +1,926 @@
+{
+  "title": "Algorithmes de Niveau Débutant",
+  "attributes": {
+    "overview": "Ce test évalue la compréhension des concepts algorithmiques de base et la capacité à analyser des solutions simples.",
+    "level": "beginner",
+    "covered_skills": [
+      "Structures de contrôle",
+      "Manipulation de tableaux",
+      "Algorithmes de tri simples",
+      "Recherche linéaire",
+      "Manipulation de chaînes",
+      "Complexité algorithmique",
+      "Logique de programmation",
+      "Résolution de problèmes"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de développeur junior nécessitant des connaissances de base en algorithmique.",
+    "description": "Le test évalue la compréhension théorique des algorithmes fondamentaux et des structures de données de base.",
+    "category": "Coding",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 900,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la complexit&eacute; temporelle d&#39;une recherche lin&eacute;aire dans un tableau non tri&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "O(n)",
+          "correct": true
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        },
+        {
+          "content": "O(1)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel algorithme de tri a une complexit&eacute; de O(n²) dans le cas moyen ?"
+      },
+      "options": [
+        {
+          "content": "Tri à bulles",
+          "correct": true
+        },
+        {
+          "content": "Tri fusion"
+        },
+        {
+          "content": "Tri rapide"
+        },
+        {
+          "content": "Tri par tas"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles sont les caract&eacute;ristiques d&#39;un bon algorithme ?"
+      },
+      "options": [
+        {
+          "content": "Efficacit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Lisibilit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Correction",
+          "correct": true
+        },
+        {
+          "content": "Utilisation de recursion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle structure de donn&eacute;es est la plus appropri&eacute;e pour une recherche fr&eacute;quente d&#39;&eacute;l&eacute;ments ?"
+      },
+      "options": [
+        {
+          "content": "Tableau tri&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Tableau non tri&eacute;"
+        },
+        {
+          "content": "Liste cha&icirc;n&eacute;e"
+        },
+        {
+          "content": "Pile"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour v&eacute;rifier si une cha&icirc;ne est un palindrome ?"
+      },
+      "options": [
+        {
+          "content": "Comparer les caract&egrave;res depuis les extr&eacute;mit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Trier la cha&icirc;ne"
+        },
+        {
+          "content": "Compter les occurrences de chaque caract&egrave;re"
+        },
+        {
+          "content": "Convertir en nombre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment trouver le plus grand &eacute;l&eacute;ment dans un tableau non tri&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "Parcourir le tableau une fois en gardant le maximum courant",
+          "correct": true
+        },
+        {
+          "content": "Trier le tableau d&#39;abord"
+        },
+        {
+          "content": "Utiliser une recherche binaire"
+        },
+        {
+          "content": "Compter les occurrences"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la complexit&eacute; de l&#39;acc&egrave;s à un &eacute;l&eacute;ment dans un tableau par son index ?"
+      },
+      "options": [
+        {
+          "content": "O(1)",
+          "correct": true
+        },
+        {
+          "content": "O(n)"
+        },
+        {
+          "content": "O(log n)"
+        },
+        {
+          "content": "O(n²)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle boucle est la plus appropri&eacute;e pour un nombre connu d&#39;it&eacute;rations ?"
+      },
+      "options": [
+        {
+          "content": "for",
+          "correct": true
+        },
+        {
+          "content": "while"
+        },
+        {
+          "content": "do-while"
+        },
+        {
+          "content": "foreach"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment v&eacute;rifier si un nombre est pair ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser l&#39;op&eacute;rateur modulo (%) avec 2",
+          "correct": true
+        },
+        {
+          "content": "Diviser par 2"
+        },
+        {
+          "content": "Convertir en binaire"
+        },
+        {
+          "content": "Soustraire 2 r&eacute;cursivement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure fa&ccedil;on de compter les occurrences d&#39;un &eacute;l&eacute;ment dans un tableau ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une boucle avec un compteur",
+          "correct": true
+        },
+        {
+          "content": "Trier d&#39;abord le tableau"
+        },
+        {
+          "content": "Utiliser la r&eacute;cursion"
+        },
+        {
+          "content": "Diviser le tableau en sous-tableaux"
+        }
+      ]
+    },
+    {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la complexit&eacute; de la recherche d&#39;un &eacute;l&eacute;ment dans un tableau tri&eacute; en utilisant la recherche binaire ?"
+        },
+        "options": [
+          {
+            "content": "O(log n)",
+            "correct": true
+          },
+          {
+            "content": "O(n)"
+          },
+          {
+            "content": "O(1)"
+          },
+          {
+            "content": "O(n²)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages d&#39;utiliser la r&eacute;cursion ?"
+        },
+        "options": [
+          {
+            "content": "Code plus lisible",
+            "correct": true
+          },
+          {
+            "content": "Solution naturelle pour certains probl&egrave;mes",
+            "correct": true
+          },
+          {
+            "content": "Divise le probl&egrave;me en sous-probl&egrave;mes",
+            "correct": true
+          },
+          {
+            "content": "Toujours plus efficace qu&#39;une solution it&eacute;rative"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle structure de contr&ocirc;le est la plus appropri&eacute;e pour v&eacute;rifier plusieurs conditions mutuellement exclusives ?"
+        },
+        "options": [
+          {
+            "content": "switch/case",
+            "correct": true
+          },
+          {
+            "content": "if-else imbriqu&eacute;s"
+          },
+          {
+            "content": "boucle while"
+          },
+          {
+            "content": "boucle for"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure fa&ccedil;on de concat&eacute;ner des cha&icirc;nes de caract&egrave;res de mani&egrave;re efficace ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser un StringBuilder/StringBuffer",
+            "correct": true
+          },
+          {
+            "content": "Op&eacute;rateur + r&eacute;p&eacute;t&eacute;"
+          },
+          {
+            "content": "Concat&eacute;nation dans une boucle"
+          },
+          {
+            "content": "Array.join()"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment optimiser une boucle qui parcourt un grand tableau ?"
+        },
+        "options": [
+          {
+            "content": "Stocker la longueur du tableau dans une variable",
+            "correct": true
+          },
+          {
+            "content": "Utiliser une boucle while"
+          },
+          {
+            "content": "Utiliser la r&eacute;cursion"
+          },
+          {
+            "content": "Diviser le tableau en deux"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les bonnes pratiques pour &eacute;viter les boucles infinies ?"
+        },
+        "options": [
+          {
+            "content": "V&eacute;rifier la condition de sortie",
+            "correct": true
+          },
+          {
+            "content": "Incr&eacute;menter/d&eacute;cr&eacute;menter correctement le compteur",
+            "correct": true
+          },
+          {
+            "content": "Utiliser une condition d&#39;arr&ecirc;t de s&eacute;curit&eacute;",
+            "correct": true
+          },
+          {
+            "content": "Toujours utiliser for plutôt que while"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour v&eacute;rifier si deux tableaux sont identiques ?"
+        },
+        "options": [
+          {
+            "content": "Comparer les &eacute;l&eacute;ments un à un",
+            "correct": true
+          },
+          {
+            "content": "Comparer leurs longueurs uniquement"
+          },
+          {
+            "content": "Comparer leurs r&eacute;f&eacute;rences"
+          },
+          {
+            "content": "Les trier d&#39;abord"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment d&eacute;terminer si un nombre est premier efficacement ?"
+        },
+        "options": [
+          {
+            "content": "Tester jusqu&#39;à la racine carr&eacute;e du nombre",
+            "correct": true
+          },
+          {
+            "content": "Tester tous les nombres jusqu&#39;à n"
+          },
+          {
+            "content": "Utiliser la r&eacute;cursion"
+          },
+          {
+            "content": "V&eacute;rifier uniquement les nombres pairs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure structure pour impl&eacute;menter une file d&#39;attente (queue) ?"
+        },
+        "options": [
+          {
+            "content": "Liste cha&icirc;n&eacute;e",
+            "correct": true
+          },
+          {
+            "content": "Tableau standard"
+          },
+          {
+            "content": "Pile"
+          },
+          {
+            "content": "Arbre binaire"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les approches valides pour inverser une cha&icirc;ne de caract&egrave;res ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser deux pointeurs (d&eacute;but et fin)",
+            "correct": true
+          },
+          {
+            "content": "Utiliser une pile",
+            "correct": true
+          },
+          {
+            "content": "Parcourir de droite à gauche",
+            "correct": true
+          },
+          {
+            "content": "Trier les caract&egrave;res"
+          }
+        ]
+      },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Quelle est la meilleure fa&ccedil;on de d&eacute;boguer une boucle infinie ?"
+          },
+          "options": [
+            {
+              "content": "Ajouter des points d&#39;arrêt et v&eacute;rifier les variables de contr&ocirc;le",
+              "correct": true
+            },
+            {
+              "content": "Ajouter plus de conditions"
+            },
+            {
+              "content": "Augmenter la taille de la pile"
+            },
+            {
+              "content": "R&eacute;&eacute;crire en r&eacute;cursif"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Comment optimiser la m&eacute;moire lors du traitement d&#39;un grand tableau ?"
+          },
+          "options": [
+            {
+              "content": "Traiter les &eacute;l&eacute;ments en place sans cr&eacute;er de copie",
+              "correct": true
+            },
+            {
+              "content": "Cr&eacute;er plusieurs copies temporaires"
+            },
+            {
+              "content": "Convertir en liste cha&icirc;n&eacute;e"
+            },
+            {
+              "content": "Utiliser la r&eacute;cursion"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "preview": false,
+            "content": "Quelles sont les bonnes pratiques pour &eacute;crire des conditions ?"
+          },
+          "options": [
+            {
+              "content": "Éviter les conditions imbriqu&eacute;es profondes",
+              "correct": true
+            },
+            {
+              "content": "Utiliser des noms de variables explicites",
+              "correct": true
+            },
+            {
+              "content": "V&eacute;rifier les cas limites",
+              "correct": true
+            },
+            {
+              "content": "Toujours utiliser des op&eacute;rateurs tern aires"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Quelle est la meilleure approche pour comparer des nombres à virgule flottante ?"
+          },
+          "options": [
+            {
+              "content": "Utiliser une tol&eacute;rance (epsilon)",
+              "correct": true
+            },
+            {
+              "content": "Comparaison directe avec =="
+            },
+            {
+              "content": "Convertir en entiers"
+            },
+            {
+              "content": "Arrondir les nombres"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Comment g&eacute;rer efficacement la recherche d&#39;&eacute;l&eacute;ments fr&eacute;quents ?"
+          },
+          "options": [
+            {
+              "content": "Utiliser une table de hachage",
+              "correct": true
+            },
+            {
+              "content": "Parcourir le tableau à chaque fois"
+            },
+            {
+              "content": "Trier le tableau"
+            },
+            {
+              "content": "Utiliser une liste cha&icirc;n&eacute;e"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "preview": false,
+            "content": "Quelles sont les bonnes pratiques pour &eacute;viter les fuites de m&eacute;moire ?"
+          },
+          "options": [
+            {
+              "content": "Lib&eacute;rer les ressources apr&egrave;s utilisation",
+              "correct": true
+            },
+            {
+              "content": "Éviter les r&eacute;f&eacute;rences circulaires",
+              "correct": true
+            },
+            {
+              "content": "Limiter la port&eacute;e des variables",
+              "correct": true
+            },
+            {
+              "content": "Utiliser uniquement des variables globales"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Quelle est la meilleure approche pour valider les entr&eacute;es utilisateur ?"
+          },
+          "options": [
+            {
+              "content": "V&eacute;rifier avant le traitement principal",
+              "correct": true
+            },
+            {
+              "content": "V&eacute;rifier apr&egrave;s le traitement"
+            },
+            {
+              "content": "Ne pas v&eacute;rifier pour optimiser"
+            },
+            {
+              "content": "Uniquement en production"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Comment optimiser une recherche fr&eacute;quente dans une grande collection de donn&eacute;es ?"
+          },
+          "options": [
+            {
+              "content": "Indexer les donn&eacute;es",
+              "correct": true
+            },
+            {
+              "content": "Toujours faire une recherche lin&eacute;aire"
+            },
+            {
+              "content": "Dupliquer les donn&eacute;es"
+            },
+            {
+              "content": "Utiliser uniquement la r&eacute;cursion"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "preview": false,
+            "content": "Quelle est la meilleure structure pour stocker des paires cl&eacute;-valeur ?"
+          },
+          "options": [
+            {
+              "content": "Table de hachage (HashMap)",
+              "correct": true
+            },
+            {
+              "content": "Tableau simple"
+            },
+            {
+              "content": "Liste cha&icirc;n&eacute;e"
+            },
+            {
+              "content": "Arbre binaire"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "preview": false,
+            "content": "Quelles sont les meilleures pratiques pour la gestion des erreurs ?"
+          },
+          "options": [
+            {
+              "content": "V&eacute;rifier les cas limites",
+              "correct": true
+            },
+            {
+              "content": "Utiliser try-catch appropri&eacute;ment",
+              "correct": true
+            },
+            {
+              "content": "Fournir des messages d&#39;erreur clairs",
+              "correct": true
+            },
+            {
+              "content": "Ignorer les erreurs mineures"
+            }
+          ]
+        },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Quelle est la complexit&eacute; de l'insertion dans un tableau dynamique (ArrayList) ?"
+              },
+              "options": [
+                {
+                  "content": "O(1) en moyenne, O(n) dans le pire cas",
+                  "correct": true
+                },
+                {
+                  "content": "Toujours O(n)"
+                },
+                {
+                  "content": "Toujours O(1)"
+                },
+                {
+                  "content": "O(log n)"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_response",
+                "preview": false,
+                "content": "Quels sont les avantages des algorithmes it&eacute;ratifs par rapport aux algorithmes r&eacute;cursifs ?"
+              },
+              "options": [
+                {
+                  "content": "Meilleure utilisation de la m&eacute;moire",
+                  "correct": true
+                },
+                {
+                  "content": "Pas de risque de d&eacute;bordement de pile",
+                  "correct": true
+                },
+                {
+                  "content": "G&eacute;n&eacute;ralement plus rapides",
+                  "correct": true
+                },
+                {
+                  "content": "Toujours plus lisibles"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Quelle structure de donn&eacute;es est la plus appropri&eacute;e pour impl&eacute;menter un syst&egrave;me d'annulation (undo) ?"
+              },
+              "options": [
+                {
+                  "content": "Pile (Stack)",
+                  "correct": true
+                },
+                {
+                  "content": "File (Queue)"
+                },
+                {
+                  "content": "Liste cha&icirc;n&eacute;e"
+                },
+                {
+                  "content": "Tableau"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Comment optimiser une boucle qui cherche plusieurs &eacute;l&eacute;ments dans un tableau ?"
+              },
+              "options": [
+                {
+                  "content": "Utiliser un HashSet pour les &eacute;l&eacute;ments recherch&eacute;s",
+                  "correct": true
+                },
+                {
+                  "content": "Faire plusieurs parcours"
+                },
+                {
+                  "content": "Trier le tableau d'abord"
+                },
+                {
+                  "content": "Utiliser des boucles imbriqu&eacute;es"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Quelle est la meilleure fa&ccedil;on de v&eacute;rifier si un nombre est une puissance de 2 ?"
+              },
+              "options": [
+                {
+                  "content": "Utiliser les op&eacute;rations bit à bit",
+                  "correct": true
+                },
+                {
+                  "content": "Diviser r&eacute;p&eacute;titivement par 2"
+                },
+                {
+                  "content": "Utiliser le logarithme"
+                },
+                {
+                  "content": "Tester tous les exposants possibles"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_response",
+                "preview": false,
+                "content": "Quelles sont les techniques pour r&eacute;duire la complexit&eacute; temporelle d'un algorithme ?"
+              },
+              "options": [
+                {
+                  "content": "Utiliser des structures de donn&eacute;es appropri&eacute;es",
+                  "correct": true
+                },
+                {
+                  "content": "Éviter les boucles imbriqu&eacute;es inutiles",
+                  "correct": true
+                },
+                {
+                  "content": "Utiliser la programmation dynamique",
+                  "correct": true
+                },
+                {
+                  "content": "Toujours utiliser la r&eacute;cursion"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Quelle est la meilleure approche pour trouver des doublons dans un tableau ?"
+              },
+              "options": [
+                {
+                  "content": "Utiliser un HashSet",
+                  "correct": true
+                },
+                {
+                  "content": "Comparer chaque &eacute;l&eacute;ment avec tous les autres"
+                },
+                {
+                  "content": "Trier le tableau d'abord"
+                },
+                {
+                  "content": "Utiliser un tableau de comptage"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Comment d&eacute;terminer la complexit&eacute; spatiale d'un algorithme r&eacute;cursif ?"
+              },
+              "options": [
+                {
+                  "content": "Analyser la profondeur de r&eacute;cursion et les variables locales",
+                  "correct": true
+                },
+                {
+                  "content": "Compter le nombre d'appels r&eacute;cursifs"
+                },
+                {
+                  "content": "Mesurer le temps d'ex&eacute;cution"
+                },
+                {
+                  "content": "Compter les variables globales"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_response",
+                "preview": false,
+                "content": "Quelles sont les bonnes pratiques pour &eacute;crire des algorithmes efficaces ?"
+              },
+              "options": [
+                {
+                  "content": "Choisir les bonnes structures de donn&eacute;es",
+                  "correct": true
+                },
+                {
+                  "content": "Minimiser les op&eacute;rations redondantes",
+                  "correct": true
+                },
+                {
+                  "content": "Optimiser les cas fr&eacute;quents",
+                  "correct": true
+                },
+                {
+                  "content": "Toujours privil&eacute;gier la r&eacute;cursion"
+                }
+              ]
+            },
+            {
+              "question_attributes": {
+                "type": "multiple_choice",
+                "preview": false,
+                "content": "Quelle est la meilleure approche pour parcourir une matrice en spirale ?"
+              },
+              "options": [
+                {
+                  "content": "Utiliser quatre pointeurs pour les limites",
+                  "correct": true
+                },
+                {
+                  "content": "R&eacute;cursion"
+                },
+                {
+                  "content": "Convertir en tableau 1D"
+                },
+                {
+                  "content": "Utiliser des math&eacute;matiques complexes"
+                }
+              ]
+            }
+    ]
+    }

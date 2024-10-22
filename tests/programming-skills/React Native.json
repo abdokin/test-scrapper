@@ -1,0 +1,704 @@
+{
+  "title": "React Native",
+  "attributes": {
+    "overview": "Ce test évalue la maîtrise du framework React Native, couvrant le développement d'applications mobiles cross-platform.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Composants React Native",
+      "Navigation",
+      "Gestion d'état",
+      "Performance",
+      "Style et Layout",
+      "APIs natives",
+      "Debugging",
+      "Déploiement"
+    ],
+    "relevancy": "Ce test est essentiel pour les postes de développeur mobile nécessitant une expertise en React Native.",
+    "description": "Le test évalue la compréhension des concepts fondamentaux et avancés de React Native.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la diff&eacute;rence principale entre React Native et React ?"
+      },
+      "options": [
+        {
+          "content": "React Native utilise des composants natifs au lieu de composants web",
+          "correct": true
+        },
+        {
+          "content": "React Native ne fonctionne que sur mobile"
+        },
+        {
+          "content": "React Native n&#39;utilise pas JSX"
+        },
+        {
+          "content": "React Native ne supporte pas le state"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment styliser un composant dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "StyleSheet.create()",
+          "correct": true
+        },
+        {
+          "content": "CSS classique"
+        },
+        {
+          "content": "SCSS"
+        },
+        {
+          "content": "styled-components"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les avantages de React Native ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;veloppement cross-platform",
+          "correct": true
+        },
+        {
+          "content": "Hot Reloading",
+          "correct": true
+        },
+        {
+          "content": "Grande communaut&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Meilleures performances que le code natif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle commande utiliser pour cr&eacute;er un nouveau projet React Native ?"
+      },
+      "options": [
+        {
+          "content": "npx react-native init MonProjet",
+          "correct": true
+        },
+        {
+          "content": "create-react-native-app"
+        },
+        {
+          "content": "npm create react-native"
+        },
+        {
+          "content": "react-native new"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer la navigation dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "React Navigation",
+          "correct": true
+        },
+        {
+          "content": "React Router"
+        },
+        {
+          "content": "Native Router"
+        },
+        {
+          "content": "Navigator"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les composants de base de React Native ?"
+      },
+      "options": [
+        {
+          "content": "View",
+          "correct": true
+        },
+        {
+          "content": "Text",
+          "correct": true
+        },
+        {
+          "content": "Image",
+          "correct": true
+        },
+        {
+          "content": "Div"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment d&eacute;boguer une application React Native ?"
+      },
+      "options": [
+        {
+          "content": "React Native Debugger",
+          "correct": true
+        },
+        {
+          "content": "Chrome DevTools"
+        },
+        {
+          "content": "Safari Inspector"
+        },
+        {
+          "content": "Native Debugger"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle propri&eacute;t&eacute; CSS n&#39;existe pas dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "float",
+          "correct": true
+        },
+        {
+          "content": "flex"
+        },
+        {
+          "content": "margin"
+        },
+        {
+          "content": "padding"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de gestion d&#39;&eacute;tat courants dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "Redux",
+          "correct": true
+        },
+        {
+          "content": "MobX",
+          "correct": true
+        },
+        {
+          "content": "Context API",
+          "correct": true
+        },
+        {
+          "content": "LocalStorage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment acc&eacute;der aux fonctionnalit&eacute;s natives du t&eacute;l&eacute;phone ?"
+      },
+      "options": [
+        {
+          "content": "Native Modules",
+          "correct": true
+        },
+        {
+          "content": "Web APIs"
+        },
+        {
+          "content": "DOM APIs"
+        },
+        {
+          "content": "Phone APIs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser les performances d&#39;une FlatList ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser keyExtractor et getItemLayout",
+          "correct": true
+        },
+        {
+          "content": "Utiliser ScrollView"
+        },
+        {
+          "content": "D&eacute;sactiver le virtualisation"
+        },
+        {
+          "content": "Charger toutes les donn&eacute;es d&#39;un coup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour le d&eacute;veloppement React Native ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la m&eacute;moire cache pour les images",
+          "correct": true
+        },
+        {
+          "content": "Impl&eacute;menter la pagination",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les rendus",
+          "correct": true
+        },
+        {
+          "content": "Charger toutes les ressources au d&eacute;marrage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour stocker des donn&eacute;es localement ?"
+      },
+      "options": [
+        {
+          "content": "AsyncStorage",
+          "correct": true
+        },
+        {
+          "content": "LocalStorage"
+        },
+        {
+          "content": "SessionStorage"
+        },
+        {
+          "content": "IndexedDB"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les notifications push ?"
+      },
+      "options": [
+        {
+          "content": "React Native Push Notification",
+          "correct": true
+        },
+        {
+          "content": "Web Notifications"
+        },
+        {
+          "content": "Alert"
+        },
+        {
+          "content": "Modal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de test recommand&eacute;s pour React Native ?"
+      },
+      "options": [
+        {
+          "content": "Jest",
+          "correct": true
+        },
+        {
+          "content": "React Native Testing Library",
+          "correct": true
+        },
+        {
+          "content": "Detox",
+          "correct": true
+        },
+        {
+          "content": "Selenium"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les diff&eacute;rentes tailles d&#39;&eacute;cran ?"
+      },
+      "options": [
+        {
+          "content": "Dimensions API et responsive design",
+          "correct": true
+        },
+        {
+          "content": "Media Queries"
+        },
+        {
+          "content": "CSS Breakpoints"
+        },
+        {
+          "content": "ViewPort units"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure fa&ccedil;on de g&eacute;rer les formulaires dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "Formik ou React Hook Form",
+          "correct": true
+        },
+        {
+          "content": "HTMLForm"
+        },
+        {
+          "content": "Native Form"
+        },
+        {
+          "content": "Redux Form"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d&#39;Expo ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;veloppement rapide",
+          "correct": true
+        },
+        {
+          "content": "Pas de configuration native n&eacute;cessaire",
+          "correct": true
+        },
+        {
+          "content": "OTA updates",
+          "correct": true
+        },
+        {
+          "content": "Meilleures performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les animations dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "Animated API",
+          "correct": true
+        },
+        {
+          "content": "CSS Animations"
+        },
+        {
+          "content": "jQuery Animations"
+        },
+        {
+          "content": "WebAnimations API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la diff&eacute;rence entre expo start et react-native run-android ?"
+      },
+      "options": [
+        {
+          "content": "expo start lance un projet Expo, run-android compile nativement",
+          "correct": true
+        },
+        {
+          "content": "Aucune diff&eacute;rence"
+        },
+        {
+          "content": "expo start est d&eacute;pr&eacute;ci&eacute;"
+        },
+        {
+          "content": "run-android est uniquement pour le d&eacute;bogage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser les performances d&#39;une FlatList ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser keyExtractor et getItemLayout",
+          "correct": true
+        },
+        {
+          "content": "Utiliser ScrollView"
+        },
+        {
+          "content": "D&eacute;sactiver le virtualisation"
+        },
+        {
+          "content": "Charger toutes les donn&eacute;es d&#39;un coup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour le d&eacute;veloppement React Native ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la m&eacute;moire cache pour les images",
+          "correct": true
+        },
+        {
+          "content": "Impl&eacute;menter la pagination",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les rendus",
+          "correct": true
+        },
+        {
+          "content": "Charger toutes les ressources au d&eacute;marrage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour stocker des donn&eacute;es localement ?"
+      },
+      "options": [
+        {
+          "content": "AsyncStorage",
+          "correct": true
+        },
+        {
+          "content": "LocalStorage"
+        },
+        {
+          "content": "SessionStorage"
+        },
+        {
+          "content": "IndexedDB"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les notifications push ?"
+      },
+      "options": [
+        {
+          "content": "React Native Push Notification",
+          "correct": true
+        },
+        {
+          "content": "Web Notifications"
+        },
+        {
+          "content": "Alert"
+        },
+        {
+          "content": "Modal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les outils de test recommand&eacute;s pour React Native ?"
+      },
+      "options": [
+        {
+          "content": "Jest",
+          "correct": true
+        },
+        {
+          "content": "React Native Testing Library",
+          "correct": true
+        },
+        {
+          "content": "Detox",
+          "correct": true
+        },
+        {
+          "content": "Selenium"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les diff&eacute;rentes tailles d&#39;&eacute;cran ?"
+      },
+      "options": [
+        {
+          "content": "Dimensions API et responsive design",
+          "correct": true
+        },
+        {
+          "content": "Media Queries"
+        },
+        {
+          "content": "CSS Breakpoints"
+        },
+        {
+          "content": "ViewPort units"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure fa&ccedil;on de g&eacute;rer les formulaires dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "Formik ou React Hook Form",
+          "correct": true
+        },
+        {
+          "content": "HTMLForm"
+        },
+        {
+          "content": "Native Form"
+        },
+        {
+          "content": "Redux Form"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d&#39;Expo ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;veloppement rapide",
+          "correct": true
+        },
+        {
+          "content": "Pas de configuration native n&eacute;cessaire",
+          "correct": true
+        },
+        {
+          "content": "OTA updates",
+          "correct": true
+        },
+        {
+          "content": "Meilleures performances"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment g&eacute;rer les animations dans React Native ?"
+      },
+      "options": [
+        {
+          "content": "Animated API",
+          "correct": true
+        },
+        {
+          "content": "CSS Animations"
+        },
+        {
+          "content": "jQuery Animations"
+        },
+        {
+          "content": "WebAnimations API"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la diff&eacute;rence entre expo start et react-native run-android ?"
+      },
+      "options": [
+        {
+          "content": "expo start lance un projet Expo, run-android compile nativement",
+          "correct": true
+        },
+        {
+          "content": "Aucune diff&eacute;rence"
+        },
+        {
+          "content": "expo start est d&eacute;pr&eacute;ci&eacute;"
+        },
+        {
+          "content": "run-android est uniquement pour le d&eacute;bogage"
+        }
+      ]
+    }
+  ]
+}
