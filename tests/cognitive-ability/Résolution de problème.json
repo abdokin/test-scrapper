@@ -1,0 +1,785 @@
+{
+  "title": "Résolution de problèmes",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à analyser des situations complexes, à identifier les informations pertinentes et à prendre des décisions logiques basées sur des données.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Analyse de situations",
+      "Prise de décision",
+      "Logique déductive",
+      "Interprétation de données",
+      "Résolution de conflits",
+      "Identification des priorités",
+      "Gestion des ressources",
+      "Pensée critique"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant une bonne capacité d'analyse, de prise de décision et de résolution de problèmes complexes.",
+    "description": "Le test évalue la capacité à comprendre des situations complexes et à proposer des solutions appropriées.",
+    "category": "Cognitive ability",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 540,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Une entreprise constate une baisse de 15% des ventes en ligne alors que les visites sur le site augmentent de 20%. Les retours clients mentionnent des problèmes lors du paiement.<br><br>Quelle devrait être la première action à entreprendre ?"
+      },
+      "options": [
+        {
+          "content": "Auditer le système de paiement en ligne",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le budget marketing"
+        },
+        {
+          "content": "Réduire les prix des produits"
+        },
+        {
+          "content": "Modifier le design du site"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Dans une équipe de 10 personnes, 3 membres signalent régulièrement des conflits avec un collègue qui arrive systématiquement en retard aux réunions et ne respecte pas les délais.<br><br>Quelle approche serait la plus appropriée ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une réunion individuelle avec le collègue pour comprendre la situation",
+          "correct": true
+        },
+        {
+          "content": "Exclure immédiatement le collègue de l'équipe"
+        },
+        {
+          "content": "Ignorer le problème pour éviter les tensions"
+        },
+        {
+          "content": "Réorganiser toute l'équipe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Un restaurant reçoit de nombreuses plaintes concernant le temps d'attente le soir. L'analyse montre que :<br>- Le temps d'attente moyen est de 45 minutes<br>- Il y a 2 serveurs pour 20 tables<br>- La cuisine fonctionne normalement<br><br>Quelle solution serait la plus efficace ?"
+      },
+      "options": [
+        {
+          "content": "Embaucher un serveur supplémentaire pour le service du soir",
+          "correct": true
+        },
+        {
+          "content": "Augmenter les prix"
+        },
+        {
+          "content": "Réduire le nombre de tables"
+        },
+        {
+          "content": "Modifier le menu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise doit livrer 3 commandes urgentes avec un seul véhicule :<br>- Client A : 10 km, délai 2h<br>- Client B : 5 km, délai 3h<br>- Client C : 15 km, délai 1h<br><br>Dans quel ordre effectuer les livraisons ?"
+      },
+      "options": [
+        {
+          "content": "C - B - A",
+          "correct": true
+        },
+        {
+          "content": "A - B - C"
+        },
+        {
+          "content": "B - A - C"
+        },
+        {
+          "content": "B - C - A"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un projet important est en retard de 2 semaines sur un délai initial de 8 semaines. L'équipe dispose de trois options :<br>1. Ajouter 2 nouveaux membres (1 semaine de formation nécessaire)<br>2. Faire des heures supplémentaires (coût élevé)<br>3. Réduire certaines fonctionnalités<br><br>Quelle est la meilleure solution ?"
+      },
+      "options": [
+        {
+          "content": "Réduire certaines fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Ajouter 2 nouveaux membres"
+        },
+        {
+          "content": "Faire des heures supplémentaires"
+        },
+        {
+          "content": "Combiner les options 1 et 2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un magasin constate que 30% des clients quittent la file d'attente sans acheter. Les données montrent :<br>- Temps d'attente moyen : 12 minutes<br>- 2 caisses sur 5 sont ouvertes<br>- Pic d'affluence entre 12h et 14h<br><br>Quelle solution apporterait le meilleur rapport coût/efficacité ?"
+      },
+      "options": [
+        {
+          "content": "Ouvrir une caisse supplémentaire aux heures de pointe",
+          "correct": true
+        },
+        {
+          "content": "Installer des caisses automatiques"
+        },
+        {
+          "content": "Agrandir l'espace d'attente"
+        },
+        {
+          "content": "Réduire les prix aux heures creuses"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un entrepôt, on constate une augmentation des erreurs de préparation de commandes :<br>- 15% d'erreurs le matin<br>- 25% d'erreurs l'après-midi<br>- Système d'éclairage vieillissant<br>- Nouvelle organisation des stocks depuis 1 mois<br><br>Quelle est la cause probable principale ?"
+      },
+      "options": [
+        {
+          "content": "La nouvelle organisation des stocks",
+          "correct": true
+        },
+        {
+          "content": "Le système d'éclairage"
+        },
+        {
+          "content": "La fatigue des employés"
+        },
+        {
+          "content": "Le manque de formation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une équipe doit choisir entre trois projets :<br>Projet A : 6 mois, ROI 20%, risque moyen<br>Projet B : 3 mois, ROI 15%, risque faible<br>Projet C : 12 mois, ROI 30%, risque élevé<br><br>Avec des ressources limitées, quel projet choisir ?"
+      },
+      "options": [
+        {
+          "content": "Projet B",
+          "correct": true
+        },
+        {
+          "content": "Projet A"
+        },
+        {
+          "content": "Projet C"
+        },
+        {
+          "content": "Projets A et B en parallèle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un site e-commerce connaît les problèmes suivants :<br>- Taux d'abandon panier : 75%<br>- Temps de chargement moyen : 8 secondes<br>- Trafic mobile : 60% des visites<br>- Notes utilisateurs : 2,5/5<br><br>Quelle devrait être la priorité d'action ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser le temps de chargement du site",
+          "correct": true
+        },
+        {
+          "content": "Refaire le design du site"
+        },
+        {
+          "content": "Ajouter plus de produits"
+        },
+        {
+          "content": "Augmenter le budget publicité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise de livraison fait face à une situation critique :<br>- 5 livreurs en arrêt maladie sur 20<br>- 100 colis urgents à livrer aujourd'hui<br>- Budget limité pour heures supplémentaires<br>- Délai client maximum : 24h<br><br>Quelle est la meilleure solution immédiate ?"
+      },
+      "options": [
+        {
+          "content": "Prioriser les livraisons selon l'urgence et la proximité géographique",
+          "correct": true
+        },
+        {
+          "content": "Embaucher des intérimaires"
+        },
+        {
+          "content": "Reporter toutes les livraisons"
+        },
+        {
+          "content": "Sous-traiter à une autre entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un service client, on observe :<br>- Temps d'attente moyen : 15 minutes<br>- 40% des appels concernent le même problème technique<br>- Satisfaction client en baisse de 30%<br>- Turnover des agents : 25%<br><br>Quelle action aurait le plus d'impact ?"
+      },
+      "options": [
+        {
+          "content": "Créer une FAQ dédiée au problème technique récurrent",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le nombre d'agents"
+        },
+        {
+          "content": "Changer le logiciel de gestion"
+        },
+        {
+          "content": "Former plus les agents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une équipe projet rencontre des difficultés :<br>- Délais non respectés : 60% des tâches<br>- Communications confuses entre services<br>- Objectifs mal compris par l'équipe<br>- Budget respecté<br><br>Quelle action entreprendre en priorité ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une réunion de clarification des objectifs",
+          "correct": true
+        },
+        {
+          "content": "Changer le chef de projet"
+        },
+        {
+          "content": "Augmenter le budget"
+        },
+        {
+          "content": "Réduire la taille du projet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un petit supermarché :<br>- 20% des produits représentent 80% des ventes<br>- Espace de stockage limité<br>- Pertes importantes sur produits frais<br>- Concurrence proche avec prix plus bas<br><br>Quelle stratégie adopter ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser le stock des produits les plus vendus et réduire celui des autres",
+          "correct": true
+        },
+        {
+          "content": "Baisser tous les prix"
+        },
+        {
+          "content": "Agrandir le magasin"
+        },
+        {
+          "content": "Changer de fournisseurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une startup en croissance fait face à :<br>- Augmentation rapide des clients (+200%)<br>- Infrastructure IT saturée<br>- Budget limité<br>- Équipe technique restreinte<br><br>Quelle solution privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Migrer vers une infrastructure cloud évolutive",
+          "correct": true
+        },
+        {
+          "content": "Acheter plus de serveurs"
+        },
+        {
+          "content": "Limiter les nouveaux clients"
+        },
+        {
+          "content": "Recruter plus de techniciens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une usine de production :<br>- Pannes fréquentes d'une machine clé<br>- Coût maintenance : +40% cette année<br>- Machine amortie depuis 3 ans<br>- Production en hausse<br><br>Quelle décision prendre ?"
+      },
+      "options": [
+        {
+          "content": "Investir dans une nouvelle machine",
+          "correct": true
+        },
+        {
+          "content": "Continuer la maintenance"
+        },
+        {
+          "content": "Former plus de techniciens"
+        },
+        {
+          "content": "Réduire la production"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une chaîne de restaurants constate :<br>- Baisse de qualité des plats signalée<br>- Rotation élevée du personnel en cuisine<br>- Temps de préparation en hausse de 30%<br>- Coûts des matières premières stables<br>- Chef principal démissionnaire<br><br>Quelle action prioritaire entreprendre ?"
+      },
+      "options": [
+        {
+          "content": "Recruter un chef expérimenté et revoir l'organisation de la cuisine",
+          "correct": true
+        },
+        {
+          "content": "Changer les fournisseurs"
+        },
+        {
+          "content": "Simplifier la carte"
+        },
+        {
+          "content": "Augmenter les salaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une école de formation :<br>- Taux d'abandon des étudiants : 35%<br>- Satisfaction des cours en ligne : 65%<br>- Satisfaction des cours présentiels : 85%<br>- Demandes d'inscription en hausse<br><br>Quelle stratégie adopter ?"
+      },
+      "options": [
+        {
+          "content": "Privilégier les cours en présentiel et améliorer la qualité du contenu en ligne",
+          "correct": true
+        },
+        {
+          "content": "Passer tout en distanciel"
+        },
+        {
+          "content": "Réduire les effectifs"
+        },
+        {
+          "content": "Augmenter les frais d'inscription"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise fait face à une crise médiatique :<br>- Accusations sur réseaux sociaux<br>- Clients mécontents qui s'expriment<br>- Employés inquiets<br>- Chiffre d'affaires en baisse de 15%<br><br>Quelle devrait être la première réaction ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer de manière transparente sur les actions correctives prévues",
+          "correct": true
+        },
+        {
+          "content": "Ignorer les accusations"
+        },
+        {
+          "content": "Fermer les réseaux sociaux"
+        },
+        {
+          "content": "Lancer une campagne publicitaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un entrepôt logistique :<br>- Erreurs de picking : +25%<br>- Nouveaux employés : 40% de l'effectif<br>- Système de gestion récemment mis à jour<br>- Plaintes clients en hausse<br><br>Quelle solution mettre en place ?"
+      },
+      "options": [
+        {
+          "content": "Renforcer la formation des nouveaux employés sur le système",
+          "correct": true
+        },
+        {
+          "content": "Revenir à l'ancien système"
+        },
+        {
+          "content": "Automatiser tout le picking"
+        },
+        {
+          "content": "Embaucher plus de personnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un service informatique constate :<br>- Augmentation des tickets support : +50%<br>- Temps de résolution moyen : 48h<br>- Problèmes récurrents : 60% des cas<br>- Satisfaction utilisateurs : 45%<br><br>Quelle approche privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Créer une base de connaissances pour les problèmes récurrents",
+          "correct": true
+        },
+        {
+          "content": "Remplacer tous les équipements"
+        },
+        {
+          "content": "Doubler l'équipe support"
+        },
+        {
+          "content": "Externaliser le support"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une équipe commerciale rencontre des difficultés :<br>- Objectifs atteints : 65%<br>- Durée moyenne de vente : +20%<br>- Taux de conversion en baisse<br>- Turnover commercial élevé<br><br>Quelle action entreprendre en priorité ?"
+      },
+      "options": [
+        {
+          "content": "Analyser le processus de vente et identifier les points de blocage",
+          "correct": true
+        },
+        {
+          "content": "Changer tous les objectifs"
+        },
+        {
+          "content": "Recruter plus de commerciaux"
+        },
+        {
+          "content": "Augmenter les commissions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un service de maintenance :<br>- Délais d'intervention : +40%<br>- Coûts des pièces : +25%<br>- Stock de pièces insuffisant<br>- Satisfaction client : 55%<br><br>Quelle solution apporter ?"
+      },
+      "options": [
+        {
+          "content": "Optimiser la gestion des stocks et prévoir les pièces critiques",
+          "correct": true
+        },
+        {
+          "content": "Augmenter tous les stocks"
+        },
+        {
+          "content": "Sous-traiter la maintenance"
+        },
+        {
+          "content": "Augmenter les prix"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise lance sa transformation digitale :<br>- Résistance de 40% des employés<br>- Coûts dépassant de 30% le budget<br>- Retard de 2 mois sur le planning<br>- Premiers retours utilisateurs mitigés<br><br>Quelle action corrective privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Mettre en place un plan d'accompagnement au changement et de formation",
+          "correct": true
+        },
+        {
+          "content": "Abandonner la transformation"
+        },
+        {
+          "content": "Imposer les changements"
+        },
+        {
+          "content": "Changer de prestataire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un projet critique présente :<br>- 3 équipes en conflit<br>- Objectifs interprétés différemment<br>- Deadline dans 2 mois<br>- Budget déjà consommé à 70%<br><br>Quelle approche adopter ?"
+      },
+      "options": [
+        {
+          "content": "Organiser un workshop de réalignement des objectifs entre équipes",
+          "correct": true
+        },
+        {
+          "content": "Remplacer les chefs d'équipe"
+        },
+        {
+          "content": "Fusionner les équipes"
+        },
+        {
+          "content": "Demander plus de budget"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une usine fait face à :<br>- Qualité produits : -15%<br>- Accidents de travail : +20%<br>- Absentéisme élevé<br>- Maintenance préventive négligée<br><br>Quelle priorité d'action ?"
+      },
+      "options": [
+        {
+          "content": "Réaliser un audit sécurité et qualité complet",
+          "correct": true
+        },
+        {
+          "content": "Licencier les absents"
+        },
+        {
+          "content": "Augmenter la production"
+        },
+        {
+          "content": "Changer les machines"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Situation dans un grand magasin :<br>- Vols en hausse de 25%<br>- Système de surveillance obsolète<br>- Personnel de sécurité insuffisant<br>- Budget sécurité limité<br><br>Quelle solution privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Moderniser le système de surveillance en priorisant les zones sensibles",
+          "correct": true
+        },
+        {
+          "content": "Fermer temporairement"
+        },
+        {
+          "content": "Augmenter tous les prix"
+        },
+        {
+          "content": "Réduire les horaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une PME constate :<br>- Croissance rapide : +100% en 1 an<br>- Structure organisationnelle floue<br>- Communication interne défaillante<br>- Processus non formalisés<br><br>Quelle action prioritaire ?"
+      },
+      "options": [
+        {
+          "content": "Redéfinir l'organigramme et formaliser les processus clés",
+          "correct": true
+        },
+        {
+          "content": "Ralentir la croissance"
+        },
+        {
+          "content": "Licencier les managers"
+        },
+        {
+          "content": "Déménager dans de plus grands locaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un service RH observe :<br>- Durée recrutement : +45 jours<br>- Candidats qui se désistent : 30%<br>- Postes critiques non pourvus<br>- Process de recrutement complexe<br><br>Quelle solution apporter ?"
+      },
+      "options": [
+        {
+          "content": "Simplifier le processus de recrutement et accélérer la prise de décision",
+          "correct": true
+        },
+        {
+          "content": "Augmenter tous les salaires"
+        },
+        {
+          "content": "Externaliser tout le recrutement"
+        },
+        {
+          "content": "Réduire les exigences"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise internationale constate :<br>- Collaboration difficile entre pays<br>- Fuseaux horaires problématiques<br>- Différences culturelles marquées<br>- Projets en retard de 30%<br><br>Quelle approche adopter ?"
+      },
+      "options": [
+        {
+          "content": "Mettre en place des outils collaboratifs et des règles de communication adaptées",
+          "correct": true
+        },
+        {
+          "content": "Centraliser toutes les équipes"
+        },
+        {
+          "content": "Imposer une seule culture"
+        },
+        {
+          "content": "Réduire les projets internationaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Lors d'une fusion d'entreprises :<br>- Culture d'entreprise très différente<br>- Doublon de postes : 30% des effectifs<br>- Synergies non réalisées après 6 mois<br>- Démissions en hausse<br><br>Quelle devrait être la première action ?"
+      },
+      "options": [
+        {
+          "content": "Établir une feuille de route d'intégration claire avec objectifs mesurables",
+          "correct": true
+        },
+        {
+          "content": "Licencier immédiatement les doublons"
+        },
+        {
+          "content": "Maintenir les structures séparées"
+        },
+        {
+          "content": "Changer toute la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise fait face à des défis environnementaux :<br>- Pression des clients pour plus d'écologie<br>- Réglementation qui se durcit<br>- Coûts énergétiques en hausse de 40%<br>- Concurrents déjà engagés<br><br>Quelle stratégie adopter ?"
+      },
+      "options": [
+        {
+          "content": "Lancer un plan de transformation écologique avec objectifs à court et moyen terme",
+          "correct": true
+        },
+        {
+          "content": "Ignorer les pressions"
+        },
+        {
+          "content": "Délocaliser la production"
+        },
+        {
+          "content": "Augmenter les prix"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un laboratoire de R&D constate :<br>- Innovation en baisse : -40% de brevets<br>- Budget constant mais résultats en baisse<br>- Départs de chercheurs clés<br>- Concurrence plus innovante<br><br>Quelle approche privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Mettre en place un programme d'innovation ouverte et de collaboration externe",
+          "correct": true
+        },
+        {
+          "content": "Augmenter le budget"
+        },
+        {
+          "content": "Réduire les projets"
+        },
+        {
+          "content": "Copier la concurrence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Face à une crise sanitaire dans l'entreprise :<br>- 25% des employés malades<br>- Production ralentie de 40%<br>- Protocoles sanitaires insuffisants<br>- Clients inquiets<br><br>Quelle action immédiate entreprendre ?"
+      },
+      "options": [
+        {
+          "content": "Renforcer les mesures sanitaires et réorganiser le travail en équipes isolées",
+          "correct": true
+        },
+        {
+          "content": "Fermer l'entreprise"
+        },
+        {
+          "content": "Ignorer la situation"
+        },
+        {
+          "content": "Licencier les malades"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une entreprise traditionnelle fait face à :<br>- Nouveaux concurrents digitaux<br>- Parts de marché : -20% en 1 an<br>- Clients demandant plus de digital<br>- Système IT vieillissant<br><br>Quelle stratégie adopter ?"
+      },
+      "options": [
+        {
+          "content": "Lancer un plan de transformation digitale progressif et former les équipes",
+          "correct": true
+        },
+        {
+          "content": "Vendre l'entreprise"
+        },
+        {
+          "content": "Baisser tous les prix"
+        },
+        {
+          "content": "Licencier pour réduire les coûts"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans le cadre d'une expansion internationale :<br>- Marchés cibles très différents<br>- Ressources limitées<br>- Réglementations complexes<br>- Concurrence locale forte<br><br>Quelle approche choisir ?"
+      },
+      "options": [
+        {
+          "content": "Se concentrer sur un marché test avant d'étendre progressivement",
+          "correct": true
+        },
+        {
+          "content": "Entrer sur tous les marchés"
+        },
+        {
+          "content": "Abandonner l'expansion"
+        },
+        {
+          "content": "Racheter un concurrent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une startup en hypercroissance fait face à :<br>- Infrastructure technique saturée<br>- Qualité de service en baisse<br>- Dette technique importante<br>- Équipe tech débordée<br><br>Quelle décision prendre ?"
+      },
+      "options": [
+        {
+          "content": "Ralentir temporairement la croissance pour consolider l'infrastructure",
+          "correct": true
+        },
+        {
+          "content": "Continuer la croissance"
+        },
+        {
+          "content": "Changer toute l'infrastructure"
+        },
+        {
+          "content": "Licencier l'équipe tech"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "title": "Calcul de base à deux chiffres",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à effectuer des calculs de base impliquant des nombres à deux chiffres, en utilisant l'addition, la soustraction, la multiplication et la division.",
+    "level": "entry_level",
+    "covered_skills": [
+      "Addition de nombres à deux chiffres",
+      "Soustraction de nombres à deux chiffres",
+      "Multiplication de nombres à deux chiffres",
+      "Division avec nombres à deux chiffres",
+      "Calcul mental",
+      "Estimation rapide",
+      "Opérations combinées simples",
+      "Vérification de résultats"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant des calculs quotidiens comme la vente, la caisse, le service client ou la gestion de stock.",
+    "description": "Le test évalue la précision et la rapidité dans l'exécution des opérations mathématiques de base avec des nombres à deux chiffres.",
+    "category": "Cognitive ability",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Calculez : 45 + 37"
+      },
+      "options": [
+        {
+          "content": "82",
+          "correct": true
+        },
+        {
+          "content": "72"
+        },
+        {
+          "content": "92"
+        },
+        {
+          "content": "83"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Calculez : 93 - 48"
+      },
+      "options": [
+        {
+          "content": "45",
+          "correct": true
+        },
+        {
+          "content": "55"
+        },
+        {
+          "content": "35"
+        },
+        {
+          "content": "44"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Calculez : 12 × 8"
+      },
+      "options": [
+        {
+          "content": "96",
+          "correct": true
+        },
+        {
+          "content": "86"
+        },
+        {
+          "content": "106"
+        },
+        {
+          "content": "76"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 85 + 26"
+      },
+      "options": [
+        {
+          "content": "111",
+          "correct": true
+        },
+        {
+          "content": "101"
+        },
+        {
+          "content": "121"
+        },
+        {
+          "content": "112"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 72 ÷ 9"
+      },
+      "options": [
+        {
+          "content": "8",
+          "correct": true
+        },
+        {
+          "content": "9"
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 64 - 37"
+      },
+      "options": [
+        {
+          "content": "27",
+          "correct": true
+        },
+        {
+          "content": "37"
+        },
+        {
+          "content": "17"
+        },
+        {
+          "content": "28"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 15 × 6"
+      },
+      "options": [
+        {
+          "content": "90",
+          "correct": true
+        },
+        {
+          "content": "80"
+        },
+        {
+          "content": "100"
+        },
+        {
+          "content": "85"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 56 + 45"
+      },
+      "options": [
+        {
+          "content": "101",
+          "correct": true
+        },
+        {
+          "content": "91"
+        },
+        {
+          "content": "111"
+        },
+        {
+          "content": "102"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 84 ÷ 4"
+      },
+      "options": [
+        {
+          "content": "21",
+          "correct": true
+        },
+        {
+          "content": "22"
+        },
+        {
+          "content": "20"
+        },
+        {
+          "content": "19"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 95 - 58"
+      },
+      "options": [
+        {
+          "content": "37",
+          "correct": true
+        },
+        {
+          "content": "47"
+        },
+        {
+          "content": "27"
+        },
+        {
+          "content": "38"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 25 × 4"
+      },
+      "options": [
+        {
+          "content": "100",
+          "correct": true
+        },
+        {
+          "content": "90"
+        },
+        {
+          "content": "110"
+        },
+        {
+          "content": "95"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 78 + 34"
+      },
+      "options": [
+        {
+          "content": "112",
+          "correct": true
+        },
+        {
+          "content": "102"
+        },
+        {
+          "content": "122"
+        },
+        {
+          "content": "111"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 96 ÷ 8"
+      },
+      "options": [
+        {
+          "content": "12",
+          "correct": true
+        },
+        {
+          "content": "11"
+        },
+        {
+          "content": "13"
+        },
+        {
+          "content": "14"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 87 - 29"
+      },
+      "options": [
+        {
+          "content": "58",
+          "correct": true
+        },
+        {
+          "content": "68"
+        },
+        {
+          "content": "48"
+        },
+        {
+          "content": "57"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 13 × 7"
+      },
+      "options": [
+        {
+          "content": "91",
+          "correct": true
+        },
+        {
+          "content": "81"
+        },
+        {
+          "content": "101"
+        },
+        {
+          "content": "92"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si un article coûte 45€ et que le client donne 100€, combien doit-on lui rendre ?"
+      },
+      "options": [
+        {
+          "content": "55€",
+          "correct": true
+        },
+        {
+          "content": "65€"
+        },
+        {
+          "content": "45€"
+        },
+        {
+          "content": "50€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (32 + 18) ÷ 5"
+      },
+      "options": [
+        {
+          "content": "10",
+          "correct": true
+        },
+        {
+          "content": "12"
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "11"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Combien font 35 × 10 ?"
+      },
+      "options": [
+        {
+          "content": "350",
+          "correct": true
+        },
+        {
+          "content": "450"
+        },
+        {
+          "content": "250"
+        },
+        {
+          "content": "305"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un vendeur a vendu 23 articles à 4€ pièce. Combien a-t-il gagné ?"
+      },
+      "options": [
+        {
+          "content": "92€",
+          "correct": true
+        },
+        {
+          "content": "82€"
+        },
+        {
+          "content": "102€"
+        },
+        {
+          "content": "88€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 42 est divisé par 6, quel est le reste ?"
+      },
+      "options": [
+        {
+          "content": "0",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 99 - 25 + 11"
+      },
+      "options": [
+        {
+          "content": "85",
+          "correct": true
+        },
+        {
+          "content": "75"
+        },
+        {
+          "content": "95"
+        },
+        {
+          "content": "83"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un paquet de 50 bonbons, si on en distribue 6 à chaque enfant, combien d'enfants peuvent en recevoir ?"
+      },
+      "options": [
+        {
+          "content": "8",
+          "correct": true
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "9"
+        },
+        {
+          "content": "10"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le double de 47 ?"
+      },
+      "options": [
+        {
+          "content": "94",
+          "correct": true
+        },
+        {
+          "content": "84"
+        },
+        {
+          "content": "104"
+        },
+        {
+          "content": "92"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 75 est diminué de 28, quel nombre obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "47",
+          "correct": true
+        },
+        {
+          "content": "57"
+        },
+        {
+          "content": "37"
+        },
+        {
+          "content": "48"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 16 × 5 + 10"
+      },
+      "options": [
+        {
+          "content": "90",
+          "correct": true
+        },
+        {
+          "content": "80"
+        },
+        {
+          "content": "100"
+        },
+        {
+          "content": "85"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un livre coûte 24€. Quelle est la moitié de son prix ?"
+      },
+      "options": [
+        {
+          "content": "12€",
+          "correct": true
+        },
+        {
+          "content": "14€"
+        },
+        {
+          "content": "10€"
+        },
+        {
+          "content": "8€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une classe de 36 élèves, si on forme des groupes de 4, combien de groupes complets peut-on former ?"
+      },
+      "options": [
+        {
+          "content": "9",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "10"
+        },
+        {
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un article coûte 85€ avec une réduction de 20%. Quel est le prix final ?"
+      },
+      "options": [
+        {
+          "content": "68€",
+          "correct": true
+        },
+        {
+          "content": "65€"
+        },
+        {
+          "content": "72€"
+        },
+        {
+          "content": "70€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si un client achète 3 articles à 15€ pièce et donne un billet de 50€, combien doit-on lui rendre ?"
+      },
+      "options": [
+        {
+          "content": "5€",
+          "correct": true
+        },
+        {
+          "content": "10€"
+        },
+        {
+          "content": "15€"
+        },
+        {
+          "content": "0€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un élève a eu les notes suivantes : 12, 15, 13. Quelle est sa moyenne ?"
+      },
+      "options": [
+        {
+          "content": "13,33",
+          "correct": true
+        },
+        {
+          "content": "13"
+        },
+        {
+          "content": "14"
+        },
+        {
+          "content": "12,5"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si une réunion commence à 14h30 et dure 95 minutes, à quelle heure se termine-t-elle ?"
+      },
+      "options": [
+        {
+          "content": "16h05",
+          "correct": true
+        },
+        {
+          "content": "16h15"
+        },
+        {
+          "content": "15h55"
+        },
+        {
+          "content": "16h00"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un vendeur fait 48€ de vente le matin et 37€ l'après-midi. Quel est son total de vente ?"
+      },
+      "options": [
+        {
+          "content": "85€",
+          "correct": true
+        },
+        {
+          "content": "75€"
+        },
+        {
+          "content": "95€"
+        },
+        {
+          "content": "83€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 96 bonbons sont partagés équitablement entre 12 enfants, combien chacun en reçoit-il ?"
+      },
+      "options": [
+        {
+          "content": "8",
+          "correct": true
+        },
+        {
+          "content": "9"
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "10"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un client achète 4 articles à 12€ chacun. S'il bénéficie d'une remise de 10€, combien doit-il payer ?"
+      },
+      "options": [
+        {
+          "content": "38€",
+          "correct": true
+        },
+        {
+          "content": "42€"
+        },
+        {
+          "content": "35€"
+        },
+        {
+          "content": "40€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un magasin reçoit 84 bouteilles emballées par cartons de 6. Combien y a-t-il de cartons complets ?"
+      },
+      "options": [
+        {
+          "content": "14",
+          "correct": true
+        },
+        {
+          "content": "13"
+        },
+        {
+          "content": "15"
+        },
+        {
+          "content": "12"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une voiture parcourt 65 km en une heure. Quelle distance parcourt-elle en 2 heures ?"
+      },
+      "options": [
+        {
+          "content": "130 km",
+          "correct": true
+        },
+        {
+          "content": "120 km"
+        },
+        {
+          "content": "140 km"
+        },
+        {
+          "content": "125 km"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si un stylo coûte 3€ et qu'un cahier coûte 5€, combien coûtent 2 stylos et 3 cahiers ?"
+      },
+      "options": [
+        {
+          "content": "21€",
+          "correct": true
+        },
+        {
+          "content": "19€"
+        },
+        {
+          "content": "23€"
+        },
+        {
+          "content": "18€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un ouvrier travaille 8 heures par jour pendant 5 jours. Combien d'heures travaille-t-il au total ?"
+      },
+      "options": [
+        {
+          "content": "40",
+          "correct": true
+        },
+        {
+          "content": "35"
+        },
+        {
+          "content": "45"
+        },
+        {
+          "content": "38"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 15 personnes doivent se partager 90€ équitablement, combien chacune reçoit-elle ?"
+      },
+      "options": [
+        {
+          "content": "6€",
+          "correct": true
+        },
+        {
+          "content": "5€"
+        },
+        {
+          "content": "7€"
+        },
+        {
+          "content": "8€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un article coûte 75€. En soldes, il est à -30%. Puis le vendeur fait une remise supplémentaire de 10€. Quel est le prix final ?"
+      },
+      "options": [
+        {
+          "content": "42,50€",
+          "correct": true
+        },
+        {
+          "content": "45€"
+        },
+        {
+          "content": "40€"
+        },
+        {
+          "content": "47,50€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un client donne deux billets de 20€ et un billet de 5€ pour un achat de 36€. Combien doit-on lui rendre ?"
+      },
+      "options": [
+        {
+          "content": "9€",
+          "correct": true
+        },
+        {
+          "content": "11€"
+        },
+        {
+          "content": "8€"
+        },
+        {
+          "content": "10€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si un train part à 15h25 et arrive à 17h10, combien de temps a duré le trajet ?"
+      },
+      "options": [
+        {
+          "content": "1h45",
+          "correct": true
+        },
+        {
+          "content": "1h35"
+        },
+        {
+          "content": "2h15"
+        },
+        {
+          "content": "1h55"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une boîte contient 60 biscuits. Si on en mange 15 par jour, pour combien de jours en a-t-on ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 3 croissants coûtent 4,50€, combien coûtent 6 croissants ?"
+      },
+      "options": [
+        {
+          "content": "9€",
+          "correct": true
+        },
+        {
+          "content": "8€"
+        },
+        {
+          "content": "10€"
+        },
+        {
+          "content": "8,50€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un ouvrier fait 35 pièces en une heure. Combien en fait-il en 4 heures ?"
+      },
+      "options": [
+        {
+          "content": "140",
+          "correct": true
+        },
+        {
+          "content": "130"
+        },
+        {
+          "content": "150"
+        },
+        {
+          "content": "135"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un lot de 50 balles, 40% sont rouges. Combien y a-t-il de balles rouges ?"
+      },
+      "options": [
+        {
+          "content": "20",
+          "correct": true
+        },
+        {
+          "content": "25"
+        },
+        {
+          "content": "15"
+        },
+        {
+          "content": "30"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un vélo coûte 95€. Si je donne un acompte de 35€, combien me reste-t-il à payer ?"
+      },
+      "options": [
+        {
+          "content": "60€",
+          "correct": true
+        },
+        {
+          "content": "65€"
+        },
+        {
+          "content": "55€"
+        },
+        {
+          "content": "70€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si on partage 85€ entre 5 personnes, combien chacune reçoit-elle ?"
+      },
+      "options": [
+        {
+          "content": "17€",
+          "correct": true
+        },
+        {
+          "content": "16€"
+        },
+        {
+          "content": "18€"
+        },
+        {
+          "content": "15€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un magasin vend des t-shirts à 25€ pièce ou 3 pour 60€. Combien économise-t-on en achetant 3 t-shirts ensemble ?"
+      },
+      "options": [
+        {
+          "content": "15€",
+          "correct": true
+        },
+        {
+          "content": "10€"
+        },
+        {
+          "content": "20€"
+        },
+        {
+          "content": "12€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si une voiture consomme 6 litres aux 100 km, combien consomme-t-elle pour 50 km ?"
+      },
+      "options": [
+        {
+          "content": "3 litres",
+          "correct": true
+        },
+        {
+          "content": "2 litres"
+        },
+        {
+          "content": "4 litres"
+        },
+        {
+          "content": "2,5 litres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une classe de 30 élèves, 20 sont des filles. Quel est le pourcentage de garçons ?"
+      },
+      "options": [
+        {
+          "content": "33,33%",
+          "correct": true
+        },
+        {
+          "content": "30%"
+        },
+        {
+          "content": "35%"
+        },
+        {
+          "content": "40%"
+        }
+      ]
+    }
+  ]
+}

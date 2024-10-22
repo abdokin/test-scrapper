@@ -1,0 +1,827 @@
+{
+  "title": "Raisonnement Spatial",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à manipuler mentalement des objets en 2D et 3D, à comprendre les relations spatiales et à résoudre des problèmes de visualisation géométrique.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Rotation mentale d'objets",
+      "Visualisation 3D",
+      "Reconnaissance de motifs",
+      "Pliage et dépliage",
+      "Symétries et réflexions",
+      "Relations spatiales",
+      "Perspective et projection",
+      "Analyse de formes géométriques"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes en ingénierie, architecture, design, développement 3D, et tout poste nécessitant une bonne perception spatiale.",
+    "description": "Le test évalue les capacités à manipuler mentalement des objets et à comprendre les relations spatiales en 2D et 3D.",
+    "category": "Cognitive ability",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Un cube est peint en rouge sur toutes ses faces, puis découpé en 27 petits cubes identiques (3×3×3). Combien de petits cubes ont exactement deux faces peintes en rouge ?"
+      },
+      "options": [
+        {
+          "content": "12",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "6"
+        },
+        {
+          "content": "9"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Une feuille de papier carrée est pliée deux fois, puis un coin est découpé. Lorsque la feuille est dépliée, combien de trous apparaissent ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Une pyramide à base carrée est vue du dessus. Quelle forme voit-on ?"
+      },
+      "options": [
+        {
+          "content": "Un carré",
+          "correct": true
+        },
+        {
+          "content": "Un triangle"
+        },
+        {
+          "content": "Un trapèze"
+        },
+        {
+          "content": "Un rectangle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si un cube est traversé par un plan diagonal, quelle forme géométrique apparaît dans la section ?"
+      },
+      "options": [
+        {
+          "content": "Un rectangle",
+          "correct": true
+        },
+        {
+          "content": "Un carré"
+        },
+        {
+          "content": "Un triangle"
+        },
+        {
+          "content": "Un hexagone"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cylindre est coupé perpendiculairement à sa base. Quelle forme obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "Un rectangle",
+          "correct": true
+        },
+        {
+          "content": "Un cercle"
+        },
+        {
+          "content": "Une ellipse"
+        },
+        {
+          "content": "Un carré"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est observé selon trois angles différents. Dans la première vue, on voit un cercle sur la face avant. Dans la deuxième vue, on voit un triangle. Dans la troisième vue, on voit un carré. Combien de faces différentes du cube sont visibles au total ?"
+      },
+      "options": [
+        {
+          "content": "3",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une forme en L est constituée de 4 carrés identiques. Combien de rotations différentes de 90° sont possibles avant de retrouver la position initiale ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un escalier en colimaçon monte de 3 étages. En regardant du haut vers le bas, dans quel sens les marches tournent-elles si on monte dans le sens horaire ?"
+      },
+      "options": [
+        {
+          "content": "Sens anti-horaire",
+          "correct": true
+        },
+        {
+          "content": "Sens horaire"
+        },
+        {
+          "content": "Ligne droite"
+        },
+        {
+          "content": "Alternance des sens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un patron de cube comporte 6 faces numérotées de 1 à 6. Si le numéro 1 est sur la face supérieure et le 2 sur la face avant, quel numéro sera sur la face opposée à la face portant le numéro 3 ?"
+      },
+      "options": [
+        {
+          "content": "6",
+          "correct": true
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une pyramide à base carrée est coupée parallèlement à sa base au tiers de sa hauteur en partant du sommet. Quelle forme géométrique obtient-on en regardant la section ?"
+      },
+      "options": [
+        {
+          "content": "Un carré plus petit que la base",
+          "correct": true
+        },
+        {
+          "content": "Un rectangle"
+        },
+        {
+          "content": "Un carré de même taille que la base"
+        },
+        {
+          "content": "Un trapèze"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une forme est composée de 7 cubes identiques assemblés. Vue de face, elle forme un T. Vue de droite, elle forme un L. Combien de cubes faut-il ajouter au minimum pour former un parallélépipède rectangle complet ?"
+      },
+      "options": [
+        {
+          "content": "5",
+          "correct": true
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "6"
+        },
+        {
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cylindre est placé dans un cube de manière à ce que ses bases touchent deux faces opposées du cube. Quelle forme géométrique forme l'intersection du cylindre avec une face latérale du cube ?"
+      },
+      "options": [
+        {
+          "content": "Un rectangle",
+          "correct": true
+        },
+        {
+          "content": "Un cercle"
+        },
+        {
+          "content": "Une ellipse"
+        },
+        {
+          "content": "Un carré"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un octaèdre régulier est posé sur une de ses faces. Combien de triangles équilatéraux voit-on en le regardant du dessus ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une feuille de papier rectangulaire est pliée en deux dans le sens de la longueur, puis en deux dans le sens de la largeur. Un triangle est découpé sur un des coins. Combien de triangles apparaîtront une fois la feuille dépliée ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est traversé par une droite passant par deux de ses sommets opposés. Quelle est la longueur de cette droite si l'arête du cube mesure 2 unités ?"
+      },
+      "options": [
+        {
+          "content": "2√3",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "2√2"
+        },
+        {
+          "content": "4"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une projection isométrique, une sphère apparaît toujours comme :"
+      },
+      "options": [
+        {
+          "content": "Un cercle",
+          "correct": true
+        },
+        {
+          "content": "Une ellipse"
+        },
+        {
+          "content": "Un ovale"
+        },
+        {
+          "content": "Une forme variable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est percé de part en part par un cylindre centré sur chacune de ses trois dimensions. Combien de faces du cube restent intactes ?"
+      },
+      "options": [
+        {
+          "content": "0",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une pyramide à base hexagonale est vue du dessus. Si on la fait tourner de 60° autour de son axe vertical, combien de positions différentes peut-on observer ?"
+      },
+      "options": [
+        {
+          "content": "6",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "12"
+        },
+        {
+          "content": "4"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un dodécaèdre régulier est posé sur une face pentagonale. En le regardant directement du dessus, combien de pentagones réguliers sont visibles ?"
+      },
+      "options": [
+        {
+          "content": "5",
+          "correct": true
+        },
+        {
+          "content": "6"
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Deux cylindres de même rayon se croisent à angle droit. Quelle est la forme de leur intersection ?"
+      },
+      "options": [
+        {
+          "content": "Une ellipse",
+          "correct": true
+        },
+        {
+          "content": "Un cercle"
+        },
+        {
+          "content": "Un rectangle"
+        },
+        {
+          "content": "Un losange"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est traversé par un plan qui passe par trois sommets non consécutifs. Quelle forme géométrique ce plan découpe-t-il dans le cube ?"
+      },
+      "options": [
+        {
+          "content": "Un triangle",
+          "correct": true
+        },
+        {
+          "content": "Un carré"
+        },
+        {
+          "content": "Un rectangle"
+        },
+        {
+          "content": "Un hexagone"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une vis hexagonale est vue en perspective isométrique. Si on regarde la tête de la vis du dessus, dans quel sens semblent tourner les faces latérales par rapport à l'hexagone supérieur ?"
+      },
+      "options": [
+        {
+          "content": "30° dans le sens horaire",
+          "correct": true
+        },
+        {
+          "content": "45° dans le sens horaire"
+        },
+        {
+          "content": "30° dans le sens anti-horaire"
+        },
+        {
+          "content": "60° dans le sens horaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une sphère est inscrite dans un cube d'arête 2. Une deuxième sphère est inscrite dans l'espace restant entre la première sphère et un sommet du cube. Quel est le rayon de la deuxième sphère ?"
+      },
+      "options": [
+        {
+          "content": "2 - √3",
+          "correct": true
+        },
+        {
+          "content": "1"
+        },
+        {
+          "content": "√2 - 1"
+        },
+        {
+          "content": "2 - √2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un tétraèdre régulier est coupé par un plan parallèle à l'une de ses faces et situé à mi-distance entre cette face et le sommet opposé. Quelle est la forme de la section ?"
+      },
+      "options": [
+        {
+          "content": "Un triangle équilatéral plus petit",
+          "correct": true
+        },
+        {
+          "content": "Un triangle isocèle"
+        },
+        {
+          "content": "Un triangle rectangle"
+        },
+        {
+          "content": "Un triangle quelconque"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube de côté 3 est composé de 27 petits cubes unitaires. On retire les cubes centraux de chaque face ainsi que le cube central. Combien de petits cubes restent ?"
+      },
+      "options": [
+        {
+          "content": "20",
+          "correct": true
+        },
+        {
+          "content": "19"
+        },
+        {
+          "content": "21"
+        },
+        {
+          "content": "18"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une hélice cylindrique fait un tour complet en montant de 2 unités. Vue de côté, quelle courbe décrit-elle ?"
+      },
+      "options": [
+        {
+          "content": "Une sinusoïde",
+          "correct": true
+        },
+        {
+          "content": "Une droite"
+        },
+        {
+          "content": "Une parabole"
+        },
+        {
+          "content": "Une spirale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cône droit est coupé par un plan incliné à 45° par rapport à sa base. Quelle courbe obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "Une hyperbole",
+          "correct": true
+        },
+        {
+          "content": "Une parabole"
+        },
+        {
+          "content": "Une ellipse"
+        },
+        {
+          "content": "Un cercle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un cube ABCDEFGH, quelle est la nature du triangle formé par les points milieux de trois arêtes concourantes en un sommet ?"
+      },
+      "options": [
+        {
+          "content": "Triangle équilatéral",
+          "correct": true
+        },
+        {
+          "content": "Triangle isocèle"
+        },
+        {
+          "content": "Triangle rectangle"
+        },
+        {
+          "content": "Triangle quelconque"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un octaèdre régulier est inscrit dans un cube de manière à ce que ses sommets soient les centres des faces du cube. Si l'arête du cube est 2, quelle est la longueur d'une arête de l'octaèdre ?"
+      },
+      "options": [
+        {
+          "content": "√2",
+          "correct": true
+        },
+        {
+          "content": "2"
+        },
+        {
+          "content": "1"
+        },
+        {
+          "content": "√3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un tore est coupé par un plan tangent à son cercle intérieur. Quelle courbe obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "Deux cercles tangents",
+          "correct": true
+        },
+        {
+          "content": "Un seul cercle"
+        },
+        {
+          "content": "Une ellipse"
+        },
+        {
+          "content": "Deux cercles sécants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est projeté orthogonalement sur un plan parallèle à sa grande diagonale. Quelle forme obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "Un hexagone régulier",
+          "correct": true
+        },
+        {
+          "content": "Un carré"
+        },
+        {
+          "content": "Un rectangle"
+        },
+        {
+          "content": "Un octogone"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans une projection isométrique d'un cube, quel est le rapport entre la longueur projetée d'une arête et sa longueur réelle ?"
+      },
+      "options": [
+        {
+          "content": "√(2/3)",
+          "correct": true
+        },
+        {
+          "content": "√(3/2)"
+        },
+        {
+          "content": "1/2"
+        },
+        {
+          "content": "√(1/2)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un icosaèdre régulier est projeté sur un plan perpendiculaire à l'une de ses arêtes. Combien de sommets sont visibles dans cette projection ?"
+      },
+      "options": [
+        {
+          "content": "10",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "12"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une sphère est inscrite dans un tétraèdre régulier. En quel point le rayon de la sphère touchant une face est-il situé ?"
+      },
+      "options": [
+        {
+          "content": "Au centre de gravité du triangle",
+          "correct": true
+        },
+        {
+          "content": "Au centre du cercle inscrit"
+        },
+        {
+          "content": "Au centre du cercle circonscrit"
+        },
+        {
+          "content": "Au milieu de la médiane"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cylindre est inscrit dans un prisme triangulaire régulier. Quel est le rapport entre le rayon du cylindre et le côté du triangle équilatéral de base ?"
+      },
+      "options": [
+        {
+          "content": "1/6",
+          "correct": true
+        },
+        {
+          "content": "1/3"
+        },
+        {
+          "content": "1/4"
+        },
+        {
+          "content": "1/2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Une hélice est tracée sur un cylindre circulaire droit. Si on développe la surface du cylindre, quelle courbe obtient-on ?"
+      },
+      "options": [
+        {
+          "content": "Une droite",
+          "correct": true
+        },
+        {
+          "content": "Une sinusoïde"
+        },
+        {
+          "content": "Une parabole"
+        },
+        {
+          "content": "Une spirale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Deux tétraèdres réguliers identiques sont assemblés face contre face. Combien d'axes de symétrie possède le solide ainsi formé ?"
+      },
+      "options": [
+        {
+          "content": "7",
+          "correct": true
+        },
+        {
+          "content": "6"
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un cube est coupé par un plan passant par deux arêtes opposées. Combien de sommets du cube ce plan contient-il ?"
+      },
+      "options": [
+        {
+          "content": "4",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    }
+  ]
+}

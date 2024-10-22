@@ -1,0 +1,1172 @@
+{
+    "title": "Mathématiques intermédiaires",
+    "attributes": {
+      "overview": "Le test de mathématiques intermédiaires évalue la capacité des candidats à résoudre des problèmes mathématiques de niveau intermédiaire, incluant les fractions, décimales, pourcentages, ratios et calculs temporels.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Opérations avec fractions et décimales",
+        "Calculs de pourcentages",
+        "Résolution d'équations",
+        "Ratios et proportions",
+        "Géométrie de base",
+        "Algèbre intermédiaire",
+        "Problèmes de temps et vitesse",
+        "Statistiques de base"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences mathématiques solides, comme la comptabilité, la finance, l'ingénierie ou l'analyse de données.",
+      "description": "Ce test évalue la capacité des candidats à manipuler des nombres et résoudre des problèmes mathématiques pratiques de niveau intermédiaire.",
+      "category": "Cognitive ability",
+      "language": "french",
+      "questions_to_answer": 15,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Si 3x + 7 = 22, quelle est la valeur de x ?"
+        },
+        "options": [
+          {
+            "content": "5",
+            "correct": true
+          },
+          {
+            "content": "6"
+          },
+          {
+            "content": "4"
+          },
+          {
+            "content": "7"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel est le pourcentage de 25 par rapport à 100 ?"
+        },
+        "options": [
+          {
+            "content": "25%",
+            "correct": true
+          },
+          {
+            "content": "20%"
+          },
+          {
+            "content": "40%"
+          },
+          {
+            "content": "15%"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": true,
+          "content": "Quelles expressions sont équivalentes à 0,5 ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "1/2",
+            "correct": true
+          },
+          {
+            "content": "50%",
+            "correct": true
+          },
+          {
+            "content": "5/10",
+            "correct": true
+          },
+          {
+            "content": "0,05"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un article coûte 80€. Après une réduction de 15%, quel est son nouveau prix ?"
+        },
+        "options": [
+          {
+            "content": "68€",
+            "correct": true
+          },
+          {
+            "content": "65€"
+          },
+          {
+            "content": "72€"
+          },
+          {
+            "content": "70€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un triangle rectangle, si l'hypoténuse mesure 13 cm et un des côtés 5 cm, quelle est la longueur du troisième côté ?"
+        },
+        "options": [
+          {
+            "content": "12 cm",
+            "correct": true
+          },
+          {
+            "content": "11 cm"
+          },
+          {
+            "content": "8 cm"
+          },
+          {
+            "content": "14 cm"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Une voiture parcourt 240 km en 3 heures. Quelle est sa vitesse moyenne ?"
+        },
+        "options": [
+          {
+            "content": "80 km/h",
+            "correct": true
+          },
+          {
+            "content": "70 km/h"
+          },
+          {
+            "content": "75 km/h"
+          },
+          {
+            "content": "85 km/h"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels nombres sont des facteurs de 24 ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "6",
+            "correct": true
+          },
+          {
+            "content": "8",
+            "correct": true
+          },
+          {
+            "content": "4",
+            "correct": true
+          },
+          {
+            "content": "9"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un commerçant augmente ses prix de 20%, puis les diminue de 20%. Quel est le pourcentage de changement final par rapport au prix initial ?"
+        },
+        "options": [
+          {
+            "content": "-4%",
+            "correct": true
+          },
+          {
+            "content": "0%"
+          },
+          {
+            "content": "+4%"
+          },
+          {
+            "content": "-2%"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Si 3/4 d'un nombre est égal à 18, quel est ce nombre ?"
+        },
+        "options": [
+          {
+            "content": "24",
+            "correct": true
+          },
+          {
+            "content": "22"
+          },
+          {
+            "content": "26"
+          },
+          {
+            "content": "20"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles expressions représentent un quart ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "25%",
+            "correct": true
+          },
+          {
+            "content": "0,25",
+            "correct": true
+          },
+          {
+            "content": "1/4",
+            "correct": true
+          },
+          {
+            "content": "2,5"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la moyenne de la série : 15, 18, 21, 24, 27 ?"
+        },
+        "options": [
+          {
+            "content": "21",
+            "correct": true
+          },
+          {
+            "content": "20"
+          },
+          {
+            "content": "22"
+          },
+          {
+            "content": "19"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un groupe de 30 personnes, le ratio hommes/femmes est de 2:3. Combien y a-t-il de femmes ?"
+        },
+        "options": [
+          {
+            "content": "18",
+            "correct": true
+          },
+          {
+            "content": "12"
+          },
+          {
+            "content": "15"
+          },
+          {
+            "content": "20"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est l'aire d'un cercle de rayon 5 cm ? (π ≈ 3,14)"
+        },
+        "options": [
+          {
+            "content": "78,5 cm²",
+            "correct": true
+          },
+          {
+            "content": "31,4 cm²"
+          },
+          {
+            "content": "75,6 cm²"
+          },
+          {
+            "content": "82,3 cm²"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un capital de 1000€ est placé à 4% d'intérêt simple par an. Combien vaudra-t-il après 2 ans ?"
+        },
+        "options": [
+          {
+            "content": "1080€",
+            "correct": true
+          },
+          {
+            "content": "1040€"
+          },
+          {
+            "content": "1084€"
+          },
+          {
+            "content": "1100€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Dans un sac contenant 3 boules rouges, 2 bleues et 1 verte, quelles sont les probabilités correctes ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "P(rouge) = 1/2",
+            "correct": true
+          },
+          {
+            "content": "P(bleue) = 1/3",
+            "correct": true
+          },
+          {
+            "content": "P(verte) = 1/6",
+            "correct": true
+          },
+          {
+            "content": "P(rouge) = 1/3"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Résoudre l'équation : x² - 5x + 6 = 0"
+        },
+        "options": [
+          {
+            "content": "x = 2 ou x = 3",
+            "correct": true
+          },
+          {
+            "content": "x = 1 ou x = 4"
+          },
+          {
+            "content": "x = -2 ou x = 3"
+          },
+          {
+            "content": "x = 2 ou x = 4"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le terme suivant dans la suite : 2, 6, 12, 20, ..."
+        },
+        "options": [
+          {
+            "content": "30",
+            "correct": true
+          },
+          {
+            "content": "28"
+          },
+          {
+            "content": "32"
+          },
+          {
+            "content": "25"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un rectangle a un périmètre de 24 cm et une largeur de 4 cm. Quelle est sa longueur ?"
+        },
+        "options": [
+          {
+            "content": "8 cm",
+            "correct": true
+          },
+          {
+            "content": "6 cm"
+          },
+          {
+            "content": "10 cm"
+          },
+          {
+            "content": "12 cm"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les solutions de l'inéquation : 2x + 3 > 7 ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "x > 2",
+            "correct": true
+          },
+          {
+            "content": "3 est une solution",
+            "correct": true
+          },
+          {
+            "content": "2,5 est une solution",
+            "correct": true
+          },
+          {
+            "content": "1 est une solution"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un article coûtant 50€ est soldé à -30%, puis une remise supplémentaire de 20% est appliquée. Quel est le prix final ?"
+        },
+        "options": [
+          {
+            "content": "28€",
+            "correct": true
+          },
+          {
+            "content": "25€"
+          },
+          {
+            "content": "30€"
+          },
+          {
+            "content": "32€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un triangle rectangle, si sin(α) = 0,6, quelle est la valeur de cos(α) ?"
+        },
+        "options": [
+          {
+            "content": "0,8",
+            "correct": true
+          },
+          {
+            "content": "0,6"
+          },
+          {
+            "content": "0,75"
+          },
+          {
+            "content": "0,85"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles affirmations sont vraies concernant un carré ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "Les diagonales sont égales",
+            "correct": true
+          },
+          {
+            "content": "Les diagonales sont perpendiculaires",
+            "correct": true
+          },
+          {
+            "content": "Les angles font 90 degrés",
+            "correct": true
+          },
+          {
+            "content": "Le périmètre est égal à l'aire"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le volume d'un cube dont l'arête mesure 4 cm ?"
+        },
+        "options": [
+          {
+            "content": "64 cm³",
+            "correct": true
+          },
+          {
+            "content": "48 cm³"
+          },
+          {
+            "content": "56 cm³"
+          },
+          {
+            "content": "72 cm³"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans la série suivante : 2, 3, 3, 4, 5, 5, 5, 6, 8, quel est le mode ?"
+        },
+        "options": [
+          {
+            "content": "5",
+            "correct": true
+          },
+          {
+            "content": "3"
+          },
+          {
+            "content": "4"
+          },
+          {
+            "content": "6"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Si 3 ouvriers font un travail en 12 heures, quelles affirmations sont vraies ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "6 ouvriers le font en 6 heures",
+            "correct": true
+          },
+          {
+            "content": "9 ouvriers le font en 4 heures",
+            "correct": true
+          },
+          {
+            "content": "1 ouvrier le fait en 36 heures",
+            "correct": true
+          },
+          {
+            "content": "2 ouvriers le font en 8 heures"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Convertir 2,5 km/h en m/s"
+        },
+        "options": [
+          {
+            "content": "0,694 m/s",
+            "correct": true
+          },
+          {
+            "content": "0,725 m/s"
+          },
+          {
+            "content": "0,833 m/s"
+          },
+          {
+            "content": "0,555 m/s"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Résoudre : log₂(x) = 3"
+        },
+        "options": [
+          {
+            "content": "8",
+            "correct": true
+          },
+          {
+            "content": "6"
+          },
+          {
+            "content": "9"
+          },
+          {
+            "content": "12"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Le volume d'un cylindre est de 100π cm³ et sa hauteur est de 10 cm. Quel est le rayon de sa base ?"
+        },
+        "options": [
+          {
+            "content": "√10 cm",
+            "correct": true
+          },
+          {
+            "content": "5 cm"
+          },
+          {
+            "content": "10 cm"
+          },
+          {
+            "content": "2√5 cm"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Pour quelles valeurs de x l'expression √x est-elle définie dans ℝ ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "x = 0",
+            "correct": true
+          },
+          {
+            "content": "x = 4",
+            "correct": true
+          },
+          {
+            "content": "x = 0,5",
+            "correct": true
+          },
+          {
+            "content": "x = -1"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Si f(x) = 2^x, quelle est la valeur de f(-1) ?"
+        },
+        "options": [
+          {
+            "content": "1/2",
+            "correct": true
+          },
+          {
+            "content": "2"
+          },
+          {
+            "content": "-2"
+          },
+          {
+            "content": "-1/2"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un repère orthonormé, quelle est la distance entre les points A(1,2) et B(4,6) ?"
+        },
+        "options": [
+          {
+            "content": "5",
+            "correct": true
+          },
+          {
+            "content": "4"
+          },
+          {
+            "content": "√20"
+          },
+          {
+            "content": "6"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les solutions de l'équation |x| = 2 ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "x = 2",
+            "correct": true
+          },
+          {
+            "content": "x = -2",
+            "correct": true
+          },
+          {
+            "content": "|-2| = 2",
+            "correct": true
+          },
+          {
+            "content": "x = 0"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un capital de 2000€ est placé à intérêts composés au taux annuel de 5%. Quelle sera sa valeur après 2 ans ?"
+        },
+        "options": [
+          {
+            "content": "2205€",
+            "correct": true
+          },
+          {
+            "content": "2200€"
+          },
+          {
+            "content": "2100€"
+          },
+          {
+            "content": "2300€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un espace à trois dimensions, quel est le produit scalaire des vecteurs u⃗(1,2,3) et v⃗(2,-1,4) ?"
+        },
+        "options": [
+          {
+            "content": "11",
+            "correct": true
+          },
+          {
+            "content": "10"
+          },
+          {
+            "content": "12"
+          },
+          {
+            "content": "9"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "De combien de façons peut-on choisir 3 objets parmi 7 objets distincts ?"
+        },
+        "options": [
+          {
+            "content": "35",
+            "correct": true
+          },
+          {
+            "content": "21"
+          },
+          {
+            "content": "42"
+          },
+          {
+            "content": "28"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Pour une matrice 2×2, quelles affirmations sont vraies ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "Elle contient 4 éléments",
+            "correct": true
+          },
+          {
+            "content": "Elle peut être inversible",
+            "correct": true
+          },
+          {
+            "content": "Son déterminant est un nombre",
+            "correct": true
+          },
+          {
+            "content": "Elle est toujours symétrique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Résoudre le système : { x + 2y = 5 ; 2x - y = 4 }"
+        },
+        "options": [
+          {
+            "content": "x = 2, y = 1.5",
+            "correct": true
+          },
+          {
+            "content": "x = 1, y = 2"
+          },
+          {
+            "content": "x = 3, y = 1"
+          },
+          {
+            "content": "x = 2, y = 2"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est l'équation d'un cercle de centre (1,2) et de rayon 3 ?"
+        },
+        "options": [
+          {
+            "content": "(x-1)² + (y-2)² = 9",
+            "correct": true
+          },
+          {
+            "content": "(x+1)² + (y+2)² = 9"
+          },
+          {
+            "content": "(x-1)² + (y-2)² = 3"
+          },
+          {
+            "content": "x² + y² = 9"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les propriétés d'une fonction exponentielle ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "Elle est strictement positive",
+            "correct": true
+          },
+          {
+            "content": "Elle est strictement croissante",
+            "correct": true
+          },
+          {
+            "content": "Elle admet une fonction réciproque",
+            "correct": true
+          },
+          {
+            "content": "Elle est périodique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans une suite géométrique de raison 2, si le premier terme est 3, quel est le 5ème terme ?"
+        },
+        "options": [
+          {
+            "content": "48",
+            "correct": true
+          },
+          {
+            "content": "32"
+          },
+          {
+            "content": "64"
+          },
+          {
+            "content": "96"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la dérivée de f(x) = x³ - 2x² + 3x - 1 ?"
+        },
+        "options": [
+          {
+            "content": "3x² - 4x + 3",
+            "correct": true
+          },
+          {
+            "content": "3x² - 2x + 3"
+          },
+          {
+            "content": "x³ - 4x + 3"
+          },
+          {
+            "content": "3x² - 4x + 1"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Calculer la limite de (x² - 1)/(x - 1) quand x tend vers 1"
+        },
+        "options": [
+          {
+            "content": "2",
+            "correct": true
+          },
+          {
+            "content": "1"
+          },
+          {
+            "content": "0"
+          },
+          {
+            "content": "∞"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les solutions de l'équation z² = i ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "1/√2 + i/√2",
+            "correct": true
+          },
+          {
+            "content": "-1/√2 - i/√2",
+            "correct": true
+          },
+          {
+            "content": "Ces solutions sont conjuguées",
+            "correct": true
+          },
+          {
+            "content": "i est une solution"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Une entreprise produit x unités d'un article. Le coût total est modélisé par C(x) = x² + 50x + 1000. Quel est le coût de production de 10 unités ?"
+        },
+        "options": [
+          {
+            "content": "1600€",
+            "correct": true
+          },
+          {
+            "content": "1500€"
+          },
+          {
+            "content": "1550€"
+          },
+          {
+            "content": "1650€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Dans un prêt à annuités constantes sur 2 ans au taux de 5%, si l'annuité est de 5250€, quel était le montant emprunté ?"
+        },
+        "options": [
+          {
+            "content": "10000€",
+            "correct": true
+          },
+          {
+            "content": "9500€"
+          },
+          {
+            "content": "10500€"
+          },
+          {
+            "content": "9000€"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Pour une fonction f(x) = ax² + bx + c, quelles conditions impliquent que la parabole admet un minimum ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "a > 0",
+            "correct": true
+          },
+          {
+            "content": "Le discriminant peut être négatif",
+            "correct": true
+          },
+          {
+            "content": "f'(x) = 0 donne un minimum",
+            "correct": true
+          },
+          {
+            "content": "b doit être positif"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Une population de bactéries double toutes les 3 heures. Si on part de 1000 bactéries, combien y en aura-t-il après 12 heures ?"
+        },
+        "options": [
+          {
+            "content": "16000",
+            "correct": true
+          },
+          {
+            "content": "8000"
+          },
+          {
+            "content": "32000"
+          },
+          {
+            "content": "12000"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un dé équilibré est lancé 3 fois. Quelle est la probabilité d'obtenir au moins un 6 ?"
+        },
+        "options": [
+          {
+            "content": "0,421",
+            "correct": true
+          },
+          {
+            "content": "0,5"
+          },
+          {
+            "content": "0,333"
+          },
+          {
+            "content": "0,167"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Dans un triangle ABC rectangle en A, quelles relations sont toujours vraies ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "sin²(B) + cos²(B) = 1",
+            "correct": true
+          },
+          {
+            "content": "tan(B) = sin(B)/cos(B)",
+            "correct": true
+          },
+          {
+            "content": "B + C = 90°",
+            "correct": true
+          },
+          {
+            "content": "sin(B) = sin(C)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Un cylindre a un volume de 200π cm³. Si son rayon est de 5 cm, quelle est sa hauteur ?"
+        },
+        "options": [
+          {
+            "content": "8 cm",
+            "correct": true
+          },
+          {
+            "content": "10 cm"
+          },
+          {
+            "content": "6 cm"
+          },
+          {
+            "content": "12 cm"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Une voiture parcourt 120 km. Elle roule à 60 km/h pendant la première moitié du trajet. À quelle vitesse doit-elle rouler sur la seconde moitié pour que sa vitesse moyenne soit de 80 km/h ?"
+        },
+        "options": [
+          {
+            "content": "120 km/h",
+            "correct": true
+          },
+          {
+            "content": "100 km/h"
+          },
+          {
+            "content": "90 km/h"
+          },
+          {
+            "content": "110 km/h"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Si log₃(x) = 4, quelle est la valeur de x ?"
+        },
+        "options": [
+          {
+            "content": "81",
+            "correct": true
+          },
+          {
+            "content": "64"
+          },
+          {
+            "content": "27"
+          },
+          {
+            "content": "243"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Pour une suite arithmétique de premier terme u₁ = 3 et de raison r = 2, quelles affirmations sont vraies ? (Plusieurs réponses possibles)"
+        },
+        "options": [
+          {
+            "content": "u₄ = 9",
+            "correct": true
+          },
+          {
+            "content": "u₁₀ - u₉ = 2",
+            "correct": true
+          },
+          {
+            "content": "La suite est croissante",
+            "correct": true
+          },
+          {
+            "content": "La suite est géométrique"
+          }
+        ]
+      }
+    ]
+  }

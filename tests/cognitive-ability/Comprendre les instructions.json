@@ -1,0 +1,848 @@
+{
+  "title": "Comprendre les instructions",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à interpréter, comprendre et suivre correctement des instructions écrites dans différents contextes professionnels.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Compréhension d'instructions écrites",
+      "Interprétation de procédures",
+      "Suivi de séquences logiques",
+      "Application de directives",
+      "Attention aux détails",
+      "Ordre des opérations",
+      "Identification des priorités",
+      "Résolution de problèmes procéduraux"
+    ],
+    "relevancy": "Ce test est pertinent pour tous les postes nécessitant de suivre des procédures précises, de comprendre des manuels techniques ou d'appliquer des protocoles spécifiques.",
+    "description": "Le test évalue la capacité à comprendre et exécuter correctement des instructions de différentes natures, des plus simples aux plus complexes.",
+    "category": "Cognitive ability",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Instructions : Pour préparer une boisson chaude, vous devez :<br>1. Faire bouillir de l'eau<br>2. Mettre une dose de produit dans une tasse<br>3. Verser l'eau chaude<br>4. Remuer<br><br>Quelle étape vient immédiatement après avoir mis le produit dans la tasse ?"
+      },
+      "options": [
+        {
+          "content": "Verser l'eau chaude",
+          "correct": true
+        },
+        {
+          "content": "Remuer"
+        },
+        {
+          "content": "Faire bouillir l'eau"
+        },
+        {
+          "content": "Attendre que ça refroidisse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Pour enregistrer un document Word :<br>1. Cliquer sur 'Fichier'<br>2. Sélectionner 'Enregistrer sous'<br>3. Choisir l'emplacement<br>4. Nommer le fichier<br>5. Cliquer sur 'Enregistrer'<br><br>Quelle est la dernière action avant de cliquer sur 'Enregistrer' ?"
+      },
+      "options": [
+        {
+          "content": "Nommer le fichier",
+          "correct": true
+        },
+        {
+          "content": "Choisir l'emplacement"
+        },
+        {
+          "content": "Sélectionner 'Enregistrer sous'"
+        },
+        {
+          "content": "Cliquer sur 'Fichier'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Procédure d'urgence :<br>1. Rester calme<br>2. Évaluer la situation<br>3. Appeler les secours<br>4. Sécuriser la zone<br>5. Attendre les secours<br><br>Que devez-vous faire immédiatement après avoir évalué la situation ?"
+      },
+      "options": [
+        {
+          "content": "Appeler les secours",
+          "correct": true
+        },
+        {
+          "content": "Sécuriser la zone"
+        },
+        {
+          "content": "Rester calme"
+        },
+        {
+          "content": "Attendre les secours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Pour accéder à votre boîte mail professionnelle :<br>1. Ouvrir le navigateur<br>2. Saisir l'adresse du webmail<br>3. Entrer votre identifiant<br>4. Saisir votre mot de passe<br>5. Cliquer sur 'Connexion'<br><br>Si vous êtes déjà sur la page de connexion, quelle est la première étape à effectuer ?"
+      },
+      "options": [
+        {
+          "content": "Entrer votre identifiant",
+          "correct": true
+        },
+        {
+          "content": "Saisir votre mot de passe"
+        },
+        {
+          "content": "Ouvrir le navigateur"
+        },
+        {
+          "content": "Cliquer sur 'Connexion'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions pour une réunion en visioconférence :<br>1. Vérifier votre connexion internet<br>2. Tester votre caméra et micro<br>3. Cliquer sur le lien de la réunion<br>4. Entrer le code d'accès<br>5. Activer votre micro quand nécessaire<br><br>Que devez-vous faire avant de cliquer sur le lien de la réunion ?"
+      },
+      "options": [
+        {
+          "content": "Tester votre caméra et micro",
+          "correct": true
+        },
+        {
+          "content": "Entrer le code d'accès"
+        },
+        {
+          "content": "Activer votre micro"
+        },
+        {
+          "content": "Se présenter aux participants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole de nettoyage d'une machine :<br>1. Éteindre la machine<br>2. Débrancher l'alimentation<br>3. Retirer les pièces amovibles<br>4. Nettoyer chaque pièce<br>5. Sécher complètement<br>6. Réassembler la machine<br>7. Rebrancher<br>8. Tester le fonctionnement<br><br>Que devez-vous faire après avoir séché les pièces ?"
+      },
+      "options": [
+        {
+          "content": "Réassembler la machine",
+          "correct": true
+        },
+        {
+          "content": "Rebrancher"
+        },
+        {
+          "content": "Tester le fonctionnement"
+        },
+        {
+          "content": "Retirer les pièces amovibles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure de sauvegarde des données :<br>SI le dossier fait plus de 1 Go :<br>- Utiliser une clé USB externe<br>- Compresser le dossier<br>SINON :<br>- Utiliser le cloud<br>- Vérifier la synchronisation<br><br>Pour un dossier de 2,5 Go, quelle est la première étape ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une clé USB externe",
+          "correct": true
+        },
+        {
+          "content": "Utiliser le cloud"
+        },
+        {
+          "content": "Vérifier la synchronisation"
+        },
+        {
+          "content": "Compresser le dossier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions de tri des documents :<br>1. Trier par date (plus récent d'abord)<br>2. Pour les documents de même date :<br>   - Priorité aux factures<br>   - Puis contrats<br>   - Puis correspondance<br>3. Classer dans les dossiers correspondants<br><br>Où doit être placée une facture du 15/03 par rapport à un contrat du 14/03 ?"
+      },
+      "options": [
+        {
+          "content": "Après le contrat",
+          "correct": true
+        },
+        {
+          "content": "Avant le contrat"
+        },
+        {
+          "content": "Dans le même dossier"
+        },
+        {
+          "content": "Dans l'ordre alphabétique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole d'accès au serveur sécurisé :<br>1. Connexion au VPN<br>2. Si message d'erreur :<br>   - Vérifier connexion internet<br>   - Redémarrer VPN<br>   - Contacter support si problème persiste<br>3. Une fois connecté :<br>   - Authentification double facteur<br>   - Saisir code temporaire<br>4. Accéder aux fichiers<br><br>Si vous recevez un message d'erreur après deux tentatives de connexion VPN, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Contacter le support",
+          "correct": true
+        },
+        {
+          "content": "Saisir le code temporaire"
+        },
+        {
+          "content": "Redémarrer l'ordinateur"
+        },
+        {
+          "content": "Réessayer une troisième fois"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions de gestion des plaintes clients :<br>1. Écouter la plainte<br>2. Catégoriser :<br>   Si urgence (service interrompu) :<br>     - Transférer superviseur immédiatement<br>   Si problème technique :<br>     - Créer ticket support<br>     - Délai 24h<br>   Si facturation :<br>     - Vérifier compte<br>     - Contacter service financier<br>3. Informer client du suivi<br><br>Pour une plainte concernant une double facturation, quelle est la première action après catégorisation ?"
+      },
+      "options": [
+        {
+          "content": "Vérifier le compte",
+          "correct": true
+        },
+        {
+          "content": "Créer un ticket support"
+        },
+        {
+          "content": "Transférer au superviseur"
+        },
+        {
+          "content": "Informer le client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure d'évacuation d'urgence :<br>1. Alarme déclenchée<br>2. Si en réunion :<br>   - Interrompre immédiatement<br>   - Guider les visiteurs<br>3. Si à son poste :<br>   - Verrouiller ordinateur<br>   - Prendre badge uniquement<br>4. Suivre marquage au sol<br>5. Ne pas utiliser ascenseur<br>6. Rejoindre point rassemblement<br><br>Si vous êtes en réunion avec des clients lors du déclenchement de l'alarme, quelle est votre première action ?"
+      },
+      "options": [
+        {
+          "content": "Interrompre la réunion",
+          "correct": true
+        },
+        {
+          "content": "Verrouiller l'ordinateur"
+        },
+        {
+          "content": "Suivre le marquage au sol"
+        },
+        {
+          "content": "Prendre votre badge"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Configuration poste de travail :<br>1. Allumer unité centrale<br>2. Pendant démarrage :<br>   Si écran noir :<br>     - Vérifier connexions<br>     - Appuyer bouton écran<br>   Si écran bleu :<br>     - Noter code erreur<br>     - Contacter IT<br>3. Une fois sur bureau :<br>   - Lancer antivirus<br>   - Vérifier mises à jour<br>4. Connexion réseau<br><br>Si vous obtenez un écran bleu avec le code 0x000000, que faites-vous après avoir noté le code ?"
+      },
+      "options": [
+        {
+          "content": "Contacter IT",
+          "correct": true
+        },
+        {
+          "content": "Redémarrer l'ordinateur"
+        },
+        {
+          "content": "Lancer l'antivirus"
+        },
+        {
+          "content": "Vérifier les connexions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Processus de validation document :<br>1. Rédaction initiale<br>2. Révision par :<br>   Si document technique :<br>     - Expert technique puis<br>     - Chef de projet<br>   Si document commercial :<br>     - Service marketing puis<br>     - Direction commerciale<br>   Si document légal :<br>     - Service juridique<br>3. Validation finale direction<br><br>Pour un document à la fois technique et commercial, qui doit le réviser en premier ?"
+      },
+      "options": [
+        {
+          "content": "Expert technique",
+          "correct": true
+        },
+        {
+          "content": "Service marketing"
+        },
+        {
+          "content": "Chef de projet"
+        },
+        {
+          "content": "Direction commerciale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Maintenance imprimante réseau :<br>1. Vérifier état :<br>   Si voyant rouge fixe :<br>     - Vérifier papier<br>     - Si ok, vérifier cartouches<br>   Si voyant rouge clignotant :<br>     - Vérifier bourrage<br>     - Si trouvé, suivre guide retrait<br>2. Si problème persiste :<br>   - Redémarrer imprimante<br>   - Attendre initialisation<br>3. Si échec :<br>   - Contacter maintenance<br><br>Avec un voyant rouge clignotant, que faire si aucun bourrage n'est trouvé ?"
+      },
+      "options": [
+        {
+          "content": "Redémarrer l'imprimante",
+          "correct": true
+        },
+        {
+          "content": "Vérifier les cartouches"
+        },
+        {
+          "content": "Vérifier le papier"
+        },
+        {
+          "content": "Contacter maintenance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions traitement commande client :<br>1. Réception commande<br>2. Vérification stock :<br>   Si stock suffisant :<br>     - Réserver produits<br>     - Générer bon livraison<br>   Si stock partiel :<br>     - Contacter client<br>     - Si accord, livraison partielle<br>   Si hors stock :<br>     - Vérifier délai réapprovisionnement<br>     - Informer client<br>3. Traitement paiement<br>4. Expédition<br><br>Pour une commande avec stock partiel, que faire après avoir contacté le client si celui-ci refuse la livraison partielle ?"
+      },
+      "options": [
+        {
+          "content": "Vérifier délai réapprovisionnement",
+          "correct": true
+        },
+        {
+          "content": "Annuler la commande"
+        },
+        {
+          "content": "Générer bon livraison"
+        },
+        {
+          "content": "Traiter le paiement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole de gestion incident réseau :<br>1. Détection incident<br>2. Évaluation impact :<br>   Si critique (services principaux) :<br>     - Activer plan urgence<br>     - Notifier direction<br>     - Informer tous utilisateurs<br>   Si modéré (services secondaires) :<br>     - Créer ticket prioritaire<br>     - Informer utilisateurs concernés<br>   Si mineur :<br>     - Planifier intervention<br>     - Notifier responsables<br>3. Documentation incident<br><br>Pour un incident affectant la messagerie et le partage de fichiers, quelle est la première action après évaluation ?"
+      },
+      "options": [
+        {
+          "content": "Activer plan urgence",
+          "correct": true
+        },
+        {
+          "content": "Créer ticket prioritaire"
+        },
+        {
+          "content": "Planifier intervention"
+        },
+        {
+          "content": "Documentation incident"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure contrôle qualité production :<br>1. Prélèvement échantillon<br>2. Tests initiaux :<br>   Si conformes :<br>     - Poursuivre production<br>     - Tests toutes les heures<br>   Si écart mineur :<br>     - Ajuster paramètres<br>     - Nouveau test 15 min<br>   Si écart majeur :<br>     - Arrêt production<br>     - Analyse complète<br>3. Documentation<br><br>En cas d'écart mineur suivi d'un second écart mineur aux tests, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Arrêt production",
+          "correct": true
+        },
+        {
+          "content": "Ajuster paramètres"
+        },
+        {
+          "content": "Poursuivre production"
+        },
+        {
+          "content": "Documentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure backup système critique :<br>1. Vérification espace disponible<br>2. Si espace > 2× taille données :<br>   - Backup complet<br>   - Vérification intégrité<br>Si 1× < espace < 2× :<br>   - Backup différentiel<br>   - Alerte espace disque<br>Si espace < taille données :<br>   - Backup urgent critique<br>   - Escalade IT senior<br>3. Rapport backup<br><br>Avec un espace de 1.5× la taille des données, quelle est la première action après vérification ?"
+      },
+      "options": [
+        {
+          "content": "Backup différentiel",
+          "correct": true
+        },
+        {
+          "content": "Backup complet"
+        },
+        {
+          "content": "Backup urgent critique"
+        },
+        {
+          "content": "Rapport backup"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole intervention maintenance :<br>1. Évaluation risques<br>2. Si intervention à risque :<br>   - Obtenir autorisation N+2<br>   - Informer sécurité<br>   - Équipe 2 personnes min<br>Si intervention standard :<br>   - Autorisation N+1<br>   - Équipe 1 personne<br>3. Pendant intervention :<br>   Si imprévu technique :<br>     - Arrêt immédiat<br>     - Rapport situation<br>     - Attente instructions<br><br>Lors d'une intervention standard, que faire si un imprévu technique survient ?"
+      },
+      "options": [
+        {
+          "content": "Arrêt immédiat",
+          "correct": true
+        },
+        {
+          "content": "Obtenir autorisation N+2"
+        },
+        {
+          "content": "Informer sécurité"
+        },
+        {
+          "content": "Continuer avec précaution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Processus validation documents confidentiels :<br>1. Classification niveau :<br>   Si Top Secret :<br>     - Double signature direction<br>     - Registre spécial<br>     - Coffre sécurisé<br>   Si Confidentiel :<br>     - Signature responsable<br>     - Archivage sécurisé<br>   Si Interne :<br>     - Validation service<br>     - Archivage standard<br>2. Traçabilité<br><br>Pour un document marqué 'Top Secret', quelle est la première étape après classification ?"
+      },
+      "options": [
+        {
+          "content": "Double signature direction",
+          "correct": true
+        },
+        {
+          "content": "Registre spécial"
+        },
+        {
+          "content": "Coffre sécurisé"
+        },
+        {
+          "content": "Traçabilité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions gestion crise communication :<br>1. Détection problème médiatique<br>2. Évaluation impact :<br>   Si viral/national :<br>     - Cellule crise niveau 1<br>     - Porte-parole unique<br>     - Brief dirigeants<br>   Si régional :<br>     - Cellule crise niveau 2<br>     - Communication locale<br>   Si local :<br>     - Gestion standard<br>     - Suivi situation<br>3. Rapport quotidien<br><br>Pour une situation devenue virale sur les réseaux sociaux, que faire après l'évaluation ?"
+      },
+      "options": [
+        {
+          "content": "Cellule crise niveau 1",
+          "correct": true
+        },
+        {
+          "content": "Communication locale"
+        },
+        {
+          "content": "Gestion standard"
+        },
+        {
+          "content": "Rapport quotidien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole audit qualité laboratoire :<br>1. Contrôle documentation :<br>   Si non-conformité majeure :<br>     - Suspension immédiate activité<br>     - Rapport direction 24h<br>   Si non-conformité mineure :<br>     - Action corrective 1 semaine<br>     - Suivi hebdomadaire<br>2. Vérification équipements :<br>   Si calibration expirée :<br>     - Mise en quarantaine<br>     - Recalibration urgente<br>3. Contrôle échantillons :<br>   Si traçabilité incomplète :<br>     - Isoler lots concernés<br>     - Enquête origine<br><br>Si une non-conformité mineure n'est pas corrigée après 2 semaines, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Suspension immédiate activité",
+          "correct": true
+        },
+        {
+          "content": "Nouveau délai d'une semaine"
+        },
+        {
+          "content": "Poursuite du suivi hebdomadaire"
+        },
+        {
+          "content": "Simple rapport direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure urgence médicale en entreprise :<br>1. Évaluation victime<br>2. Si inconscience :<br>   - Vérifier respiration<br>   - Si absence respiration :<br>     → PLS + défibrillateur<br>     → Appel SAMU (15)<br>   - Si respiration :<br>     → PLS<br>     → Surveillance constante<br>3. Si conscience :<br>   - Questionnaire SAMPLE<br>   - Selon gravité :<br>     → Appel 15 ou médecin<br><br>Pour une personne inconsciente qui respire, quelle est la première action après la PLS ?"
+      },
+      "options": [
+        {
+          "content": "Surveillance constante",
+          "correct": true
+        },
+        {
+          "content": "Appel SAMU"
+        },
+        {
+          "content": "Chercher défibrillateur"
+        },
+        {
+          "content": "Questionnaire SAMPLE"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole sécurité données sensibles :<br>1. Classification données :<br>   Niveau 1 (critique) :<br>     - Chiffrement AES-256<br>     - Accès double authentification<br>   Niveau 2 (sensible) :<br>     - Chiffrement standard<br>     - Accès restreint<br>   Niveau 3 (interne) :<br>     - Stockage sécurisé<br>2. En cas de tentative accès non autorisé :<br>   - Blocage compte<br>   - Analyse logs<br>   - Rapport sécurité<br><br>Pour des données de niveau 1, que faire après détection d'une tentative d'accès non autorisé ?"
+      },
+      "options": [
+        {
+          "content": "Blocage compte",
+          "correct": true
+        },
+        {
+          "content": "Renforcer chiffrement"
+        },
+        {
+          "content": "Modifier authentification"
+        },
+        {
+          "content": "Déclassifier données"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Processus conformité RGPD :<br>1. Réception demande accès :<br>   Si demande incomplète :<br>     - Demander compléments<br>     - Délai 7 jours<br>   Si demande complète :<br>     - Vérification identité<br>     - Si validée :<br>       → Extraction données 30 jours<br>       → Format demandé<br>2. Si données inaccessibles :<br>   - Justification écrite<br>   - Voies recours<br><br>Pour une demande complète avec identité validée, quel est le délai maximum de traitement ?"
+      },
+      "options": [
+        {
+          "content": "30 jours",
+          "correct": true
+        },
+        {
+          "content": "7 jours"
+        },
+        {
+          "content": "15 jours"
+        },
+        {
+          "content": "45 jours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions évacuation incendie site industriel :<br>1. Détection incendie :<br>   Zone production :<br>     - Arrêt urgence machines<br>     - Coupure alimentations<br>     - Évacuation zone<br>   Zone stockage :<br>     - Fermeture portes coupe-feu<br>     - Activation systèmes extinction<br>2. Personnel :<br>   Si fumée :<br>     - Utiliser issues secours balisées<br>     - Ne pas utiliser ascenseurs<br>   Si chaleur :<br>     - Route alternative<br><br>Dans la zone production, quelle est la première action après détection ?"
+      },
+      "options": [
+        {
+          "content": "Arrêt urgence machines",
+          "correct": true
+        },
+        {
+          "content": "Évacuation zone"
+        },
+        {
+          "content": "Coupure alimentations"
+        },
+        {
+          "content": "Activation extinction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure validation batch production :<br>1. Tests préliminaires :<br>   Si paramètres hors normes :<br>     - Arrêt production<br>     - Ajustement<br>     - Nouveau test<br>2. Production test :<br>   Échantillonnage :<br>     - Début (T0)<br>     - Mi-batch (T50)<br>     - Fin (T100)<br>3. Analyse qualité :<br>   Si écart T0-T100 > 5% :<br>     - Rejet batch<br>     - Investigation<br><br>Si l'écart entre T0 et T50 est de 6%, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Arrêt production",
+          "correct": true
+        },
+        {
+          "content": "Attendre T100"
+        },
+        {
+          "content": "Ajuster paramètres"
+        },
+        {
+          "content": "Poursuivre échantillonnage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole cybersécurité niveau critique :<br>1. Détection intrusion :<br>   Si accès root compromis :<br>     - Isolation immédiate serveur<br>     - Snapshot système<br>     - Activation backup<br>   Si tentative bruteforce :<br>     - Blocage IP source<br>     - Renforcement pare-feu<br>2. Analyse forensique :<br>   - Capture mémoire vive<br>   - Analyse logs temps réel<br>3. En cas de données exposées :<br>   - Notification CNIL 72h<br>   - Information utilisateurs<br><br>Lors d'une détection d'accès root compromis, quelle est la première action ?"
+      },
+      "options": [
+        {
+          "content": "Isolation immédiate serveur",
+          "correct": true
+        },
+        {
+          "content": "Snapshot système"
+        },
+        {
+          "content": "Capture mémoire vive"
+        },
+        {
+          "content": "Notification CNIL"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure contamination laboratoire P3 :<br>1. Détection agent pathogène :<br>   Si aérosol :<br>     - Activation ventilation urgence<br>     - Confinement zone<br>     - Évacuation personnel<br>   Si surface :<br>     - Délimitation périmètre<br>     - Décontamination immédiate<br>2. Suivi exposés potentiels :<br>   - Liste présents<br>   - Douche décontamination<br>   - Surveillance médicale<br><br>Pour une contamination par aérosol, après l'activation de la ventilation d'urgence, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Confinement zone",
+          "correct": true
+        },
+        {
+          "content": "Liste présents"
+        },
+        {
+          "content": "Décontamination immédiate"
+        },
+        {
+          "content": "Surveillance médicale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Maintenance préventive système critique :<br>1. Vérification initiale :<br>   Si KPI hors seuils :<br>     - Report maintenance<br>     - Diagnostic approfondi<br>   Si KPI normaux :<br>     - Sauvegarde système<br>     - Mise hors ligne<br>2. Pendant maintenance :<br>   Si anomalie détectée :<br>     - Documentation précise<br>     - Escalade niveau 2<br>     - Attente validation<br>3. Tests post-maintenance<br><br>Si une anomalie est détectée pendant la maintenance, que faire après la documentation ?"
+      },
+      "options": [
+        {
+          "content": "Escalade niveau 2",
+          "correct": true
+        },
+        {
+          "content": "Tests post-maintenance"
+        },
+        {
+          "content": "Mise hors ligne"
+        },
+        {
+          "content": "Report maintenance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Gestion escalade client VIP :<br>1. Réception plainte :<br>   Si impact financier >100k€ :<br>     - Notification directeur région<br>     - Task force dédiée<br>     - Suivi horaire<br>   Si impact image :<br>     - Communication crisis manager<br>     - Plan action 4h<br>2. Résolution :<br>   - Validation client<br>   - Mesures préventives<br>   - Rapport direction<br><br>Pour une plainte avec impact financier de 150k€, après notification du directeur région, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Task force dédiée",
+          "correct": true
+        },
+        {
+          "content": "Plan action 4h"
+        },
+        {
+          "content": "Validation client"
+        },
+        {
+          "content": "Rapport direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole certification ISO 27001 :<br>1. Audit préliminaire :<br>   Si non-conformités majeures :<br>     - Plan action urgent<br>     - Délai max 1 mois<br>     - Nouvel audit<br>   Si non-conformités mineures :<br>     - Corrections 3 mois<br>     - Preuves documentées<br>2. Pendant audit :<br>   Si nouvelles non-conformités :<br>     - Correction immédiate si possible<br>     - Sinon plan action<br><br>Face à 3 non-conformités majeures, quel est le délai maximum de correction ?"
+      },
+      "options": [
+        {
+          "content": "1 mois",
+          "correct": true
+        },
+        {
+          "content": "3 mois"
+        },
+        {
+          "content": "2 mois"
+        },
+        {
+          "content": "15 jours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure crise sanitaire entreprise :<br>1. Cas confirmé :<br>   Si même service :<br>     - Télétravail équipe<br>     - Désinfection locaux<br>     - Contact tracing interne<br>   Si cas isolé :<br>     - Isolement concerné<br>     - Désinfection poste<br>2. Suivi contacts :<br>   Si contact direct :<br>     - Test obligatoire<br>     - Isolement préventif<br>   Si contact indirect :<br>     - Surveillance symptômes<br><br>Pour un cas confirmé dans un service, quelle est la première mesure ?"
+      },
+      "options": [
+        {
+          "content": "Télétravail équipe",
+          "correct": true
+        },
+        {
+          "content": "Désinfection locaux"
+        },
+        {
+          "content": "Contact tracing"
+        },
+        {
+          "content": "Test obligatoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole sécurité aéroportuaire zone réservée :<br>1. Détection anomalie scanner :<br>   Si objet suspect :<br>     - Arrêt immédiat passage<br>     - Appel équipe cyno<br>     - Périmètre sécurité 10m<br>   Si doute personne :<br>     - Contrôle approfondi<br>     - Vérification documents<br>     - Rapport superviseur<br>2. En cas de refus contrôle :<br>   - Appel police<br>   - Blocage accès<br>   - Maintien distance<br><br>Lors d'une détection d'objet suspect, quelle est la première action ?"
+      },
+      "options": [
+        {
+          "content": "Arrêt immédiat passage",
+          "correct": true
+        },
+        {
+          "content": "Appel police"
+        },
+        {
+          "content": "Périmètre sécurité"
+        },
+        {
+          "content": "Appel équipe cyno"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure contrôle qualité pharmaceutique :<br>1. Tests stabilité lot :<br>   Si T° hors limite ±0.5°C :<br>     - Arrêt immédiat test<br>     - Quarantaine échantillons<br>     - Calibration urgente<br>   Si variation pH :<br>     - Nouveaux prélèvements<br>     - Tests comparatifs<br>2. Analyse résultats :<br>   Si écart >2% :<br>     - Rejet lot entier<br>     - Investigation cause<br><br>En cas de température hors limite, que faire après l'arrêt du test ?"
+      },
+      "options": [
+        {
+          "content": "Quarantaine échantillons",
+          "correct": true
+        },
+        {
+          "content": "Tests comparatifs"
+        },
+        {
+          "content": "Investigation cause"
+        },
+        {
+          "content": "Nouveaux prélèvements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole crise bancaire fraude massive :<br>1. Détection fraude :<br>   Si montant >1M€ :<br>     - Gel comptes concernés<br>     - Notification Tracfin<br>     - Information direction<br>   Si fraude système :<br>     - Arrêt transactions<br>     - Audit sécurité<br>2. Communication :<br>   Si médias informés :<br>     - Communiqué officiel<br>     - Points presse réguliers<br><br>Pour une fraude de 1.5M€, quelle est la première action ?"
+      },
+      "options": [
+        {
+          "content": "Gel comptes concernés",
+          "correct": true
+        },
+        {
+          "content": "Notification Tracfin"
+        },
+        {
+          "content": "Arrêt transactions"
+        },
+        {
+          "content": "Communiqué officiel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Procédure sécurité alimentaire HACCP :<br>1. Contrôle points critiques :<br>   Si T° chambre froide >6°C :<br>     - Transfert produits<br>     - Maintenance urgente<br>     - Contrôle stock<br>   Si contamination suspectée :<br>     - Isolement produits<br>     - Prélèvements analyse<br>2. Résultats analyses :<br>   Si positif pathogènes :<br>     - Destruction lot<br>     - Traçabilité complète<br><br>Si la température dépasse 6°C, quelle est la première action ?"
+      },
+      "options": [
+        {
+          "content": "Transfert produits",
+          "correct": true
+        },
+        {
+          "content": "Maintenance urgente"
+        },
+        {
+          "content": "Contrôle stock"
+        },
+        {
+          "content": "Prélèvements analyse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Instructions maintenance aéronautique A320 :<br>1. Inspection pré-vol :<br>   Si anomalie critique :<br>     - No-Go immédiat<br>     - Rapport technique<br>     - Information OCC<br>   Si défaut mineur :<br>     - Évaluation MEL<br>     - Documentation<br>2. Pendant maintenance :<br>   Si pièce hors tolérance :<br>     - Arrêt intervention<br>     - Contrôle qualité<br>     - Attente validation<br><br>Face à une anomalie critique, après le No-Go, que faire ?"
+      },
+      "options": [
+        {
+          "content": "Rapport technique",
+          "correct": true
+        },
+        {
+          "content": "Évaluation MEL"
+        },
+        {
+          "content": "Contrôle qualité"
+        },
+        {
+          "content": "Documentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Protocole contrôle qualité automobile :<br>1. Tests ligne finale :<br>   Si défaut sécurité :<br>     - Arrêt ligne immédiat<br>     - Isolation véhicule<br>     - Analyse cause racine<br>   Si défaut qualité :<br>     - Marquage spécifique<br>     - Retouche possible<br>2. Post-contrôle :<br>   Si récurrence défaut :<br>     - Audit process<br>     - Action corrective<br><br>En cas de défaut sécurité, que faire après l'arrêt de la ligne ?"
+      },
+      "options": [
+        {
+          "content": "Isolation véhicule",
+          "correct": true
+        },
+        {
+          "content": "Analyse cause racine"
+        },
+        {
+          "content": "Audit process"
+        },
+        {
+          "content": "Action corrective"
+        }
+      ]
+    }
+  ]
+}

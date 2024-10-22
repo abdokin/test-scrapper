@@ -1,0 +1,848 @@
+{
+  "title": "Calcul de base à trois chiffres",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à effectuer des calculs complexes avec des nombres à trois chiffres, incluant des opérations combinées et des divisions avec reste.",
+    "level": "advanced",
+    "covered_skills": [
+      "Opérations combinées à trois chiffres",
+      "Multiplication de nombres à trois chiffres",
+      "Division avec reste",
+      "Calcul mental avancé",
+      "Factorisation de nombres à trois chiffres",
+      "Calculs avec parenthèses",
+      "Estimation de résultats complexes",
+      "Vérification de calculs avancés"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes nécessitant d'excellentes compétences en calcul mental et une grande précision mathématique.",
+    "description": "Le test évalue la maîtrise des opérations mathématiques complexes avec des nombres à trois chiffres.",
+    "category": "Cognitive ability",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Calculez : (756 + 324) ÷ 9"
+      },
+      "options": [
+        {
+          "content": "120",
+          "correct": true
+        },
+        {
+          "content": "110"
+        },
+        {
+          "content": "130"
+        },
+        {
+          "content": "140"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Si 847 × n = 254100, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "300",
+          "correct": true
+        },
+        {
+          "content": "275"
+        },
+        {
+          "content": "325"
+        },
+        {
+          "content": "350"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Calculez : 992 - (256 × 3)"
+      },
+      "options": [
+        {
+          "content": "224",
+          "correct": true
+        },
+        {
+          "content": "234"
+        },
+        {
+          "content": "214"
+        },
+        {
+          "content": "244"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (875 × 4) - (936 ÷ 3)"
+      },
+      "options": [
+        {
+          "content": "3188",
+          "correct": true
+        },
+        {
+          "content": "3178"
+        },
+        {
+          "content": "3198"
+        },
+        {
+          "content": "3168"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 425 × n + 275 = 5100, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "11",
+          "correct": true
+        },
+        {
+          "content": "12"
+        },
+        {
+          "content": "10"
+        },
+        {
+          "content": "13"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le reste de la division de 999 par 37 ?"
+      },
+      "options": [
+        {
+          "content": "36",
+          "correct": true
+        },
+        {
+          "content": "27"
+        },
+        {
+          "content": "18"
+        },
+        {
+          "content": "9"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : [(624 ÷ 3) × 5] - 840"
+      },
+      "options": [
+        {
+          "content": "200",
+          "correct": true
+        },
+        {
+          "content": "190"
+        },
+        {
+          "content": "210"
+        },
+        {
+          "content": "180"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 784 = n² - 15, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "29",
+          "correct": true
+        },
+        {
+          "content": "28"
+        },
+        {
+          "content": "30"
+        },
+        {
+          "content": "31"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (963 + 847) ÷ (15 + 5)"
+      },
+      "options": [
+        {
+          "content": "90.5",
+          "correct": true
+        },
+        {
+          "content": "89.5"
+        },
+        {
+          "content": "91.5"
+        },
+        {
+          "content": "92.5"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel nombre multiplié par lui-même donne 823543 ?"
+      },
+      "options": [
+        {
+          "content": "907",
+          "correct": true
+        },
+        {
+          "content": "917"
+        },
+        {
+          "content": "897"
+        },
+        {
+          "content": "927"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 756 × n = 189000 ÷ 5, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "50",
+          "correct": true
+        },
+        {
+          "content": "45"
+        },
+        {
+          "content": "55"
+        },
+        {
+          "content": "60"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (888 × 3) - (777 × 2)"
+      },
+      "options": [
+        {
+          "content": "1110",
+          "correct": true
+        },
+        {
+          "content": "1100"
+        },
+        {
+          "content": "1120"
+        },
+        {
+          "content": "1090"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le plus grand nombre à trois chiffres qui, divisé par 17, donne un reste de 16 ?"
+      },
+      "options": [
+        {
+          "content": "999",
+          "correct": true
+        },
+        {
+          "content": "989"
+        },
+        {
+          "content": "969"
+        },
+        {
+          "content": "979"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si (n × 12) + 456 = 999, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "45.25",
+          "correct": true
+        },
+        {
+          "content": "44.75"
+        },
+        {
+          "content": "45.75"
+        },
+        {
+          "content": "44.25"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : √(999² - 888²)"
+      },
+      "options": [
+        {
+          "content": "1887",
+          "correct": true
+        },
+        {
+          "content": "1877"
+        },
+        {
+          "content": "1897"
+        },
+        {
+          "content": "1867"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Soit n = 567 + 432. Si n est divisé par 111, quel est le reste ?"
+      },
+      "options": [
+        {
+          "content": "7",
+          "correct": true
+        },
+        {
+          "content": "9"
+        },
+        {
+          "content": "5"
+        },
+        {
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans l'expression (999 - n) × 8 = 5432, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "320",
+          "correct": true
+        },
+        {
+          "content": "321"
+        },
+        {
+          "content": "319"
+        },
+        {
+          "content": "322"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 123 × abc = 123456 (où abc est un nombre à trois chiffres), quelle est la valeur de abc ?"
+      },
+      "options": [
+        {
+          "content": "1004",
+          "correct": true
+        },
+        {
+          "content": "1003"
+        },
+        {
+          "content": "1005"
+        },
+        {
+          "content": "1006"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : [(876 × 2) - (543 × 3)] ÷ 9"
+      },
+      "options": [
+        {
+          "content": "73",
+          "correct": true
+        },
+        {
+          "content": "74"
+        },
+        {
+          "content": "72"
+        },
+        {
+          "content": "71"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le plus petit nombre à trois chiffres qui, multiplié par lui-même, donne un nombre à 6 chiffres ?"
+      },
+      "options": [
+        {
+          "content": "317",
+          "correct": true
+        },
+        {
+          "content": "316"
+        },
+        {
+          "content": "318"
+        },
+        {
+          "content": "315"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans l'équation 789x + 456y = 999, si y = 1, quelle est la valeur de x ?"
+      },
+      "options": [
+        {
+          "content": "0.689",
+          "correct": true
+        },
+        {
+          "content": "0.679"
+        },
+        {
+          "content": "0.699"
+        },
+        {
+          "content": "0.669"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si (√n + 15)² = 999, quelle est la valeur de n ?"
+      },
+      "options": [
+        {
+          "content": "676",
+          "correct": true
+        },
+        {
+          "content": "677"
+        },
+        {
+          "content": "675"
+        },
+        {
+          "content": "674"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (999 + 888 + 777) ÷ (111 + 222)"
+      },
+      "options": [
+        {
+          "content": "8",
+          "correct": true
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "9"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un nombre à trois chiffres, le chiffre des centaines est le double du chiffre des unités, et le chiffre des dizaines est la somme des deux autres chiffres. Si ce nombre est pair, quel est-il ?"
+      },
+      "options": [
+        {
+          "content": "462",
+          "correct": true
+        },
+        {
+          "content": "482"
+        },
+        {
+          "content": "442"
+        },
+        {
+          "content": "422"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 111a + 11b + c = 999 (où a, b et c sont des chiffres différents), quelle est la valeur de a + b + c ?"
+      },
+      "options": [
+        {
+          "content": "24",
+          "correct": true
+        },
+        {
+          "content": "23"
+        },
+        {
+          "content": "25"
+        },
+        {
+          "content": "22"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : (987 × 654) ÷ (321 × 2)"
+      },
+      "options": [
+        {
+          "content": "1001",
+          "correct": true
+        },
+        {
+          "content": "999"
+        },
+        {
+          "content": "1002"
+        },
+        {
+          "content": "998"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le plus grand nombre à trois chiffres qui, divisé par la somme de ses chiffres, donne un nombre entier ?"
+      },
+      "options": [
+        {
+          "content": "999",
+          "correct": true
+        },
+        {
+          "content": "998"
+        },
+        {
+          "content": "997"
+        },
+        {
+          "content": "996"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un nombre à trois chiffres est tel que le produit de ses chiffres est 162. Si le chiffre des dizaines est 9, quel est ce nombre ?"
+      },
+      "options": [
+        {
+          "content": "392",
+          "correct": true
+        },
+        {
+          "content": "293"
+        },
+        {
+          "content": "396"
+        },
+        {
+          "content": "298"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si (abc)₁₆ = 999₁₀ (où abc est un nombre hexadécimal à trois chiffres), quelle est la valeur de a + b + c en base 10 ?"
+      },
+      "options": [
+        {
+          "content": "27",
+          "correct": true
+        },
+        {
+          "content": "26"
+        },
+        {
+          "content": "28"
+        },
+        {
+          "content": "25"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Soit n = 567. Quelle est la somme des chiffres de n², arrondie à l'unité ?"
+      },
+      "options": [
+        {
+          "content": "15",
+          "correct": true
+        },
+        {
+          "content": "14"
+        },
+        {
+          "content": "16"
+        },
+        {
+          "content": "13"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Trois nombres consécutifs à trois chiffres ont une somme de 2997. Quel est le plus grand de ces nombres ?"
+      },
+      "options": [
+        {
+          "content": "999",
+          "correct": true
+        },
+        {
+          "content": "998"
+        },
+        {
+          "content": "1000"
+        },
+        {
+          "content": "997"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un nombre à trois chiffres est multiplié par 9. Le résultat est le même nombre écrit à l'envers. Quel est ce nombre ?"
+      },
+      "options": [
+        {
+          "content": "109",
+          "correct": true
+        },
+        {
+          "content": "108"
+        },
+        {
+          "content": "110"
+        },
+        {
+          "content": "107"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Calculez : 999 × 999 ÷ (666 + 333)"
+      },
+      "options": [
+        {
+          "content": "999",
+          "correct": true
+        },
+        {
+          "content": "998"
+        },
+        {
+          "content": "1000"
+        },
+        {
+          "content": "997"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans un nombre à trois chiffres, chaque chiffre est égal à la somme des deux autres. Quel est ce nombre ?"
+      },
+      "options": [
+        {
+          "content": "495",
+          "correct": true
+        },
+        {
+          "content": "594"
+        },
+        {
+          "content": "549"
+        },
+        {
+          "content": "945"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si 111x + 11y + z = 1332 (où x, y, z sont des chiffres), quel est le plus grand chiffre possible pour x ?"
+      },
+      "options": [
+        {
+          "content": "9",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Soit ABC un nombre à trois chiffres. Si ABC + BCA = 1089 (où ABC et BCA sont des nombres à trois chiffres), quelle est la valeur de A - C ?"
+      },
+      "options": [
+        {
+          "content": "9",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un nombre à trois chiffres est égal à 11 fois la somme de ses chiffres. Quel est ce nombre ?"
+      },
+      "options": [
+        {
+          "content": "649",
+          "correct": true
+        },
+        {
+          "content": "694"
+        },
+        {
+          "content": "946"
+        },
+        {
+          "content": "469"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Si a × b × c = 216 et a + b + c = 19 (où a, b, c sont des entiers positifs distincts), quelle est la valeur de max(a, b, c) ?"
+      },
+      "options": [
+        {
+          "content": "12",
+          "correct": true
+        },
+        {
+          "content": "11"
+        },
+        {
+          "content": "13"
+        },
+        {
+          "content": "10"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans la suite 123, 234, 345, ..., 789, 890, 901, combien y a-t-il de nombres divisibles par 3 ?"
+      },
+      "options": [
+        {
+          "content": "9",
+          "correct": true
+        },
+        {
+          "content": "8"
+        },
+        {
+          "content": "10"
+        },
+        {
+          "content": "7"
+        }
+      ]
+    }
+  ]
+}
