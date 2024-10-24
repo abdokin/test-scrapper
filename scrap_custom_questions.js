@@ -1,6 +1,6 @@
 async function scrapTestCard(child) {
   const title = child.querySelector(".title > .title-wrap").innerText;
-  const type = child.querySelector(".info > ui-icon-label:nth-child(1)").innerText;
+  const type = child.querySelector(".info > ui-icon-label:nth-child(1)").innerText.replace(/\s+/g, '') + "CustomQuestion";
   const durationContainer = child.querySelector("div.info > ui-icon-label:nth-child(2)");
   let duration = "0";
   if(durationContainer) {
@@ -14,23 +14,29 @@ async function scrapTestCard(child) {
     showMoreBtn.click();
     // sleep for 1 second to wait for the description to load
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    description = child.querySelector("div.expandable-content > div > tgo-quill-view > quill-view > div > div > p").innerText;
+    description = child.querySelector("div.expandable-content > div > tgo-quill-view > quill-view > div > div").innerHTML;
     const info = child.querySelector("div.expandable-content > .show-more");
-    console.log(title);
     relevancy = info.querySelector(".left > p").innerText;
     whatLookFor = info.querySelector(".right > p").innerText;
     showMoreBtn.click();
   }
-  return { title, attributes: {
-    content: description,
-    relevancy,
-    look_for: whatLookFor,
-    category: "Motivation",
-    duration_seconds: duration,
-    type,
-    language: "english",
-    position: 1
-  } };
+  function escapeHtml(unsafe) {
+    return unsafe.replace(/"/g, "&quot;");
+  }
+
+  return { 
+    title: title, 
+    attributes: {
+      content: escapeHtml(description),
+      relevancy: relevancy,
+      look_for: whatLookFor,
+      category: "Motivation",
+      duration_seconds: duration,
+      type: type,
+      language: "english",
+      position: 1
+    } 
+  };
 }
 
 async function downloadDataAsJson(filename) {
