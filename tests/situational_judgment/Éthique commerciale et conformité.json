@@ -48,7 +48,7 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Qu'est-ce que le &quot;greenwashing&quot; ?"
+        "content": "Qu'est-ce que le \"greenwashing\" ?"
       },
       "options": [
         {
@@ -93,7 +93,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie le terme &quot;due diligence&quot; en éthique des affaires ?"
+        "content": "Que signifie le terme \"due diligence\" en éthique des affaires ?"
       },
       "options": [
         {
@@ -114,7 +114,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel est le principe de base du &quot;whistleblowing&quot; ?"
+        "content": "Quel est le principe de base du \"whistleblowing\" ?"
       },
       "options": [
         {
@@ -158,7 +158,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie le terme &quot;RSE&quot; ?"
+        "content": "Que signifie le terme \"RSE\" ?"
       },
       "options": [
         {
@@ -223,7 +223,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce qu'une &quot;ligne éthique&quot; dans une entreprise ?"
+        "content": "Qu'est-ce qu'une \"ligne éthique\" dans une entreprise ?"
       },
       "options": [
         {
@@ -288,7 +288,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;blanchiment d'argent&quot; ?"
+        "content": "Qu'est-ce que le \"blanchiment d'argent\" ?"
       },
       "options": [
         {
@@ -353,7 +353,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;commerce équitable&quot; ?"
+        "content": "Qu'est-ce que le \"commerce équitable\" ?"
       },
       "options": [
         {
@@ -374,7 +374,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel est le principe de &quot;confidentialité&quot; dans l'éthique des affaires ?"
+        "content": "Quel est le principe de \"confidentialité\" dans l'éthique des affaires ?"
       },
       "options": [
         {
@@ -418,7 +418,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie le terme &quot;gouvernance d'entreprise&quot; ?"
+        "content": "Que signifie le terme \"gouvernance d'entreprise\" ?"
       },
       "options": [
         {
@@ -439,7 +439,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;devoir fiduciaire&quot; ?"
+        "content": "Qu'est-ce que le \"devoir fiduciaire\" ?"
       },
       "options": [
         {
@@ -483,7 +483,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;greenwashing&quot; ?"
+        "content": "Qu'est-ce que le \"greenwashing\" ?"
       },
       "options": [
         {
@@ -527,7 +527,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;insider trading&quot; ?"
+        "content": "Qu'est-ce que le \"insider trading\" ?"
       },
       "options": [
         {
@@ -548,7 +548,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel est le principe de &quot;neutralité carbone&quot; ?"
+        "content": "Quel est le principe de \"neutralité carbone\" ?"
       },
       "options": [
         {
@@ -592,7 +592,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que la &quot;diligence raisonnable&quot; en matière de droits humains ?"
+        "content": "Qu'est-ce que la \"diligence raisonnable\" en matière de droits humains ?"
       },
       "options": [
         {
@@ -613,7 +613,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;lobbying&quot; ?"
+        "content": "Qu'est-ce que le \"lobbying\" ?"
       },
       "options": [
         {
@@ -657,7 +657,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que la &quot;discrimination positive&quot; ?"
+        "content": "Qu'est-ce que la \"discrimination positive\" ?"
       },
       "options": [
         {
@@ -678,7 +678,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie le terme &quot;compliance&quot; ?"
+        "content": "Que signifie le terme \"compliance\" ?"
       },
       "options": [
         {
@@ -722,7 +722,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;whistleblowing&quot; ?"
+        "content": "Qu'est-ce que le \"whistleblowing\" ?"
       },
       "options": [
         {
@@ -743,7 +743,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie l'acronyme &quot;ESG&quot; ?"
+        "content": "Que signifie l'acronyme \"ESG\" ?"
       },
       "options": [
         {
@@ -787,7 +787,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;dumping social&quot; ?"
+        "content": "Qu'est-ce que le \"dumping social\" ?"
       },
       "options": [
         {
@@ -808,7 +808,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel est le principe de &quot;transparence&quot; en éthique des affaires ?"
+        "content": "Quel est le principe de \"transparence\" en éthique des affaires ?"
       },
       "options": [
         {
@@ -852,7 +852,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Qu'est-ce que le &quot;capitalisme des parties prenantes&quot; ?"
+        "content": "Qu'est-ce que le \"capitalisme des parties prenantes\" ?"
       },
       "options": [
         {
@@ -873,7 +873,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Que signifie le concept de &quot;matérialité&quot; en reporting ESG ?"
+        "content": "Que signifie le concept de \"matérialité\" en reporting ESG ?"
       },
       "options": [
         {
