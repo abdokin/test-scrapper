@@ -2,7 +2,7 @@
   "title": "Cryptographie : Sécurité des données et chiffrement",
   "attributes": {
     "overview": "Ce test évalue les compétences des candidats en cryptographie, couvrant les principes fondamentaux, les algorithmes courants et les applications pratiques.",
-    "level": 1,
+    "level": "entry_level",
     "covered_skills": [
       "Principes de base de la cryptographie",
       "Algorithmes de chiffrement symétrique et asymétrique",

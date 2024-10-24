@@ -69,28 +69,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "preview": true,
-        "content": "Quelle fonction utiliseriez-vous pour compter le nombre de cellules non vides dans une plage ?"
-      },
-      "options": [
-        {
-          "content": "=NB(plage)",
-          "correct": true
-        },
-        {
-          "content": "=COMPTE(plage)"
-        },
-        {
-          "content": "=TOTAL(plage)"
-        },
-        {
-          "content": "=SOMME(plage)"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quelle fonction permet de rechercher une valeur dans un tableau et de renvoyer une valeur correspondante d'une autre colonne ?"
       },
       "options": [

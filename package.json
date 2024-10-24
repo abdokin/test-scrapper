@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node convert-json-to-excel.js",
+    "start": "node convert_json_to_excel.js",
     "merge": "node merge_json_data.js",
+    "validate": "node validate_test_schema.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "xlsx": "^0.18.5"
+    "ajv": "^8.17.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
   }
 }

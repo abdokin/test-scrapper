@@ -199,7 +199,7 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "content": "Quelle est la meilleure pratique pour modéliser des relations one-to-many dans MongoDB ?"
       },
       "options": [

@@ -1,0 +1,4622 @@
+[
+  {
+    "title": "Account Management",
+    "attributes": {
+      "overview": "Ce test de Account Management évalue la capacité du candidat à servir et à développer des comptes de clients de manière efficace. Ce test vous aidera à recruter des experts en gestion de comptes qui augmentent les revenus tout en établissant et en maintenant des relations stratégiques pour votre entreprise.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Gestion des relations clients",
+        "Développement commercial",
+        "Négociation",
+        "Analyse des besoins clients",
+        "Planification stratégique",
+        "Communication",
+        "Résolution de problèmes",
+        "Gestion de projet"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de gestionnaire de comptes, chargé de clientèle, ou tout rôle impliquant la gestion et le développement de relations clients B2B.",
+      "description": "Le test couvre les aspects essentiels de la gestion de comptes, y compris la stratégie client, la négociation, la résolution de problèmes et la communication efficace.",
+      "category": "Role-specific skills",
+      "language": "french",
+      "questions_to_answer": 12,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la meilleure approche pour gérer les attentes d'un client insatisfait ?"
+        },
+        "options": [
+          {
+            "content": "Écouter activement et proposer des solutions réalistes",
+            "correct": true
+          },
+          {
+            "content": "Promettre de résoudre tous les problèmes immédiatement"
+          },
+          {
+            "content": "Transférer la plainte à un supérieur"
+          },
+          {
+            "content": "Minimiser l'importance du problème"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est l'objectif principal d'une réunion de revue trimestrielle avec un client ?"
+        },
+        "options": [
+          {
+            "content": "Évaluer les performances et planifier l'avenir",
+            "correct": true
+          },
+          {
+            "content": "Vendre de nouveaux produits"
+          },
+          {
+            "content": "Socialiser avec le client"
+          },
+          {
+            "content": "Présenter de nouvelles offres promotionnelles"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les étapes clés pour préparer une présentation efficace à un client potentiel ?"
+        },
+        "options": [
+          {
+            "content": "Rechercher l'entreprise du client",
+            "correct": true
+          },
+          {
+            "content": "Définir des objectifs clairs pour la présentation",
+            "correct": true
+          },
+          {
+            "content": "Préparer des réponses aux objections potentielles",
+            "correct": true
+          },
+          {
+            "content": "Inclure autant d'informations techniques que possible"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle technique est la plus efficace pour identifier de nouvelles opportunités de vente avec un client existant ?"
+        },
+        "options": [
+          {
+            "content": "Analyser régulièrement les besoins et défis du client",
+            "correct": true
+          },
+          {
+            "content": "Envoyer des catalogues de produits mensuels"
+          },
+          {
+            "content": "Attendre que le client demande de nouveaux produits"
+          },
+          {
+            "content": "Proposer systématiquement tous les produits disponibles"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Comment gérer au mieux un client qui demande une réduction de prix significative ?"
+        },
+        "options": [
+          {
+            "content": "Négocier en mettant l'accent sur la valeur ajoutée",
+            "correct": true
+          },
+          {
+            "content": "Accepter immédiatement pour satisfaire le client"
+          },
+          {
+            "content": "Refuser catégoriquement toute réduction"
+          },
+          {
+            "content": "Ignorer la demande et changer de sujet"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels éléments devraient être inclus dans un plan de compte client annuel ?"
+        },
+        "options": [
+          {
+            "content": "Objectifs de croissance",
+            "correct": true
+          },
+          {
+            "content": "Analyse SWOT",
+            "correct": true
+          },
+          {
+            "content": "Stratégies d'engagement",
+            "correct": true
+          },
+          {
+            "content": "Liste des concurrents du client",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de gérer un conflit entre les besoins du client et les politiques de votre entreprise ?"
+        },
+        "options": [
+          {
+            "content": "Chercher un compromis qui satisfasse les deux parties",
+            "correct": true
+          },
+          {
+            "content": "Privilégier systématiquement les besoins du client"
+          },
+          {
+            "content": "Appliquer strictement les politiques de l'entreprise"
+          },
+          {
+            "content": "Éviter d'aborder le sujet avec le client"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'utiliser un CRM (Customer Relationship Management) dans la gestion de comptes ?"
+        },
+        "options": [
+          {
+            "content": "Centralisation et suivi efficace des interactions clients",
+            "correct": true
+          },
+          {
+            "content": "Réduction automatique des coûts opérationnels"
+          },
+          {
+            "content": "Élimination du besoin de contact personnel avec les clients"
+          },
+          {
+            "content": "Augmentation garantie des ventes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les meilleures pratiques pour maintenir une relation client à long terme ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer régulièrement",
+            "correct": true
+          },
+          {
+            "content": "Anticiper et répondre aux besoins du client",
+            "correct": true
+          },
+          {
+            "content": "Être transparent et honnête",
+            "correct": true
+          },
+          {
+            "content": "Offrir des cadeaux coûteux à chaque rencontre"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Comment réagir lorsqu'un client demande un service que votre entreprise ne peut pas fournir ?"
+        },
+        "options": [
+          {
+            "content": "Expliquer honnêtement et proposer des alternatives si possible",
+            "correct": true
+          },
+          {
+            "content": "Promettre de fournir le service malgré tout"
+          },
+          {
+            "content": "Ignorer la demande"
+          },
+          {
+            "content": "Suggérer au client de chercher ailleurs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est la plus efficace pour introduire de nouveaux produits ou services à un client existant ?"
+        },
+        "options": [
+          {
+            "content": "Démontrer comment ils répondent aux besoins spécifiques du client",
+            "correct": true
+          },
+          {
+            "content": "Envoyer un e-mail avec une liste de tous les nouveaux produits"
+          },
+          {
+            "content": "Attendre que le client pose des questions sur les nouveautés"
+          },
+          {
+            "content": "Offrir une remise importante pour encourager l'essai"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les indicateurs clés de performance (KPI) importants à suivre dans la gestion de comptes ?"
+        },
+        "options": [
+          {
+            "content": "Taux de rétention des clients",
+            "correct": true
+          },
+          {
+            "content": "Croissance du chiffre d'affaires par compte",
+            "correct": true
+          },
+          {
+            "content": "Niveau de satisfaction client",
+            "correct": true
+          },
+          {
+            "content": "Nombre de déjeuners d'affaires par mois"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de gérer les attentes irréalistes d'un client ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer clairement et proposer des alternatives réalistes",
+            "correct": true
+          },
+          {
+            "content": "Accepter les demandes pour éviter les conflits"
+          },
+          {
+            "content": "Ignorer les demandes en espérant qu'elles disparaissent"
+          },
+          {
+            "content": "Transférer le client à un autre gestionnaire de compte"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal objectif d'une analyse de la concurrence dans la gestion de comptes ?"
+        },
+        "options": [
+          {
+            "content": "Identifier les opportunités et menaces pour mieux positionner vos offres",
+            "correct": true
+          },
+          {
+            "content": "Copier les stratégies des concurrents"
+          },
+          {
+            "content": "Réduire les prix pour être moins cher que la concurrence"
+          },
+          {
+            "content": "Critiquer les produits des concurrents auprès des clients"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les compétences essentielles pour un gestionnaire de comptes efficace ?"
+        },
+        "options": [
+          {
+            "content": "Excellentes capacités de communication",
+            "correct": true
+          },
+          {
+            "content": "Compétences en négociation",
+            "correct": true
+          },
+          {
+            "content": "Aptitude à résoudre des problèmes",
+            "correct": true
+          },
+          {
+            "content": "Maîtrise de plusieurs langues étrangères"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment aborder la perte d'un client important ?"
+        },
+        "options": [
+          {
+            "content": "Analyser les raisons, apprendre et améliorer les processus",
+            "correct": true
+          },
+          {
+            "content": "Blâmer l'équipe de vente"
+          },
+          {
+            "content": "Ignorer la perte et se concentrer uniquement sur de nouveaux clients"
+          },
+          {
+            "content": "Baisser les prix pour tous les autres clients"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour gérer les plaintes des clients ?"
+        },
+        "options": [
+          {
+            "content": "Écouter, reconnaître le problème et agir rapidement pour le résoudre",
+            "correct": true
+          },
+          {
+            "content": "Offrir immédiatement un remboursement"
+          },
+          {
+            "content": "Défendre vigoureusement la position de l'entreprise"
+          },
+          {
+            "content": "Transférer systématiquement la plainte à un supérieur"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels éléments devraient être inclus dans un rapport de visite client ?"
+        },
+        "options": [
+          {
+            "content": "Résumé des discussions clés",
+            "correct": true
+          },
+          {
+            "content": "Actions à suivre",
+            "correct": true
+          },
+          {
+            "content": "Opportunités identifiées",
+            "correct": true
+          },
+          {
+            "content": "Détails personnels sur la vie privée du client"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de gérer un client qui tarde régulièrement à payer ses factures ?"
+        },
+        "options": [
+          {
+            "content": "Discuter ouvertement du problème et proposer des solutions de paiement",
+            "correct": true
+          },
+          {
+            "content": "Cesser immédiatement de fournir des services"
+          },
+          {
+            "content": "Ignorer le problème pour maintenir une bonne relation"
+          },
+          {
+            "content": "Augmenter les prix pour compenser les retards"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage de la segmentation des clients dans la gestion de comptes ?"
+        },
+        "options": [
+          {
+            "content": "Personnalisation des stratégies et allocation efficace des ressources",
+            "correct": true
+          },
+          {
+            "content": "Réduction du nombre total de clients"
+          },
+          {
+            "content": "Simplification de la tarification"
+          },
+          {
+            "content": "Augmentation automatique des ventes pour tous les segments"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour présenter une augmentation de prix à un client de longue date ?"
+        },
+        "options": [
+          {
+            "content": "Expliquer clairement les raisons et démontrer la valeur ajoutée",
+            "correct": true
+          },
+          {
+            "content": "Introduire l'augmentation sans explication"
+          },
+          {
+            "content": "Offrir une réduction sur d'autres produits pour compenser"
+          },
+          {
+            "content": "Attendre que le client remarque le changement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les éléments clés d'un plan de développement de compte client ?"
+        },
+        "options": [
+          {
+            "content": "Analyse de la situation actuelle",
+            "correct": true
+          },
+          {
+            "content": "Objectifs de croissance spécifiques",
+            "correct": true
+          },
+          {
+            "content": "Stratégies d'expansion des ventes",
+            "correct": true
+          },
+          {
+            "content": "Liste des concurrents du client"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment gérer efficacement un client qui demande constamment des services supplémentaires gratuits ?"
+        },
+        "options": [
+          {
+            "content": "Établir clairement les limites et proposer des options payantes",
+            "correct": true
+          },
+          {
+            "content": "Accéder à toutes les demandes pour maintenir la relation"
+          },
+          {
+            "content": "Ignorer les demandes en espérant qu'elles cessent"
+          },
+          {
+            "content": "Transférer le client à un autre gestionnaire de compte"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de maintenir la relation avec un client pendant une période où il n'y a pas de projets actifs ?"
+        },
+        "options": [
+          {
+            "content": "Rester en contact régulier et partager des informations pertinentes",
+            "correct": true
+          },
+          {
+            "content": "Attendre que le client reprenne contact"
+          },
+          {
+            "content": "Envoyer des offres promotionnelles hebdomadaires"
+          },
+          {
+            "content": "Réduire la fréquence des contacts au minimum"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quelles sont les meilleures pratiques pour mener une réunion de revue annuelle avec un client ?"
+        },
+        "options": [
+          {
+            "content": "Préparer un ordre du jour détaillé",
+            "correct": true
+          },
+          {
+            "content": "Revoir les objectifs et réalisations de l'année écoulée",
+            "correct": true
+          },
+          {
+            "content": "Discuter des plans et objectifs pour l'année à venir",
+            "correct": true
+          },
+          {
+            "content": "Se concentrer uniquement sur les aspects négatifs à améliorer"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment gérer une situation où un client demande un service que votre entreprise n'est pas en mesure de fournir ?"
+        },
+        "options": [
+          {
+            "content": "Être honnête et recommander un partenaire de confiance si possible",
+            "correct": true
+          },
+          {
+            "content": "Promettre de fournir le service malgré le manque de capacité"
+          },
+          {
+            "content": "Refuser sans explication"
+          },
+          {
+            "content": "Sous-traiter le service sans en informer le client"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour gérer les attentes d'un client concernant les délais de livraison ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer des délais réalistes et tenir le client informé",
+            "correct": true
+          },
+          {
+            "content": "Promettre des délais courts pour satisfaire le client"
+          },
+          {
+            "content": "Éviter de donner des délais précis"
+          },
+          {
+            "content": "Laisser le service de production gérer les attentes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages d'une stratégie de compte clé (key account) ?"
+        },
+        "options": [
+          {
+            "content": "Augmentation de la fidélité client",
+            "correct": true
+          },
+          {
+            "content": "Croissance des revenus",
+            "correct": true
+          },
+          {
+            "content": "Meilleure compréhension des besoins du client",
+            "correct": true
+          },
+          {
+            "content": "Réduction automatique des coûts opérationnels"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment aborder la négociation de renouvellement de contrat avec un client important ?"
+        },
+        "options": [
+          {
+            "content": "Préparer une analyse de la valeur ajoutée et des options d'amélioration",
+            "correct": true
+          },
+          {
+            "content": "Proposer immédiatement une réduction de prix"
+          },
+          {
+            "content": "Attendre que le client initie les discussions"
+          },
+          {
+            "content": "Menacer de mettre fin à la relation si les termes ne sont pas acceptés"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de gérer un conflit d'intérêts entre deux clients ?"
+        },
+        "options": [
+          {
+            "content": "Divulguer la situation et établir des barrières éthiques claires",
+            "correct": true
+          },
+          {
+            "content": "Ignorer le conflit et servir les deux clients normalement"
+          },
+          {
+            "content": "Choisir le client le plus rentable et abandonner l'autre"
+          },
+          {
+            "content": "Cacher l'information aux deux clients"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les éléments clés d'une stratégie de cross-selling efficace ?"
+        },
+        "options": [
+          {
+            "content": "Comprendre les besoins du client",
+            "correct": true
+          },
+          {
+            "content": "Identifier les produits complémentaires pertinents",
+            "correct": true
+          },
+          {
+            "content": "Démontrer la valeur ajoutée pour le client",
+            "correct": true
+          },
+          {
+            "content": "Imposer l'achat de produits supplémentaires"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment gérer une situation où un client demande une customisation importante d'un produit standard ?"
+        },
+        "options": [
+          {
+            "content": "Évaluer la faisabilité et les coûts avant de s'engager",
+            "correct": true
+          },
+          {
+            "content": "Refuser catégoriquement toute customisation"
+          },
+          {
+            "content": "Accepter immédiatement pour satisfaire le client"
+          },
+          {
+            "content": "Suggérer au client de chercher un autre fournisseur"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour introduire un nouveau gestionnaire de compte auprès d'un client existant ?"
+        },
+        "options": [
+          {
+            "content": "Organiser une réunion de transition avec l'ancien et le nouveau gestionnaire",
+            "correct": true
+          },
+          {
+            "content": "Envoyer un simple e-mail informant du changement"
+          },
+          {
+            "content": "Laisser le nouveau gestionnaire se présenter lui-même"
+          },
+          {
+            "content": "Attendre que le client remarque le changement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les signes qu'un client pourrait être à risque de churn (départ) ?"
+        },
+        "options": [
+          {
+            "content": "Diminution de la fréquence des commandes",
+            "correct": true
+          },
+          {
+            "content": "Baisse du niveau d'engagement dans les communications",
+            "correct": true
+          },
+          {
+            "content": "Augmentation des plaintes ou insatisfactions",
+            "correct": true
+          },
+          {
+            "content": "Demande d'informations sur de nouveaux produits"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment aborder une situation où votre entreprise a commis une erreur importante affectant le client ?"
+        },
+        "options": [
+          {
+            "content": "Reconnaître l'erreur, s'excuser et proposer une solution rapide",
+            "correct": true
+          },
+          {
+            "content": "Minimiser l'importance de l'erreur"
+          },
+          {
+            "content": "Nier toute responsabilité"
+          },
+          {
+            "content": "Blâmer le client pour le malentendu"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure façon de gérer les objectifs de vente à court terme tout en maintenant des relations clients à long terme ?"
+        },
+        "options": [
+          {
+            "content": "Équilibrer les objectifs de vente avec la satisfaction et la valeur pour le client",
+            "correct": true
+          },
+          {
+            "content": "Se concentrer uniquement sur les objectifs de vente à court terme"
+          },
+          {
+            "content": "Ignorer les objectifs de vente pour privilégier les relations"
+          },
+          {
+            "content": "Alternance entre périodes de vente intense et périodes de relation pure"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les éléments clés d'un processus d'onboarding efficace pour un nouveau client ?"
+        },
+        "options": [
+          {
+            "content": "Clarification des attentes mutuelles",
+            "correct": true
+          },
+          {
+            "content": "Formation sur les produits ou services",
+            "correct": true
+          },
+          {
+            "content": "Établissement des canaux de communication",
+            "correct": true
+          },
+          {
+            "content": "Présentation de l'historique complet de l'entreprise"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Comment gérer un client qui compare constamment vos services à ceux d'un concurrent moins cher ?"
+        },
+        "options": [
+          {
+            "content": "Mettre l'accent sur la valeur ajoutée et les différenciateurs de votre offre",
+            "correct": true
+          },
+          {
+            "content": "Baisser vos prix pour s'aligner sur le concurrent"
+          },
+          {
+            "content": "Critiquer ouvertement la qualité du concurrent"
+          },
+          {
+            "content": "Ignorer les comparaisons et changer de sujet"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour gérer les attentes d'un client concernant le support après-vente ?"
+        },
+        "options": [
+          {
+            "content": "Définir clairement les niveaux de service dès le début de la relation",
+            "correct": true
+          },
+          {
+            "content": "Promettre un support illimité pour rassurer le client"
+          },
+          {
+            "content": "Éviter de discuter du support jusqu'à ce qu'un problème survienne"
+          },
+          {
+            "content": "Laisser le service après-vente gérer toutes les attentes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cybersécurité",
+    "attributes": {
+      "overview": "Ce test évalue les connaissances techniques des candidats en matière de cybersécurité et leur capacité à identifier et à traiter les menaces informatiques.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Sécurité des réseaux",
+        "Cryptographie",
+        "Gestion des identités et des accès",
+        "Sécurité des applications",
+        "Analyse des menaces",
+        "Conformité et réglementation",
+        "Sécurité des données",
+        "Réponse aux incidents"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en cybersécurité, tels que les analystes en sécurité, les administrateurs réseau, et les consultants en sécurité informatique.",
+      "description": "Le test couvre les aspects fondamentaux et intermédiaires de la cybersécurité, évaluant la capacité du candidat à comprendre et à appliquer les principes de sécurité dans divers contextes informatiques.",
+      "category": "Role-specific skills",
+      "language": "french",
+      "questions_to_answer": 15,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel protocole est utilisé pour sécuriser les connexions HTTPS ?"
+        },
+        "options": [
+          {
+            "content": "SSL/TLS",
+            "correct": true
+          },
+          {
+            "content": "FTP"
+          },
+          {
+            "content": "SMTP"
+          },
+          {
+            "content": "HTTP"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la principale fonction d'un pare-feu ?"
+        },
+        "options": [
+          {
+            "content": "Filtrer le trafic réseau",
+            "correct": true
+          },
+          {
+            "content": "Accélérer la connexion Internet"
+          },
+          {
+            "content": "Stocker des données"
+          },
+          {
+            "content": "Gérer les mots de passe"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Qu'est-ce qu'une attaque par déni de service (DoS) ?"
+        },
+        "options": [
+          {
+            "content": "Une tentative de rendre un système ou un réseau indisponible",
+            "correct": true
+          },
+          {
+            "content": "Un vol d'identité"
+          },
+          {
+            "content": "Une infection par un virus"
+          },
+          {
+            "content": "Une faille dans un logiciel"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure pratique pour créer un mot de passe fort ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser une combinaison de lettres, chiffres et caractères spéciaux",
+            "correct": true
+          },
+          {
+            "content": "Utiliser son nom d'utilisateur"
+          },
+          {
+            "content": "Utiliser la même phrase pour tous les comptes"
+          },
+          {
+            "content": "Changer le mot de passe tous les jours"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le phishing ?"
+        },
+        "options": [
+          {
+            "content": "Une technique pour obtenir des informations sensibles en se faisant passer pour une entité de confiance",
+            "correct": true
+          },
+          {
+            "content": "Un type de virus informatique"
+          },
+          {
+            "content": "Une méthode de chiffrement"
+          },
+          {
+            "content": "Un protocole de sécurité réseau"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les bonnes pratiques pour sécuriser un réseau Wi-Fi ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser le chiffrement WPA3",
+            "correct": true
+          },
+          {
+            "content": "Changer régulièrement le mot de passe",
+            "correct": true
+          },
+          {
+            "content": "Désactiver le SSID broadcast",
+            "correct": true
+          },
+          {
+            "content": "Utiliser le protocole WEP"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le but principal d'un VPN ?"
+        },
+        "options": [
+          {
+            "content": "Créer une connexion sécurisée et privée sur un réseau public",
+            "correct": true
+          },
+          {
+            "content": "Augmenter la vitesse de connexion"
+          },
+          {
+            "content": "Bloquer les publicités"
+          },
+          {
+            "content": "Gérer les mots de passe"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?"
+        },
+        "options": [
+          {
+            "content": "Une méthode de sécurité qui nécessite deux formes d'identification",
+            "correct": true
+          },
+          {
+            "content": "Un type de chiffrement"
+          },
+          {
+            "content": "Un protocole de routage"
+          },
+          {
+            "content": "Un logiciel antivirus"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une politique de sécurité informatique ?"
+        },
+        "options": [
+          {
+            "content": "Gestion des accès",
+            "correct": true
+          },
+          {
+            "content": "Protection des données",
+            "correct": true
+          },
+          {
+            "content": "Plan de continuité d'activité",
+            "correct": true
+          },
+          {
+            "content": "Augmentation du budget marketing"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce qu'une vulnérabilité zero-day ?"
+        },
+        "options": [
+          {
+            "content": "Une faille de sécurité inconnue du fabricant du logiciel",
+            "correct": true
+          },
+          {
+            "content": "Un virus qui se propage en 24 heures"
+          },
+          {
+            "content": "Un type de cryptomonnaie"
+          },
+          {
+            "content": "Un protocole de sécurité réseau"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le rôle principal d'un SIEM (Security Information and Event Management) ?"
+        },
+        "options": [
+          {
+            "content": "Collecter et analyser les logs de sécurité",
+            "correct": true
+          },
+          {
+            "content": "Gérer les mots de passe"
+          },
+          {
+            "content": "Chiffrer les communications"
+          },
+          {
+            "content": "Bloquer les attaques DDoS"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les étapes typiques d'une réponse à incident ?"
+        },
+        "options": [
+          {
+            "content": "Préparation",
+            "correct": true
+          },
+          {
+            "content": "Détection et analyse",
+            "correct": true
+          },
+          {
+            "content": "Confinement et éradication",
+            "correct": true
+          },
+          {
+            "content": "Augmentation du budget marketing"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe du moindre privilège ?"
+        },
+        "options": [
+          {
+            "content": "Accorder aux utilisateurs uniquement les droits nécessaires à leurs tâches",
+            "correct": true
+          },
+          {
+            "content": "Donner à tous les utilisateurs des droits d'administrateur"
+          },
+          {
+            "content": "Limiter l'accès Internet des employés"
+          },
+          {
+            "content": "Restreindre l'utilisation des appareils mobiles"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le but principal du chiffrement des données ?"
+        },
+        "options": [
+          {
+            "content": "Protéger la confidentialité des informations",
+            "correct": true
+          },
+          {
+            "content": "Augmenter la vitesse de transmission"
+          },
+          {
+            "content": "Réduire la taille des fichiers"
+          },
+          {
+            "content": "Améliorer la qualité des images"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les types courants d'attaques sur les applications web ?"
+        },
+        "options": [
+          {
+            "content": "Injection SQL",
+            "correct": true
+          },
+          {
+            "content": "Cross-Site Scripting (XSS)",
+            "correct": true
+          },
+          {
+            "content": "Cross-Site Request Forgery (CSRF)",
+            "correct": true
+          },
+          {
+            "content": "Attaque par force brute sur le BIOS"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le RGPD ?"
+        },
+        "options": [
+          {
+            "content": "Un règlement européen sur la protection des données personnelles",
+            "correct": true
+          },
+          {
+            "content": "Un protocole de routage"
+          },
+          {
+            "content": "Un type de malware"
+          },
+          {
+            "content": "Un standard de chiffrement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la différence entre un virus et un ver informatique ?"
+        },
+        "options": [
+          {
+            "content": "Un ver se propage automatiquement, un virus nécessite une action humaine",
+            "correct": true
+          },
+          {
+            "content": "Un virus est toujours plus dangereux qu'un ver"
+          },
+          {
+            "content": "Un ver affecte uniquement les réseaux, un virus uniquement les fichiers"
+          },
+          {
+            "content": "Il n'y a pas de différence, ce sont des synonymes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les méthodes courantes pour sécuriser un serveur web ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser HTTPS",
+            "correct": true
+          },
+          {
+            "content": "Maintenir les logiciels à jour",
+            "correct": true
+          },
+          {
+            "content": "Configurer correctement le pare-feu",
+            "correct": true
+          },
+          {
+            "content": "Désactiver toutes les connexions distantes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce qu'une politique de mot de passe fort ?"
+        },
+        "options": [
+          {
+            "content": "Un ensemble de règles pour créer des mots de passe sécurisés",
+            "correct": true
+          },
+          {
+            "content": "Un logiciel qui génère des mots de passe aléatoires"
+          },
+          {
+            "content": "Une technique pour stocker les mots de passe en clair"
+          },
+          {
+            "content": "Un type de chiffrement pour les mots de passe"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le but principal d'un test d'intrusion ?"
+        },
+        "options": [
+          {
+            "content": "Identifier les vulnérabilités dans un système ou un réseau",
+            "correct": true
+          },
+          {
+            "content": "Optimiser les performances du réseau"
+          },
+          {
+            "content": "Former les employés à la sécurité"
+          },
+          {
+            "content": "Installer des mises à jour logicielles"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les composantes d'une PKI (Infrastructure à Clés Publiques) ?"
+        },
+        "options": [
+          {
+            "content": "Autorité de certification",
+            "correct": true
+          },
+          {
+            "content": "Certificats numériques",
+            "correct": true
+          },
+          {
+            "content": "Clés publiques et privées",
+            "correct": true
+          },
+          {
+            "content": "Serveur DNS"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe de défense en profondeur ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser plusieurs couches de sécurité pour protéger un système",
+            "correct": true
+          },
+          {
+            "content": "Concentrer toutes les ressources sur un seul point de défense"
+          },
+          {
+            "content": "Utiliser uniquement des solutions de sécurité open-source"
+          },
+          {
+            "content": "Chiffrer toutes les données en permanence"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce qu'une attaque de l'homme du milieu (Man-in-the-Middle) ?"
+        },
+        "options": [
+          {
+            "content": "Une interception de la communication entre deux parties",
+            "correct": true
+          },
+          {
+            "content": "Une attaque visant les routeurs du milieu de réseau"
+          },
+          {
+            "content": "Un type de ver informatique"
+          },
+          {
+            "content": "Une technique de cryptographie"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les mesures efficaces contre les attaques par force brute ?"
+        },
+        "options": [
+          {
+            "content": "Utiliser des mots de passe complexes",
+            "correct": true
+          },
+          {
+            "content": "Implémenter un verrouillage de compte après plusieurs tentatives échouées",
+            "correct": true
+          },
+          {
+            "content": "Utiliser l'authentification à deux facteurs",
+            "correct": true
+          },
+          {
+            "content": "Désactiver tous les comptes utilisateurs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe de séparation des privilèges ?"
+        },
+        "options": [
+          {
+            "content": "Diviser les tâches critiques entre plusieurs utilisateurs ou systèmes",
+            "correct": true
+          },
+          {
+            "content": "Donner tous les privilèges à un seul administrateur"
+          },
+          {
+            "content": "Supprimer tous les privilèges des utilisateurs"
+          },
+          {
+            "content": "Changer les privilèges chaque jour"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le but principal d'un IDS (Système de Détection d'Intrusion) ?"
+        },
+        "options": [
+          {
+            "content": "Détecter les activités suspectes ou malveillantes sur un réseau",
+            "correct": true
+          },
+          {
+            "content": "Bloquer tout le trafic entrant"
+          },
+          {
+            "content": "Accélérer la vitesse du réseau"
+          },
+          {
+            "content": "Gérer les mots de passe des utilisateurs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages de l'utilisation d'un gestionnaire de mots de passe ?"
+        },
+        "options": [
+          {
+            "content": "Génération de mots de passe complexes",
+            "correct": true
+          },
+          {
+            "content": "Stockage sécurisé des mots de passe",
+            "correct": true
+          },
+          {
+            "content": "Remplissage automatique des formulaires",
+            "correct": true
+          },
+          {
+            "content": "Amélioration de la vitesse de connexion Internet"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le BYOD (Bring Your Own Device) ?"
+        },
+        "options": [
+          {
+            "content": "Une politique permettant aux employés d'utiliser leurs propres appareils au travail",
+            "correct": true
+          },
+          {
+            "content": "Un type de malware ciblant les appareils mobiles"
+          },
+          {
+            "content": "Un protocole de sécurité pour les réseaux sans fil"
+          },
+          {
+            "content": "Une technique de chiffrement pour les smartphones"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le hachage (hashing) en cryptographie ?"
+        },
+        "options": [
+          {
+            "content": "Une fonction qui convertit des données en une chaîne de caractères de taille fixe",
+            "correct": true
+          },
+          {
+            "content": "Un algorithme de compression de données"
+          },
+          {
+            "content": "Une méthode pour générer des clés de chiffrement"
+          },
+          {
+            "content": "Un protocole de communication sécurisé"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les bonnes pratiques pour sécuriser un cloud public ?"
+        },
+        "options": [
+          {
+            "content": "Chiffrer les données sensibles",
+            "correct": true
+          },
+          {
+            "content": "Utiliser l'authentification multifacteur",
+            "correct": true
+          },
+          {
+            "content": "Surveiller régulièrement les activités",
+            "correct": true
+          },
+          {
+            "content": "Partager les identifiants de connexion entre collègues"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe de moindre connaissance (Need-to-Know) ?"
+        },
+        "options": [
+          {
+            "content": "Limiter l'accès aux informations uniquement à ceux qui en ont besoin",
+            "correct": true
+          },
+          {
+            "content": "Partager toutes les informations avec tous les employés"
+          },
+          {
+            "content": "Stocker toutes les données sur un seul serveur"
+          },
+          {
+            "content": "Utiliser un seul mot de passe pour tous les systèmes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le rôle principal d'un WAF (Web Application Firewall) ?"
+        },
+        "options": [
+          {
+            "content": "Protéger les applications web contre les attaques courantes",
+            "correct": true
+          },
+          {
+            "content": "Accélérer le chargement des pages web"
+          },
+          {
+            "content": "Gérer les bases de données"
+          },
+          {
+            "content": "Optimiser le référencement des sites web"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'un plan de réponse aux incidents de sécurité ?"
+        },
+        "options": [
+          {
+            "content": "Identification des rôles et responsabilités",
+            "correct": true
+          },
+          {
+            "content": "Procédures de communication",
+            "correct": true
+          },
+          {
+            "content": "Étapes de containment et d'éradication",
+            "correct": true
+          },
+          {
+            "content": "Plan de restructuration de l'entreprise"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le sandboxing en sécurité informatique ?"
+        },
+        "options": [
+          {
+            "content": "Une technique d'isolation pour exécuter des programmes potentiellement dangereux",
+            "correct": true
+          },
+          {
+            "content": "Un type de malware"
+          },
+          {
+            "content": "Une méthode de chiffrement des données"
+          },
+          {
+            "content": "Un protocole de routage sécurisé"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe de défaillance sécurisée (Fail-Safe) ?"
+        },
+        "options": [
+          {
+            "content": "En cas de panne, un système doit par défaut entrer dans un état sécurisé",
+            "correct": true
+          },
+          {
+            "content": "Toujours avoir un plan de secours en cas d'attaque"
+          },
+          {
+            "content": "Éteindre tous les systèmes en cas de brèche"
+          },
+          {
+            "content": "Sauvegarder les données quotidiennement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les composantes typiques d'un SOC (Security Operations Center) ?"
+        },
+        "options": [
+          {
+            "content": "Équipe d'analystes de sécurité",
+            "correct": true
+          },
+          {
+            "content": "Outils de surveillance et d'alerte",
+            "correct": true
+          },
+          {
+            "content": "Procédures de réponse aux incidents",
+            "correct": true
+          },
+          {
+            "content": "Équipe de développement de logiciels"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le CSIRT (Computer Security Incident Response Team) ?"
+        },
+        "options": [
+          {
+            "content": "Une équipe dédiée à la gestion des incidents de sécurité informatique",
+            "correct": true
+          },
+          {
+            "content": "Un logiciel antivirus avancé"
+          },
+          {
+            "content": "Un protocole de communication sécurisé"
+          },
+          {
+            "content": "Un type de firewall"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les principes de base de la sécurité de l'information selon le modèle CIA ?"
+        },
+        "options": [
+          {
+            "content": "Confidentialité",
+            "correct": true
+          },
+          {
+            "content": "Intégrité",
+            "correct": true
+          },
+          {
+            "content": "Disponibilité",
+            "correct": true
+          },
+          {
+            "content": "Authenticité"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le SOAR (Security Orchestration, Automation and Response) ?"
+        },
+        "options": [
+          {
+            "content": "Un ensemble de technologies permettant d'automatiser et de coordonner les tâches de sécurité",
+            "correct": true
+          },
+          {
+            "content": "Un type de malware sophistiqué"
+          },
+          {
+            "content": "Une technique de chiffrement avancée"
+          },
+          {
+            "content": "Un protocole de communication sécurisée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le principe de moindre fonctionnalité (Least Functionality) ?"
+        },
+        "options": [
+          {
+            "content": "Configurer les systèmes pour qu'ils n'exécutent que les fonctions essentielles",
+            "correct": true
+          },
+          {
+            "content": "Utiliser le minimum de ressources système possible"
+          },
+          {
+            "content": "Limiter le nombre d'utilisateurs sur un système"
+          },
+          {
+            "content": "Réduire la complexité des mots de passe"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les principales caractéristiques d'un bon système de gestion des logs de sécurité ?"
+        },
+        "options": [
+          {
+            "content": "Collecte centralisée des logs",
+            "correct": true
+          },
+          {
+            "content": "Analyse en temps réel",
+            "correct": true
+          },
+          {
+            "content": "Capacité de stockage à long terme",
+            "correct": true
+          },
+          {
+            "content": "Capacité à modifier les logs existants"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Google Ads",
+    "attributes": {
+      "overview": "Le test Google Ads évalue les connaissances des candidats sur les principaux concepts et les fonctionnalités essentielles de Google Ads. Ce test vous aidera à recruter des experts de Google Ads capables d'utiliser la plateforme pour obtenir des résultats tant pour les campagnes de recherche que pour les campagnes payantes.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Concepts de base de Google Ads",
+        "Structure des campagnes",
+        "Types d'enchères",
+        "Ciblage d'audience",
+        "Création d'annonces",
+        "Optimisation des campagnes",
+        "Rapports et analyses",
+        "Remarketing"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de spécialiste marketing digital, gestionnaire de campagnes publicitaires en ligne, ou tout rôle nécessitant une expertise en Google Ads.",
+      "description": "Le test couvre les aspects fondamentaux et intermédiaires de Google Ads, évaluant la capacité du candidat à créer, gérer et optimiser des campagnes publicitaires efficaces sur la plateforme Google Ads.",
+      "category": "Role-specific skills",
+      "language": "french",
+      "questions_to_answer": 20,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel est le principal objectif du score de qualité dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Mesurer la pertinence de vos annonces, mots-clés et pages de destination",
+            "correct": true
+          },
+          {
+            "content": "Déterminer le coût par clic de vos annonces"
+          },
+          {
+            "content": "Calculer le retour sur investissement de vos campagnes"
+          },
+          {
+            "content": "Évaluer la performance globale de votre compte"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle métrique mesure le pourcentage de clics que votre annonce reçoit lorsqu'elle est affichée ?"
+        },
+        "options": [
+          {
+            "content": "Taux de conversion"
+          },
+          {
+            "content": "Taux de clics (CTR)",
+            "correct": true
+          },
+          {
+            "content": "Impressions"
+          },
+          {
+            "content": "Position moyenne"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les types de correspondance de mots-clés disponibles dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Exact",
+            "correct": true
+          },
+          {
+            "content": "Expression",
+            "correct": true
+          },
+          {
+            "content": "Large",
+            "correct": true
+          },
+          {
+            "content": "Négative",
+            "correct": true
+          },
+          {
+            "content": "Partielle"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Qu'est-ce que le CPC maximum dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Le montant le plus élevé que vous êtes prêt à payer pour un clic sur votre annonce",
+            "correct": true
+          },
+          {
+            "content": "Le coût moyen par clic de vos annonces"
+          },
+          {
+            "content": "Le coût total de votre campagne divisé par le nombre de clics"
+          },
+          {
+            "content": "Le montant minimum nécessaire pour afficher votre annonce"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle fonctionnalité permet de cibler les utilisateurs qui ont déjà interagi avec votre site web ou application mobile ?"
+        },
+        "options": [
+          {
+            "content": "Ciblage démographique"
+          },
+          {
+            "content": "Ciblage par intérêts"
+          },
+          {
+            "content": "Remarketing",
+            "correct": true
+          },
+          {
+            "content": "Ciblage contextuel"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels éléments font partie d'une annonce textuelle standard sur le Réseau de Recherche Google ?"
+        },
+        "options": [
+          {
+            "content": "Titres",
+            "correct": true
+          },
+          {
+            "content": "Description",
+            "correct": true
+          },
+          {
+            "content": "URL d'affichage",
+            "correct": true
+          },
+          {
+            "content": "URL finale",
+            "correct": true
+          },
+          {
+            "content": "Image"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle stratégie d'enchères automatiques vise à maximiser le nombre de conversions dans la limite de votre budget ?"
+        },
+        "options": [
+          {
+            "content": "CPC amélioré"
+          },
+          {
+            "content": "Maximiser les conversions",
+            "correct": true
+          },
+          {
+            "content": "Maximiser la valeur des conversions"
+          },
+          {
+            "content": "CPA cible"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que l'extension d'annonce 'sitelink' ?"
+        },
+        "options": [
+          {
+            "content": "Un lien vers votre page Facebook"
+          },
+          {
+            "content": "Des liens supplémentaires vers des pages spécifiques de votre site",
+            "correct": true
+          },
+          {
+            "content": "Un numéro de téléphone cliquable"
+          },
+          {
+            "content": "Une note d'avis client"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages du remarketing dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Cibler des utilisateurs qui ont déjà montré un intérêt pour vos produits ou services",
+            "correct": true
+          },
+          {
+            "content": "Augmenter le taux de conversion",
+            "correct": true
+          },
+          {
+            "content": "Réduire le coût par acquisition",
+            "correct": true
+          },
+          {
+            "content": "Améliorer la notoriété de la marque",
+            "correct": true
+          },
+          {
+            "content": "Garantir un classement n°1 dans les résultats de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la principale différence entre le Réseau de Recherche et le Réseau Display de Google ?"
+        },
+        "options": [
+          {
+            "content": "Le Réseau de Recherche affiche des annonces textuelles, le Réseau Display des annonces visuelles",
+            "correct": true
+          },
+          {
+            "content": "Le Réseau de Recherche est gratuit, le Réseau Display est payant"
+          },
+          {
+            "content": "Le Réseau de Recherche cible les mobiles, le Réseau Display les ordinateurs"
+          },
+          {
+            "content": "Le Réseau de Recherche est automatique, le Réseau Display nécessite une configuration manuelle"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le Quality Score dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Une mesure de la qualité de votre site web"
+          },
+          {
+            "content": "Une estimation de la qualité de vos annonces, mots-clés et pages de destination",
+            "correct": true
+          },
+          {
+            "content": "Le nombre total de clics sur vos annonces"
+          },
+          {
+            "content": "Le pourcentage de conversions de vos campagnes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels facteurs influencent le classement des annonces dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Enchère",
+            "correct": true
+          },
+          {
+            "content": "Quality Score",
+            "correct": true
+          },
+          {
+            "content": "Extensions d'annonce",
+            "correct": true
+          },
+          {
+            "content": "Contexte de la recherche",
+            "correct": true
+          },
+          {
+            "content": "Ancienneté du compte Google Ads"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle méthode de ciblage permet d'afficher vos annonces aux utilisateurs en fonction de leurs centres d'intérêt ?"
+        },
+        "options": [
+          {
+            "content": "Ciblage démographique"
+          },
+          {
+            "content": "Ciblage par mots-clés"
+          },
+          {
+            "content": "Ciblage par centres d'intérêt",
+            "correct": true
+          },
+          {
+            "content": "Ciblage géographique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le CPA (Coût Par Acquisition) dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Le coût total de votre campagne"
+          },
+          {
+            "content": "Le coût moyen pour obtenir une conversion",
+            "correct": true
+          },
+          {
+            "content": "Le coût par clic sur votre annonce"
+          },
+          {
+            "content": "Le coût pour atteindre 1000 impressions"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages des annonces responsives sur le Réseau de Recherche ?"
+        },
+        "options": [
+          {
+            "content": "Adaptation automatique à différents formats d'affichage",
+            "correct": true
+          },
+          {
+            "content": "Test de multiples combinaisons de titres et descriptions",
+            "correct": true
+          },
+          {
+            "content": "Optimisation basée sur les performances",
+            "correct": true
+          },
+          {
+            "content": "Réduction du temps nécessaire à la création d'annonces",
+            "correct": true
+          },
+          {
+            "content": "Garantie de la première position dans les résultats de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle fonction dans Google Ads permet de prévoir le volume de recherche pour des mots-clés spécifiques ?"
+        },
+        "options": [
+          {
+            "content": "Outil de planification des mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Rapport de termes de recherche"
+          },
+          {
+            "content": "Outil de prévision de campagne"
+          },
+          {
+            "content": "Analyse de la concurrence"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le remarketing dynamique dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Afficher des annonces personnalisées basées sur les produits ou services consultés par l'utilisateur",
+            "correct": true
+          },
+          {
+            "content": "Changer automatiquement vos enchères en fonction de l'heure de la journée"
+          },
+          {
+            "content": "Créer des annonces qui s'adaptent à différentes tailles d'écran"
+          },
+          {
+            "content": "Modifier vos annonces en temps réel en fonction des tendances actuelles"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les types de campagnes disponibles dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Recherche",
+            "correct": true
+          },
+          {
+            "content": "Display",
+            "correct": true
+          },
+          {
+            "content": "Shopping",
+            "correct": true
+          },
+          {
+            "content": "Vidéo",
+            "correct": true
+          },
+          {
+            "content": "Applications",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle métrique mesure le rapport entre les conversions et le nombre de clics sur vos annonces ?"
+        },
+        "options": [
+          {
+            "content": "Taux de conversion",
+            "correct": true
+          },
+          {
+            "content": "Taux de clics (CTR)"
+          },
+          {
+            "content": "Retour sur investissement (ROI)"
+          },
+          {
+            "content": "Coût par acquisition (CPA)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Smart Bidding' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Une stratégie d'enchères utilisant l'apprentissage automatique pour optimiser les conversions",
+            "correct": true
+          },
+          {
+            "content": "Un outil pour créer automatiquement des annonces"
+          },
+          {
+            "content": "Une fonction pour générer des rapports intelligents"
+          },
+          {
+            "content": "Un système de notation des mots-clés"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les critères de ciblage disponibles pour les campagnes Display ?"
+        },
+        "options": [
+          {
+            "content": "Données démographiques",
+            "correct": true
+          },
+          {
+            "content": "Centres d'intérêt",
+            "correct": true
+          },
+          {
+            "content": "Mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Emplacements (sites web)",
+            "correct": true
+          },
+          {
+            "content": "Remarketing",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la principale différence entre le CPC (Coût Par Clic) et le CPM (Coût Pour Mille) ?"
+        },
+        "options": [
+          {
+            "content": "Le CPC facture pour chaque clic, le CPM pour chaque mille impressions",
+            "correct": true
+          },
+          {
+            "content": "Le CPC est utilisé sur le Réseau de Recherche, le CPM sur le Réseau Display"
+          },
+          {
+            "content": "Le CPC optimise les conversions, le CPM optimise la visibilité"
+          },
+          {
+            "content": "Le CPC est manuel, le CPM est automatique"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'ad rank' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "La position de votre annonce dans les résultats de recherche"
+          },
+          {
+            "content": "Un score calculé pour déterminer si et où votre annonce apparaîtra",
+            "correct": true
+          },
+          {
+            "content": "Le classement de votre site web dans les résultats organiques"
+          },
+          {
+            "content": "Le nombre total de clics sur votre annonce"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages des extensions d'annonce dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Augmentation de la visibilité de l'annonce",
+            "correct": true
+          },
+          {
+            "content": "Amélioration du taux de clics (CTR)",
+            "correct": true
+          },
+          {
+            "content": "Fourniture d'informations supplémentaires aux utilisateurs",
+            "correct": true
+          },
+          {
+            "content": "Possibilité d'apparaître au-dessus des résultats de recherche organiques",
+            "correct": true
+          },
+          {
+            "content": "Garantie d'un meilleur classement dans les résultats de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la fonction principale de l'outil de planification des mots-clés dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Générer automatiquement des annonces"
+          },
+          {
+            "content": "Analyser le volume de recherche et suggérer de nouveaux mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Optimiser les enchères pour les mots-clés existants"
+          },
+          {
+            "content": "Créer des groupes d'annonces"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Quality Score' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Une mesure de la qualité de votre site web"
+          },
+          {
+            "content": "Un score de 1 à 10 estimant la qualité de vos annonces et mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Le pourcentage de clics sur vos annonces"
+          },
+          {
+            "content": "Le classement de votre annonce dans les résultats de recherche"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels facteurs influencent le Quality Score dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Taux de clics (CTR) attendu",
+            "correct": true
+          },
+          {
+            "content": "Pertinence de l'annonce",
+            "correct": true
+          },
+          {
+            "content": "Expérience de la page de destination",
+            "correct": true
+          },
+          {
+            "content": "Historique des performances du compte"
+          },
+          {
+            "content": "Montant de l'enchère"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle stratégie d'enchère vise à maximiser le nombre de clics dans la limite de votre budget quotidien ?"
+        },
+        "options": [
+          {
+            "content": "CPC manuel"
+          },
+          {
+            "content": "Maximiser les clics",
+            "correct": true
+          },
+          {
+            "content": "CPA cible"
+          },
+          {
+            "content": "Maximiser les conversions"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Search Terms Report' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Un rapport montrant les termes de recherche réels qui ont déclenché vos annonces",
+            "correct": true
+          },
+          {
+            "content": "Une liste de mots-clés suggérés pour votre campagne"
+          },
+          {
+            "content": "Un outil pour rechercher des idées de contenu pour vos annonces"
+          },
+          {
+            "content": "Un rapport sur les positions moyennes de vos annonces"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages des campagnes de remarketing dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Cibler des utilisateurs qui ont déjà interagi avec votre site",
+            "correct": true
+          },
+          {
+            "content": "Augmenter le taux de conversion",
+            "correct": true
+          },
+          {
+            "content": "Améliorer le retour sur investissement (ROI)",
+            "correct": true
+          },
+          {
+            "content": "Renforcer la notoriété de la marque",
+            "correct": true
+          },
+          {
+            "content": "Réduire le coût par clic (CPC)"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la principale différence entre les conversions et les micro-conversions dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Les conversions sont des actions principales, les micro-conversions sont des étapes intermédiaires",
+            "correct": true
+          },
+          {
+            "content": "Les conversions sont gratuites, les micro-conversions sont payantes"
+          },
+          {
+            "content": "Les conversions sont automatiques, les micro-conversions sont manuelles"
+          },
+          {
+            "content": "Les conversions sont pour le Réseau de Recherche, les micro-conversions pour le Réseau Display"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Impression Share' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Le pourcentage d'impressions que vos annonces ont reçu par rapport au total possible",
+            "correct": true
+          },
+          {
+            "content": "Le nombre total d'impressions de vos annonces"
+          },
+          {
+            "content": "Le coût moyen par impression"
+          },
+          {
+            "content": "Le rapport entre les impressions et les clics"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments d'une structure de compte Google Ads bien organisée ?"
+        },
+        "options": [
+          {
+            "content": "Campagnes",
+            "correct": true
+          },
+          {
+            "content": "Groupes d'annonces",
+            "correct": true
+          },
+          {
+            "content": "Mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Annonces",
+            "correct": true
+          },
+          {
+            "content": "Extensions d'annonce",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la fonction principale des audiences similaires (similar audiences) dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Atteindre de nouveaux utilisateurs ayant des caractéristiques similaires à votre audience existante",
+            "correct": true
+          },
+          {
+            "content": "Exclure les utilisateurs qui ont déjà converti"
+          },
+          {
+            "content": "Cibler uniquement les utilisateurs qui ont déjà visité votre site"
+          },
+          {
+            "content": "Créer des groupes d'annonces automatiquement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Dynamic Search Ads' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Des annonces générées automatiquement basées sur le contenu de votre site web",
+            "correct": true
+          },
+          {
+            "content": "Des annonces qui changent en fonction de l'heure de la journée"
+          },
+          {
+            "content": "Des annonces qui s'adaptent à différentes tailles d'écran"
+          },
+          {
+            "content": "Des annonces qui modifient automatiquement les enchères"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Ad Schedule' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Un calendrier pour planifier la création de nouvelles annonces"
+          },
+          {
+            "content": "Une fonctionnalité permettant d'ajuster les enchères ou de désactiver les annonces à certaines heures ou certains jours",
+            "correct": true
+          },
+          {
+            "content": "Un outil pour programmer la publication automatique des annonces"
+          },
+          {
+            "content": "Un rapport montrant les performances des annonces au fil du temps"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les avantages des annonces vidéo TrueView sur YouTube ?"
+        },
+        "options": [
+          {
+            "content": "Vous ne payez que lorsque les utilisateurs choisissent de regarder votre annonce",
+            "correct": true
+          },
+          {
+            "content": "Possibilité de cibler un public spécifique",
+            "correct": true
+          },
+          {
+            "content": "Format engageant pour raconter l'histoire de votre marque",
+            "correct": true
+          },
+          {
+            "content": "Mesure précise des vues et des interactions",
+            "correct": true
+          },
+          {
+            "content": "Garantie d'un placement en première page des résultats de recherche YouTube"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la fonction principale de l'outil 'Expériences' (anciennement 'Experiments') dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Tester différentes versions de vos campagnes pour optimiser les performances",
+            "correct": true
+          },
+          {
+            "content": "Créer automatiquement de nouvelles annonces"
+          },
+          {
+            "content": "Analyser le comportement des utilisateurs sur votre site web"
+          },
+          {
+            "content": "Générer des rapports détaillés sur les performances des campagnes"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Qu'est-ce que le 'Negative Keyword' dans Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Un mot-clé qui a une performance négative"
+          },
+          {
+            "content": "Un type de mot-clé qui empêche votre annonce d'apparaître pour certaines recherches",
+            "correct": true
+          },
+          {
+            "content": "Un mot-clé avec un score de qualité faible"
+          },
+          {
+            "content": "Un mot-clé utilisé par vos concurrents"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les facteurs à considérer lors de l'optimisation d'une landing page pour Google Ads ?"
+        },
+        "options": [
+          {
+            "content": "Pertinence du contenu par rapport à l'annonce et aux mots-clés",
+            "correct": true
+          },
+          {
+            "content": "Vitesse de chargement de la page",
+            "correct": true
+          },
+          {
+            "content": "Expérience utilisateur sur mobile",
+            "correct": true
+          },
+          {
+            "content": "Présence d'un appel à l'action clair",
+            "correct": true
+          },
+          {
+            "content": "Utilisation de pop-ups agressifs pour capturer les leads"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Jugement commercial",
+    "attributes": {
+      "overview": "Ce test évalue la capacité des candidats à faire des compromis et prendre de bonnes décisions dans un contexte commercial, aidant à recruter des cadres et consultants en stratégie capables de détecter la valeur.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Prise de décision",
+        "Analyse stratégique",
+        "Gestion des risques",
+        "Négociation",
+        "Compréhension financière",
+        "Résolution de problèmes",
+        "Pensée critique",
+        "Éthique des affaires"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de cadres, consultants en stratégie, et autres rôles nécessitant un jugement commercial solide.",
+      "description": "Le test évalue la capacité à analyser des situations commerciales complexes, à identifier les opportunités et les risques, et à prendre des décisions éclairées.",
+      "category": "Role-specific skills",
+      "language": "french",
+      "questions_to_answer": 15,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Une entreprise envisage d'entrer sur un nouveau marché. Quel facteur est le plus important à considérer ?"
+        },
+        "options": [
+          {
+            "content": "La taille du marché potentiel",
+            "correct": false
+          },
+          {
+            "content": "Le coût d'entrée sur le marché",
+            "correct": false
+          },
+          {
+            "content": "La concurrence existante",
+            "correct": false
+          },
+          {
+            "content": "L'adéquation avec les compétences et ressources de l'entreprise",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer un conflit avec un client important ?"
+        },
+        "options": [
+          {
+            "content": "Céder à toutes les demandes du client",
+            "correct": false
+          },
+          {
+            "content": "Maintenir fermement sa position sans compromis",
+            "correct": false
+          },
+          {
+            "content": "Chercher un compromis mutuellement bénéfique",
+            "correct": true
+          },
+          {
+            "content": "Ignorer le conflit en espérant qu'il se résolve de lui-même",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les éléments clés à considérer lors de l'évaluation d'un investissement potentiel ?"
+        },
+        "options": [
+          {
+            "content": "Le retour sur investissement attendu",
+            "correct": true
+          },
+          {
+            "content": "Les risques associés",
+            "correct": true
+          },
+          {
+            "content": "L'alignement avec la stratégie de l'entreprise",
+            "correct": true
+          },
+          {
+            "content": "La popularité de l'investissement parmi les concurrents",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour fixer le prix d'un nouveau produit innovant ?"
+        },
+        "options": [
+          {
+            "content": "Fixer un prix bas pour pénétrer rapidement le marché",
+            "correct": false
+          },
+          {
+            "content": "Fixer un prix élevé pour maximiser les profits initiaux",
+            "correct": false
+          },
+          {
+            "content": "Aligner le prix sur celui des concurrents",
+            "correct": false
+          },
+          {
+            "content": "Baser le prix sur la valeur perçue par le client",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Dans une négociation commerciale, quelle stratégie est généralement la plus efficace ?"
+        },
+        "options": [
+          {
+            "content": "Chercher à maximiser ses propres gains à tout prix",
+            "correct": false
+          },
+          {
+            "content": "Faire des concessions importantes dès le début",
+            "correct": false
+          },
+          {
+            "content": "Viser un résultat gagnant-gagnant",
+            "correct": true
+          },
+          {
+            "content": "Rester inflexible sur toutes ses positions",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels facteurs doivent être pris en compte lors de l'évaluation d'une opportunité d'expansion internationale ?"
+        },
+        "options": [
+          {
+            "content": "Les différences culturelles et linguistiques",
+            "correct": true
+          },
+          {
+            "content": "Le cadre réglementaire du pays cible",
+            "correct": true
+          },
+          {
+            "content": "La stabilité politique et économique",
+            "correct": true
+          },
+          {
+            "content": "La proximité géographique avec le siège social",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est la plus appropriée face à un concurrent qui baisse agressivement ses prix ?"
+        },
+        "options": [
+          {
+            "content": "Baisser immédiatement vos prix pour maintenir votre part de marché",
+            "correct": false
+          },
+          {
+            "content": "Ignorer la baisse de prix et maintenir votre stratégie actuelle",
+            "correct": false
+          },
+          {
+            "content": "Augmenter les dépenses marketing pour justifier vos prix plus élevés",
+            "correct": false
+          },
+          {
+            "content": "Analyser la situation et ajuster votre stratégie en conséquence",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de diversification pour une entreprise ?"
+        },
+        "options": [
+          {
+            "content": "Réduction des risques liés à la dépendance à un seul marché",
+            "correct": true
+          },
+          {
+            "content": "Garantie de profits à court terme",
+            "correct": false
+          },
+          {
+            "content": "Simplification des opérations de l'entreprise",
+            "correct": false
+          },
+          {
+            "content": "Élimination de la concurrence",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les signes qu'une entreprise devrait envisager de pivoter sa stratégie ?"
+        },
+        "options": [
+          {
+            "content": "Baisse constante des ventes malgré les efforts marketing",
+            "correct": true
+          },
+          {
+            "content": "Changements technologiques majeurs dans l'industrie",
+            "correct": true
+          },
+          {
+            "content": "Feedback négatif récurrent des clients",
+            "correct": true
+          },
+          {
+            "content": "Augmentation temporaire des coûts de production",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une crise de réputation ?"
+        },
+        "options": [
+          {
+            "content": "Nier toute responsabilité",
+            "correct": false
+          },
+          {
+            "content": "Ignorer la situation en espérant qu'elle se tasse",
+            "correct": false
+          },
+          {
+            "content": "Communiquer de manière transparente et prendre des mesures correctives",
+            "correct": true
+          },
+          {
+            "content": "Blâmer des parties externes",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de niche par rapport à une stratégie de marché de masse ?"
+        },
+        "options": [
+          {
+            "content": "Potentiel de croissance illimité",
+            "correct": false
+          },
+          {
+            "content": "Coûts de marketing réduits",
+            "correct": false
+          },
+          {
+            "content": "Meilleure capacité à répondre aux besoins spécifiques des clients",
+            "correct": true
+          },
+          {
+            "content": "Elimination totale de la concurrence",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages potentiels d'une fusion ou acquisition pour une entreprise ?"
+        },
+        "options": [
+          {
+            "content": "Accès à de nouveaux marchés",
+            "correct": true
+          },
+          {
+            "content": "Économies d'échelle",
+            "correct": true
+          },
+          {
+            "content": "Acquisition de nouvelles technologies ou compétences",
+            "correct": true
+          },
+          {
+            "content": "Garantie de succès immédiat",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer un projet qui dépasse le budget ?"
+        },
+        "options": [
+          {
+            "content": "Continuer comme prévu en espérant rattraper le retard",
+            "correct": false
+          },
+          {
+            "content": "Annuler immédiatement le projet",
+            "correct": false
+          },
+          {
+            "content": "Réévaluer les objectifs et ajuster le plan en conséquence",
+            "correct": true
+          },
+          {
+            "content": "Blâmer l'équipe pour les dépassements de coûts",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de différenciation par rapport à une stratégie de leadership par les coûts ?"
+        },
+        "options": [
+          {
+            "content": "Garantie de parts de marché plus importantes",
+            "correct": false
+          },
+          {
+            "content": "Capacité à justifier des prix plus élevés",
+            "correct": true
+          },
+          {
+            "content": "Réduction automatique des coûts de production",
+            "correct": false
+          },
+          {
+            "content": "Élimination de la nécessité de l'innovation",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels facteurs devraient être considérés lors de l'évaluation de la viabilité à long terme d'un modèle d'affaires ?"
+        },
+        "options": [
+          {
+            "content": "La scalabilité du modèle",
+            "correct": true
+          },
+          {
+            "content": "La résilience face aux changements du marché",
+            "correct": true
+          },
+          {
+            "content": "Le potentiel d'innovation continue",
+            "correct": true
+          },
+          {
+            "content": "La popularité actuelle du modèle d'affaires",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une équipe démotivée ?"
+        },
+        "options": [
+          {
+            "content": "Augmenter les salaires de tous les employés",
+            "correct": false
+          },
+          {
+            "content": "Ignorer le problème en espérant qu'il se résolve de lui-même",
+            "correct": false
+          },
+          {
+            "content": "Menacer de licenciements pour stimuler la productivité",
+            "correct": false
+          },
+          {
+            "content": "Identifier les causes profondes et mettre en place des actions correctives",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de croissance organique par rapport à une croissance par acquisition ?"
+        },
+        "options": [
+          {
+            "content": "Rapidité de l'expansion",
+            "correct": false
+          },
+          {
+            "content": "Contrôle plus important sur le processus de croissance",
+            "correct": true
+          },
+          {
+            "content": "Garantie de succès à court terme",
+            "correct": false
+          },
+          {
+            "content": "Élimination de tous les risques",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages potentiels d'adopter une stratégie de responsabilité sociale d'entreprise (RSE) ?"
+        },
+        "options": [
+          {
+            "content": "Amélioration de l'image de marque",
+            "correct": true
+          },
+          {
+            "content": "Attraction et rétention des talents",
+            "correct": true
+          },
+          {
+            "content": "Opportunités d'innovation",
+            "correct": true
+          },
+          {
+            "content": "Garantie de profits à court terme",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle est la meilleure approche pour répondre à une plainte d'un client important ?"
+        },
+        "options": [
+          {
+            "content": "Ignorer la plainte en espérant que le client oublie",
+            "correct": false
+          },
+          {
+            "content": "Répondre rapidement et proposer une solution",
+            "correct": true
+          },
+          {
+            "content": "Blâmer le client pour le problème",
+            "correct": false
+          },
+          {
+            "content": "Transférer systématiquement la plainte à un supérieur",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels facteurs devraient être pris en compte lors de l'évaluation d'un partenariat stratégique potentiel ?"
+        },
+        "options": [
+          {
+            "content": "La complémentarité des compétences et ressources",
+            "correct": true
+          },
+          {
+            "content": "L'alignement des valeurs et de la culture d'entreprise",
+            "correct": true
+          },
+          {
+            "content": "Le potentiel de synergie à long terme",
+            "correct": true
+          },
+          {
+            "content": "La popularité médiatique du partenaire potentiel",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une baisse soudaine des ventes ?"
+        },
+        "options": [
+          {
+            "content": "Réduire immédiatement les prix de tous les produits",
+            "correct": false
+          },
+          {
+            "content": "Licencier du personnel pour réduire les coûts",
+            "correct": false
+          },
+          {
+            "content": "Analyser les causes et ajuster la stratégie en conséquence",
+            "correct": true
+          },
+          {
+            "content": "Augmenter massivement le budget marketing",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de premier entrant sur un nouveau marché ?"
+        },
+        "options": [
+          {
+            "content": "Garantie de succès à long terme",
+            "correct": false
+          },
+          {
+            "content": "Opportunité d'établir une forte reconnaissance de marque",
+            "correct": true
+          },
+          {
+            "content": "Élimination de tous les risques",
+            "correct": false
+          },
+          {
+            "content": "Coûts de développement réduits",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages potentiels de l'adoption d'une stratégie de transformation digitale ?"
+        },
+        "options": [
+          {
+            "content": "Amélioration de l'efficacité opérationnelle",
+            "correct": true
+          },
+          {
+            "content": "Meilleure expérience client",
+            "correct": true
+          },
+          {
+            "content": "Nouvelles opportunités de revenus",
+            "correct": true
+          },
+          {
+            "content": "Élimination immédiate de tous les concurrents",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer un conflit entre deux employés clés ?"
+        },
+        "options": [
+          {
+            "content": "Ignorer le conflit en espérant qu'il se résolve seul",
+            "correct": false
+          },
+          {
+            "content": "Prendre parti pour l'employé le plus ancien",
+            "correct": false
+          },
+          {
+            "content": "Licencier les deux employés pour éviter tout problème futur",
+            "correct": false
+          },
+          {
+            "content": "Faciliter une discussion ouverte pour trouver une résolution",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de croissance par franchise ?"
+        },
+        "options": [
+          {
+            "content": "Expansion rapide avec un investissement limité",
+            "correct": true
+          },
+          {
+            "content": "Contrôle total sur toutes les opérations",
+            "correct": false
+          },
+          {
+            "content": "Élimination de tous les risques financiers",
+            "correct": false
+          },
+          {
+            "content": "Garantie de profits immédiats",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels facteurs devraient être considérés lors de l'évaluation d'un investissement en recherche et développement (R&D) ?"
+        },
+        "options": [
+          {
+            "content": "L'alignement avec la stratégie à long terme de l'entreprise",
+            "correct": true
+          },
+          {
+            "content": "Le potentiel de retour sur investissement",
+            "correct": true
+          },
+          {
+            "content": "Les risques technologiques et de marché",
+            "correct": true
+          },
+          {
+            "content": "La popularité actuelle du domaine de recherche",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour introduire un changement organisationnel majeur ?"
+        },
+        "options": [
+          {
+            "content": "Imposer le changement sans consultation préalable",
+            "correct": false
+          },
+          {
+            "content": "Annoncer le changement au dernier moment pour éviter la résistance",
+            "correct": false
+          },
+          {
+            "content": "Communiquer clairement et impliquer les employés dans le processus",
+            "correct": true
+          },
+          {
+            "content": "Laisser les employés décider entièrement du changement",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de prix premium ?"
+        },
+        "options": [
+          {
+            "content": "Garantie de parts de marché importantes",
+            "correct": false
+          },
+          {
+            "content": "Marges bénéficiaires potentiellement plus élevées",
+            "correct": true
+          },
+          {
+            "content": "Élimination de toute concurrence",
+            "correct": false
+          },
+          {
+            "content": "Réduction des coûts de production",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages potentiels d'une stratégie d'internationalisation pour une entreprise ?"
+        },
+        "options": [
+          {
+            "content": "Diversification des risques géographiques",
+            "correct": true
+          },
+          {
+            "content": "Accès à de nouveaux marchés et clients",
+            "correct": true
+          },
+          {
+            "content": "Opportunités d'économies d'échelle",
+            "correct": true
+          },
+          {
+            "content": "Garantie de succès immédiat dans tous les pays",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une crise de trésorerie à court terme ?"
+        },
+        "options": [
+          {
+            "content": "Emprunter massivement sans plan de remboursement",
+            "correct": false
+          },
+          {
+            "content": "Vendre rapidement des actifs clés de l'entreprise",
+            "correct": false
+          },
+          {
+            "content": "Retarder tous les paiements aux fournisseurs",
+            "correct": false
+          },
+          {
+            "content": "Élaborer un plan de gestion de trésorerie et négocier avec les créanciers",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de leadership par les coûts ?"
+        },
+        "options": [
+          {
+            "content": "Capacité à offrir des prix plus bas tout en maintenant la rentabilité",
+            "correct": true
+          },
+          {
+            "content": "Garantie de la meilleure qualité de produit",
+            "correct": false
+          },
+          {
+            "content": "Élimination de toute concurrence",
+            "correct": false
+          },
+          {
+            "content": "Fidélisation automatique des clients",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les éléments clés à considérer lors de l'élaboration d'une stratégie de gestion des talents ?"
+        },
+        "options": [
+          {
+            "content": "L'alignement avec les objectifs stratégiques de l'entreprise",
+            "correct": true
+          },
+          {
+            "content": "Les tendances du marché du travail",
+            "correct": true
+          },
+          {
+            "content": "Les besoins de développement des employés",
+            "correct": true
+          },
+          {
+            "content": "La popularité des titres de postes sur les réseaux sociaux",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une innovation disruptive dans votre industrie ?"
+        },
+        "options": [
+          {
+            "content": "Ignorer l'innovation en espérant qu'elle échoue",
+            "correct": false
+          },
+          {
+            "content": "Copier immédiatement l'innovation sans réflexion stratégique",
+            "correct": false
+          },
+          {
+            "content": "Poursuivre en justice l'entreprise innovante",
+            "correct": false
+          },
+          {
+            "content": "Évaluer l'impact potentiel et adapter votre stratégie en conséquence",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie de diversification non liée ?"
+        },
+        "options": [
+          {
+            "content": "Réduction des risques liés à un seul secteur d'activité",
+            "correct": true
+          },
+          {
+            "content": "Garantie de synergies opérationnelles",
+            "correct": false
+          },
+          {
+            "content": "Simplicité de gestion",
+            "correct": false
+          },
+          {
+            "content": "Élimination de toute concurrence",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": false,
+          "content": "Quels sont les avantages potentiels d'une stratégie de développement durable pour une entreprise ?"
+        },
+        "options": [
+          {
+            "content": "Amélioration de l'image de marque",
+            "correct": true
+          },
+          {
+            "content": "Réduction des coûts à long terme",
+            "correct": true
+          },
+          {
+            "content": "Attraction de clients et investisseurs conscients",
+            "correct": true
+          },
+          {
+            "content": "Garantie de profits à court terme",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quelle approche est généralement la plus efficace pour gérer une baisse de la qualité des produits ?"
+        },
+        "options": [
+          {
+            "content": "Ignorer le problème en espérant que les clients ne le remarquent pas",
+            "correct": false
+          },
+          {
+            "content": "Baisser les prix pour compenser la baisse de qualité",
+            "correct": false
+          },
+          {
+            "content": "Blâmer les fournisseurs ou les employés publiquement",
+            "correct": false
+          },
+          {
+            "content": "Identifier les causes profondes et mettre en place des mesures correctives",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": false,
+          "content": "Quel est le principal avantage d'une stratégie d'intégration verticale ?"
+        },
+        "options": [
+          {
+            "content": "Meilleur contrôle sur la chaîne de valeur",
+            "correct": true
+          },
+          {
+            "content": "Garantie de profits immédiats",
+            "correct": false
+          },
+          {
+            "content": "Élimination de toute concurrence",
+            "correct": false
+          },
+          {
+            "content": "Simplification des opérations de l'entreprise",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Leadership et gestion des personnes",
+    "attributes": {
+      "overview": "Le test de leadership évalue la capacité du candidat à diriger en utilisant influence et orientation. Il facilite le recrutement de leaders soutenant le développement d'autres personnes pour la croissance de l'organisation.",
+      "level": "intermediate",
+      "covered_skills": [
+        "Communication efficace",
+        "Prise de décision",
+        "Motivation d'équipe",
+        "Résolution de conflits",
+        "Délégation",
+        "Gestion du changement",
+        "Coaching et mentorat",
+        "Planification stratégique"
+      ],
+      "relevancy": "Ce test est pertinent pour les postes de direction, de gestion d'équipe ou tout rôle nécessitant des compétences en leadership.",
+      "description": "Le test évalue les compétences essentielles en leadership, y compris la communication, la prise de décision, la motivation d'équipe et la gestion des conflits.",
+      "category": "Role-specific skills",
+      "language": "french",
+      "questions_to_answer": 12,
+      "duration_seconds": 600,
+      "position": 1
+    },
+    "questions": [
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quelle est la meilleure approche pour motiver une équipe démotivée ?"
+        },
+        "options": [
+          {
+            "content": "Fixer des objectifs clairs et atteignables",
+            "correct": true
+          },
+          {
+            "content": "Augmenter les salaires de tous les membres de l'équipe"
+          },
+          {
+            "content": "Menacer de sanctions en cas de mauvaise performance"
+          },
+          {
+            "content": "Ignorer le problème en espérant qu'il se résolve de lui-même"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "preview": true,
+          "content": "Quel est le principal avantage de la délégation pour un leader ?"
+        },
+        "options": [
+          {
+            "content": "Développer les compétences de l'équipe",
+            "correct": true
+          },
+          {
+            "content": "Réduire sa propre charge de travail"
+          },
+          {
+            "content": "Éviter les responsabilités difficiles"
+          },
+          {
+            "content": "Montrer son autorité"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "preview": true,
+          "content": "Quelles sont les caractéristiques d'une communication efficace en leadership ?"
+        },
+        "options": [
+          {
+            "content": "Être clair et concis",
+            "correct": true
+          },
+          {
+            "content": "Écouter activement",
+            "correct": true
+          },
+          {
+            "content": "Utiliser un jargon technique complexe"
+          },
+          {
+            "content": "Adapter son style à l'audience",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle approche est la plus efficace pour gérer un conflit au sein d'une équipe ?"
+        },
+        "options": [
+          {
+            "content": "Encourager une discussion ouverte et honnête",
+            "correct": true
+          },
+          {
+            "content": "Ignorer le conflit en espérant qu'il se résolve seul"
+          },
+          {
+            "content": "Prendre parti pour le membre le plus ancien de l'équipe"
+          },
+          {
+            "content": "Imposer une solution sans consulter les parties concernées"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le meilleur moyen de promouvoir l'innovation au sein d'une équipe ?"
+        },
+        "options": [
+          {
+            "content": "Créer un environnement où les erreurs sont vues comme des opportunités d'apprentissage",
+            "correct": true
+          },
+          {
+            "content": "Récompenser uniquement les idées qui réussissent"
+          },
+          {
+            "content": "Limiter les discussions d'équipe pour éviter les conflits"
+          },
+          {
+            "content": "Imposer des quotas d'idées nouvelles par semaine"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon de donner un feedback constructif ?"
+        },
+        "options": [
+          {
+            "content": "Être spécifique, objectif et orienté vers des solutions",
+            "correct": true
+          },
+          {
+            "content": "Attendre la revue annuelle de performance"
+          },
+          {
+            "content": "Se concentrer uniquement sur les points négatifs"
+          },
+          {
+            "content": "Donner le feedback devant toute l'équipe pour maximiser l'impact"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les qualités essentielles d'un bon mentor ?"
+        },
+        "options": [
+          {
+            "content": "Être à l'écoute",
+            "correct": true
+          },
+          {
+            "content": "Partager son expérience",
+            "correct": true
+          },
+          {
+            "content": "Imposer ses propres solutions"
+          },
+          {
+            "content": "Encourager la réflexion et l'autonomie",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle approche est la plus efficace pour gérer le changement organisationnel ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer clairement les raisons et les bénéfices du changement",
+            "correct": true
+          },
+          {
+            "content": "Imposer le changement sans explication"
+          },
+          {
+            "content": "Laisser chaque département gérer le changement à sa manière"
+          },
+          {
+            "content": "Ignorer les préoccupations des employés"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux promouvoir la diversité et l'inclusion au sein de son équipe ?"
+        },
+        "options": [
+          {
+            "content": "Créer des opportunités égales et valoriser les perspectives diverses",
+            "correct": true
+          },
+          {
+            "content": "Imposer des quotas stricts pour chaque groupe démographique"
+          },
+          {
+            "content": "Éviter de discuter des différences pour ne pas créer de tensions"
+          },
+          {
+            "content": "Traiter tout le monde de manière identique, sans tenir compte des besoins individuels"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une vision stratégique efficace ?"
+        },
+        "options": [
+          {
+            "content": "Claire et inspirante",
+            "correct": true
+          },
+          {
+            "content": "Alignée avec les valeurs de l'organisation",
+            "correct": true
+          },
+          {
+            "content": "Focalisée uniquement sur les profits à court terme"
+          },
+          {
+            "content": "Orientée vers l'avenir",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour gérer un employé sous-performant ?"
+        },
+        "options": [
+          {
+            "content": "Identifier les causes, offrir du soutien et établir un plan d'amélioration",
+            "correct": true
+          },
+          {
+            "content": "Le licencier immédiatement"
+          },
+          {
+            "content": "Ignorer le problème pour éviter la confrontation"
+          },
+          {
+            "content": "Réduire ses responsabilités sans discussion"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quel est le rôle principal d'un leader dans la gestion de crise ?"
+        },
+        "options": [
+          {
+            "content": "Fournir une direction claire et rassurer l'équipe",
+            "correct": true
+          },
+          {
+            "content": "Trouver quelqu'un à blâmer pour la crise"
+          },
+          {
+            "content": "Minimiser l'importance de la situation"
+          },
+          {
+            "content": "Laisser l'équipe gérer la crise sans intervention"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les caractéristiques d'une décision éthique en leadership ?"
+        },
+        "options": [
+          {
+            "content": "Respecte les valeurs de l'organisation",
+            "correct": true
+          },
+          {
+            "content": "Considère l'impact sur toutes les parties prenantes",
+            "correct": true
+          },
+          {
+            "content": "Maximise les profits à court terme"
+          },
+          {
+            "content": "Est transparente et peut être expliquée",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle approche est la plus efficace pour développer les compétences de leadership au sein d'une équipe ?"
+        },
+        "options": [
+          {
+            "content": "Offrir des opportunités de leadership et fournir un feedback régulier",
+            "correct": true
+          },
+          {
+            "content": "Envoyer tous les membres de l'équipe à des formations coûteuses"
+          },
+          {
+            "content": "Attendre que les individus demandent des responsabilités supplémentaires"
+          },
+          {
+            "content": "Promouvoir automatiquement les employés les plus anciens"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux gérer son propre stress et éviter l'épuisement professionnel ?"
+        },
+        "options": [
+          {
+            "content": "Pratiquer l'équilibre travail-vie personnelle et déléguer efficacement",
+            "correct": true
+          },
+          {
+            "content": "Travailler plus d'heures pour tout accomplir"
+          },
+          {
+            "content": "Ignorer les signes de stress"
+          },
+          {
+            "content": "Transférer tout le stress sur l'équipe"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les composantes d'un bon plan de succession ?"
+        },
+        "options": [
+          {
+            "content": "Identifier les postes clés",
+            "correct": true
+          },
+          {
+            "content": "Développer les talents internes",
+            "correct": true
+          },
+          {
+            "content": "Garder le plan secret de tous les employés"
+          },
+          {
+            "content": "Créer des opportunités de mentorat",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon de célébrer les succès de l'équipe ?"
+        },
+        "options": [
+          {
+            "content": "Reconnaître publiquement les efforts collectifs et individuels",
+            "correct": true
+          },
+          {
+            "content": "Donner une prime uniquement au manager"
+          },
+          {
+            "content": "Ignorer les succès pour éviter la complaisance"
+          },
+          {
+            "content": "Organiser une fête coûteuse sans discussion sur les réalisations"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux encourager la créativité au sein de son équipe ?"
+        },
+        "options": [
+          {
+            "content": "Créer un environnement sûr pour partager des idées et expérimenter",
+            "correct": true
+          },
+          {
+            "content": "Imposer des séances de brainstorming obligatoires quotidiennes"
+          },
+          {
+            "content": "Punir les idées qui échouent"
+          },
+          {
+            "content": "Limiter les ressources pour forcer l'innovation"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une culture d'entreprise positive ?"
+        },
+        "options": [
+          {
+            "content": "Communication ouverte",
+            "correct": true
+          },
+          {
+            "content": "Reconnaissance des contributions",
+            "correct": true
+          },
+          {
+            "content": "Compétition interne intense"
+          },
+          {
+            "content": "Opportunités de développement",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour gérer les conflits intergénérationnels au sein d'une équipe ?"
+        },
+        "options": [
+          {
+            "content": "Promouvoir la compréhension mutuelle et valoriser les perspectives diverses",
+            "correct": true
+          },
+          {
+            "content": "Séparer les générations en équipes distinctes"
+          },
+          {
+            "content": "Ignorer les différences générationnelles"
+          },
+          {
+            "content": "Favoriser la génération la plus représentée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux gérer une équipe distante ou hybride ?"
+        },
+        "options": [
+          {
+            "content": "Établir des processus de communication clairs et utiliser des outils collaboratifs",
+            "correct": true
+          },
+          {
+            "content": "Imposer des horaires de travail rigides pour tous"
+          },
+          {
+            "content": "Privilégier les employés travaillant au bureau"
+          },
+          {
+            "content": "Organiser des réunions quotidiennes de plusieurs heures"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les qualités essentielles pour diriger efficacement pendant une période de changement ?"
+        },
+        "options": [
+          {
+            "content": "Flexibilité et adaptabilité",
+            "correct": true
+          },
+          {
+            "content": "Communication transparente",
+            "correct": true
+          },
+          {
+            "content": "Rigidité dans la planification"
+          },
+          {
+            "content": "Empathie envers les préoccupations de l'équipe",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour un leader face à ses propres erreurs ?"
+        },
+        "options": [
+          {
+            "content": "Reconnaître l'erreur, s'excuser et proposer des solutions",
+            "correct": true
+          },
+          {
+            "content": "Blâmer les circonstances ou d'autres personnes"
+          },
+          {
+            "content": "Ignorer l'erreur en espérant que personne ne la remarque"
+          },
+          {
+            "content": "Démissionner immédiatement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux promouvoir l'apprentissage continu au sein de son équipe ?"
+        },
+        "options": [
+          {
+            "content": "Créer une culture qui valorise le développement et offrir des opportunités d'apprentissage",
+            "correct": true
+          },
+          {
+            "content": "Imposer des formations obligatoires sans tenir compte des intérêts individuels"
+          },
+          {
+            "content": "Laisser chaque employé gérer son propre développement sans soutien"
+          },
+          {
+            "content": "Concentrer les ressources de formation uniquement sur les hauts potentiels"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'un feedback efficace ?"
+        },
+        "options": [
+          {
+            "content": "Spécifique et basé sur des faits",
+            "correct": true
+          },
+          {
+            "content": "Orienté vers l'amélioration",
+            "correct": true
+          },
+          {
+            "content": "Donné uniquement lors des évaluations annuelles"
+          },
+          {
+            "content": "Équilibré entre points positifs et axes d'amélioration",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon pour un leader de gérer les désaccords au sein de son équipe de direction ?"
+        },
+        "options": [
+          {
+            "content": "Encourager un débat ouvert et constructif, puis faciliter un consensus",
+            "correct": true
+          },
+          {
+            "content": "Imposer sa propre décision sans discussion"
+          },
+          {
+            "content": "Éviter les sujets de désaccord pour maintenir l'harmonie"
+          },
+          {
+            "content": "Laisser les désaccords s'envenimer sans intervention"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il efficacement déléguer des tâches importantes ?"
+        },
+        "options": [
+          {
+            "content": "Choisir la bonne personne, fournir des instructions claires et offrir du soutien",
+            "correct": true
+          },
+          {
+            "content": "Assigner la tâche au premier volontaire sans considération des compétences"
+          },
+          {
+            "content": "Déléguer uniquement les tâches les moins importantes"
+          },
+          {
+            "content": "Microgérer chaque aspect de la tâche déléguée"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les caractéristiques d'un objectif SMART efficace ?"
+        },
+        "options": [
+          {
+            "content": "Spécifique",
+            "correct": true
+          },
+          {
+            "content": "Mesurable",
+            "correct": true
+          },
+          {
+            "content": "Ambitieux sans considération des ressources disponibles"
+          },
+          {
+            "content": "Temporellement défini",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour un leader face à une baisse de motivation de l'équipe ?"
+        },
+        "options": [
+          {
+            "content": "Identifier les causes, réengager l'équipe et ajuster les objectifs si nécessaire",
+            "correct": true
+          },
+          {
+            "content": "Menacer de sanctions pour stimuler la productivité"
+          },
+          {
+            "content": "Ignorer le problème en espérant qu'il se résolve de lui-même"
+          },
+          {
+            "content": "Remplacer immédiatement les membres les moins productifs"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux gérer les attentes irréalistes de la direction ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer clairement les défis, proposer des alternatives réalistes et négocier",
+            "correct": true
+          },
+          {
+            "content": "Accepter les attentes sans discussion pour éviter les conflits"
+          },
+          {
+            "content": "Blâmer l'équipe pour son incapacité à atteindre les objectifs"
+          },
+          {
+            "content": "Ignorer les attentes et fixer ses propres objectifs en secret"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une stratégie de gestion des talents efficace ?"
+        },
+        "options": [
+          {
+            "content": "Recrutement ciblé",
+            "correct": true
+          },
+          {
+            "content": "Développement des compétences",
+            "correct": true
+          },
+          {
+            "content": "Rotation fréquente et obligatoire des postes"
+          },
+          {
+            "content": "Plan de succession",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon pour un leader de promouvoir l'innovation au sein de son organisation ?"
+        },
+        "options": [
+          {
+            "content": "Créer un environnement sûr pour la prise de risques et récompenser la créativité",
+            "correct": true
+          },
+          {
+            "content": "Imposer des quotas d'idées nouvelles par employé"
+          },
+          {
+            "content": "Limiter l'innovation à un département spécifique"
+          },
+          {
+            "content": "Copier les innovations des concurrents"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il efficacement gérer les résistances au changement ?"
+        },
+        "options": [
+          {
+            "content": "Communiquer clairement, impliquer les employés et adresser leurs préoccupations",
+            "correct": true
+          },
+          {
+            "content": "Imposer le changement sans explication"
+          },
+          {
+            "content": "Ignorer les résistances en espérant qu'elles disparaissent"
+          },
+          {
+            "content": "Sanctionner ceux qui résistent au changement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une culture d'entreprise éthique ?"
+        },
+        "options": [
+          {
+            "content": "Leadership exemplaire",
+            "correct": true
+          },
+          {
+            "content": "Politiques claires et appliquées",
+            "correct": true
+          },
+          {
+            "content": "Priorité absolue aux profits"
+          },
+          {
+            "content": "Formation régulière sur l'éthique",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure approche pour un leader face à un conflit d'intérêts potentiel ?"
+        },
+        "options": [
+          {
+            "content": "Divulguer immédiatement le conflit et se récuser si nécessaire",
+            "correct": true
+          },
+          {
+            "content": "Ignorer le conflit tant qu'il n'est pas découvert"
+          },
+          {
+            "content": "Demander à un collègue de prendre la décision sans explication"
+          },
+          {
+            "content": "Procéder normalement en pensant pouvoir rester objectif"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quels sont les éléments clés d'une stratégie de gestion de crise efficace ?"
+        },
+        "options": [
+          {
+            "content": "Plan de communication clair",
+            "correct": true
+          },
+          {
+            "content": "Équipe de gestion de crise désignée",
+            "correct": true
+          },
+          {
+            "content": "Attendre que la crise passe d'elle-même"
+          },
+          {
+            "content": "Procédures d'escalade définies",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux promouvoir l'équilibre travail-vie personnelle au sein de son équipe ?"
+        },
+        "options": [
+          {
+            "content": "Montrer l'exemple et encourager des limites saines",
+            "correct": true
+          },
+          {
+            "content": "Récompenser ceux qui travaillent le plus d'heures"
+          },
+          {
+            "content": "Ignorer la question car c'est une responsabilité personnelle"
+          },
+          {
+            "content": "Imposer des horaires de travail rigides pour tous"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Quelle est la meilleure façon pour un leader de gérer un employé talentueux mais difficile à travailler en équipe ?"
+        },
+        "options": [
+          {
+            "content": "Coaching personnalisé et établissement d'attentes claires en matière de comportement",
+            "correct": true
+          },
+          {
+            "content": "L'isoler pour travailler seul"
+          },
+          {
+            "content": "Ignorer les problèmes tant que le travail est bien fait"
+          },
+          {
+            "content": "Le licencier immédiatement"
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_response",
+          "content": "Quelles sont les caractéristiques d'un processus de prise de décision efficace en leadership ?"
+        },
+        "options": [
+          {
+            "content": "Collecte et analyse de données pertinentes",
+            "correct": true
+          },
+          {
+            "content": "Consultation des parties prenantes clés",
+            "correct": true
+          },
+          {
+            "content": "Prise de décision rapide basée uniquement sur l'intuition"
+          },
+          {
+            "content": "Évaluation des risques et des conséquences potentielles",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question_attributes": {
+          "type": "multiple_choice",
+          "content": "Comment un leader peut-il le mieux gérer les attentes divergentes entre les actionnaires et les employés ?"
+        },
+        "options": [
+          {
+            "content": "Chercher un équilibre en communicant ouvertement avec les deux parties",
+            "correct": true
+          },
+          {
+            "content": "Privilégier systématiquement les intérêts des actionnaires"
+          },
+          {
+            "content": "Ignorer les attentes des employés"
+          },
+          {
+            "content": "Démissionner face à ce dilemme"
+          }
+        ]
+      }
+    ]
+  }
+]
