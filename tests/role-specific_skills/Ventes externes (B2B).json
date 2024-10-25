@@ -1,0 +1,1101 @@
+{
+  "title": "Ventes externes (B2B)",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats dans la vente B2B, la prospection, la qualification des leads et la conclusion de ventes complexes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Prospection commerciale",
+      "Qualification des leads",
+      "Gestion des objections",
+      "Négociation B2B",
+      "Cycle de vente complexe",
+      "Développement commercial",
+      "Suivi client",
+      "Techniques de closing"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de commercial terrain, ingénieur commercial, ou tout poste impliquant la vente B2B.",
+    "description": "Le test évalue la capacité du candidat à gérer efficacement le cycle de vente B2B, de la prospection à la conclusion.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure approche pour qualifier un lead B2B ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser la m&eacute;thode BANT (Budget, Autorit&eacute;, Besoin, Timing)",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur le budget disponible"
+        },
+        {
+          "content": "Demander imm&eacute;diatement une commande"
+        },
+        {
+          "content": "Envoyer directement une proposition commerciale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont essentiels dans un premier rendez-vous commercial B2B ?"
+      },
+      "options": [
+        {
+          "content": "Pr&eacute;senter les b&eacute;n&eacute;fices sp&eacute;cifiques pour le client",
+          "correct": true
+        },
+        {
+          "content": "Poser des questions de d&eacute;couverte pertinentes",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;tablir un rapport professionnel",
+          "correct": true
+        },
+        {
+          "content": "Pr&eacute;senter le catalogue complet des produits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure réponse à l'objection 'Vos prix sont trop élevés' ?"
+      },
+      "options": [
+        {
+          "content": "Mettre en avant le retour sur investissement et la valeur ajout&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Proposer imm&eacute;diatement une remise"
+        },
+        {
+          "content": "Critiquer la concurrence"
+        },
+        {
+          "content": "Ignorer l'objection et continuer la pr&eacute;sentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure stratégie pour développer un territoire de vente B2B ?"
+      },
+      "options": [
+        {
+          "content": "Segmenter le march&eacute; et prioriser les comptes &agrave; fort potentiel",
+          "correct": true
+        },
+        {
+          "content": "Contacter tous les prospects sans discrimination"
+        },
+        {
+          "content": "Se concentrer uniquement sur les clients existants"
+        },
+        {
+          "content": "Attendre les demandes entrantes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent figurer dans un compte-rendu de visite client ?"
+      },
+      "options": [
+        {
+          "content": "Les points discut&eacute;s et d&eacute;cisions prises",
+          "correct": true
+        },
+        {
+          "content": "Les prochaines &eacute;tapes planifi&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Les informations personnelles du client",
+          "correct": false
+        },
+        {
+          "content": "Les besoins identifi&eacute;s",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le meilleur moment pour discuter du budget dans un cycle de vente B2B ?"
+      },
+      "options": [
+        {
+          "content": "Apr&egrave;s avoir identifi&eacute; les besoins et d&eacute;montr&eacute; la valeur",
+          "correct": true
+        },
+        {
+          "content": "D&egrave;s le premier contact"
+        },
+        {
+          "content": "Juste avant d'envoyer la proposition"
+        },
+        {
+          "content": "Uniquement si le client pose la question"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer au mieux un prospect qui ne répond plus ?"
+      },
+      "options": [
+        {
+          "content": "Mettre en place une s&eacute;quence de relance multicana",
+          "correct": true
+        },
+        {
+          "content": "Arr&ecirc;ter imm&eacute;diatement tout contact"
+        },
+        {
+          "content": "Contacter son sup&eacute;rieur hi&eacute;rarchique"
+        },
+        {
+          "content": "Multiplier les appels quotidiens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une proposition commerciale B2B efficace ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;sum&eacute; des besoins sp&eacute;cifiques du client",
+          "correct": true
+        },
+        {
+          "content": "Solution personnalis&eacute;e et ROI",
+          "correct": true
+        },
+        {
+          "content": "Historique complet de l'entreprise"
+        },
+        {
+          "content": "Plan d'impl&eacute;mentation d&eacute;taill&eacute;",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour une première prise de contact avec un prospect ?"
+      },
+      "options": [
+        {
+          "content": "Pr&eacute;parer un pitch personnalis&eacute; bas&eacute; sur des recherches",
+          "correct": true
+        },
+        {
+          "content": "Envoyer une pr&eacute;sentation g&eacute;n&eacute;rique"
+        },
+        {
+          "content": "Proposer imm&eacute;diatement un rendez-vous"
+        },
+        {
+          "content": "Demander un devis directement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels indicateurs sont essentiels pour suivre la performance commerciale B2B ?"
+      },
+      "options": [
+        {
+          "content": "Taux de conversion des opportunit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Dur&eacute;e moyenne du cycle de vente",
+          "correct": true
+        },
+        {
+          "content": "Nombre de likes sur les r&eacute;seaux sociaux"
+        },
+        {
+          "content": "Valeur moyenne des transactions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment prioriser efficacement son portefeuille clients B2B ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser une matrice de segmentation bas&eacute;e sur le potentiel et l'engagement",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur les plus gros clients"
+        },
+        {
+          "content": "Traiter tous les clients de la m&ecirc;me mani&egrave;re"
+        },
+        {
+          "content": "Privil&eacute;gier les nouveaux clients uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de conclure un premier rendez-vous commercial ?"
+      },
+      "options": [
+        {
+          "content": "Convenir des prochaines &eacute;tapes et fixer le prochain rendez-vous",
+          "correct": true
+        },
+        {
+          "content": "Envoyer un devis imm&eacute;diatement"
+        },
+        {
+          "content": "Attendre que le client reprenne contact"
+        },
+        {
+          "content": "Proposer une remise exceptionnelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles informations sont cruciales à obtenir lors d'un rendez-vous de découverte ?"
+      },
+      "options": [
+        {
+          "content": "Les enjeux business du prospect",
+          "correct": true
+        },
+        {
+          "content": "Le processus de d&eacute;cision",
+          "correct": true
+        },
+        {
+          "content": "Les hobbies du prospect"
+        },
+        {
+          "content": "Le budget disponible",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Dans le cadre d'une vente complexe B2B, quel est le meilleur moment pour impliquer les experts techniques ?"
+      },
+      "options": [
+        {
+          "content": "Apr&egrave;s avoir qualifi&eacute; le besoin et confirm&eacute; l'int&eacute;r&ecirc;t",
+          "correct": true
+        },
+        {
+          "content": "D&egrave;s le premier rendez-vous"
+        },
+        {
+          "content": "Uniquement lors de la n&eacute;gociation finale"
+        },
+        {
+          "content": "Seulement apr&egrave;s la signature du contrat"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les meilleures pratiques pour utiliser LinkedIn dans la prospection B2B ?"
+      },
+      "options": [
+        {
+          "content": "Partager du contenu pertinent pour votre industrie",
+          "correct": true
+        },
+        {
+          "content": "Engager des conversations personnalis&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Envoyer des messages automatis&eacute;s en masse"
+        },
+        {
+          "content": "Identifier les d&eacute;cideurs cl&eacute;s",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer une demande de remise importante ?"
+      },
+      "options": [
+        {
+          "content": "N&eacute;gocier des contreparties et maintenir la valeur",
+          "correct": true
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Accepter imm&eacute;diatement pour gagner le contrat"
+        },
+        {
+          "content": "Transf&eacute;rer la demande &agrave; son manager"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de compte stratégique B2B ?"
+      },
+      "options": [
+        {
+          "content": "Cartographie des d&eacute;cideurs",
+          "correct": true
+        },
+        {
+          "content": "Opportunit&eacute;s de croissance identifi&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Plan d'actions &agrave; 12 mois",
+          "correct": true
+        },
+        {
+          "content": "Historique des emails &eacute;chang&eacute;s"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir face à un prospect qui dit déjà travailler avec un concurrent ?"
+      },
+      "options": [
+        {
+          "content": "Explorer les axes d'am&eacute;lioration potentiels de leur situation actuelle",
+          "correct": true
+        },
+        {
+          "content": "Critiquer ouvertement le concurrent"
+        },
+        {
+          "content": "Abandonner imm&eacute;diatement la prospection"
+        },
+        {
+          "content": "Proposer des prix cassés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de relancer un prospect après l'envoi d'une proposition ?"
+      },
+      "options": [
+        {
+          "content": "Apporter de la valeur ajout&eacute;e et demander un retour constructif",
+          "correct": true
+        },
+        {
+          "content": "Envoyer des relances quotidiennes"
+        },
+        {
+          "content": "Attendre que le prospect rappelle"
+        },
+        {
+          "content": "Proposer une remise suppl&eacute;mentaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une présentation commerciale B2B réussie ?"
+      },
+      "options": [
+        {
+          "content": "Des cas clients pertinents",
+          "correct": true
+        },
+        {
+          "content": "Des b&eacute;n&eacute;fices chiffr&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Une longue introduction sur l'entreprise"
+        },
+        {
+          "content": "Des solutions personnalis&eacute;es",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement les objections liées au timing (\"ce n'est pas le bon moment\") ?"
+      },
+      "options": [
+        {
+          "content": "Explorer les implications de l'inaction et cr&eacute;er l'urgence",
+          "correct": true
+        },
+        {
+          "content": "Accepter et rappeler plus tard"
+        },
+        {
+          "content": "Insister pour une d&eacute;cision imm&eacute;diate"
+        },
+        {
+          "content": "Offrir une remise limit&eacute;e dans le temps"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions sont importantes pour maintenir un pipeline commercial sain ?"
+      },
+      "options": [
+        {
+          "content": "Qualifier r&eacute;guli&egrave;rement les opportunit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Mettre &agrave; jour les &eacute;tapes de vente",
+          "correct": true
+        },
+        {
+          "content": "Garder les opportunit&eacute;s mortes"
+        },
+        {
+          "content": "Documenter les actions cl&eacute;s",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un appel d'offres B2B ?"
+      },
+      "options": [
+        {
+          "content": "Anticiper et influencer le cahier des charges en amont",
+          "correct": true
+        },
+        {
+          "content": "Attendre la publication officielle"
+        },
+        {
+          "content": "R&eacute;pondre uniquement sur le prix"
+        },
+        {
+          "content": "Sous-traiter la r&eacute;ponse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser la collaboration avec le service marketing ?"
+      },
+      "options": [
+        {
+          "content": "Partager r&eacute;guli&egrave;rement les retours du terrain et besoins clients",
+          "correct": true
+        },
+        {
+          "content": "Attendre les supports marketing"
+        },
+        {
+          "content": "Cr&eacute;er ses propres supports"
+        },
+        {
+          "content": "Ignorer les initiatives marketing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments essentiels d'un forecast commercial fiable ?"
+      },
+      "options": [
+        {
+          "content": "Qualification pr&eacute;cise des opportunit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;tapes de vente clairement d&eacute;finies",
+          "correct": true
+        },
+        {
+          "content": "Dates de signature pr&eacute;vues",
+          "correct": true
+        },
+        {
+          "content": "Nombre de relances effectu&eacute;es"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour développer un compte client existant ?"
+      },
+      "options": [
+        {
+          "content": "Cartographier les nouvelles opportunit&eacute;s et &eacute;tablir un plan de croissance",
+          "correct": true
+        },
+        {
+          "content": "Maintenir le niveau actuel de ventes"
+        },
+        {
+          "content": "Attendre les demandes du client"
+        },
+        {
+          "content": "Proposer syst&eacute;matiquement des remises"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une stratégie de social selling efficace ?"
+      },
+      "options": [
+        {
+          "content": "Construction d'une marque personnelle professionnelle",
+          "correct": true
+        },
+        {
+          "content": "Engagement r&eacute;gulier avec du contenu pertinent",
+          "correct": true
+        },
+        {
+          "content": "Automation compl&egrave;te des interactions"
+        },
+        {
+          "content": "&Eacute;coute active et veille strat&eacute;gique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement une négociation multipartite ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les int&eacute;r&ecirc;ts de chaque partie et chercher des solutions gagnant-gagnant",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur le d&eacute;cideur principal"
+        },
+        {
+          "content": "Imposer ses conditions d&egrave;s le d&eacute;but"
+        },
+        {
+          "content": "&Eacute;viter les points de d&eacute;saccord"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signaux d'achat positifs lors d'une négociation B2B ?"
+      },
+      "options": [
+        {
+          "content": "Questions d&eacute;taill&eacute;es sur la mise en œuvre",
+          "correct": true
+        },
+        {
+          "content": "Implication d'autres d&eacute;cideurs cl&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Discussion sur les modalit&eacute;s contractuelles",
+          "correct": true
+        },
+        {
+          "content": "Demande de documentation g&eacute;n&eacute;rale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un conflit avec un client B2B ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;couter, comprendre et proposer un plan d'action concret",
+          "correct": true
+        },
+        {
+          "content": "Nier toute responsabilit&eacute;"
+        },
+        {
+          "content": "Escalader imm&eacute;diatement &agrave; la direction"
+        },
+        {
+          "content": "Proposer une remise compensatoire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser la gestion de son temps en tant que commercial B2B ?"
+      },
+      "options": [
+        {
+          "content": "Prioriser les actions &agrave; forte valeur ajout&eacute;e selon le potentiel client",
+          "correct": true
+        },
+        {
+          "content": "Traiter tous les prospects de mani&egrave;re &eacute;gale"
+        },
+        {
+          "content": "Maximiser le temps en rendez-vous"
+        },
+        {
+          "content": "R&eacute;pondre &agrave; tous les appels entrants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels pour réussir une présentation en ligne ?"
+      },
+      "options": [
+        {
+          "content": "Pr&eacute;paration technique en amont",
+          "correct": true
+        },
+        {
+          "content": "Interactions r&eacute;guli&egrave;res avec les participants",
+          "correct": true
+        },
+        {
+          "content": "Support visuel engageant",
+          "correct": true
+        },
+        {
+          "content": "Pr&eacute;sentation sans interruption"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour la vente de solutions complexes ?"
+      },
+      "options": [
+        {
+          "content": "Adopter une approche consultative centr&eacute;e sur les enjeux business",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer sur les fonctionnalit&eacute;s techniques"
+        },
+        {
+          "content": "Insister sur les avantages prix"
+        },
+        {
+          "content": "Pr&eacute;senter toutes les options disponibles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un closing efficace ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;capitulatif des points d'accord",
+          "correct": true
+        },
+        {
+          "content": "Gestion des derni&egrave;res objections",
+          "correct": true
+        },
+        {
+          "content": "Proposition d'un plan d'action clair",
+          "correct": true
+        },
+        {
+          "content": "Attente passive de la d&eacute;cision"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement un processus de vente international ?"
+      },
+      "options": [
+        {
+          "content": "Adapter sa strat&eacute;gie aux sp&eacute;cificit&eacute;s culturelles et locales",
+          "correct": true
+        },
+        {
+          "content": "Appliquer une approche standardis&eacute;e"
+        },
+        {
+          "content": "D&eacute;l&eacute;guer enti&egrave;rement aux &eacute;quipes locales"
+        },
+        {
+          "content": "Se concentrer uniquement sur le prix"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères d'un objectif commercial SMART ?"
+      },
+      "options": [
+        {
+          "content": "Sp&eacute;cifique et mesurable",
+          "correct": true
+        },
+        {
+          "content": "Atteignable et r&eacute;aliste",
+          "correct": true
+        },
+        {
+          "content": "Temporellement d&eacute;fini",
+          "correct": true
+        },
+        {
+          "content": "Facilement modifiable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour qualifier le budget d'un prospect ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre le processus budg&eacute;taire et les enjeux financiers",
+          "correct": true
+        },
+        {
+          "content": "Demander directement le montant disponible"
+        },
+        {
+          "content": "Proposer le prix le plus bas possible"
+        },
+        {
+          "content": "Attendre la demande de devis"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment exploiter efficacement les données CRM pour optimiser ses ventes ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les tendances et adapter sa strat&eacute;gie commerciale",
+          "correct": true
+        },
+        {
+          "content": "Saisir les donn&eacute;es sans les analyser"
+        },
+        {
+          "content": "Partager les rapports automatiques"
+        },
+        {
+          "content": "Ignorer les analyses"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une veille concurrentielle efficace ?"
+      },
+      "options": [
+        {
+          "content": "Suivi des innovations concurrentes",
+          "correct": true
+        },
+        {
+          "content": "Analyse des positionnements prix",
+          "correct": true
+        },
+        {
+          "content": "Surveillance des r&eacute;seaux sociaux",
+          "correct": true
+        },
+        {
+          "content": "Critique publique des concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour développer un réseau de partenaires ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;tablir des relations win-win bas&eacute;es sur des objectifs communs",
+          "correct": true
+        },
+        {
+          "content": "Maximiser les commissions"
+        },
+        {
+          "content": "Imposer des objectifs stricts"
+        },
+        {
+          "content": "Privil&eacute;gier la quantit&eacute; de partenaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels KPIs sont essentiels pour mesurer l'efficacité d'un commercial B2B ?"
+      },
+      "options": [
+        {
+          "content": "Taux de conversion des opportunit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Valeur moyenne des contrats",
+          "correct": true
+        },
+        {
+          "content": "Nombre de nouveaux contacts"
+        },
+        {
+          "content": "Taux de r&eacute;tention clients",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser la collaboration avec le service client ?"
+      },
+      "options": [
+        {
+          "content": "Maintenir une communication r&eacute;guli&egrave;re et partager les informations cl&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer uniquement sur les nouvelles ventes"
+        },
+        {
+          "content": "Transf&eacute;rer toutes les demandes"
+        },
+        {
+          "content": "Ignorer les probl&egrave;mes clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les meilleures pratiques pour la prospection téléphonique B2B ?"
+      },
+      "options": [
+        {
+          "content": "Pr&eacute;parer ses appels avec des informations pertinentes",
+          "correct": true
+        },
+        {
+          "content": "Qualifier rapidement le potentiel",
+          "correct": true
+        },
+        {
+          "content": "Utiliser un script rigide"
+        },
+        {
+          "content": "Adapter son discours au contexte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour la gestion des grands comptes ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;tablir un plan strat&eacute;gique personnalis&eacute; &agrave; long terme",
+          "correct": true
+        },
+        {
+          "content": "Maximiser les ventes &agrave; court terme"
+        },
+        {
+          "content": "D&eacute;l&eacute;guer enti&egrave;rement la relation"
+        },
+        {
+          "content": "Se concentrer sur les nouveaux clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans une stratégie d'up-selling ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre les besoins &eacute;volutifs du client",
+          "correct": true
+        },
+        {
+          "content": "Identifier les opportunit&eacute;s de valeur ajout&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Forcer la vente de produits compl&eacute;mentaires"
+        },
+        {
+          "content": "Timing appropri&eacute; de la proposition",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement une équipe commerciale à distance ?"
+      },
+      "options": [
+        {
+          "content": "Fixer des objectifs clairs et maintenir une communication r&eacute;guli&egrave;re",
+          "correct": true
+        },
+        {
+          "content": "Contr&ocirc;ler toutes les actions"
+        },
+        {
+          "content": "Laisser une autonomie totale"
+        },
+        {
+          "content": "Multiplier les r&eacute;unions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une stratégie de fidélisation client B2B ?"
+      },
+      "options": [
+        {
+          "content": "Suivi proactif de la satisfaction",
+          "correct": true
+        },
+        {
+          "content": "Programme de reconnaissance client",
+          "correct": true
+        },
+        {
+          "content": "Communication r&eacute;guli&egrave;re et pertinente",
+          "correct": true
+        },
+        {
+          "content": "Remises syst&eacute;matiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer une demande de référence client ?"
+      },
+      "options": [
+        {
+          "content": "S&eacute;lectionner une r&eacute;f&eacute;rence pertinente et pr&eacute;parer l'&eacute;change",
+          "correct": true
+        },
+        {
+          "content": "Donner tous les contacts clients"
+        },
+        {
+          "content": "Refuser syst&eacute;matiquement"
+        },
+        {
+          "content": "Proposer uniquement les plus gros clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les facteurs clés de succès dans la réponse à un appel d'offres ?"
+      },
+      "options": [
+        {
+          "content": "Compr&eacute;hension approfondie des besoins",
+          "correct": true
+        },
+        {
+          "content": "Proposition technique d&eacute;taill&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;ponse standard automatis&eacute;e"
+        },
+        {
+          "content": "Argumentaire ROI solide",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

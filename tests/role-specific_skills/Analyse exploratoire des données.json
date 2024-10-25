@@ -1,0 +1,897 @@
+{
+  "title": "Analyse exploratoire des données",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à effectuer une analyse exploratoire des données (EDA) et à interpréter des informations statistiques pour en tirer des conclusions pertinentes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Statistiques descriptives",
+      "Visualisation des données",
+      "Détection des valeurs aberrantes",
+      "Analyse de distribution",
+      "Corrélations",
+      "Tests statistiques de base",
+      "Nettoyage des données",
+      "Interprétation des résultats"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'analyste de données, data scientist, statisticien ou tout rôle nécessitant une compréhension approfondie de l'analyse de données.",
+    "description": "Le test couvre les aspects essentiels de l'analyse exploratoire des données, évaluant la capacité du candidat à explorer, comprendre et interpréter efficacement les données.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle mesure statistique est la plus appropriée pour détecter les valeurs aberrantes dans un jeu de données ?"
+      },
+      "options": [
+        {
+          "content": "Le diagramme en boîte (box plot)",
+          "correct": true
+        },
+        {
+          "content": "La moyenne arithmétique"
+        },
+        {
+          "content": "Le mode"
+        },
+        {
+          "content": "La variance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel graphique est le plus adapté pour visualiser la distribution d&#39;une variable continue ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;histogramme",
+          "correct": true
+        },
+        {
+          "content": "Le diagramme circulaire"
+        },
+        {
+          "content": "Le diagramme en bâtons"
+        },
+        {
+          "content": "Le diagramme de Venn"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quelles méthodes sont appropriées pour traiter les valeurs manquantes ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Imputation par la moyenne",
+          "correct": true
+        },
+        {
+          "content": "Suppression des lignes concernées",
+          "correct": true
+        },
+        {
+          "content": "Imputation par la médiane",
+          "correct": true
+        },
+        {
+          "content": "Ignorer les valeurs manquantes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle mesure statistique est la plus robuste aux valeurs aberrantes ?"
+      },
+      "options": [
+        {
+          "content": "La médiane",
+          "correct": true
+        },
+        {
+          "content": "La moyenne"
+        },
+        {
+          "content": "L&#39;écart-type"
+        },
+        {
+          "content": "La variance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus appropriée pour évaluer la relation entre deux variables numériques continues ?"
+      },
+      "options": [
+        {
+          "content": "Le coefficient de corrélation de Pearson",
+          "correct": true
+        },
+        {
+          "content": "Le test du khi-deux"
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "L&#39;analyse de variance (ANOVA)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Pour une distribution normale, quel pourcentage de données se trouve à ±2 écarts-types de la moyenne ?"
+      },
+      "options": [
+        {
+          "content": "95%",
+          "correct": true
+        },
+        {
+          "content": "68%"
+        },
+        {
+          "content": "99%"
+        },
+        {
+          "content": "90%"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels graphiques sont appropriés pour visualiser la relation entre deux variables numériques ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Nuage de points",
+          "correct": true
+        },
+        {
+          "content": "Graphique de dispersion",
+          "correct": true
+        },
+        {
+          "content": "Heatmap",
+          "correct": true
+        },
+        {
+          "content": "Diagramme circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle mesure indique le degré d&#39;asymétrie d&#39;une distribution ?"
+      },
+      "options": [
+        {
+          "content": "Le coefficient d&#39;asymétrie (skewness)",
+          "correct": true
+        },
+        {
+          "content": "Le kurtosis"
+        },
+        {
+          "content": "L&#39;écart interquartile"
+        },
+        {
+          "content": "La variance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour réduire la dimensionnalité des données tout en préservant la variance maximale ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse en composantes principales (ACP)",
+          "correct": true
+        },
+        {
+          "content": "La régression linéaire"
+        },
+        {
+          "content": "Le clustering k-means"
+        },
+        {
+          "content": "L&#39;analyse discriminante"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes importantes dans le processus de nettoyage des données ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Identification des valeurs aberrantes",
+          "correct": true
+        },
+        {
+          "content": "Traitement des valeurs manquantes",
+          "correct": true
+        },
+        {
+          "content": "Standardisation des formats",
+          "correct": true
+        },
+        {
+          "content": "Suppression systématique des outliers"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour comparer les distributions de deux groupes indépendants ?"
+      },
+      "options": [
+        {
+          "content": "Le test de Mann-Whitney U",
+          "correct": true
+        },
+        {
+          "content": "La régression logistique"
+        },
+        {
+          "content": "L&#39;analyse factorielle"
+        },
+        {
+          "content": "Le test de McNemar"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel indicateur mesure la dispersion relative d&#39;une distribution ?"
+      },
+      "options": [
+        {
+          "content": "Le coefficient de variation",
+          "correct": true
+        },
+        {
+          "content": "L&#39;écart-type"
+        },
+        {
+          "content": "La moyenne"
+        },
+        {
+          "content": "La médiane"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l&#39;utilisation d&#39;un box plot ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Visualisation de la distribution des données",
+          "correct": true
+        },
+        {
+          "content": "Identification des valeurs aberrantes",
+          "correct": true
+        },
+        {
+          "content": "Comparaison de plusieurs groupes",
+          "correct": true
+        },
+        {
+          "content": "Analyse des corrélations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est appropriée pour détecter la multicolinéarité entre variables ?"
+      },
+      "options": [
+        {
+          "content": "Le facteur d&#39;inflation de la variance (VIF)",
+          "correct": true
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "L&#39;analyse de variance"
+        },
+        {
+          "content": "Le test du khi-deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour évaluer la normalité d&#39;une distribution ?"
+      },
+      "options": [
+        {
+          "content": "Le test de Shapiro-Wilk",
+          "correct": true
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "Le test de Fisher"
+        },
+        {
+          "content": "Le test de Wilcoxon"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d&#39;une bonne visualisation de données ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Clarté et simplicité",
+          "correct": true
+        },
+        {
+          "content": "Choix approprié des couleurs",
+          "correct": true
+        },
+        {
+          "content": "Échelles adaptées",
+          "correct": true
+        },
+        {
+          "content": "Utilisation systématique d&#39;animations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est la plus appropriée pour analyser une série temporelle ?"
+      },
+      "options": [
+        {
+          "content": "La décomposition en tendance, saisonnalité et résidus",
+          "correct": true
+        },
+        {
+          "content": "L&#39;analyse discriminante"
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "L&#39;analyse factorielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants lors de l&#39;échantillonnage des données ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "La représentativité de l&#39;échantillon",
+          "correct": true
+        },
+        {
+          "content": "La taille de l&#39;échantillon",
+          "correct": true
+        },
+        {
+          "content": "La méthode d&#39;échantillonnage",
+          "correct": true
+        },
+        {
+          "content": "La complexité du calcul"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour détecter les tendances dans une série temporelle ?"
+      },
+      "options": [
+        {
+          "content": "Le test de Mann-Kendall",
+          "correct": true
+        },
+        {
+          "content": "Le test du khi-deux"
+        },
+        {
+          "content": "L&#39;ANOVA"
+        },
+        {
+          "content": "Le test de McNemar"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle mesure est utilisée pour évaluer la force d&#39;une relation non linéaire entre deux variables ?"
+      },
+      "options": [
+        {
+          "content": "Le coefficient de corrélation de Spearman",
+          "correct": true
+        },
+        {
+          "content": "Le coefficient de Pearson"
+        },
+        {
+          "content": "Le R-carré"
+        },
+        {
+          "content": "Le coefficient de variation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l&#39;utilisation d&#39;une validation croisée ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Évite le surapprentissage",
+          "correct": true
+        },
+        {
+          "content": "Évalue la robustesse du modèle",
+          "correct": true
+        },
+        {
+          "content": "Optimise l&#39;utilisation des données",
+          "correct": true
+        },
+        {
+          "content": "Accélère l&#39;analyse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est appropriée pour visualiser la distribution de plusieurs variables catégorielles ?"
+      },
+      "options": [
+        {
+          "content": "Le diagramme en mosaïque",
+          "correct": true
+        },
+        {
+          "content": "L&#39;histogramme"
+        },
+        {
+          "content": "Le box plot"
+        },
+        {
+          "content": "Le nuage de points"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel test est approprié pour comparer les proportions dans différents groupes ?"
+      },
+      "options": [
+        {
+          "content": "Le test du khi-deux d&#39;indépendance",
+          "correct": true
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "L&#39;ANOVA"
+        },
+        {
+          "content": "Le test de Wilcoxon"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les conditions d&#39;application d&#39;une ANOVA ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Normalité des résidus",
+          "correct": true
+        },
+        {
+          "content": "Homogénéité des variances",
+          "correct": true
+        },
+        {
+          "content": "Indépendance des observations",
+          "correct": true
+        },
+        {
+          "content": "Égalité des moyennes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour identifier des groupes naturels dans les données ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse par clusters (clustering)",
+          "correct": true
+        },
+        {
+          "content": "La régression linéaire"
+        },
+        {
+          "content": "L&#39;analyse discriminante"
+        },
+        {
+          "content": "Le test de Student"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs importants pour évaluer la qualité d&#39;un modèle de régression ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Le R-carré ajusté",
+          "correct": true
+        },
+        {
+          "content": "L&#39;erreur quadratique moyenne",
+          "correct": true
+        },
+        {
+          "content": "L&#39;analyse des résidus",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de variables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour traiter les valeurs aberrantes extrêmes ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;écrêtage (winsorisation)",
+          "correct": true
+        },
+        {
+          "content": "La suppression systématique"
+        },
+        {
+          "content": "L&#39;ignorance"
+        },
+        {
+          "content": "Le remplacement par la moyenne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle visualisation est la plus appropriée pour représenter la distribution d&#39;une variable catégorielle ?"
+      },
+      "options": [
+        {
+          "content": "Le diagramme en barres",
+          "correct": true
+        },
+        {
+          "content": "L&#39;histogramme"
+        },
+        {
+          "content": "Le box plot"
+        },
+        {
+          "content": "Le nuage de points"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode de normalisation est recommandée lorsque les données contiennent des valeurs aberrantes ?"
+      },
+      "options": [
+        {
+          "content": "La normalisation robuste (RobustScaler)",
+          "correct": true
+        },
+        {
+          "content": "La normalisation Min-Max"
+        },
+        {
+          "content": "La standardisation Z-score"
+        },
+        {
+          "content": "La normalisation L2"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d&#39;une distribution normale ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Symétrique autour de la moyenne",
+          "correct": true
+        },
+        {
+          "content": "Moyenne = Médiane = Mode",
+          "correct": true
+        },
+        {
+          "content": "Forme en cloche",
+          "correct": true
+        },
+        {
+          "content": "Toujours positive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour évaluer l&#39;importance des variables dans un modèle ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse de sensibilité",
+          "correct": true
+        },
+        {
+          "content": "L&#39;analyse en composantes principales"
+        },
+        {
+          "content": "L&#39;analyse discriminante"
+        },
+        {
+          "content": "L&#39;analyse de variance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l&#39;utilisation de la médiane par rapport à la moyenne ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Moins sensible aux valeurs aberrantes",
+          "correct": true
+        },
+        {
+          "content": "Plus représentative pour des distributions asymétriques",
+          "correct": true
+        },
+        {
+          "content": "Meilleure mesure de tendance centrale pour données ordinales",
+          "correct": true
+        },
+        {
+          "content": "Calcul plus rapide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est appropriée pour détecter des changements brusques dans une série temporelle ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse des points de rupture (breakpoint analysis)",
+          "correct": true
+        },
+        {
+          "content": "L&#39;analyse spectrale"
+        },
+        {
+          "content": "L&#39;analyse de variance"
+        },
+        {
+          "content": "L&#39;analyse factorielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est recommandée pour comparer les distributions de plusieurs groupes simultanément ?"
+      },
+      "options": [
+        {
+          "content": "Le test de Kruskal-Wallis",
+          "correct": true
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "Le test de Wilcoxon"
+        },
+        {
+          "content": "Le test du khi-deux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères à considérer lors du choix d&#39;une méthode de visualisation ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Le type de données à représenter",
+          "correct": true
+        },
+        {
+          "content": "L&#39;objectif de l&#39;analyse",
+          "correct": true
+        },
+        {
+          "content": "Le public cible",
+          "correct": true
+        },
+        {
+          "content": "La complexité du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est appropriée pour identifier les relations non linéaires entre variables ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse des courbes de régression locale (LOESS)",
+          "correct": true
+        },
+        {
+          "content": "La régression linéaire simple"
+        },
+        {
+          "content": "Le test de Student"
+        },
+        {
+          "content": "L&#39;analyse de variance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel graphique est le plus approprié pour visualiser la distribution d&#39;une variable continue par groupe ?"
+      },
+      "options": [
+        {
+          "content": "Les violin plots",
+          "correct": true
+        },
+        {
+          "content": "Le diagramme circulaire"
+        },
+        {
+          "content": "Le diagramme en bâtons"
+        },
+        {
+          "content": "Le graphique en ligne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les étapes importantes dans l&#39;analyse de corrélation ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Vérification de la linéarité",
+          "correct": true
+        },
+        {
+          "content": "Détection des valeurs aberrantes",
+          "correct": true
+        },
+        {
+          "content": "Test de significativité",
+          "correct": true
+        },
+        {
+          "content": "Calcul de la moyenne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour réduire le bruit dans une série temporelle ?"
+      },
+      "options": [
+        {
+          "content": "La moyenne mobile",
+          "correct": true
+        },
+        {
+          "content": "L&#39;analyse factorielle"
+        },
+        {
+          "content": "L&#39;analyse discriminante"
+        },
+        {
+          "content": "Le test de Student"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages de l&#39;utilisation d&#39;une transformation logarithmique ? (Plusieurs réponses possibles)"
+      },
+      "options": [
+        {
+          "content": "Réduction de l&#39;asymétrie",
+          "correct": true
+        },
+        {
+          "content": "Stabilisation de la variance",
+          "correct": true
+        },
+        {
+          "content": "Linéarisation des relations",
+          "correct": true
+        },
+        {
+          "content": "Augmentation de la précision"
+        }
+      ]
+    }
+  ]
+}

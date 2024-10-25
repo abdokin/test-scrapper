@@ -1,0 +1,1114 @@
+{
+  "title": "Recrutement et Acquisition de Talents",
+  "attributes": {
+    "overview": "Ce test évalue les compétences fondamentales en recrutement, notamment la capacité à rechercher, évaluer et intégrer efficacement les candidats.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Stratégies de sourcing",
+      "Techniques d'entretien",
+      "Évaluation des candidats",
+      "Processus de recrutement",
+      "Marque employeur",
+      "Intégration des nouveaux employés",
+      "Législation du travail",
+      "Gestion des talents"
+    ],
+    "relevancy": "Ce test est idéal pour les postes de recruteur, chargé de talents acquisition, ou responsable RH impliqué dans le processus de recrutement.",
+    "description": "L'évaluation couvre les aspects essentiels du recrutement moderne, de la stratégie de sourcing à l'intégration des nouveaux collaborateurs.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la première étape essentielle dans le processus de recrutement ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse du besoin et la définition du poste",
+          "correct": true
+        },
+        {
+          "content": "La publication de l&#39;offre d&#39;emploi"
+        },
+        {
+          "content": "La présélection des CV"
+        },
+        {
+          "content": "La planification des entretiens"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont essentiels dans une description de poste efficace ?"
+      },
+      "options": [
+        {
+          "content": "Les responsabilités principales",
+          "correct": true
+        },
+        {
+          "content": "Les compétences requises",
+          "correct": true
+        },
+        {
+          "content": "Le niveau d&#39;expérience souhaité",
+          "correct": true
+        },
+        {
+          "content": "L&#39;historique complet de l&#39;entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus appropriée pour évaluer les soft skills d&#39;un candidat ?"
+      },
+      "options": [
+        {
+          "content": "Les questions comportementales",
+          "correct": true
+        },
+        {
+          "content": "Les tests techniques"
+        },
+        {
+          "content": "Le contrôle des références"
+        },
+        {
+          "content": "L&#39;analyse du CV"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principal avantage d&#39;utiliser un ATS (Applicant Tracking System) ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;automatisation et la centralisation du processus de recrutement",
+          "correct": true
+        },
+        {
+          "content": "La réduction des coûts de publicité"
+        },
+        {
+          "content": "L&#39;amélioration de la marque employeur"
+        },
+        {
+          "content": "La formation des recruteurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle méthode de sourcing est généralement la plus efficace pour les postes de cadres supérieurs ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;approche directe et le réseautage",
+          "correct": true
+        },
+        {
+          "content": "Les sites d&#39;emploi généralistes"
+        },
+        {
+          "content": "Les réseaux sociaux grand public"
+        },
+        {
+          "content": "Les petites annonces dans la presse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moment pour discuter du salaire avec un candidat ?"
+      },
+      "options": [
+        {
+          "content": "Lors de l&#39;entretien de qualification initial",
+          "correct": true
+        },
+        {
+          "content": "Après la proposition d&#39;embauche"
+        },
+        {
+          "content": "Pendant l&#39;entretien technique"
+        },
+        {
+          "content": "Le jour de la signature du contrat"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants à vérifier lors du contrôle des références ?"
+      },
+      "options": [
+        {
+          "content": "Les responsabilités précédentes",
+          "correct": true
+        },
+        {
+          "content": "La durée d&#39;emploi",
+          "correct": true
+        },
+        {
+          "content": "Les raisons du départ",
+          "correct": true
+        },
+        {
+          "content": "Le salaire précédent",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel indicateur (KPI) est le plus pertinent pour évaluer l&#39;efficacité du processus de recrutement ?"
+      },
+      "options": [
+        {
+          "content": "Le délai moyen de recrutement",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de candidatures reçues"
+        },
+        {
+          "content": "Le nombre d&#39;entretiens réalisés"
+        },
+        {
+          "content": "Le budget publicitaire utilisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments constituent un bon programme d&#39;intégration ?"
+      },
+      "options": [
+        {
+          "content": "Un plan d&#39;intégration structuré",
+          "correct": true
+        },
+        {
+          "content": "Un mentor désigné",
+          "correct": true
+        },
+        {
+          "content": "Des objectifs clairs pour la période d&#39;essai",
+          "correct": true
+        },
+        {
+          "content": "Une augmentation de salaire garantie"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un candidat qui ne correspond pas au profil recherché ?"
+      },
+      "options": [
+        {
+          "content": "Informer rapidement et professionnellement le candidat",
+          "correct": true
+        },
+        {
+          "content": "Attendre que le candidat relance"
+        },
+        {
+          "content": "Garder le dossier sans réponse"
+        },
+        {
+          "content": "Rediriger automatiquement vers d&#39;autres postes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est l&#39;objectif principal d&#39;une période d&#39;essai ?"
+      },
+      "options": [
+        {
+          "content": "Évaluer l&#39;adéquation mutuelle entre le salarié et l&#39;entreprise",
+          "correct": true
+        },
+        {
+          "content": "Réduire les coûts salariaux initiaux"
+        },
+        {
+          "content": "Former le nouveau salarié"
+        },
+        {
+          "content": "Retarder l&#39;embauche définitive"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les points essentiels à aborder lors d&#39;un entretien structuré ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;expérience professionnelle",
+          "correct": true
+        },
+        {
+          "content": "Les compétences techniques",
+          "correct": true
+        },
+        {
+          "content": "La motivation pour le poste",
+          "correct": true
+        },
+        {
+          "content": "La situation familiale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique concernant les tests de personnalité dans le recrutement ?"
+      },
+      "options": [
+        {
+          "content": "Les utiliser comme un outil complémentaire d&#39;évaluation",
+          "correct": true
+        },
+        {
+          "content": "Baser la décision finale uniquement sur leurs résultats"
+        },
+        {
+          "content": "Les faire passer à tous les candidats dès la première étape"
+        },
+        {
+          "content": "Les ignorer complètement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments contribuent à une marque employeur forte ?"
+      },
+      "options": [
+        {
+          "content": "Une culture d&#39;entreprise positive",
+          "correct": true
+        },
+        {
+          "content": "Des avantages sociaux attractifs",
+          "correct": true
+        },
+        {
+          "content": "Une présence active sur les réseaux sociaux",
+          "correct": true
+        },
+        {
+          "content": "Un processus de recrutement opaque"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un processus de recrutement international ?"
+      },
+      "options": [
+        {
+          "content": "Adapter le processus aux spécificités culturelles locales",
+          "correct": true
+        },
+        {
+          "content": "Appliquer strictement les méthodes du siège social"
+        },
+        {
+          "content": "Déléguer entièrement aux filiales locales"
+        },
+        {
+          "content": "Ignorer les différences culturelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d&#39;utiliser LinkedIn Recruiter ?"
+      },
+      "options": [
+        {
+          "content": "Accès à une base de données élargie de candidats",
+          "correct": true
+        },
+        {
+          "content": "Outils de recherche avancée",
+          "correct": true
+        },
+        {
+          "content": "Système de messagerie intégré",
+          "correct": true
+        },
+        {
+          "content": "Garantie d&#39;embauche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Que faire si un candidat révèle une information sensible pendant l&#39;entretien ?"
+      },
+      "options": [
+        {
+          "content": "Noter l&#39;information de manière factuelle et confidentielle",
+          "correct": true
+        },
+        {
+          "content": "Partager l&#39;information avec toute l&#39;équipe"
+        },
+        {
+          "content": "Ignorer complètement l&#39;information"
+        },
+        {
+          "content": "Demander plus de détails personnels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants dans la rédaction d&#39;une offre d&#39;emploi inclusive ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un langage neutre",
+          "correct": true
+        },
+        {
+          "content": "Éviter les stéréotypes de genre",
+          "correct": true
+        },
+        {
+          "content": "Mentionner l&#39;engagement pour la diversité",
+          "correct": true
+        },
+        {
+          "content": "Spécifier une préférence d&#39;âge",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour évaluer les compétences techniques d&#39;un candidat ?"
+      },
+      "options": [
+        {
+          "content": "Combiner tests pratiques et questions situationnelles",
+          "correct": true
+        },
+        {
+          "content": "Se fier uniquement au CV"
+        },
+        {
+          "content": "Demander uniquement des références"
+        },
+        {
+          "content": "Faire un test de personnalité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signaux d&#39;alerte lors d&#39;un entretien ?"
+      },
+      "options": [
+        {
+          "content": "Incohérences dans le parcours professionnel",
+          "correct": true
+        },
+        {
+          "content": "Critiques excessives des anciens employeurs",
+          "correct": true
+        },
+        {
+          "content": "Réponses évasives aux questions directes",
+          "correct": true
+        },
+        {
+          "content": "Avoir changé de secteur d&#39;activité",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de maintenir une base de talents active ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer régulièrement avec les candidats qualifiés",
+          "correct": true
+        },
+        {
+          "content": "Attendre d&#39;avoir un poste vacant"
+        },
+        {
+          "content": "Supprimer les anciens profils"
+        },
+        {
+          "content": "Ignorer les candidatures spontanées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement les attentes salariales divergentes ?"
+      },
+      "options": [
+        {
+          "content": "Discuter ouvertement de la grille salariale et des avantages globaux",
+          "correct": true
+        },
+        {
+          "content": "Éviter le sujet jusqu&#39;à la fin"
+        },
+        {
+          "content": "Rejeter automatiquement les candidats trop exigeants"
+        },
+        {
+          "content": "Promettre une augmentation future"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments constituent un dossier de recrutement conforme au RGPD ?"
+      },
+      "options": [
+        {
+          "content": "Le CV et la lettre de motivation",
+          "correct": true
+        },
+        {
+          "content": "Les comptes-rendus d&#39;entretien",
+          "correct": true
+        },
+        {
+          "content": "Le consentement du candidat",
+          "correct": true
+        },
+        {
+          "content": "Les photos personnelles du candidat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour l&#39;évaluation des soft skills ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des mises en situation et des jeux de rôle",
+          "correct": true
+        },
+        {
+          "content": "Se fier uniquement aux diplômes"
+        },
+        {
+          "content": "Demander l&#39;avis des anciens employeurs"
+        },
+        {
+          "content": "Faire passer des tests techniques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent être inclus dans un rapport d&#39;évaluation post-entretien ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;évaluation des compétences clés",
+          "correct": true
+        },
+        {
+          "content": "Les points forts et axes d&#39;amélioration",
+          "correct": true
+        },
+        {
+          "content": "La recommandation finale",
+          "correct": true
+        },
+        {
+          "content": "Les opinions politiques du candidat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour organiser un assessment center ?"
+      },
+      "options": [
+        {
+          "content": "Combiner plusieurs types d&#39;exercices d&#39;évaluation",
+          "correct": true
+        },
+        {
+          "content": "Faire uniquement des tests écrits"
+        },
+        {
+          "content": "Se concentrer sur un seul type d&#39;exercice"
+        },
+        {
+          "content": "Improviser les exercices le jour même"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d&#39;une stratégie de marque employeur efficace ?"
+      },
+      "options": [
+        {
+          "content": "Une présence cohérente sur les réseaux sociaux",
+          "correct": true
+        },
+        {
+          "content": "Des témoignages authentiques d&#39;employés",
+          "correct": true
+        },
+        {
+          "content": "Une communication transparente sur les valeurs",
+          "correct": true
+        },
+        {
+          "content": "La dissimulation des aspects négatifs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement un candidat qui arrive en retard à l&#39;entretien ?"
+      },
+      "options": [
+        {
+          "content": "Écouter la raison et évaluer la sincérité des excuses",
+          "correct": true
+        },
+        {
+          "content": "Annuler immédiatement l&#39;entretien"
+        },
+        {
+          "content": "Ignorer complètement le retard"
+        },
+        {
+          "content": "Prolonger l&#39;entretien du temps perdu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels outils sont essentiels pour un recruteur moderne ?"
+      },
+      "options": [
+        {
+          "content": "Un ATS (Applicant Tracking System)",
+          "correct": true
+        },
+        {
+          "content": "Des outils de sourcing digital",
+          "correct": true
+        },
+        {
+          "content": "Des plateformes d&#39;évaluation en ligne",
+          "correct": true
+        },
+        {
+          "content": "Un téléphone fixe uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de maintenir l&#39;engagement des candidats pendant un long processus de recrutement ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer régulièrement sur l&#39;avancement du processus",
+          "correct": true
+        },
+        {
+          "content": "Attendre la décision finale"
+        },
+        {
+          "content": "Laisser le candidat prendre l&#39;initiative"
+        },
+        {
+          "content": "Raccourcir le processus systématiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments essentiels d&#39;un bon feedback après un entretien ?"
+      },
+      "options": [
+        {
+          "content": "Des observations concrètes",
+          "correct": true
+        },
+        {
+          "content": "Des exemples spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Des suggestions d&#39;amélioration",
+          "correct": true
+        },
+        {
+          "content": "Des jugements personnels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour évaluer la culture fit ?"
+      },
+      "options": [
+        {
+          "content": "Combiner entretiens comportementaux et mises en situation",
+          "correct": true
+        },
+        {
+          "content": "Se fier uniquement au feeling"
+        },
+        {
+          "content": "Faire passer un test de personnalité standard"
+        },
+        {
+          "content": "Demander l&#39;avis des collègues sans critères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères d&#39;un objectif SMART en période d&#39;essai ?"
+      },
+      "options": [
+        {
+          "content": "Spécifique et mesurable",
+          "correct": true
+        },
+        {
+          "content": "Atteignable et réaliste",
+          "correct": true
+        },
+        {
+          "content": "Temporellement défini",
+          "correct": true
+        },
+        {
+          "content": "Flexible et changeant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une demande de recommandation d&#39;un ancien employeur ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des informations factuelles et professionnelles",
+          "correct": true
+        },
+        {
+          "content": "Refuser systématiquement"
+        },
+        {
+          "content": "Partager des informations personnelles"
+        },
+        {
+          "content": "Donner un avis non objectif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure stratégie pour recruter des profils pénuriques ?"
+      },
+      "options": [
+        {
+          "content": "Développer une approche proactive de sourcing",
+          "correct": true
+        },
+        {
+          "content": "Augmenter uniquement les salaires"
+        },
+        {
+          "content": "Attendre les candidatures spontanées"
+        },
+        {
+          "content": "Sous-traiter systématiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d&#39;un processus de recrutement digitalisé ?"
+      },
+      "options": [
+        {
+          "content": "Gain de temps et d&#39;efficacité",
+          "correct": true
+        },
+        {
+          "content": "Meilleure expérience candidat",
+          "correct": true
+        },
+        {
+          "content": "Analyse de données facilitée",
+          "correct": true
+        },
+        {
+          "content": "Élimination du contact humain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment évaluer efficacement les soft skills lors d&#39;un entretien à distance ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des questions comportementales et des mises en situation",
+          "correct": true
+        },
+        {
+          "content": "Se fier uniquement au CV"
+        },
+        {
+          "content": "Demander une auto-évaluation"
+        },
+        {
+          "content": "Ignorer cet aspect en distanciel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer un conflit entre le manager recruteur et le service RH ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une réunion de médiation pour aligner les critères",
+          "correct": true
+        },
+        {
+          "content": "Laisser le manager décider seul"
+        },
+        {
+          "content": "Imposer la décision RH"
+        },
+        {
+          "content": "Abandonner le recrutement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs pertinents pour mesurer la qualité des recrutements ?"
+      },
+      "options": [
+        {
+          "content": "Taux de réussite des périodes d&#39;essai",
+          "correct": true
+        },
+        {
+          "content": "Satisfaction des managers",
+          "correct": true
+        },
+        {
+          "content": "Performance des nouveaux recrutés",
+          "correct": true
+        },
+        {
+          "content": "Nombre de candidatures reçues",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un candidat qui demande un salaire largement supérieur au budget ?"
+      },
+      "options": [
+        {
+          "content": "Explorer la négociation sur la compensation globale",
+          "correct": true
+        },
+        {
+          "content": "Rejeter immédiatement la candidature"
+        },
+        {
+          "content": "Accepter sans discussion"
+        },
+        {
+          "content": "Reporter la discussion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un programme de cooptation efficace ?"
+      },
+      "options": [
+        {
+          "content": "Un système de prime attractif",
+          "correct": true
+        },
+        {
+          "content": "Une communication claire du processus",
+          "correct": true
+        },
+        {
+          "content": "Un suivi régulier des candidatures",
+          "correct": true
+        },
+        {
+          "content": "Une obligation de résultat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour les entretiens de recrutement en panel ?"
+      },
+      "options": [
+        {
+          "content": "Définir clairement les rôles de chaque évaluateur",
+          "correct": true
+        },
+        {
+          "content": "Laisser chacun poser des questions au hasard"
+        },
+        {
+          "content": "Faire parler uniquement le manager"
+        },
+        {
+          "content": "Improviser selon le candidat"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d&#39;une stratégie de recrutement inclusive ?"
+      },
+      "options": [
+        {
+          "content": "Formation des recruteurs aux biais inconscients",
+          "correct": true
+        },
+        {
+          "content": "Diversification des canaux de sourcing",
+          "correct": true
+        },
+        {
+          "content": "Processus de sélection standardisé",
+          "correct": true
+        },
+        {
+          "content": "Quotas stricts par catégorie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un désaccord sur le choix final entre deux candidats ?"
+      },
+      "options": [
+        {
+          "content": "Revenir aux critères objectifs définis initialement",
+          "correct": true
+        },
+        {
+          "content": "Tirer au sort"
+        },
+        {
+          "content": "Recruter les deux candidats"
+        },
+        {
+          "content": "Recommencer le processus"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les points essentiels à vérifier avant de faire une promesse d&#39;embauche ?"
+      },
+      "options": [
+        {
+          "content": "La validation du budget",
+          "correct": true
+        },
+        {
+          "content": "L&#39;accord final du manager",
+          "correct": true
+        },
+        {
+          "content": "La vérification des références",
+          "correct": true
+        },
+        {
+          "content": "L&#39;avis des collègues",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour recruter un manager ?"
+      },
+      "options": [
+        {
+          "content": "Impliquer l&#39;équipe dans le processus de sélection",
+          "correct": true
+        },
+        {
+          "content": "Décider uniquement au niveau direction"
+        },
+        {
+          "content": "Se fier uniquement à l&#39;expérience"
+        },
+        {
+          "content": "Privilégier systématiquement l&#39;interne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser l&#39;utilisation des réseaux sociaux professionnels dans le recrutement ?"
+      },
+      "options": [
+        {
+          "content": "Développer une stratégie de contenu et d&#39;engagement ciblée",
+          "correct": true
+        },
+        {
+          "content": "Poster uniquement des offres d&#39;emploi"
+        },
+        {
+          "content": "Connecter tous les profils possibles"
+        },
+        {
+          "content": "Automatiser tous les messages"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments à inclure dans un rapport mensuel de recrutement ?"
+      },
+      "options": [
+        {
+          "content": "Les KPIs de recrutement",
+          "correct": true
+        },
+        {
+          "content": "L&#39;état d&#39;avancement des recrutements en cours",
+          "correct": true
+        },
+        {
+          "content": "Les difficultés rencontrées et solutions proposées",
+          "correct": true
+        },
+        {
+          "content": "Les détails personnels des candidats",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de présenter une offre d&#39;emploi à un candidat ?"
+      },
+      "options": [
+        {
+          "content": "Organiser un entretien dédié pour expliquer tous les détails",
+          "correct": true
+        },
+        {
+          "content": "Envoyer simplement un email"
+        },
+        {
+          "content": "Déléguer au manager"
+        },
+        {
+          "content": "Attendre que le candidat demande"
+        }
+      ]
+    }
+  ]
+}

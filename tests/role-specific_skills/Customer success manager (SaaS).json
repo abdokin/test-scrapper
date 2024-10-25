@@ -1,0 +1,1171 @@
+{
+  "title": "Customer Success Manager (SaaS)",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à exceller dans un rôle de Customer Success Manager dans un environnement SaaS, en mettant l'accent sur la gestion de la relation client, l'analyse des données et la résolution proactive des problèmes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion de la relation client",
+      "Analyse des données clients",
+      "Onboarding et adoption produit",
+      "Rétention client",
+      "Résolution de problèmes",
+      "Communication professionnelle",
+      "Stratégie d'expansion des comptes",
+      "Gestion des processus d'escalade"
+    ],
+    "relevancy": "Ce test est essentiel pour évaluer les candidats au poste de Customer Success Manager dans les entreprises SaaS, où la rétention et la satisfaction client sont primordiales.",
+    "description": "Le test évalue les compétences fondamentales nécessaires pour réussir dans un rôle de CSM, incluant la gestion de la relation client, l'analyse des données et la résolution proactive des problèmes.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Un client signale une baisse significative de l&#39;utilisation de votre solution SaaS au cours du dernier mois. Quelle devrait être votre première action ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les données d&#39;utilisation pour identifier les causes potentielles",
+          "correct": true
+        },
+        {
+          "content": "Proposer immédiatement une formation supplémentaire"
+        },
+        {
+          "content": "Offrir une remise sur le renouvellement"
+        },
+        {
+          "content": "Escalader directement au support technique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle métrique est la plus pertinente pour évaluer la santé d&#39;un compte client ?"
+      },
+      "options": [
+        {
+          "content": "Le taux d&#39;utilisation active du produit",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de tickets support ouverts"
+        },
+        {
+          "content": "La taille de l&#39;entreprise cliente"
+        },
+        {
+          "content": "L&#39;ancienneté du compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont essentiels dans un plan d&#39;onboarding client réussi ?"
+      },
+      "options": [
+        {
+          "content": "Définition claire des objectifs du client",
+          "correct": true
+        },
+        {
+          "content": "Planning détaillé avec jalons",
+          "correct": true
+        },
+        {
+          "content": "Identification des utilisateurs clés",
+          "correct": true
+        },
+        {
+          "content": "Présentation de toutes les fonctionnalités du produit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer au mieux un client mécontent qui menace de résilier son abonnement ?"
+      },
+      "options": [
+        {
+          "content": "Écouter ses préoccupations et proposer un plan d&#39;action concret",
+          "correct": true
+        },
+        {
+          "content": "Offrir immédiatement une remise importante"
+        },
+        {
+          "content": "Transférer directement au service commercial"
+        },
+        {
+          "content": "Ignorer la menace et continuer normalement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour identifier les opportunités d&#39;expansion (upsell) chez un client ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les modèles d&#39;utilisation et l&#39;atteinte des limites de leur offre actuelle",
+          "correct": true
+        },
+        {
+          "content": "Envoyer des e-mails promotionnels mensuels"
+        },
+        {
+          "content": "Attendre que le client demande plus de fonctionnalités"
+        },
+        {
+          "content": "Comparer avec les dépenses des autres clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels signaux indiquent un risque élevé de churn ?"
+      },
+      "options": [
+        {
+          "content": "Baisse significative de l&#39;utilisation du produit",
+          "correct": true
+        },
+        {
+          "content": "Retards de paiement répétés",
+          "correct": true
+        },
+        {
+          "content": "Absence aux réunions de suivi régulières",
+          "correct": true
+        },
+        {
+          "content": "Demandes fréquentes de nouvelles fonctionnalités",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les attentes d&#39;un client concernant une nouvelle fonctionnalité demandée ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement le calendrier et les alternatives disponibles",
+          "correct": true
+        },
+        {
+          "content": "Promettre une livraison rapide"
+        },
+        {
+          "content": "Rediriger vers l&#39;équipe produit"
+        },
+        {
+          "content": "Suggérer un changement de forfait"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moment pour discuter du renouvellement avec un client ?"
+      },
+      "options": [
+        {
+          "content": "3-4 mois avant l&#39;échéance du contrat",
+          "correct": true
+        },
+        {
+          "content": "Le mois précédant l&#39;échéance"
+        },
+        {
+          "content": "Après l&#39;échéance du contrat"
+        },
+        {
+          "content": "Dès le début du contrat"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments devraient être inclus dans un QBR (Quarterly Business Review) ?"
+      },
+      "options": [
+        {
+          "content": "Analyse des KPIs et ROI",
+          "correct": true
+        },
+        {
+          "content": "Objectifs atteints et à venir",
+          "correct": true
+        },
+        {
+          "content": "Historique détaillé des tickets support",
+          "correct": false
+        },
+        {
+          "content": "Plan d&#39;action stratégique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment prioriser les demandes de plusieurs clients urgentes ?"
+      },
+      "options": [
+        {
+          "content": "En fonction de l&#39;impact business et de la criticité",
+          "correct": true
+        },
+        {
+          "content": "Par ordre d&#39;arrivée des demandes"
+        },
+        {
+          "content": "Selon la taille du compte client"
+        },
+        {
+          "content": "En fonction de l&#39;ancienneté du client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour mesurer la satisfaction client ?"
+      },
+      "options": [
+        {
+          "content": "Combiner NPS, CSAT et données d&#39;utilisation",
+          "correct": true
+        },
+        {
+          "content": "Se fier uniquement au NPS"
+        },
+        {
+          "content": "Compter les tickets support"
+        },
+        {
+          "content": "Observer les interactions sur les réseaux sociaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions sont essentielles lors de l&#39;escalade d&#39;un problème client ?"
+      },
+      "options": [
+        {
+          "content": "Documenter précisément le problème",
+          "correct": true
+        },
+        {
+          "content": "Identifier les parties prenantes appropriées",
+          "correct": true
+        },
+        {
+          "content": "Définir le niveau d&#39;urgence",
+          "correct": true
+        },
+        {
+          "content": "Promettre une résolution immédiate",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui a des attentes irréalistes concernant les capacités du produit ?"
+      },
+      "options": [
+        {
+          "content": "Recadrer les attentes en montrant la valeur des fonctionnalités existantes",
+          "correct": true
+        },
+        {
+          "content": "Promettre des améliorations futures"
+        },
+        {
+          "content": "Rediriger vers un concurrent"
+        },
+        {
+          "content": "Ignorer leurs demandes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir lorsqu&#39;un bug majeur affecte plusieurs clients ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer proactivement avec les clients affectés et maintenir des mises à jour régulières",
+          "correct": true
+        },
+        {
+          "content": "Attendre que les clients signalent le problème"
+        },
+        {
+          "content": "Minimiser l&#39;importance du problème"
+        },
+        {
+          "content": "Blâmer l&#39;équipe technique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de succession client réussi ?"
+      },
+      "options": [
+        {
+          "content": "Documentation complète des processus existants",
+          "correct": true
+        },
+        {
+          "content": "Formation du nouveau point de contact",
+          "correct": true
+        },
+        {
+          "content": "Transfert des accès et autorisations",
+          "correct": true
+        },
+        {
+          "content": "Changement immédiat de la stratégie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est la plus efficace pour encourager l&#39;adoption de nouvelles fonctionnalités ?"
+      },
+      "options": [
+        {
+          "content": "Démontrer la valeur ajoutée spécifique pour les cas d&#39;usage du client",
+          "correct": true
+        },
+        {
+          "content": "Envoyer des e-mails génériques à tous les utilisateurs"
+        },
+        {
+          "content": "Rendre les anciennes fonctionnalités obsolètes"
+        },
+        {
+          "content": "Attendre que les clients les découvrent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment calculer le meilleur moment pour proposer une expansion de compte ?"
+      },
+      "options": [
+        {
+          "content": "Lorsque le client atteint régulièrement les limites de son forfait actuel",
+          "correct": true
+        },
+        {
+          "content": "Après chaque paiement mensuel"
+        },
+        {
+          "content": "Quand le commercial le demande"
+        },
+        {
+          "content": "En fin d&#39;année fiscale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels indicateurs démontrent une adoption réussie du produit ?"
+      },
+      "options": [
+        {
+          "content": "Utilisation régulière des fonctionnalités clés",
+          "correct": true
+        },
+        {
+          "content": "Augmentation du nombre d&#39;utilisateurs actifs",
+          "correct": true
+        },
+        {
+          "content": "Nombre de connexions quotidiennes",
+          "correct": true
+        },
+        {
+          "content": "Nombre de tickets support ouverts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un client qui ne répond pas aux communications ?"
+      },
+      "options": [
+        {
+          "content": "Varier les canaux de communication et le timing des contacts",
+          "correct": true
+        },
+        {
+          "content": "Multiplier les e-mails quotidiens"
+        },
+        {
+          "content": "Cesser toute tentative de contact"
+        },
+        {
+          "content": "Contacter directement leur direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser l&#39;efficacité des réunions de suivi client ?"
+      },
+      "options": [
+        {
+          "content": "Préparer un agenda structuré basé sur les objectifs et les KPIs",
+          "correct": true
+        },
+        {
+          "content": "Prolonger la durée des réunions"
+        },
+        {
+          "content": "Inviter tous les utilisateurs"
+        },
+        {
+          "content": "Improviser selon les sujets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de relance client ?"
+      },
+      "options": [
+        {
+          "content": "Analyse des causes de désengagement",
+          "correct": true
+        },
+        {
+          "content": "Plan d&#39;action personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Objectifs mesurables",
+          "correct": true
+        },
+        {
+          "content": "Remise automatique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une demande de fonctionnalité qui n&#39;est pas dans la roadmap ?"
+      },
+      "options": [
+        {
+          "content": "Explorer des solutions alternatives avec les fonctionnalités existantes",
+          "correct": true
+        },
+        {
+          "content": "Promettre son développement"
+        },
+        {
+          "content": "Ignorer la demande"
+        },
+        {
+          "content": "Suggérer un changement de solution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de présenter les métriques de succès à un client ?"
+      },
+      "options": [
+        {
+          "content": "Aligner les métriques sur leurs objectifs business spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Montrer toutes les données disponibles"
+        },
+        {
+          "content": "Se concentrer sur les aspects positifs uniquement"
+        },
+        {
+          "content": "Comparer avec d&#39;autres clients"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels pour une stratégie de rétention efficace ?"
+      },
+      "options": [
+        {
+          "content": "Monitoring proactif de la santé du compte",
+          "correct": true
+        },
+        {
+          "content": "Communication régulière et personnalisée",
+          "correct": true
+        },
+        {
+          "content": "Suivi des objectifs client",
+          "correct": true
+        },
+        {
+          "content": "Réductions systématiques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment prioriser les tâches quotidiennes en tant que CSM ?"
+      },
+      "options": [
+        {
+          "content": "Par impact sur la satisfaction et la rétention client",
+          "correct": true
+        },
+        {
+          "content": "Par ordre chronologique"
+        },
+        {
+          "content": "Par taille de compte"
+        },
+        {
+          "content": "Par facilité d&#39;exécution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour segmenter son portfolio client ?"
+      },
+      "options": [
+        {
+          "content": "Par valeur potentielle et niveau d&#39;engagement",
+          "correct": true
+        },
+        {
+          "content": "Par ordre alphabétique"
+        },
+        {
+          "content": "Par ancienneté uniquement"
+        },
+        {
+          "content": "Par secteur d&#39;activité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments devraient être inclus dans un plan de croissance client ?"
+      },
+      "options": [
+        {
+          "content": "Objectifs mesurables alignés sur leurs KPIs",
+          "correct": true
+        },
+        {
+          "content": "Analyses des opportunités d&#39;expansion",
+          "correct": true
+        },
+        {
+          "content": "Plan d&#39;adoption des fonctionnalités",
+          "correct": true
+        },
+        {
+          "content": "Comparaisons avec les concurrents",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement un processus d&#39;escalade avec plusieurs parties prenantes ?"
+      },
+      "options": [
+        {
+          "content": "Centraliser la communication et définir clairement les responsabilités",
+          "correct": true
+        },
+        {
+          "content": "Créer plusieurs chaînes de communication parallèles"
+        },
+        {
+          "content": "Laisser chaque équipe gérer indépendamment"
+        },
+        {
+          "content": "Attendre les directives de la hiérarchie"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans une stratégie de communication client ?"
+      },
+      "options": [
+        {
+          "content": "Fréquence adaptée aux besoins du client",
+          "correct": true
+        },
+        {
+          "content": "Messages personnalisés selon le contexte",
+          "correct": true
+        },
+        {
+          "content": "Choix du canal approprié",
+          "correct": true
+        },
+        {
+          "content": "Communication quotidienne systématique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter face à un client qui refuse les mises à jour régulières du produit ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer les risques et impacts business du non-update",
+          "correct": true
+        },
+        {
+          "content": "Forcer la mise à jour"
+        },
+        {
+          "content": "Ignorer la situation"
+        },
+        {
+          "content": "Menacer de suspension de service"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment identifier le meilleur moment pour proposer un programme de référence client ?"
+      },
+      "options": [
+        {
+          "content": "Après des succès mesurables et une forte satisfaction exprimée",
+          "correct": true
+        },
+        {
+          "content": "Dès le début de la relation"
+        },
+        {
+          "content": "Après chaque renouvellement"
+        },
+        {
+          "content": "Lors des périodes commerciales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels facteurs indiquent qu&#39;un client est prêt pour une expansion ?"
+      },
+      "options": [
+        {
+          "content": "Forte utilisation des fonctionnalités actuelles",
+          "correct": true
+        },
+        {
+          "content": "Atteinte régulière des limites du forfait",
+          "correct": true
+        },
+        {
+          "content": "Expression de nouveaux besoins",
+          "correct": true
+        },
+        {
+          "content": "Ancienneté du compte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les retours négatifs sur le produit ?"
+      },
+      "options": [
+        {
+          "content": "Collecter les détails, proposer des solutions alternatives et transmettre le feedback",
+          "correct": true
+        },
+        {
+          "content": "Défendre systématiquement le produit"
+        },
+        {
+          "content": "Promettre des corrections rapides"
+        },
+        {
+          "content": "Minimiser les problèmes signalés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser l&#39;efficacité des sessions de formation client ?"
+      },
+      "options": [
+        {
+          "content": "Adapter le contenu aux cas d&#39;usage spécifiques du client",
+          "correct": true
+        },
+        {
+          "content": "Présenter toutes les fonctionnalités"
+        },
+        {
+          "content": "Suivre un script standard"
+        },
+        {
+          "content": "Maximiser la durée des sessions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de communication de crise ?"
+      },
+      "options": [
+        {
+          "content": "Chaîne de communication claire",
+          "correct": true
+        },
+        {
+          "content": "Templates de messages préparés",
+          "correct": true
+        },
+        {
+          "content": "Processus d&#39;escalade défini",
+          "correct": true
+        },
+        {
+          "content": "Communication publique immédiate",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un conflit entre les besoins du client et les limitations du produit ?"
+      },
+      "options": [
+        {
+          "content": "Identifier des solutions alternatives et ajuster les attentes",
+          "correct": true
+        },
+        {
+          "content": "Promettre des développements futurs"
+        },
+        {
+          "content": "Suggérer un autre produit"
+        },
+        {
+          "content": "Ignorer les limitations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter pour les revues annuelles (EBR) ?"
+      },
+      "options": [
+        {
+          "content": "Présenter ROI, succès et plan stratégique futur",
+          "correct": true
+        },
+        {
+          "content": "Lister toutes les interactions de l&#39;année"
+        },
+        {
+          "content": "Se concentrer sur les nouveaux produits"
+        },
+        {
+          "content": "Discuter uniquement du renouvellement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont clés pour maintenir un fort engagement utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Communication régulière des mises à jour",
+          "correct": true
+        },
+        {
+          "content": "Partage des bonnes pratiques",
+          "correct": true
+        },
+        {
+          "content": "Suivi personnalisé des usages",
+          "correct": true
+        },
+        {
+          "content": "Récompenses financières",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une demande de fonctionnalité déjà planifiée mais sans date précise ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer le processus de priorisation et proposer des alternatives temporaires",
+          "correct": true
+        },
+        {
+          "content": "Donner une date approximative"
+        },
+        {
+          "content": "Promettre une livraison rapide"
+        },
+        {
+          "content": "Rediriger vers la concurrence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les attentes lors d&#39;une migration majeure ?"
+      },
+      "options": [
+        {
+          "content": "Établir un plan détaillé avec des jalons clairs et une communication transparente",
+          "correct": true
+        },
+        {
+          "content": "Minimiser l&#39;impact du changement"
+        },
+        {
+          "content": "Laisser le technique gérer"
+        },
+        {
+          "content": "Attendre les réactions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment structurer un programme de voix du client (VoC) efficace ?"
+      },
+      "options": [
+        {
+          "content": "Combiner feedback qualitatif et quantitatif avec un processus d&#39;action défini",
+          "correct": true
+        },
+        {
+          "content": "Collecter uniquement les NPS"
+        },
+        {
+          "content": "Attendre les remontées spontanées"
+        },
+        {
+          "content": "Se fier aux réseaux sociaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans une stratégie de gestion des champions ?"
+      },
+      "options": [
+        {
+          "content": "Programme de reconnaissance formalisé",
+          "correct": true
+        },
+        {
+          "content": "Accès privilégié aux nouveautés",
+          "correct": true
+        },
+        {
+          "content": "Opportunités de co-création",
+          "correct": true
+        },
+        {
+          "content": "Récompenses financières systématiques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment aborder un client qui ne voit pas la valeur du produit ?"
+      },
+      "options": [
+        {
+          "content": "Organiser un atelier de découverte pour identifier les cas d&#39;usage pertinents",
+          "correct": true
+        },
+        {
+          "content": "Proposer une remise immédiate"
+        },
+        {
+          "content": "Suggérer de résilier"
+        },
+        {
+          "content": "Ignorer les signaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle stratégie adopter pour la gestion des utilisateurs inactifs ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les causes et mettre en place un plan de réengagement personnalisé",
+          "correct": true
+        },
+        {
+          "content": "Supprimer les comptes inactifs"
+        },
+        {
+          "content": "Envoyer des relances automatiques"
+        },
+        {
+          "content": "Attendre leur retour"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de reprise après incident majeur ?"
+      },
+      "options": [
+        {
+          "content": "Communication claire du statut et des actions",
+          "correct": true
+        },
+        {
+          "content": "Plan de compensation défini",
+          "correct": true
+        },
+        {
+          "content": "Analyse post-mortem avec le client",
+          "correct": true
+        },
+        {
+          "content": "Changement immédiat de fournisseur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une demande d&#39;intégration personnalisée complexe ?"
+      },
+      "options": [
+        {
+          "content": "Évaluer la faisabilité et proposer des alternatives si nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Accepter sans évaluation"
+        },
+        {
+          "content": "Refuser systématiquement"
+        },
+        {
+          "content": "Rediriger vers le support"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour la gestion des comptes multi-régions ?"
+      },
+      "options": [
+        {
+          "content": "Coordonner une stratégie globale avec des adaptations locales",
+          "correct": true
+        },
+        {
+          "content": "Traiter chaque région séparément"
+        },
+        {
+          "content": "Appliquer une approche unique"
+        },
+        {
+          "content": "Déléguer aux équipes locales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels indicateurs sont pertinents pour évaluer la maturité d&#39;un compte ?"
+      },
+      "options": [
+        {
+          "content": "Niveau d&#39;adoption des fonctionnalités avancées",
+          "correct": true
+        },
+        {
+          "content": "Autonomie dans la résolution de problèmes",
+          "correct": true
+        },
+        {
+          "content": "Capacité à former de nouveaux utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Ancienneté du compte uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment optimiser la collaboration avec l&#39;équipe produit ?"
+      },
+      "options": [
+        {
+          "content": "Structurer et prioriser les retours clients avec données et impact business",
+          "correct": true
+        },
+        {
+          "content": "Transmettre toutes les demandes"
+        },
+        {
+          "content": "Attendre les sollicitations"
+        },
+        {
+          "content": "Participer à tous les sprints"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter pour la gestion des utilisateurs résistants au changement ?"
+      },
+      "options": [
+        {
+          "content": "Démontrer les bénéfices concrets et accompagner progressivement",
+          "correct": true
+        },
+        {
+          "content": "Forcer l&#39;adoption"
+        },
+        {
+          "content": "Ignorer la résistance"
+        },
+        {
+          "content": "Les exclure du projet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un programme de certification client ?"
+      },
+      "options": [
+        {
+          "content": "Parcours d&#39;apprentissage progressif",
+          "correct": true
+        },
+        {
+          "content": "Évaluations pratiques",
+          "correct": true
+        },
+        {
+          "content": "Reconnaissance des accomplissements",
+          "correct": true
+        },
+        {
+          "content": "Contenu théorique uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un conflit entre différents stakeholders chez le client ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter le dialogue en se concentrant sur les objectifs communs",
+          "correct": true
+        },
+        {
+          "content": "Prendre parti"
+        },
+        {
+          "content": "Éviter le sujet"
+        },
+        {
+          "content": "Escalader à la direction"
+        }
+      ]
+    }
+]
+}

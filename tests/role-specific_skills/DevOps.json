@@ -1,0 +1,1037 @@
+{
+  "title": "DevOps",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances des candidats sur les concepts et pratiques DevOps, ainsi que leur capacité à les appliquer pour améliorer l'infrastructure, accélérer la mise sur le marché et optimiser le déploiement continu.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Infrastructure as Code",
+      "Intégration Continue / Déploiement Continu (CI/CD)",
+      "Conteneurisation et Orchestration",
+      "Automatisation",
+      "Monitoring et Logging",
+      "Gestion de Configuration",
+      "Cloud Computing",
+      "Sécurité DevOps"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes d'ingénieur DevOps, SRE (Site Reliability Engineer), ou tout rôle nécessitant une expertise en pratiques DevOps.",
+    "description": "L'évaluation couvre les concepts fondamentaux et intermédiaires de DevOps, testant la capacité du candidat à implémenter et gérer des pipelines CI/CD, automatiser les processus et maintenir une infrastructure robuste.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil est principalement utilisé pour la conteneurisation d&#39;applications ?"
+      },
+      "options": [
+        {
+          "content": "Docker",
+          "correct": true
+        },
+        {
+          "content": "Jenkins",
+          "correct": false
+        },
+        {
+          "content": "Git",
+          "correct": false
+        },
+        {
+          "content": "Maven",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale différence entre l&#39;int&eacute;gration continue (CI) et le d&eacute;ploiement continu (CD) ?"
+      },
+      "options": [
+        {
+          "content": "Le CI concerne l&#39;automatisation des tests, le CD concerne l&#39;automatisation du d&eacute;ploiement",
+          "correct": true
+        },
+        {
+          "content": "Le CI est plus rapide que le CD",
+          "correct": false
+        },
+        {
+          "content": "Le CD est uniquement pour le d&eacute;veloppement, le CI pour la production",
+          "correct": false
+        },
+        {
+          "content": "Il n&#39;y a aucune diff&eacute;rence entre les deux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les avantages de l&#39;Infrastructure as Code (IaC) ?"
+      },
+      "options": [
+        {
+          "content": "Reproductibilit&eacute; de l&#39;infrastructure",
+          "correct": true
+        },
+        {
+          "content": "Versionnement du code infrastructure",
+          "correct": true
+        },
+        {
+          "content": "Automatisation du d&eacute;ploiement",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;duction des co&ucirc;ts mat&eacute;riels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilis&eacute; pour la gestion de configuration ?"
+      },
+      "options": [
+        {
+          "content": "Ansible",
+          "correct": true
+        },
+        {
+          "content": "Eclipse",
+          "correct": false
+        },
+        {
+          "content": "Postman",
+          "correct": false
+        },
+        {
+          "content": "Sublime Text",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Kubernetes est utilis&eacute;e pour afficher tous les pods en cours d&#39;ex&eacute;cution ?"
+      },
+      "options": [
+        {
+          "content": "kubectl get pods",
+          "correct": true
+        },
+        {
+          "content": "kubectl list pods",
+          "correct": false
+        },
+        {
+          "content": "kubectl show pods",
+          "correct": false
+        },
+        {
+          "content": "kubectl display pods",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les piliers de l&#39;observabilit&eacute; dans DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Logs",
+          "correct": true
+        },
+        {
+          "content": "M&eacute;triques",
+          "correct": true
+        },
+        {
+          "content": "Traces",
+          "correct": true
+        },
+        {
+          "content": "Rapports mensuels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le r&ocirc;le principal de Prometheus dans un environnement DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Collecte et stockage de m&eacute;triques",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;ploiement d&#39;applications",
+          "correct": false
+        },
+        {
+          "content": "Gestion des conteneurs",
+          "correct": false
+        },
+        {
+          "content": "Tests automatiques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels outils sont couramment utilis&eacute;s pour l&#39;int&eacute;gration continue ?"
+      },
+      "options": [
+        {
+          "content": "Jenkins",
+          "correct": true
+        },
+        {
+          "content": "GitLab CI",
+          "correct": true
+        },
+        {
+          "content": "Travis CI",
+          "correct": true
+        },
+        {
+          "content": "Notepad++",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale fonction d&#39;un service mesh comme Istio ?"
+      },
+      "options": [
+        {
+          "content": "Gestion du trafic et de la s&eacute;curit&eacute; entre les services",
+          "correct": true
+        },
+        {
+          "content": "Stockage de donn&eacute;es",
+          "correct": false
+        },
+        {
+          "content": "Compilation de code",
+          "correct": false
+        },
+        {
+          "content": "Gestion des bases de donn&eacute;es",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les &eacute;l&eacute;ments cl&eacute;s d&#39;un pipeline CI/CD ?"
+      },
+      "options": [
+        {
+          "content": "Build automatique",
+          "correct": true
+        },
+        {
+          "content": "Tests automatis&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;ploiement automatique",
+          "correct": true
+        },
+        {
+          "content": "Documentation manuelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande Git est utilis&eacute;e pour cr&eacute;er une nouvelle branche ?"
+      },
+      "options": [
+        {
+          "content": "git checkout -b nom_branche",
+          "correct": true
+        },
+        {
+          "content": "git create nom_branche",
+          "correct": false
+        },
+        {
+          "content": "git new nom_branche",
+          "correct": false
+        },
+        {
+          "content": "git branch new nom_branche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilis&eacute; pour la gestion de secrets dans Kubernetes ?"
+      },
+      "options": [
+        {
+          "content": "HashiCorp Vault",
+          "correct": true
+        },
+        {
+          "content": "MySQL",
+          "correct": false
+        },
+        {
+          "content": "Notepad",
+          "correct": false
+        },
+        {
+          "content": "Windows Registry",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la commande Terraform pour cr&eacute;er ou mettre &agrave; jour l&#39;infrastructure ?"
+      },
+      "options": [
+        {
+          "content": "terraform apply",
+          "correct": true
+        },
+        {
+          "content": "terraform create",
+          "correct": false
+        },
+        {
+          "content": "terraform build",
+          "correct": false
+        },
+        {
+          "content": "terraform execute",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les services AWS couramment utilis&eacute;s dans une architecture DevOps ?"
+      },
+      "options": [
+        {
+          "content": "EC2",
+          "correct": true
+        },
+        {
+          "content": "S3",
+          "correct": true
+        },
+        {
+          "content": "CodePipeline",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Word",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale caract&eacute;ristique d&#39;un d&eacute;ploiement canary ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;ploiement progressif vers un sous-ensemble d&#39;utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;ploiement instantan&eacute; pour tous les utilisateurs",
+          "correct": false
+        },
+        {
+          "content": "D&eacute;ploiement uniquement en environnement de test",
+          "correct": false
+        },
+        {
+          "content": "D&eacute;ploiement sans sauvegarde",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les objectifs cl&eacute;s du Site Reliability Engineering (SRE) ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;duction des temps d&#39;arr&ecirc;t",
+          "correct": true
+        },
+        {
+          "content": "Automatisation des t&acirc;ches op&eacute;rationnelles",
+          "correct": true
+        },
+        {
+          "content": "Am&eacute;lioration des SLO",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;duction des co&ucirc;ts marketing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilis&eacute; pour la virtualisation de serveurs sur Azure ?"
+      },
+      "options": [
+        {
+          "content": "Azure Virtual Machines",
+          "correct": true
+        },
+        {
+          "content": "Azure Paint",
+          "correct": false
+        },
+        {
+          "content": "Azure Calculator",
+          "correct": false
+        },
+        {
+          "content": "Azure Notes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale diff&eacute;rence entre un d&eacute;ploiement bleu-vert et un d&eacute;ploiement canary ?"
+      },
+      "options": [
+        {
+          "content": "Le bleu-vert bascule tout le trafic d&#39;un coup, le canary est progressif",
+          "correct": true
+        },
+        {
+          "content": "Le bleu-vert est plus rapide que le canary",
+          "correct": false
+        },
+        {
+          "content": "Le canary ne n&eacute;cessite pas de tests",
+          "correct": false
+        },
+        {
+          "content": "Le bleu-vert ne n&eacute;cessite qu&#39;un seul environnement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les composants essentiels d&#39;une strat&eacute;gie de test automatis&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "Tests unitaires",
+          "correct": true
+        },
+        {
+          "content": "Tests d&#39;int&eacute;gration",
+          "correct": true
+        },
+        {
+          "content": "Tests de performance",
+          "correct": true
+        },
+        {
+          "content": "Tests manuels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel service GCP est utilis&eacute; pour la gestion de conteneurs ?"
+      },
+      "options": [
+        {
+          "content": "Google Kubernetes Engine (GKE)",
+          "correct": true
+        },
+        {
+          "content": "Google Docs",
+          "correct": false
+        },
+        {
+          "content": "Google Analytics",
+          "correct": false
+        },
+        {
+          "content": "Google Drive",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les aspects cl&eacute;s de la haute disponibilit&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;partition g&eacute;ographique",
+          "correct": true
+        },
+        {
+          "content": "Redondance des syst&egrave;mes",
+          "correct": true
+        },
+        {
+          "content": "Equilibrage de charge",
+          "correct": true
+        },
+        {
+          "content": "Marketing digital",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est recommand&eacute; pour la gestion des d&eacute;pendances Python dans un environnement DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Poetry",
+          "correct": true
+        },
+        {
+          "content": "Notepad",
+          "correct": false
+        },
+        {
+          "content": "Paint",
+          "correct": false
+        },
+        {
+          "content": "Excel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour g&eacute;rer les mots de passe dans un pipeline CI/CD ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un gestionnaire de secrets",
+          "correct": true
+        },
+        {
+          "content": "Les stocker dans le code source",
+          "correct": false
+        },
+        {
+          "content": "Les &eacute;crire dans un fichier texte",
+          "correct": false
+        },
+        {
+          "content": "Les partager par email",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes cl&eacute;s de DevSecOps ?"
+      },
+      "options": [
+        {
+          "content": "Int&eacute;gration de la s&eacute;curit&eacute; d&egrave;s le d&eacute;but",
+          "correct": true
+        },
+        {
+          "content": "Automatisation des tests de s&eacute;curit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Analyse continue des vuln&eacute;rabilit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "V&eacute;rification manuelle uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilis&eacute; pour l&#39;agr&eacute;gation de logs dans un environnement distribu&eacute; ?"
+      },
+      "options": [
+        {
+          "content": "ELK Stack",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Word",
+          "correct": false
+        },
+        {
+          "content": "Paint",
+          "correct": false
+        },
+        {
+          "content": "Calculator",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d&#39;une architecture microservices ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;ploiement ind&eacute;pendant des services",
+          "correct": true
+        },
+        {
+          "content": "Meilleure scalabilit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Isolation des pannes",
+          "correct": true
+        },
+        {
+          "content": "Simplification du code",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle strat&eacute;gie de backup est recommand&eacute;e pour une base de donn&eacute;es en production ?"
+      },
+      "options": [
+        {
+          "content": "Backup incr&eacute;mental quotidien avec backup complet hebdomadaire",
+          "correct": true
+        },
+        {
+          "content": "Pas de backup",
+          "correct": false
+        },
+        {
+          "content": "Backup manuel mensuel",
+          "correct": false
+        },
+        {
+          "content": "Backup uniquement quand n&eacute;cessaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs cl&eacute;s de performance (KPI) en DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Fr&eacute;quence de d&eacute;ploiement",
+          "correct": true
+        },
+        {
+          "content": "Temps moyen de r&eacute;cup&eacute;ration (MTTR)",
+          "correct": true
+        },
+        {
+          "content": "Taux d&#39;&eacute;chec des changements",
+          "correct": true
+        },
+        {
+          "content": "Nombre de pauses caf&eacute;",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour g&eacute;rer les configurations d&#39;application entre diff&eacute;rents environnements ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des variables d&#39;environnement",
+          "correct": true
+        },
+        {
+          "content": "Hardcoder les valeurs",
+          "correct": false
+        },
+        {
+          "content": "Utiliser le m&ecirc;me fichier partout",
+          "correct": false
+        },
+        {
+          "content": "Modifier manuellement &agrave; chaque d&eacute;ploiement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les aspects importants du monitoring dans DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Surveillance des performances",
+          "correct": true
+        },
+        {
+          "content": "Alerting intelligent",
+          "correct": true
+        },
+        {
+          "content": "Visualisation des m&eacute;triques",
+          "correct": true
+        },
+        {
+          "content": "Rapports mensuels manuels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel pattern est utilis&eacute; pour g&eacute;rer les pannes en cascade dans une architecture microservices ?"
+      },
+      "options": [
+        {
+          "content": "Circuit Breaker",
+          "correct": true
+        },
+        {
+          "content": "Try-Catch",
+          "correct": false
+        },
+        {
+          "content": "If-Else",
+          "correct": false
+        },
+        {
+          "content": "While Loop",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour g&eacute;rer les migrations de base de donn&eacute;es dans un pipeline CI/CD ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des outils de migration avec versioning",
+          "correct": true
+        },
+        {
+          "content": "Ex&eacute;cuter les scripts manuellement",
+          "correct": false
+        },
+        {
+          "content": "Ignorer les migrations",
+          "correct": false
+        },
+        {
+          "content": "Recr&eacute;er la base &agrave; chaque fois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour g&eacute;rer un incident en production ?"
+      },
+      "options": [
+        {
+          "content": "Suivre un processus d&#39;escalade d&eacute;fini",
+          "correct": true
+        },
+        {
+          "content": "Corriger sans documenter",
+          "correct": false
+        },
+        {
+          "content": "Ignorer les alertes mineures",
+          "correct": false
+        },
+        {
+          "content": "Red&eacute;marrer le syst&egrave;me imm&eacute;diatement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les &eacute;l&eacute;ments essentiels d&#39;une ing&eacute;nierie du chaos r&eacute;ussie ?"
+      },
+      "options": [
+        {
+          "content": "Tests en production contr&ocirc;l&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Surveillance accrue pendant les tests",
+          "correct": true
+        },
+        {
+          "content": "Plan de retour arri&egrave;re",
+          "correct": true
+        },
+        {
+          "content": "Tests sans pr&eacute;venir l&#39;&eacute;quipe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est recommand&eacute; pour l&#39;analyse des performances d&#39;une application ?"
+      },
+      "options": [
+        {
+          "content": "New Relic",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Excel",
+          "correct": false
+        },
+        {
+          "content": "Google Docs",
+          "correct": false
+        },
+        {
+          "content": "Notepad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les pratiques Agiles couramment utilis&eacute;es dans DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Daily Stand-ups",
+          "correct": true
+        },
+        {
+          "content": "Sprints",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;trospectives",
+          "correct": true
+        },
+        {
+          "content": "Documentation exhaustive pr&eacute;alable",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle m&eacute;thode est recommand&eacute;e pour optimiser les performances d&#39;une application conteneuris&eacute;e ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des images de conteneur l&eacute;g&egrave;res",
+          "correct": true
+        },
+        {
+          "content": "Installer tous les outils possibles",
+          "correct": false
+        },
+        {
+          "content": "D&eacute;sactiver la surveillance",
+          "correct": false
+        },
+        {
+          "content": "Augmenter syst&eacute;matiquement les ressources",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les &eacute;l&eacute;ments d&#39;une bonne communication dans une &eacute;quipe DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Documentation claire et accessible",
+          "correct": true
+        },
+        {
+          "content": "Canaux de communication d&eacute;di&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Partage r&eacute;gulier des connaissances",
+          "correct": true
+        },
+        {
+          "content": "Communication uniquement par email",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est recommand&eacute;e pour g&eacute;rer les changements en production ?"
+      },
+      "options": [
+        {
+          "content": "Processus de validation standardis&eacute;",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;ploiement direct en production",
+          "correct": false
+        },
+        {
+          "content": "Tests uniquement en production",
+          "correct": false
+        },
+        {
+          "content": "Validation verbale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil est utilis&eacute; pour le monitoring des conteneurs ?"
+      },
+      "options": [
+        {
+          "content": "Prometheus avec cAdvisor",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Paint",
+          "correct": false
+        },
+        {
+          "content": "Bloc-notes",
+          "correct": false
+        },
+        {
+          "content": "Windows Media Player",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les &eacute;l&eacute;ments essentiels d&#39;un post-mortem d&#39;incident ?"
+      },
+      "options": [
+        {
+          "content": "Chronologie d&eacute;taill&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Analyse des causes racines",
+          "correct": true
+        },
+        {
+          "content": "Actions correctives",
+          "correct": true
+        },
+        {
+          "content": "Recherche des coupables",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour g&eacute;rer les d&eacute;pendances dans un projet DevOps ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un gestionnaire de d&eacute;pendances avec versions fix&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Copier-coller le code n&eacute;cessaire",
+          "correct": false
+        },
+        {
+          "content": "T&eacute;l&eacute;charger manuellement les d&eacute;pendances",
+          "correct": false
+        },
+        {
+          "content": "Utiliser toujours la derni&egrave;re version",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

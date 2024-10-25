@@ -1,0 +1,1447 @@
+{
+  "title": "Scrum Master",
+  "attributes": {
+    "overview": "Ce test évalue la capacité des candidats à appliquer efficacement le framework Scrum dans un contexte professionnel et à faciliter le travail des équipes agiles.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Principes et valeurs Scrum",
+      "Facilitation des événements Scrum",
+      "Gestion des obstacles",
+      "Coaching d'équipe",
+      "Métriques agiles",
+      "Relations avec les parties prenantes",
+      "Scaling Scrum",
+      "Amélioration continue"
+    ],
+    "relevancy": "Ce test est idéal pour évaluer les candidats au poste de Scrum Master, en vérifiant leur compréhension pratique et leur capacité à appliquer Scrum efficacement.",
+    "description": "Le test couvre les aspects théoriques et pratiques du rôle de Scrum Master, avec un focus particulier sur la résolution de problèmes réels et la facilitation d'équipe.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le rôle principal du Scrum Master dans une équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Servir l&#39;équipe en tant que facilitateur et coach",
+          "correct": true
+        },
+        {
+          "content": "Assigner les t&acirc;ches aux membres de l&#39;équipe"
+        },
+        {
+          "content": "D&eacute;finir les priorit&eacute;s du Product Backlog"
+        },
+        {
+          "content": "Approuver les livrables de l&#39;&eacute;quipe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la durée maximale recommandée pour un Daily Scrum ?"
+      },
+      "options": [
+        {
+          "content": "15 minutes",
+          "correct": true
+        },
+        {
+          "content": "30 minutes"
+        },
+        {
+          "content": "1 heure"
+        },
+        {
+          "content": "45 minutes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels sont les événements officiels de Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Sprint Planning",
+          "correct": true
+        },
+        {
+          "content": "Daily Scrum",
+          "correct": true
+        },
+        {
+          "content": "Sprint Review",
+          "correct": true
+        },
+        {
+          "content": "Sprint Retrospective",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il gérer les conflits au sein de l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la r&eacute;solution en encourageant la communication ouverte",
+          "correct": true
+        },
+        {
+          "content": "Imposer une solution imm&eacute;diate"
+        },
+        {
+          "content": "Ignorer le conflit pour maintenir l&#39;harmonie"
+        },
+        {
+          "content": "Escalader directement &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle affirmation décrit le mieux la vélocité d'une équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Une mesure de la quantit&eacute; de travail que l&#39;&eacute;quipe peut accomplir pendant un sprint",
+          "correct": true
+        },
+        {
+          "content": "Le nombre d&#39;heures travaill&eacute;es par l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Le nombre de bugs corrig&eacute;s pendant le sprint"
+        },
+        {
+          "content": "Le temps pass&eacute; en r&eacute;unions Scrum"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles responsabilités incombent au Scrum Master concernant les obstacles ?"
+      },
+      "options": [
+        {
+          "content": "Identifier et documenter les obstacles",
+          "correct": true
+        },
+        {
+          "content": "Aider l&#39;&eacute;quipe &agrave; r&eacute;soudre les obstacles",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;soudre personnellement tous les obstacles"
+        },
+        {
+          "content": "Escalader les obstacles qui d&eacute;passent l&#39;autorit&eacute; de l&#39;&eacute;quipe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le but principal de la Sprint Retrospective ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les am&eacute;liorations pour le prochain sprint",
+          "correct": true
+        },
+        {
+          "content": "Examiner les livrables du sprint"
+        },
+        {
+          "content": "Planifier le prochain sprint"
+        },
+        {
+          "content": "&Eacute;valuer la performance individuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il réagir si l'équipe n'atteint pas les objectifs du sprint ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter une discussion sur les le&ccedil;ons apprises et les am&eacute;liorations possibles",
+          "correct": true
+        },
+        {
+          "content": "Imposer des heures suppl&eacute;mentaires"
+        },
+        {
+          "content": "Signaler l&#39;&eacute;chec &agrave; la direction"
+        },
+        {
+          "content": "R&eacute;duire la v&eacute;locit&eacute; du prochain sprint"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs d'une équipe Scrum performante ?"
+      },
+      "options": [
+        {
+          "content": "Auto-organisation efficace",
+          "correct": true
+        },
+        {
+          "content": "Communication transparente",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;pendance totale au Scrum Master"
+        },
+        {
+          "content": "Am&eacute;lioration continue",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les demandes urgentes pendant un sprint en cours ?"
+      },
+      "options": [
+        {
+          "content": "Consulter le Product Owner pour &eacute;valuer l&#39;impact sur l&#39;objectif du sprint",
+          "correct": true
+        },
+        {
+          "content": "Accepter automatiquement toutes les urgences"
+        },
+        {
+          "content": "Refuser syst&eacute;matiquement toute nouvelle demande"
+        },
+        {
+          "content": "Ajouter du personnel &agrave; l&#39;&eacute;quipe"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments devraient être mesurés lors du suivi de la progression d'un sprint ?"
+      },
+      "options": [
+        {
+          "content": "Burn-down chart",
+          "correct": true
+        },
+        {
+          "content": "V&eacute;locit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Temps de pr&eacute;sence au bureau"
+        },
+        {
+          "content": "Stories termin&eacute;es",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la durée recommandée pour une Sprint Review ?"
+      },
+      "options": [
+        {
+          "content": "4 heures maximum pour un sprint d&#39;un mois",
+          "correct": true
+        },
+        {
+          "content": "1 journ&eacute;e enti&egrave;re"
+        },
+        {
+          "content": "30 minutes maximum"
+        },
+        {
+          "content": "2 jours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il gérer un membre d'équipe qui ne participe pas activement aux Daily Scrums ?"
+      },
+      "options": [
+        {
+          "content": "Discuter en priv&eacute; pour comprendre les raisons et offrir son aide",
+          "correct": true
+        },
+        {
+          "content": "Le signaler au management"
+        },
+        {
+          "content": "L&#39;exclure des r&eacute;unions futures"
+        },
+        {
+          "content": "Imposer une p&eacute;nalit&eacute;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes clés de l'auto-organisation dans Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Autonomie dans la prise de d&eacute;cisions",
+          "correct": true
+        },
+        {
+          "content": "Responsabilit&eacute; collective",
+          "correct": true
+        },
+        {
+          "content": "Contrôle hi&eacute;rarchique strict"
+        },
+        {
+          "content": "Collaboration entre membres",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle du Scrum Master dans la facilitation du Sprint Planning ?"
+      },
+      "options": [
+        {
+          "content": "S&#39;assurer que l&#39;&eacute;v&eacute;nement est productif et se termine dans les temps",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;cider quels items seront inclus"
+        },
+        {
+          "content": "Estimer les stories &agrave; la place de l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Assigner les t&acirc;ches aux membres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles pratiques favorisent une bonne collaboration entre le Product Owner et l'équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Communication r&eacute;guli&egrave;re",
+          "correct": true
+        },
+        {
+          "content": "Raffinement continu du Product Backlog",
+          "correct": true
+        },
+        {
+          "content": "Disponibilit&eacute; pour clarifier les exigences",
+          "correct": true
+        },
+        {
+          "content": "Micro-management des t&acirc;ches"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les dépendances entre plusieurs équipes Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Organiser des r&eacute;unions de synchronisation inter-&eacute;quipes r&eacute;guli&egrave;res",
+          "correct": true
+        },
+        {
+          "content": "Fusionner les &eacute;quipes en une seule grande &eacute;quipe"
+        },
+        {
+          "content": "Isoler compl&egrave;tement les &eacute;quipes"
+        },
+        {
+          "content": "Allonger la dur&eacute;e des sprints"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signes d'un Product Backlog bien entretenu ?"
+      },
+      "options": [
+        {
+          "content": "Items clairement prioris&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;tails appropri&eacute;s selon la priorit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Tous les items estim&eacute;s en d&eacute;tail"
+        },
+        {
+          "content": "Stories INVEST",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment un Scrum Master devrait-il réagir face à une équipe qui estime systématiquement de manière trop optimiste ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter une analyse des estimations pass&eacute;es pour am&eacute;liorer la pr&eacute;cision",
+          "correct": true
+        },
+        {
+          "content": "Imposer des estimations plus &eacute;lev&eacute;es"
+        },
+        {
+          "content": "R&eacute;aliser les estimations &agrave; la place de l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Ajouter automatiquement 50% aux estimations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le meilleur moment pour mettre à jour le burn-down chart ?"
+      },
+      "options": [
+        {
+          "content": "Apr&egrave;s le Daily Scrum",
+          "correct": true
+        },
+        {
+          "content": "Une fois par semaine"
+        },
+        {
+          "content": "À la fin du sprint uniquement"
+        },
+        {
+          "content": "Quand le Scrum Master le demande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions le Scrum Master devrait-il entreprendre lors d'une Sprint Retrospective ?"
+      },
+      "options": [
+        {
+          "content": "Encourager la participation de tous",
+          "correct": true
+        },
+        {
+          "content": "Faciliter les discussions constructives",
+          "correct": true
+        },
+        {
+          "content": "Critiquer les performances individuelles"
+        },
+        {
+          "content": "Suivre les actions d&#39;am&eacute;lioration convenues",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un Product Owner trop directif avec l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Coacher le PO sur le respect de l&#39;auto-organisation de l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Exclure le PO des r&eacute;unions d&#39;&eacute;quipe"
+        },
+        {
+          "content": "Laisser l&#39;&eacute;quipe g&eacute;rer seule la situation"
+        },
+        {
+          "content": "Escalader &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il gérer les interruptions fréquentes pendant le Daily Scrum ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;tablir un cadre prot&eacute;g&eacute; pour la r&eacute;union",
+          "correct": true
+        },
+        {
+          "content": "Annuler le Daily Scrum"
+        },
+        {
+          "content": "Prolonger la dur&eacute;e de la r&eacute;union"
+        },
+        {
+          "content": "Ignorer les interruptions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments essentiels d'une Definition of Done efficace ?"
+      },
+      "options": [
+        {
+          "content": "Crit&egrave;res de qualit&eacute; clairs",
+          "correct": true
+        },
+        {
+          "content": "Accord de toute l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Liste exhaustive de tous les sc&eacute;narios possibles"
+        },
+        {
+          "content": "V&eacute;rifiable objectivement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les conflits de disponibilité des membres de l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Adapter les &eacute;v&eacute;nements Scrum aux disponibilit&eacute;s de l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Imposer un horaire fixe"
+        },
+        {
+          "content": "Organiser des r&eacute;unions s&eacute;par&eacute;es"
+        },
+        {
+          "content": "Ignorer les contraintes individuelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments devraient être présents dans un board Scrum efficace ?"
+      },
+      "options": [
+        {
+          "content": "User Stories du sprint",
+          "correct": true
+        },
+        {
+          "content": "Burn-down chart",
+          "correct": true
+        },
+        {
+          "content": "Informations personnelles de l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Imp&eacute;diments identifi&eacute;s",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est recommandée pour le coaching d'une nouvelle équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Introduire progressivement les pratiques Scrum avec du support constant",
+          "correct": true
+        },
+        {
+          "content": "Imposer toutes les r&egrave;gles d&egrave;s le d&eacute;but"
+        },
+        {
+          "content": "Laisser l&#39;&eacute;quipe apprendre seule"
+        },
+        {
+          "content": "Attendre que l&#39;&eacute;quipe demande de l&#39;aide"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une équipe qui résiste au changement vers Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre les r&eacute;sistances et accompagner le changement progressivement",
+          "correct": true
+        },
+        {
+          "content": "Forcer l&#39;adoption imm&eacute;diate"
+        },
+        {
+          "content": "Revenir aux anciennes m&eacute;thodes"
+        },
+        {
+          "content": "Remplacer les membres r&eacute;sistants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les responsabilités du Scrum Master envers l'organisation ?"
+      },
+      "options": [
+        {
+          "content": "Promouvoir l&#39;adoption de Scrum",
+          "correct": true
+        },
+        {
+          "content": "Former d&#39;autres &eacute;quipes",
+          "correct": true
+        },
+        {
+          "content": "G&eacute;rer les budgets des projets"
+        },
+        {
+          "content": "Accompagner la transformation agile",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer un membre d'équipe qui domine systématiquement les discussions ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des techniques de facilitation pour &eacute;quilibrer la participation",
+          "correct": true
+        },
+        {
+          "content": "L&#39;exclure des discussions"
+        },
+        {
+          "content": "L&#39;interrompre syst&eacute;matiquement"
+        },
+        {
+          "content": "Ignorer son comportement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs d'une Sprint Review réussie ?"
+      },
+      "options": [
+        {
+          "content": "Feedback constructif des parties prenantes",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;monstration claire du travail accompli",
+          "correct": true
+        },
+        {
+          "content": "Signature formelle d&#39;acceptation"
+        },
+        {
+          "content": "Discussion sur les adaptations n&eacute;cessaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il réagir si l'équipe termine systématiquement le travail bien avant la fin du sprint ?"
+      },
+      "options": [
+        {
+          "content": "Analyser la capacit&eacute; r&eacute;elle de l&#39;&eacute;quipe pour ajuster la planification",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des stories en cours de sprint"
+        },
+        {
+          "content": "R&eacute;duire la dur&eacute;e des sprints"
+        },
+        {
+          "content": "F&eacute;liciter l&#39;&eacute;quipe et maintenir le rythme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche est recommandée pour gérer les bugs découverts pendant le sprint ?"
+      },
+      "options": [
+        {
+          "content": "Les traiter selon les crit&egrave;res de la Definition of Done",
+          "correct": true
+        },
+        {
+          "content": "Les reporter au sprint suivant"
+        },
+        {
+          "content": "Cr&eacute;er une &eacute;quipe d&eacute;di&eacute;e aux bugs"
+        },
+        {
+          "content": "Les ignorer jusqu&#39;&agrave; la fin du projet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'un bon raffinement du Product Backlog ?"
+      },
+      "options": [
+        {
+          "content": "Participation active de l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Clarification des crit&egrave;res d&#39;acceptation",
+          "correct": true
+        },
+        {
+          "content": "Estimation d&eacute;taill&eacute;e de tous les items"
+        },
+        {
+          "content": "D&eacute;composition appropri&eacute;e des items",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une équipe qui souhaite modifier la durée du Daily Scrum à 30 minutes ?"
+      },
+      "options": [
+        {
+          "content": "Rappeler l&#39;objectif du Daily et aider &agrave; l&#39;optimiser sur 15 minutes",
+          "correct": true
+        },
+        {
+          "content": "Accepter imm&eacute;diatement le changement"
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Imposer des r&egrave;gles de prise de parole strictes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles pratiques favorisent une estimation efficace pendant le Sprint Planning ?"
+      },
+      "options": [
+        {
+          "content": "Utilisation du Planning Poker",
+          "correct": true
+        },
+        {
+          "content": "Discussion collective des stories",
+          "correct": true
+        },
+        {
+          "content": "Estimation par le Scrum Master"
+        },
+        {
+          "content": "R&eacute;f&eacute;rence aux v&eacute;locit&eacute;s pr&eacute;c&eacute;dentes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les demandes urgentes de la direction pendant un sprint ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;valuer l&#39;impact avec le PO et l&#39;&eacute;quipe avant toute d&eacute;cision",
+          "correct": true
+        },
+        {
+          "content": "Accepter toutes les demandes urgentes"
+        },
+        {
+          "content": "Refuser automatiquement"
+        },
+        {
+          "content": "Ajouter des heures suppl&eacute;mentaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il gérer les désaccords sur les estimations au sein de l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la discussion pour comprendre les diff&eacute;rents points de vue",
+          "correct": true
+        },
+        {
+          "content": "Choisir l&#39;estimation la plus haute"
+        },
+        {
+          "content": "Faire la moyenne des estimations"
+        },
+        {
+          "content": "Imposer sa propre estimation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les bénéfices d'une bonne Sprint Retrospective ?"
+      },
+      "options": [
+        {
+          "content": "Am&eacute;lioration continue des pratiques",
+          "correct": true
+        },
+        {
+          "content": "Renforcement de la coh&eacute;sion d&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;valuation des performances individuelles"
+        },
+        {
+          "content": "Identification des opportunit&eacute;s d&#39;am&eacute;lioration",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour intégrer un nouveau membre dans l'équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Assigner un mentor et int&eacute;grer progressivement aux &eacute;v&eacute;nements",
+          "correct": true
+        },
+        {
+          "content": "Le laisser observer sans participer"
+        },
+        {
+          "content": "Lui confier imm&eacute;diatement des t&acirc;ches complexes"
+        },
+        {
+          "content": "Attendre le prochain sprint pour l&#39;int&eacute;grer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d'un bon objectif de sprint ?"
+      },
+      "options": [
+        {
+          "content": "Clair et mesurable",
+          "correct": true
+        },
+        {
+          "content": "Ali&eacute; avec l&#39;objectif du produit",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;fini uniquement par le Product Owner"
+        },
+        {
+          "content": "Compr&eacute;hensible par toute l&#39;&eacute;quipe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment le Scrum Master devrait-il gérer une équipe qui refuse de participer à la Sprint Retrospective ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre les raisons et adapter le format pour la rendre plus engageante",
+          "correct": true
+        },
+        {
+          "content": "Rendre la r&eacute;union obligatoire"
+        },
+        {
+          "content": "Annuler les r&eacute;trospectives"
+        },
+        {
+          "content": "Signaler le comportement &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signes d'une dette technique croissante dans un projet Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Augmentation du temps de correction des bugs",
+          "correct": true
+        },
+        {
+          "content": "Difficult&eacute; croissante &agrave; impl&eacute;menter de nouvelles features",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des standup meetings"
+        },
+        {
+          "content": "Baisse de la qualit&eacute; du code",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les conflits entre le Product Owner et les parties prenantes ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la communication et la compr&eacute;hension mutuelle",
+          "correct": true
+        },
+        {
+          "content": "Prendre parti pour le Product Owner"
+        },
+        {
+          "content": "Laisser les parties prenantes d&eacute;cider"
+        },
+        {
+          "content": "Éviter d&#39;intervenir"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment traiter une équipe qui sous-estime systématiquement la complexité technique ?"
+      },
+      "options": [
+        {
+          "content": "Organiser des sessions d&#39;analyse des estimations pass&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Doubler toutes les estimations"
+        },
+        {
+          "content": "Imposer des estimations plus &eacute;lev&eacute;es"
+        },
+        {
+          "content": "Ignorer le probl&egrave;me"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments essentiels d'un bon Sprint Goal ?"
+      },
+      "options": [
+        {
+          "content": "Alignement avec la vision du produit",
+          "correct": true
+        },
+        {
+          "content": "Valeur m&eacute;tier claire",
+          "correct": true
+        },
+        {
+          "content": "Liste exhaustive des t&acirc;ches"
+        },
+        {
+          "content": "Coh&eacute;rence des stories s&eacute;lectionn&eacute;es",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer un Product Owner qui change fréquemment les priorités pendant le sprint ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer l&#39;impact des changements et prot&eacute;ger l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Accepter tous les changements"
+        },
+        {
+          "content": "Refuser tout changement"
+        },
+        {
+          "content": "Allonger la dur&eacute;e du sprint"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles pratiques favorisent la transparence dans une équipe Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Visualisation claire du travail",
+          "correct": true
+        },
+        {
+          "content": "Communication ouverte des obstacles",
+          "correct": true
+        },
+        {
+          "content": "Rapports d&eacute;taill&eacute;s quotidiens"
+        },
+        {
+          "content": "M&eacute;triques visibles et comprises",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une équipe qui a perdu sa motivation ?"
+      },
+      "options": [
+        {
+          "content": "Identifier les causes profondes et travailler sur des am&eacute;liorations",
+          "correct": true
+        },
+        {
+          "content": "Organiser plus d&#39;activit&eacute;s sociales"
+        },
+        {
+          "content": "Augmenter la pression"
+        },
+        {
+          "content": "Réduire la charge de travail"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les dépendances externes qui bloquent l'équipe ?"
+      },
+      "options": [
+        {
+          "content": "Identifier, suivre et escalader de mani&egrave;re proactive",
+          "correct": true
+        },
+        {
+          "content": "Attendre que les blocages se r&eacute;solvent"
+        },
+        {
+          "content": "Contourner les d&eacute;pendances"
+        },
+        {
+          "content": "Changer les priorit&eacute;s du sprint"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs d'une bonne culture agile dans une organisation ?"
+      },
+      "options": [
+        {
+          "content": "Prise de d&eacute;cision d&eacute;centralis&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Focus sur l&#39;am&eacute;lioration continue",
+          "correct": true
+        },
+        {
+          "content": "Processus rigides et standardis&eacute;s"
+        },
+        {
+          "content": "Collaboration inter-&eacute;quipes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une équipe qui résiste à l'automatisation des tests ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;montrer les b&eacute;n&eacute;fices et accompagner le changement",
+          "correct": true
+        },
+        {
+          "content": "Imposer l&#39;automatisation"
+        },
+        {
+          "content": "Maintenir les tests manuels"
+        },
+        {
+          "content": "Sous-traiter l&#39;automatisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères d'une User Story 'INVEST' ?"
+      },
+      "options": [
+        {
+          "content": "Ind&eacute;pendante",
+          "correct": true
+        },
+        {
+          "content": "N&eacute;gociable",
+          "correct": true
+        },
+        {
+          "content": "Technique"
+        },
+        {
+          "content": "Testable",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une situation où l'équipe technique et les designers ont des conflits réguliers ?"
+      },
+      "options": [
+        {
+          "content": "Organiser des sessions de collaboration et d&#39;alignement r&eacute;guli&egrave;res",
+          "correct": true
+        },
+        {
+          "content": "S&eacute;parer compl&egrave;tement les &eacute;quipes"
+        },
+        {
+          "content": "Laisser le Product Owner arbitrer"
+        },
+        {
+          "content": "Imposer des processus stricts"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d'un bon système de Définition of Ready ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;duction des blocages pendant le sprint",
+          "correct": true
+        },
+        {
+          "content": "Meilleure qualit&eacute; des estimations",
+          "correct": true
+        },
+        {
+          "content": "Documentation exhaustive"
+        },
+        {
+          "content": "Clarification des attentes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter face à une équipe qui veut abandonner les story points ?"
+      },
+      "options": [
+        {
+          "content": "Explorer leurs motivations et discuter des alternatives d&#39;estimation",
+          "correct": true
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Imposer une autre m&eacute;thode"
+        },
+        {
+          "content": "Laisser l&#39;&eacute;quipe sans estimation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer efficacement les imprévus techniques majeurs découverts en cours de sprint ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;valuer l&#39;impact avec l&#39;&eacute;quipe et adapter le sprint si n&eacute;cessaire",
+          "correct": true
+        },
+        {
+          "content": "Continuer le sprint comme pr&eacute;vu"
+        },
+        {
+          "content": "Annuler automatiquement le sprint"
+        },
+        {
+          "content": "Ajouter des ressources"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signes d'une équipe Scrum mature ?"
+      },
+      "options": [
+        {
+          "content": "Auto-organisation efficace",
+          "correct": true
+        },
+        {
+          "content": "Adaptation continue des pratiques",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;pendance au Scrum Master"
+        },
+        {
+          "content": "Collaboration proactive",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour gérer les demandes de maintenance récurrentes ?"
+      },
+      "options": [
+        {
+          "content": "Int&eacute;grer la maintenance dans la capacit&eacute; de l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Cr&eacute;er une &eacute;quipe s&eacute;par&eacute;e"
+        },
+        {
+          "content": "Ignorer les demandes"
+        },
+        {
+          "content": "Faire des sprints d&eacute;di&eacute;s"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments devraient être inclus dans la préparation d'un Sprint Planning ?"
+      },
+      "options": [
+        {
+          "content": "Raffinement du Product Backlog",
+          "correct": true
+        },
+        {
+          "content": "V&eacute;rification de la capacit&eacute; de l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Attribution pr&eacute;alable des t&acirc;ches"
+        },
+        {
+          "content": "Pr&eacute;paration des stories prioritaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une équipe qui passe trop de temps sur l'optimisation technique ?"
+      },
+      "options": [
+        {
+          "content": "Aligner l&#39;effort technique avec la valeur business",
+          "correct": true
+        },
+        {
+          "content": "Interdire l&#39;optimisation"
+        },
+        {
+          "content": "Laisser faire l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Fixer un quota d&#39;optimisation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les conflits de priorité entre plusieurs Product Owners ?"
+      },
+      "options": [
+        {
+          "content": "Faciliter la discussion et l&#39;alignement sur des crit&egrave;res objectifs",
+          "correct": true
+        },
+        {
+          "content": "Laisser l&#39;&eacute;quipe choisir"
+        },
+        {
+          "content": "Suivre le plus ancien PO"
+        },
+        {
+          "content": "Escalader &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d'une bonne stratégie de scaling Scrum ?"
+      },
+      "options": [
+        {
+          "content": "Coordination inter-&eacute;quipes efficace",
+          "correct": true
+        },
+        {
+          "content": "Alignement des objectifs",
+          "correct": true
+        },
+        {
+          "content": "Centralisation des d&eacute;cisions"
+        },
+        {
+          "content": "Int&eacute;gration continue",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment traiter une équipe qui ne respecte pas ses engagements sprint après sprint ?"
+      },
+      "options": [
+        {
+          "content": "Analyser les causes racines et mettre en place des am&eacute;liorations",
+          "correct": true
+        },
+        {
+          "content": "Imposer des engagements plus faibles"
+        },
+        {
+          "content": "Mettre en place des p&eacute;nalit&eacute;s"
+        },
+        {
+          "content": "Augmenter le contrôle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signes d'un bon Product Owner ?"
+      },
+      "options": [
+        {
+          "content": "Vision claire du produit",
+          "correct": true
+        },
+        {
+          "content": "Disponibilit&eacute; pour l&#39;&eacute;quipe",
+          "correct": true
+        },
+        {
+          "content": "Contrôle total sur l&#39;&eacute;quipe"
+        },
+        {
+          "content": "Prise de d&eacute;cision rapide",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

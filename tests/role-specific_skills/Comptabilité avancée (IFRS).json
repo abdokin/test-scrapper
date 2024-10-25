@@ -1,0 +1,960 @@
+{
+  "title": "Comptabilité avancée (IFRS)",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances approfondies des candidats en comptabilité selon les normes IFRS, incluant l'écriture comptable, le calcul des ratios financiers et la gestion des pièces comptables.",
+    "level": "advanced",
+    "covered_skills": [
+      "Normes IFRS",
+      "États financiers",
+      "Analyse financière",
+      "Écritures comptables",
+      "Ratios financiers",
+      "Consolidation",
+      "Instruments financiers",
+      "Normes de présentation"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de comptable, analyste financier, contrôleur de gestion ou tout poste nécessitant une expertise en comptabilité IFRS.",
+    "description": "Le test évalue la maîtrise des principes comptables avancés selon les normes IFRS, la capacité à analyser des situations complexes et à appliquer les normes appropriées.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Selon IFRS 15, à quel moment le chiffre d&#39;affaires doit-il être comptabilisé ?"
+      },
+      "options": [
+        {
+          "content": "Lors du transfert du contrôle du bien ou service au client",
+          "correct": true
+        },
+        {
+          "content": "À la signature du contrat"
+        },
+        {
+          "content": "Lors du paiement par le client"
+        },
+        {
+          "content": "À la livraison physique du bien"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Comment doit-on évaluer les stocks selon IAS 2 ?"
+      },
+      "options": [
+        {
+          "content": "Au plus bas du coût et de la valeur nette de réalisation",
+          "correct": true
+        },
+        {
+          "content": "Uniquement au coût d&#39;acquisition"
+        },
+        {
+          "content": "À la valeur de marché"
+        },
+        {
+          "content": "Au coût de remplacement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments font partie des états financiers obligatoires selon les IFRS ?"
+      },
+      "options": [
+        {
+          "content": "Bilan",
+          "correct": true
+        },
+        {
+          "content": "Compte de résultat",
+          "correct": true
+        },
+        {
+          "content": "Tableau des flux de trésorerie",
+          "correct": true
+        },
+        {
+          "content": "Budget prévisionnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d&#39;un actif selon le cadre conceptuel IFRS ?"
+      },
+      "options": [
+        {
+          "content": "Une ressource contrôlée par l&#39;entité résultant d&#39;événements passés et dont des avantages économiques futurs sont attendus",
+          "correct": true
+        },
+        {
+          "content": "Un bien appartenant juridiquement à l&#39;entreprise"
+        },
+        {
+          "content": "Une dépense générant des revenus futurs"
+        },
+        {
+          "content": "Un élément ayant une valeur positive au bilan"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IFRS 16, comment doit être comptabilisé un contrat de location ?"
+      },
+      "options": [
+        {
+          "content": "Un actif au titre du droit d&#39;utilisation et une dette de location",
+          "correct": true
+        },
+        {
+          "content": "Une charge locative uniquement"
+        },
+        {
+          "content": "Un actif incorporel"
+        },
+        {
+          "content": "Une charge payée d&#39;avance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de comptabilisation d&#39;une provision selon IAS 37 ?"
+      },
+      "options": [
+        {
+          "content": "Obligation actuelle résultant d&#39;un événement passé",
+          "correct": true
+        },
+        {
+          "content": "Sortie probable de ressources",
+          "correct": true
+        },
+        {
+          "content": "Montant pouvant être estimé de manière fiable",
+          "correct": true
+        },
+        {
+          "content": "Autorisation préalable de l&#39;administration fiscale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on évaluer une immobilisation corporelle après sa comptabilisation initiale selon IAS 16 ?"
+      },
+      "options": [
+        {
+          "content": "Soit au coût amorti, soit selon le modèle de la réévaluation",
+          "correct": true
+        },
+        {
+          "content": "Uniquement à la juste valeur"
+        },
+        {
+          "content": "Uniquement au coût historique"
+        },
+        {
+          "content": "À la valeur de marché à chaque clôture"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le traitement des coûts d&#39;emprunt selon IAS 23 ?"
+      },
+      "options": [
+        {
+          "content": "Capitalisation obligatoire pour les actifs qualifiés",
+          "correct": true
+        },
+        {
+          "content": "Toujours comptabilisés en charges"
+        },
+        {
+          "content": "Capitalisés uniquement si l&#39;entreprise le souhaite"
+        },
+        {
+          "content": "Comptabilisés en produits différés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent être inclus dans le coût d&#39;acquisition d&#39;une immobilisation ?"
+      },
+      "options": [
+        {
+          "content": "Prix d&#39;achat net des remises",
+          "correct": true
+        },
+        {
+          "content": "Frais de transport et d&#39;installation",
+          "correct": true
+        },
+        {
+          "content": "Coûts de démantèlement estimés",
+          "correct": true
+        },
+        {
+          "content": "Pertes d&#39;exploitation initiales"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IFRS 3, à quelle date doit-on évaluer les actifs acquis lors d&#39;un regroupement d&#39;entreprises ?"
+      },
+      "options": [
+        {
+          "content": "À la date d&#39;acquisition",
+          "correct": true
+        },
+        {
+          "content": "À la date de signature du contrat"
+        },
+        {
+          "content": "À la date de clôture de l&#39;exercice"
+        },
+        {
+          "content": "À la date de paiement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on comptabiliser les subventions publiques selon IAS 20 ?"
+      },
+      "options": [
+        {
+          "content": "En produits différés ou en déduction de l&#39;actif",
+          "correct": true
+        },
+        {
+          "content": "Uniquement en produits immédiats"
+        },
+        {
+          "content": "En capitaux propres directement"
+        },
+        {
+          "content": "En provisions réglementées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les indicateurs de dépréciation selon IAS 36 ?"
+      },
+      "options": [
+        {
+          "content": "Baisse significative de la valeur de marché",
+          "correct": true
+        },
+        {
+          "content": "Changements défavorables de l&#39;environnement technologique",
+          "correct": true
+        },
+        {
+          "content": "Performance économique inférieure aux prévisions",
+          "correct": true
+        },
+        {
+          "content": "Changement de direction de l&#39;entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doivent être évalués les instruments financiers selon IFRS 9 ?"
+      },
+      "options": [
+        {
+          "content": "Selon leur classification basée sur le modèle économique",
+          "correct": true
+        },
+        {
+          "content": "Toujours au coût amorti"
+        },
+        {
+          "content": "Uniquement à la juste valeur"
+        },
+        {
+          "content": "Au plus bas du coût et de la valeur de marché"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IAS 19, comment doit-on comptabiliser les avantages à court terme du personnel ?"
+      },
+      "options": [
+        {
+          "content": "En charges lorsque le service est rendu",
+          "correct": true
+        },
+        {
+          "content": "En provisions à long terme"
+        },
+        {
+          "content": "En charges payées d&#39;avance"
+        },
+        {
+          "content": "En capitaux propres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IAS 12, comment se calcule un impôt différé ?"
+      },
+      "options": [
+        {
+          "content": "En multipliant les différences temporelles par le taux d&#39;impôt applicable",
+          "correct": true
+        },
+        {
+          "content": "En fonction du résultat comptable uniquement"
+        },
+        {
+          "content": "Sur la base des flux de trésorerie futurs"
+        },
+        {
+          "content": "À partir du bénéfice distribuable"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent être présentés dans l&#39;état du résultat global selon IAS 1 ?"
+      },
+      "options": [
+        {
+          "content": "Le chiffre d&#39;affaires",
+          "correct": true
+        },
+        {
+          "content": "Les autres éléments du résultat global",
+          "correct": true
+        },
+        {
+          "content": "Le résultat par action",
+          "correct": true
+        },
+        {
+          "content": "Les dividendes prévisionnels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on convertir les transactions en monnaie étrangère selon IAS 21 ?"
+      },
+      "options": [
+        {
+          "content": "Au cours de change à la date de transaction",
+          "correct": true
+        },
+        {
+          "content": "Au cours moyen de l&#39;année"
+        },
+        {
+          "content": "Au cours de clôture uniquement"
+        },
+        {
+          "content": "Au cours d&#39;ouverture de l&#39;exercice"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de classification d&#39;un actif en tant qu&#39;actif courant ?"
+      },
+      "options": [
+        {
+          "content": "Réalisation attendue dans le cycle normal d&#39;exploitation",
+          "correct": true
+        },
+        {
+          "content": "Détenu à des fins de négociation",
+          "correct": true
+        },
+        {
+          "content": "Réalisation dans les 12 mois après la clôture",
+          "correct": true
+        },
+        {
+          "content": "Utilisé dans la production des immobilisations"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice", 
+        "content": "Quelle est la méthode prescrite par IFRS 2 pour évaluer les paiements fondés sur des actions ?"
+      },
+      "options": [
+        {
+          "content": "La juste valeur à la date d&#39;attribution",
+          "correct": true
+        },
+        {
+          "content": "Le cours de l&#39;action à la date d&#39;exercice"
+        },
+        {
+          "content": "La valeur nominale des actions"
+        },
+        {
+          "content": "Le coût historique des actions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on traiter un changement d&#39;estimation comptable selon IAS 8 ?"
+      },
+      "options": [
+        {
+          "content": "De manière prospective",
+          "correct": true
+        },
+        {
+          "content": "De manière rétrospective"
+        },
+        {
+          "content": "Par les capitaux propres"
+        },
+        {
+          "content": "Par le résultat exceptionnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de reconnaissance d&#39;un actif incorporel selon IAS 38 ?"
+      },
+      "options": [
+        {
+          "content": "Identifiable",
+          "correct": true
+        },
+        {
+          "content": "Contrôlé par l&#39;entité",
+          "correct": true
+        },
+        {
+          "content": "Génération d&#39;avantages économiques futurs probable",
+          "correct": true
+        },
+        {
+          "content": "Durée d&#39;utilité supérieure à 5 ans"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on évaluer les immeubles de placement selon IAS 40 ?"
+      },
+      "options": [
+        {
+          "content": "Au coût ou à la juste valeur",
+          "correct": true
+        },
+        {
+          "content": "Uniquement au coût historique"
+        },
+        {
+          "content": "Uniquement à la valeur de marché"
+        },
+        {
+          "content": "À la valeur d&#39;usage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IFRS 5, quand un actif doit-il être classé comme détenu en vue de la vente ?"
+      },
+      "options": [
+        {
+          "content": "Quand sa valeur sera recouvrée principalement par sa vente plutôt que par son utilisation",
+          "correct": true
+        },
+        {
+          "content": "Dès qu&#39;il n&#39;est plus utilisé"
+        },
+        {
+          "content": "Après 5 ans d&#39;utilisation"
+        },
+        {
+          "content": "Quand sa valeur nette comptable est nulle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IFRS 8, comment une entité doit-elle déterminer ses secteurs opérationnels ?"
+      },
+      "options": [
+        {
+          "content": "Sur la base des rapports utilisés par le principal décideur opérationnel",
+          "correct": true
+        },
+        {
+          "content": "Uniquement par zone géographique"
+        },
+        {
+          "content": "Selon la classification légale"
+        },
+        {
+          "content": "Par type de clients uniquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent être présentés dans le tableau des flux de trésorerie ?"
+      },
+      "options": [
+        {
+          "content": "Flux des activités opérationnelles",
+          "correct": true
+        },
+        {
+          "content": "Flux des activités d&#39;investissement",
+          "correct": true
+        },
+        {
+          "content": "Flux des activités de financement",
+          "correct": true
+        },
+        {
+          "content": "Flux des activités hors exploitation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on comptabiliser les coûts de développement selon IAS 38 ?"
+      },
+      "options": [
+        {
+          "content": "Activation si les critères de capitalisation sont remplis",
+          "correct": true
+        },
+        {
+          "content": "Toujours en charges"
+        },
+        {
+          "content": "Toujours en immobilisations"
+        },
+        {
+          "content": "En charges différées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode requise pour la consolidation des filiales selon IFRS 10 ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;intégration globale",
+          "correct": true
+        },
+        {
+          "content": "La mise en équivalence"
+        },
+        {
+          "content": "L&#39;intégration proportionnelle"
+        },
+        {
+          "content": "La méthode du coût"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels événements postérieurs à la clôture doivent être ajustés dans les états financiers selon IAS 10 ?"
+      },
+      "options": [
+        {
+          "content": "Faillite d&#39;un client confirmant une perte existante",
+          "correct": true
+        },
+        {
+          "content": "Résolution d&#39;un litige confirmant une obligation existante",
+          "correct": true
+        },
+        {
+          "content": "Détermination du coût d&#39;actifs après la date de clôture",
+          "correct": true
+        },
+        {
+          "content": "Décision de restructuration prise après la clôture"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment évaluer la juste valeur selon IFRS 13 ?"
+      },
+      "options": [
+        {
+          "content": "En utilisant le prix qui serait reçu pour vendre un actif sur le marché principal",
+          "correct": true
+        },
+        {
+          "content": "Au coût historique"
+        },
+        {
+          "content": "À la valeur d&#39;utilité"
+        },
+        {
+          "content": "Au coût de remplacement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition d&#39;une entreprise associée selon IAS 28 ?"
+      },
+      "options": [
+        {
+          "content": "Une entité sur laquelle l&#39;investisseur exerce une influence notable",
+          "correct": true
+        },
+        {
+          "content": "Une filiale détenue à plus de 50%"
+        },
+        {
+          "content": "Une entreprise contrôlée conjointement"
+        },
+        {
+          "content": "Une participation minoritaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de reconnaissance d&#39;un passif selon le cadre conceptuel ?"
+      },
+      "options": [
+        {
+          "content": "Obligation actuelle résultant d&#39;événements passés",
+          "correct": true
+        },
+        {
+          "content": "Sortie probable de ressources",
+          "correct": true
+        },
+        {
+          "content": "Montant pouvant être estimé de façon fiable",
+          "correct": true
+        },
+        {
+          "content": "Autorisation préalable des actionnaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on comptabiliser les contrats déficitaires selon IAS 37 ?"
+      },
+      "options": [
+        {
+          "content": "En constituant une provision pour le montant de la perte attendue",
+          "correct": true
+        },
+        {
+          "content": "En charges au fur et à mesure"
+        },
+        {
+          "content": "En charges constatées d&#39;avance"
+        },
+        {
+          "content": "En produits différés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le traitement des écarts de conversion selon IAS 21 ?"
+      },
+      "options": [
+        {
+          "content": "Dans les autres éléments du résultat global",
+          "correct": true
+        },
+        {
+          "content": "Directement en résultat"
+        },
+        {
+          "content": "En réserves de consolidation"
+        },
+        {
+          "content": "En charges financières"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Selon IFRS 17, comment doit-on évaluer initialement un contrat d&#39;assurance ?"
+      },
+      "options": [
+        {
+          "content": "À la somme des flux de trésorerie d&#39;exécution et de la marge de service contractuelle",
+          "correct": true
+        },
+        {
+          "content": "Au montant des primes reçues"
+        },
+        {
+          "content": "À la valeur actualisée des prestations futures"
+        },
+        {
+          "content": "Au coût historique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles informations doivent être fournies concernant les parties liées selon IAS 24 ?"
+      },
+      "options": [
+        {
+          "content": "Nature de la relation",
+          "correct": true
+        },
+        {
+          "content": "Montant des transactions",
+          "correct": true
+        },
+        {
+          "content": "Soldes des comptes",
+          "correct": true
+        },
+        {
+          "content": "Stratégie commerciale future"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment doit-on comptabiliser un goodwill négatif selon IFRS 3 ?"
+      },
+      "options": [
+        {
+          "content": "Immédiatement en résultat",
+          "correct": true
+        },
+        {
+          "content": "En capitaux propres"
+        },
+        {
+          "content": "En produits différés"
+        },
+        {
+          "content": "En diminution des actifs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de décomptabilisation d&#39;un actif financier selon IFRS 9 ?"
+      },
+      "options": [
+        {
+          "content": "Expiration des droits contractuels",
+          "correct": true
+        },
+        {
+          "content": "Transfert des droits de recevoir les flux de trésorerie",
+          "correct": true
+        },
+        {
+          "content": "Transfert substantiel des risques et avantages",
+          "correct": true
+        },
+        {
+          "content": "Changement de direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le traitement des coûts de restructuration selon IAS 37 ?"
+      },
+      "options": [
+        {
+          "content": "Provision si annonce publique détaillée et création d&#39;une attente légitime",
+          "correct": true
+        },
+        {
+          "content": "Toujours en charges immédiates"
+        },
+        {
+          "content": "Capitalisation en immobilisations"
+        },
+        {
+          "content": "Report en charges différées"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment évaluer une obligation au titre des prestations définies selon IAS 19 ?"
+      },
+      "options": [
+        {
+          "content": "Valeur actualisée de l&#39;obligation moins la juste valeur des actifs du régime",
+          "correct": true
+        },
+        {
+          "content": "Montant des cotisations versées"
+        },
+        {
+          "content": "Coût historique des prestations"
+        },
+        {
+          "content": "Valeur nominale des engagements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments font partie du coût des stocks selon IAS 2 ?"
+      },
+      "options": [
+        {
+          "content": "Prix d&#39;achat",
+          "correct": true
+        },
+        {
+          "content": "Coûts de transformation",
+          "correct": true
+        },
+        {
+          "content": "Frais généraux directement attribuables",
+          "correct": true
+        },
+        {
+          "content": "Frais de recherche et développement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment traiter un changement de méthode comptable volontaire selon IAS 8 ?"
+      },
+      "options": [
+        {
+          "content": "Application rétrospective avec retraitement des périodes antérieures",
+          "correct": true
+        },
+        {
+          "content": "Application prospective uniquement"
+        },
+        {
+          "content": "Ajustement sur l&#39;exercice en cours"
+        },
+        {
+          "content": "Impact en résultat exceptionnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la méthode d&#39;évaluation des régimes à cotisations définies selon IAS 19 ?"
+      },
+      "options": [
+        {
+          "content": "Comptabilisation des cotisations en charges lorsqu&#39;elles sont dues",
+          "correct": true
+        },
+        {
+          "content": "Calcul actuariel des engagements"
+        },
+        {
+          "content": "Capitalisation des cotisations"
+        },
+        {
+          "content": "Provision pour l&#39;intégralité des engagements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères de capitalisation des coûts d&#39;emprunt selon IAS 23 ?"
+      },
+      "options": [
+        {
+          "content": "Actif éligible nécessitant une longue période de préparation",
+          "correct": true
+        },
+        {
+          "content": "Coûts d&#39;emprunt directement attribuables",
+          "correct": true
+        },
+        {
+          "content": "Probabilité d&#39;avantages économiques futurs",
+          "correct": true
+        },
+        {
+          "content": "Durée de l&#39;emprunt supérieure à 5 ans"
+        }
+      ]
+    }
+  ]
+}

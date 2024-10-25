@@ -1,0 +1,1033 @@
+{
+  "title": "UX/UI Design",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en conception UX/UI, leur compréhension des principes de design et leur capacité à créer des expériences utilisateur efficaces.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Principes de design UX/UI",
+      "Méthodologie de conception centrée utilisateur",
+      "Prototypage et wireframing",
+      "Architecture de l'information",
+      "Design d'interaction",
+      "Tests d'utilisabilité",
+      "Design responsive",
+      "Accessibilité web"
+    ],
+    "relevancy": "Ce test est idéal pour évaluer les designers UX/UI, les concepteurs d'interfaces et les professionnels du design numérique.",
+    "description": "Le test couvre les aspects essentiels du design UX/UI, de la recherche utilisateur à la conception d'interfaces, en passant par les meilleures pratiques du secteur.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la principale différence entre UX (expérience utilisateur) et UI (interface utilisateur) ?"
+      },
+      "options": [
+        {
+          "content": "L&#039;UX concerne l&#039;expérience globale, tandis que l&#039;UI se concentre sur l&#039;aspect visuel",
+          "correct": true
+        },
+        {
+          "content": "L&#039;UX concerne uniquement la navigation, l&#039;UI concerne tout le reste"
+        },
+        {
+          "content": "L&#039;UI vient avant l&#039;UX dans le processus de conception"
+        },
+        {
+          "content": "L&#039;UX est uniquement pour le mobile, l&#039;UI pour le desktop"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Qu&#039;est-ce qu&#039;un wireframe ?"
+      },
+      "options": [
+        {
+          "content": "Une représentation schématique de l&#039;interface utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Un code HTML final"
+        },
+        {
+          "content": "Une palette de couleurs"
+        },
+        {
+          "content": "Un logo vectoriel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments font partie d&#039;une recherche utilisateur efficace ?"
+      },
+      "options": [
+        {
+          "content": "Entretiens utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Tests d&#039;utilisabilité",
+          "correct": true
+        },
+        {
+          "content": "Analyse des données",
+          "correct": true
+        },
+        {
+          "content": "Choix des couleurs de la marque"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle loi de UX stipule que les utilisateurs passent 20% de leur temps à lire 80% du contenu ?"
+      },
+      "options": [
+        {
+          "content": "La loi de Pareto",
+          "correct": true
+        },
+        {
+          "content": "La loi de Fitts"
+        },
+        {
+          "content": "La loi de Miller"
+        },
+        {
+          "content": "La loi de Hick"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus appropriée pour tester un nouveau design d&#039;application ?"
+      },
+      "options": [
+        {
+          "content": "Test de prototype avec des utilisateurs réels",
+          "correct": true
+        },
+        {
+          "content": "Présentation à l&#039;équipe de direction"
+        },
+        {
+          "content": "Publication directe en production"
+        },
+        {
+          "content": "Analyse par l&#039;équipe marketing"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes fondamentaux du design responsive ?"
+      },
+      "options": [
+        {
+          "content": "Grilles fluides",
+          "correct": true
+        },
+        {
+          "content": "Images flexibles",
+          "correct": true
+        },
+        {
+          "content": "Media queries",
+          "correct": true
+        },
+        {
+          "content": "Animations complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que la loi de Fitts en UX design ?"
+      },
+      "options": [
+        {
+          "content": "Le temps pour atteindre une cible dépend de sa taille et de sa distance",
+          "correct": true
+        },
+        {
+          "content": "Les utilisateurs préfèrent les interfaces colorées"
+        },
+        {
+          "content": "La vitesse de chargement influence la satisfaction"
+        },
+        {
+          "content": "Les menus doivent être horizontaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le rôle principal d&#039;une carte de chaleur (heatmap) ?"
+      },
+      "options": [
+        {
+          "content": "Visualiser les zones d&#039;interaction des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Mesurer la température du serveur"
+        },
+        {
+          "content": "Évaluer la performance du code"
+        },
+        {
+          "content": "Définir la palette de couleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels pour une bonne navigation sur mobile ?"
+      },
+      "options": [
+        {
+          "content": "Boutons suffisamment grands",
+          "correct": true
+        },
+        {
+          "content": "Espacement adéquat entre les éléments",
+          "correct": true
+        },
+        {
+          "content": "Menu hamburger bien visible",
+          "correct": true
+        },
+        {
+          "content": "Animations 3D complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition du terme &#039;affordance&#039; en UX design ?"
+      },
+      "options": [
+        {
+          "content": "La capacité d&#039;un objet à suggérer son utilisation",
+          "correct": true
+        },
+        {
+          "content": "Le temps de chargement d&#039;une page"
+        },
+        {
+          "content": "La taille d&#039;un élément graphique"
+        },
+        {
+          "content": "Le nombre de clics nécessaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les critères d&#039;une bonne accessibilité web ?"
+      },
+      "options": [
+        {
+          "content": "Contraste suffisant des textes",
+          "correct": true
+        },
+        {
+          "content": "Alternative textuelle pour les images",
+          "correct": true
+        },
+        {
+          "content": "Navigation au clavier possible",
+          "correct": true
+        },
+        {
+          "content": "Utilisation exclusive de JavaScript"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce qu&#039;un persona en UX design ?"
+      },
+      "options": [
+        {
+          "content": "Un profil fictif représentant un groupe d&#039;utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Un avatar pour les réseaux sociaux"
+        },
+        {
+          "content": "Une photo de profil"
+        },
+        {
+          "content": "Un logo d&#039;entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel est le principe du &#039;Progressive Enhancement&#039; ?"
+      },
+      "options": [
+        {
+          "content": "Partir d&#039;une base simple et ajouter des fonctionnalités progressivement",
+          "correct": true
+        },
+        {
+          "content": "Commencer par le plus complexe"
+        },
+        {
+          "content": "Ignorer les anciens navigateurs"
+        },
+        {
+          "content": "Utiliser uniquement les dernières technologies"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels outils sont couramment utilisés pour le prototypage UX/UI ?"
+      },
+      "options": [
+        {
+          "content": "Figma",
+          "correct": true
+        },
+        {
+          "content": "Adobe XD",
+          "correct": true
+        },
+        {
+          "content": "Sketch",
+          "correct": true
+        },
+        {
+          "content": "Microsoft Word"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la règle des 8px en design d&#039;interface ?"
+      },
+      "options": [
+        {
+          "content": "Un système d&#039;espacement basé sur des multiples de 8 pixels",
+          "correct": true
+        },
+        {
+          "content": "La taille minimale des boutons"
+        },
+        {
+          "content": "La largeur des bordures"
+        },
+        {
+          "content": "L&#039;épaisseur des traits"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes de la Gestalt les plus utilisés en design ?"
+      },
+      "options": [
+        {
+          "content": "La loi de proximité",
+          "correct": true
+        },
+        {
+          "content": "La loi de similitude",
+          "correct": true
+        },
+        {
+          "content": "La loi de fermeture",
+          "correct": true
+        },
+        {
+          "content": "La loi de gravité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce qu&#039;un test A/B en UX ?"
+      },
+      "options": [
+        {
+          "content": "Une comparaison entre deux versions d&#039;une interface",
+          "correct": true
+        },
+        {
+          "content": "Un test de performance technique"
+        },
+        {
+          "content": "Une évaluation des couleurs"
+        },
+        {
+          "content": "Un audit de sécurité"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les caractéristiques d&#039;une bonne architecture de l&#039;information ?"
+      },
+      "options": [
+        {
+          "content": "Hiérarchie claire",
+          "correct": true
+        },
+        {
+          "content": "Navigation intuitive",
+          "correct": true
+        },
+        {
+          "content": "Catégorisation logique",
+          "correct": true
+        },
+        {
+          "content": "Animations complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la signification du terme &#039;above the fold&#039; ?"
+      },
+      "options": [
+        {
+          "content": "Le contenu visible sans défilement",
+          "correct": true
+        },
+        {
+          "content": "Le menu principal"
+        },
+        {
+          "content": "Le pied de page"
+        },
+        {
+          "content": "La barre de recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d&#039;utiliser une grille en design ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence visuelle",
+          "correct": true
+        },
+        {
+          "content": "Alignement précis",
+          "correct": true
+        },
+        {
+          "content": "Facilité d&#039;adaptation responsive",
+          "correct": true
+        },
+        {
+          "content": "Augmentation du temps de chargement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que le principe de contraste en accessibilité web ?"
+      },
+      "options": [
+        {
+          "content": "Un ratio minimum entre le texte et le fond pour la lisibilité",
+          "correct": true
+        },
+        {
+          "content": "L&#039;utilisation de couleurs vives"
+        },
+        {
+          "content": "La taille des images"
+        },
+        {
+          "content": "L&#039;espacement des paragraphes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est la plus efficace pour la recherche utilisateur qualitative ?"
+      },
+      "options": [
+        {
+          "content": "Les entretiens individuels approfondis",
+          "correct": true
+        },
+        {
+          "content": "Les sondages en ligne"
+        },
+        {
+          "content": "L&#039;analyse des statistiques"
+        },
+        {
+          "content": "Les médias sociaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un système de design ?"
+      },
+      "options": [
+        {
+          "content": "Guide de style",
+          "correct": true
+        },
+        {
+          "content": "Bibliothèque de composants",
+          "correct": true
+        },
+        {
+          "content": "Documentation d&#039;utilisation",
+          "correct": true
+        },
+        {
+          "content": "Code source complet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que le design thinking ?"
+      },
+      "options": [
+        {
+          "content": "Une approche centrée utilisateur pour résoudre les problèmes",
+          "correct": true
+        },
+        {
+          "content": "Une technique de programmation"
+        },
+        {
+          "content": "Un outil de design graphique"
+        },
+        {
+          "content": "Un système de gestion de projet"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes clés du Material Design ?"
+      },
+      "options": [
+        {
+          "content": "Design tactile et intuitif",
+          "correct": true
+        },
+        {
+          "content": "Utilisation significative des espaces",
+          "correct": true
+        },
+        {
+          "content": "Animations fluides et logiques",
+          "correct": true
+        },
+        {
+          "content": "Utilisation exclusive de dégradés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce qu&#039;une micro-interaction en UX design ?"
+      },
+      "options": [
+        {
+          "content": "Une animation ou feedback qui répond à une action utilisateur spécifique",
+          "correct": true
+        },
+        {
+          "content": "Un petit écran d&#039;appareil mobile"
+        },
+        {
+          "content": "Une interaction sur les réseaux sociaux"
+        },
+        {
+          "content": "Un bug mineur dans l&#039;interface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments clés d&#039;un bon onboarding utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Instructions claires et concises",
+          "correct": true
+        },
+        {
+          "content": "Progression par étapes",
+          "correct": true
+        },
+        {
+          "content": "Feedback immédiat",
+          "correct": true
+        },
+        {
+          "content": "Longues explications textuelles"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce qu&#039;un dark pattern ?"
+      },
+      "options": [
+        {
+          "content": "Une technique de design trompeuse pour manipuler l&#039;utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Un thème sombre d&#039;interface"
+        },
+        {
+          "content": "Un bug dans le code"
+        },
+        {
+          "content": "Une fonctionnalité cachée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes de base de la composition visuelle ?"
+      },
+      "options": [
+        {
+          "content": "Équilibre",
+          "correct": true
+        },
+        {
+          "content": "Hiérarchie",
+          "correct": true
+        },
+        {
+          "content": "Rythme",
+          "correct": true
+        },
+        {
+          "content": "Complexité maximale"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la règle du pouce en ergonomie mobile ?"
+      },
+      "options": [
+        {
+          "content": "Placer les éléments importants dans la zone accessible au pouce",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement des interactions tactiles"
+        },
+        {
+          "content": "Masquer la navigation principale"
+        },
+        {
+          "content": "Réduire la taille des boutons"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que la charge cognitive en UX ?"
+      },
+      "options": [
+        {
+          "content": "L&#039;effort mental nécessaire pour utiliser une interface",
+          "correct": true
+        },
+        {
+          "content": "Le temps de chargement d&#039;une page"
+        },
+        {
+          "content": "La quantité d&#039;éléments visuels"
+        },
+        {
+          "content": "Le nombre de clics nécessaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes de la psychologie des couleurs en design ?"
+      },
+      "options": [
+        {
+          "content": "Les couleurs évoquent des émotions spécifiques",
+          "correct": true
+        },
+        {
+          "content": "Le contexte culturel influence la perception des couleurs",
+          "correct": true
+        },
+        {
+          "content": "Les associations de couleurs créent une harmonie visuelle",
+          "correct": true
+        },
+        {
+          "content": "Toutes les couleurs ont le même impact"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que le principe de Modularité en design ?"
+      },
+      "options": [
+        {
+          "content": "La conception d&#039;éléments réutilisables et combinables",
+          "correct": true
+        },
+        {
+          "content": "L&#039;utilisation exclusive de modules externes"
+        },
+        {
+          "content": "La limitation des fonctionnalités"
+        },
+        {
+          "content": "Le développement par modules de code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments font partie d&#039;une bonne stratégie de navigation ?"
+      },
+      "options": [
+        {
+          "content": "Structure logique du menu",
+          "correct": true
+        },
+        {
+          "content": "Fil d&#039;Ariane clair",
+          "correct": true
+        },
+        {
+          "content": "Recherche efficace",
+          "correct": true
+        },
+        {
+          "content": "Animations complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la définition du MVP (Minimum Viable Product) en UX ?"
+      },
+      "options": [
+        {
+          "content": "Version minimale d&#039;un produit permettant de tester des hypothèses",
+          "correct": true
+        },
+        {
+          "content": "Un produit avec un maximum de fonctionnalités"
+        },
+        {
+          "content": "Une maquette finale"
+        },
+        {
+          "content": "Un prototype non fonctionnel"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages d&#039;un design system ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence visuelle à travers les produits",
+          "correct": true
+        },
+        {
+          "content": "Développement plus rapide",
+          "correct": true
+        },
+        {
+          "content": "Maintenance facilitée",
+          "correct": true
+        },
+        {
+          "content": "Complexité accrue du code"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quels sont les principes clés du design d&#039;interface vocale (VUI) ?"
+      },
+      "options": [
+        {
+          "content": "Dialogues naturels et contextuels",
+          "correct": true
+        },
+        {
+          "content": "Interface graphique élaborée"
+        },
+        {
+          "content": "Animations complexes"
+        },
+        {
+          "content": "Menus déroulants"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments caractérisent un bon design émotionnel ?"
+      },
+      "options": [
+        {
+          "content": "Personnalisation de l&#039;expérience",
+          "correct": true
+        },
+        {
+          "content": "Feedback positif",
+          "correct": true
+        },
+        {
+          "content": "Messages empathiques",
+          "correct": true
+        },
+        {
+          "content": "Absence d&#039;interactions"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour la conception de formulaires ?"
+      },
+      "options": [
+        {
+          "content": "Minimiser le nombre de champs requis",
+          "correct": true
+        },
+        {
+          "content": "Demander le maximum d&#039;informations"
+        },
+        {
+          "content": "Utiliser uniquement des menus déroulants"
+        },
+        {
+          "content": "Masquer les labels des champs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments essentiels d&#039;une bonne navigation mobile ?"
+      },
+      "options": [
+        {
+          "content": "Menu hamburger accessible",
+          "correct": true
+        },
+        {
+          "content": "Barre de recherche visible",
+          "correct": true
+        },
+        {
+          "content": "Boutons de taille adaptée",
+          "correct": true
+        },
+        {
+          "content": "Animations complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que l&#039;internationalisation (i18n) en UX ?"
+      },
+      "options": [
+        {
+          "content": "L&#039;adaptation du design aux différentes cultures et langues",
+          "correct": true
+        },
+        {
+          "content": "L&#039;utilisation d&#039;icônes universelles"
+        },
+        {
+          "content": "La traduction automatique"
+        },
+        {
+          "content": "Le support technique international"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la règle des 3 clics en UX ?"
+      },
+      "options": [
+        {
+          "content": "L&#039;utilisateur doit pouvoir accéder à l&#039;information en 3 clics maximum",
+          "correct": true
+        },
+        {
+          "content": "Chaque page doit avoir 3 liens"
+        },
+        {
+          "content": "Le menu doit avoir 3 niveaux"
+        },
+        {
+          "content": "L&#039;interface doit avoir 3 couleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les principes d&#039;un bon design d&#039;icônes ?"
+      },
+      "options": [
+        {
+          "content": "Cohérence visuelle",
+          "correct": true
+        },
+        {
+          "content": "Simplicité et clarté",
+          "correct": true
+        },
+        {
+          "content": "Signification universelle",
+          "correct": true
+        },
+        {
+          "content": "Détails complexes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que le principe de Consistance en UX ?"
+      },
+      "options": [
+        {
+          "content": "Maintenir une cohérence dans les interactions et le design",
+          "correct": true
+        },
+        {
+          "content": "Utiliser uniquement des éléments standards"
+        },
+        {
+          "content": "Copier les concurrents"
+        },
+        {
+          "content": "Changer régulièrement l&#039;interface"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les éléments à considérer lors de la conception d&#039;une page d&#039;erreur 404 ?"
+      },
+      "options": [
+        {
+          "content": "Message clair et rassurant",
+          "correct": true
+        },
+        {
+          "content": "Options de navigation alternatives",
+          "correct": true
+        },
+        {
+          "content": "Ton amical et humain",
+          "correct": true
+        },
+        {
+          "content": "Absence de menu principal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Qu&#039;est-ce que le principe de Progressive Disclosure ?"
+      },
+      "options": [
+        {
+          "content": "Révéler l&#039;information progressivement pour éviter la surcharge",
+          "correct": true
+        },
+        {
+          "content": "Afficher tout le contenu d&#039;un coup"
+        },
+        {
+          "content": "Masquer les fonctionnalités importantes"
+        },
+        {
+          "content": "Supprimer les options avancées"
+        }
+      ]
+    }
+  ]
+}

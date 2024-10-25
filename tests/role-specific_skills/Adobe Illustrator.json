@@ -1,0 +1,1298 @@
+{
+  "title": "Adobe Illustrator",
+  "attributes": {
+    "overview": "Ce test évalue les connaissances techniques et pratiques des candidats sur Adobe Illustrator, ainsi que leur capacité à créer des designs professionnels pour l'impression et le web.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Interface et outils d'Illustrator",
+      "Création et manipulation de formes vectorielles",
+      "Gestion des couleurs et des dégradés",
+      "Typographie et texte",
+      "Calques et organisation",
+      "Effets et styles graphiques",
+      "Préparation pour l'impression",
+      "Export et optimisation web"
+    ],
+    "relevancy": "Ce test est idéal pour évaluer les designers graphiques, les illustrateurs et tout professionnel devant maîtriser Adobe Illustrator dans son travail.",
+    "description": "Le test couvre les fonctionnalités essentielles d'Adobe Illustrator, de l'utilisation des outils de base aux techniques avancées de création vectorielle.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est l&#39;extension de fichier native d&#39;Adobe Illustrator ?"
+      },
+      "options": [
+        {
+          "content": ".ai",
+          "correct": true
+        },
+        {
+          "content": ".psd"
+        },
+        {
+          "content": ".indd"
+        },
+        {
+          "content": ".cdr"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel outil permet de créer des courbes de Bézier dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;outil Plume",
+          "correct": true
+        },
+        {
+          "content": "L&#39;outil Crayon"
+        },
+        {
+          "content": "L&#39;outil Pinceau"
+        },
+        {
+          "content": "L&#39;outil Forme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels formats d&#39;exportation sont adaptés pour le web ?"
+      },
+      "options": [
+        {
+          "content": "SVG",
+          "correct": true
+        },
+        {
+          "content": "PNG",
+          "correct": true
+        },
+        {
+          "content": "JPEG",
+          "correct": true
+        },
+        {
+          "content": "EPS"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel raccourci clavier permet de grouper des objets sélectionnés ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+G (Cmd+G sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+D (Cmd+D sur Mac)"
+        },
+        {
+          "content": "Ctrl+B (Cmd+B sur Mac)"
+        },
+        {
+          "content": "Ctrl+L (Cmd+L sur Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle option permet de créer une copie symétrique d&#39;un objet ?"
+      },
+      "options": [
+        {
+          "content": "Effet de miroir (Réflexion)",
+          "correct": true
+        },
+        {
+          "content": "Rotation 180°"
+        },
+        {
+          "content": "Symétrie axiale"
+        },
+        {
+          "content": "Transformation manuelle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages du format vectoriel dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Mise à l&#39;échelle sans perte de qualité",
+          "correct": true
+        },
+        {
+          "content": "Taille de fichier réduite",
+          "correct": true
+        },
+        {
+          "content": "Modification pixel par pixel"
+        },
+        {
+          "content": "Édition facile des formes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un dégradé de couleur entre deux objets ?"
+      },
+      "options": [
+        {
+          "content": "Outil Dégradé de formes",
+          "correct": true
+        },
+        {
+          "content": "Outil Fusion"
+        },
+        {
+          "content": "Outil Dégradé"
+        },
+        {
+          "content": "Outil Mélangeur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de convertir du texte en contours ?"
+      },
+      "options": [
+        {
+          "content": "Créer des contours",
+          "correct": true
+        },
+        {
+          "content": "Vectoriser"
+        },
+        {
+          "content": "Convertir en forme"
+        },
+        {
+          "content": "Décomposer"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels paramètres sont importants lors de la préparation d&#39;un fichier pour l&#39;impression ?"
+      },
+      "options": [
+        {
+          "content": "Mode CMJN",
+          "correct": true
+        },
+        {
+          "content": "Fond perdu",
+          "correct": true
+        },
+        {
+          "content": "Résolution 72 dpi"
+        },
+        {
+          "content": "Incorporation des polices",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil permet de créer des formes personnalisées à partir de plusieurs objets ?"
+      },
+      "options": [
+        {
+          "content": "Le Pathfinder",
+          "correct": true
+        },
+        {
+          "content": "L&#39;outil Forme"
+        },
+        {
+          "content": "L&#39;outil Transformation"
+        },
+        {
+          "content": "L&#39;outil Rotation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on les points qui définissent une courbe dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Points d&#39;ancrage",
+          "correct": true
+        },
+        {
+          "content": "Points de contrôle"
+        },
+        {
+          "content": "Points directeurs"
+        },
+        {
+          "content": "Points de jonction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles options sont disponibles pour aligner des objets ?"
+      },
+      "options": [
+        {
+          "content": "Alignement sur la sélection",
+          "correct": true
+        },
+        {
+          "content": "Alignement sur le plan de travail",
+          "correct": true
+        },
+        {
+          "content": "Alignement sur les guides",
+          "correct": true
+        },
+        {
+          "content": "Alignement sur la grille"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer plusieurs copies d&#39;un objet en motif ?"
+      },
+      "options": [
+        {
+          "content": "Transformation répartie",
+          "correct": true
+        },
+        {
+          "content": "Duplication multiple"
+        },
+        {
+          "content": "Copie en série"
+        },
+        {
+          "content": "Répétition circulaire"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment appelle-t-on l&#39;espace de travail principal dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Plan de travail",
+          "correct": true
+        },
+        {
+          "content": "Canvas"
+        },
+        {
+          "content": "Artboard"
+        },
+        {
+          "content": "Zone de dessin"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes de fusion les plus couramment utilisés ?"
+      },
+      "options": [
+        {
+          "content": "Produit",
+          "correct": true
+        },
+        {
+          "content": "Superposition",
+          "correct": true
+        },
+        {
+          "content": "Densité linéaire+"
+        },
+        {
+          "content": "Normal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil permet de créer des dégradés de couleur ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;outil Dégradé",
+          "correct": true
+        },
+        {
+          "content": "L&#39;outil Peinture"
+        },
+        {
+          "content": "L&#39;outil Nuances"
+        },
+        {
+          "content": "L&#39;outil Mélange"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de maintenir les proportions lors d&#39;une mise à l&#39;échelle ?"
+      },
+      "options": [
+        {
+          "content": "Maintenir la touche Maj enfoncée",
+          "correct": true
+        },
+        {
+          "content": "Maintenir la touche Alt enfoncée"
+        },
+        {
+          "content": "Maintenir la touche Ctrl enfoncée"
+        },
+        {
+          "content": "Maintenir la touche Tab enfoncée"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels types de guides sont disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Guides statiques",
+          "correct": true
+        },
+        {
+          "content": "Guides intelligents",
+          "correct": true
+        },
+        {
+          "content": "Guides de perspective",
+          "correct": true
+        },
+        {
+          "content": "Guides magnétiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle commande permet de fusionner plusieurs tracés en un seul ?"
+      },
+      "options": [
+        {
+          "content": "Pathfinder - Addition",
+          "correct": true
+        },
+        {
+          "content": "Combiner les tracés"
+        },
+        {
+          "content": "Fusionner les formes"
+        },
+        {
+          "content": "Joindre les tracés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les formats de couleur supportés par Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "CMJN",
+          "correct": true
+        },
+        {
+          "content": "RVB",
+          "correct": true
+        },
+        {
+          "content": "Pantone",
+          "correct": true
+        },
+        {
+          "content": "HSL",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un masque d&#39;écrêtage ?"
+      },
+      "options": [
+        {
+          "content": "Clic droit > Créer un masque d&#39;écrêtage",
+          "correct": true
+        },
+        {
+          "content": "Effet > Masque"
+        },
+        {
+          "content": "Objet > Masquer"
+        },
+        {
+          "content": "Filtre > Masque d&#39;écrêtage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la résolution recommandée pour les images destinées au web ?"
+      },
+      "options": [
+        {
+          "content": "72 ppp",
+          "correct": true
+        },
+        {
+          "content": "150 ppp"
+        },
+        {
+          "content": "300 ppp"
+        },
+        {
+          "content": "600 ppp"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour la gestion des contours ?"
+      },
+      "options": [
+        {
+          "content": "Épaisseur du contour",
+          "correct": true
+        },
+        {
+          "content": "Style des extrémités",
+          "correct": true
+        },
+        {
+          "content": "Alignement du contour",
+          "correct": true
+        },
+        {
+          "content": "Type de jonction",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel panneau permet de gérer les styles graphiques ?"
+      },
+      "options": [
+        {
+          "content": "Panneau Styles graphiques",
+          "correct": true
+        },
+        {
+          "content": "Panneau Apparence"
+        },
+        {
+          "content": "Panneau Styles"
+        },
+        {
+          "content": "Panneau Effets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de symboles disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Symboles graphiques",
+          "correct": true
+        },
+        {
+          "content": "Symboles dynamiques",
+          "correct": true
+        },
+        {
+          "content": "Symboles animés"
+        },
+        {
+          "content": "Symboles de film",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle fonction permet de créer des variations de couleur harmonieuses ?"
+      },
+      "options": [
+        {
+          "content": "Guide des couleurs",
+          "correct": true
+        },
+        {
+          "content": "Harmonie colorée"
+        },
+        {
+          "content": "Palette de couleurs"
+        },
+        {
+          "content": "Nuancier dynamique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder aux options avancées de vectorisation d&#39;image ?"
+      },
+      "options": [
+        {
+          "content": "Fenêtre > Vectorisation de l&#39;image",
+          "correct": true
+        },
+        {
+          "content": "Objet > Vectoriser"
+        },
+        {
+          "content": "Filtre > Vectorisation"
+        },
+        {
+          "content": "Effet > Conversion vectorielle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types d&#39;effets disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Effets vectoriels",
+          "correct": true
+        },
+        {
+          "content": "Effets pixellisés",
+          "correct": true
+        },
+        {
+          "content": "Effets 3D",
+          "correct": true
+        },
+        {
+          "content": "Effets temporels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction du panneau Pathfinder ?"
+      },
+      "options": [
+        {
+          "content": "Combiner des formes vectorielles",
+          "correct": true
+        },
+        {
+          "content": "Rechercher des fichiers"
+        },
+        {
+          "content": "Gérer les calques"
+        },
+        {
+          "content": "Organiser les couleurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un nouveau plan de travail ?"
+      },
+      "options": [
+        {
+          "content": "Outil Plan de travail + Glisser",
+          "correct": true
+        },
+        {
+          "content": "Fichier > Nouveau plan"
+        },
+        {
+          "content": "Ctrl+N"
+        },
+        {
+          "content": "Menu contextuel > Nouveau plan"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options d&#39;exportation pour le web ?"
+      },
+      "options": [
+        {
+          "content": "Exporter pour les écrans",
+          "correct": true
+        },
+        {
+          "content": "Enregistrer pour le web",
+          "correct": true
+        },
+        {
+          "content": "Exportation rapide",
+          "correct": true
+        },
+        {
+          "content": "Export web optimisé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel outil permet de créer des grilles de perspective ?"
+      },
+      "options": [
+        {
+          "content": "Outil Grille de perspective",
+          "correct": true
+        },
+        {
+          "content": "Outil Perspective"
+        },
+        {
+          "content": "Outil 3D"
+        },
+        {
+          "content": "Outil Grille"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de pinceaux disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Pinceau calligraphique",
+          "correct": true
+        },
+        {
+          "content": "Pinceau artistique",
+          "correct": true
+        },
+        {
+          "content": "Pinceau à motif",
+          "correct": true
+        },
+        {
+          "content": "Pinceau de soies",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle combinaison de touches permet de verrouiller un objet ?"
+      },
+      "options": [
+        {
+          "content": "Ctrl+2 (Cmd+2 sur Mac)",
+          "correct": true
+        },
+        {
+          "content": "Ctrl+1 (Cmd+1 sur Mac)"
+        },
+        {
+          "content": "Ctrl+L (Cmd+L sur Mac)"
+        },
+        {
+          "content": "Ctrl+K (Cmd+K sur Mac)"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de fusion disponibles dans le Pathfinder ?"
+      },
+      "options": [
+        {
+          "content": "Addition",
+          "correct": true
+        },
+        {
+          "content": "Soustraction",
+          "correct": true
+        },
+        {
+          "content": "Intersection",
+          "correct": true
+        },
+        {
+          "content": "Division",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment activer la grille de pixels dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Affichage > Grille de pixels",
+          "correct": true
+        },
+        {
+          "content": "Fenêtre > Grille"
+        },
+        {
+          "content": "Affichage > Grille"
+        },
+        {
+          "content": "Objet > Grille de pixels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle option permet de créer un objet 3D à partir d&#39;un tracé 2D ?"
+      },
+      "options": [
+        {
+          "content": "Effet > 3D et matériaux",
+          "correct": true
+        },
+        {
+          "content": "Objet > Créer 3D"
+        },
+        {
+          "content": "Filtre > 3D"
+        },
+        {
+          "content": "Effet > Perspective"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments peuvent être enregistrés dans un symbole ?"
+      },
+      "options": [
+        {
+          "content": "Tracés vectoriels",
+          "correct": true
+        },
+        {
+          "content": "Images pixellisées",
+          "correct": true
+        },
+        {
+          "content": "Texte",
+          "correct": true
+        },
+        {
+          "content": "Guides"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l&#39;outil Concepteur de forme ?"
+      },
+      "options": [
+        {
+          "content": "Modifier des formes de manière intuitive",
+          "correct": true
+        },
+        {
+          "content": "Créer des formes géométriques"
+        },
+        {
+          "content": "Dessiner à main levée"
+        },
+        {
+          "content": "Dupliquer des formes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer une couleur globale ?"
+      },
+      "options": [
+        {
+          "content": "Cocher &#39;Global&#39; dans le panneau Nuancier",
+          "correct": true
+        },
+        {
+          "content": "Menu Édition > Couleurs globales"
+        },
+        {
+          "content": "Double-cliquer sur une couleur"
+        },
+        {
+          "content": "Utiliser le panneau Couleur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les avantages des symboles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Réduction de la taille du fichier",
+          "correct": true
+        },
+        {
+          "content": "Modification simultanée des instances",
+          "correct": true
+        },
+        {
+          "content": "Meilleures performances",
+          "correct": true
+        },
+        {
+          "content": "Export automatique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est l&#39;utilité du panneau Alignement ?"
+      },
+      "options": [
+        {
+          "content": "Aligner et répartir des objets",
+          "correct": true
+        },
+        {
+          "content": "Gérer les calques"
+        },
+        {
+          "content": "Organiser les couleurs"
+        },
+        {
+          "content": "Modifier les tracés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les méthodes pour vectoriser du texte ?"
+      },
+      "options": [
+        {
+          "content": "Texte > Vectoriser",
+          "correct": true
+        },
+        {
+          "content": "Objet > Vectoriser",
+          "correct": true
+        },
+        {
+          "content": "Convertir en contours",
+          "correct": true
+        },
+        {
+          "content": "Décomposer le texte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un dégradé de formes entre deux objets différents ?"
+      },
+      "options": [
+        {
+          "content": "Objet > Dégradé de formes > Créer",
+          "correct": true
+        },
+        {
+          "content": "Effet > Dégradé"
+        },
+        {
+          "content": "Filtre > Transition"
+        },
+        {
+          "content": "Objet > Fusion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l&#39;outil Filet ?"
+      },
+      "options": [
+        {
+          "content": "Créer des dégradés complexes",
+          "correct": true
+        },
+        {
+          "content": "Dessiner des grilles"
+        },
+        {
+          "content": "Créer des motifs"
+        },
+        {
+          "content": "Modifier les tracés"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes de tracé disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Mode dessin normal",
+          "correct": true
+        },
+        {
+          "content": "Mode dessin arrière",
+          "correct": true
+        },
+        {
+          "content": "Mode dessin intérieur",
+          "correct": true
+        },
+        {
+          "content": "Mode dessin centre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder rapidement aux options de transformation ?"
+      },
+      "options": [
+        {
+          "content": "Double-cliquer sur l&#39;outil de transformation",
+          "correct": true
+        },
+        {
+          "content": "Menu Édition > Transformation"
+        },
+        {
+          "content": "Clic droit > Transformer"
+        },
+        {
+          "content": "Fenêtre > Transformation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options disponibles pour l&#39;exportation en SVG ?"
+      },
+      "options": [
+        {
+          "content": "Style : CSS interne",
+          "correct": true
+        },
+        {
+          "content": "Décimales : précision",
+          "correct": true
+        },
+        {
+          "content": "Responsive",
+          "correct": true
+        },
+        {
+          "content": "Minifier",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l&#39;option &#39;Créer des repères&#39; ?"
+      },
+      "options": [
+        {
+          "content": "Convertir des objets en repères",
+          "correct": true
+        },
+        {
+          "content": "Ajouter des marques de découpe"
+        },
+        {
+          "content": "Créer une grille"
+        },
+        {
+          "content": "Définir des marges"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment créer un motif répétitif ?"
+      },
+      "options": [
+        {
+          "content": "Objet > Motif > Créer",
+          "correct": true
+        },
+        {
+          "content": "Effet > Créer motif"
+        },
+        {
+          "content": "Filtre > Motif"
+        },
+        {
+          "content": "Menu contextuel > Motif"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de points d&#39;ancrage dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Points d&#39;angle",
+          "correct": true
+        },
+        {
+          "content": "Points d&#39;inflexion",
+          "correct": true
+        },
+        {
+          "content": "Points directeurs",
+          "correct": true
+        },
+        {
+          "content": "Points de jonction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l&#39;outil Shaper ?"
+      },
+      "options": [
+        {
+          "content": "Dessiner et modifier des formes intuitivement",
+          "correct": true
+        },
+        {
+          "content": "Créer des formes 3D"
+        },
+        {
+          "content": "Dessiner des polygones"
+        },
+        {
+          "content": "Modifier les contours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment accéder aux options de surimpression ?"
+      },
+      "options": [
+        {
+          "content": "Fenêtre > Attributs",
+          "correct": true
+        },
+        {
+          "content": "Objet > Surimpression"
+        },
+        {
+          "content": "Affichage > Aperçu de la surimpression"
+        },
+        {
+          "content": "Effet > Surimpression"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les types de texte disponibles dans Illustrator ?"
+      },
+      "options": [
+        {
+          "content": "Texte de point",
+          "correct": true
+        },
+        {
+          "content": "Texte captif",
+          "correct": true
+        },
+        {
+          "content": "Texte curviligne",
+          "correct": true
+        },
+        {
+          "content": "Texte vertical",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer les plans de travail multiples ?"
+      },
+      "options": [
+        {
+          "content": "Panneau Plans de travail",
+          "correct": true
+        },
+        {
+          "content": "Menu Fenêtre > Plans"
+        },
+        {
+          "content": "Outil Document"
+        },
+        {
+          "content": "Panneau Pages"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles sont les options de fusion des tracés ?"
+      },
+      "options": [
+        {
+          "content": "Former",
+          "correct": true
+        },
+        {
+          "content": "Diviser",
+          "correct": true
+        },
+        {
+          "content": "Pochoir",
+          "correct": true
+        },
+        {
+          "content": "Contour"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la fonction de l&#39;outil Rotation ?"
+      },
+      "options": [
+        {
+          "content": "Faire pivoter des objets autour d&#39;un point",
+          "correct": true
+        },
+        {
+          "content": "Créer des spirales"
+        },
+        {
+          "content": "Déformer des objets"
+        },
+        {
+          "content": "Transformer en cercle"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les modes de fusion les plus utilisés pour les effets créatifs ?"
+      },
+      "options": [
+        {
+          "content": "Multiplier",
+          "correct": true
+        },
+        {
+          "content": "Superposition",
+          "correct": true
+        },
+        {
+          "content": "Incrustation",
+          "correct": true
+        },
+        {
+          "content": "Lumière tamisée",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

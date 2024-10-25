@@ -1,0 +1,1162 @@
+{
+  "title": "Relation client (SaaS)",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en tant que représentants de la réussite client dans un environnement SaaS, en mettant l'accent sur le service client proactif et la résolution efficace des problèmes.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion de la relation client",
+      "Résolution de problèmes",
+      "Communication proactive",
+      "Compréhension des enjeux SaaS",
+      "Fidélisation client",
+      "Analyse des besoins clients",
+      "Gestion des situations difficiles",
+      "Onboarding client"
+    ],
+    "relevancy": "Ce test est pertinent pour les postes de Customer Success Manager, Account Manager, ou tout rôle nécessitant une interaction directe avec les clients dans un environnement SaaS.",
+    "description": "Le test évalue la capacité des candidats à gérer efficacement les relations clients, à résoudre les problèmes de manière proactive et à assurer la satisfaction client dans un contexte SaaS.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Un client vous contacte car il ne parvient pas à se connecter à son compte. Quelle devrait être votre première action ?"
+      },
+      "options": [
+        {
+          "content": "V&eacute;rifier le statut du service et des incidents en cours",
+          "correct": true
+        },
+        {
+          "content": "Lui demander de r&eacute;initialiser son mot de passe"
+        },
+        {
+          "content": "Transf&eacute;rer directement au support technique"
+        },
+        {
+          "content": "Programmer un appel avec le client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont essentiels lors de l'onboarding d'un nouveau client SaaS ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;finir clairement les objectifs du client",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;tablir un plan de formation personnalis&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Configurer les int&eacute;grations n&eacute;cessaires",
+          "correct": true
+        },
+        {
+          "content": "Exiger un engagement contractuel de long terme"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui se plaint de la lenteur du service ?"
+      },
+      "options": [
+        {
+          "content": "Recueillir des informations pr&eacute;cises sur le probl&egrave;me",
+          "correct": true
+        },
+        {
+          "content": "Sugg&eacute;rer imm&eacute;diatement un remboursement"
+        },
+        {
+          "content": "Dire que c'est un probl&egrave;me temporaire"
+        },
+        {
+          "content": "Proposer de changer de forfait"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quel est le meilleur moment pour discuter de l'expansion des services avec un client ?"
+      },
+      "options": [
+        {
+          "content": "Lors d'un bilan positif d'utilisation du service",
+          "correct": true
+        },
+        {
+          "content": "D&egrave;s la fin de l'onboarding"
+        },
+        {
+          "content": "Quand le client signale un probl&egrave;me"
+        },
+        {
+          "content": "À l'approche du renouvellement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un client important menace de résilier son abonnement. Quelle approche privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Organiser rapidement une r&eacute;union pour comprendre ses frustrations",
+          "correct": true
+        },
+        {
+          "content": "Offrir imm&eacute;diatement une remise"
+        },
+        {
+          "content": "Transf&eacute;rer la demande &agrave; la direction"
+        },
+        {
+          "content": "Laisser le client se calmer avant de r&eacute;pondre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels indicateurs sont pertinents pour évaluer la santé d'un compte client SaaS ?"
+      },
+      "options": [
+        {
+          "content": "Fr&eacute;quence d'utilisation du produit",
+          "correct": true
+        },
+        {
+          "content": "Nombre d'utilisateurs actifs",
+          "correct": true
+        },
+        {
+          "content": "Taux de r&eacute;solution des tickets",
+          "correct": true
+        },
+        {
+          "content": "Anciennet&eacute; du compte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle action entreprendre si un client n'utilise pas une fonctionnalité clé du produit ?"
+      },
+      "options": [
+        {
+          "content": "Proposer une session de formation personnalis&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Attendre qu'il pose des questions"
+        },
+        {
+          "content": "Modifier son abonnement"
+        },
+        {
+          "content": "Envoyer uniquement de la documentation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent être inclus dans un plan de succès client ?"
+      },
+      "options": [
+        {
+          "content": "Objectifs mesurables",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;ch&eacute;anciers pr&eacute;cis",
+          "correct": true
+        },
+        {
+          "content": "KPIs personnalis&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Budget marketing du client"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer une demande de fonctionnalité non disponible ?"
+      },
+      "options": [
+        {
+          "content": "Noter la demande et proposer des alternatives existantes",
+          "correct": true
+        },
+        {
+          "content": "Promettre son d&eacute;veloppement rapide"
+        },
+        {
+          "content": "Rediriger vers un concurrent"
+        },
+        {
+          "content": "Ignorer la demande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour communiquer une augmentation de prix ?"
+      },
+      "options": [
+        {
+          "content": "Informer en avance en soulignant la valeur ajout&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Attendre le renouvellement"
+        },
+        {
+          "content": "Modifier sans pr&eacute;venir"
+        },
+        {
+          "content": "L'annoncer uniquement par email"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels signaux indiquent un risque de churn ?"
+      },
+      "options": [
+        {
+          "content": "Baisse significative de l'utilisation",
+          "correct": true
+        },
+        {
+          "content": "Absence aux r&eacute;unions de suivi",
+          "correct": true
+        },
+        {
+          "content": "Augmentation des tickets support",
+          "correct": true
+        },
+        {
+          "content": "Changement de logo entreprise"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle pratique est recommandée pour les réunions de suivi trimestrielles ?"
+      },
+      "options": [
+        {
+          "content": "Pr&eacute;parer un rapport d'utilisation et de ROI",
+          "correct": true
+        },
+        {
+          "content": "Se concentrer sur les nouveaut&eacute;s produit"
+        },
+        {
+          "content": "Laisser le client mener la r&eacute;union"
+        },
+        {
+          "content": "Discuter uniquement des probl&egrave;mes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui demande une fonctionnalité déjà existante ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une d&eacute;monstration personnalis&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Envoyer simplement le lien de la doc"
+        },
+        {
+          "content": "Ignorer la demande"
+        },
+        {
+          "content": "Sugg&eacute;rer une alternative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles actions sont importantes lors d'une escalade client ?"
+      },
+      "options": [
+        {
+          "content": "Documenter pr&eacute;cis&eacute;ment la situation",
+          "correct": true
+        },
+        {
+          "content": "Informer les parties prenantes internes",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;finir un plan d'action clair",
+          "correct": true
+        },
+        {
+          "content": "Blâmer l'&eacute;quipe technique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter face à un bug critique ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer rapidement et maintenir le client inform&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Attendre la r&eacute;solution compl&egrave;te"
+        },
+        {
+          "content": "Minimiser l'importance du probl&egrave;me"
+        },
+        {
+          "content": "Rediriger vers le support niveau 1"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir face à un client qui compare constamment votre solution à celle d'un concurrent ?"
+      },
+      "options": [
+        {
+          "content": "Recentrer la discussion sur ses objectifs sp&eacute;cifiques",
+          "correct": true
+        },
+        {
+          "content": "Critiquer la solution concurrente"
+        },
+        {
+          "content": "Proposer de baisser les prix"
+        },
+        {
+          "content": "Ignorer les comparaisons"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un email de suivi après une réunion client ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;sum&eacute; des points discut&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Prochaines &eacute;tapes clairement d&eacute;finies",
+          "correct": true
+        },
+        {
+          "content": "Dates limites convenues",
+          "correct": true
+        },
+        {
+          "content": "Historique complet du compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les attentes d'un client concernant une nouvelle fonctionnalité ?"
+      },
+      "options": [
+        {
+          "content": "Communiquer clairement le calendrier et les limites",
+          "correct": true
+        },
+        {
+          "content": "Promettre une livraison rapide"
+        },
+        {
+          "content": "Rester vague sur les d&eacute;lais"
+        },
+        {
+          "content": "Rediriger vers l'&eacute;quipe produit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Un client n'a pas répondu depuis plusieurs semaines. Quelle action privilégier ?"
+      },
+      "options": [
+        {
+          "content": "Envoyer un message personnalis&eacute; avec une proposition de valeur",
+          "correct": true
+        },
+        {
+          "content": "Multiplier les relances quotidiennes"
+        },
+        {
+          "content": "Attendre son retour"
+        },
+        {
+          "content": "Transf&eacute;rer &agrave; un autre CSM"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants lors de la création d'un programme de référence client ?"
+      },
+      "options": [
+        {
+          "content": "Crit&egrave;res de s&eacute;lection clairs",
+          "correct": true
+        },
+        {
+          "content": "Processus de validation structur&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Programme de r&eacute;compense adapt&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Obligation de participation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui souhaite réduire son abonnement ?"
+      },
+      "options": [
+        {
+          "content": "Analyser l'utilisation et proposer un plan optimis&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Accepter sans discussion"
+        },
+        {
+          "content": "Imposer des p&eacute;nalit&eacute;s"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles métriques sont importantes pour mesurer votre performance en tant que CSM ?"
+      },
+      "options": [
+        {
+          "content": "Taux de r&eacute;tention des clients",
+          "correct": true
+        },
+        {
+          "content": "Score de satisfaction client",
+          "correct": true
+        },
+        {
+          "content": "Taux d'expansion des comptes",
+          "correct": true
+        },
+        {
+          "content": "Nombre de r&eacute;unions planifi&eacute;es"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter face à un client insatisfait de la dernière mise à jour ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;couter ses retours et proposer des solutions alternatives",
+          "correct": true
+        },
+        {
+          "content": "Revenir &agrave; l'ancienne version"
+        },
+        {
+          "content": "Ignorer les plaintes"
+        },
+        {
+          "content": "Sugg&eacute;rer de changer de solution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment prioriser les demandes de plusieurs clients urgentes ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;valuer l'impact business et la criticit&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Premier arriv&eacute;, premier servi"
+        },
+        {
+          "content": "Selon la taille du compte"
+        },
+        {
+          "content": "Au hasard"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments inclure dans un plan de reprise après un incident majeur ?"
+      },
+      "options": [
+        {
+          "content": "Analyse d&eacute;taill&eacute;e de l'incident",
+          "correct": true
+        },
+        {
+          "content": "Actions correctives mises en place",
+          "correct": true
+        },
+        {
+          "content": "Plan de pr&eacute;vention futur",
+          "correct": true
+        },
+        {
+          "content": "Blame des responsables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour l'onboarding d'une grande entreprise ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;finir un plan par &eacute;tapes avec des objectifs clairs",
+          "correct": true
+        },
+        {
+          "content": "Proc&eacute;der comme pour une petite entreprise"
+        },
+        {
+          "content": "Laisser le client g&eacute;rer seul"
+        },
+        {
+          "content": "D&eacute;l&eacute;guer au support technique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels sont les signaux positifs d'engagement client ?"
+      },
+      "options": [
+        {
+          "content": "Participation active aux webinaires",
+          "correct": true
+        },
+        {
+          "content": "Utilisation croissante des fonctionnalit&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Feedback r&eacute;gulier",
+          "correct": true
+        },
+        {
+          "content": "Nombre de tickets support"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui demande des développements sur mesure ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre le besoin et proposer des solutions existantes",
+          "correct": true
+        },
+        {
+          "content": "Accepter toutes les demandes"
+        },
+        {
+          "content": "Refuser syst&eacute;matiquement"
+        },
+        {
+          "content": "Rediriger vers la concurrence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui demande un accès direct à l'équipe technique ?"
+      },
+      "options": [
+        {
+          "content": "Proposer des r&eacute;unions conjointes structur&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Donner un acc&egrave;s direct permanent"
+        },
+        {
+          "content": "Ignorer la demande"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments doivent figurer dans un rapport d'adoption produit ?"
+      },
+      "options": [
+        {
+          "content": "Taux d'utilisation des fonctionnalit&eacute;s cl&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Progression des KPIs client",
+          "correct": true
+        },
+        {
+          "content": "Points de blocage identifi&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Historique des paiements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle action entreprendre face à un utilisateur influent mécontent ?"
+      },
+      "options": [
+        {
+          "content": "Organiser rapidement une r&eacute;union de r&eacute;solution",
+          "correct": true
+        },
+        {
+          "content": "Attendre que la situation se calme"
+        },
+        {
+          "content": "Le rediriger vers le support"
+        },
+        {
+          "content": "Escalader directement &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans une stratégie de communication de maintenance planifiée ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;lai de pr&eacute;venance suffisant",
+          "correct": true
+        },
+        {
+          "content": "Impact pr&eacute;cis sur le service",
+          "correct": true
+        },
+        {
+          "content": "Dur&eacute;e estim&eacute;e de l'intervention",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;tails techniques complets"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir quand un client demande une fonctionnalité prévue dans la roadmap ?"
+      },
+      "options": [
+        {
+          "content": "Partager le planning pr&eacute;visionnel et proposer des alternatives temporaires",
+          "correct": true
+        },
+        {
+          "content": "Promettre une livraison acc&eacute;l&eacute;r&eacute;e"
+        },
+        {
+          "content": "Nier l'existence du projet"
+        },
+        {
+          "content": "Rediriger vers un concurrent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter pour un client qui sous-utilise les fonctionnalités premium ?"
+      },
+      "options": [
+        {
+          "content": "Organiser un atelier de formation cibl&eacute;",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;duire automatiquement l'abonnement"
+        },
+        {
+          "content": "Ignorer la situation"
+        },
+        {
+          "content": "Supprimer l'acc&egrave;s aux fonctionnalit&eacute;s"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments surveiller pour anticiper les opportunités d'expansion ?"
+      },
+      "options": [
+        {
+          "content": "Croissance de l'utilisation",
+          "correct": true
+        },
+        {
+          "content": "Atteinte des limites du forfait",
+          "correct": true
+        },
+        {
+          "content": "Feedback positif des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Anciennet&eacute; du compte"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui refuse les mises à jour régulières ?"
+      },
+      "options": [
+        {
+          "content": "Expliquer les risques et b&eacute;n&eacute;fices des mises &agrave; jour",
+          "correct": true
+        },
+        {
+          "content": "Forcer les mises &agrave; jour"
+        },
+        {
+          "content": "Laisser le client sur l'ancienne version"
+        },
+        {
+          "content": "R&eacute;silier le contrat"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quelles informations collecter lors d'un appel de qualification client ?"
+      },
+      "options": [
+        {
+          "content": "Objectifs business prioritaires",
+          "correct": true
+        },
+        {
+          "content": "Processus actuels",
+          "correct": true
+        },
+        {
+          "content": "Points de friction",
+          "correct": true
+        },
+        {
+          "content": "D&eacute;tails personnels"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour un client multilingue ?"
+      },
+      "options": [
+        {
+          "content": "Adapter la communication &agrave; chaque r&eacute;gion",
+          "correct": true
+        },
+        {
+          "content": "Communiquer uniquement en anglais"
+        },
+        {
+          "content": "Utiliser un traducteur automatique"
+        },
+        {
+          "content": "Limiter les communications"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments inclure dans une stratégie de gestion des retours clients ?"
+      },
+      "options": [
+        {
+          "content": "Processus de collecte structur&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Syst&egrave;me de priorisation",
+          "correct": true
+        },
+        {
+          "content": "Boucle de feedback",
+          "correct": true
+        },
+        {
+          "content": "R&eacute;compenses syst&eacute;matiques"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir face à une demande de remboursement ?"
+      },
+      "options": [
+        {
+          "content": "Analyser la situation et proposer une solution adapt&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Refuser syst&eacute;matiquement"
+        },
+        {
+          "content": "Accepter sans analyse"
+        },
+        {
+          "content": "Transf&eacute;rer au service juridique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui demande des références clients similaires à son cas d'usage ?"
+      },
+      "options": [
+        {
+          "content": "Proposer des cas clients anonymis&eacute;s pertinents",
+          "correct": true
+        },
+        {
+          "content": "Partager les contacts directs"
+        },
+        {
+          "content": "Refuser cat&eacute;goriquement"
+        },
+        {
+          "content": "Rediriger vers les avis en ligne"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont essentiels dans un plan de communication de crise ?"
+      },
+      "options": [
+        {
+          "content": "Canaux de communication prioritaires",
+          "correct": true
+        },
+        {
+          "content": "Messages pr&eacute;-approuv&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Processus d'escalade",
+          "correct": true
+        },
+        {
+          "content": "Blame des responsables"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche adopter face à une demande d'intégration personnalisée ?"
+      },
+      "options": [
+        {
+          "content": "&Eacute;valuer la faisabilit&eacute; avec l'&eacute;quipe technique",
+          "correct": true
+        },
+        {
+          "content": "Refuser imm&eacute;diatement"
+        },
+        {
+          "content": "Promettre sans analyse"
+        },
+        {
+          "content": "Rediriger vers un concurrent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels indicateurs surveiller pour évaluer la qualité de l'onboarding ?"
+      },
+      "options": [
+        {
+          "content": "Temps jusqu'&agrave; la premi&egrave;re utilisation",
+          "correct": true
+        },
+        {
+          "content": "Taux de compl&eacute;tion des &eacute;tapes cl&eacute;s",
+          "correct": true
+        },
+        {
+          "content": "Satisfaction client initial",
+          "correct": true
+        },
+        {
+          "content": "Nombre de r&eacute;unions planifi&eacute;es"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un conflit entre différents utilisateurs d'un même compte client ?"
+      },
+      "options": [
+        {
+          "content": "Organiser une r&eacute;union de m&eacute;diation avec le sponsor",
+          "correct": true
+        },
+        {
+          "content": "Prendre parti pour un utilisateur"
+        },
+        {
+          "content": "Ignorer le conflit"
+        },
+        {
+          "content": "Supprimer les acc&egrave;s"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure approche pour présenter une nouvelle fonctionnalité majeure ?"
+      },
+      "options": [
+        {
+          "content": "D&eacute;montrer la valeur ajout&eacute;e pour le cas d'usage sp&eacute;cifique",
+          "correct": true
+        },
+        {
+          "content": "Envoyer la documentation technique"
+        },
+        {
+          "content": "Activer sans pr&eacute;venir"
+        },
+        {
+          "content": "Attendre que le client la d&eacute;couvre"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments inclure dans un programme de formation utilisateur ?"
+      },
+      "options": [
+        {
+          "content": "Modules adapt&eacute;s aux diff&eacute;rents profils",
+          "correct": true
+        },
+        {
+          "content": "Exercices pratiques",
+          "correct": true
+        },
+        {
+          "content": "Certification des comp&eacute;tences",
+          "correct": true
+        },
+        {
+          "content": "Historique du produit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment gérer un client qui refuse de payer sa facture ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre la raison et proposer des solutions adapt&eacute;es",
+          "correct": true
+        },
+        {
+          "content": "Couper imm&eacute;diatement l'acc&egrave;s"
+        },
+        {
+          "content": "Ignorer le probl&egrave;me"
+        },
+        {
+          "content": "Menacer de poursuites"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels éléments sont importants dans une stratégie de fidélisation client ?"
+      },
+      "options": [
+        {
+          "content": "Programme d'engagement personnalis&eacute;",
+          "correct": true
+        },
+        {
+          "content": "Suivi r&eacute;gulier des objectifs",
+          "correct": true
+        },
+        {
+          "content": "Reconnaissance des succ&egrave;s",
+          "correct": true
+        },
+        {
+          "content": "Cadeaux co&ucirc;teux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle approche privilégier pour un client qui souhaite changer d'interlocuteur ?"
+      },
+      "options": [
+        {
+          "content": "Comprendre les raisons et organiser une transition structur&eacute;e",
+          "correct": true
+        },
+        {
+          "content": "Refuser le changement"
+        },
+        {
+          "content": "Changer sans analyse"
+        },
+        {
+          "content": "Escalader &agrave; la direction"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "Quels aspects surveiller lors d'une fusion-acquisition chez un client ?"
+      },
+      "options": [
+        {
+          "content": "Changements dans l'&eacute;quipe de direction",
+          "correct": true
+        },
+        {
+          "content": "&Eacute;volution des besoins business",
+          "correct": true
+        },
+        {
+          "content": "Risques de migration vers d'autres solutions",
+          "correct": true
+        },
+        {
+          "content": "Historique des paiements"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment réagir face à un client qui menace de partir sur les réseaux sociaux ?"
+      },
+      "options": [
+        {
+          "content": "R&eacute;pondre rapidement en priv&eacute; pour r&eacute;soudre le probl&egrave;me",
+          "correct": true
+        },
+        {
+          "content": "Ignorer la menace"
+        },
+        {
+          "content": "R&eacute;pondre publiquement"
+        },
+        {
+          "content": "Bloquer le client"
+        }
+      ]
+    }
+  ]
+}

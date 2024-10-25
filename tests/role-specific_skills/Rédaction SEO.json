@@ -1,0 +1,1101 @@
+{
+  "title": "Rédaction SEO",
+  "attributes": {
+    "overview": "Ce test évalue les compétences en rédaction SEO, en mettant l'accent sur l'optimisation du contenu pour les moteurs de recherche, l'utilisation stratégique des mots-clés et la compréhension des meilleures pratiques SEO.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Optimisation des mots-clés",
+      "Rédaction de contenu web optimisé",
+      "Structure des contenus SEO",
+      "Balises meta et structure HTML",
+      "Bonnes pratiques SEO",
+      "Analyse des intentions de recherche",
+      "Stratégie de linking interne",
+      "Optimisation pour le mobile"
+    ],
+    "relevancy": "Ce test est idéal pour recruter des rédacteurs web SEO, des content managers ou des spécialistes du marketing digital.",
+    "description": "Le test évalue la capacité des candidats à créer du contenu optimisé pour les moteurs de recherche tout en maintenant une qualité rédactionnelle élevée.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la longueur idéale recommandée pour une meta description ?"
+      },
+      "options": [
+        {
+          "content": "Entre 150 et 160 caractères",
+          "correct": true
+        },
+        {
+          "content": "Entre 50 et 80 caractères"
+        },
+        {
+          "content": "Entre 200 et 250 caractères"
+        },
+        {
+          "content": "Entre 300 et 320 caractères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "Quelle est la meilleure pratique pour l&#39;utilisation des mots-clés dans un texte SEO ?"
+      },
+      "options": [
+        {
+          "content": "Les intégrer naturellement dans le contenu",
+          "correct": true
+        },
+        {
+          "content": "Les répéter le plus possible"
+        },
+        {
+          "content": "Les mettre uniquement en fin d&#39;article"
+        },
+        {
+          "content": "Les placer uniquement dans les titres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "Quels éléments sont essentiels pour optimiser une page web pour le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Un titre H1 contenant le mot-clé principal",
+          "correct": true
+        },
+        {
+          "content": "Des balises meta title et description optimisées",
+          "correct": true
+        },
+        {
+          "content": "Du contenu de qualité et pertinent",
+          "correct": true
+        },
+        {
+          "content": "Des images en très haute résolution"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle balise HTML est la plus importante pour le référencement d&#39;une page ?"
+      },
+      "options": [
+        {
+          "content": "La balise &lt;title&gt;",
+          "correct": true
+        },
+        {
+          "content": "La balise &lt;header&gt;"
+        },
+        {
+          "content": "La balise &lt;meta&gt;"
+        },
+        {
+          "content": "La balise &lt;body&gt;"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles pratiques sont recommandées pour améliorer le maillage interne d&#39;un site ?"
+      },
+      "options": [
+        {
+          "content": "Créer des liens pertinents entre les articles connexes",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des ancres descriptives",
+          "correct": true
+        },
+        {
+          "content": "Mettre des liens vers toutes les pages sur chaque article",
+          "correct": false
+        },
+        {
+          "content": "Établir une hiérarchie logique des pages",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la fréquence idéale d&#39;utilisation du mot-clé principal dans un article de 1000 mots ?"
+      },
+      "options": [
+        {
+          "content": "Entre 3 et 5 fois",
+          "correct": true
+        },
+        {
+          "content": "Plus de 20 fois"
+        },
+        {
+          "content": "Une seule fois"
+        },
+        {
+          "content": "Entre 15 et 20 fois"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu&#39;est-ce qu&#39;une longue traîne (long tail) en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Une expression de recherche très spécifique",
+          "correct": true
+        },
+        {
+          "content": "Un long article de blog"
+        },
+        {
+          "content": "Une URL très longue"
+        },
+        {
+          "content": "Un temps de chargement lent"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les facteurs qui influencent positivement le SEO mobile ?"
+      },
+      "options": [
+        {
+          "content": "Un design responsive",
+          "correct": true
+        },
+        {
+          "content": "Une vitesse de chargement rapide",
+          "correct": true
+        },
+        {
+          "content": "Des images non optimisées"
+        },
+        {
+          "content": "Des boutons et liens facilement cliquables",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon d&#39;optimiser une image pour le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un attribut alt descriptif et pertinent",
+          "correct": true
+        },
+        {
+          "content": "Utiliser la plus haute résolution possible"
+        },
+        {
+          "content": "Ne pas nommer l&#39;image"
+        },
+        {
+          "content": "Utiliser uniquement des images en PNG"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments contribuent à une bonne structure de contenu SEO ?"
+      },
+      "options": [
+        {
+          "content": "Une hiérarchie claire des titres (H1, H2, H3)",
+          "correct": true
+        },
+        {
+          "content": "Des paragraphes courts et aérés",
+          "correct": true
+        },
+        {
+          "content": "Des blocs de texte sans mise en forme"
+        },
+        {
+          "content": "Des listes à puces quand c&#39;est pertinent",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;importance du temps de lecture d&#39;un article pour le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Il doit être adapté au sujet et à l&#39;intention de recherche",
+          "correct": true
+        },
+        {
+          "content": "Il doit toujours être supérieur à 2000 mots"
+        },
+        {
+          "content": "Il doit être inférieur à 500 mots"
+        },
+        {
+          "content": "La longueur n&#39;a aucune importance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour les liens externes ?"
+      },
+      "options": [
+        {
+          "content": "Lier vers des sources autoritaires",
+          "correct": true
+        },
+        {
+          "content": "Utiliser l&#39;attribut nofollow quand nécessaire",
+          "correct": true
+        },
+        {
+          "content": "Mettre le maximum de liens externes possible"
+        },
+        {
+          "content": "Vérifier régulièrement les liens cassés",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu&#39;est-ce qu&#39;une balise canonical ?"
+      },
+      "options": [
+        {
+          "content": "Une balise indiquant la version principale d&#39;une page",
+          "correct": true
+        },
+        {
+          "content": "Une balise de style CSS"
+        },
+        {
+          "content": "Une balise pour les images"
+        },
+        {
+          "content": "Une balise de navigation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure pratique concernant les URL pour le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des URL courtes et descriptives",
+          "correct": true
+        },
+        {
+          "content": "Inclure autant de mots-clés que possible"
+        },
+        {
+          "content": "Utiliser des caractères spéciaux"
+        },
+        {
+          "content": "Garder les URL générées automatiquement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments font partie d&#39;une stratégie de contenu SEO efficace ?"
+      },
+      "options": [
+        {
+          "content": "L&#39;analyse des intentions de recherche",
+          "correct": true
+        },
+        {
+          "content": "La création de personas",
+          "correct": true
+        },
+        {
+          "content": "L&#39;utilisation exclusive de contenu automatisé"
+        },
+        {
+          "content": "La planification éditoriale",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour optimiser le title d&#39;une page ?"
+      },
+      "options": [
+        {
+          "content": "Placer le mot-clé principal au début",
+          "correct": true
+        },
+        {
+          "content": "Répéter le mot-clé plusieurs fois"
+        },
+        {
+          "content": "Utiliser uniquement des majuscules"
+        },
+        {
+          "content": "Dépasser 70 caractères"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quel est l&#39;impact des balises de titre (H1, H2, H3) sur le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Elles structurent le contenu et aident à la compréhension",
+          "correct": true
+        },
+        {
+          "content": "Elles n&#39;ont aucun impact"
+        },
+        {
+          "content": "Elles ralentissent le chargement"
+        },
+        {
+          "content": "Elles doivent toutes contenir le mot-clé principal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour l&#39;optimisation des images en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Compresser les images",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des noms de fichiers descriptifs",
+          "correct": true
+        },
+        {
+          "content": "Ignorer l&#39;attribut alt"
+        },
+        {
+          "content": "Choisir le format d&#39;image approprié",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu&#39;est-ce que le E-A-T en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Expertise, Autorité, Fiabilité (Trustworthiness)",
+          "correct": true
+        },
+        {
+          "content": "Économie, Analyse, Trafic"
+        },
+        {
+          "content": "Efficacité, Attraction, Temps"
+        },
+        {
+          "content": "Engagement, Audience, Technique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les signaux importants pour le SEO local ?"
+      },
+      "options": [
+        {
+          "content": "Les avis Google My Business",
+          "correct": true
+        },
+        {
+          "content": "La cohérence des informations NAP",
+          "correct": true
+        },
+        {
+          "content": "L&#39;utilisation excessive de mots-clés"
+        },
+        {
+          "content": "L&#39;optimisation pour les recherches locales",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon d&#39;optimiser un texte pour la recherche vocale ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser un langage naturel et conversationnel",
+          "correct": true
+        },
+        {
+          "content": "Remplir le texte de mots-clés"
+        },
+        {
+          "content": "Écrire uniquement en majuscules"
+        },
+        {
+          "content": "Éviter les questions dans le contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments contribuent à la qualité d&#39;un article de blog SEO ?"
+      },
+      "options": [
+        {
+          "content": "Une introduction accrocheuse",
+          "correct": true
+        },
+        {
+          "content": "Des sous-titres pertinents",
+          "correct": true
+        },
+        {
+          "content": "L&#39;absence de formatage"
+        },
+        {
+          "content": "Une conclusion avec call-to-action",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;importance des fragments enrichis (rich snippets) ?"
+      },
+      "options": [
+        {
+          "content": "Ils améliorent la visibilité dans les résultats de recherche",
+          "correct": true
+        },
+        {
+          "content": "Ils ralentissent le site"
+        },
+        {
+          "content": "Ils sont inutiles pour le SEO"
+        },
+        {
+          "content": "Ils diminuent le taux de clic"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser le taux de rebond d&#39;une page ?"
+      },
+      "options": [
+        {
+          "content": "Proposer un contenu pertinent et engageant",
+          "correct": true
+        },
+        {
+          "content": "Bloquer la navigation"
+        },
+        {
+          "content": "Supprimer tous les liens externes"
+        },
+        {
+          "content": "Désactiver le menu principal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour l&#39;écriture de titres SEO ?"
+      },
+      "options": [
+        {
+          "content": "Inclure le mot-clé principal naturellement",
+          "correct": true
+        },
+        {
+          "content": "Être accrocheur et informatif",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des caractères spéciaux excessifs"
+        },
+        {
+          "content": "Respecter une longueur optimale",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Qu&#39;est-ce que le temps de séjour (dwell time) en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Le temps passé sur une page avant de revenir aux résultats",
+          "correct": true
+        },
+        {
+          "content": "Le temps de chargement d&#39;une page"
+        },
+        {
+          "content": "La durée de vie d&#39;un article"
+        },
+        {
+          "content": "Le délai d&#39;indexation"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les bonnes pratiques pour l&#39;optimisation des featured snippets ?"
+      },
+      "options": [
+        {
+          "content": "Répondre directement à la question posée",
+          "correct": true
+        },
+        {
+          "content": "Utiliser des listes et des tableaux",
+          "correct": true
+        },
+        {
+          "content": "Éviter toute structure HTML"
+        },
+        {
+          "content": "Fournir un contenu concis et précis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure pratique pour les liens internes ?"
+      },
+      "options": [
+        {
+          "content": "Créer des liens naturels et pertinents",
+          "correct": true
+        },
+        {
+          "content": "Lier chaque mot à une autre page"
+        },
+        {
+          "content": "Éviter tout lien interne"
+        },
+        {
+          "content": "Utiliser toujours le même texte d&#39;ancrage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser le contenu pour les intentions de recherche ?"
+      },
+      "options": [
+        {
+          "content": "Analyser et répondre aux besoins des utilisateurs",
+          "correct": true
+        },
+        {
+          "content": "Ignorer les intentions de recherche"
+        },
+        {
+          "content": "Créer uniquement du contenu promotionnel"
+        },
+        {
+          "content": "Copier le contenu des concurrents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments sont importants pour le SEO technique ?"
+      },
+      "options": [
+        {
+          "content": "La vitesse de chargement",
+          "correct": true
+        },
+        {
+          "content": "L&#39;adaptation mobile",
+          "correct": true
+        },
+        {
+          "content": "L&#39;utilisation excessive d&#39;images"
+        },
+        {
+          "content": "La structure du sitemap",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;importance des balises meta robots ?"
+      },
+      "options": [
+        {
+          "content": "Elles contrôlent l&#39;indexation des pages",
+          "correct": true
+        },
+        {
+          "content": "Elles améliorent le design"
+        },
+        {
+          "content": "Elles augmentent la vitesse"
+        },
+        {
+          "content": "Elles créent du contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments clés d&#39;une stratégie de contenu pilier ?"
+      },
+      "options": [
+        {
+          "content": "Un contenu exhaustif sur le sujet principal",
+          "correct": true
+        },
+        {
+          "content": "Des articles de cluster liés",
+          "correct": true
+        },
+        {
+          "content": "L&#39;absence de structure"
+        },
+        {
+          "content": "Une hiérarchie de liens cohérente",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser le contenu pour les questions de type &#39;People Also Ask&#39; ?"
+      },
+      "options": [
+        {
+          "content": "Fournir des réponses concises et précises",
+          "correct": true
+        },
+        {
+          "content": "Ignorer les questions fréquentes"
+        },
+        {
+          "content": "Écrire des réponses très longues"
+        },
+        {
+          "content": "Éviter tout format de question-réponse"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les meilleures pratiques pour l&#39;optimisation des images produits ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des noms de fichiers descriptifs",
+          "correct": true
+        },
+        {
+          "content": "Optimiser les attributs alt",
+          "correct": true
+        },
+        {
+          "content": "Ignorer la taille des fichiers"
+        },
+        {
+          "content": "Ajouter des légendes pertinentes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure approche pour mettre à jour un contenu existant ?"
+      },
+      "options": [
+        {
+          "content": "Actualiser les informations tout en préservant l&#39;URL",
+          "correct": true
+        },
+        {
+          "content": "Supprimer et recréer la page"
+        },
+        {
+          "content": "Ignorer les anciens contenus"
+        },
+        {
+          "content": "Dupliquer le contenu sur une nouvelle page"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels facteurs influencent le taux de conversion d&#39;une page ?"
+      },
+      "options": [
+        {
+          "content": "La qualité du contenu",
+          "correct": true
+        },
+        {
+          "content": "La pertinence par rapport à la recherche",
+          "correct": true
+        },
+        {
+          "content": "L&#39;absence de navigation"
+        },
+        {
+          "content": "Les call-to-action efficaces",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment gérer le contenu dupliqué en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des balises canoniques appropriées",
+          "correct": true
+        },
+        {
+          "content": "Ignorer le problème"
+        },
+        {
+          "content": "Multiplier les pages similaires"
+        },
+        {
+          "content": "Supprimer tout le contenu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;importance du balisage schema.org pour le SEO ?"
+      },
+      "options": [
+        {
+          "content": "Il aide les moteurs à mieux comprendre le contenu",
+          "correct": true
+        },
+        {
+          "content": "Il ralentit le site web"
+        },
+        {
+          "content": "Il n&#39;a aucun impact"
+        },
+        {
+          "content": "Il diminue le référencement"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments essentiels d&#39;une conclusion efficace ?"
+      },
+      "options": [
+        {
+          "content": "Un résumé des points clés",
+          "correct": true
+        },
+        {
+          "content": "Un call-to-action pertinent",
+          "correct": true
+        },
+        {
+          "content": "Des informations totalement nouvelles"
+        },
+        {
+          "content": "Une transition vers d&#39;autres contenus liés",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser le contenu pour la recherche mobile ?"
+      },
+      "options": [
+        {
+          "content": "Créer des paragraphes courts et aérés",
+          "correct": true
+        },
+        {
+          "content": "Utiliser de longs blocs de texte"
+        },
+        {
+          "content": "Ignorer la mise en forme"
+        },
+        {
+          "content": "Éviter les sous-titres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les avantages d&#39;une stratégie de contenu evergreen ?"
+      },
+      "options": [
+        {
+          "content": "Un trafic constant dans le temps",
+          "correct": true
+        },
+        {
+          "content": "Moins de mises à jour nécessaires",
+          "correct": true
+        },
+        {
+          "content": "Une pertinence limitée dans le temps"
+        },
+        {
+          "content": "Un meilleur retour sur investissement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est la meilleure façon d&#39;utiliser les synonymes en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Les intégrer naturellement dans le contenu",
+          "correct": true
+        },
+        {
+          "content": "Les répéter excessivement"
+        },
+        {
+          "content": "Les ignorer complètement"
+        },
+        {
+          "content": "Les utiliser uniquement dans les titres"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels éléments contribuent à la crédibilité d&#39;un article ?"
+      },
+      "options": [
+        {
+          "content": "Des sources fiables citées",
+          "correct": true
+        },
+        {
+          "content": "Des données et statistiques récentes",
+          "correct": true
+        },
+        {
+          "content": "L&#39;absence de références"
+        },
+        {
+          "content": "Une expertise démontrée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Comment optimiser une page pour plusieurs mots-clés ?"
+      },
+      "options": [
+        {
+          "content": "Utiliser des variations naturelles et sémantiques",
+          "correct": true
+        },
+        {
+          "content": "Répéter chaque mot-clé plusieurs fois"
+        },
+        {
+          "content": "Créer une liste de mots-clés en fin d&#39;article"
+        },
+        {
+          "content": "Ignorer les mots-clés secondaires"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quelles sont les caractéristiques d&#39;un bon titre SEO ?"
+      },
+      "options": [
+        {
+          "content": "Il contient le mot-clé principal",
+          "correct": true
+        },
+        {
+          "content": "Il est accrocheur pour l&#39;utilisateur",
+          "correct": true
+        },
+        {
+          "content": "Il dépasse 70 caractères"
+        },
+        {
+          "content": "Il répond à l&#39;intention de recherche",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": false,
+        "content": "Quelle est l&#39;importance du fil d&#39;Ariane (breadcrumb) en SEO ?"
+      },
+      "options": [
+        {
+          "content": "Il améliore la navigation et l&#39;indexation",
+          "correct": true
+        },
+        {
+          "content": "Il ralentit le site"
+        },
+        {
+          "content": "Il n&#39;a aucun impact"
+        },
+        {
+          "content": "Il nuit à l&#39;expérience utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": false,
+        "content": "Quels sont les éléments d&#39;une bonne stratégie de netlinking ?"
+      },
+      "options": [
+        {
+          "content": "La qualité des sites sources",
+          "correct": true
+        },
+        {
+          "content": "La pertinence thématique",
+          "correct": true
+        },
+        {
+          "content": "L&#39;achat massif de liens"
+        },
+        {
+          "content": "La diversité des ancres",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
