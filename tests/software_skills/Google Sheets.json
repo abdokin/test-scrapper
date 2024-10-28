@@ -458,30 +458,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
-      },
-      "options": [
-        {
-          "content": "Ligne",
-          "correct": true
-        },
-        {
-          "content": "Aire",
-          "correct": true
-        },
-        {
-          "content": "Radar",
-          "correct": true
-        },
-        {
-          "content": "Bulle",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quelle fonction utiliseriez-vous pour extraire le jour de la semaine d'une date ?"
       },
@@ -629,51 +605,6 @@
         },
         {
           "content": "=TOTAL(plage)"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Comment appelez-vous la fonctionnalité qui permet de créer des règles pour formater automatiquement les cellules en fonction de leur contenu ?"
-      },
-      "options": [
-        {
-          "content": "Mise en forme conditionnelle",
-          "correct": true
-        },
-        {
-          "content": "Formatage intelligent"
-        },
-        {
-          "content": "Style dynamique"
-        },
-        {
-          "content": "Règles de cellules"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
-      },
-      "options": [
-        {
-          "content": "Histogramme",
-          "correct": true
-        },
-        {
-          "content": "Courbe",
-          "correct": true
-        },
-        {
-          "content": "Secteur",
-          "correct": true
-        },
-        {
-          "content": "Nuage de points",
-          "correct": true
         }
       ]
     },

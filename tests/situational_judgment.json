@@ -3347,27 +3347,6 @@
       },
       {
         "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Qu'est-ce que le &quot;greenwashing&quot; ?"
-        },
-        "options": [
-          {
-            "content": "Une technique de nettoyage écologique"
-          },
-          {
-            "content": "Une pratique marketing trompeuse sur l'impact environnemental d'un produit",
-            "correct": true
-          },
-          {
-            "content": "Une méthode de recyclage avancée"
-          },
-          {
-            "content": "Un programme de plantation d'arbres en entreprise"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
           "type": "multiple_response",
           "content": "Quels sont les piliers du développement durable en entreprise ?"
         },

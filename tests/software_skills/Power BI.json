@@ -793,30 +793,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation de Power BI Dataflows ?"
-      },
-      "options": [
-        {
-          "content": "Séparation de la préparation et de la modélisation des données",
-          "correct": true
-        },
-        {
-          "content": "Réutilisation des transformations de données entre les rapports",
-          "correct": true
-        },
-        {
-          "content": "Rafraîchissement automatique des données",
-          "correct": true
-        },
-        {
-          "content": "Création automatique de visualisations",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quelle fonction DAX est utilisée pour calculer le pourcentage du total ?"
       },

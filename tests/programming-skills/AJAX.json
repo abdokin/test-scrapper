@@ -526,344 +526,323 @@
         },
         {
           "content": "Ajouter les en-têtes directement dans l'URL"
-
-        }]
+        }
+      ]
     },
     {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer le cache des requêtes AJAX ?"
-        },
-        "options": [
-          {
-            "content": "Utiliser les en-têtes de cache HTTP appropriés",
-            "correct": true
-          },
-          {
-            "content": "Désactiver complètement le cache"
-          },
-          {
-            "content": "Stocker toutes les réponses dans localStorage"
-          },
-          {
-            "content": "Ajouter un timestamp à chaque requête"
-          }
-        ]
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter un indicateur de chargement pour une requête AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on implémenter un indicateur de chargement pour une requête AJAX ?"
+      "options": [
+        {
+          "content": "Afficher un spinner avant la requête et le cacher dans .then() ou .catch()",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Afficher un spinner avant la requête et le cacher dans .then() ou .catch()",
-            "correct": true
-          },
-          {
-            "content": "Utiliser setTimeout pour afficher un spinner après 5 secondes"
-          },
-          {
-            "content": "Ajouter un paramètre 'loading' à la requête AJAX"
-          },
-          {
-            "content": "Les indicateurs de chargement ne sont pas possibles avec AJAX"
-          }
-        ]
+        {
+          "content": "Utiliser setTimeout pour afficher un spinner après 5 secondes"
+        },
+        {
+          "content": "Ajouter un paramètre 'loading' à la requête AJAX"
+        },
+        {
+          "content": "Les indicateurs de chargement ne sont pas possibles avec AJAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de déboguer les requêtes AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure façon de déboguer les requêtes AJAX ?"
+      "options": [
+        {
+          "content": "Utiliser les outils de développement du navigateur (Network tab)",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Utiliser les outils de développement du navigateur (Network tab)",
-            "correct": true
-          },
-          {
-            "content": "Ajouter des console.log partout dans le code"
-          },
-          {
-            "content": "Utiliser alert() pour afficher les réponses"
-          },
-          {
-            "content": "Désactiver JavaScript et recharger la page"
-          }
-        ]
+        {
+          "content": "Ajouter des console.log partout dans le code"
+        },
+        {
+          "content": "Utiliser alert() pour afficher les réponses"
+        },
+        {
+          "content": "Désactiver JavaScript et recharger la page"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre une requête AJAX synchrone et asynchrone ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la différence entre une requête AJAX synchrone et asynchrone ?"
+      "options": [
+        {
+          "content": "Les requêtes asynchrones ne bloquent pas l'exécution du code",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Les requêtes asynchrones ne bloquent pas l'exécution du code",
-            "correct": true
-          },
-          {
-            "content": "Les requêtes synchrones sont plus rapides"
-          },
-          {
-            "content": "Les requêtes asynchrones ne peuvent pas utiliser de callbacks"
-          },
-          {
-            "content": "Il n'y a pas de différence significative"
-          }
-        ]
+        {
+          "content": "Les requêtes synchrones sont plus rapides"
+        },
+        {
+          "content": "Les requêtes asynchrones ne peuvent pas utiliser de callbacks"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle méthode est utilisée pour sérialiser un formulaire en jQuery pour une requête AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle méthode est utilisée pour sérialiser un formulaire en jQuery pour une requête AJAX ?"
+      "options": [
+        {
+          "content": "$(form).serialize()",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "$(form).serialize()",
-            "correct": true
-          },
-          {
-            "content": "$(form).ajax()"
-          },
-          {
-            "content": "$(form).submit()"
-          },
-          {
-            "content": "$(form).stringify()"
-          }
-        ]
+        {
+          "content": "$(form).ajax()"
+        },
+        {
+          "content": "$(form).submit()"
+        },
+        {
+          "content": "$(form).stringify()"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on gérer les timeouts dans les requêtes fetch ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on gérer les timeouts dans les requêtes fetch ?"
+      "options": [
+        {
+          "content": "En utilisant AbortController avec setTimeout",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "En utilisant AbortController avec setTimeout",
-            "correct": true
-          },
-          {
-            "content": "En ajoutant un paramètre timeout à fetch"
-          },
-          {
-            "content": "En utilisant la méthode fetch.timeout()"
-          },
-          {
-            "content": "Les timeouts ne sont pas possibles avec fetch"
-          }
-        ]
+        {
+          "content": "En ajoutant un paramètre timeout à fetch"
+        },
+        {
+          "content": "En utilisant la méthode fetch.timeout()"
+        },
+        {
+          "content": "Les timeouts ne sont pas possibles avec fetch"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer l'authentification dans les requêtes AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer l'authentification dans les requêtes AJAX ?"
+      "options": [
+        {
+          "content": "Utiliser des tokens JWT dans les en-têtes Authorization",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Utiliser des tokens JWT dans les en-têtes Authorization",
-            "correct": true
-          },
-          {
-            "content": "Envoyer le nom d'utilisateur et le mot de passe dans chaque requête"
-          },
-          {
-            "content": "Utiliser uniquement des cookies de session"
-          },
-          {
-            "content": "Inclure les identifiants dans l'URL de la requête"
-          }
-        ]
+        {
+          "content": "Envoyer le nom d'utilisateur et le mot de passe dans chaque requête"
+        },
+        {
+          "content": "Utiliser uniquement des cookies de session"
+        },
+        {
+          "content": "Inclure les identifiants dans l'URL de la requête"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre .ajax() et .get() en jQuery ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la différence entre .ajax() et .get() en jQuery ?"
+      "options": [
+        {
+          "content": ".ajax() est plus configurable, .get() est un raccourci pour les requêtes GET",
+          "correct": true
         },
-        "options": [
-          {
-            "content": ".ajax() est plus configurable, .get() est un raccourci pour les requêtes GET",
-            "correct": true
-          },
-          {
-            "content": ".get() est plus rapide que .ajax()"
-          },
-          {
-            "content": ".ajax() ne peut pas faire de requêtes GET"
-          },
-          {
-            "content": "Il n'y a pas de différence significative"
-          }
-        ]
+        {
+          "content": ".get() est plus rapide que .ajax()"
+        },
+        {
+          "content": ".ajax() ne peut pas faire de requêtes GET"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une fonctionnalité de recherche en temps réel avec AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on implémenter une fonctionnalité de recherche en temps réel avec AJAX ?"
+      "options": [
+        {
+          "content": "En utilisant un délai (debounce) sur l'événement input",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "En utilisant un délai (debounce) sur l'événement input",
-            "correct": true
-          },
-          {
-            "content": "En envoyant une requête à chaque frappe de clavier"
-          },
-          {
-            "content": "En rechargeant la page à chaque recherche"
-          },
-          {
-            "content": "En utilisant uniquement des requêtes POST pour la recherche"
-          }
-        ]
+        {
+          "content": "En envoyant une requête à chaque frappe de clavier"
+        },
+        {
+          "content": "En rechargeant la page à chaque recherche"
+        },
+        {
+          "content": "En utilisant uniquement des requêtes POST pour la recherche"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les erreurs réseau dans les requêtes AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer les erreurs réseau dans les requêtes AJAX ?"
+      "options": [
+        {
+          "content": "Implémenter une stratégie de retry avec backoff exponentiel",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Implémenter une stratégie de retry avec backoff exponentiel",
-            "correct": true
-          },
-          {
-            "content": "Ignorer les erreurs réseau"
-          },
-          {
-            "content": "Recharger la page en cas d'erreur"
-          },
-          {
-            "content": "Toujours afficher une alerte à l'utilisateur"
-          }
-        ]
+        {
+          "content": "Ignorer les erreurs réseau"
+        },
+        {
+          "content": "Recharger la page en cas d'erreur"
+        },
+        {
+          "content": "Toujours afficher une alerte à l'utilisateur"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on optimiser les performances des requêtes AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on optimiser les performances des requêtes AJAX ?"
+      "options": [
+        {
+          "content": "Minimiser le nombre de requêtes et utiliser le cache efficacement",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Minimiser le nombre de requêtes et utiliser le cache efficacement",
-            "correct": true
-          },
-          {
-            "content": "Toujours utiliser des requêtes synchrones"
-          },
-          {
-            "content": "Désactiver CORS pour toutes les requêtes"
-          },
-          {
-            "content": "Envoyer toutes les données en une seule grande requête"
-          }
-        ]
+        {
+          "content": "Toujours utiliser des requêtes synchrones"
+        },
+        {
+          "content": "Désactiver CORS pour toutes les requêtes"
+        },
+        {
+          "content": "Envoyer toutes les données en une seule grande requête"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la différence entre XMLHttpRequest et ActiveXObject dans le contexte AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la différence entre XMLHttpRequest et ActiveXObject dans le contexte AJAX ?"
+      "options": [
+        {
+          "content": "ActiveXObject était utilisé pour IE ancien, XMLHttpRequest est standard",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "ActiveXObject était utilisé pour IE ancien, XMLHttpRequest est standard",
-            "correct": true
-          },
-          {
-            "content": "XMLHttpRequest est plus rapide qu'ActiveXObject"
-          },
-          {
-            "content": "ActiveXObject supporte plus de types de données"
-          },
-          {
-            "content": "Il n'y a pas de différence significative"
-          }
-        ]
+        {
+          "content": "XMLHttpRequest est plus rapide qu'ActiveXObject"
+        },
+        {
+          "content": "ActiveXObject supporte plus de types de données"
+        },
+        {
+          "content": "Il n'y a pas de différence significative"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter une barre de progression pour un upload de fichier avec AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on implémenter une barre de progression pour un upload de fichier avec AJAX ?"
+      "options": [
+        {
+          "content": "En utilisant l'événement progress de XMLHttpRequest",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "En utilisant l'événement progress de XMLHttpRequest",
-            "correct": true
-          },
-          {
-            "content": "En calculant le temps écoulé depuis le début de l'upload"
-          },
-          {
-            "content": "En demandant périodiquement au serveur le statut de l'upload"
-          },
-          {
-            "content": "Les barres de progression ne sont pas possibles avec AJAX"
-          }
-        ]
+        {
+          "content": "En calculant le temps écoulé depuis le début de l'upload"
+        },
+        {
+          "content": "En demandant périodiquement au serveur le statut de l'upload"
+        },
+        {
+          "content": "Les barres de progression ne sont pas possibles avec AJAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure pratique pour gérer les requêtes AJAX dans une application Single Page Application (SPA) ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer les requêtes AJAX dans une application Single Page Application (SPA) ?"
+      "options": [
+        {
+          "content": "Utiliser un gestionnaire d'état centralisé (ex: Redux)",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Utiliser un gestionnaire d'état centralisé (ex: Redux)",
-            "correct": true
-          },
-          {
-            "content": "Faire toutes les requêtes au chargement initial de la page"
-          },
-          {
-            "content": "Recharger la page pour chaque nouvelle vue"
-          },
-          {
-            "content": "Stocker toutes les données dans localStorage"
-          }
-        ]
+        {
+          "content": "Faire toutes les requêtes au chargement initial de la page"
+        },
+        {
+          "content": "Recharger la page pour chaque nouvelle vue"
+        },
+        {
+          "content": "Stocker toutes les données dans localStorage"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Comment peut-on implémenter le polling avec AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment peut-on implémenter le polling avec AJAX ?"
+      "options": [
+        {
+          "content": "En utilisant setInterval pour envoyer des requêtes périodiques",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "En utilisant setInterval pour envoyer des requêtes périodiques",
-            "correct": true
-          },
-          {
-            "content": "En utilisant WebSockets à la place d'AJAX"
-          },
-          {
-            "content": "En rechargeant la page à intervalles réguliers"
-          },
-          {
-            "content": "Le polling n'est pas possible avec AJAX"
-          }
-        ]
+        {
+          "content": "En utilisant WebSockets à la place d'AJAX"
+        },
+        {
+          "content": "En rechargeant la page à intervalles réguliers"
+        },
+        {
+          "content": "Le polling n'est pas possible avec AJAX"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la meilleure façon de gérer les dépendances entre requêtes AJAX ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure façon de gérer les dépendances entre requêtes AJAX ?"
+      "options": [
+        {
+          "content": "Utiliser des Promesses chainées ou async/await",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Utiliser des Promesses chainées ou async/await",
-            "correct": true
-          },
-          {
-            "content": "Imbriquer les callbacks"
-          },
-          {
-            "content": "Utiliser des variables globales pour partager les données"
-          },
-          {
-            "content": "Faire toutes les requêtes en parallèle et gérer les résultats après"
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "content": "Imbriquer les callbacks"
+        },
+        {
+          "content": "Utiliser des variables globales pour partager les données"
+        },
+        {
+          "content": "Faire toutes les requêtes en parallèle et gérer les résultats après"
+        }
+      ]
+    }
+  ]
+}

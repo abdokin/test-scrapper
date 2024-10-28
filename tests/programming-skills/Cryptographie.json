@@ -524,347 +524,324 @@
           "content": "Compression"
         },
         {
-          "content": "Signature numérique"
+          "content": "Encodage Base64"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme de signature numérique est basé sur les courbes elliptiques ?"
+      },
+      "options": [
+        {
+          "content": "RSA"
         },
         {
+          "content": "DSA"
+        },
+        {
+          "content": "ECDSA",
+          "correct": true
+        },
+        {
+          "content": "ElGamal"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale menace que la cryptographie post-quantique cherche à contrer ?"
+      },
+      "options": [
+        {
+          "content": "Les attaques par force brute classiques"
+        },
+        {
+          "content": "Les attaques par l'homme du milieu"
+        },
+        {
+          "content": "Les ordinateurs quantiques",
+          "correct": true
+        },
+        {
+          "content": "Les réseaux neuronaux"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est utilisé pour établir une clé de session sécurisée dans TLS ?"
+      },
+      "options": [
+        {
+          "content": "AES"
+        },
+        {
+          "content": "RSA"
+        },
+        {
+          "content": "Diffie-Hellman",
+          "correct": true
+        },
+        {
+          "content": "SHA-256"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle propriété d'un système cryptographique garantit que les actions ne peuvent pas être niées par leurs auteurs ?"
+      },
+      "options": [
+        {
+          "content": "Confidentialité"
+        },
+        {
+          "content": "Intégrité"
+        },
+        {
+          "content": "Disponibilité"
+        },
+        {
+          "content": "Non-répudiation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'attaque exploite les faiblesses dans la génération de nombres aléatoires ?"
+      },
+      "options": [
+        {
+          "content": "Attaque par rejeu"
+        },
+        {
+          "content": "Attaque par canal auxiliaire"
+        },
+        {
+          "content": "Attaque par prédiction d'état",
+          "correct": true
+        },
+        {
+          "content": "Attaque par force brute"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique cryptographique permet de prouver la possession d'un secret sans le révéler ?"
+      },
+      "options": [
+        {
           "content": "Chiffrement homomorphe"
-        }]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle technique est utilisée pour améliorer la sécurité du stockage des mots de passe ?"
         },
-        "options": [
-          {
-            "content": "Chiffrement symétrique"
-          },
-          {
-            "content": "Hachage avec sel",
-            "correct": true
-          },
-          {
-            "content": "Compression"
-          },
-          {
-            "content": "Encodage Base64"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel algorithme de signature numérique est basé sur les courbes elliptiques ?"
+        {
+          "content": "Signature en anneau"
         },
-        "options": [
-          {
-            "content": "RSA"
-          },
-          {
-            "content": "DSA"
-          },
-          {
-            "content": "ECDSA",
-            "correct": true
-          },
-          {
-            "content": "ElGamal"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la principale menace que la cryptographie post-quantique cherche à contrer ?"
+        {
+          "content": "Preuve à divulgation nulle de connaissance",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Les attaques par force brute classiques"
-          },
-          {
-            "content": "Les attaques par l'homme du milieu"
-          },
-          {
-            "content": "Les ordinateurs quantiques",
-            "correct": true
-          },
-          {
-            "content": "Les réseaux neuronaux"
-          }
-        ]
+        {
+          "content": "Engagement cryptographique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme de chiffrement symétrique est couramment utilisé dans les réseaux Wi-Fi ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel protocole est utilisé pour établir une clé de session sécurisée dans TLS ?"
+      "options": [
+        {
+          "content": "DES"
         },
-        "options": [
-          {
-            "content": "AES"
-          },
-          {
-            "content": "RSA"
-          },
-          {
-            "content": "Diffie-Hellman",
-            "correct": true
-          },
-          {
-            "content": "SHA-256"
-          }
-        ]
+        {
+          "content": "3DES"
+        },
+        {
+          "content": "AES",
+          "correct": true
+        },
+        {
+          "content": "Blowfish"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre le hachage et le chiffrement ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle propriété d'un système cryptographique garantit que les actions ne peuvent pas être niées par leurs auteurs ?"
+      "options": [
+        {
+          "content": "Le hachage est réversible"
         },
-        "options": [
-          {
-            "content": "Confidentialité"
-          },
-          {
-            "content": "Intégrité"
-          },
-          {
-            "content": "Disponibilité"
-          },
-          {
-            "content": "Non-répudiation",
-            "correct": true
-          }
-        ]
+        {
+          "content": "Le chiffrement est plus rapide"
+        },
+        {
+          "content": "Le hachage produit toujours une sortie de taille fixe",
+          "correct": true
+        },
+        {
+          "content": "Le chiffrement ne nécessite pas de clé"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle technique est utilisée pour protéger contre les attaques par padding oracle ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel type d'attaque exploite les faiblesses dans la génération de nombres aléatoires ?"
+      "options": [
+        {
+          "content": "Augmentation de la taille de la clé"
         },
-        "options": [
-          {
-            "content": "Attaque par rejeu"
-          },
-          {
-            "content": "Attaque par canal auxiliaire"
-          },
-          {
-            "content": "Attaque par prédiction d'état",
-            "correct": true
-          },
-          {
-            "content": "Attaque par force brute"
-          }
-        ]
+        {
+          "content": "Utilisation de modes d'opération authentifiés",
+          "correct": true
+        },
+        {
+          "content": "Changement fréquent des clés"
+        },
+        {
+          "content": "Utilisation exclusive du chiffrement asymétrique"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel protocole est utilisé pour la négociation sécurisée de clés dans IPsec ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle technique cryptographique permet de prouver la possession d'un secret sans le révéler ?"
+      "options": [
+        {
+          "content": "SSL"
         },
-        "options": [
-          {
-            "content": "Chiffrement homomorphe"
-          },
-          {
-            "content": "Signature en anneau"
-          },
-          {
-            "content": "Preuve à divulgation nulle de connaissance",
-            "correct": true
-          },
-          {
-            "content": "Engagement cryptographique"
-          }
-        ]
+        {
+          "content": "TLS"
+        },
+        {
+          "content": "IKE",
+          "correct": true
+        },
+        {
+          "content": "SSH"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale limitation du chiffrement homomorphe ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel algorithme de chiffrement symétrique est couramment utilisé dans les réseaux Wi-Fi ?"
+      "options": [
+        {
+          "content": "Il n'est pas sécurisé"
         },
-        "options": [
-          {
-            "content": "DES"
-          },
-          {
-            "content": "3DES"
-          },
-          {
-            "content": "AES",
-            "correct": true
-          },
-          {
-            "content": "Blowfish"
-          }
-        ]
+        {
+          "content": "Il ne fonctionne qu'avec des petites quantités de données"
+        },
+        {
+          "content": "Il est extrêmement lent par rapport au chiffrement traditionnel",
+          "correct": true
+        },
+        {
+          "content": "Il nécessite des clés très longues"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel type d'attaque exploite les fuites d'information via la consommation d'énergie d'un dispositif ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la principale différence entre le hachage et le chiffrement ?"
+      "options": [
+        {
+          "content": "Attaque par force brute"
         },
-        "options": [
-          {
-            "content": "Le hachage est réversible"
-          },
-          {
-            "content": "Le chiffrement est plus rapide"
-          },
-          {
-            "content": "Le hachage produit toujours une sortie de taille fixe",
-            "correct": true
-          },
-          {
-            "content": "Le chiffrement ne nécessite pas de clé"
-          }
-        ]
+        {
+          "content": "Attaque par canal auxiliaire de puissance",
+          "correct": true
+        },
+        {
+          "content": "Attaque par dictionnaire"
+        },
+        {
+          "content": "Attaque par l'homme du milieu"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle propriété d'une fonction de hachage signifie qu'il est difficile de trouver un message correspondant à un hachage donné ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle technique est utilisée pour protéger contre les attaques par padding oracle ?"
+      "options": [
+        {
+          "content": "Résistance à la première préimage",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Augmentation de la taille de la clé"
-          },
-          {
-            "content": "Utilisation de modes d'opération authentifiés",
-            "correct": true
-          },
-          {
-            "content": "Changement fréquent des clés"
-          },
-          {
-            "content": "Utilisation exclusive du chiffrement asymétrique"
-          }
-        ]
+        {
+          "content": "Résistance à la seconde préimage"
+        },
+        {
+          "content": "Résistance aux collisions"
+        },
+        {
+          "content": "Résistance à l'inversion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quel algorithme de signature numérique est considéré comme post-quantique ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel protocole est utilisé pour la négociation sécurisée de clés dans IPsec ?"
+      "options": [
+        {
+          "content": "RSA"
         },
-        "options": [
-          {
-            "content": "SSL"
-          },
-          {
-            "content": "TLS"
-          },
-          {
-            "content": "IKE",
-            "correct": true
-          },
-          {
-            "content": "SSH"
-          }
-        ]
+        {
+          "content": "DSA"
+        },
+        {
+          "content": "ECDSA"
+        },
+        {
+          "content": "SPHINCS+",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "Quelle est la principale différence entre le chiffrement au repos et le chiffrement en transit ?"
       },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la principale limitation du chiffrement homomorphe ?"
+      "options": [
+        {
+          "content": "Le chiffrement au repos protège les données stockées, le chiffrement en transit protège les données en mouvement",
+          "correct": true
         },
-        "options": [
-          {
-            "content": "Il n'est pas sécurisé"
-          },
-          {
-            "content": "Il ne fonctionne qu'avec des petites quantités de données"
-          },
-          {
-            "content": "Il est extrêmement lent par rapport au chiffrement traditionnel",
-            "correct": true
-          },
-          {
-            "content": "Il nécessite des clés très longues"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel type d'attaque exploite les fuites d'information via la consommation d'énergie d'un dispositif ?"
+        {
+          "content": "Le chiffrement au repos utilise des algorithmes symétriques, le chiffrement en transit des algorithmes asymétriques"
         },
-        "options": [
-          {
-            "content": "Attaque par force brute"
-          },
-          {
-            "content": "Attaque par canal auxiliaire de puissance",
-            "correct": true
-          },
-          {
-            "content": "Attaque par dictionnaire"
-          },
-          {
-            "content": "Attaque par l'homme du milieu"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle propriété d'une fonction de hachage signifie qu'il est difficile de trouver un message correspondant à un hachage donné ?"
+        {
+          "content": "Le chiffrement au repos est plus sécurisé que le chiffrement en transit"
         },
-        "options": [
-          {
-            "content": "Résistance à la première préimage",
-            "correct": true
-          },
-          {
-            "content": "Résistance à la seconde préimage"
-          },
-          {
-            "content": "Résistance aux collisions"
-          },
-          {
-            "content": "Résistance à l'inversion"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quel algorithme de signature numérique est considéré comme post-quantique ?"
-        },
-        "options": [
-          {
-            "content": "RSA"
-          },
-          {
-            "content": "DSA"
-          },
-          {
-            "content": "ECDSA"
-          },
-          {
-            "content": "SPHINCS+",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la principale différence entre le chiffrement au repos et le chiffrement en transit ?"
-        },
-        "options": [
-          {
-            "content": "Le chiffrement au repos protège les données stockées, le chiffrement en transit protège les données en mouvement",
-            "correct": true
-          },
-          {
-            "content": "Le chiffrement au repos utilise des algorithmes symétriques, le chiffrement en transit des algorithmes asymétriques"
-          },
-          {
-            "content": "Le chiffrement au repos est plus sécurisé que le chiffrement en transit"
-          },
-          {
-            "content": "Le chiffrement en transit est toujours basé sur TLS"
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "content": "Le chiffrement en transit est toujours basé sur TLS"
+        }
+      ]
+    }
+  ]
+}

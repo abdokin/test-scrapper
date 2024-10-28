@@ -479,51 +479,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels types de calculs de table sont disponibles dans Tableau ?"
-      },
-      "options": [
-        {
-          "content": "Différence",
-          "correct": true
-        },
-        {
-          "content": "Pourcentage de la différence",
-          "correct": true
-        },
-        {
-          "content": "Pourcentage du total",
-          "correct": true
-        },
-        {
-          "content": "Classement",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle fonctionnalité de Tableau permet de créer des segments de données basés sur des conditions ?"
-      },
-      "options": [
-        {
-          "content": "Ensembles",
-          "correct": true
-        },
-        {
-          "content": "Groupes"
-        },
-        {
-          "content": "Filtres"
-        },
-        {
-          "content": "Hiérarchies"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quel type de graphique est le plus approprié pour montrer l'évolution d'une variable au fil du temps ?"
       },
@@ -540,48 +495,6 @@
         },
         {
           "content": "Nuage de points"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
-      },
-      "options": [
-        {
-          "content": "Actions",
-          "correct": true
-        },
-        {
-          "content": "Filtres"
-        },
-        {
-          "content": "Paramètres"
-        },
-        {
-          "content": "Calculs"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
-      },
-      "options": [
-        {
-          "content": "Actions",
-          "correct": true
-        },
-        {
-          "content": "Filtres"
-        },
-        {
-          "content": "Paramètres"
-        },
-        {
-          "content": "Calculs"
         }
       ]
     },

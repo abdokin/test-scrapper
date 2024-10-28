@@ -531,30 +531,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels sont les avantages de l'utilisation de SAP Ariba pour la gestion des contrats ?"
-      },
-      "options": [
-        {
-          "content": "Réduction des risques contractuels",
-          "correct": true
-        },
-        {
-          "content": "Amélioration de la conformité",
-          "correct": true
-        },
-        {
-          "content": "Automatisation de la production",
-          "correct": false
-        },
-        {
-          "content": "Optimisation des processus de négociation",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quelle fonctionnalité de SAP Ariba permet de gérer les processus de paiement des fournisseurs ?"
       },

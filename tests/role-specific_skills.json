@@ -5386,27 +5386,6 @@
       {
         "question_attributes": {
           "type": "multiple_choice",
-          "content": "Comment prioriser les demandes de plusieurs clients urgentes ?"
-        },
-        "options": [
-          {
-            "content": "En fonction de l&#39;impact business et de la criticité",
-            "correct": true
-          },
-          {
-            "content": "Par ordre d&#39;arrivée des demandes"
-          },
-          {
-            "content": "Selon la taille du compte client"
-          },
-          {
-            "content": "En fonction de l&#39;ancienneté du client"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
           "content": "Quelle approche est la plus efficace pour mesurer la satisfaction client ?"
         },
         "options": [
@@ -13108,29 +13087,6 @@
           },
           {
             "content": "Rediriger vers les avis en ligne"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels éléments sont essentiels dans un plan de communication de crise ?"
-        },
-        "options": [
-          {
-            "content": "Canaux de communication prioritaires",
-            "correct": true
-          },
-          {
-            "content": "Messages pr&eacute;-approuv&eacute;s",
-            "correct": true
-          },
-          {
-            "content": "Processus d'escalade",
-            "correct": true
-          },
-          {
-            "content": "Blame des responsables"
           }
         ]
       },

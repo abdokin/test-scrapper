@@ -60,8 +60,25 @@ const schema = zod.array(
                 }
             }
         }),
-    )
-        
+        ).superRefine((data, ctx) => {
+            // ensure questions are unique
+            const questions = data.map(question => question.question_attributes.content).flat();
+            const questionSet = new Set();
+            const duplicates = new Set();
+            questions.forEach(question => {
+                if (questionSet.has(question)) {
+                    duplicates.add(question);
+                } else {
+                    questionSet.add(question);
+                }
+            });
+            if (duplicates.size > 0) {
+                ctx.addIssue({
+                    message: `Questions must be unique. Duplicates found: ${Array.from(duplicates).join(', ')}`,
+                    code: 'invalid_questions',
+                });
+            }
+        })
     })
 )
 console.log('Validating schema for', fileName);

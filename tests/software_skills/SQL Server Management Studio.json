@@ -781,28 +781,6 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": false,
-        "content": "Quelle fonctionnalité de SSMS permet de générer des scripts pour les objets de base de données ?"
-      },
-      "options": [
-        {
-          "content": "Tâches > Générer des scripts",
-          "correct": true
-        },
-        {
-          "content": "Exportateur de scripts"
-        },
-        {
-          "content": "Générateur de code SQL"
-        },
-        {
-          "content": "Assistant de script"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": false,
         "content": "Quel outil dans SSMS est utilisé pour analyser et optimiser les requêtes SQL ?"
       },
       "options": [

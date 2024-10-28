@@ -786,33 +786,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels sont les types de tableaux de bord disponibles dans Salesforce ?"
-      },
-      "options": [
-        {
-          "content": "Tableaux de bord privés",
-          "correct": true
-        },
-        {
-          "content": "Tableaux de bord publics",
-          "correct": true
-        },
-        {
-          "content": "Tableaux de bord dynamiques",
-          "correct": true
-        },
-        {
-          "content": "Tableaux de bord avec abonnement",
-          "correct": true
-        },
-        {
-          "content": "Tableaux de bord en temps réel"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quelle fonctionnalité Salesforce permet de gérer les processus de vente ?"
       },

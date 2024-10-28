@@ -597,27 +597,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour gérer les formulaires complexes dans Vue.js ?"
-      },
-      "options": [
-        {
-          "content": "Utiliser vee-validate ou une bibliothèque similaire",
-          "correct": true
-        },
-        {
-          "content": "Implémenter toute la logique de validation manuellement"
-        },
-        {
-          "content": "Utiliser uniquement des validations côté serveur"
-        },
-        {
-          "content": "Éviter les formulaires complexes dans Vue.js"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Comment peut-on implémenter des transitions entre les routes dans Vue.js ?"
       },
       "options": [

@@ -592,29 +592,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "Quels sont les types de provisioners disponibles dans Terraform ?"
-      },
-      "options": [
-        {
-          "content": "local-exec",
-          "correct": true
-        },
-        {
-          "content": "remote-exec",
-          "correct": true
-        },
-        {
-          "content": "file",
-          "correct": true
-        },
-        {
-          "content": "chef"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "Quelle commande Terraform est utilisée pour importer une ressource existante dans l'état Terraform ?"
       },

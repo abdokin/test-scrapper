@@ -443,24 +443,6 @@
           "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
         },
         {
-          "content": "Un patron qui définit une dépendance un-à-plusieurs entre objets, de sorte que lorsqu'un objet change d'état, tous ses dépendants sont notifiés et mis à jour automatiquement"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Qu'est-ce que le patron de conception Factory Method ?"
-      },
-      "options": [
-        {
-          "content": "Un patron qui définit une interface pour créer un objet, mais laisse aux sous-classes le soin de décider quelle classe instancier",
-          "correct": true
-        },
-        {
-          "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
-        },
-        {
           "content": "Un patron qui sépare un algorithme de la structure d'un objet"
         },
         {

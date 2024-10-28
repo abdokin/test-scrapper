@@ -1429,27 +1429,6 @@
       {
         "question_attributes": {
           "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer le cache des requêtes AJAX ?"
-        },
-        "options": [
-          {
-            "content": "Utiliser les en-têtes de cache HTTP appropriés",
-            "correct": true
-          },
-          {
-            "content": "Désactiver complètement le cache"
-          },
-          {
-            "content": "Stocker toutes les réponses dans localStorage"
-          },
-          {
-            "content": "Ajouter un timestamp à chaque requête"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
           "content": "Comment peut-on implémenter un indicateur de chargement pour une requête AJAX ?"
         },
         "options": [
@@ -8555,30 +8534,6 @@
           },
           {
             "content": "Attaque par l'homme du milieu"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle technique est utilisée pour améliorer la sécurité du stockage des mots de passe ?"
-        },
-        "options": [
-          {
-            "content": "Chiffrement symétrique"
-          },
-          {
-            "content": "Hachage avec sel",
-            "correct": true
-          },
-          {
-            "content": "Compression"
-          },
-          {
-            "content": "Signature numérique"
-          },
-          {
-            "content": "Chiffrement homomorphe"
           }
         ]
       },
@@ -21604,27 +21559,6 @@
       {
         "question_attributes": {
           "type": "multiple_choice",
-          "content": "Qu'est-ce que le patron de conception Factory Method ?"
-        },
-        "options": [
-          {
-            "content": "Un patron qui définit une interface pour créer un objet, mais laisse aux sous-classes le soin de décider quelle classe instancier",
-            "correct": true
-          },
-          {
-            "content": "Un patron qui garantit qu'une classe n'a qu'une seule instance"
-          },
-          {
-            "content": "Un patron qui sépare un algorithme de la structure d'un objet"
-          },
-          {
-            "content": "Un patron qui permet d'ajouter des responsabilités à un objet dynamiquement"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
           "content": "Qu'est-ce que la programmation par contrat en POO ?"
         },
         "options": [
@@ -25037,27 +24971,6 @@
           },
           {
             "content": "L'authentification n'est pas possible dans une SPA Vue.js"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle est la meilleure pratique pour gérer les formulaires complexes dans Vue.js ?"
-        },
-        "options": [
-          {
-            "content": "Utiliser vee-validate ou une bibliothèque similaire",
-            "correct": true
-          },
-          {
-            "content": "Implémenter toute la logique de validation manuellement"
-          },
-          {
-            "content": "Utiliser uniquement des validations côté serveur"
-          },
-          {
-            "content": "Éviter les formulaires complexes dans Vue.js"
           }
         ]
       },

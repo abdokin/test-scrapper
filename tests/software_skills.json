@@ -12825,30 +12825,6 @@
       },
       {
         "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
-        },
-        "options": [
-          {
-            "content": "Ligne",
-            "correct": true
-          },
-          {
-            "content": "Aire",
-            "correct": true
-          },
-          {
-            "content": "Radar",
-            "correct": true
-          },
-          {
-            "content": "Bulle",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question_attributes": {
           "type": "multiple_choice",
           "content": "Quelle fonction utiliseriez-vous pour extraire le jour de la semaine d'une date ?"
         },
@@ -12996,51 +12972,6 @@
           },
           {
             "content": "=TOTAL(plage)"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Comment appelez-vous la fonctionnalité qui permet de créer des règles pour formater automatiquement les cellules en fonction de leur contenu ?"
-        },
-        "options": [
-          {
-            "content": "Mise en forme conditionnelle",
-            "correct": true
-          },
-          {
-            "content": "Formatage intelligent"
-          },
-          {
-            "content": "Style dynamique"
-          },
-          {
-            "content": "Règles de cellules"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels types de graphiques sont disponibles dans Google Sheets ?"
-        },
-        "options": [
-          {
-            "content": "Histogramme",
-            "correct": true
-          },
-          {
-            "content": "Courbe",
-            "correct": true
-          },
-          {
-            "content": "Secteur",
-            "correct": true
-          },
-          {
-            "content": "Nuage de points",
-            "correct": true
           }
         ]
       },
@@ -25830,30 +25761,6 @@
       },
       {
         "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels sont les avantages de l'utilisation de Power BI Dataflows ?"
-        },
-        "options": [
-          {
-            "content": "Séparation de la préparation et de la modélisation des données",
-            "correct": true
-          },
-          {
-            "content": "Réutilisation des transformations de données entre les rapports",
-            "correct": true
-          },
-          {
-            "content": "Rafraîchissement automatique des données",
-            "correct": true
-          },
-          {
-            "content": "Création automatique de visualisations",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question_attributes": {
           "type": "multiple_choice",
           "content": "Quelle fonction DAX est utilisée pour calculer le pourcentage du total ?"
         },
@@ -26550,30 +26457,6 @@
           {
             "content": "Ariba Catalog",
             "correct": false
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels sont les avantages de l'utilisation de SAP Ariba pour la gestion des contrats ?"
-        },
-        "options": [
-          {
-            "content": "Réduction des risques contractuels",
-            "correct": true
-          },
-          {
-            "content": "Amélioration de la conformité",
-            "correct": true
-          },
-          {
-            "content": "Automatisation de la production",
-            "correct": false
-          },
-          {
-            "content": "Optimisation des processus de négociation",
-            "correct": true
           }
         ]
       },
@@ -27746,28 +27629,6 @@
         "question_attributes": {
           "type": "multiple_choice",
           "preview": false,
-          "content": "Quelle fonctionnalité de SSMS permet de générer des scripts pour les objets de base de données ?"
-        },
-        "options": [
-          {
-            "content": "Tâches > Générer des scripts",
-            "correct": true
-          },
-          {
-            "content": "Exportateur de scripts"
-          },
-          {
-            "content": "Générateur de code SQL"
-          },
-          {
-            "content": "Assistant de script"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "preview": false,
           "content": "Quel outil dans SSMS est utilisé pour analyser et optimiser les requêtes SQL ?"
         },
         "options": [
@@ -28665,33 +28526,6 @@
           },
           {
             "content": "Automatiser les processus de déploiement"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels sont les types de tableaux de bord disponibles dans Salesforce ?"
-        },
-        "options": [
-          {
-            "content": "Tableaux de bord privés",
-            "correct": true
-          },
-          {
-            "content": "Tableaux de bord publics",
-            "correct": true
-          },
-          {
-            "content": "Tableaux de bord dynamiques",
-            "correct": true
-          },
-          {
-            "content": "Tableaux de bord avec abonnement",
-            "correct": true
-          },
-          {
-            "content": "Tableaux de bord en temps réel"
           }
         ]
       },
@@ -30212,51 +30046,6 @@
       },
       {
         "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels types de calculs de table sont disponibles dans Tableau ?"
-        },
-        "options": [
-          {
-            "content": "Différence",
-            "correct": true
-          },
-          {
-            "content": "Pourcentage de la différence",
-            "correct": true
-          },
-          {
-            "content": "Pourcentage du total",
-            "correct": true
-          },
-          {
-            "content": "Classement",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle fonctionnalité de Tableau permet de créer des segments de données basés sur des conditions ?"
-        },
-        "options": [
-          {
-            "content": "Ensembles",
-            "correct": true
-          },
-          {
-            "content": "Groupes"
-          },
-          {
-            "content": "Filtres"
-          },
-          {
-            "content": "Hiérarchies"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
           "type": "multiple_choice",
           "content": "Quel type de graphique est le plus approprié pour montrer l'évolution d'une variable au fil du temps ?"
         },
@@ -30273,48 +30062,6 @@
           },
           {
             "content": "Nuage de points"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
-        },
-        "options": [
-          {
-            "content": "Actions",
-            "correct": true
-          },
-          {
-            "content": "Filtres"
-          },
-          {
-            "content": "Paramètres"
-          },
-          {
-            "content": "Calculs"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
-          "content": "Quelle fonctionnalité de Tableau permet de créer des visualisations interactives basées sur des sélections de l'utilisateur ?"
-        },
-        "options": [
-          {
-            "content": "Actions",
-            "correct": true
-          },
-          {
-            "content": "Filtres"
-          },
-          {
-            "content": "Paramètres"
-          },
-          {
-            "content": "Calculs"
           }
         ]
       },
@@ -31260,29 +31007,6 @@
           },
           {
             "content": "output = { \"nom\": expression }"
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_response",
-          "content": "Quels sont les types de provisioners disponibles dans Terraform ?"
-        },
-        "options": [
-          {
-            "content": "local-exec",
-            "correct": true
-          },
-          {
-            "content": "remote-exec",
-            "correct": true
-          },
-          {
-            "content": "file",
-            "correct": true
-          },
-          {
-            "content": "chef"
           }
         ]
       },
