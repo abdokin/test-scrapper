@@ -16,8 +16,8 @@
     "description": "Le test couvre les aspects intermédiaires de la manipulation des tableaux, évaluant la capacité du candidat à implémenter des algorithmes efficaces et à optimiser les opérations sur les tableaux.",
     "category": "Programming skills",
     "language": "french",
-    "questions_to_answer": 20,
-    "duration_seconds": 2100,
+    "questions_to_answer": 12,
+    "duration_seconds": 720,
     "position": 1
   },
   "questions": [

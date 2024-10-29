@@ -17,8 +17,8 @@
       "description": "Le test couvre une variété de concepts algorithmiques et de structures de données, évaluant la capacité du candidat à comprendre et à appliquer ces concepts dans différentes situations de programmation.",
       "category": "Programming skills",
       "language": "french",
-      "questions_to_answer": 30,
-      "duration_seconds": 2700,
+      "questions_to_answer": 15,
+      "duration_seconds": 720,
       "position": 1
     },
     "questions": [

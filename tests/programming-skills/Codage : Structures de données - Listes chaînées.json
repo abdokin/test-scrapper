@@ -17,8 +17,8 @@
     "description": "Le test couvre un large éventail d'aspects des listes chaînées, de la théorie à la pratique, évaluant la capacité du candidat à comprendre, analyser et appliquer cette structure de données dans divers contextes.",
     "category": "Programming skills",
     "language": "french",
-    "questions_to_answer": 40,
-    "duration_seconds": 2400,
+    "questions_to_answer": 15,
+    "duration_seconds": 720,
     "position": 1
   },
   "questions": [

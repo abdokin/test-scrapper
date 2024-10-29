@@ -24,7 +24,7 @@
     "description": "Le test couvre les aspects fondamentaux et intermédiaires de Laravel, évaluant la capacité du candidat à développer et maintenir des applications web efficaces et sécurisées avec ce framework.",
     "category": "Programming skills",
     "language": "french",
-    "questions_to_answer": 20,
+    "questions_to_answer": 12,
     "duration_seconds": 600,
     "position": 1
   },
