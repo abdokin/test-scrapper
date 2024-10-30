@@ -17,7 +17,7 @@
     "description": "L'évaluation couvre les concepts fondamentaux et intermédiaires de DevOps, testant la capacité du candidat à implémenter et gérer des pipelines CI/CD, automatiser les processus et maintenir une infrastructure robuste.",
     "category": "Programming skills",
     "language": "french",
-    "questions_to_answer": 20,
+    "questions_to_answer": 13,
     "duration_seconds": 600,
     "position": 1
   },

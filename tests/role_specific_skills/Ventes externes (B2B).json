@@ -247,27 +247,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Comment prioriser efficacement son portefeuille clients B2B ?"
-      },
-      "options": [
-        {
-          "content": "Utiliser une matrice de segmentation bas&eacute;e sur le potentiel et l'engagement",
-          "correct": true
-        },
-        {
-          "content": "Se concentrer uniquement sur les plus gros clients"
-        },
-        {
-          "content": "Traiter tous les clients de la m&ecirc;me mani&egrave;re"
-        },
-        {
-          "content": "Privil&eacute;gier les nouveaux clients uniquement"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quelle est la meilleure façon de conclure un premier rendez-vous commercial ?"
       },
       "options": [

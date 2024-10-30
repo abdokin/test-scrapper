@@ -2,7 +2,7 @@
   "title": "Algorithmes de Niveau Débutant",
   "attributes": {
     "overview": "Ce test évalue la compréhension des concepts algorithmiques de base et la capacité à analyser des solutions simples.",
-    "level": "beginner",
+    "level": "entry_level",
     "covered_skills": [
       "Structures de contrôle",
       "Manipulation de tableaux",
@@ -15,7 +15,7 @@
     ],
     "relevancy": "Ce test est pertinent pour les postes de développeur junior nécessitant des connaissances de base en algorithmique.",
     "description": "Le test évalue la compréhension théorique des algorithmes fondamentaux et des structures de données de base.",
-    "category": "Coding",
+    "category": "Programming skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 900,

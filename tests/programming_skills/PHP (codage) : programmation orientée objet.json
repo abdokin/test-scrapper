@@ -15,7 +15,7 @@
       "description": "Le test couvre les concepts fondamentaux de la POO en PHP ainsi que les fonctionnalités plus récentes introduites dans PHP 7 et 8.",
       "category": "Programming skills",
       "language": "french",
-      "questions_to_answer": 20,
+      "questions_to_answer": 15,
       "duration_seconds": 720,
       "position": 1
     },

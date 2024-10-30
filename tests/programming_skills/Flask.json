@@ -527,27 +527,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les uploads de fichiers dans Flask ?"
-      },
-      "options": [
-        {
-          "content": "Utiliser request.files et werkzeug.utils.secure_filename()",
-          "correct": true
-        },
-        {
-          "content": "Utiliser Flask-Upload"
-        },
-        {
-          "content": "Stocker directement les fichiers dans la base de données"
-        },
-        {
-          "content": "Utiliser un service tiers comme Amazon S3"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Comment peut-on implémenter une API RESTful avec Flask ?"
       },
       "options": [

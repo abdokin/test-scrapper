@@ -15,7 +15,7 @@
     "description": "Le test couvre les aspects fondamentaux de Microsoft Windows, évaluant la capacité du candidat à naviguer efficacement dans l'interface, à gérer les fichiers et à utiliser les outils de base.",
     "category": "Software skills",
     "language": "french",
-    "questions_to_answer": 20,
+    "questions_to_answer": 15,
     "duration_seconds": 600,
     "position": 1
   },
