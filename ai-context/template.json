@@ -1,24 +1,20 @@
 {
-  "title": "Bash",
+  "title": "Communication",
   "attributes": {
-    "overview": "Ce test évalue les compétences des candidats dans l'utilisation efficace du shell Bash sous Linux et d'autres implémentations pertinentes.",
-    "level": "intermediate",
+    "overview": "This Communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening.",
+    "level": "entry_level",
     "covered_skills": [
-      "Commandes de base Bash",
-      "Scripting Bash",
-      "Gestion des fichiers et répertoires",
-      "Redirections et pipes",
-      "Variables et paramètres",
-      "Structures de contrôle",
-      "Expressions régulières",
-      "Gestion des processus"
+      "Understanding and interpreting written communication",
+      "Listening actively and interpreting non-verbal cues",
+      "Communicating clearly in business contexts",
+      "Using professional communication etiquette"
     ],
-    "relevancy": "Ce test est pertinent pour les postes nécessitant des compétences en administration système Linux ou en automatisation de tâches via des scripts Bash.",
-    "description": "Le test couvre les aspects fondamentaux et intermédiaires du shell Bash, évaluant la capacité du candidat à écrire des scripts efficaces et à utiliser les commandes Bash courantes.",
-    "category": "Coding",
-    "language": "french",
+    "relevancy": "Any role that requires good communication skills to facilitate effective collaboration with others.",
+    "description": "Good communication is the foundation of good relationships. And good relationships are key to building A-teams that will take your organization from good to great. Good communication among the members of a team builds trust, resolves (and even prevents) problems, provides clarity and direction, improves productivity, and increases engagement.\n\nThis Communication test evaluates candidates' skills in understanding, using, and interpreting written communication and assesses their verbal communication skills (both in an in-person and virtual environment) along ability to clarify next steps, summarize messages effectively, and use professional communication etiquette.\n\nCandidates who perform well on this screening test can listen attentively to others, communicate with confidence and open-mindedness, and can offer both empathy and feedback in the appropriate scenarios and in the appropriate manner.",
+    "category": "Situational judgment",
+    "language": "english",
     "questions_to_answer": 15,
-    "duration_seconds": 600,
+    "duration_seconds": 540,
     "position": 1
   },
   "questions": [
@@ -26,21 +22,47 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Quelle commande est utilisée pour afficher le contenu d'un fichier dans le terminal ?"
+        "content": "<p>In a professional email, which of the following is the most appropriate way to start?</p>"
       },
       "options": [
         {
-          "content": "cat",
+          "content": "<p>Hey there!</p>"
+        },
+        {
+          "content": "<p>Dear Sir/Madam,</p>",
           "correct": true
         },
         {
-          "content": "show"
+          "content": "<p>Yo!</p>"
         },
         {
-          "content": "display"
+          "content": "<p>What's up?</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Which of the following are effective active listening techniques?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintaining eye contact</p>",
+          "correct": true
         },
         {
-          "content": "print"
+          "content": "<p>Interrupting to share your own experiences</p>"
+        },
+        {
+          "content": "<p>Nodding and using verbal affirmations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Paraphrasing to confirm understanding</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Checking your phone while someone is speaking</p>"
         }
       ]
     }
