@@ -268,30 +268,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande Git est utilis&eacute;e pour cr&eacute;er une nouvelle branche ?"
-      },
-      "options": [
-        {
-          "content": "git checkout -b nom_branche",
-          "correct": true
-        },
-        {
-          "content": "git create nom_branche",
-          "correct": false
-        },
-        {
-          "content": "git new nom_branche",
-          "correct": false
-        },
-        {
-          "content": "git branch new nom_branche",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "Quel outil est utilis&eacute; pour la gestion de secrets dans Kubernetes ?"
       },
       "options": [
