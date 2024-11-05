@@ -1,0 +1,1003 @@
+{
+  "title": "Tailwind CSS",
+  "attributes": {
+    "overview": "Ce test évalue la connaissance et la maîtrise de Tailwind CSS, un framework CSS utilitaire. Il teste la compréhension des classes utilitaires, la capacité à créer des layouts responsifs et l'optimisation des performances.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Utilisation des classes utilitaires Tailwind",
+      "Création de layouts responsifs",
+      "Personnalisation et configuration",
+      "Optimisation et bonnes pratiques"
+    ],
+    "relevancy": "Développeurs front-end, intégrateurs web et designers UI qui utilisent Tailwind CSS dans leurs projets.",
+    "description": "Tailwind CSS est un framework CSS très populaire basé sur une approche utilitaire. Ce test évalue la capacité des candidats à utiliser efficacement Tailwind CSS pour créer des interfaces modernes et responsives. Les candidats seront évalués sur leur compréhension des concepts fondamentaux, la syntaxe des classes, la personnalisation et les meilleures pratiques d'utilisation.",
+    "category": "Software skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Quelle classe Tailwind CSS permet de centrer horizontalement un élément avec des marges automatiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>center-x</p>"
+        },
+        {
+          "content": "<p>mx-auto</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>align-center</p>"
+        },
+        {
+          "content": "<p>justify-center</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Comment définir une largeur de 100% en Tailwind CSS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>width-full</p>"
+        },
+        {
+          "content": "<p>w-100</p>"
+        },
+        {
+          "content": "<p>w-full</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>full-width</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quelles classes Tailwind CSS permettent de créer un élément flexible ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>flex</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>flex-row</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>display-flex</p>"
+        },
+        {
+          "content": "<p>flex-1</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet d'ajouter une ombre portée moyenne à un élément ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>shadow-md</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>box-shadow</p>"
+        },
+        {
+          "content": "<p>shadow-medium</p>"
+        },
+        {
+          "content": "<p>drop-shadow</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes peuvent être utilisées pour créer un grid layout ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>grid</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>grid-cols-3</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>grid-auto</p>"
+        },
+        {
+          "content": "<p>gap-4</p>",
+          "correct": true
+        }
+      ]
+    },
+
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour rendre un élément invisible tout en conservant son espace, quelle classe Tailwind CSS doit-on utiliser ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>hidden</p>"
+        },
+        {
+          "content": "<p>invisible</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>display-none</p>"
+        },
+        {
+          "content": "<p>opacity-0</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet d'appliquer une transition de 300ms ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>transition-300</p>"
+        },
+        {
+          "content": "<p>duration-300</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>trans-300</p>"
+        },
+        {
+          "content": "<p>animate-300</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de gérer le comportement au survol (hover) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>hover:bg-blue-500</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>hover:scale-105</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>on-hover:bg-blue</p>"
+        },
+        {
+          "content": "<p>mouse-over:blue</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une hauteur minimale de 100vh en Tailwind CSS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>h-screen</p>"
+        },
+        {
+          "content": "<p>min-h-screen</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>height-100vh</p>"
+        },
+        {
+          "content": "<p>full-height</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes font partie du système de couleurs par défaut de Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>bg-blue-500</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>text-gray-700</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>border-primary</p>"
+        },
+        {
+          "content": "<p>bg-danger</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle directive est utilisée pour définir les styles de base dans Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>@tailwind base</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>@import base</p>"
+        },
+        {
+          "content": "<p>@include base</p>"
+        },
+        {
+          "content": "<p>@base styles</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de gérer l'espacement intérieur (padding) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>p-4</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>px-2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>py-3</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>padding-sm</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une grille responsive qui passe de 1 à 2 colonnes sur mobile ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>grid-cols-1 sm:grid-cols-2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>cols-1-2</p>"
+        },
+        {
+          "content": "<p>responsive-grid-2</p>"
+        },
+        {
+          "content": "<p>mobile-cols-1 desktop-cols-2</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet d'arrondir complètement les coins d'un élément ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>rounded-full</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>circle</p>"
+        },
+        {
+          "content": "<p>radius-100</p>"
+        },
+        {
+          "content": "<p>border-round</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes font partie du système de taille de police de Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>text-xs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>text-2xl</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>font-size-small</p>"
+        },
+        {
+          "content": "<p>text-large</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment activer le mode sombre dans Tailwind CSS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>dark:bg-gray-800</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>night-mode:bg-gray-800</p>"
+        },
+        {
+          "content": "<p>@dark bg-gray-800</p>"
+        },
+        {
+          "content": "<p>darkmode:bg-gray-800</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles propriétés peuvent être utilisées avec la directive @apply ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les classes utilitaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les classes personnalisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les styles en ligne</p>"
+        },
+        {
+          "content": "<p>Les classes Bootstrap</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la commande pour générer le fichier de configuration Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>npx tailwindcss init</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>npm init tailwind</p>"
+        },
+        {
+          "content": "<p>tailwind init</p>"
+        },
+        {
+          "content": "<p>npm create tailwind</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de gérer l'animation dans Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>animate-spin</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>animate-pulse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>animation-rotate</p>"
+        },
+        {
+          "content": "<p>animate-bounce</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une grille automatique avec un minimum de 200px par colonne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>grid-cols-auto-200</p>"
+        },
+        {
+          "content": "<p>grid-auto-fit-200</p>"
+        },
+        {
+          "content": "<p>grid-cols-[repeat(auto-fit,minmax(200px,1fr))]</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>grid-template-200</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet de masquer un élément uniquement sur mobile ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>hidden sm:block</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>mobile:hidden</p>"
+        },
+        {
+          "content": "<p>hide-mobile</p>"
+        },
+        {
+          "content": "<p>sm:hidden</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour purger les styles inutilisés dans Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configurer correctement purge dans tailwind.config.js</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser le mode JIT (Just-In-Time)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer manuellement les classes</p>"
+        },
+        {
+          "content": "<p>Utiliser PurgeCSS séparément</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment étendre les couleurs par défaut de Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dans la section colors du fichier de configuration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En modifiant directement node_modules</p>"
+        },
+        {
+          "content": "<p>En créant un fichier colors.css</p>"
+        },
+        {
+          "content": "<p>Via les variables CSS uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la syntaxe correcte pour les media queries personnalisées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>@screen sm { ... }</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>@media-sm { ... }</p>"
+        },
+        {
+          "content": "<p>@breakpoint sm { ... }</p>"
+        },
+        {
+          "content": "<p>@responsive sm { ... }</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles fonctionnalités sont disponibles avec le mode JIT ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Génération à la volée des classes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Support des valeurs arbitraires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Compilation plus rapide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Conversion automatique des unités</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour rendre un élément accessible uniquement aux lecteurs d'écran, quelle classe utilise-t-on ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sr-only</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>screen-reader</p>"
+        },
+        {
+          "content": "<p>a11y-hidden</p>"
+        },
+        {
+          "content": "<p>visually-hidden</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment appliquer un style uniquement quand un formulaire est invalide ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>invalid:border-red-500</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>error:border-red-500</p>"
+        },
+        {
+          "content": "<p>form-invalid:border-red-500</p>"
+        },
+        {
+          "content": "<p>validation-error:border-red-500</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de styliser un SVG ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>fill-current</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>stroke-2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>svg-color</p>"
+        },
+        {
+          "content": "<p>stroke-current</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une grille avec des lignes nommées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>grid-rows-[header_main_footer]</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>grid-template-rows: 'header main footer'</p>"
+        },
+        {
+          "content": "<p>grid-names: header main footer</p>"
+        },
+        {
+          "content": "<p>grid-layout: header main footer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la syntaxe correcte pour créer un variant personnalisé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>addVariant('custom', '&:custom')</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>createVariant('custom', '&:custom')</p>"
+        },
+        {
+          "content": "<p>newVariant('custom', '&:custom')</p>"
+        },
+        {
+          "content": "<p>defineVariant('custom', '&:custom')</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles propriétés peuvent être utilisées avec les container queries ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>@container</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>container-type</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>container-name</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>container-query</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment appliquer une classe uniquement sur Safari ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>@supports (-webkit-touch-callout: none)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>@safari</p>"
+        },
+        {
+          "content": "<p>@browser safari</p>"
+        },
+        {
+          "content": "<p>@webkit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour organiser les classes Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Grouper par catégorie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser @apply pour les motifs répétitifs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer des composants pour la réutilisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toujours utiliser !important</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une animation personnalisée dans Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dans la section animation du fichier de configuration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Via @keyframes directement</p>"
+        },
+        {
+          "content": "<p>En créant un fichier animations.css</p>"
+        },
+        {
+          "content": "<p>En utilisant animate.css</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet de créer un conteneur avec des marges latérales automatiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>container mx-auto</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>wrapper center</p>"
+        },
+        {
+          "content": "<p>auto-container</p>"
+        },
+        {
+          "content": "<p>centered-container</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles fonctionnalités sont disponibles pour le scroll snap ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>snap-x</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>snap-mandatory</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>snap-center</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>scroll-snap</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer les espaces entre les éléments d'une grille ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>gap-4</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>grid-gap-4</p>"
+        },
+        {
+          "content": "<p>spacing-4</p>"
+        },
+        {
+          "content": "<p>grid-space-4</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de gérer l'aspect ratio ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>aspect-video</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>aspect-square</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>ratio-16/9</p>"
+        },
+        {
+          "content": "<p>aspect-auto</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définir une police personnalisée dans Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dans la section fontFamily du fichier de configuration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Via @font-face directement</p>"
+        },
+        {
+          "content": "<p>En créant un fichier fonts.css</p>"
+        },
+        {
+          "content": "<p>En utilisant Google Fonts uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle classe permet de créer un dégradé de gauche à droite ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>bg-gradient-to-r</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>gradient-horizontal</p>"
+        },
+        {
+          "content": "<p>left-to-right-gradient</p>"
+        },
+        {
+          "content": "<p>horizontal-gradient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes font partie du système de z-index de Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>z-10</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>z-auto</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>layer-1</p>"
+        },
+        {
+          "content": "<p>z-50</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment centrer verticalement et horizontalement un élément avec Flexbox ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>flex items-center justify-center</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>flex center-all</p>"
+        },
+        {
+          "content": "<p>flex-center</p>"
+        },
+        {
+          "content": "<p>flex align-center</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles classes permettent de gérer les bordures arrondies de manière asymétrique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>rounded-t-lg</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>rounded-br-xl</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>corner-round-top</p>"
+        },
+        {
+          "content": "<p>rounded-tl-md</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment appliquer un style uniquement sur un écran d'impression ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>print:hidden</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>media-print:hidden</p>"
+        },
+        {
+          "content": "<p>@print hidden</p>"
+        },
+        {
+          "content": "<p>printer:hidden</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour optimiser les performances avec Tailwind ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser le mode JIT</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Purger les classes inutilisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minifier le CSS final</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter les classes dynamiques</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -130,35 +130,12 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour la sécurité dans Rails 7?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser les credentials chiffrés</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Activer les CSRF tokens</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Stocker les mots de passe en clair</p>"
-        },
-        {
-          "content": "<p>Utiliser HTTP Secure Headers</p>",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "<p>Comment gérer les uploads de fichiers dans Rails 7?</p>"
       },
       "options": [
         {
-          "content": "<p>Active Storage avec cloud storage</p>",
+          "content": "<p>Active Storage</p>",
           "correct": true
         },
         {
@@ -169,27 +146,6 @@
         },
         {
           "content": "<p>Upload manuel avec File.open</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon de gérer l'authentification dans Rails 7?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Devise avec configuration personnalisée</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Authentication from scratch</p>"
-        },
-        {
-          "content": "<p>OAuth uniquement</p>"
-        },
-        {
-          "content": "<p>Basic HTTP Authentication</p>"
         }
       ]
     },
@@ -283,22 +239,24 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Comment implémenter correctement une fonctionnalité de recherche complexe dans Rails?</p>"
+        "type": "multiple_response",
+        "content": "<p>Quelles sont des options valides pour implémenter une recherche full-text dans Rails?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser Elasticsearch avec les callbacks appropriés</p>",
+          "content": "<p>Elasticsearch</p>",
           "correct": true
         },
         {
-          "content": "<p>Faire des requêtes LIKE sur toutes les colonnes</p>"
+          "content": "<p>PostgreSQL full-text search</p>",
+          "correct": true
         },
         {
-          "content": "<p>Charger tous les enregistrements et filtrer en Ruby</p>"
+          "content": "<p>MySQL FULLTEXT index</p>",
+          "correct": true
         },
         {
-          "content": "<p>Créer une table séparée pour la recherche</p>"
+          "content": "<p>Charger tous les enregistrements en mémoire pour filtrer</p>"
         }
       ]
     },
@@ -348,66 +306,49 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Comment gérer efficacement les tâches en arrière-plan avec ActiveJob?</p>"
+        "type": "multiple_response",
+        "content": "<p>Quels sont des adaptateurs valides pour ActiveJob dans Rails 7?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser Sidekiq avec Redis et monitoring</p>",
+          "content": "<p>Sidekiq</p>",
           "correct": true
         },
         {
-          "content": "<p>Exécuter toutes les tâches de manière synchrone</p>"
-        },
-        {
-          "content": "<p>Utiliser des threads Ruby natifs</p>"
-        },
-        {
-          "content": "<p>Créer des processus système manuels</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure approche pour gérer les autorisations dans une application Rails complexe?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser Pundit avec des politiques bien structurées</p>",
+          "content": "<p>SolidQueue</p>",
           "correct": true
         },
         {
-          "content": "<p>Vérifier les permissions dans les contrôleurs</p>"
+          "content": "<p>Resque</p>",
+          "correct": true
         },
         {
-          "content": "<p>Utiliser des variables globales</p>"
-        },
-        {
-          "content": "<p>Implementer un système personnalisé basique</p>"
+          "content": "<p>Delayed::Job</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour le déploiement d'une application Rails 7?</p>"
+        "content": "<p>Quelles sont des approches valides pour gérer les autorisations dans Rails?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser Docker avec des conteneurs optimisés</p>",
+          "content": "<p>Pundit</p>",
           "correct": true
         },
         {
-          "content": "<p>Configurer un pipeline CI/CD</p>",
+          "content": "<p>CanCanCan</p>",
           "correct": true
         },
         {
-          "content": "<p>Implémenter le blue-green deployment</p>",
+          "content": "<p>Système d'autorisation personnalisé</p>",
           "correct": true
         },
         {
-          "content": "<p>Déployer directement sur production</p>"
+          "content": "<p>Action Policy</p>",
+          "correct": true
         }
       ]
     },
@@ -450,27 +391,6 @@
         },
         {
           "content": "<p>Implémenter GraphQL from scratch</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Comment implémenter correctement un pattern Service Object dans Rails?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Créer une classe avec une méthode call et un résultat encapsulé</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Ajouter toute la logique dans le modèle</p>"
-        },
-        {
-          "content": "<p>Utiliser uniquement des modules</p>"
-        },
-        {
-          "content": "<p>Mettre toute la logique dans le contrôleur</p>"
         }
       ]
     },
@@ -651,27 +571,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure approche pour gérer les permissions dynamiques?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser Pundit avec des politiques conditionnelles et du caching</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Vérifier les permissions dans la vue</p>"
-        },
-        {
-          "content": "<p>Stocker les permissions en session</p>"
-        },
-        {
-          "content": "<p>Utiliser des variables globales</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Comment implémenter efficacement le partitionnement de base de données dans Rails?</p>"
       },
       "options": [
@@ -775,27 +674,6 @@
         },
         {
           "content": "<p>Hardcoder les textes dans les vues</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Comment implémenter une architecture de microservices avec Rails?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser Rails API avec JWT et service discovery</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Créer une seule application monolithique</p>"
-        },
-        {
-          "content": "<p>Dupliquer tout le code</p>"
-        },
-        {
-          "content": "<p>Utiliser uniquement des gems</p>"
         }
       ]
     },
@@ -932,27 +810,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure approche pour gérer les jobs récurrents dans Rails?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser Sidekiq Enterprise avec Sidekiq Scheduler</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Utiliser uniquement cron</p>"
-        },
-        {
-          "content": "<p>Exécuter manuellement les tâches</p>"
-        },
-        {
-          "content": "<p>Utiliser des threads Ruby</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Comment implémenter un système de commentaires temps réel avec Action Cable?</p>"
       },
       "options": [
@@ -1038,29 +895,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Quelles sont les meilleures pratiques pour le déploiement continu d'une application Rails?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser des containers avec orchestration</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Implémenter des déploiements blue-green</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Automatiser les migrations de base de données</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Déployer directement en production</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "<p>Comment gérer efficacement les webhooks dans une application Rails?</p>"
       },
@@ -1098,6 +932,716 @@
         },
         {
           "content": "<p>Utiliser uniquement JavaScript</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment définiriez-vous correctement des variables de différents types en Ruby? Considérez le code suivant:</p><br><pre><code class='language-ruby'>local_var = 'local'</code><br><code>@instance_var = 'instance'</code><br><code>@@class_var = 'class'</code><br><code>$global_var = 'global'</code></pre><br><br><p>Quelle est la signification de chaque préfixe?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>- Pas de préfixe: variable locale</p><p>- @ : variable d'instance</p><p>- @@ : variable de classe</p><p>- $ : variable globale</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>- Pas de préfixe: constante</p><p>- @ : variable globale</p><p>- @@ : variable d'instance</p><p>- $ : variable de classe</p>"
+        },
+        {
+          "content": "<p>- Pas de préfixe: variable de classe</p><p>- @ : variable locale</p><p>- @@ : variable globale</p><p>- $ : variable d'instance</p>"
+        },
+        {
+          "content": "<p>- Pas de préfixe: variable globale</p><p>- @ : variable de classe</p><p>- @@ : variable locale</p><p>- $ : variable d'instance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la syntaxe correcte pour créer une migration qui ajoute une colonne email aux utilisateurs?</p><p>Examinez les différentes options de code:</p>"
+      },
+      "options": [
+        {
+          "content": "<pre><code class='language-ruby'>class AddEmailToUsers < ActiveRecord::Migration[7.0]<br>  def change<br>    add_column :users, :email, :string<br>    add_index :users, :email, unique: true<br>  end<br>end</code></pre>",
+          "correct": true
+        },
+        {
+          "content": "<pre><code class='language-ruby'>class EmailMigration < ActiveRecord::Migration<br>  def up<br>    users.add_column :email, :string<br>  end<br>end</code></pre>"
+        },
+        {
+          "content": "<pre><code class='language-ruby'>class AddEmail < Migration<br>  def change<br>    add :users, :email, type: string<br>  end<br>end</code></pre>"
+        },
+        {
+          "content": "<pre><code class='language-ruby'>class UsersEmail < ActiveRecord::Migration<br>  def migrate<br>    users.email = :string<br>  end<br>end</code></pre>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'implémenter un helper dans Rails et de l'utiliser dans une vue?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dans <code>app/helpers/users_helper.rb</code>:</p><pre><code class='language-ruby'>module UsersHelper<br>  def format_user_name(user)<br>    \"#{user.first_name} #{user.last_name}\".titleize<br>  end<br>end</code></pre><br><br><p>Dans la vue:</p><pre><code class='language-erb'><%= format_user_name(@user) %></code></pre>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dans <code>helper.rb</code>:</p><pre><code class='language-ruby'>def format_user_name(user)<br>  user.name.format<br>end</code></pre><br><br><p>Dans la vue:</p><pre><code class='language-erb'><% helper.format_user_name(@user) %></code></pre>"
+        },
+        {
+          "content": "<p>Dans le helper:</p><pre><code class='language-ruby'>class UserHelper<br>  def format_name(user)<br>    user.full_name<br>  end<br>end</code></pre><br><br><p>Dans la vue:</p><pre><code class='language-erb'><%= UserHelper.format_name(@user) %></code></pre>"
+        },
+        {
+          "content": "<p>Dans le helper:</p><pre><code class='language-ruby'>class Helper<br>  format_user_name = lambda do |user|<br>    user.name<br>  end<br>end</code></pre>"
+        }
+      ]
+    },
+    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce que l'ORM (Object-Relational Mapping) dans Ruby on Rails et quel est son rôle principal?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un système qui permet de convertir les données entre une base de données relationnelle et des objets Ruby, principalement via Active Record</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un outil pour organiser les fichiers Ruby dans une application Rails</p>"
+        },
+        {
+          "content": "<p>Une méthode pour gérer les routes dans Rails</p>"
+        },
+        {
+          "content": "<p>Un système de gestion des migrations de base de données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Que signifie MVC dans Ruby on Rails et comment fonctionne-t-il?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Model-View-Controller : le Model gère les données et la logique, la View affiche l'interface utilisateur, et le Controller gère les interactions entre les deux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Main-Variable-Class : un système de gestion des variables principales dans les classes</p>"
+        },
+        {
+          "content": "<p>Multiple-Version-Control : un système de contrôle de version intégré à Rails</p>"
+        },
+        {
+          "content": "<p>Method-Value-Container : un conteneur pour stocker les valeurs des méthodes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages principaux de l'utilisation de Ruby on Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Convention over Configuration - réduit la nécessité de configuration manuelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>DRY (Don't Repeat Yourself) - encourage la réutilisation du code</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Large écosystème de gems et plugins disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nécessite moins de ressources serveur que les autres frameworks</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre 'destroy' et 'delete' dans Ruby on Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'destroy' exécute les callbacks et les validations avant la suppression, tandis que 'delete' supprime directement l'enregistrement sans exécuter les callbacks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>'destroy' et 'delete' font exactement la même chose</p>"
+        },
+        {
+          "content": "<p>'destroy' supprime définitivement l'enregistrement tandis que 'delete' le met dans la corbeille</p>"
+        },
+        {
+          "content": "<p>'delete' est plus rapide car il ne vérifie pas les associations</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un 'scaffold' dans Ruby on Rails et quel est son utilité principale?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un générateur qui crée automatiquement le modèle, le contrôleur, les vues et les migrations pour une ressource complète</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un outil de débogage pour les applications Rails</p>"
+        },
+        {
+          "content": "<p>Un système de gestion des dépendances</p>"
+        },
+        {
+          "content": "<p>Un framework de test automatisé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les composants principaux d'une migration Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une classe qui hérite de ActiveRecord::Migration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une méthode 'change' ou des méthodes 'up' et 'down'</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un timestamp dans le nom du fichier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un fichier de configuration JSON</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre 'include' et 'extend' dans Ruby on Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'include' ajoute des méthodes d'instance tandis que 'extend' ajoute des méthodes de classe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>'include' et 'extend' font la même chose</p>"
+        },
+        {
+          "content": "<p>'extend' ajoute des méthodes d'instance tandis que 'include' ajoute des méthodes de classe</p>"
+        },
+        {
+          "content": "<p>'include' est pour les modules tandis que 'extend' est pour les classes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un helper dans Ruby on Rails et où doit-il être utilisé?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un module contenant des méthodes réutilisables principalement destinées aux vues</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une classe pour gérer la logique métier complexe</p>"
+        },
+        {
+          "content": "<p>Un outil de débogage pour les contrôleurs</p>"
+        },
+        {
+          "content": "<p>Un système de gestion des routes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre 'nil?' et 'empty?' dans Ruby?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'nil?' vérifie si un objet est nil, tandis que 'empty?' vérifie si une collection est vide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>'nil?' et 'empty?' font la même chose</p>"
+        },
+        {
+          "content": "<p>'empty?' vérifie si un objet est nil, tandis que 'nil?' vérifie si une collection est vide</p>"
+        },
+        {
+          "content": "<p>'nil?' est pour les strings tandis que 'empty?' est pour les nombres</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les différents types de callbacks disponibles dans Active Record?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>before_save, after_save</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>before_validation, after_validation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>before_destroy, after_destroy</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>before_method, after_method</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne le système de 'garbage collection' dans Ruby?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il libère automatiquement la mémoire des objets qui ne sont plus référencés dans l'application</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il supprime les fichiers temporaires du serveur</p>"
+        },
+        {
+          "content": "<p>Il nettoie la base de données des enregistrements obsolètes</p>"
+        },
+        {
+          "content": "<p>Il supprime les anciennes sessions utilisateur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un 'proc' dans Ruby et comment est-il utilisé?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un objet qui encapsule un bloc de code et peut être réutilisé comme une méthode</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un processus système géré par Ruby</p>"
+        },
+        {
+          "content": "<p>Une méthode de traitement des erreurs</p>"
+        },
+        {
+          "content": "<p>Un type spécial de variable globale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les différents types d'associations disponibles dans Active Record?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>belongs_to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>has_many</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>has_and_belongs_to_many</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>has_multiple</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre 'size', 'count' et 'length' dans Active Record?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'count' effectue toujours une requête SQL, 'length' charge la collection en mémoire, 'size' choisit intelligemment entre les deux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ces trois méthodes sont identiques</p>"
+        },
+        {
+          "content": "<p>'size' compte les octets, 'length' compte les caractères, 'count' compte les éléments</p>"
+        },
+        {
+          "content": "<p>'count' est pour les nombres, 'length' pour les strings, 'size' pour les arrays</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce que 'Spring' dans Ruby on Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un préchargeur d'application qui accélère le développement en gardant l'application en mémoire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un framework de test automatisé</p>"
+        },
+        {
+          "content": "<p>Un système de gestion des assets</p>"
+        },
+        {
+          "content": "<p>Un outil de déploiement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne la mise en cache dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Elle stocke le résultat des requêtes ou des vues pour éviter de les recalculer à chaque fois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elle compresse les fichiers CSS et JavaScript</p>"
+        },
+        {
+          "content": "<p>Elle stocke temporairement les données de session</p>"
+        },
+        {
+          "content": "<p>Elle sauvegarde la base de données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'utiliser des 'concerns' dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réutilisation du code entre différents modèles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organisation du code en modules logiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction de la duplication de code</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Amélioration des performances de l'application</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un 'initializer' dans Ruby on Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un script qui s'exécute au démarrage de l'application pour configurer certains paramètres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une méthode pour créer de nouveaux objets</p>"
+        },
+        {
+          "content": "<p>Un outil de configuration de la base de données</p>"
+        },
+        {
+          "content": "<p>Un générateur de code Rails</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Que signifie 'skinny controllers, fat models'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La logique métier doit être placée dans les modèles plutôt que dans les contrôleurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les contrôleurs doivent contenir plus de code que les modèles</p>"
+        },
+        {
+          "content": "<p>Les modèles doivent être simples et les contrôleurs complexes</p>"
+        },
+        {
+          "content": "<p>Une règle de nommage des fichiers dans Rails</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne l'authentification par token dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un token unique est généré pour chaque utilisateur et utilisé pour authentifier les requêtes API</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les tokens sont utilisés pour crypter les mots de passe</p>"
+        },
+        {
+          "content": "<p>Les tokens servent à valider les formulaires</p>"
+        },
+        {
+          "content": "<p>L'authentification par token n'existe pas dans Rails</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les types de tests couramment utilisés dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tests unitaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tests d'intégration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tests système</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tests de performance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'une 'strong parameter' dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un mécanisme de sécurité pour contrôler quels paramètres peuvent être utilisés lors de l'attribution de masse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un paramètre obligatoire dans une route</p>"
+        },
+        {
+          "content": "<p>Un paramètre de configuration du serveur</p>"
+        },
+        {
+          "content": "<p>Un paramètre de performance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne le système de routage dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il mappe les URLs aux actions des contrôleurs en suivant des conventions RESTful</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il gère uniquement les redirections entre pages</p>"
+        },
+        {
+          "content": "<p>Il définit la structure de la base de données</p>"
+        },
+        {
+          "content": "<p>Il configure les paramètres du serveur web</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les hooks de cycle de vie disponibles dans Active Record?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>before_create</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>after_update</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>after_find</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>during_save</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre 'render' et 'redirect_to'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'render' affiche une vue spécifique, 'redirect_to' envoie une nouvelle requête à une URL différente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>'render' et 'redirect_to' font la même chose</p>"
+        },
+        {
+          "content": "<p>'redirect_to' affiche une vue, 'render' fait une redirection</p>"
+        },
+        {
+          "content": "<p>'render' est pour les APIs, 'redirect_to' pour les pages web</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne l'asset pipeline dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il compile, minimise et combine les assets (CSS, JavaScript, images) pour optimiser leur livraison</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il gère uniquement le téléchargement de fichiers</p>"
+        },
+        {
+          "content": "<p>Il stocke les assets dans la base de données</p>"
+        },
+        {
+          "content": "<p>Il crée des sauvegardes des assets</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un 'scope' dans Active Record?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une méthode de classe qui encapsule une requête commune et réutilisable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une variable globale</p>"
+        },
+        {
+          "content": "<p>Un type de validation</p>"
+        },
+        {
+          "content": "<p>Un système de permissions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'utiliser Active Job?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traitement asynchrone des tâches</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Interface unifiée pour différents systèmes de file d'attente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Planification des jobs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Amélioration automatique des performances</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment fonctionne le système de migrations réversibles dans Rails?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il permet d'annuler automatiquement les changements de schéma en définissant l'inverse de chaque opération</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il crée une copie de la base de données avant chaque migration</p>"
+        },
+        {
+          "content": "<p>Il supprime automatiquement les anciennes tables</p>"
+        },
+        {
+          "content": "<p>Il génère des backups de la base de données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Qu'est-ce qu'un 'concern' dans Rails et quand devrait-il être utilisé?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un module qui permet d'extraire et de réutiliser du code commun entre plusieurs modèles ou contrôleurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un système de gestion des erreurs</p>"
+        },
+        {
+          "content": "<p>Une méthode de validation des données</p>"
+        },
+        {
+          "content": "<p>Un type de variable globale</p>"
         }
       ]
     }
