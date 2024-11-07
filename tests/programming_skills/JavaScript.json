@@ -1,0 +1,1110 @@
+{
+  "title": "JavaScript",
+  "attributes": {
+    "overview": "Ce test évalue les compétences intermédiaires en JavaScript, couvrant les concepts fondamentaux, la manipulation du DOM, les fonctions avancées, et les fonctionnalités modernes de ES6+.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Concepts fondamentaux de JavaScript",
+      "Manipulation du DOM",
+      "Programmation asynchrone",
+      "ES6+ et fonctionnalités modernes",
+      "Gestion des erreurs et débogage",
+      "Optimisation et bonnes pratiques"
+    ],
+    "relevancy": "Développeurs frontend, développeurs full-stack, et tout rôle nécessitant une expertise en JavaScript",
+    "description": "JavaScript est l'un des langages de programmation les plus utilisés dans le développement web moderne. Ce test évalue la compréhension des concepts intermédiaires de JavaScript, y compris les closures, les promesses, l'async/await, la manipulation du DOM, et les fonctionnalités modernes de ES6+. Les candidats seront évalués sur leur capacité à résoudre des problèmes courants et à appliquer les meilleures pratiques de développement.",
+    "category": "Programming skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>console.log(typeof typeof 1);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>number</p>"
+        },
+        {
+          "content": "<p>string</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>undefined</p>"
+        },
+        {
+          "content": "<p>object</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quelles affirmations sont vraies concernant les Promises en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une Promise peut avoir trois états : pending, fulfilled, et rejected</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>async/await est une syntaxe plus élégante pour gérer les Promises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promise.all() rejette immédiatement si une seule Promise est rejetée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les Promises peuvent être utilisées uniquement avec des fonctions asynchrones</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Considérant le code suivant, quelle est la valeur de 'result' ?</p><pre>const arr = [1, 2, 3, 4, 5];\nconst result = arr.reduce((acc, curr) => acc + curr, 0);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>10</p>"
+        },
+        {
+          "content": "<p>15</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>0</p>"
+        },
+        {
+          "content": "<p>[1,2,3,4,5]</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Quelle méthode est la plus appropriée pour gérer les erreurs dans une fonction asynchrone ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>try/catch avec async/await</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>throw new Error()</p>"
+        },
+        {
+          "content": "<p>window.onerror</p>"
+        },
+        {
+          "content": "<p>error.preventDefault()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le comportement du code suivant ?</p><pre>console.log(1);\nsetTimeout(() => console.log(2), 0);\nPromise.resolve().then(() => console.log(3));\nconsole.log(4);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>1, 2, 3, 4</p>"
+        },
+        {
+          "content": "<p>1, 4, 2, 3</p>"
+        },
+        {
+          "content": "<p>1, 4, 3, 2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4, 3, 2, 1</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment déclarer correctement une classe qui hérite d'une autre classe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>class Child implements Parent {}</p>"
+        },
+        {
+          "content": "<p>class Child extends Parent {}</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>class Child inherits Parent {}</p>"
+        },
+        {
+          "content": "<p>class Child : Parent {}</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les méthodes appropriées pour gérer les événements DOM ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>addEventListener</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>removeEventListener</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>attachEvent</p>"
+        },
+        {
+          "content": "<p>event.preventDefault()</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence principale entre let et var ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>let est block-scoped, var est function-scoped</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>let ne peut pas être réassigné</p>"
+        },
+        {
+          "content": "<p>var est plus rapide que let</p>"
+        },
+        {
+          "content": "<p>let n'existe qu'en ES6+</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment créer une copie profonde d'un objet complexe en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Object.assign({}, obj)</p>"
+        },
+        {
+          "content": "<p>JSON.parse(JSON.stringify(obj))</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>{...obj}</p>"
+        },
+        {
+          "content": "<p>Object.create(obj)</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour optimiser les performances en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser requestAnimationFrame pour les animations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter les manipulations DOM inutiles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser eval() pour le code dynamique</p>"
+        },
+        {
+          "content": "<p>Implémenter la délégation d'événements</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>['1', '2', '3'].map(parseInt)</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>[1, 2, 3]</p>"
+        },
+        {
+          "content": "<p>[1, NaN, NaN]</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>['1', '2', '3']</p>"
+        },
+        {
+          "content": "<p>[1, 2, NaN]</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer correctement une erreur dans une Promise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser .catch()</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser try/catch</p>"
+        },
+        {
+          "content": "<p>Utiliser window.onerror</p>"
+        },
+        {
+          "content": "<p>Utiliser throw</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles affirmations sont vraies concernant les closures en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Elles peuvent accéder aux variables de leur scope parent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elles peuvent créer des fuites mémoire si mal utilisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elles sont toujours asynchrones</p>"
+        },
+        {
+          "content": "<p>Elles permettent l'encapsulation de données</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de comparer deux objets en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>JSON.stringify(obj1) === JSON.stringify(obj2)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>obj1 === obj2</p>"
+        },
+        {
+          "content": "<p>Object.is(obj1, obj2)</p>"
+        },
+        {
+          "content": "<p>obj1.equals(obj2)</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>console.log(0.1 + 0.2 === 0.3);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>true</p>"
+        },
+        {
+          "content": "<p>false</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>undefined</p>"
+        },
+        {
+          "content": "<p>NaN</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle méthode est utilisée pour créer un nouvel élément DOM ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>document.createElement()</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>document.newElement()</p>"
+        },
+        {
+          "content": "<p>document.createNode()</p>"
+        },
+        {
+          "content": "<p>document.makeElement()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques des arrow functions ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Elles n'ont pas leur propre this</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elles ne peuvent pas être utilisées comme constructeurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elles sont toujours asynchrones</p>"
+        },
+        {
+          "content": "<p>Elles ont une syntaxe plus concise</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment déclarer une variable qui ne peut pas être réassignée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>const</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>let</p>"
+        },
+        {
+          "content": "<p>var</p>"
+        },
+        {
+          "content": "<p>final</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la méthode recommandée pour copier un tableau ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>[...array]</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>array.slice()</p>"
+        },
+        {
+          "content": "<p>Array.from(array)</p>"
+        },
+        {
+          "content": "<p>array.copy()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques des Set en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les valeurs sont uniques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ordre des éléments est préservé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Peut contenir des doublons</p>"
+        },
+        {
+          "content": "<p>Accepte n'importe quel type de valeur</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le résultat de cette expression ?</p><pre>const obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>2</p>"
+        },
+        {
+          "content": "<p>1</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>undefined</p>"
+        },
+        {
+          "content": "<p>Error</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques de sécurité en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Valider les entrées utilisateur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser HTTPS pour les requêtes API</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker les tokens JWT dans localStorage</p>"
+        },
+        {
+          "content": "<p>Échapper les données HTML</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre Map et WeakMap ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>WeakMap accepte uniquement des objets comme clés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Map est plus rapide que WeakMap</p>"
+        },
+        {
+          "content": "<p>WeakMap peut être itéré</p>"
+        },
+        {
+          "content": "<p>Map utilise plus de mémoire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment détecter si un objet est itérable ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>typeof obj === 'iterable'</p>"
+        },
+        {
+          "content": "<p>Symbol.iterator in obj</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>obj.isIterable()</p>"
+        },
+        {
+          "content": "<p>Array.isArray(obj)</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques des Web Workers ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ils s'exécutent dans un thread séparé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils n'ont pas accès au DOM</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils peuvent modifier directement l'interface utilisateur</p>"
+        },
+        {
+          "content": "<p>Ils communiquent via postMessage</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'implémenter un singleton en JavaScript moderne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un module ES6</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser une classe avec un constructeur privé</p>"
+        },
+        {
+          "content": "<p>Utiliser Object.create</p>"
+        },
+        {
+          "content": "<p>Utiliser une fonction constructeur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer correctement une erreur dans une fonction async/await ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser try/catch</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser .catch()</p>"
+        },
+        {
+          "content": "<p>Utiliser window.onerror</p>"
+        },
+        {
+          "content": "<p>Utiliser Promise.catch()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les méthodes valides pour déboguer du code JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser console.trace()</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser debugger;</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser les points d'arrêt des DevTools</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser alert()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre null et undefined ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>undefined est l'absence de valeur, null est une valeur explicitement vide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils sont exactement identiques</p>"
+        },
+        {
+          "content": "<p>null est un bug dans JavaScript</p>"
+        },
+        {
+          "content": "<p>undefined ne peut pas être assigné</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment optimiser une boucle pour de meilleures performances ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cacher la longueur du tableau dans une variable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser toujours forEach</p>"
+        },
+        {
+          "content": "<p>Utiliser for...in pour les tableaux</p>"
+        },
+        {
+          "content": "<p>Utiliser while au lieu de for</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques des Generators ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ils peuvent être pausés et repris</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils utilisent yield pour retourner des valeurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils sont toujours asynchrones</p>"
+        },
+        {
+          "content": "<p>Ils peuvent maintenir un état interne</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'implémenter l'héritage en JavaScript moderne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser extends avec des classes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser Object.create</p>"
+        },
+        {
+          "content": "<p>Utiliser prototype directement</p>"
+        },
+        {
+          "content": "<p>Utiliser mixins</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment implémenter correctement une file d'attente (queue) en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser push() et shift()</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser push() et pop()</p>"
+        },
+        {
+          "content": "<p>Utiliser unshift() et pop()</p>"
+        },
+        {
+          "content": "<p>Utiliser concat() et slice()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure pratique pour gérer les dates en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser une bibliothèque comme Day.js ou date-fns</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser new Date() directement</p>"
+        },
+        {
+          "content": "<p>Utiliser Date.parse()</p>"
+        },
+        {
+          "content": "<p>Manipuler les timestamps Unix</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour les tests unitaires en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tester les cas limites</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Isoler les tests</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tester uniquement le happy path</p>"
+        },
+        {
+          "content": "<p>Utiliser des mocks appropriés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence principale entre localStorage et sessionStorage ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sessionStorage expire à la fermeture de l'onglet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>localStorage a une limite de taille plus grande</p>"
+        },
+        {
+          "content": "<p>sessionStorage est plus sécurisé</p>"
+        },
+        {
+          "content": "<p>localStorage est plus rapide</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment implémenter une fonction memoize en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser une closure avec un cache Map</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser un objet global</p>"
+        },
+        {
+          "content": "<p>Utiliser localStorage</p>"
+        },
+        {
+          "content": "<p>Utiliser une variable statique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques des Proxy en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ils peuvent intercepter les opérations sur les objets</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils permettent la validation personnalisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ils modifient l'objet original</p>"
+        },
+        {
+          "content": "<p>Ils peuvent implémenter des getters/setters virtuels</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer les erreurs de réseau en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser try/catch avec async/await</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier window.navigator.onLine</p>"
+        },
+        {
+          "content": "<p>Utiliser XMLHttpRequest</p>"
+        },
+        {
+          "content": "<p>Utiliser alert() pour les erreurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment optimiser les performances d'une application React ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser React.memo et useMemo judicieusement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toujours utiliser useCallback</p>"
+        },
+        {
+          "content": "<p>Éviter les hooks personnalisés</p>"
+        },
+        {
+          "content": "<p>Utiliser class components</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer l'état global en JavaScript moderne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un gestionnaire d'état comme Redux ou MobX</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des variables globales</p>"
+        },
+        {
+          "content": "<p>Utiliser localStorage</p>"
+        },
+        {
+          "content": "<p>Passer l'état via les props</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour l'accessibilité en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des rôles ARIA appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Gérer la navigation au clavier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les lecteurs d'écran</p>"
+        },
+        {
+          "content": "<p>Maintenir l'ordre de focus</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer efficacement la mémoire en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Éviter les références circulaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser beaucoup de closures</p>"
+        },
+        {
+          "content": "<p>Garder les références globales</p>"
+        },
+        {
+          "content": "<p>Ne pas utiliser le garbage collector</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure pratique pour implémenter le lazy loading des images ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser l'attribut loading='lazy'</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser setTimeout</p>"
+        },
+        {
+          "content": "<p>Charger toutes les images au démarrage</p>"
+        },
+        {
+          "content": "<p>Utiliser des GIFs comme placeholders</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour l'optimisation des performances JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Minimiser les manipulations DOM</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser la délégation d'événements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter la compression des fichiers</p>"
+        },
+        {
+          "content": "<p>Utiliser le code splitting</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment implémenter correctement un système de cache en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser Service Workers avec Cache API</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker tout dans localStorage</p>"
+        },
+        {
+          "content": "<p>Utiliser des variables globales</p>"
+        },
+        {
+          "content": "<p>Désactiver le cache du navigateur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles méthodes peuvent être utilisées pour cloner un objet en JavaScript ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Object.assign({}, obj)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>JSON.parse(JSON.stringify(obj))</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>{...obj}</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>obj.clone()</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le résultat de cette expression ?</p><pre>const arr = [1, 2, 3];\nconst [,, x] = arr;\nconsole.log(x);</pre>"
+      },
+      "options": [
+        {
+          "content": "<p>1</p>"
+        },
+        {
+          "content": "<p>2</p>"
+        },
+        {
+          "content": "<p>3</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>undefined</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment peut-on vérifier si un objet est une instance d'une classe particulière ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>obj.constructor === Class</p>"
+        },
+        {
+          "content": "<p>obj instanceof Class</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>obj.isInstanceOf(Class)</p>"
+        },
+        {
+          "content": "<p>Class.isPrototypeOf(obj)</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles affirmations sont vraies concernant les modules ES6 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les modules sont exécutés en mode strict par défaut</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les modules peuvent avoir plusieurs exports par défaut</p>"
+        },
+        {
+          "content": "<p>Les imports sont hoisted</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les modules ont leur propre scope</p>",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
