@@ -1,20 +1,20 @@
 {
   "title": "JavaScript",
   "attributes": {
-    "overview": "Ce test évalue les compétences intermédiaires en JavaScript, couvrant les concepts fondamentaux, la manipulation du DOM, les fonctions avancées, et les fonctionnalités modernes de ES6+.",
+    "overview": "This test evaluates intermediate JavaScript skills, covering fundamental concepts, DOM manipulation, advanced functions, and modern ES6+ features.",
     "level": "intermediate",
     "covered_skills": [
-      "Concepts fondamentaux de JavaScript",
-      "Manipulation du DOM",
-      "Programmation asynchrone",
-      "ES6+ et fonctionnalités modernes",
-      "Gestion des erreurs et débogage",
-      "Optimisation et bonnes pratiques"
+      "JavaScript Fundamentals",
+      "DOM Manipulation",
+      "Asynchronous Programming",
+      "ES6+ and Modern Features",
+      "Error Handling and Debugging",
+      "Optimization and Best Practices"
     ],
-    "relevancy": "Développeurs frontend, développeurs full-stack, et tout rôle nécessitant une expertise en JavaScript",
-    "description": "JavaScript est l'un des langages de programmation les plus utilisés dans le développement web moderne. Ce test évalue la compréhension des concepts intermédiaires de JavaScript, y compris les closures, les promesses, l'async/await, la manipulation du DOM, et les fonctionnalités modernes de ES6+. Les candidats seront évalués sur leur capacité à résoudre des problèmes courants et à appliquer les meilleures pratiques de développement.",
+    "relevancy": "Frontend developers, full-stack developers, and any role requiring JavaScript expertise",
+    "description": "JavaScript is one of the most widely used programming languages in modern web development. This test evaluates the understanding of intermediate JavaScript concepts, including closures, promises, async/await, DOM manipulation, and modern ES6+ features. Candidates will be evaluated on their ability to solve common problems and apply development best practices.",
     "category": "Programming skills",
-    "language": "french",
+    "language": "english",
     "questions_to_answer": 15,
     "duration_seconds": 600,
     "position": 1
@@ -24,7 +24,7 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>console.log(typeof typeof 1);</pre>"
+        "content": "<p>What is the result of the following expression?</p><pre>console.log(typeof typeof 1);</pre>"
       },
       "options": [
         {
@@ -46,23 +46,23 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": true,
-        "content": "<p>Quelles affirmations sont vraies concernant les Promises en JavaScript ?</p>"
+        "content": "<p>Which statements are true regarding Promises in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Une Promise peut avoir trois états : pending, fulfilled, et rejected</p>",
+          "content": "<p>A Promise can have three states: pending, fulfilled, and rejected</p>",
           "correct": true
         },
         {
-          "content": "<p>async/await est une syntaxe plus élégante pour gérer les Promises</p>",
+          "content": "<p>async/await is a more elegant syntax for handling Promises</p>",
           "correct": true
         },
         {
-          "content": "<p>Promise.all() rejette immédiatement si une seule Promise est rejetée</p>",
+          "content": "<p>Promise.all() rejects immediately if a single Promise is rejected</p>",
           "correct": true
         },
         {
-          "content": "<p>Les Promises peuvent être utilisées uniquement avec des fonctions asynchrones</p>"
+          "content": "<p>Promises can only be used with asynchronous functions</p>"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<p>Considérant le code suivant, quelle est la valeur de 'result' ?</p><pre>const arr = [1, 2, 3, 4, 5];\nconst result = arr.reduce((acc, curr) => acc + curr, 0);</pre>"
+        "content": "<p>Considering the following code, what is the value of 'result'?</p><pre>const arr = [1, 2, 3, 4, 5];\nconst result = arr.reduce((acc, curr) => acc + curr, 0);</pre>"
       },
       "options": [
         {
@@ -92,11 +92,11 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<p>Quelle méthode est la plus appropriée pour gérer les erreurs dans une fonction asynchrone ?</p>"
+        "content": "<p>What is the most appropriate method for handling errors in an asynchronous function?</p>"
       },
       "options": [
         {
-          "content": "<p>try/catch avec async/await</p>",
+          "content": "<p>try/catch with async/await</p>",
           "correct": true
         },
         {
@@ -113,7 +113,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le comportement du code suivant ?</p><pre>console.log(1);\nsetTimeout(() => console.log(2), 0);\nPromise.resolve().then(() => console.log(3));\nconsole.log(4);</pre>"
+        "content": "<p>What is the behavior of the following code?</p><pre>console.log(1);\nsetTimeout(() => console.log(2), 0);\nPromise.resolve().then(() => console.log(3));\nconsole.log(4);</pre>"
       },
       "options": [
         {
@@ -134,7 +134,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment déclarer correctement une classe qui hérite d'une autre classe ?</p>"
+        "content": "<p>How do you correctly declare a class that inherits from another class?</p>"
       },
       "options": [
         {
@@ -155,7 +155,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les méthodes appropriées pour gérer les événements DOM ?</p>"
+        "content": "<p>What are the appropriate methods for handling DOM events?</p>"
       },
       "options": [
         {
@@ -178,28 +178,28 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la différence principale entre let et var ?</p>"
+        "content": "<p>What is the main difference between let and var?</p>"
       },
       "options": [
         {
-          "content": "<p>let est block-scoped, var est function-scoped</p>",
+          "content": "<p>let is block-scoped, var is function-scoped</p>",
           "correct": true
         },
         {
-          "content": "<p>let ne peut pas être réassigné</p>"
+          "content": "<p>let cannot be reassigned</p>"
         },
         {
-          "content": "<p>var est plus rapide que let</p>"
+          "content": "<p>var is faster than let</p>"
         },
         {
-          "content": "<p>let n'existe qu'en ES6+</p>"
+          "content": "<p>let only exists in ES6+</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment créer une copie profonde d'un objet complexe en JavaScript ?</p>"
+        "content": "<p>How do you create a deep copy of a complex object in JavaScript?</p>"
       },
       "options": [
         {
@@ -220,22 +220,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour optimiser les performances en JavaScript ?</p>"
+        "content": "<p>What are the best practices for optimizing performance in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser requestAnimationFrame pour les animations</p>",
+          "content": "<p>Use requestAnimationFrame for animations</p>",
           "correct": true
         },
         {
-          "content": "<p>Éviter les manipulations DOM inutiles</p>",
+          "content": "<p>Avoid unnecessary DOM manipulations</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser eval() pour le code dynamique</p>"
+          "content": "<p>Use eval() for dynamic code</p>"
         },
         {
-          "content": "<p>Implémenter la délégation d'événements</p>",
+          "content": "<p>Implement event delegation</p>",
           "correct": true
         }
       ]
@@ -243,7 +243,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>['1', '2', '3'].map(parseInt)</pre>"
+        "content": "<p>What is the result of the following expression?</p><pre>['1', '2', '3'].map(parseInt)</pre>"
       },
       "options": [
         {
@@ -264,43 +264,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment gérer correctement une erreur dans une Promise ?</p>"
+        "content": "<p>How to properly handle an error in a Promise?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser .catch()</p>",
+          "content": "<p>Use .catch()</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser try/catch</p>"
+          "content": "<p>Use try/catch</p>"
         },
         {
-          "content": "<p>Utiliser window.onerror</p>"
+          "content": "<p>Use window.onerror</p>"
         },
         {
-          "content": "<p>Utiliser throw</p>"
+          "content": "<p>Use throw</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles affirmations sont vraies concernant les closures en JavaScript ?</p>"
+        "content": "<p>Which statements are true about closures in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Elles peuvent accéder aux variables de leur scope parent</p>",
+          "content": "<p>They can access variables from their parent scope</p>",
           "correct": true
         },
         {
-          "content": "<p>Elles peuvent créer des fuites mémoire si mal utilisées</p>",
+          "content": "<p>They can create memory leaks if misused</p>",
           "correct": true
         },
         {
-          "content": "<p>Elles sont toujours asynchrones</p>"
+          "content": "<p>They are always asynchronous</p>"
         },
         {
-          "content": "<p>Elles permettent l'encapsulation de données</p>",
+          "content": "<p>They allow data encapsulation</p>",
           "correct": true
         }
       ]
@@ -308,7 +308,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon de comparer deux objets en JavaScript ?</p>"
+        "content": "<p>What is the best way to compare two objects in JavaScript?</p>"
       },
       "options": [
         {
@@ -329,7 +329,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le résultat de l'expression suivante ?</p><pre>console.log(0.1 + 0.2 === 0.3);</pre>"
+        "content": "<p>What is the result of the following expression?</p><pre>console.log(0.1 + 0.2 === 0.3);</pre>"
       },
       "options": [
         {
@@ -350,7 +350,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle méthode est utilisée pour créer un nouvel élément DOM ?</p>"
+        "content": "<p>Which method is used to create a new DOM element?</p>"
       },
       "options": [
         {
@@ -371,22 +371,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les caractéristiques des arrow functions ?</p>"
+        "content": "<p>What are the characteristics of arrow functions?</p>"
       },
       "options": [
         {
-          "content": "<p>Elles n'ont pas leur propre this</p>",
+          "content": "<p>They don't have their own this</p>",
           "correct": true
         },
         {
-          "content": "<p>Elles ne peuvent pas être utilisées comme constructeurs</p>",
+          "content": "<p>They cannot be used as constructors</p>",
           "correct": true
         },
         {
-          "content": "<p>Elles sont toujours asynchrones</p>"
+          "content": "<p>They are always asynchronous</p>"
         },
         {
-          "content": "<p>Elles ont une syntaxe plus concise</p>",
+          "content": "<p>They have a more concise syntax</p>",
           "correct": true
         }
       ]
@@ -394,7 +394,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment déclarer une variable qui ne peut pas être réassignée ?</p>"
+        "content": "<p>How to declare a variable that cannot be reassigned?</p>"
       },
       "options": [
         {
@@ -415,7 +415,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la méthode recommandée pour copier un tableau ?</p>"
+        "content": "<p>What is the recommended method to copy an array?</p>"
       },
       "options": [
         {
@@ -436,22 +436,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les caractéristiques des Set en JavaScript ?</p>"
+        "content": "<p>What are the characteristics of Sets in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Les valeurs sont uniques</p>",
+          "content": "<p>Values are unique</p>",
           "correct": true
         },
         {
-          "content": "<p>L'ordre des éléments est préservé</p>",
+          "content": "<p>The order of elements is preserved</p>",
           "correct": true
         },
         {
-          "content": "<p>Peut contenir des doublons</p>"
+          "content": "<p>Can contain duplicates</p>"
         },
         {
-          "content": "<p>Accepte n'importe quel type de valeur</p>",
+          "content": "<p>Accepts any type of value</p>",
           "correct": true
         }
       ]
@@ -459,7 +459,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le résultat de cette expression ?</p><pre>const obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);</pre>"
+        "content": "<p>What is the result of this expression?</p><pre>const obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);</pre>"
       },
       "options": [
         {
@@ -480,22 +480,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques de sécurité en JavaScript ?</p>"
+        "content": "<p>What are the security best practices in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Valider les entrées utilisateur</p>",
+          "content": "<p>Validate user inputs</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser HTTPS pour les requêtes API</p>",
+          "content": "<p>Use HTTPS for API requests</p>",
           "correct": true
         },
         {
-          "content": "<p>Stocker les tokens JWT dans localStorage</p>"
+          "content": "<p>Store JWT tokens in localStorage</p>"
         },
         {
-          "content": "<p>Échapper les données HTML</p>",
+          "content": "<p>Escape HTML data</p>",
           "correct": true
         }
       ]
@@ -503,28 +503,28 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la différence entre Map et WeakMap ?</p>"
+        "content": "<p>What's the difference between Map and WeakMap?</p>"
       },
       "options": [
         {
-          "content": "<p>WeakMap accepte uniquement des objets comme clés</p>",
+          "content": "<p>WeakMap only accepts objects as keys</p>",
           "correct": true
         },
         {
-          "content": "<p>Map est plus rapide que WeakMap</p>"
+          "content": "<p>Map is faster than WeakMap</p>"
         },
         {
-          "content": "<p>WeakMap peut être itéré</p>"
+          "content": "<p>WeakMap can be iterated</p>"
         },
         {
-          "content": "<p>Map utilise plus de mémoire</p>"
+          "content": "<p>Map uses more memory</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment détecter si un objet est itérable ?</p>"
+        "content": "<p>How to detect if an object is iterable?</p>"
       },
       "options": [
         {
@@ -545,22 +545,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les caractéristiques des Web Workers ?</p>"
+        "content": "<p>What are the characteristics of Web Workers?</p>"
       },
       "options": [
         {
-          "content": "<p>Ils s'exécutent dans un thread séparé</p>",
+          "content": "<p>They run in a separate thread</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils n'ont pas accès au DOM</p>",
+          "content": "<p>They don't have access to the DOM</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils peuvent modifier directement l'interface utilisateur</p>"
+          "content": "<p>They can directly modify the user interface</p>"
         },
         {
-          "content": "<p>Ils communiquent via postMessage</p>",
+          "content": "<p>They communicate via postMessage</p>",
           "correct": true
         }
       ]
@@ -568,129 +568,129 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon d'implémenter un singleton en JavaScript moderne ?</p>"
+        "content": "<p>What's the best way to implement a singleton in modern JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser un module ES6</p>",
+          "content": "<p>Use an ES6 module</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser une classe avec un constructeur privé</p>"
+          "content": "<p>Use a class with a private constructor</p>"
         },
         {
-          "content": "<p>Utiliser Object.create</p>"
+          "content": "<p>Use Object.create</p>"
         },
         {
-          "content": "<p>Utiliser une fonction constructeur</p>"
+          "content": "<p>Use a constructor function</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment gérer correctement une erreur dans une fonction async/await ?</p>"
+        "content": "<p>How to properly handle an error in an async/await function?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser try/catch</p>",
+          "content": "<p>Use try/catch</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser .catch()</p>"
+          "content": "<p>Use .catch()</p>"
         },
         {
-          "content": "<p>Utiliser window.onerror</p>"
+          "content": "<p>Use window.onerror</p>"
         },
         {
-          "content": "<p>Utiliser Promise.catch()</p>"
+          "content": "<p>Use Promise.catch()</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les méthodes valides pour déboguer du code JavaScript ?</p>"
+        "content": "<p>What are valid methods for debugging JavaScript code?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser console.trace()</p>",
+          "content": "<p>Use console.trace()</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser debugger;</p>",
+          "content": "<p>Use debugger;</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser les points d'arrêt des DevTools</p>",
+          "content": "<p>Use DevTools breakpoints</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser alert()</p>"
+          "content": "<p>Use alert()</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la différence entre null et undefined ?</p>"
+        "content": "<p>What's the difference between null and undefined?</p>"
       },
       "options": [
         {
-          "content": "<p>undefined est l'absence de valeur, null est une valeur explicitement vide</p>",
+          "content": "<p>undefined is the absence of value, null is an explicitly empty value</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils sont exactement identiques</p>"
+          "content": "<p>They are exactly the same</p>"
         },
         {
-          "content": "<p>null est un bug dans JavaScript</p>"
+          "content": "<p>null is a bug in JavaScript</p>"
         },
         {
-          "content": "<p>undefined ne peut pas être assigné</p>"
+          "content": "<p>undefined cannot be assigned</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment optimiser une boucle pour de meilleures performances ?</p>"
+        "content": "<p>How to optimize a loop for better performance?</p>"
       },
       "options": [
         {
-          "content": "<p>Cacher la longueur du tableau dans une variable</p>",
+          "content": "<p>Cache the array length in a variable</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser toujours forEach</p>"
+          "content": "<p>Always use forEach</p>"
         },
         {
-          "content": "<p>Utiliser for...in pour les tableaux</p>"
+          "content": "<p>Use for...in for arrays</p>"
         },
         {
-          "content": "<p>Utiliser while au lieu de for</p>"
+          "content": "<p>Use while instead of for</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les caractéristiques des Generators ?</p>"
+        "content": "<p>What are the characteristics of Generators?</p>"
       },
       "options": [
         {
-          "content": "<p>Ils peuvent être pausés et repris</p>",
+          "content": "<p>They can be paused and resumed</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils utilisent yield pour retourner des valeurs</p>",
+          "content": "<p>They use yield to return values</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils sont toujours asynchrones</p>"
+          "content": "<p>They are always asynchronous</p>"
         },
         {
-          "content": "<p>Ils peuvent maintenir un état interne</p>",
+          "content": "<p>They can maintain an internal state</p>",
           "correct": true
         }
       ]
@@ -698,85 +698,85 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon d'implémenter l'héritage en JavaScript moderne ?</p>"
+        "content": "<p>What is the best way to implement inheritance in modern JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser extends avec des classes</p>",
+          "content": "<p>Use extends with classes</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser Object.create</p>"
+          "content": "<p>Use Object.create</p>"
         },
         {
-          "content": "<p>Utiliser prototype directement</p>"
+          "content": "<p>Use prototype directly</p>"
         },
         {
-          "content": "<p>Utiliser mixins</p>"
+          "content": "<p>Use mixins</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment implémenter correctement une file d'attente (queue) en JavaScript ?</p>"
+        "content": "<p>How to correctly implement a queue in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser push() et shift()</p>",
+          "content": "<p>Use push() and shift()</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser push() et pop()</p>"
+          "content": "<p>Use push() and pop()</p>"
         },
         {
-          "content": "<p>Utiliser unshift() et pop()</p>"
+          "content": "<p>Use unshift() and pop()</p>"
         },
         {
-          "content": "<p>Utiliser concat() et slice()</p>"
+          "content": "<p>Use concat() and slice()</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure pratique pour gérer les dates en JavaScript ?</p>"
+        "content": "<p>What is the best practice for handling dates in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser une bibliothèque comme Day.js ou date-fns</p>",
+          "content": "<p>Use a library like Day.js or date-fns</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser new Date() directement</p>"
+          "content": "<p>Use new Date() directly</p>"
         },
         {
-          "content": "<p>Utiliser Date.parse()</p>"
+          "content": "<p>Use Date.parse()</p>"
         },
         {
-          "content": "<p>Manipuler les timestamps Unix</p>"
+          "content": "<p>Manipulate Unix timestamps</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour les tests unitaires en JavaScript ?</p>"
+        "content": "<p>What are the best practices for unit testing in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Tester les cas limites</p>",
+          "content": "<p>Test edge cases</p>",
           "correct": true
         },
         {
-          "content": "<p>Isoler les tests</p>",
+          "content": "<p>Isolate tests</p>",
           "correct": true
         },
         {
-          "content": "<p>Tester uniquement le happy path</p>"
+          "content": "<p>Only test the happy path</p>"
         },
         {
-          "content": "<p>Utiliser des mocks appropriés</p>",
+          "content": "<p>Use appropriate mocks</p>",
           "correct": true
         }
       ]
@@ -784,64 +784,64 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la différence principale entre localStorage et sessionStorage ?</p>"
+        "content": "<p>What is the main difference between localStorage and sessionStorage?</p>"
       },
       "options": [
         {
-          "content": "<p>sessionStorage expire à la fermeture de l'onglet</p>",
+          "content": "<p>sessionStorage expires when the tab is closed</p>",
           "correct": true
         },
         {
-          "content": "<p>localStorage a une limite de taille plus grande</p>"
+          "content": "<p>localStorage has a larger size limit</p>"
         },
         {
-          "content": "<p>sessionStorage est plus sécurisé</p>"
+          "content": "<p>sessionStorage is more secure</p>"
         },
         {
-          "content": "<p>localStorage est plus rapide</p>"
+          "content": "<p>localStorage is faster</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment implémenter une fonction memoize en JavaScript ?</p>"
+        "content": "<p>How to implement a memoize function in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser une closure avec un cache Map</p>",
+          "content": "<p>Use a closure with a Map cache</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser un objet global</p>"
+          "content": "<p>Use a global object</p>"
         },
         {
-          "content": "<p>Utiliser localStorage</p>"
+          "content": "<p>Use localStorage</p>"
         },
         {
-          "content": "<p>Utiliser une variable statique</p>"
+          "content": "<p>Use a static variable</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les caractéristiques des Proxy en JavaScript ?</p>"
+        "content": "<p>What are the characteristics of Proxies in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Ils peuvent intercepter les opérations sur les objets</p>",
+          "content": "<p>They can intercept operations on objects</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils permettent la validation personnalisée</p>",
+          "content": "<p>They allow custom validation</p>",
           "correct": true
         },
         {
-          "content": "<p>Ils modifient l'objet original</p>"
+          "content": "<p>They modify the original object</p>"
         },
         {
-          "content": "<p>Ils peuvent implémenter des getters/setters virtuels</p>",
+          "content": "<p>They can implement virtual getters/setters</p>",
           "correct": true
         }
       ]
@@ -849,64 +849,64 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon de gérer les erreurs de réseau en JavaScript ?</p>"
+        "content": "<p>What is the best way to handle network errors in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser try/catch avec async/await</p>",
+          "content": "<p>Use try/catch with async/await</p>",
           "correct": true
         },
         {
-          "content": "<p>Vérifier window.navigator.onLine</p>"
+          "content": "<p>Check window.navigator.onLine</p>"
         },
         {
-          "content": "<p>Utiliser XMLHttpRequest</p>"
+          "content": "<p>Use XMLHttpRequest</p>"
         },
         {
-          "content": "<p>Utiliser alert() pour les erreurs</p>"
+          "content": "<p>Use alert() for errors</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure approche pour gérer l'état global en JavaScript moderne ?</p>"
+        "content": "<p>What is the best approach for managing global state in modern JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser un gestionnaire d'état comme Redux ou MobX</p>",
+          "content": "<p>Use a state manager like Redux or MobX</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser des variables globales</p>"
+          "content": "<p>Use global variables</p>"
         },
         {
-          "content": "<p>Utiliser localStorage</p>"
+          "content": "<p>Use localStorage</p>"
         },
         {
-          "content": "<p>Passer l'état via les props</p>"
+          "content": "<p>Pass state through props</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour l'accessibilité en JavaScript ?</p>"
+        "content": "<p>What are the best practices for accessibility in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser des rôles ARIA appropriés</p>",
+          "content": "<p>Use appropriate ARIA roles</p>",
           "correct": true
         },
         {
-          "content": "<p>Gérer la navigation au clavier</p>",
+          "content": "<p>Handle keyboard navigation</p>",
           "correct": true
         },
         {
-          "content": "<p>Ignorer les lecteurs d'écran</p>"
+          "content": "<p>Ignore screen readers</p>"
         },
         {
-          "content": "<p>Maintenir l'ordre de focus</p>",
+          "content": "<p>Maintain focus order</p>",
           "correct": true
         }
       ]
@@ -914,64 +914,64 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment gérer efficacement la mémoire en JavaScript ?</p>"
+        "content": "<p>How to effectively manage memory in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Éviter les références circulaires</p>",
+          "content": "<p>Avoid circular references</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser beaucoup de closures</p>"
+          "content": "<p>Use lots of closures</p>"
         },
         {
-          "content": "<p>Garder les références globales</p>"
+          "content": "<p>Keep global references</p>"
         },
         {
-          "content": "<p>Ne pas utiliser le garbage collector</p>"
+          "content": "<p>Don't use the garbage collector</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure pratique pour implémenter le lazy loading des images ?</p>"
+        "content": "<p>What is the best practice for implementing image lazy loading?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser l'attribut loading='lazy'</p>",
+          "content": "<p>Use the loading='lazy' attribute</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser setTimeout</p>"
+          "content": "<p>Use setTimeout</p>"
         },
         {
-          "content": "<p>Charger toutes les images au démarrage</p>"
+          "content": "<p>Load all images at startup</p>"
         },
         {
-          "content": "<p>Utiliser des GIFs comme placeholders</p>"
+          "content": "<p>Use GIFs as placeholders</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les bonnes pratiques pour l'optimisation des performances JavaScript ?</p>"
+        "content": "<p>What are the best practices for JavaScript performance optimization?</p>"
       },
       "options": [
         {
-          "content": "<p>Minimiser les manipulations DOM</p>",
+          "content": "<p>Minimize DOM manipulations</p>",
           "correct": true
         },
         {
-          "content": "<p>Utiliser la délégation d'événements</p>",
+          "content": "<p>Use event delegation</p>",
           "correct": true
         },
         {
-          "content": "<p>Éviter la compression des fichiers</p>"
+          "content": "<p>Avoid file compression</p>"
         },
         {
-          "content": "<p>Utiliser le code splitting</p>",
+          "content": "<p>Use code splitting</p>",
           "correct": true
         }
       ]
@@ -979,28 +979,28 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment implémenter correctement un système de cache en JavaScript ?</p>"
+        "content": "<p>How to properly implement a caching system in JavaScript?</p>"
       },
       "options": [
         {
-          "content": "<p>Utiliser Service Workers avec Cache API</p>",
+          "content": "<p>Use Service Workers with Cache API</p>",
           "correct": true
         },
         {
-          "content": "<p>Stocker tout dans localStorage</p>"
+          "content": "<p>Store everything in localStorage</p>"
         },
         {
-          "content": "<p>Utiliser des variables globales</p>"
+          "content": "<p>Use global variables</p>"
         },
         {
-          "content": "<p>Désactiver le cache du navigateur</p>"
+          "content": "<p>Disable browser cache</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles méthodes peuvent être utilisées pour cloner un objet en JavaScript ?</p>"
+        "content": "<p>What methods can be used to clone an object in JavaScript?</p>"
       },
       "options": [
         {
@@ -1023,7 +1023,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le résultat de cette expression ?</p><pre>const arr = [1, 2, 3];\nconst [,, x] = arr;\nconsole.log(x);</pre>"
+        "content": "<p>What is the result of this expression?</p><pre>const arr = [1, 2, 3];\nconst [,, x] = arr;\nconsole.log(x);</pre>"
       },
       "options": [
         {
@@ -1044,7 +1044,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment peut-on vérifier si un objet est une instance d'une classe particulière ?</p>"
+        "content": "<p>How can you check if an object is an instance of a particular class?</p>"
       },
       "options": [
         {
@@ -1065,22 +1065,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles affirmations sont vraies concernant les modules ES6 ?</p>"
+        "content": "<p>Which statements are true regarding ES6 modules?</p>"
       },
       "options": [
         {
-          "content": "<p>Les modules sont exécutés en mode strict par défaut</p>",
+          "content": "<p>Modules are executed in strict mode by default</p>",
           "correct": true
         },
         {
-          "content": "<p>Les modules peuvent avoir plusieurs exports par défaut</p>"
+          "content": "<p>Modules can have multiple default exports</p>"
         },
         {
-          "content": "<p>Les imports sont hoisted</p>",
+          "content": "<p>Imports are hoisted</p>",
           "correct": true
         },
         {
-          "content": "<p>Les modules ont leur propre scope</p>",
+          "content": "<p>Modules have their own scope</p>",
           "correct": true
         }
       ]

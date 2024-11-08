@@ -1,137 +1,137 @@
 {
-  "title": "SQL",
-  "attributes": {
-    "overview": "Ce test SQL évalue la capacité des candidats à écrire, comprendre et optimiser des requêtes SQL. Il couvre les concepts fondamentaux ainsi que les techniques avancées de manipulation de données.",
-    "level": "intermediate",
-    "covered_skills": [
-      "Requêtes SQL de base (SELECT, INSERT, UPDATE, DELETE)",
-      "Jointures et sous-requêtes",
-      "Fonctions d'agrégation",
-      "Optimisation des requêtes"
+  "title":"SQL",
+  "attributes":{
+    "overview":"This SQL test evaluates candidates' ability to write, understand and optimize SQL queries. It covers fundamental concepts as well as advanced data manipulation techniques.",
+    "level":"intermediate",
+    "covered_skills":[
+      "Basic SQL queries (SELECT, INSERT, UPDATE, DELETE)",
+      "Joins and subqueries",
+      "Aggregation functions",
+      "Query optimization"
     ],
-    "relevancy": "Développeurs, Analystes de données, Administrateurs de base de données",
-    "description": "La maîtrise du SQL est essentielle pour tout professionnel travaillant avec des bases de données. Ce test évalue la compréhension des concepts SQL et la capacité à résoudre des problèmes courants de manipulation de données.",
-    "category": "Programming skills",
-    "language": "french",
-    "questions_to_answer": 15,
-    "duration_seconds": 600,
-    "position": 1
+    "relevancy":"Developers, Data Analysts, Database Administrators",
+    "description":"SQL mastery is essential for any professional working with databases. This test evaluates the understanding of SQL concepts and the ability to solve common data manipulation problems.",
+    "category":"Programming skills",
+    "language":"english",
+    "questions_to_answer":15,
+    "duration_seconds":600,
+    "position":1
   },
-  "questions": [
+  "questions":[
     {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<p>Quelle commande SQL est utilisée pour extraire des données d'une base de données ?</p>"
+      "question_attributes":{
+        "type":"multiple_choice",
+        "preview":true,
+        "content":"<p>Which SQL command is used to extract data from a database?</p>"
       },
-      "options": [
+      "options":[
         {
-          "content": "<p>SELECT</p>",
-          "correct": true
+          "content":"<p>SELECT</p>",
+          "correct":true
         },
         {
-          "content": "<p>EXTRACT</p>"
+          "content":"<p>EXTRACT</p>"
         },
         {
-          "content": "<p>GET</p>"
+          "content":"<p>GET</p>"
         },
         {
-          "content": "<p>OBTAIN</p>"
+          "content":"<p>OBTAIN</p>"
         }
       ]
     },
     {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<p>Quelle clause est utilisée pour filtrer les résultats dans une requête SQL ?</p>"
+      "question_attributes":{
+        "type":"multiple_choice",
+        "preview":true,
+        "content":"<p>Which clause is used to filter results in an SQL query?</p>"
       },
-      "options": [
+      "options":[
         {
-          "content": "<p>FILTER</p>"
+          "content":"<p>FILTER</p>"
         },
         {
-          "content": "<p>WHERE</p>",
-          "correct": true
+          "content":"<p>WHERE</p>",
+          "correct":true
         },
         {
-          "content": "<p>HAVING</p>"
+          "content":"<p>HAVING</p>"
         },
         {
-          "content": "<p>SEARCH</p>"
+          "content":"<p>SEARCH</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes":{
+        "type":"multiple_response",
+        "preview":true,
+        "content":"<p>What types of joins exist in SQL?</p>"
+      },
+      "options":[
+        {
+          "content":"<p>INNER JOIN</p>",
+          "correct":true
+        },
+        {
+          "content":"<p>LEFT JOIN</p>",
+          "correct":true
+        },
+        {
+          "content":"<p>MIDDLE JOIN</p>"
+        },
+        {
+          "content":"<p>RIGHT JOIN</p>",
+          "correct":true
+        }
+      ]
+    },
+    {
+      "question_attributes":{
+        "type":"multiple_choice",
+        "content":"<p>How do you add a new column to an existing table?</p>"
+      },
+      "options":[
+        {
+          "content":"<p>ADD COLUMN</p>"
+        },
+        {
+          "content":"<p>ALTER TABLE ADD COLUMN</p>",
+          "correct":true
+        },
+        {
+          "content":"<p>MODIFY TABLE</p>"
+        },
+        {
+          "content":"<p>INSERT COLUMN</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes":{
+        "type":"multiple_choice",
+        "content":"<p>Which function is used to count the number of rows in a table?</p>"
+      },
+      "options":[
+        {
+          "content":"<p>SUM()</p>"
+        },
+        {
+          "content":"<p>NUMBER()</p>"
+        },
+        {
+          "content":"<p>COUNT(*)</p>",
+          "correct":true
+        },
+        {
+          "content":"<p>TOTAL()</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "preview": true,
-        "content": "<p>Quels types de jointures existent en SQL ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>INNER JOIN</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>LEFT JOIN</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>MIDDLE JOIN</p>"
-        },
-        {
-          "content": "<p>RIGHT JOIN</p>",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Comment ajouter une nouvelle colonne à une table existante ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>ADD COLUMN</p>"
-        },
-        {
-          "content": "<p>ALTER TABLE ADD COLUMN</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>MODIFY TABLE</p>"
-        },
-        {
-          "content": "<p>INSERT COLUMN</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle fonction permet de compter le nombre de lignes dans une table ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>SUM()</p>"
-        },
-        {
-          "content": "<p>NUMBER()</p>"
-        },
-        {
-          "content": "<p>COUNT(*)</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>TOTAL()</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Quelles sont les contraintes valides en SQL ?</p>"
+        "content": "<p>What are the valid constraints in SQL?</p>"
       },
       "options": [
         {
@@ -154,7 +154,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande est utilisée pour supprimer une table entière de la base de données ?</p>"
+        "content": "<p>Which command is used to delete an entire table from the database?</p>"
       },
       "options": [
         {
@@ -175,7 +175,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle clause SQL est utilisée pour trier les résultats ?</p>"
+        "content": "<p>Which SQL clause is used to sort results?</p>"
       },
       "options": [
         {
@@ -196,7 +196,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles fonctions d'agrégation sont disponibles en SQL ?</p>"
+        "content": "<p>Which aggregate functions are available in SQL?</p>"
       },
       "options": [
         {
@@ -219,7 +219,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment sélectionner des valeurs uniques dans une colonne ?</p>"
+        "content": "<p>How do you select unique values in a column?</p>"
       },
       "options": [
         {
@@ -240,7 +240,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle clause est utilisée pour grouper des lignes ayant les mêmes valeurs ?</p>"
+        "content": "<p>Which clause is used to group rows with the same values?</p>"
       },
       "options": [
         {
@@ -261,7 +261,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les types de données valides en SQL ?</p>"
+        "content": "<p>What are the valid data types in SQL?</p>"
       },
       "options": [
         {
@@ -284,7 +284,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande est utilisée pour modifier des données existantes dans une table ?</p>"
+        "content": "<p>Which command is used to modify existing data in a table?</p>"
       },
       "options": [
         {
@@ -305,7 +305,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment limiter le nombre de lignes retournées dans une requête ?</p>"
+        "content": "<p>How do you limit the number of rows returned in a query?</p>"
       },
       "options": [
         {
@@ -326,7 +326,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels opérateurs peuvent être utilisés avec la clause WHERE ?</p>"
+        "content": "<p>Which operators can be used with the WHERE clause?</p>"
       },
       "options": [
         {
@@ -349,7 +349,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande est utilisée pour créer une nouvelle base de données ?</p>"
+        "content": "<p>Which command is used to create a new database?</p>"
       },
       "options": [
         {
@@ -370,7 +370,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment ajouter une nouvelle ligne dans une table ?</p>"
+        "content": "<p>How do you add a new row to a table?</p>"
       },
       "options": [
         {
@@ -391,15 +391,15 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les propriétés ACID d'une transaction SQL ?</p>"
+        "content": "<p>What are the ACID properties of a SQL transaction?</p>"
       },
       "options": [
         {
-          "content": "<p>Atomicité</p>",
+          "content": "<p>Atomicity</p>",
           "correct": true
         },
         {
-          "content": "<p>Cohérence</p>",
+          "content": "<p>Consistency</p>",
           "correct": true
         },
         {
@@ -407,7 +407,7 @@
           "correct": true
         },
         {
-          "content": "<p>Durabilité</p>",
+          "content": "<p>Durability</p>",
           "correct": true
         }
       ]
@@ -415,7 +415,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande permet de renommer une table ?</p>"
+        "content": "<p>Which command is used to rename a table?</p>"
       },
       "options": [
         {
@@ -436,7 +436,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment supprimer toutes les lignes d'une table sans supprimer la table elle-même ?</p>"
+        "content": "<p>How do you delete all rows from a table without deleting the table itself?</p>"
       },
       "options": [
         {
@@ -457,22 +457,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les indices valides en SQL ?</p>"
+        "content": "<p>What are valid indexes in SQL?</p>"
       },
       "options": [
         {
-          "content": "<p>INDEX UNIQUE</p>",
+          "content": "<p>UNIQUE INDEX</p>",
           "correct": true
         },
         {
-          "content": "<p>INDEX CLUSTERING</p>",
+          "content": "<p>CLUSTERING INDEX</p>",
           "correct": true
         },
         {
-          "content": "<p>INDEX SORTING</p>"
+          "content": "<p>SORTING INDEX</p>"
         },
         {
-          "content": "<p>INDEX BITMAP</p>",
+          "content": "<p>BITMAP INDEX</p>",
           "correct": true
         }
       ]
@@ -480,7 +480,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle clause est utilisée pour filtrer les résultats après un GROUP BY ?</p>"
+        "content": "<p>Which clause is used to filter results after a GROUP BY?</p>"
       },
       "options": [
         {
@@ -501,7 +501,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment créer une vue en SQL ?</p>"
+        "content": "<p>How do you create a view in SQL?</p>"
       },
       "options": [
         {
@@ -522,22 +522,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les types de sous-requêtes en SQL ?</p>"
+        "content": "<p>What are the types of subqueries in SQL?</p>"
       },
       "options": [
         {
-          "content": "<p>Sous-requête scalaire</p>",
+          "content": "<p>Scalar subquery</p>",
           "correct": true
         },
         {
-          "content": "<p>Sous-requête corrélée</p>",
+          "content": "<p>Correlated subquery</p>",
           "correct": true
         },
         {
-          "content": "<p>Sous-requête multiple</p>"
+          "content": "<p>Multiple subquery</p>"
         },
         {
-          "content": "<p>Sous-requête de ligne</p>",
+          "content": "<p>Row subquery</p>",
           "correct": true
         }
       ]
@@ -545,7 +545,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle fonction retourne la longueur d'une chaîne de caractères ?</p>"
+        "content": "<p>Which function returns the length of a string?</p>"
       },
       "options": [
         {
@@ -566,7 +566,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment obtenir la date actuelle en SQL ?</p>"
+        "content": "<p>How to get the current date in SQL?</p>"
       },
       "options": [
         {
@@ -587,7 +587,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les clauses valides pour une requête SELECT ?</p>"
+        "content": "<p>Which clauses are valid for a SELECT query?</p>"
       },
       "options": [
         {
@@ -610,7 +610,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande est utilisée pour créer un index sur une table ?</p>"
+        "content": "<p>Which command is used to create an index on a table?</p>"
       },
       "options": [
         {
@@ -631,7 +631,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment combiner deux requêtes qui retournent la même structure de résultats ?</p>"
+        "content": "<p>How to combine two queries that return the same result structure?</p>"
       },
       "options": [
         {
@@ -652,7 +652,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les types de jointures externes en SQL ?</p>"
+        "content": "<p>What are the types of outer joins in SQL?</p>"
       },
       "options": [
         {
@@ -675,7 +675,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle fonction permet de concaténer des chaînes en SQL ?</p>"
+        "content": "<p>Which function is used to concatenate strings in SQL?</p>"
       },
       "options": [
         {
@@ -696,7 +696,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment convertir une chaîne en majuscules ?</p>"
+        "content": "<p>How to convert a string to uppercase?</p>"
       },
       "options": [
         {
@@ -717,7 +717,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les fonctions de date valides en SQL ?</p>"
+        "content": "<p>What are the valid date functions in SQL?</p>"
       },
       "options": [
         {
@@ -740,7 +740,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle clause permet d'éviter les doublons dans les résultats d'une requête UNION ?</p>"
+        "content": "<p>Which clause prevents duplicates in UNION query results?</p>"
       },
       "options": [
         {
@@ -761,7 +761,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment définir une valeur par défaut pour une colonne lors de la création d'une table ?</p>"
+        "content": "<p>How to set a default value for a column when creating a table?</p>"
       },
       "options": [
         {
@@ -782,22 +782,22 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les modes de verrouillage disponibles en SQL ?</p>"
+        "content": "<p>What are the available locking modes in SQL?</p>"
       },
       "options": [
         {
-          "content": "<p>Verrou partagé</p>",
+          "content": "<p>Shared lock</p>",
           "correct": true
         },
         {
-          "content": "<p>Verrou exclusif</p>",
+          "content": "<p>Exclusive lock</p>",
           "correct": true
         },
         {
-          "content": "<p>Verrou temporaire</p>"
+          "content": "<p>Temporary lock</p>"
         },
         {
-          "content": "<p>Verrou en mise à jour</p>",
+          "content": "<p>Update lock</p>",
           "correct": true
         }
       ]
@@ -805,7 +805,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande permet de modifier le type de données d'une colonne ?</p>"
+        "content": "<p>Which command is used to modify a column's data type?</p>"
       },
       "options": [
         {
@@ -826,7 +826,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment gérer les valeurs NULL dans une comparaison SQL ?</p>"
+        "content": "<p>How to handle NULL values in SQL comparison?</p>"
       },
       "options": [
         {
@@ -847,7 +847,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quelles sont les fonctions de chaîne couramment utilisées en SQL ?</p>"
+        "content": "<p>What are commonly used string functions in SQL?</p>"
       },
       "options": [
         {
@@ -870,7 +870,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la fonction pour arrondir un nombre décimal ?</p>"
+        "content": "<p>Which function is used to round a decimal number?</p>"
       },
       "options": [
         {
@@ -891,7 +891,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment créer une clé étrangère lors de la création d'une table ?</p>"
+        "content": "<p>How to create a foreign key when creating a table?</p>"
       },
       "options": [
         {
@@ -912,7 +912,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les niveaux d'isolation de transaction en SQL ?</p>"
+        "content": "<p>What are the transaction isolation levels in SQL?</p>"
       },
       "options": [
         {
@@ -935,7 +935,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle commande est utilisée pour sauvegarder les modifications dans une transaction ?</p>"
+        "content": "<p>Which command is used to save changes in a transaction?</p>"
       },
       "options": [
         {
@@ -956,7 +956,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Comment annuler les modifications dans une transaction ?</p>"
+        "content": "<p>How to cancel changes in a transaction?</p>"
       },
       "options": [
         {
@@ -977,7 +977,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<p>Quels sont les opérateurs de comparaison valides en SQL ?</p>"
+        "content": "<p>What are the valid comparison operators in SQL?</p>"
       },
       "options": [
         {
