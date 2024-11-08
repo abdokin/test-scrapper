@@ -1,21 +1,21 @@
 {
-  "title":"Ruby on Rails",
-  "attributes":{
-     "overview":"This Ruby on Rails test evaluates candidates' skills in using the Ruby on Rails framework. This test will help you identify candidates who can effectively use Ruby on Rails and work independently on development projects.",
-     "level":"intermediate",
-     "covered_skills":[
-        "Active Record",
-        "Action Controller and Routing",
-        "Action View and Action Helpers",
-        "Advanced Concepts"
-     ],
-     "relevancy":"Ruby on Rails developers and other programming roles requiring strong proficiency in the Ruby on Rails framework.",
-     "description":"The Ruby on Rails framework allows developers to create applications faster by focusing on functionality and application logic rather than standard code. Ruby on Rails also makes it easy to implement changes along the way, making the framework particularly suitable for Rapid Application Development (RAD).\n\nThis Ruby on Rails (RoR) test evaluates candidates' skills in using the framework by assessing them in the four essential areas of Ruby on Rails: Active Record, Action Controller and Routing, Action View and Action Helpers, and advanced concepts (such as Action Mailers and Worker Classes).\n\nThis screening test will help you identify candidates who have hands-on experience with Ruby on Rails and can solve typical problems that arise daily when working with Ruby on Rails applications. Through scenario-based questions that include code snippets and queries, the test focuses on candidates' practical skills and abilities and evaluates them to help you identify Ruby on Rails developers capable of solving real-world problems.",
-     "category":"Programming skills",
-     "language":"english",
-     "questions_to_answer":15,
-     "duration_seconds":600,
-     "position":1
+  "title": "Ruby on Rails",
+  "attributes": {
+    "overview": "This Ruby on Rails test evaluates candidates' skills in using the Ruby on Rails framework. This test will help you identify candidates who can effectively use Ruby on Rails and work independently on development projects.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Active Record",
+      "Action Controller and Routing",
+      "Action View and Action Helpers",
+      "Advanced Concepts"
+    ],
+    "relevancy": "Ruby on Rails developers and other programming roles requiring strong proficiency in the Ruby on Rails framework.",
+    "description": "The Ruby on Rails framework allows developers to create applications faster by focusing on functionality and application logic rather than standard code. Ruby on Rails also makes it easy to implement changes along the way, making the framework particularly suitable for Rapid Application Development (RAD).\n\nThis Ruby on Rails (RoR) test evaluates candidates' skills in using the framework by assessing them in the four essential areas of Ruby on Rails: Active Record, Action Controller and Routing, Action View and Action Helpers, and advanced concepts (such as Action Mailers and Worker Classes).\n\nThis screening test will help you identify candidates who have hands-on experience with Ruby on Rails and can solve typical problems that arise daily when working with Ruby on Rails applications. Through scenario-based questions that include code snippets and queries, the test focuses on candidates' practical skills and abilities and evaluates them to help you identify Ruby on Rails developers capable of solving real-world problems.",
+    "category": "Programming skills",
+    "language": "english",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
   },
   "questions": [
     {

@@ -1,130 +1,130 @@
 {
-  "title":"SQL",
-  "attributes":{
-    "overview":"This SQL test evaluates candidates' ability to write, understand and optimize SQL queries. It covers fundamental concepts as well as advanced data manipulation techniques.",
-    "level":"intermediate",
-    "covered_skills":[
+  "title": "SQL",
+  "attributes": {
+    "overview": "This SQL test evaluates candidates' ability to write, understand and optimize SQL queries. It covers fundamental concepts as well as advanced data manipulation techniques.",
+    "level": "intermediate",
+    "covered_skills": [
       "Basic SQL queries (SELECT, INSERT, UPDATE, DELETE)",
       "Joins and subqueries",
       "Aggregation functions",
       "Query optimization"
     ],
-    "relevancy":"Developers, Data Analysts, Database Administrators",
-    "description":"SQL mastery is essential for any professional working with databases. This test evaluates the understanding of SQL concepts and the ability to solve common data manipulation problems.",
-    "category":"Programming skills",
-    "language":"english",
-    "questions_to_answer":15,
-    "duration_seconds":600,
-    "position":1
+    "relevancy": "Developers, Data Analysts, Database Administrators",
+    "description": "SQL mastery is essential for any professional working with databases. This test evaluates the understanding of SQL concepts and the ability to solve common data manipulation problems.",
+    "category": "Programming skills",
+    "language": "english",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
   },
-  "questions":[
+  "questions": [
     {
-      "question_attributes":{
-        "type":"multiple_choice",
-        "preview":true,
-        "content":"<p>Which SQL command is used to extract data from a database?</p>"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Which SQL command is used to extract data from a database?</p>"
       },
-      "options":[
+      "options": [
         {
-          "content":"<p>SELECT</p>",
-          "correct":true
+          "content": "<p>SELECT</p>",
+          "correct": true
         },
         {
-          "content":"<p>EXTRACT</p>"
+          "content": "<p>EXTRACT</p>"
         },
         {
-          "content":"<p>GET</p>"
+          "content": "<p>GET</p>"
         },
         {
-          "content":"<p>OBTAIN</p>"
+          "content": "<p>OBTAIN</p>"
         }
       ]
     },
     {
-      "question_attributes":{
-        "type":"multiple_choice",
-        "preview":true,
-        "content":"<p>Which clause is used to filter results in an SQL query?</p>"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Which clause is used to filter results in an SQL query?</p>"
       },
-      "options":[
+      "options": [
         {
-          "content":"<p>FILTER</p>"
+          "content": "<p>FILTER</p>"
         },
         {
-          "content":"<p>WHERE</p>",
-          "correct":true
+          "content": "<p>WHERE</p>",
+          "correct": true
         },
         {
-          "content":"<p>HAVING</p>"
+          "content": "<p>HAVING</p>"
         },
         {
-          "content":"<p>SEARCH</p>"
+          "content": "<p>SEARCH</p>"
         }
       ]
     },
     {
-      "question_attributes":{
-        "type":"multiple_response",
-        "preview":true,
-        "content":"<p>What types of joins exist in SQL?</p>"
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>What types of joins exist in SQL?</p>"
       },
-      "options":[
+      "options": [
         {
-          "content":"<p>INNER JOIN</p>",
-          "correct":true
+          "content": "<p>INNER JOIN</p>",
+          "correct": true
         },
         {
-          "content":"<p>LEFT JOIN</p>",
-          "correct":true
+          "content": "<p>LEFT JOIN</p>",
+          "correct": true
         },
         {
-          "content":"<p>MIDDLE JOIN</p>"
+          "content": "<p>MIDDLE JOIN</p>"
         },
         {
-          "content":"<p>RIGHT JOIN</p>",
-          "correct":true
+          "content": "<p>RIGHT JOIN</p>",
+          "correct": true
         }
       ]
     },
     {
-      "question_attributes":{
-        "type":"multiple_choice",
-        "content":"<p>How do you add a new column to an existing table?</p>"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>How do you add a new column to an existing table?</p>"
       },
-      "options":[
+      "options": [
         {
-          "content":"<p>ADD COLUMN</p>"
+          "content": "<p>ADD COLUMN</p>"
         },
         {
-          "content":"<p>ALTER TABLE ADD COLUMN</p>",
-          "correct":true
+          "content": "<p>ALTER TABLE ADD COLUMN</p>",
+          "correct": true
         },
         {
-          "content":"<p>MODIFY TABLE</p>"
+          "content": "<p>MODIFY TABLE</p>"
         },
         {
-          "content":"<p>INSERT COLUMN</p>"
+          "content": "<p>INSERT COLUMN</p>"
         }
       ]
     },
     {
-      "question_attributes":{
-        "type":"multiple_choice",
-        "content":"<p>Which function is used to count the number of rows in a table?</p>"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Which function is used to count the number of rows in a table?</p>"
       },
-      "options":[
+      "options": [
         {
-          "content":"<p>SUM()</p>"
+          "content": "<p>SUM()</p>"
         },
         {
-          "content":"<p>NUMBER()</p>"
+          "content": "<p>NUMBER()</p>"
         },
         {
-          "content":"<p>COUNT(*)</p>",
-          "correct":true
+          "content": "<p>COUNT(*)</p>",
+          "correct": true
         },
         {
-          "content":"<p>TOTAL()</p>"
+          "content": "<p>TOTAL()</p>"
         }
       ]
     },
