@@ -12,18 +12,20 @@ function flipMap(map) {
 const categories_map = {
     cognitive_ability: 'Cognitive ability',
     programming_skills: 'Programming skills',
+    programming_skills_en: 'Programming skills EN',
     role_specific_skills: 'Role-specific skills',
     situational_judgment: 'Situational judgment',
-    software_skills: 'Software skills'
+    software_skills: 'Software skills',
+    software_skills_en: 'Software skills EN'
 };
 
 const category = parse_args();
 
 if (category) {
-    
+
     mergeCategoryData(category);
 } else {
-    
+
     Object.keys(categories_map).forEach(mergeCategoryData);
 }
 
@@ -45,7 +47,7 @@ function mergeCategoryData(category) {
 
     const outputFilename = join(__dirname, 'gists', `${categories_map[category] || category}.json`);
 
-    
+
     fs.writeFileSync(outputFilename, JSON.stringify(mergedData));
     console.log(`Merged data saved to: ${outputFilename}`);
 }
@@ -55,5 +57,5 @@ function parse_args() {
         console.error('Usage: node merge_json_data.js [category]');
         process.exit(1);
     }
-    return args[0] || null; 
+    return args[0] || null;
 }
