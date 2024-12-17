@@ -13,7 +13,7 @@
     "description": "Les employés qui maîtrisent l’anglais enrichiront les communications internes et externes de votre entreprise en exprimant clairement et efficacement des idées, en discutant des plans et des objectifs avec les clients et les collègues. Ils seront également capables de rédiger des rapports, des présentations et d’autres documents bien structurés en anglais afin de promouvoir la marque et les idées de l’entreprise auprès du monde extérieur.\n\nLe test d’anglais C1 (avancé) évalue la capacité du la candidat à communiquer au niveau C1 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition des phrases, de la compréhension de l’écrit et de l’oral.\n\nLes employés qui maîtrisent l’anglais peuvent s’exprimer couramment et spontanément sans trop chercher leurs mots. Ils peuvent comprendre des textes exigeants et plus longs et reconnaître le sens implicite dans les communications écrites et orales. Ils utilisent la langue de manière souple et efficace à des fins sociales, académiques et professionnelles et peuvent produire des textes détaillés sur des sujets complexes, en montrant une utilisation contrôlée des schémas d’organisation, des connecteurs et des dispositifs de cohésion.",
     "category": "language_proficiency",
     "language": "french",
-    "questio_answer": 16,
+    "questions_to_answer": 16,
     "duration_seconds": 720,
     "position": 1
   },
