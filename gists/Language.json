@@ -1935,27 +1935,6 @@
       {
         "question_attributes": {
           "type": "multiple_choice",
-          "content": "<p>Quel est le participe passé correct dans la phrase : 'Les efforts qu'elle a _____ ont porté leurs fruits.'</p>"
-        },
-        "options": [
-          {
-            "content": "<p>fait</p>"
-          },
-          {
-            "content": "<p>faits</p>"
-          },
-          {
-            "content": "<p>faite</p>"
-          },
-          {
-            "content": "<p>faits</p>",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question_attributes": {
-          "type": "multiple_choice",
           "content": "<p>Choisissez la bonne préposition : 'Il s'est absenté _____ trois jours.'</p>"
         },
         "options": [
