@@ -1,0 +1,913 @@
+{
+  "title": "Anglais C2 (Niveau Autonome)",
+  "attributes": {
+    "overview": "Le test d’anglais C2 (niveau autonome) évalue les compétences en anglais d’un candidat au niveau C2 du CECR. Cela vous aidera à embaucher des employés capables de créer des opportunités internationales pour votre organisation et d'améliorer la satisfaction, la fidélité, les revenus et la culture de vos clients.",
+    "level": "advanced",
+    "covered_skills": [
+      "Grammaire et vocabulaire",
+      "Construction des phrases",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Le test d’anglais (niveau autonome/C2) est pertinent pour les postes qui nécessitent des compétences de communication exceptionnelles, telles que le service client, les ventes, la gestion et les postes de direction dans les secteurs de l'hôtellerie, de la finance, de la technologie, de la santé et de l'éducation.",
+    "description": "Ce test de présélection en anglais (maitrise/C2) évalue les compétences des candidats au niveau C2 de l’anglais selon le Cadre européen commun de référence pour les langues (CECRL), qui est communément accepté comme étant un niveau natif. Ce test de présélection vous aidera à recruter des personnes qui sont capables de communiquer couramment et de collaborer efficacement avec des collègues et des clients dans des environnements commerciaux internationaux.\n\nLe test évalue les compétences des candidats dans des domaines clés de la langue anglaise, notamment la grammaire, le vocabulaire, la compréhension de l’écrit, la compréhension de l’oral et la composition des phrases. L’évaluation des candidats se fera sur la base de leur capacité à utiliser des structures grammaticales complexes de manière précise et efficace, à employer un large éventail de vocabulaire, à comprendre des textes complexes et à communiquer de manière claire et concise sur le lieu de travail.\n\nCe test de présélection vous aidera à identifier les candidats ayant les compétences nécessaires pour exceller dans des rôles qui nécessitent une communication exceptionnelle, tels que le service à la clientèle, la vente, la gestion et les postes de direction. Les candidats qui réussissent ce test aideront votre organisation à améliorer la satisfaction et la fidélité de sa clientèle, à augmenter ses revenus, à améliorer sa culture de la collaboration et de la productivité, à établir des relations solides et à créer de nouvelles opportunités avec les parties prenantes du monde entier.",
+    "category": "language_proficiency",
+    "langns_touage": "french",
+    "questio_answer": 16,
+    "duration_seconds": 720,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la meilleure traduction pour l'expression idiomatique : 'It's raining cats and dogs.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il pleut des chats et des chiens</p>"
+        },
+        {
+          "content": "<p>Il pleut à verse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il pleut doucement</p>"
+        },
+        {
+          "content": "<p>Il ne pleut pas beaucoup</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Identifiez la forme grammaticale correcte :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Had I known earlier, I will have helped.</p>"
+        },
+        {
+          "content": "<p>Had I known earlier, I would have helped.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>If I had knew earlier, I would have helped.</p>"
+        },
+        {
+          "content": "<p>If I known earlier, I would helped.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quels mots peuvent être utilisés comme synonymes de 'meticulous' dans un contexte professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Fastidious</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Precise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Careless</p>"
+        },
+        {
+          "content": "<p>Thorough</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'Despite the economic downturn, the company managed to _____ its market position.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>consolidate</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>consolidating</p>"
+        },
+        {
+          "content": "<p>consolidated</p>"
+        },
+        {
+          "content": "<p>to consolidate</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases utilisent correctement le subjonctif en anglais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I suggest that he be more careful.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>It is essential that everyone attend the meeting.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I wish he would be here.</p>"
+        },
+        {
+          "content": "<p>The committee demands that he appears tomorrow.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure reformulation de : 'The project was completed ahead of schedule, which pleased the client greatly.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The early completion of the project was to the client's great satisfaction.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The project being completed early made the client happy.</p>"
+        },
+        {
+          "content": "<p>Because the project finished early, the client was pleased.</p>"
+        },
+        {
+          "content": "<p>The client was happy that we finished the project early.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez l'erreur dans la phrase : 'Neither of the proposals have been approved by the board.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>'have' devrait être 'has'</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>'Neither' devrait être 'None'</p>"
+        },
+        {
+          "content": "<p>'by' devrait être 'from'</p>"
+        },
+        {
+          "content": "<p>Il n'y a pas d'erreur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent correctement compléter la phrase : 'The company's new policy is _____ to improve employee satisfaction.'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>designed</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>intended</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>meant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>supposed</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la meilleure transition pour relier ces phrases : 'The company invested heavily in new technology. The productivity remained unchanged.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Nevertheless</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Furthermore</p>"
+        },
+        {
+          "content": "<p>Therefore</p>"
+        },
+        {
+          "content": "<p>Similarly</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du discours indirect : 'We must finish this project by Friday,' said the manager.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The manager said that they had to finish the project by Friday.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The manager said that we must finish this project by Friday.</p>"
+        },
+        {
+          "content": "<p>The manager said we must have finished this project by Friday.</p>"
+        },
+        {
+          "content": "<p>The manager had said we must finish this project by Friday.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour exprimer un désaccord poli en contexte professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I see your point, however...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm afraid I don't quite agree with that.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>That's completely wrong.</p>"
+        },
+        {
+          "content": "<p>You might want to reconsider that approach.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de reformuler : 'The implementation of the new system caused significant disruption.'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implementing the new system led to considerable operational challenges.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The new system was very disruptive when implemented.</p>"
+        },
+        {
+          "content": "<p>When we implemented the new system, it caused problems.</p>"
+        },
+        {
+          "content": "<p>The new system's implementation was causing disruption.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la phrase qui utilise correctement la voix passive :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The report will have been submitted by the deadline.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The report will been submitted by the deadline.</p>"
+        },
+        {
+          "content": "<p>The report will being submitted by the deadline.</p>"
+        },
+        {
+          "content": "<p>The report will have been submitting by the deadline.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases utilisent correctement les prépositions ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The decision depends on multiple factors.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>We'll proceed with the implementation next week.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>They're concerned about the project's timeline.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>We'll discuss about the proposal tomorrow.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de combiner ces phrases : 'The meeting was postponed. Many key stakeholders were unavailable.'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The meeting was postponed due to the unavailability of many key stakeholders.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The meeting was postponed and many key stakeholders were unavailable.</p>"
+        },
+        {
+          "content": "<p>Because many key stakeholders being unavailable, the meeting was postponed.</p>"
+        },
+        {
+          "content": "<p>Many key stakeholders were unavailable, so that the meeting was postponed.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot le plus approprié : 'The company's new initiative proved to be _____ successful, exceeding all expectations.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>phenomenally</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>really</p>"
+        },
+        {
+          "content": "<p>very</p>"
+        },
+        {
+          "content": "<p>quite</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels termes sont appropriés pour décrire une augmentation significative dans un contexte professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Substantial growth</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Marked improvement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Huge jump</p>"
+        },
+        {
+          "content": "<p>Significant upturn</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'exprimer un conseil professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>You might want to consider revising the proposal before submission.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You should definitely change this.</p>"
+        },
+        {
+          "content": "<p>I think you need to do it differently.</p>"
+        },
+        {
+          "content": "<p>You must revise this before submitting.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la structure grammaticale correcte :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Not only did the company exceed its targets, but it also set new industry standards.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Not only the company exceeded its targets, but also set new industry standards.</p>"
+        },
+        {
+          "content": "<p>Not only did the company exceeded its targets, but also set new industry standards.</p>"
+        },
+        {
+          "content": "<p>Not only the company did exceed its targets, but also set new industry standards.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour introduire une conclusion dans un rapport ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>In light of these findings</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To sum up</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>As we can see</p>"
+        },
+        {
+          "content": "<p>In conclusion</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de reformuler poliment : 'Your proposal needs major changes.'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Your proposal would benefit from some substantial revisions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You need to change a lot in your proposal.</p>"
+        },
+        {
+          "content": "<p>The proposal isn't good enough yet.</p>"
+        },
+        {
+          "content": "<p>There are many problems with your proposal.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase avec l'expression idiomatique appropriée : 'The new marketing strategy is really _____ with our target audience.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>hitting the mark</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>touching the spot</p>"
+        },
+        {
+          "content": "<p>making the point</p>"
+        },
+        {
+          "content": "<p>reaching the goal</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour décrire une situation urgente de manière professionnelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Time-critical</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pressing</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>ASAP</p>"
+        },
+        {
+          "content": "<p>Imperative</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'exprimer une objection dans une réunion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I appreciate your perspective, however, I have some concerns about...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I don't think that's right...</p>"
+        },
+        {
+          "content": "<p>You're missing the point...</p>"
+        },
+        {
+          "content": "<p>That won't work because...</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'The board of directors _____ to approve the merger next week.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>is scheduled</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>are scheduled</p>"
+        },
+        {
+          "content": "<p>have scheduled</p>"
+        },
+        {
+          "content": "<p>were scheduled</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour demander des clarifications lors d'une réunion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Could you elaborate on that point?</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm not quite following your logic.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>What exactly do you mean?</p>"
+        },
+        {
+          "content": "<p>Would you mind clarifying that aspect?</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle phrase utilise correctement le gérondif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Having analyzed the data, we can now make informed decisions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Having analyze the data, we can now make informed decisions.</p>"
+        },
+        {
+          "content": "<p>Having been analyzed the data, we can now make informed decisions.</p>"
+        },
+        {
+          "content": "<p>Having analyzing the data, we can now make informed decisions.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'exprimer une échéance ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The deliverables must be submitted no later than Friday, June 15th.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>We need the deliverables by Friday.</p>"
+        },
+        {
+          "content": "<p>Please submit everything before Friday.</p>"
+        },
+        {
+          "content": "<p>The deadline is Friday.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour conclure un email professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Best regards,</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Kind regards,</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cheers,</p>"
+        },
+        {
+          "content": "<p>Yours sincerely,</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du conditionnel passé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Had we implemented the changes sooner, we would have seen better results.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>If we had implemented the changes sooner, we will have seen better results.</p>"
+        },
+        {
+          "content": "<p>Had we implemented the changes sooner, we had seen better results.</p>"
+        },
+        {
+          "content": "<p>If we would have implemented the changes sooner, we would have seen better results.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle phrase utilise correctement la ponctuation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Despite the challenges we faced in Q1, our team's performance exceeded expectations; consequently, we're projecting strong growth for Q2.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Despite the challenges we faced in Q1; our team's performance exceeded expectations, consequently we're projecting strong growth for Q2.</p>"
+        },
+        {
+          "content": "<p>Despite the challenges we faced in Q1, our team's performance exceeded expectations, consequently, we're projecting strong growth for Q2.</p>"
+        },
+        {
+          "content": "<p>Despite the challenges we faced in Q1 our team's performance exceeded expectations, consequently we're projecting strong growth for Q2.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la meilleure paraphrase de : 'The acquisition will undoubtedly transform our business model.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The acquisition is certain to revolutionize how we operate.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Our business model might change after the acquisition.</p>"
+        },
+        {
+          "content": "<p>The acquisition changes our business model.</p>"
+        },
+        {
+          "content": "<p>We will transform our business model through acquisition.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer poliment un désaccord avec un supérieur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>With all due respect, I have a different perspective on this matter.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I understand your position, however, might we consider an alternative approach?</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I don't think that's the best way forward.</p>"
+        },
+        {
+          "content": "<p>Perhaps we could explore other options that might better align with our objectives?</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle phrase utilise correctement l'inversion conditionnelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Should the need arise, additional resources will be allocated.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Should the need arises, additional resources will be allocated.</p>"
+        },
+        {
+          "content": "<p>Should the need arising, additional resources will be allocated.</p>"
+        },
+        {
+          "content": "<p>Should the need would arise, additional resources will be allocated.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels termes peuvent être utilisés pour décrire une amélioration progressive ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Incremental progress</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Steady advancement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Huge improvement</p>"
+        },
+        {
+          "content": "<p>Gradual enhancement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de reformuler : 'We need to talk about your performance.'?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I'd like to discuss your professional development and current contributions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>We should have a chat about how you're doing.</p>"
+        },
+        {
+          "content": "<p>Your performance requires discussion.</p>"
+        },
+        {
+          "content": "<p>Let's talk about your work.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'The committee's deliberations _____ several hours, after which a consensus was reached.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>spanned</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>lasted for</p>"
+        },
+        {
+          "content": "<p>took up</p>"
+        },
+        {
+          "content": "<p>went on for</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour introduire une suggestion dans une réunion professionnelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>One approach we might consider is...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>It might be worth exploring...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I think we should...</p>"
+        },
+        {
+          "content": "<p>May I propose an alternative solution?</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle phrase utilise correctement le participe présent ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Bearing in mind the current market conditions, we should proceed cautiously.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Being bear in mind the current market conditions, we should proceed cautiously.</p>"
+        },
+        {
+          "content": "<p>Bears in mind the current market conditions, we should proceed cautiously.</p>"
+        },
+        {
+          "content": "<p>Bear in minding the current market conditions, we should proceed cautiously.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon d'exprimer une critique constructive ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>While your proposal has merit, there are some areas that could be strengthened.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Your proposal needs work.</p>"
+        },
+        {
+          "content": "<p>There are several problems with your proposal.</p>"
+        },
+        {
+          "content": "<p>The proposal isn't quite there yet.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour conclure une présentation professionnelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>To wrap up our discussion today...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>In conclusion, I'd like to emphasize...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>That's all I have...</p>"
+        },
+        {
+          "content": "<p>Let me leave you with these key takeaways...</p>",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

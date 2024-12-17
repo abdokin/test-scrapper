@@ -1,0 +1,889 @@
+{
+  "title": "Français (intermédiaire supérieur/B2)",
+  "attributes": {
+    "overview": "Le test de français (intermédiaire supérieur/B2) évalue les compétences en français d’un candidat au niveau B2 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer couramment et de comprendre un large éventail de sujets spécialisés.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Grammaire et vocabulaire",
+      "Composition de phrases simples",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Les customer success managers, managers de comptes, représentants commerciaux, chefs de produit, chefs de projet, concepteurs marketing, et tout autre rôle nécessitant une bonne maîtrise de la langue française.",
+    "description": "Les employés capables de communiquer en français à un niveau intermédiaire supérieur contribueront à améliorer les communications internes et externes de votre entreprise en supprimant les barrières linguistiques, et en améliorant le flux d’informations et la collaboration entre collègues et avec les clients.\n\nLe test de français (intermédiaire supérieur/B2) évalue les compétences en français d’un candidat au niveau B2 du CECRL. Ce test vous aidera à recruter des employés capables de communiquer couramment à propos de nombreux sujets et de comprendre un large éventail de mots de vocabulaire spécialisés.\n\nLa connaissance du français au niveau B2 du CECRL permet de comprendre et d’utiliser avec précision le vocabulaire et les expressions liés à l’emploi, à l’environnement, à la santé et aux nouvelles technologies, entre autres sujets. Les candidats ayant ce niveau de français sont capables de s’exprimer sur un large éventail de sujets, d’exprimer des opinions et d’exposer les avantages et les inconvénients de diverses options avec aisance et spontanéité. Ce test vous aidera à identifier les candidats qui doivent parler et comprendre le français dans toutes sortes d’environnements de travail.\n\nCe test de français (intermédiaire supérieur/B2) évalue les candidats sur le vocabulaire et la grammaire avancés du français, ainsi que sur la composition de phrases complexes. Il évalue également les capacités de compréhension écrite et orale des candidats par le biais de phrases complexes.\n\nLes candidats qui réussissent ce test savent utiliser des modèles de phrases complexes en français pour communiquer des informations dans tous types de contextes. Iels peuvent se faire comprendre, avec peu (ou pas) d’erreurs. Iels possèdent les connaissances de base en français nécessaires pour lire et comprendre tous les types de documents français qu’iels peuvent rencontrer dans la vie quotidienne ainsi que sur le lieu de travail, et sont capables de répondre à des questions et à des demandes complexes.",
+    "category": "language_proficiency",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la bonne forme du verbe au subjonctif présent : Je ne pense pas qu'il _____ raison.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>a</p>"
+        },
+        {
+          "content": "<p>ait</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>aie</p>"
+        },
+        {
+          "content": "<p>ai</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Complétez avec le pronom relatif correct : C'est la personne _____ je vous ai parlé hier.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>qui</p>"
+        },
+        {
+          "content": "<p>dont</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>où</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer un regret ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Si j'avais su...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>J'aurais dû...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je vais...</p>"
+        },
+        {
+          "content": "<p>Il se peut que...</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne construction au passé composé ? 'Elle _____ en retard ce matin.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>est arrivé</p>"
+        },
+        {
+          "content": "<p>est arrivée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>a arrivé</p>"
+        },
+        {
+          "content": "<p>a arrivée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct : 'Il faut que tu _____ à l'heure demain.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>es</p>"
+        },
+        {
+          "content": "<p>seras</p>"
+        },
+        {
+          "content": "<p>sois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>soit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour exprimer une condition ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Si</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>À condition que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pourvu que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pendant que</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression 'avoir le cafard' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être très fatigué</p>"
+        },
+        {
+          "content": "<p>Être déprimé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être en colère</p>"
+        },
+        {
+          "content": "<p>Être malade</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'Au cas où tu _____ en retard, préviens-moi.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>seras</p>"
+        },
+        {
+          "content": "<p>serais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>es</p>"
+        },
+        {
+          "content": "<p>étais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les synonymes du mot 'néanmoins' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cependant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toutefois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pourtant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ensuite</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte ? 'Les documents que j'ai _____ sont sur ton bureau.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>imprimé</p>"
+        },
+        {
+          "content": "<p>imprimés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>imprimée</p>"
+        },
+        {
+          "content": "<p>imprimées</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel temps utilise-t-on après 'avant que' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'indicatif</p>"
+        },
+        {
+          "content": "<p>Le subjonctif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le conditionnel</p>"
+        },
+        {
+          "content": "<p>L'infinitif</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions indiquent une conséquence ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Par conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donc</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Alors</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Puisque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne forme du participe passé ? 'Elle s'est _____ de son erreur.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>aperçu</p>"
+        },
+        {
+          "content": "<p>aperçue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>aperçus</p>"
+        },
+        {
+          "content": "<p>aperçues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel pronom relatif composé convient ? 'Le projet _____ nous travaillons est complexe.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sur lequel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>auquel</p>"
+        },
+        {
+          "content": "<p>duquel</p>"
+        },
+        {
+          "content": "<p>pour lequel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent introduire une opposition ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En revanche</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Par contre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tandis que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>C'est pourquoi</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte au plus-que-parfait ? 'Si tu _____ plus tôt, tu aurais eu une place.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>serais venu</p>"
+        },
+        {
+          "content": "<p>étais venu</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>viendrais</p>"
+        },
+        {
+          "content": "<p>venais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression 'mettre les points sur les i' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être très précis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être en colère</p>"
+        },
+        {
+          "content": "<p>Être confus</p>"
+        },
+        {
+          "content": "<p>Être patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les marqueurs temporels du futur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demain</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La semaine prochaine</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dans trois jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Hier</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne forme du gérondif ? 'Il est parti _____ la porte.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>en claquant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>en claqué</p>"
+        },
+        {
+          "content": "<p>en claque</p>"
+        },
+        {
+          "content": "<p>en claquer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom correct : '_____ en penses-tu ?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Quoi</p>"
+        },
+        {
+          "content": "<p>Qu'est-ce</p>"
+        },
+        {
+          "content": "<p>Quel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels verbes peuvent être suivis du subjonctif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vouloir que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Falloir que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Penser que</p>"
+        },
+        {
+          "content": "<p>Croire que</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte ? 'Ces informations, je les ai _____.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>obtenu</p>"
+        },
+        {
+          "content": "<p>obtenues</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>obtenus</p>"
+        },
+        {
+          "content": "<p>obtenue</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression 'avoir un coup de foudre' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être effrayé</p>"
+        },
+        {
+          "content": "<p>Tomber amoureux instantanément</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être en colère</p>"
+        },
+        {
+          "content": "<p>Avoir peur de l'orage</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent exprimer la certitude ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je suis sûr que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est certain que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sans aucun doute</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Peut-être que</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne construction ? 'Il faut que tu te _____ à l'évidence.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>rends</p>"
+        },
+        {
+          "content": "<p>rendes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>rendras</p>"
+        },
+        {
+          "content": "<p>rendre</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne préposition : 'Il s'est absenté _____ trois jours.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>depuis</p>"
+        },
+        {
+          "content": "<p>pendant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pour</p>"
+        },
+        {
+          "content": "<p>en</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions permettent d'exprimer son opinion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>À mon avis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je pense que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il me semble que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il pleut</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte au conditionnel passé ? 'J'_____ si j'avais su.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>aurais venu</p>"
+        },
+        {
+          "content": "<p>serais venu</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>étais venu</p>"
+        },
+        {
+          "content": "<p>suis venu</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression 'être dans les choux' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être fatigué</p>"
+        },
+        {
+          "content": "<p>Être très en retard</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être malade</p>"
+        },
+        {
+          "content": "<p>Être de bonne humeur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent exprimer la cause ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Parce que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Car</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Puisque</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ensuite</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'C'est le livre _____ je t'ai parlé.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>dont</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>duquel</p>"
+        },
+        {
+          "content": "<p>où</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne forme ? 'Les fruits que j'ai _____ sont mûrs.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>acheté</p>"
+        },
+        {
+          "content": "<p>achetés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>achetées</p>"
+        },
+        {
+          "content": "<p>acheter</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions indiquent le but ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Afin que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pour que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>De sorte que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pendant que</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le bon pronom : '_____ est-ce qui a fait ça ?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Qui</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Que</p>"
+        },
+        {
+          "content": "<p>Qu'</p>"
+        },
+        {
+          "content": "<p>Quel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne construction au subjonctif ? 'Il faut que vous _____.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>partez</p>"
+        },
+        {
+          "content": "<p>partiez</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>partirez</p>"
+        },
+        {
+          "content": "<p>partir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels adverbes expriment la fréquence ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Souvent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parfois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rarement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rapidement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte ? 'Elle s'est _____ les cheveux.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>lavé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>lavée</p>"
+        },
+        {
+          "content": "<p>lavés</p>"
+        },
+        {
+          "content": "<p>lavées</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression 'avoir le bras long' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être grand</p>"
+        },
+        {
+          "content": "<p>Avoir des relations influentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être généreux</p>"
+        },
+        {
+          "content": "<p>Être fort</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions marquent la conclusion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En conclusion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pour conclure</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Finalement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ensuite</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la bonne construction ? 'Si tu _____ , tu réussiras.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>travailles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>travailleras</p>"
+        },
+        {
+          "content": "<p>travaillerais</p>"
+        },
+        {
+          "content": "<p>travaillerais</p>"
+        }
+      ]
+    }
+  ]
+}

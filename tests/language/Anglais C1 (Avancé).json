@@ -1,0 +1,921 @@
+{
+  "title": "Anglais C1 (Avancé)",
+  "attributes": {
+    "overview": "Le test d’anglais C1 (avancé) évalue la connaissance de la langue anglaise d’un candidat au niveau C1 du cadre du CECR. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en anglais.",
+    "level": "advanced",
+    "covered_skills": [
+      "Grammaire et vocabulaire",
+      "Formuler des phrases complètes",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Les rédacteurs, écrivains, créateurs de contenu, responsables de la satisfaction de la clientèle et autres employés qui doivent maîtriser l’anglais pour être efficaces dans leurs fonctions.",
+    "description": "Les employés qui maîtrisent l’anglais enrichiront les communications internes et externes de votre entreprise en exprimant clairement et efficacement des idées, en discutant des plans et des objectifs avec les clients et les collègues. Ils seront également capables de rédiger des rapports, des présentations et d’autres documents bien structurés en anglais afin de promouvoir la marque et les idées de l’entreprise auprès du monde extérieur.\n\nLe test d’anglais C1 (avancé) évalue la capacité du la candidat à communiquer au niveau C1 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition des phrases, de la compréhension de l’écrit et de l’oral.\n\nLes employés qui maîtrisent l’anglais peuvent s’exprimer couramment et spontanément sans trop chercher leurs mots. Ils peuvent comprendre des textes exigeants et plus longs et reconnaître le sens implicite dans les communications écrites et orales. Ils utilisent la langue de manière souple et efficace à des fins sociales, académiques et professionnelles et peuvent produire des textes détaillés sur des sujets complexes, en montrant une utilisation contrôlée des schémas d’organisation, des connecteurs et des dispositifs de cohésion.",
+    "category": "language_proficiency",
+    "langns_touage": "french",
+    "questio_answer": 16,
+    "duration_seconds": 720,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la meilleure traduction pour l'expression idiomatique : \"It's raining cats and dogs.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il pleut des chats et des chiens</p>"
+        },
+        {
+          "content": "<p>Il pleut à torrents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il pleut très fort</p>"
+        },
+        {
+          "content": "<p>Il pleut des cordes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Complétez la phrase : \"If I _____ known about the meeting, I would have attended.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>would have</p>"
+        },
+        {
+          "content": "<p>had</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>have</p>"
+        },
+        {
+          "content": "<p>was</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quels mots peuvent correctement compléter la phrase : \"The project was _____ successful that it exceeded all expectations.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>so</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>such</p>"
+        },
+        {
+          "content": "<p>very</p>"
+        },
+        {
+          "content": "<p>that</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la forme correcte du conditionnel passé : \"By this time next year, I _____ my thesis.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have finished</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>would have finished</p>"
+        },
+        {
+          "content": "<p>will finish</p>"
+        },
+        {
+          "content": "<p>would finish</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Identifiez les expressions qui expriment correctement le regret en anglais.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>If only I had studied harder</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I wish I would have gone</p>"
+        },
+        {
+          "content": "<p>I wish I had known earlier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>If I would have seen you</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression \"to bite off more than you can chew\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Manger trop rapidement</p>"
+        },
+        {
+          "content": "<p>Être trop gourmand</p>"
+        },
+        {
+          "content": "<p>Entreprendre plus qu'on ne peut gérer</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoir les yeux plus gros que le ventre</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme passive correcte : \"The novel _____ by the time the movie is released.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have been written</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be written</p>"
+        },
+        {
+          "content": "<p>would have been written</p>"
+        },
+        {
+          "content": "<p>has been written</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour exprimer une probabilité forte en anglais?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>She must have forgotten</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>She could have forgotten</p>"
+        },
+        {
+          "content": "<p>She's bound to have forgotten</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>She might have forgotten</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure traduction de l'expression \"to pull someone's leg\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire une blague à quelqu'un</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tirer la jambe de quelqu'un</p>"
+        },
+        {
+          "content": "<p>Demander de l'aide</p>"
+        },
+        {
+          "content": "<p>Faire du mal à quelqu'un</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase \"She has been living here for decades\", quel aspect du Present Perfect Continuous est illustré?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une action terminée</p>"
+        },
+        {
+          "content": "<p>Une action continue jusqu'au présent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une action future</p>"
+        },
+        {
+          "content": "<p>Une action hypothétique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer un désaccord poli en anglais?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I see your point, however...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm afraid I don't quite agree</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You're completely wrong</p>"
+        },
+        {
+          "content": "<p>That's not right at all</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du subjonctif dans : \"It is essential that he _____ the documents by tomorrow.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>submit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>submits</p>"
+        },
+        {
+          "content": "<p>will submit</p>"
+        },
+        {
+          "content": "<p>would submit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression \"to be worth one's salt\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être bien payé</p>"
+        },
+        {
+          "content": "<p>Être compétent dans son domaine</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être économe</p>"
+        },
+        {
+          "content": "<p>Être salé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent compléter correctement la phrase : \"_____ the heavy rain, the event went ahead as planned.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Despite</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Although</p>"
+        },
+        {
+          "content": "<p>Notwithstanding</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>However</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la meilleure reformulation de : \"The CEO announced the company's expansion plans.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>The company's expansion plans were announced by the CEO</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>The CEO has announced the company's expansion plans</p>"
+        },
+        {
+          "content": "<p>The CEO was announcing the company's expansion plans</p>"
+        },
+        {
+          "content": "<p>The company's expansion plans have been announced by the CEO</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez l'utilisation correcte du gérondif : \"She denied _____ the report without authorization.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>to release</p>"
+        },
+        {
+          "content": "<p>releasing</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>released</p>"
+        },
+        {
+          "content": "<p>release</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour introduire une conclusion dans un texte académique?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>In conclusion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To sum up</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lastly</p>"
+        },
+        {
+          "content": "<p>At the end</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le sens de l'expression \"to beat around the bush\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Éviter le sujet principal</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chercher une solution</p>"
+        },
+        {
+          "content": "<p>Résoudre un problème</p>"
+        },
+        {
+          "content": "<p>Trouver un raccourci</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez : \"Had I known about the deadline, I _____ the report earlier.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>would have submitted</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will have submitted</p>"
+        },
+        {
+          "content": "<p>had submitted</p>"
+        },
+        {
+          "content": "<p>would submit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer la certitude en anglais?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I'm positive that</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>There's no doubt that</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I suppose that</p>"
+        },
+        {
+          "content": "<p>It might be that</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la forme correcte : \"No sooner _____ the door than the phone rang.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had I closed</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I closed</p>"
+        },
+        {
+          "content": "<p>did I close</p>"
+        },
+        {
+          "content": "<p>I had closed</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la signification de \"to throw in the towel\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Abandonner</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Gagner facilement</p>"
+        },
+        {
+          "content": "<p>Faire un effort supplémentaire</p>"
+        },
+        {
+          "content": "<p>Nettoyer quelque chose</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour exprimer un conseil en anglais?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>If I were you, I would</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You'd better</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I suggest you to</p>"
+        },
+        {
+          "content": "<p>You must to</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez : \"The report _____ by the committee before it was presented to the board.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had been reviewed</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>was reviewing</p>"
+        },
+        {
+          "content": "<p>has been reviewed</p>"
+        },
+        {
+          "content": "<p>would be reviewed</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour introduire un exemple dans un texte académique?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>For instance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To illustrate</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Like</p>"
+        },
+        {
+          "content": "<p>As you can see</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la signification de \"to be in hot water\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être dans une situation difficile</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être en colère</p>"
+        },
+        {
+          "content": "<p>Être pressé</p>"
+        },
+        {
+          "content": "<p>Être malade</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme correcte : \"It's high time we _____ a decision.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>made</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>make</p>"
+        },
+        {
+          "content": "<p>would make</p>"
+        },
+        {
+          "content": "<p>making</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer un contraste?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Whereas</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>While</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Meanwhile</p>"
+        },
+        {
+          "content": "<p>Furthermore</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez : \"_____ the complexity of the project, we managed to complete it on time.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Given</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Whereas</p>"
+        },
+        {
+          "content": "<p>However</p>"
+        },
+        {
+          "content": "<p>Moreover</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels verbes peuvent être suivis d'un gérondif?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Enjoy</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoid</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Want</p>"
+        },
+        {
+          "content": "<p>Hope</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la signification de \"to let the cat out of the bag\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Révéler un secret</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer un problème</p>"
+        },
+        {
+          "content": "<p>Résoudre une difficulté</p>"
+        },
+        {
+          "content": "<p>Perdre quelque chose</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la forme correcte : \"Should you need any assistance, _____.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>please don't hesitate to contact me</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>you can contact me</p>"
+        },
+        {
+          "content": "<p>contact me</p>"
+        },
+        {
+          "content": "<p>I will help you</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour exprimer la cause?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Due to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Owing to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Despite</p>"
+        },
+        {
+          "content": "<p>Although</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez : \"Little _____ that the meeting would be cancelled.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>did we know</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>we knew</p>"
+        },
+        {
+          "content": "<p>had we known</p>"
+        },
+        {
+          "content": "<p>we did know</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la signification de \"to kill two birds with one stone\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Accomplir deux choses en même temps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire quelque chose de difficile</p>"
+        },
+        {
+          "content": "<p>Échouer doublement</p>"
+        },
+        {
+          "content": "<p>Résoudre un problème rapidement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour exprimer une concession?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Even though</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Although</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Because of</p>"
+        },
+        {
+          "content": "<p>Due to</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la forme correcte : \"Hardly _____ when it started to rain.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had we left</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>we had left</p>"
+        },
+        {
+          "content": "<p>did we leave</p>"
+        },
+        {
+          "content": "<p>we left</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure traduction de \"to be on cloud nine\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être aux anges</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être dans les nuages</p>"
+        },
+        {
+          "content": "<p>Être distrait</p>"
+        },
+        {
+          "content": "<p>Être perdu</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour reformuler une idée?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>In other words</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>That is to say</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>However</p>"
+        },
+        {
+          "content": "<p>Nevertheless</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez : \"_____ should you arrive late, you will not be admitted.\"</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Under no circumstances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>In no way</p>"
+        },
+        {
+          "content": "<p>By no means</p>"
+        },
+        {
+          "content": "<p>At no time</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la signification de \"to be caught between a rock and a hard place\"?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Être dans une situation sans issue favorable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être coincé physiquement</p>"
+        },
+        {
+          "content": "<p>Être en danger</p>"
+        },
+        {
+          "content": "<p>Être indécis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés comme quantificateurs avec des noms indénombrables?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Much</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>A little</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Many</p>"
+        },
+        {
+          "content": "<p>Few</p>"
+        }
+      ]
+    }
+  ]
+}

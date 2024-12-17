@@ -1,0 +1,888 @@
+{
+  "title": "Anglais B1 (Intermédiaire)",
+  "attributes": {
+    "overview": "Le test d’anglais B1 (intermédiaire) évalue les compétences en anglais d’un candidat au niveau B1 du CECR. Ce test vous aidera à recruter des employés capables de communiquer en anglais sur des sujets courants au travail et dans la vie quotidienne.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Grammaire et vocabulaire de base",
+      "Construction des phrases",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Personnel d’assistance à la clientèle, représentant·e·s commerciaux·ales et autres employé·e·s qui ont besoin d’un niveau d’anglais intermédiaire pour bien remplir leurs fonctions.",
+    "description": "Les employés capables de communiquer en anglais à un niveau intermédiaire contribueront à améliorer les communications internes et externes de votre entreprise en supprimant les barrières linguistiques, et en améliorant le flux d’informations et la collaboration entre collègues et avec les clients.\n\nLe test d’anglais B1 (intermédiaire) évalue la capacité d’un candidat à communiquer en anglais niveau B1 du CECR. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la construction des phrases, de la compréhension écrite et de la compréhension orale.\n\nLes employés capables de parler anglais à un niveau intermédiaire peuvent communiquer avec la clientèle, des collègues et d’autres parties prenantes en toute aisance dans des situations du quotidien qui peuvent se présenter sur le lieu de travail. Les textes et les phrases utilisés dans le test reproduisent des situations réelles au travail et dans la vie quotidienne. Les personnes qui obtiennent de bons résultats à ce test sont capables de comprendre des phrases simples et cohérentes sur des sujets qui leur sont généralement familiers.",
+    "category": "language_proficiency",
+    "langns_touage": "french",
+    "questio_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la forme correcte du verbe au past simple :</p><p>'Yesterday, I _____ to the supermarket.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>go</p>"
+        },
+        {
+          "content": "<p>went</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>gone</p>"
+        },
+        {
+          "content": "<p>going</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quels mots peuvent être utilisés pour décrire une personne positive ? Sélectionnez toutes les réponses correctes.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cheerful</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Optimistic</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Gloomy</p>"
+        },
+        {
+          "content": "<p>Enthusiastic</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase conditionnelle :</p><p>'If it rains tomorrow, I _____ my umbrella.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will take</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>would take</p>"
+        },
+        {
+          "content": "<p>took</p>"
+        },
+        {
+          "content": "<p>am taking</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Sélectionnez la meilleure réponse à la question :</p><p>'How long have you been working here?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I work here since 2020</p>"
+        },
+        {
+          "content": "<p>I worked here for 3 years</p>"
+        },
+        {
+          "content": "<p>I have been working here for 3 years</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I am working here for 3 years</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct pour compléter la phrase :</p><p>'She's very _____ at playing the piano.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>good</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>well</p>"
+        },
+        {
+          "content": "<p>better</p>"
+        },
+        {
+          "content": "<p>best</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour décrire un environnement de travail professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Collaborative</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dynamic</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chaotic</p>"
+        },
+        {
+          "content": "<p>Efficient</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase avec la préposition correcte :</p><p>'I'm looking forward _____ seeing you next week.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>for</p>"
+        },
+        {
+          "content": "<p>at</p>"
+        },
+        {
+          "content": "<p>on</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du verbe modal :</p><p>'You _____ smoke in this building. It's against the rules.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>don't have to</p>"
+        },
+        {
+          "content": "<p>mustn't</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>shouldn't</p>"
+        },
+        {
+          "content": "<p>couldn't</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la forme correcte du comparatif :</p><p>'Paris is _____ than London.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>more smaller</p>"
+        },
+        {
+          "content": "<p>smaller</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>more small</p>"
+        },
+        {
+          "content": "<p>smallest</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots sont des synonymes de 'important' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Crucial</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Essential</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minimal</p>"
+        },
+        {
+          "content": "<p>Significant</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'If I _____ rich, I would buy a big house.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>am</p>"
+        },
+        {
+          "content": "<p>were</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be</p>"
+        },
+        {
+          "content": "<p>would be</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct :</p><p>'She _____ to Paris last summer.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>has gone</p>"
+        },
+        {
+          "content": "<p>went</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>had gone</p>"
+        },
+        {
+          "content": "<p>was going</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour décrire une réunion productive ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Focused</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organized</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confusing</p>"
+        },
+        {
+          "content": "<p>Effective</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression :</p><p>'_____ working on this project for two months.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I've been</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm</p>"
+        },
+        {
+          "content": "<p>I was</p>"
+        },
+        {
+          "content": "<p>I had</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'By the time I arrived, the meeting _____.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had finished</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>has finished</p>"
+        },
+        {
+          "content": "<p>was finishing</p>"
+        },
+        {
+          "content": "<p>finished</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peut-on utiliser pour donner son opinion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>In my opinion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I think that</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>As far as I'm concerned</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You must agree</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne réponse :</p><p>'How _____ sugar do you want in your coffee?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>much</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>many</p>"
+        },
+        {
+          "content": "<p>few</p>"
+        },
+        {
+          "content": "<p>little</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le mot correct :</p><p>'_____ you like to join us for dinner?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Would</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Will</p>"
+        },
+        {
+          "content": "<p>Do</p>"
+        },
+        {
+          "content": "<p>Are</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots décrivent correctement le temps qu'il fait ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cloudy</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Windy</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Happy</p>"
+        },
+        {
+          "content": "<p>Sunny</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct :</p><p>'She _____ speak three languages fluently.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>can</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>should</p>"
+        },
+        {
+          "content": "<p>would</p>"
+        },
+        {
+          "content": "<p>might</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'I wish I _____ more time to study.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>have</p>"
+        },
+        {
+          "content": "<p>would have</p>"
+        },
+        {
+          "content": "<p>will have</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases sont au present perfect ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I have finished my work</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>She has lived here for 5 years</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>They will go tomorrow</p>"
+        },
+        {
+          "content": "<p>We are studying now</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la bonne préposition :</p><p>'He's interested _____ learning French.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>in</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>at</p>"
+        },
+        {
+          "content": "<p>for</p>"
+        },
+        {
+          "content": "<p>of</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme verbale correcte :</p><p>'By next month, I _____ in this company for 10 years.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have been working</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be working</p>"
+        },
+        {
+          "content": "<p>have been working</p>"
+        },
+        {
+          "content": "<p>had been working</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour décrire un bon leader ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Inspiring</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supportive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demanding</p>"
+        },
+        {
+          "content": "<p>Fair</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'If you _____ the documents yesterday, we could start today.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had sent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>would send</p>"
+        },
+        {
+          "content": "<p>sent</p>"
+        },
+        {
+          "content": "<p>have sent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct :</p><p>'The meeting was _____ postponed due to bad weather.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>unfortunately</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>unfortunate</p>"
+        },
+        {
+          "content": "<p>unfortunably</p>"
+        },
+        {
+          "content": "<p>unfortuned</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour faire une suggestion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Why don't we</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>How about</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Let's don't</p>"
+        },
+        {
+          "content": "<p>We could</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la meilleure réponse à :</p><p>'Would you mind helping me with this report?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Not at all</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Yes, I would</p>"
+        },
+        {
+          "content": "<p>I don't</p>"
+        },
+        {
+          "content": "<p>Yes, please</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'_____ the deadline tomorrow, we need to finish this today.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Given</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Giving</p>"
+        },
+        {
+          "content": "<p>Having</p>"
+        },
+        {
+          "content": "<p>Being</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression :</p><p>'The new project is _____ schedule.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>on</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>in</p>"
+        },
+        {
+          "content": "<p>at</p>"
+        },
+        {
+          "content": "<p>by</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots décrivent correctement une deadline ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tight</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Approaching</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Happy</p>"
+        },
+        {
+          "content": "<p>Flexible</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'I'd rather _____ at home than go to the office today.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>work</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>to work</p>"
+        },
+        {
+          "content": "<p>working</p>"
+        },
+        {
+          "content": "<p>worked</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme correcte :</p><p>'She suggested _____ the meeting until next week.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>postponing</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>to postpone</p>"
+        },
+        {
+          "content": "<p>postpone</p>"
+        },
+        {
+          "content": "<p>postponed</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les expressions correctes pour exprimer un accord ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I couldn't agree more</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>That's exactly what I think</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm not sure about that</p>"
+        },
+        {
+          "content": "<p>You're absolutely right</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la bonne réponse :</p><p>'_____ the rain, the event was a success.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Despite</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Although</p>"
+        },
+        {
+          "content": "<p>However</p>"
+        },
+        {
+          "content": "<p>Nevertheless</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'I wish he _____ me about the changes earlier.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had told</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>told</p>"
+        },
+        {
+          "content": "<p>would tell</p>"
+        },
+        {
+          "content": "<p>has told</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases sont des façons polies de faire une demande ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Would you mind if I...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I was wondering if you could...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You must...</p>"
+        },
+        {
+          "content": "<p>Could you possibly...</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression :</p><p>'The presentation was _____ successful.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>highly</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>high</p>"
+        },
+        {
+          "content": "<p>higher</p>"
+        },
+        {
+          "content": "<p>highest</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase :</p><p>'_____ having studied all night, she failed the exam.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Despite</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Although</p>"
+        },
+        {
+          "content": "<p>Even</p>"
+        },
+        {
+          "content": "<p>However</p>"
+        }
+      ]
+    }
+  ]
+}

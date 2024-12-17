@@ -1,0 +1,935 @@
+{
+  "title": "Français (expérimenté/C1)",
+  "attributes": {
+    "overview": "Le test de français (expérimenté/C1) évalue les connaissances en français d’un candidat au niveau C1 du CECRL. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de difficulté raisonnable en français.",
+    "level": "advanced",
+    "covered_skills": [
+      "Grammaire",
+      "Construction des phrases",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Les rédacteurs, écrivains, créateurs de contenu, customer success managers et autres employés qui doivent maîtriser le français pour être efficaces dans leurs fonctions.",
+    "description": "Les employés qui maîtrisent le français enrichiront les communications internes et externes de votre entreprise en exprimant clairement et efficacement des idées, en discutant des plans et des objectifs avec les clients et les collègues. Iels seront également capables de rédiger des rapports, des présentations et d’autres documents bien structurés en français afin de promouvoir la marque et les idées de l’entreprise auprès du monde extérieur.\n\nLe test de français (expérimenté/C1) évalue la capacité du la candidat à communiquer au niveau C1 du Cadre européen commun de référence pour les langues (CECRL). Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition des phrases, de la compréhension de l’écrit et de l’oral.\n\nLes employés qui maîtrisent le français peuvent s’exprimer couramment et spontanément sans trop chercher leurs mots. Iels peuvent comprendre des textes exigeants et plus longs et reconnaître le sens implicite dans les communications écrites et orales. Iels utilisent la langue de manière souple et efficace à des fins sociales, académiques et professionnelles et peuvent produire des textes détaillés sur des sujets complexes, en montrant une utilisation contrôlée des schémas d’organisation, des connecteurs et des dispositifs de cohésion.",
+    "category": "language_proficiency",
+    "language": "french",
+    "questions_to_answer": 20,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la forme correcte du subjonctif dans la phrase suivante : 'Il faut que tu _____ plus attentif en classe.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>es</p>"
+        },
+        {
+          "content": "<p>soit</p>"
+        },
+        {
+          "content": "<p>sera</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer un regret au passé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Si j'avais su</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>J'aurais dû</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je vais essayer</p>"
+        },
+        {
+          "content": "<p>Je regrette de ne pas avoir</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase avec le pronom relatif correct : 'C'est la personne _____ je vous ai parlé ce matin.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>dont</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>qui</p>"
+        },
+        {
+          "content": "<p>où</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Quelle est la bonne concordance des temps dans cette phrase au discours indirect : 'Il a dit : Je viendrai demain.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il a dit qu'il viendra demain</p>"
+        },
+        {
+          "content": "<p>Il a dit qu'il viendrait le lendemain</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il a dit qu'il va venir demain</p>"
+        },
+        {
+          "content": "<p>Il a dit qu'il est venu le lendemain</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Identifiez les phrases qui contiennent une utilisation correcte du gérondif :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En mangeant, il regardait la télévision</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est parti en courant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En ayant mangé, il est parti</p>"
+        },
+        {
+          "content": "<p>Elle travaille en écoutant de la musique</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le participe passé correct dans la phrase : 'Les efforts qu'elle a _____ ont porté leurs fruits.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>fait</p>"
+        },
+        {
+          "content": "<p>faits</p>"
+        },
+        {
+          "content": "<p>faite</p>"
+        },
+        {
+          "content": "<p>faits</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne préposition : 'Il s'est absenté _____ trois jours.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>pendant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pour</p>"
+        },
+        {
+          "content": "<p>depuis</p>"
+        },
+        {
+          "content": "<p>en</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases utilisent correctement le passé simple ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il prit son manteau et sortit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nous fûmes surpris de le voir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Elle prenna le train</p>"
+        },
+        {
+          "content": "<p>Ils partirent à l'aube</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du conditionnel passé : 'Si j'avais su, je _____ autrement.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>agirais</p>"
+        },
+        {
+          "content": "<p>aurais agi</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>agirai</p>"
+        },
+        {
+          "content": "<p>avais agi</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom correct : '_____ en penses-tu ?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Quoi</p>"
+        },
+        {
+          "content": "<p>Qu'est-ce</p>"
+        },
+        {
+          "content": "<p>Quel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme correcte du subjonctif dans la phrase suivante : 'Il faut que tu _____ plus attentif en classe.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>es</p>"
+        },
+        {
+          "content": "<p>soit</p>"
+        },
+        {
+          "content": "<p>sera</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase 'Malgré _____ efforts, il n'a pas réussi', quel adjectif possessif convient ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>ses</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>son</p>"
+        },
+        {
+          "content": "<p>ces</p>"
+        },
+        {
+          "content": "<p>leur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la proposition qui contient une erreur de concordance des temps :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je savais qu'il viendrait</p>"
+        },
+        {
+          "content": "<p>Il m'a dit qu'il va venir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>J'espérais qu'il réussirait</p>"
+        },
+        {
+          "content": "<p>Il pensait que j'étais parti</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctement utilisées au subjonctif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il faut que tu viennes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je veux que tu fasses</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je pense que tu es</p>"
+        },
+        {
+          "content": "<p>Bien qu'il soit tard</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom relatif composé correct : 'Le projet _____ nous travaillons est important.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sur lequel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>auquel</p>"
+        },
+        {
+          "content": "<p>duquel</p>"
+        },
+        {
+          "content": "<p>pour lequel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Identifiez les phrases qui utilisent correctement les pronoms 'en' et 'y' :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>J'y pense souvent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>J'en ai besoin</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je le en donne</p>"
+        },
+        {
+          "content": "<p>Nous y allons demain</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du participe passé : 'Les tableaux que j'ai _____ sont magnifiques.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>vu</p>"
+        },
+        {
+          "content": "<p>vus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>vue</p>"
+        },
+        {
+          "content": "<p>vues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase 'Cette décision, je l'ai _____ toute seule', quel est le participe passé correct ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>pris</p>"
+        },
+        {
+          "content": "<p>prise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>prises</p>"
+        },
+        {
+          "content": "<p>prient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases emploient correctement le plus-que-parfait ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il était parti avant mon arrivée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>J'avais déjà mangé quand il est arrivé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nous avons eu fini le travail</p>"
+        },
+        {
+          "content": "<p>Elle avait compris la situation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du futur antérieur : 'Quand tu _____ ton travail, appelle-moi.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>finiras</p>"
+        },
+        {
+          "content": "<p>auras fini</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>finirais</p>"
+        },
+        {
+          "content": "<p>aurais fini</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le gérondif correct du verbe 'faire' dans 'Il s'est blessé _____ du sport' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>en faisant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>en fesant</p>"
+        },
+        {
+          "content": "<p>en faire</p>"
+        },
+        {
+          "content": "<p>en fait</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles propositions utilisent correctement les pronoms personnels COD et COI ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je le lui donne</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il me l'a dit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je lui le donne</p>"
+        },
+        {
+          "content": "<p>Nous leur y envoyons</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte de l'adverbe dérivé de l'adjectif 'patient' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>patientement</p>"
+        },
+        {
+          "content": "<p>patientement</p>"
+        },
+        {
+          "content": "<p>patiemment</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>patientamment</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom démonstratif correct : '_____ qui m'intéresse, c'est votre expérience.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ce</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ceux</p>"
+        },
+        {
+          "content": "<p>Celle</p>"
+        },
+        {
+          "content": "<p>Ces</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctement utilisées avec le subjonctif passé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Bien qu'il soit parti</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je doute qu'il ait compris</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je pense qu'il a fait</p>"
+        },
+        {
+          "content": "<p>Je regrette qu'il n'ait pas pu venir</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase 'Il a dû _____ ses clés', quel infinitif est correct ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>perdre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>perdu</p>"
+        },
+        {
+          "content": "<p>perds</p>"
+        },
+        {
+          "content": "<p>perdant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte au conditionnel présent : 'Tu _____ venir plus tôt.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>devrais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>devras</p>"
+        },
+        {
+          "content": "<p>devrés</p>"
+        },
+        {
+          "content": "<p>devraient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Identifiez les phrases qui emploient correctement le passé composé avec 'être' :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Elle est partie tôt</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nous sommes arrivés hier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est mangé le gâteau</p>"
+        },
+        {
+          "content": "<p>Elles sont montées en haut</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'article partitif correct : 'Je voudrais _____ pain.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>du</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>de</p>"
+        },
+        {
+          "content": "<p>des</p>"
+        },
+        {
+          "content": "<p>le</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du verbe au subjonctif imparfait : 'Il fallait qu'il _____ plus tôt.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>parte</p>"
+        },
+        {
+          "content": "<p>partît</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>partirait</p>"
+        },
+        {
+          "content": "<p>partit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases utilisent correctement les prépositions ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je vais à Paris</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il habite en France</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je vais à Londres</p>"
+        },
+        {
+          "content": "<p>Elle va au Portugal</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte de l'adjectif dans 'Ces exercices sont _____ difficiles' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>trop</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>très trop</p>"
+        },
+        {
+          "content": "<p>beaucoup</p>"
+        },
+        {
+          "content": "<p>tellement trop</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase 'Je ne sais pas _____ il est parti', quel pronom interrogatif indirect est correct ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>où</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>dont</p>"
+        },
+        {
+          "content": "<p>quoi</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases emploient correctement le passif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le livre a été écrit par Victor Hugo</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La maison est construite en 1900</p>"
+        },
+        {
+          "content": "<p>Le rapport sera terminé demain</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cette voiture est vendue par le garage</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec la forme correcte : 'Si j'avais plus de temps, je _____ davantage.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>travaillerais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>travaillerai</p>"
+        },
+        {
+          "content": "<p>travaille</p>"
+        },
+        {
+          "content": "<p>travaillerais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression de temps : '_____ trois ans que j'étudie le français.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cela fait</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il y a</p>"
+        },
+        {
+          "content": "<p>Pendant</p>"
+        },
+        {
+          "content": "<p>Depuis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles phrases contiennent une utilisation correcte des pronoms possessifs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ce livre est le mien</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cette voiture est à moi</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>C'est le mon livre</p>"
+        },
+        {
+          "content": "<p>Ces affaires sont les leurs</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le pronom relatif correct : 'La raison _____ il est absent n'est pas claire.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>pour laquelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>dont</p>"
+        },
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>où</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans la phrase 'Il faut que vous _____ à l'heure', quel verbe au subjonctif est correct ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>soyez</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>êtes</p>"
+        },
+        {
+          "content": "<p>serez</p>"
+        },
+        {
+          "content": "<p>étiez</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Identifiez les phrases qui utilisent correctement les adjectifs numéraux :</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le vingt et unième siècle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La première fois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le vingt-et-un siècle</p>"
+        },
+        {
+          "content": "<p>Le deuxième étage</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'expression de temps correcte : '_____ mon enfance, j'aime la musique.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Depuis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pendant</p>"
+        },
+        {
+          "content": "<p>Pour</p>"
+        },
+        {
+          "content": "<p>Dans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions idiomatiques sont correctement utilisées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Avoir le cafard</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre les pieds dans le plat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoir la tête dans les nuages</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre son pied</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "title": "Anglais B2 (Intermédiaire Supérieur)",
+  "attributes": {
+    "overview": "Le test d'anglais B2 (intermédiaire supérieur) évalue les connaissances des candidats en anglais au niveau B2 du CECR. Ce test vous aidera à recruter des employés capables de participer à des conversations professionnelles et sociales de niveau intermédiaire supérieur en anglais.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Grammaire et vocabulaire",
+      "Construction des phrases",
+      "Compréhension de la lecture",
+      "Compréhension de l’oral"
+    ],
+    "relevancy": "Tout employé qui doit maîtriser parfaitement l'anglais pour bien jouer son rôle.",
+    "description": "Le test d'anglais B2 (intermédiaire supérieur) évalue la capacité des candidats à communiquer au niveau B2 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition de phrases, de la compréhension écrite et de la compréhension orale.\n\nCe test vous permettra d'identifier les candidats capables de s'exprimer sur un éventail de sujets en fonction de leur position, de participer activement à des discussions et de fournir des explications et des arguments pertinents. Votre entreprise bénéficiera de candidats qui rédigent des textes clairs et détaillés sur des sujets liés à leur domaine d'expertise.\n\nUne connaissance intermédiaire supérieure de l'anglais au niveau B2 du CECR permet de comprendre les idées principales d'un texte complexe sur des sujets concrets et abstraits, y compris des discussions techniques dans leur domaine de spécialisation. Les candidats qui possèdent ce niveau d'anglais sont capables d'interagir avec un degré d'aisance et de spontanéité qui rend possible une interaction régulière avec des locuteurs natifs. Ce test vous aidera à identifier les candidats capables de produire des textes clairs et détaillés sur un large éventail de sujets et d'expliquer un point de vue sur une question d'actualité en présentant les avantages et les inconvénients de différentes options.",
+    "category": "language_proficiency",
+    "langns_touage": "french",
+    "questio_answer": 16,
+    "duration_seconds": 720,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Choisissez la meilleure réponse pour compléter la phrase : 'If I _____ earlier, I wouldn't have missed the train.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>had left</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>would leave</p>"
+        },
+        {
+          "content": "<p>have left</p>"
+        },
+        {
+          "content": "<p>was leaving</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quels mots peuvent être utilisés pour exprimer un regret en anglais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I wish I had known</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>If only I had realized</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I hope I knew</p>"
+        },
+        {
+          "content": "<p>Maybe I know</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Sélectionnez la phrase qui utilise correctement le present perfect continuous.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I am working here since 2010.</p>"
+        },
+        {
+          "content": "<p>I have been working here since 2010.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I work here since 2010.</p>"
+        },
+        {
+          "content": "<p>I was working here since 2010.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct pour compléter la phrase : 'She's very _____ of her new position in the company.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>proud</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pride</p>"
+        },
+        {
+          "content": "<p>proudly</p>"
+        },
+        {
+          "content": "<p>proudness</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Identifiez la forme passive correcte : 'The report _____ by Friday.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have been submitted</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be submit</p>"
+        },
+        {
+          "content": "<p>will had submitted</p>"
+        },
+        {
+          "content": "<p>will have submit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour introduire une opinion en anglais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>In my opinion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>As far as I'm concerned</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>From my point of view</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Like I know</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le phrasal verb correct : 'Could you _____ these figures for me?'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>look into</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>look at</p>"
+        },
+        {
+          "content": "<p>look for</p>"
+        },
+        {
+          "content": "<p>look after</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase conditionnelle : 'Had I known about the meeting, I _____ it.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>would have attended</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will attend</p>"
+        },
+        {
+          "content": "<p>would attend</p>"
+        },
+        {
+          "content": "<p>had attended</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés comme connecteurs de contraste ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>However</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nevertheless</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Therefore</p>"
+        },
+        {
+          "content": "<p>Moreover</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne préposition : 'She's responsible _____ managing the team.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>for</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>of</p>"
+        },
+        {
+          "content": "<p>to</p>"
+        },
+        {
+          "content": "<p>with</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez le mot correct : 'The meeting was _____ postponed due to unforeseen circumstances.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>indefinitely</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>indefinite</p>"
+        },
+        {
+          "content": "<p>indefinable</p>"
+        },
+        {
+          "content": "<p>indefinition</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour exprimer un accord en anglais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I couldn't agree more</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>That's exactly what I think</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You've got a point there</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm not sure about that</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme correcte du gérondif : '_____ early means I can avoid traffic.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Leaving</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To leave</p>"
+        },
+        {
+          "content": "<p>Leave</p>"
+        },
+        {
+          "content": "<p>Left</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le modal correct : 'You _____ have told me earlier about the change in plans.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>should</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>would</p>"
+        },
+        {
+          "content": "<p>could</p>"
+        },
+        {
+          "content": "<p>might</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour parler d'un projet futur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I'm planning to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I intend to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I wanting to</p>"
+        },
+        {
+          "content": "<p>I will going to</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct : 'The company's new policy has been _____ successful.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>remarkably</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>remarking</p>"
+        },
+        {
+          "content": "<p>remarkable</p>"
+        },
+        {
+          "content": "<p>remarkably</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'By the time the manager arrives, we _____ the presentation.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have finished</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will finish</p>"
+        },
+        {
+          "content": "<p>would finish</p>"
+        },
+        {
+          "content": "<p>had finished</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour exprimer la probabilité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Likely</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Probably</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Perhaps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Always</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la bonne expression : 'The project is currently _____ schedule.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>behind</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>after</p>"
+        },
+        {
+          "content": "<p>back</p>"
+        },
+        {
+          "content": "<p>beyond</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct : 'The report highlights several _____ findings.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>significant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>significantly</p>"
+        },
+        {
+          "content": "<p>significance</p>"
+        },
+        {
+          "content": "<p>signify</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour conclure un email professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Best regards</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Yours sincerely</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>See you later</p>"
+        },
+        {
+          "content": "<p>Bye bye</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'Despite _____ hard, he didn't get the promotion.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>working</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>work</p>"
+        },
+        {
+          "content": "<p>to work</p>"
+        },
+        {
+          "content": "<p>worked</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression : 'The company needs to _____ new markets.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>break into</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>break down</p>"
+        },
+        {
+          "content": "<p>break up</p>"
+        },
+        {
+          "content": "<p>break off</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour exprimer la cause ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Due to</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Because of</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>As a result of</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>In spite of</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la forme correcte : 'If the contract _____ signed tomorrow, we can start next week.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>is</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be</p>"
+        },
+        {
+          "content": "<p>would be</p>"
+        },
+        {
+          "content": "<p>were</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'She _____ to the conference last month.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>was supposed to go</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>is supposed to go</p>"
+        },
+        {
+          "content": "<p>supposed to go</p>"
+        },
+        {
+          "content": "<p>supposing to go</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peuvent être utilisées pour faire une suggestion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Why don't we</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>How about</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Let's</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I demand</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct : 'The presentation was _____ prepared.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>thoroughly</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>thorough</p>"
+        },
+        {
+          "content": "<p>through</p>"
+        },
+        {
+          "content": "<p>thoroughness</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'We need to _____ the deadline for this project.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>meet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>reach</p>"
+        },
+        {
+          "content": "<p>arrive</p>"
+        },
+        {
+          "content": "<p>achieve</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour parler d'un changement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>To shift</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To transform</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>To stay</p>"
+        },
+        {
+          "content": "<p>To remain</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la bonne préposition : 'The decision depends _____ several factors.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>on</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>of</p>"
+        },
+        {
+          "content": "<p>from</p>"
+        },
+        {
+          "content": "<p>at</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la meilleure expression : 'The company has _____ significant growth this year.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>experienced</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>made</p>"
+        },
+        {
+          "content": "<p>done</p>"
+        },
+        {
+          "content": "<p>had</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont appropriées pour exprimer un désaccord poliment ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>I see your point, but...</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>I'm afraid I disagree</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>You're completely wrong</p>"
+        },
+        {
+          "content": "<p>That's nonsense</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'We need to _____ the issue before moving forward.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>address</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>speak</p>"
+        },
+        {
+          "content": "<p>tell</p>"
+        },
+        {
+          "content": "<p>say</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la forme correcte : 'By the end of next year, she _____ here for a decade.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>will have been working</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>will be working</p>"
+        },
+        {
+          "content": "<p>has been working</p>"
+        },
+        {
+          "content": "<p>would have worked</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots peuvent être utilisés pour décrire des tendances positives ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Surge</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Boost</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Upswing</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Decline</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez le mot correct : 'The solution proved to be _____ effective.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>highly</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>high</p>"
+        },
+        {
+          "content": "<p>higher</p>"
+        },
+        {
+          "content": "<p>highest</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'She _____ have finished the report by now.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>must</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>should</p>"
+        },
+        {
+          "content": "<p>would</p>"
+        },
+        {
+          "content": "<p>could</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions sont correctes pour parler de délais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>By the end of</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>No later than</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>At the latest</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Some time</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Sélectionnez la meilleure réponse : 'I'm _____ to inform you that your application has been successful.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>pleased</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pleasure</p>"
+        },
+        {
+          "content": "<p>pleasing</p>"
+        },
+        {
+          "content": "<p>pleasant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez la phrase : 'The team _____ the deadline despite all the challenges.'</p>"
+      },
+      "options": [
+        {
+          "content": "<p>managed to meet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>succeeded to meet</p>"
+        },
+        {
+          "content": "<p>achieved to meet</p>"
+        },
+        {
+          "content": "<p>arrived to meet</p>"
+        }
+      ]
+    }
+  ]
+}
