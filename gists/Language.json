@@ -2749,7 +2749,7 @@
       "relevancy": "Tous les postes qui requièrent une utilisation basique (élémentaire) de l’anglais.",
       "description": "Une connaissance élémentaire de l’anglais A2 du CECR permet de comprendre et d’utiliser des expressions fréquemment utilisées sur des sujets tels que l’emploi, la famille, la géographie locale et les courses. Les candidats qui ont ce niveau d’anglais sont capables de communiquer par un échange simple et direct d’informations, et de décrire des sujets familiers et des questions d’intérêt immédiat avec des termes simples. Ce test vous aidera à identifier les candidats qui ont besoin de parler et de comprendre un anglais élémentaire pour occuper un poste dans le domaine de la fabrication ou dans d’autres secteurs industriels.\n\nCe test d’anglais (élémentaire/A2) évalue les candidats sur le vocabulaire et la grammaire de base de l’anglais, ainsi que sur la composition de phrases simples. Il évalue également les capacités de compréhension écrite et orale des candidats par le biais de phrases simples.\n\nLes candidats qui réussissent ce test savent utiliser des modèles de phrases de base en anglais pour communiquer des informations dans des situations du quotidien. Ils et elles peuvent se faire comprendre, même avec quelques erreurs. Ils et elles possèdent les connaissances d’anglais requises pour lire et comprendre les panneaux dans la rue et sur le lieu de travail, et pour être en mesure de répondre à des questions et de réagir à des affirmations simples.",
       "category": "language_proficiency",
-      "langns_touage": "french",
+      "language": "french",
       "questio_answer": 16,
       "duration_seconds": 600,
       "position": 1
@@ -3638,7 +3638,7 @@
       "relevancy": "Personnel d’assistance à la clientèle, représentant·e·s commerciaux·ales et autres employé·e·s qui ont besoin d’un niveau d’anglais intermédiaire pour bien remplir leurs fonctions.",
       "description": "Les employés capables de communiquer en anglais à un niveau intermédiaire contribueront à améliorer les communications internes et externes de votre entreprise en supprimant les barrières linguistiques, et en améliorant le flux d’informations et la collaboration entre collègues et avec les clients.\n\nLe test d’anglais B1 (intermédiaire) évalue la capacité d’un candidat à communiquer en anglais niveau B1 du CECR. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la construction des phrases, de la compréhension écrite et de la compréhension orale.\n\nLes employés capables de parler anglais à un niveau intermédiaire peuvent communiquer avec la clientèle, des collègues et d’autres parties prenantes en toute aisance dans des situations du quotidien qui peuvent se présenter sur le lieu de travail. Les textes et les phrases utilisés dans le test reproduisent des situations réelles au travail et dans la vie quotidienne. Les personnes qui obtiennent de bons résultats à ce test sont capables de comprendre des phrases simples et cohérentes sur des sujets qui leur sont généralement familiers.",
       "category": "language_proficiency",
-      "langns_touage": "french",
+      "language": "french",
       "questio_answer": 16,
       "duration_seconds": 600,
       "position": 1
@@ -4526,7 +4526,7 @@
       "relevancy": "Tout employé qui doit maîtriser parfaitement l'anglais pour bien jouer son rôle.",
       "description": "Le test d'anglais B2 (intermédiaire supérieur) évalue la capacité des candidats à communiquer au niveau B2 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition de phrases, de la compréhension écrite et de la compréhension orale.\n\nCe test vous permettra d'identifier les candidats capables de s'exprimer sur un éventail de sujets en fonction de leur position, de participer activement à des discussions et de fournir des explications et des arguments pertinents. Votre entreprise bénéficiera de candidats qui rédigent des textes clairs et détaillés sur des sujets liés à leur domaine d'expertise.\n\nUne connaissance intermédiaire supérieure de l'anglais au niveau B2 du CECR permet de comprendre les idées principales d'un texte complexe sur des sujets concrets et abstraits, y compris des discussions techniques dans leur domaine de spécialisation. Les candidats qui possèdent ce niveau d'anglais sont capables d'interagir avec un degré d'aisance et de spontanéité qui rend possible une interaction régulière avec des locuteurs natifs. Ce test vous aidera à identifier les candidats capables de produire des textes clairs et détaillés sur un large éventail de sujets et d'expliquer un point de vue sur une question d'actualité en présentant les avantages et les inconvénients de différentes options.",
       "category": "language_proficiency",
-      "langns_touage": "french",
+      "language": "french",
       "questio_answer": 16,
       "duration_seconds": 720,
       "position": 1
@@ -5432,7 +5432,7 @@
       "relevancy": "Les rédacteurs, écrivains, créateurs de contenu, responsables de la satisfaction de la clientèle et autres employés qui doivent maîtriser l’anglais pour être efficaces dans leurs fonctions.",
       "description": "Les employés qui maîtrisent l’anglais enrichiront les communications internes et externes de votre entreprise en exprimant clairement et efficacement des idées, en discutant des plans et des objectifs avec les clients et les collègues. Ils seront également capables de rédiger des rapports, des présentations et d’autres documents bien structurés en anglais afin de promouvoir la marque et les idées de l’entreprise auprès du monde extérieur.\n\nLe test d’anglais C1 (avancé) évalue la capacité du la candidat à communiquer au niveau C1 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition des phrases, de la compréhension de l’écrit et de l’oral.\n\nLes employés qui maîtrisent l’anglais peuvent s’exprimer couramment et spontanément sans trop chercher leurs mots. Ils peuvent comprendre des textes exigeants et plus longs et reconnaître le sens implicite dans les communications écrites et orales. Ils utilisent la langue de manière souple et efficace à des fins sociales, académiques et professionnelles et peuvent produire des textes détaillés sur des sujets complexes, en montrant une utilisation contrôlée des schémas d’organisation, des connecteurs et des dispositifs de cohésion.",
       "category": "language_proficiency",
-      "langns_touage": "french",
+      "language": "french",
       "questio_answer": 16,
       "duration_seconds": 720,
       "position": 1
@@ -6353,7 +6353,7 @@
       "relevancy": "Le test d’anglais (niveau autonome/C2) est pertinent pour les postes qui nécessitent des compétences de communication exceptionnelles, telles que le service client, les ventes, la gestion et les postes de direction dans les secteurs de l'hôtellerie, de la finance, de la technologie, de la santé et de l'éducation.",
       "description": "Ce test de présélection en anglais (maitrise/C2) évalue les compétences des candidats au niveau C2 de l’anglais selon le Cadre européen commun de référence pour les langues (CECRL), qui est communément accepté comme étant un niveau natif. Ce test de présélection vous aidera à recruter des personnes qui sont capables de communiquer couramment et de collaborer efficacement avec des collègues et des clients dans des environnements commerciaux internationaux.\n\nLe test évalue les compétences des candidats dans des domaines clés de la langue anglaise, notamment la grammaire, le vocabulaire, la compréhension de l’écrit, la compréhension de l’oral et la composition des phrases. L’évaluation des candidats se fera sur la base de leur capacité à utiliser des structures grammaticales complexes de manière précise et efficace, à employer un large éventail de vocabulaire, à comprendre des textes complexes et à communiquer de manière claire et concise sur le lieu de travail.\n\nCe test de présélection vous aidera à identifier les candidats ayant les compétences nécessaires pour exceller dans des rôles qui nécessitent une communication exceptionnelle, tels que le service à la clientèle, la vente, la gestion et les postes de direction. Les candidats qui réussissent ce test aideront votre organisation à améliorer la satisfaction et la fidélité de sa clientèle, à augmenter ses revenus, à améliorer sa culture de la collaboration et de la productivité, à établir des relations solides et à créer de nouvelles opportunités avec les parties prenantes du monde entier.",
       "category": "language_proficiency",
-      "langns_touage": "french",
+      "language": "french",
       "questio_answer": 16,
       "duration_seconds": 720,
       "position": 1

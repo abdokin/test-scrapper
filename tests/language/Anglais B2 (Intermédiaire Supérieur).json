@@ -12,7 +12,7 @@
     "relevancy": "Tout employé qui doit maîtriser parfaitement l'anglais pour bien jouer son rôle.",
     "description": "Le test d'anglais B2 (intermédiaire supérieur) évalue la capacité des candidats à communiquer au niveau B2 du Cadre européen commun de référence (CECR) pour les langues. Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition de phrases, de la compréhension écrite et de la compréhension orale.\n\nCe test vous permettra d'identifier les candidats capables de s'exprimer sur un éventail de sujets en fonction de leur position, de participer activement à des discussions et de fournir des explications et des arguments pertinents. Votre entreprise bénéficiera de candidats qui rédigent des textes clairs et détaillés sur des sujets liés à leur domaine d'expertise.\n\nUne connaissance intermédiaire supérieure de l'anglais au niveau B2 du CECR permet de comprendre les idées principales d'un texte complexe sur des sujets concrets et abstraits, y compris des discussions techniques dans leur domaine de spécialisation. Les candidats qui possèdent ce niveau d'anglais sont capables d'interagir avec un degré d'aisance et de spontanéité qui rend possible une interaction régulière avec des locuteurs natifs. Ce test vous aidera à identifier les candidats capables de produire des textes clairs et détaillés sur un large éventail de sujets et d'expliquer un point de vue sur une question d'actualité en présentant les avantages et les inconvénients de différentes options.",
     "category": "language_proficiency",
-    "langns_touage": "french",
+    "language": "french",
     "questio_answer": 16,
     "duration_seconds": 720,
     "position": 1
