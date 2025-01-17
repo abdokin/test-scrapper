@@ -1,0 +1,50 @@
+{
+  "title": "Gestion des risques",
+  "attributes": {
+    "overview": "The Leadership and People Management test evaluates a candidate’s ability to lead others within an organization using both influence and guidance. This test will help you hire leaders who can support and develop others to help your organization grow.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Delegate authority and task responsibility",
+      "Plan and support the development of others",
+      "Provide timely guidance and feedback",
+      "Gain acceptance of ideas and plans"
+    ],
+    "relevancy": "Managers, team leaders, and employees in other leadership roles.",
+    "description": "Powerful leaders scale your organization’s potential. They carry out impactful strategies and provide actionable directives that get results.  \n\nThis Leadership and People Management test evaluates candidates’ abilities to delegate authority and task responsibility, plan and support the development of others, provide timely guidance and feedback, and gain acceptance of ideas and plans. Rather than proposing a specific leadership style, this test follows the situational theory of leadership developed by Blanchard and Hersey and asks candidates to evaluate factors to decide when to tell, sell, participate, or delegate in different scenarios based on the needs of each situation.\n\nThis screening test will help you identify leaders who have a genuine interest in developing others and can unite talent behind important objectives. These are the leaders who understand how to align the needs and goals of the organization with the skills and aspirations of their team members to produce results and satisfaction at all levels. Successful leaders lead by example and create a space where people can share ideas, ask questions, and be accountable for their actions.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div fxflex="100" ngclass.xs="p-8 q-a-resp" ngclass.sm="p-8 q-a-resp" ngclass.md="p-28 q-a-resp" ngclass.lg="p-40" ngclass.xl="p-40" class="question p-8 q-a-resp ng-star-inserted" style="flex: 1 1 100%; box-sizing: border-box; max-width: 100%;"><!----><tgo-quill-view class="disable-text-selection" _nghost-ng-c1836743785=""><quill-view _ngcontent-ng-c1836743785="" theme="snow"><div quill-view-element="" class="ql-container ql-snow ql-disabled ngx-quill-view"><div class="ql-editor" contenteditable="false"><p>An employee from another department will join your team next week. They requested the transfer because they felt their work was becoming predictable and monotonous. Their performance reports show they have made good contributions to programming projects but need to improve their presentation skills.</p><p><br></p><p><strong>How would you support their development? </strong></p></div></div></quill-view></tgo-quill-view></div>
+- Discuss your team's upcoming projects with them and trust that they will learn to create better presentations on the job.
+- Meet with their former manager to discuss their weaknesses and the development plan they were working on.
+- Meet with them to discuss their goals and training needs and set a development program together.
+- Research how to improve presentation skills and give them educational materials they can read to improve.
+
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p>You are in the middle of the company’s peak business period and have noticed that your team’s morale is dropping due to pressure. One of the long-term clients of the company has complained that the report your team sent last week was full of typos and inconsistent information.&nbsp;</p><p><br></p><p><strong>How should you approach your team about this?</strong></p></div>
+- Share the client's feedback with your team and brainstorm ways to manage the pressure of the peak period. Ask them to redo the report by next week.
+- Ask your team to redo the report as soon as possible. Explain that you're not in a position to lose an important client.
+- Tell your team the client changed his mind and wants a revised report to avoid harming your team's morale further with negative feedback.
+- Ask your team to redo the report immediately, letting them know you're concerned about their performance and will apply disciplinary actions if it doesn't improve.
+
+3- <div class="ql-editor" contenteditable="false"><p>One of your direct reports is not making the expected progress on an assignment you have given them. When you ask them about it, they say they are feeling stressed. They are a competent worker and you know they have the skills required to complete the assignment.</p><p><br></p><p><strong>How would you approach the situation?</strong></p></div>
+- Remind them that they have the skills required and that you trust them to complete the work on time.
+- Remind them of the deadline and explain that it is not negotiable.
+- Discuss what's causing their stress and discuss ways to mitigate it with a time-bound plan.
+- Outline what they still need to do for the project, give them an action plan, and check in on their progress daily.
+
+4- <div class="ql-editor" contenteditable="false"><p>As the Director of Human Resources, you have noticed stark differences between the leadership styles of top and middle managers at your company. You want to implement a leadership development program to harmonize the company’s approach to leadership. The CEO of the company, however, does not think this is a critical issue that needs addressing at the moment.</p><p><br></p><p><strong>How can you convince the CEO to approve the program?</strong></p></div>
+- Wait until the stark differences in leadership styles affect a key metric in a demonstrable way, then pitch the program to the CEO again.
+- Write a report explaining all the differences you see in leadership styles and give examples of what a harmonized leadership style would look like.
+- Explain your idea to other directors in your company and ask that they support you in your request for approval from the CEO.
+- Write a report on the positive impact a harmonized leadership style would have on the company's bottom line.

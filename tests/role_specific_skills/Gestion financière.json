@@ -1,0 +1,51 @@
+{
+  "title": "Gestion financière",
+  "attributes": {
+    "overview": "This test evaluates candidates’ ability to manage finance in order to maximize business profits and minimize risk. The test will help you to identify candidates equipped with practical skills to effectively handle the financial side of your business.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Working capital management",
+      "Investment appraisal and decision-making",
+      "Capital structure and cost",
+      "Forecasting and analyzing financial outcomes"
+    ],
+    "relevancy": "Financial controller, corporate accountant, comptroller, finance manager, treasurer, auditor, and anyone else responsible for managing and controlling the overall finances of a business.",
+    "description": "The survival of any business requires the availability of and access to financing. Every company wants to maximize its profits and minimize risk, but the availability of financing does not provide a guarantee for these outcomes. Effective and efficient management of finance requires skilled oversight to ensure that sufficient funds are available to meet current liabilities and for the continued smooth running of business operations. This Financial Management test will help you find the person who can manage your business’s finances to ensure the short-, medium-, and long-term success of your business.\n\nThis hiring test focuses on capital management, investment appraisal, capital structure, and forecasting outcomes. Working-capital management includes understanding the most feasible credit period to be allowed to debtors and the most beneficial time to pay creditors, in addition to various decisions regarding inventory management. Investment appraisal includes allocating funds to invest in the most profitable business opportunities and having funds required for the business at the lowest possible cost. The person managing your company’s finances should also proactively identify possible financial risks and devise mitigation strategies to prevent the occurrence and impacts of such events.\n\nThe Financial Management test will help to assess candidates’ financial-management skills. The candidates who perform well on the test are likely to possess excellent financial-management skills in real-world scenarios. The test ensures that successful candidates will be a good addition to your company’s finance team and that they will perform their duties efficiently and effectively right from the start.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div class="ql-editor" contenteditable="false"><p>Your company’s estimated sales are $10,000 if no credit time is allowed. Sales will increase to $12,000 if credit time of one month is allowed. However, one month’s credit time will result in 5% bad debts. Your company’s contribution to sales ratio is 0.30, and its finance cost is 10%.</p><p>&nbsp;</p><p><strong>What is your company’s total profit with no credit time and with a credit time of one month?</strong></p></div>
+- <div class="ql-editor" contenteditable="false"><p class="ql-align-justify">No credit time: $3,000</p><p class="ql-align-justify">Credit time of one month: $2,900</p></div>
+- <div class="ql-editor" contenteditable="false"><p>No credit time: $3,000</p><p>Credit time of one month: $3,600</p></div>
+- <div class="ql-editor" contenteditable="false"><p>No credit time: $3,000</p><p>Credit time of one month: $3,500</p></div>
+- <div class="ql-editor" contenteditable="false"><p>No credit time: $2,500</p><p>Credit time of one month: $3,000</p></div>
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p>Tulip Company wants to acquire Lilly Company. Lilly Company’s price/earnings (P/E) ratio&nbsp;is 5, and its earning per share (EPS) is $2.</p><p>&nbsp;</p><p><strong>Using the P/E ratio to evaluate the value of business, what price should Tulip Company be willing to pay to buy Lilly Company?</strong></p></div>
+- $2 per share
+$5 per share
+$7 per share
+$10 per share
+
+3- single choice
+<div class="ql-editor" contenteditable="false"><p>Your company is considering taking out a bank loan of $100,000 to finance an investment opportunity. The bank has agreed to issue the loan at an interest rate of 10%. A tax rate of 30% applies on all of the company’s profits.</p><p>&nbsp;</p><p><strong>What is the cost of this debt capital to the company?</strong></p></div>
+- 3%
+- 7%
+- 10%
+- 13%
+
+4- single choice
+<div class="ql-editor" contenteditable="false"><p>You are working as a financial controller at a mutual fund. During the last year, management was concerned about significant fluctuation in the rate of return on funds invested. Management asked you to take measures to reduce this volatility.</p><p><br></p><p><strong>Which of the following actions should help you reduce this risk?</strong></p></div>
+- Invest all funds in shares of oil and gas sector companies only.
+Create a portfolio of negatively correlated investments.
+Create a portfolio of positively correlated investments.
+Create a portfolio with no correlation among the investments.

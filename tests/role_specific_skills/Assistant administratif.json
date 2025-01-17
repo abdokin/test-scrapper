@@ -1,0 +1,1037 @@
+{
+  "title": "Assistant administratif",
+  "attributes": {
+    "overview": "Ce test d'Assistant Administratif évalue la capacité d'un candidat à soutenir votre entreprise. Ce test de présélection vous aidera à recruter un assistant administratif capable d'améliorer l'efficacité quotidienne et l'organisation du travail de votre équipe.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Communication verbale et écrite",
+      "Organisation et gestion du temps",
+      "Attention aux détails",
+      "Résolution de problèmes"
+    ],
+    "relevancy": "Assistants administratifs, assistants administratifs de direction, assistants de projet, coordinateurs de projet, support d'équipe.",
+    "description": "De la coordination efficace des équipes au maintien de canaux de communication solides et cohérents, en passant par le respect des processus et pratiques internes, un assistant administratif n'est pas seulement nécessaire pour le bon fonctionnement de votre organisation ; il peut contribuer à transformer son fonctionnement.\n\nCe test évalue la capacité des candidats à communiquer efficacement avec les parties prenantes internes et externes. Il évalue également si les candidats possèdent les connaissances requises pour organiser et gérer efficacement leur temps. De plus, le test évaluera leur attention aux détails, ainsi que leur capacité à résoudre des problèmes grâce à leurs compétences de réflexion critique et indépendante.\n\nCe test de présélection vous aidera à identifier des assistants administratifs expérimentés qui peuvent non seulement apporter un soutien direct à votre organisation, mais aussi contribuer à améliorer vos processus quotidiens pour optimiser votre façon de faire des affaires.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant qu'assistant administratif travaillant directement avec un PDG, celui-ci vous a remis ses notes manuscrites suite à une réunion générale. Il vous demande de les transformer en un e-mail qui sera envoyé à tous les employés, y compris ceux qui n'étaient pas présents.</p><p><strong>Quelles sont les actions les plus appropriées à prendre avant d'envoyer l'e-mail ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Retranscrire les notes, compléter les lacunes de mémoire, faire une relecture, envoyer l'e-mail</p>"
+        },
+        {
+          "content": "<p>Retranscrire les notes, reformater en texte détaillé, faire une relecture, envoyer l'e-mail</p>"
+        },
+        {
+          "content": "<p>Retranscrire les notes mot pour mot, envoyer l'e-mail</p>"
+        },
+        {
+          "content": "<p>Retranscrire les notes, reformater en texte détaillé, faire une relecture, envoyer au PDG pour validation, puis envoyer l'e-mail</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous assistez une équipe de design qui a une présentation de projet prévue avec un client dans deux semaines. Vous savez que certains membres clés de l'équipe seront absents par intermittence durant cette période et risquent de manquer des réunions internes importantes.</p><p><strong>Quelle est l'action la plus appropriée à prendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Envoyer un e-mail général à l'équipe de design pour signaler le problème</p>"
+        },
+        {
+          "content": "<p>Vérifier que les calendriers sont à jour et que tous peuvent assister aux réunions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client s'il est possible de reporter la date de présentation</p>"
+        },
+        {
+          "content": "<p>Vérifier les calendriers des membres de l'équipe pour voir s'ils sont disponibles pour la présentation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous travaillez comme support général pour un cabinet de conseil en management. Un membre de l'équipe commerciale, Jean, vous a demandé de relire un document qu'il souhaite envoyer à un client potentiel concernant les services que votre entreprise peut offrir.</p><p><strong>Vrai ou faux :</strong> Vous devez envoyer le document directement au client une fois que vous l'avez relu.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>"
+        },
+        {
+          "content": "<p>Faux</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous assistez un responsable de la croissance. C'est tard le vendredi, et elle vous a demandé d'envoyer des e-mails à trois clients potentiels pour organiser des réunions en début de semaine prochaine. Elle vous a transmis le modèle d'e-mail, mais elle est maintenant injoignable et le sera pour les prochaines heures. Après avoir examiné le modèle d'e-mail, vous réalisez qu'il pourrait contenir des erreurs factuelles, bien que vous ayez besoin de confirmer.</p><p><strong>Quelle action devriez-vous prendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Envoyer les e-mails tels quels</p>"
+        },
+        {
+          "content": "<p>Envoyer un message à la responsable injoignable et attendre sa réponse avant d'envoyer les e-mails</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Contacter l'un des assistants administratifs du département croissance pour confirmer avant d'envoyer les e-mails</p>"
+        },
+        {
+          "content": "<p>Corriger vous-même les erreurs factuelles potentielles avant d'envoyer les e-mails</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important appelle pendant que votre superviseur est en réunion. Il est mécontent et demande à parler immédiatement à votre superviseur. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Interrompre la réunion de votre superviseur</p>"
+        },
+        {
+          "content": "<p>Écouter attentivement, prendre des notes détaillées et assurer un suivi rapide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer l'appel à un autre responsable</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler plus tard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la gestion d'un agenda professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Confirmer les rendez-vous 24h à l'avance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prévoir des temps de pause entre les réunions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surréserver intentionnellement pour maximiser l'efficacité</p>"
+        },
+        {
+          "content": "<p>Établir des priorités claires pour les réunions</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une erreur dans un rapport important qui a déjà été distribué à l'équipe de direction. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer l'erreur si elle est mineure</p>"
+        },
+        {
+          "content": "<p>Corriger l'erreur et renvoyer le rapport sans commentaire</p>"
+        },
+        {
+          "content": "<p>Informer votre superviseur et envoyer une version corrigée avec une note d'explication</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que quelqu'un d'autre remarque l'erreur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de la préparation d'une réunion importante, quelle est la première étape à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réserver la salle de conférence</p>"
+        },
+        {
+          "content": "<p>Définir l'ordre du jour et les objectifs de la réunion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer les invitations aux participants</p>"
+        },
+        {
+          "content": "<p>Préparer les documents à distribuer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un système de classement efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une nomenclature cohérente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un système de couleurs complexe</p>"
+        },
+        {
+          "content": "<p>Une structure hiérarchique claire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un index ou répertoire central</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez simultanément plusieurs demandes urgentes de différents responsables. Comment gérez-vous cette situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter les demandes dans l'ordre de réception</p>"
+        },
+        {
+          "content": "<p>Évaluer la priorité de chaque demande et organiser le travail en conséquence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déléguer toutes les demandes à des collègues</p>"
+        },
+        {
+          "content": "<p>Travailler sur toutes les demandes simultanément</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un fournisseur important envoie une facture avec des erreurs de calcul. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Payer la facture et signaler l'erreur lors du prochain achat</p>"
+        },
+        {
+          "content": "<p>Contacter poliment le fournisseur pour demander une correction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger les calculs vous-même et payer le montant corrigé</p>"
+        },
+        {
+          "content": "<p>Transmettre le problème au service comptabilité sans action</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la prise de notes lors d'une réunion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Capturer les points clés et les décisions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter chaque mot prononcé</p>"
+        },
+        {
+          "content": "<p>Identifier les actions et les responsables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter les échéances convenues</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer au mieux la confidentialité des informations dans votre rôle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager les informations uniquement avec les personnes autorisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Discuter des informations sensibles lors des pauses café</p>"
+        },
+        {
+          "content": "<p>Stocker toutes les données sur votre ordinateur personnel</p>"
+        },
+        {
+          "content": "<p>Utiliser les réseaux sociaux pour le partage d'informations</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer les interruptions fréquentes au travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer toutes les interruptions</p>"
+        },
+        {
+          "content": "<p>Établir des plages horaires dédiées aux interruptions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Travailler exclusivement en dehors des heures de bureau</p>"
+        },
+        {
+          "content": "<p>Déléguer toutes les tâches aux collègues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une communication écrite professionnelle efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Clarté et concision du message</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation d'émoticônes pour exprimer le ton</p>"
+        },
+        {
+          "content": "<p>Structure logique et cohérente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Relecture avant envoi</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer au mieux un conflit entre deux collègues qui affecte le travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la situation en espérant qu'elle se résolve d'elle-même</p>"
+        },
+        {
+          "content": "<p>Prendre parti pour l'un des collègues</p>"
+        },
+        {
+          "content": "<p>Informer le superviseur de la situation de manière professionnelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répandre des rumeurs sur la situation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un collègue a accidentellement envoyé des informations confidentielles au mauvais destinataire. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la situation car ce n'est pas votre responsabilité</p>"
+        },
+        {
+          "content": "<p>En informer immédiatement votre superviseur et le service informatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre de voir si quelqu'un d'autre le remarque</p>"
+        },
+        {
+          "content": "<p>En discuter avec les autres collègues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la gestion des e-mails professionnels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir un système de classement par priorité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répondre immédiatement à tous les e-mails</p>"
+        },
+        {
+          "content": "<p>Créer des dossiers organisés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Archiver régulièrement les e-mails traités</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer plusieurs projets avec des échéances similaires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Travailler sur les projets dans l'ordre de réception</p>"
+        },
+        {
+          "content": "<p>Créer un plan détaillé avec des priorités et des jalons</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déléguer tous les projets à d'autres personnes</p>"
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur le projet le plus urgent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où vous avez commis une erreur dans un document important ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Espérer que personne ne remarque l'erreur</p>"
+        },
+        {
+          "content": "<p>Corriger l'erreur et informer les parties concernées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Blâmer quelqu'un d'autre pour l'erreur</p>"
+        },
+        {
+          "content": "<p>Supprimer le document et faire comme s'il n'avait jamais existé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une réunion bien organisée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un ordre du jour clair et distribué à l'avance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une liste des participants confirmés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des discussions non structurées</p>"
+        },
+        {
+          "content": "<p>Un compte-rendu des décisions prises</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de prioriser les tâches quotidiennes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir une liste par ordre d'urgence et d'importance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire les tâches les plus faciles en premier</p>"
+        },
+        {
+          "content": "<p>Attendre les instructions du superviseur pour chaque tâche</p>"
+        },
+        {
+          "content": "<p>Traiter les demandes dans leur ordre d'arrivée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les compétences essentielles pour la gestion efficace du temps ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Capacité à définir des priorités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Multitâche constant</p>"
+        },
+        {
+          "content": "<p>Planification structurée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Délégation appropriée</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où plusieurs responsables vous donnent des instructions contradictoires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Choisir les instructions qui semblent les plus logiques</p>"
+        },
+        {
+          "content": "<p>Organiser une discussion pour clarifier les priorités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer toutes les instructions</p>"
+        },
+        {
+          "content": "<p>Exécuter les tâches dans l'ordre de réception</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour maintenir un système de classement efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Créer un nouveau système chaque semaine</p>"
+        },
+        {
+          "content": "<p>Maintenir un système cohérent et le mettre à jour régulièrement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser chaque personne organiser les fichiers à sa façon</p>"
+        },
+        {
+          "content": "<p>Tout numériser sans système de classement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une communication téléphonique professionnelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Voix claire et professionnelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prise de notes pendant l'appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation d'un langage familier</p>"
+        },
+        {
+          "content": "<p>Écoute active et confirmation de la compréhension</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où vous ne comprenez pas clairement une instruction donnée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire de votre mieux sans poser de questions</p>"
+        },
+        {
+          "content": "<p>Demander poliment des éclaircissements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer l'instruction</p>"
+        },
+        {
+          "content": "<p>Demander à un collègue de faire la tâche</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer un agenda partagé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre à jour sans informer les autres utilisateurs</p>"
+        },
+        {
+          "content": "<p>Maintenir des règles claires et communiquer les changements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser chacun gérer ses propres rendez-vous</p>"
+        },
+        {
+          "content": "<p>Bloquer tous les créneaux par défaut</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la préparation d'une présentation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier tout l'équipement à l'avance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer des copies de secours des documents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Improviser le contenu</p>"
+        },
+        {
+          "content": "<p>Arriver en avance pour l'installation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer efficacement les fournitures de bureau ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Commander uniquement en cas de rupture de stock</p>"
+        },
+        {
+          "content": "<p>Maintenir un inventaire et commander de façon proactive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser chaque département gérer ses propres fournitures</p>"
+        },
+        {
+          "content": "<p>Acheter en grande quantité sans suivi</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les demandes de dernière minute ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les refuser systématiquement</p>"
+        },
+        {
+          "content": "<p>Évaluer leur urgence et les intégrer au planning si possible</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les accepter toutes sans condition</p>"
+        },
+        {
+          "content": "<p>Les transférer à d'autres collègues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un compte-rendu de réunion efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Liste des participants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Points de discussion principaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Conversations informelles</p>"
+        },
+        {
+          "content": "<p>Actions à suivre et responsables</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande urgente qui arrive juste avant votre départ du bureau ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la demande jusqu'au lendemain</p>"
+        },
+        {
+          "content": "<p>Évaluer rapidement la situation et organiser une solution appropriée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partir quand même sans traiter la demande</p>"
+        },
+        {
+          "content": "<p>Transférer automatiquement la demande à un collègue</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un visiteur arrive sans rendez-vous et insiste pour voir votre responsable qui est en réunion. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Interrompre la réunion de votre responsable</p>"
+        },
+        {
+          "content": "<p>Comprendre le motif de la visite et proposer une alternative appropriée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au visiteur de partir et de revenir un autre jour</p>"
+        },
+        {
+          "content": "<p>Laisser le visiteur attendre indéfiniment</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la gestion des documents confidentiels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un système de classification sécurisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Verrouiller les documents physiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les mots de passe avec les collègues</p>"
+        },
+        {
+          "content": "<p>Appliquer une politique de bureau propre</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer efficacement les demandes de remboursement de frais ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter les demandes sans vérifier les justificatifs</p>"
+        },
+        {
+          "content": "<p>Vérifier systématiquement les justificatifs et la conformité à la politique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter toutes les demandes douteuses sans explication</p>"
+        },
+        {
+          "content": "<p>Accepter toutes les demandes sans question</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer un conflit d'horaire entre deux réunions importantes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Annuler les deux réunions</p>"
+        },
+        {
+          "content": "<p>Évaluer les priorités et proposer des alternatives de planification</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Assister partiellement aux deux réunions</p>"
+        },
+        {
+          "content": "<p>Déléguer votre présence à un collègue sans prévenir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une gestion efficace des appels téléphoniques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tenir un registre précis des messages</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer systématiquement tous les appels</p>"
+        },
+        {
+          "content": "<p>Assurer un suivi rapide des messages urgents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter les coordonnées complètes des appelants</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où vous découvrez une erreur dans un contrat déjà signé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer l'erreur si elle semble mineure</p>"
+        },
+        {
+          "content": "<p>Informer immédiatement les parties concernées et le service juridique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger l'erreur vous-même dans le document</p>"
+        },
+        {
+          "content": "<p>Attendre que quelqu'un d'autre découvre l'erreur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour organiser un déplacement professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réserver uniquement le transport</p>"
+        },
+        {
+          "content": "<p>Planifier tous les aspects en respectant la politique de voyage</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser le voyageur tout organiser lui-même</p>"
+        },
+        {
+          "content": "<p>Choisir les options les plus économiques sans tenir compte du confort</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une gestion efficace des fournitures de bureau ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir un inventaire à jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Commander sans vérifier les stocks existants</p>"
+        },
+        {
+          "content": "<p>Établir des niveaux de réapprovisionnement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveiller les tendances de consommation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où un collègue vous demande d'accéder à des informations confidentielles sans autorisation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager les informations si vous faites confiance au collègue</p>"
+        },
+        {
+          "content": "<p>Refuser poliment en expliquant la politique de confidentialité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la demande sans répondre</p>"
+        },
+        {
+          "content": "<p>Donner un accès limité aux informations</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer les interruptions fréquentes au travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer toutes les interruptions</p>"
+        },
+        {
+          "content": "<p>Mettre en place des plages horaires dédiées aux demandes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Travailler exclusivement en dehors des heures de bureau</p>"
+        },
+        {
+          "content": "<p>Porter des écouteurs en permanence</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la gestion des archives numériques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Sauvegarder régulièrement les données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser une nomenclature cohérente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker tous les fichiers sur le bureau</p>"
+        },
+        {
+          "content": "<p>Organiser une structure logique des dossiers</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où vous devez refuser une demande de votre supérieur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dire non sans explication</p>"
+        },
+        {
+          "content": "<p>Expliquer poliment les raisons et proposer des alternatives</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter malgré l'impossibilité</p>"
+        },
+        {
+          "content": "<p>Déléguer la tâche à un collègue sans prévenir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer un projet qui prend du retard ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cacher le retard jusqu'au dernier moment</p>"
+        },
+        {
+          "content": "<p>Communiquer proactivement et proposer un plan de rattrapage</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Blâmer les autres membres de l'équipe</p>"
+        },
+        {
+          "content": "<p>Abandonner le projet</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une communication interculturelle efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respect des différences culturelles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation d'un langage clair et simple</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer sa propre culture</p>"
+        },
+        {
+          "content": "<p>Vérification de la compréhension mutuelle</p>",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

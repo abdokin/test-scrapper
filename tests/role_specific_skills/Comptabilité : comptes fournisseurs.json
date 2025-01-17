@@ -1,0 +1,1038 @@
+{
+  "title": "Comptabilité : comptes fournisseurs",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en matière d'identification, d'enregistrement et de gestion des comptes fournisseurs. Le test vous aide à identifier les comptables qui ont les compétences requises pour traiter les questions comptables liées aux comptes fournisseurs.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion des comptes fournisseurs",
+      "Enregistrement des transactions",
+      "Trouver les informations manquantes",
+      "Rapprochement des comptes créditeurs"
+    ],
+    "relevancy": "Les spécialistes des comptes fournisseurs, gestionnaires des comptes fournisseurs et autres fonctions nécessitant une bonne connaissance des comptes fournisseurs.",
+    "description": "Toute entité commerciale doit acheter des intrants pour produire des biens ou fournir des services à sa clientèle. Une part importante de ces achats est généralement effectuée à crédit, et le maintien de bons registres de comptes fournisseurs est crucial pour des pratiques comptables correctes.\n\nLe test sur les comptes fournisseurs évalue les compétences des candidats en matière de gestion des comptes fournisseurs, d'enregistrement des transactions, de recherche des informations manquantes et de rapprochement des comptes fournisseurs. \n\nCe test de sélection utilise des questions pratiques basées sur des scénarios, qui demandent aux candidats de résoudre des problèmes régulièrement posés lors du traitement des comptes fournisseurs, comme la préparation des enregistrements et leur passage dans les livres appropriés, l'enregistrement des transactions dans les balances des comptes et les comptes finaux, et la compréhension des documents connexes ayant une incidence sur les comptes fournisseurs.\n\nLes candidats qui obtiennent de bons résultats à ce test ont une bonne connaissance de la comptabilité et peuvent gérer les comptes fournisseurs avec précision et efficacité.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Dans les derniers états financiers publiés, un montant de 42 000 € apparaît en regard des comptes créditeurs. Au cours de l'année, des marchandises d'une valeur de 150 000 € ont été achetées à crédit.</p><p><strong>En supposant que l'année compte 365 jours, quelle est la période approximative de paiement des comptes créditeurs (en jours) ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>229</p>"
+        },
+        {
+          "content": "<p>26</p>"
+        },
+        {
+          "content": "<p>102</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>51</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>La société Étoile galactique a acheté des marchandises pour 100 000 € chez Lever de soleil Matériaux. La société Étoile galactique peut bénéficier d'une réduction de 2,5 % si le paiement est versé dans les 20 jours. Toutefois, le paiement intégral devra s'appliquer si le paiement est effectué après 20 jours.</p><p><strong>Si la société Étoile galactique paie dans un délai de 20 jours, laquelle des écritures suivantes passera-t-elle ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit Lever de soleil Matériaux (compte dettes commerciales) : 100 000 €</p><p>Crédit compte bancaire : 100 000 €</p>"
+        },
+        {
+          "content": "<p>Débit Lever de soleil Matériaux (compte dettes commerciales) : 100 000 €</p><p>Crédit compte bancaire : 97 500 €</p><p>Crédit compte de remises reçues : 2 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit Lever de soleil Matériaux (compte dettes commerciales) : 97 500 €</p><p>Crédit compte bancaire : 97 500 €</p>"
+        },
+        {
+          "content": "<p>Débit Lever de soleil Matériaux (compte dettes commerciales) : 100 000 €</p><p>Débit compte de dépenses de remise : 2 500 €</p><p>Crédit compte bancaire : 102 500 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Le solde d'ouverture du compte du créditeur A est de 1 000 €. Au cours de l'année, des marchandises supplémentaires d'une valeur de 2 000 € ont été achetées à crédit auprès du créancier A. Un paiement de 1 200 € a été versé au créancier A au cours de l'année.</p><p><strong>Quel sera le solde de clôture du compte du créancier A à la fin de l'année ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>1 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 000 €</p>"
+        },
+        {
+          "content": "<p>3 200 €</p>"
+        },
+        {
+          "content": "<p>2 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p><strong>Vrai ou faux : </strong>Le compte de contrôle du grand livre des comptes créditeurs indique le montant total des dettes contre les achats à crédit.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise reçoit une facture de 5 000 € HT avec une TVA de 20%. Le fournisseur offre une remise de 3% pour paiement anticipé. Si l'entreprise paie dans le délai, quel est le montant total à payer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>5 820 €</p>"
+        },
+        {
+          "content": "<p>5 645,40 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 850 €</p>"
+        },
+        {
+          "content": "<p>6 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être vérifiés lors de la réception d'une facture fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La concordance entre le bon de commande et la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'exactitude des calculs de TVA</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les coordonnées bancaires du fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La date de création de l'entreprise fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un fournisseur vous accorde un escompte de 2% pour paiement à 10 jours sur une facture de 10 000 € HT (TVA 20%). Quel est le montant de l'escompte TTC ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>200 €</p>"
+        },
+        {
+          "content": "<p>240 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>400 €</p>"
+        },
+        {
+          "content": "<p>2 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la conséquence d'un retard de paiement fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des pénalités de retard peuvent être appliquées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le fournisseur doit obligatoirement accorder un délai supplémentaire</p>"
+        },
+        {
+          "content": "<p>La TVA n'est plus déductible</p>"
+        },
+        {
+          "content": "<p>La dette est automatiquement annulée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels documents peuvent justifier une écriture de régularisation des comptes fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un avoir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une note de débit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un relevé bancaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une carte de visite</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on traiter une facture fournisseur libellée en devise étrangère ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La convertir au taux de change du jour de la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'enregistrer dans la devise d'origine sans conversion</p>"
+        },
+        {
+          "content": "<p>Utiliser un taux de change fixe annuel</p>"
+        },
+        {
+          "content": "<p>Attendre le paiement pour déterminer le taux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles informations doivent figurer sur un bon de commande fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La référence de la commande</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les conditions de règlement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'adresse de livraison</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le chiffre d'affaires du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture datée du 31 décembre 2024 arrive le 15 janvier 2025. À quelle période comptable doit-elle être rattachée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>2024</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2025</p>"
+        },
+        {
+          "content": "<p>Au choix de l'entreprise</p>"
+        },
+        {
+          "content": "<p>À répartir entre les deux exercices</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le délai légal maximum de paiement entre entreprises en France ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>60 jours à compter de la date d'émission de la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>90 jours</p>"
+        },
+        {
+          "content": "<p>30 jours</p>"
+        },
+        {
+          "content": "<p>45 jours fin de mois</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments peuvent expliquer un écart lors du rapprochement du compte fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un avoir non comptabilisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un paiement en transit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une facture non parvenue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le logo du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture d'acompte reçue d'un fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'enregistrer en charge</p>"
+        },
+        {
+          "content": "<p>L'enregistrer en compte d'acompte fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre la facture finale</p>"
+        },
+        {
+          "content": "<p>L'ignorer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Que faire si une facture est reçue en double ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier qu'elle n'a pas déjà été comptabilisée et la classer sans la saisir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La comptabiliser une seconde fois</p>"
+        },
+        {
+          "content": "<p>La renvoyer au fournisseur</p>"
+        },
+        {
+          "content": "<p>L'annuler avec un avoir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'un système de dématérialisation des factures fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réduction des délais de traitement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Meilleure traçabilité des documents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Archivage automatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation des erreurs de saisie</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le délai moyen de règlement des fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>(Dettes fournisseurs / Achats TTC) x 360</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>(Achats TTC / Dettes fournisseurs) x 360</p>"
+        },
+        {
+          "content": "<p>(Dettes fournisseurs / Achats HT) x 360</p>"
+        },
+        {
+          "content": "<p>(Achats HT / Dettes fournisseurs) x 360</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture de 1 200 € TTC comporte une erreur de calcul de TVA. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander une facture rectificative au fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger directement la TVA en comptabilité</p>"
+        },
+        {
+          "content": "<p>Ignorer l'erreur si elle est mineure</p>"
+        },
+        {
+          "content": "<p>Refuser le paiement de la facture</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les contrôles à effectuer avant de valider un paiement fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérification des coordonnées bancaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Validation du service fait</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Contrôle des échéances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Analyse du bilan du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture en devise étrangère reçue avec un taux de change différent de celui du jour ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser le taux de change du jour de la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser le taux indiqué sur la facture</p>"
+        },
+        {
+          "content": "<p>Faire une moyenne des deux taux</p>"
+        },
+        {
+          "content": "<p>Utiliser le taux de fin d'année</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un fournisseur vous accorde un escompte de 3% pour paiement comptant. La facture est de 5 000 € HT. Quelle écriture comptable devez-vous passer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit fournisseur 6 000 €, crédit banque 5 850 €, crédit produits financiers 150 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit fournisseur 5 000 €, crédit banque 4 850 €, crédit produits financiers 150 €</p>"
+        },
+        {
+          "content": "<p>Débit fournisseur 6 000 €, crédit banque 6 000 €</p>"
+        },
+        {
+          "content": "<p>Débit fournisseur 5 850 €, crédit banque 5 850 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à analyser dans un relevé de compte fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les factures non réglées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les avoirs en attente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les acomptes versés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le chiffre d'affaires du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la durée légale de conservation des factures fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>10 ans</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>5 ans</p>"
+        },
+        {
+          "content": "<p>3 ans</p>"
+        },
+        {
+          "content": "<p>7 ans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture d'avoir reçue d'un fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La déduire du prochain paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ignorer</p>"
+        },
+        {
+          "content": "<p>La comptabiliser en produit</p>"
+        },
+        {
+          "content": "<p>La renvoyer au fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments permettent d'optimiser la gestion des comptes fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La négociation des délais de paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'automatisation des processus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le suivi régulier des échéanciers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le paiement systématique en retard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture pro-forma ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ne pas la comptabiliser et attendre la facture définitive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La comptabiliser immédiatement</p>"
+        },
+        {
+          "content": "<p>La comptabiliser en charge à payer</p>"
+        },
+        {
+          "content": "<p>L'enregistrer en produit constaté d'avance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le montant de la TVA déductible sur une facture d'achat ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Montant HT x taux de TVA</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montant TTC x taux de TVA</p>"
+        },
+        {
+          "content": "<p>Montant TTC - Montant HT</p>"
+        },
+        {
+          "content": "<p>Montant HT / taux de TVA</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels documents permettent de justifier une dépense auprès des services fiscaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La facture originale</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le bon de commande validé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le bon de livraison signé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un simple devis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Que faire en cas de perte d'une facture fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander un duplicata au fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer une facture soi-même</p>"
+        },
+        {
+          "content": "<p>Ignorer la facture</p>"
+        },
+        {
+          "content": "<p>Attendre la relance du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture reçue après la clôture de l'exercice mais concernant celui-ci ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La comptabiliser en charges à payer</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La comptabiliser sur l'exercice suivant</p>"
+        },
+        {
+          "content": "<p>La refuser</p>"
+        },
+        {
+          "content": "<p>Demander une nouvelle facture datée de l'exercice suivant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages du paiement par virement SEPA ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rapidité d'exécution</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traçabilité des opérations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Coût réduit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Possibilité d'annulation après exécution</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la méthode de valorisation des stocks la plus courante en France ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>PAMP (Prix Achat Moyen Pondéré)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>FIFO (First In First Out)</p>"
+        },
+        {
+          "content": "<p>LIFO (Last In First Out)</p>"
+        },
+        {
+          "content": "<p>Coût standard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une remise de fin d'année (RFA) accordée par un fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Attendre l'avoir du fournisseur pour la comptabiliser</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La déduire directement des factures</p>"
+        },
+        {
+          "content": "<p>L'ignorer car trop complexe</p>"
+        },
+        {
+          "content": "<p>La comptabiliser en produit exceptionnel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les risques liés à une mauvaise gestion des comptes fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Pénalités de retard</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Détérioration des relations commerciales</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Risques fiscaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation du chiffre d'affaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter un acompte versé à un fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le comptabiliser au débit du compte 4091</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le comptabiliser en charge</p>"
+        },
+        {
+          "content": "<p>Le comptabiliser en produit</p>"
+        },
+        {
+          "content": "<p>L'ignorer jusqu'à la facture finale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la différence entre une facture et un avoir ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'avoir réduit la dette alors que la facture l'augmente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il n'y a aucune différence</p>"
+        },
+        {
+          "content": "<p>L'avoir augmente la dette alors que la facture la réduit</p>"
+        },
+        {
+          "content": "<p>Seule la facture est un document légal</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent figurer sur une facture pour qu'elle soit conforme ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Numéro de TVA intracommunautaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Date et numéro de facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Conditions de règlement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Logo de l'entreprise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture libellée en devise avec un acompte déjà versé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Convertir le solde au taux du jour du paiement final</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reconvertir l'intégralité au nouveau taux</p>"
+        },
+        {
+          "content": "<p>Garder le taux initial pour tout</p>"
+        },
+        {
+          "content": "<p>Faire une moyenne des taux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer un conflit avec un fournisseur concernant une facture contestée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Envoyer une lettre de contestation détaillée et demander un avoir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ne pas payer la facture sans explication</p>"
+        },
+        {
+          "content": "<p>Payer la facture malgré le désaccord</p>"
+        },
+        {
+          "content": "<p>Rompre la relation commerciale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les indicateurs de performance pour la gestion des comptes fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Délai moyen de règlement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Taux de factures en litige</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montant des pénalités de retard</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nombre de fournisseurs actifs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer l'écart de change sur une facture en devise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Montant en devise x (taux de change au paiement - taux de change à la facturation)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montant en devise x taux de change moyen</p>"
+        },
+        {
+          "content": "<p>Montant en devise / taux de change au paiement</p>"
+        },
+        {
+          "content": "<p>Montant en devise + taux de change à la facturation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la procédure à suivre pour une facture non conforme ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La retourner au fournisseur en demandant une facture rectificative</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La corriger soi-même</p>"
+        },
+        {
+          "content": "<p>La comptabiliser telle quelle</p>"
+        },
+        {
+          "content": "<p>L'ignorer définitivement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à vérifier lors d'un rapprochement bancaire concernant les paiements fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La date de valeur du paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le montant débité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le libellé de l'opération</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'historique du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une facture d'immobilisation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La comptabiliser en compte de classe 2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La comptabiliser en charge</p>"
+        },
+        {
+          "content": "<p>La répartir sur plusieurs exercices</p>"
+        },
+        {
+          "content": "<p>La comptabiliser en compte de classe 6</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Une facture d'un fournisseur présente les informations suivantes : montant HT : 1 000 €, TVA 20% : 200 €, remise de 5%. Quel est le montant TTC à payer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>1 140 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 200 €</p>"
+        },
+        {
+          "content": "<p>1 000 €</p>"
+        },
+        {
+          "content": "<p>950 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels documents sont nécessaires pour effectuer un rapprochement des comptes fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Relevé du fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Grand livre des comptes fournisseurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Factures d'achat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Liste des clients</p>"
+        }
+      ]
+    }
+  ]
+}

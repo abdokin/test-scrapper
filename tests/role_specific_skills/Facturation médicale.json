@@ -1,0 +1,49 @@
+{
+  "title": "Facturation médicale",
+  "attributes": {
+    "overview": "This Medical Billing test assesses a candidate's knowledge and skills in medical coding, insurance and claim management, reimbursement, communication, and documentation.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Medical Coding",
+      "Insurance and Claim Management",
+      "Billing and Reimbursement",
+      "Communication and Documentation"
+    ],
+    "relevancy": "Medical billers, medical coders,\n\nrevenue cycle managers,\n\nbilling analysts, practice managers, accounts receivable specialists, and insurance verification specialists",
+    "description": "In today's healthcare industry, efficient medical billing and reimbursement practices are essential to ensure that healthcare providers receive timely and appropriate compensation for their services. \n\nThis Medical Billing test evaluates candidates' knowledge and expertise in the four critical areas of medical billing and reimbursement: medical coding, insurance and claim management, reimbursement and billing, and communication and documentation. Through questions that assess skills such as verifying insurance eligibility, submitting claims, following up on denials, and managing reimbursement issues, this test evaluates a candidate's ability to navigate the complexities of medical billing and reimbursement. \n\nCandidates who perform well on this test will have a strong grasp of the principles of medical billing and reimbursement, as well as the practical experience necessary to execute these principles effectively. This test helps employers identify candidates who have the technical knowledge and practical experience needed to succeed in medical billing and reimbursement roles. By hiring candidates who perform well on this test, employers can ensure that their medical billing and reimbursement processes are efficient and effective, allowing them to focus on providing quality healthcare services to their patients.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div class="ql-editor" contenteditable="false"><p>You are working as a medical coder for a healthcare facility. The physician documented the patient's condition as “right leg fracture,” but did not specify which part of the right leg was fractured.</p><p>&nbsp;</p><p><strong>In accordance with the ICD-10-CM guidelines and best practices, which of the following actions should you take?</strong></p></div>
+- <p>Contact the physician to obtain further information about the location of the fracture.</p>
+- <p>Assign a code for non-displaced fracture of the right leg.</p>
+- <p>Assign a code for an unspecified injury of the right leg.</p>
+- <p>Assign a code for a fracture of the right leg, assuming the most likely location based on the patient's age and medical history.</p>
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p>You are working as a medical biller for a large healthcare organization. You need to determine the appropriate reimbursement amount for a specific medical service, and you have the fee schedule provided by the insurance company. The fee schedule indicates a 50% coinsurance rate for the service, and the billed charge is $500.</p><p>&nbsp;</p><p><strong>Based on the fee schedule, what is the allowed amount for this service?</strong></p></div>
+$100
+$125
+$250
+$500
+
+3- single choice
+<div class="ql-editor" contenteditable="false"><p>You are working as a medical biller for a large healthcare organization. One of the patients received medical treatment from an out-of-network healthcare provider, and the claim submitted to the insurance company was denied, with the patient being held responsible for the full cost of the treatment. The patient is unhappy and requests that the healthcare organization covers the treatment cost.</p><p>&nbsp;</p><p><strong>What is the appropriate course of action for you to take in order to resolve the situation?</strong></p></div>
+- <p>Resubmit the claim with a new billing code that you believe is correct after doing research.</p>
+- <p>Submit an appeal with medical records and necessary documentation on patient's behalf to support the medical necessity of the treatment.</p>
+- <p>Arrange a payment schedule with the patient to help them cover the cost of the treatment.</p>
+- <p>Inform the patient that the hospital is not responsible for the cost of out-of-network treatment.</p>
+
+4- single choice
+<div class="ql-editor" contenteditable="false"><p><strong>True or false: </strong>You are a medical biller reviewing a patient's medical record and notice that the physician's documentation is incomplete and missing crucial details. According to medical documentation and charting guidelines, it is acceptable to add missing information to the record after the patient has been discharged.</p></div>
+- True
+- False

@@ -1,0 +1,51 @@
+{
+  "title": "Coordination des équipes",
+  "attributes": {
+    "overview": "This Shift Coordination test evaluates a candidate’s ability to organize schedules, communicate effectively, and manage tasks. This screening test will help you hire adept shift management experts who can help streamline operations and boost productivity.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Shift planning and allocation",
+      "Communication and coordination",
+      "Problem solving",
+      "Team management and efficiency"
+    ],
+    "relevancy": "Shift coordinators, shift supervisors, team leaders, managers, and assistant managers.",
+    "description": "The ability to expertly organize and manage a team's schedules unlocks your business's potential. Candidates skilled in this area bring invaluable benefits, ensuring efficient scheduling, clear communication, and optimal task delegation. This leads to increased productivity, reduced labor costs, and enhanced team morale.\n\nThis Shift Coordination test assesses candidates' proficiency across various key skill areas, including shift planning and allocation, communication and coordination, problem solving, and team management and efficiency.\n\nThis screening test empowers you to identify adept shift management professionals. Those who excel can optimize staffing, productivity, and expectations while mitigating labor costs. Candidates who perform well promise improved organizational efficiency and heightened employee satisfaction.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 16,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As the shift coordinator in a 24/7 call center that mainly handles technical inquiries and customer complaints, you want to optimize customer service efficiency in each shift. You have a team of agents with different expertise, preferences, age, and gender.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the most important factor in allocating agents to a shift?</strong></p></div>
+Agents' expertise
+Agents' seniority
+Agents' shift preference
+Agents' availability
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As the shift coordinator at a manufacturing plant, you notice there is a lack of clear communication between shift supervisors. Critical information about machine issues, maintenance, and inventory updates often gets lost or is not conveyed properly, leading to production delays and inefficiency. You want to improve the information flow between shifts.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the first thing you should do?</strong></p></div>
+- <p>Develop structured communication protocols for shift handovers, specifying key information to be shared and the format for updates.</p>
+- <p>Introduce a digital platform or communication tool to facilitate real-time updates and seamless information sharing between shifts.</p>
+- <p>Foster a collaborative work culture by promoting open communication, idea sharing, and mutual support among team members.</p>
+- <p>Provide immediate training to shift supervisors and team members on the importance of communication.</p>
+
+3- simple choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the shift coordinator at a busy retail store. Several employees have called in sick on short notice, leaving you with a significant staffing shortage for the upcoming shift. At the same time, the store is expecting a higher-than-usual number of customers due to a special promotion.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What should your first step be to address this situation?</strong></p></div>
+- <p>Contact other available employees, part-time workers, or those with flexible schedules to see if they can come in to help during the shift.</p>
+- <p>Redistribute tasks among the available staff to maximize efficiency and ensure essential functions are covered.</p>
+- <p>Temporarily close the store during the shift to reorganize and prepare for the next shift.</p>
+- <p>Add yourself to the schedule, helping staff where and when you’re most needed during this busy shift.&nbsp;</p>
+
+4- simple choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As a manufacturing supervisor, you notice that two members of your team who previously worked well together are now having frequent disagreements and conflicts. This tension is affecting their productivity and the team’s morale.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the first action you should take?</strong></p></div>
+- <p>Schedule separate meetings with the team members involved in the conflict, allowing each person to express their concerns to you privately.&nbsp;</p>
+- <p>Promote bonding by initiating team-building activities that help build trust, strengthen communication, and foster a harmonious work environment.</p>
+- <p>Invite both team members to have a conversation with you acting as a mediator to encourage a respectful dialogue to help them find common ground.</p>
+- <p>Invite both team members to have a conversation with you acting as a mediator to encourage a respectful dialogue to help them find common ground.</p>

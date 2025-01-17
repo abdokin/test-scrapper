@@ -1,0 +1,51 @@
+{
+  "title": "Comptabilité : comptes clients",
+  "attributes": {
+    "overview": "Ce test évalue les compétences des candidats en matière d’identification, d’enregistrement et de gestion des comptes débiteurs. Le test vous aide à identifier les comptables qui ont les compétences requises pour travailler en comptabilité et tenir des registres pour les comptes clients.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Gestion des comptes clients",
+      "Enregistrement des transactions",
+      "Trouver les informations manquantes",
+      "Rapprochement des comptes débiteurs"
+    ],
+    "relevancy": "Spécialistes des comptes clients, gestionnaires des comptes clients et autres fonctions nécessitant une bonne connaissance des comptes débiteurs.",
+    "description": "Les ventes sont au cœur de toutes les interactions commerciales. Qu’il s’agisse de ventes au comptant ou de ventes à crédit, une entreprise prospère doit être en mesure de suivre son activité et de tenir de bons registres grâce aux comptes clients, afin de comprendre comment elle progresse et se développe. \n\nLe test sur les comptes clients évalue les compétences des candidats en matière de gestion des comptes débiteurs, d’enregistrement des transactions, de recherche des informations manquantes et de rapprochement des comptes débiteurs. \n\nCe test de sélection utilise des questions pratiques basées sur des scénarios, qui demandent aux candidats de résoudre des problèmes régulièrement posés lors du traitement des comptes clients, comme la préparation des enregistrements et leur passage dans les livres appropriés, l’enregistrement des transactions dans les balances des comptes et les comptes finaux, et la compréhension des documents connexes ayant une incidence sur les comptes clients.\n\nLes candidats qui obtiennent de bons résultats à ce test ont une bonne connaissance de la comptabilité et peuvent gérer les comptes clients avec précision et efficacité.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions:
+1- single choise
+<div class="ql-editor" contenteditable="false"><p>Selon les livres comptables de votre entreprise, le solde de clôture des comptes débiteurs est de 250&nbsp;000&nbsp;€ et le total des ventes à crédit pour l'année est de 750&nbsp;000&nbsp;€.</p><p>&nbsp;</p><p><strong>Quel est le taux de rotation des comptes clients&nbsp;?</strong></p></div>
+- 3 fois
+- 0,33 fois
+- 1,5 fois
+- 5 fois
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p>La société Coucous a vendu des marchandises d'une valeur de 350&nbsp;000&nbsp;€ à la société Grebes avec un crédit de 20&nbsp;jours.</p><p><br></p><p><strong>Lequel des éléments suivants sera enregistré dans les livres de la société Coucous pour cette transaction&nbsp;?</strong></p></div>
+- <div class="ql-editor" contenteditable="false"><p>Débit de la société Grebes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit de la société Coucous&nbsp;: 350&nbsp;000&nbsp;€</p></div>
+- <div class="ql-editor" contenteditable="false"><p>Débit de la société Grebes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p></div>
+- <div class="ql-editor" contenteditable="false"><p>Débit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit de la société Coucous&nbsp;: 350&nbsp;000&nbsp;€</p></div>
+- <div class="ql-editor" contenteditable="false"><p>Débit de la trésorerie&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p></div>
+
+3- single choice
+<div class="ql-editor" contenteditable="false"><p>Votre cliente Zoé a acheté des biens d'une valeur de 50 000 € au cours de l'année. Parmi ces achats, 60 % ont été effectués à crédit. Au cours de l'année, Zoé a payé 10 000 € et a également utilisé une remise en espèces de 2 000 €. Le solde d'ouverture était de 4 000 €.</p><p><br></p><p><strong>Quel est le solde de clôture de Zoé ?</strong></p></div>
+- 40 000$
+- 54 ooo€
+- 22 ooo$
+- 46 000€
+
+4- single choice
+<p>Lesquels des soldes suivants sont inclus dans la liste utilisée pour rapprocher les comptes clients avec le compte de contrôle du Grand Livre des comptes clients&nbsp;?</p>
+- Soldes d'ouverture Grand Livres des comptes fournisseurs.
+- Soldes d'ouverture du Grand Livre des comptes clients.
+- Soldes de clöture du Grand Livre des comptes clients.
+- Soldes de tous les actifs figurant au bilan.

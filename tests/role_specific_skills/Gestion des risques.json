@@ -1,0 +1,52 @@
+{
+  "title": "Gestion des risques",
+  "attributes": {
+    "overview": "This Risk Management test evaluates a candidate’s ability to identify, assess, and mitigate business risks. This screening test will help you hire experts who can enhance decision-making and ensure continuous improvement and organizational resilience.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Establishing risk management function and risk identification",
+      "Risk assessment",
+      "Risk treatment, reporting, and review"
+    ],
+    "relevancy": "Risk owners, risk oversight bodies, professional accountants, auditors, risk managers, compliance officers, operational risk analysts, business continuity planners, risk assessment specialists, corporate risk consultants, risk and compliance coordinators,",
+    "description": "Hiring a candidate with strong risk management skills will significantly benefit your business. They will identify and manage risks adeptly, leading to improved decision-making and a more resilient business structure. Their proficiency in establishing risk management functions, understanding organizational context, and effectively allocating resources is invaluable.\n\nThe Risk Management test assesses candidates' abilities in identifying and evaluating risks, including root cause analysis and risk level determination. It also evaluates their proficiency in risk analysis techniques, prioritization, treatment planning, and assessing residual risk, along with implementing key risk indicators.\n\nScreening for professionals with these skills will enhance your business by effectively managing risks and ensuring compliance. Successful candidates will contribute to proactive risk management, fostering a culture of continuous improvement and business resilience.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You have been appointed as a risk management consultant. To start work, you need to understand the company’s risk appetite.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Who should be responsible for approving the company's risk appetite?</strong></p></div>
+- The board of directors
+Senior management
+The risk manager
+The head of internal auditing
+The shareholders
+
+2- multiple response
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the risk manager at a manufacturing company. You want to assess the likelihood of non-availability of a material required for the production of a significant order.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Which of the following factors should you consider?</strong></p></div>
+- History of material availability.
+Professional judgment of the head of procurement.
+Internal controls on procurement and inventory management.
+Standardization of the manufacturing process.
+Skill level and commitment of the production team.
+Total cost and contribution margin associated with the order.
+
+3- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the risk manager for your company and have implemented a plan to mitigate unauthorized use of company vehicles, initially deemed a high risk. However, minor control gaps persist, leaving a small residual risk.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What should be your next step regarding the residual risk?</strong></p></div>
+- Take no further action.
+Prohibit staff from using company vehicles until residual risk is mitigated.
+Consult with vehicle users and ask for their input on mitigating the residual risk.
+Document the residual risk and ensure its periodic review and monitoring.
+
+4- <div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are a consultant for ABC Bank. You need to propose effective fraud risk management strategies to prevent the potential embezzlement of funds by cashiers.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Which of the following steps should you take first?</strong></p></div>
+- Conduct a risk assessment of the potential embezzlement.
+Implement strong internal controls on cash handling.
+Conduct a surprise cash audit.
+Install security cameras in the cashier's room.

@@ -1,0 +1,53 @@
+{
+  "title": "Éthique des affaires et conformité",
+  "attributes": {
+    "overview": "The Business Ethics and Compliance test evaluates a candidate's awareness, judgment, and knowledge of ethical issues in business settings. It assesses their ethical decision-making skills across business functional areas",
+    "level": "intermediate",
+    "covered_skills": [
+      "Conflicts of interest",
+      "Ethical decision-making and compliance",
+      "Ethical decision-making across business functions",
+      "Business ethics and inclusive workplaces"
+    ],
+    "relevancy": "Managers across business settings who require ethical decision-making skills and the ability to comply with ethical and/or legal standards. This test is for managers who make decisions across functional areas (e.g., .operations and people management).",
+    "description": "In the contemporary business landscape, ethical integrity and compliance are not just legal necessities but pivotal components for sustainable success. Hiring candidates with strong business ethics and compliance skills is important for building a trustworthy corporate reputation, maintaining regulatory compliance, and fostering a positive workplace culture. These attributes are essential for mitigating risks, ensuring legal compliance, and enhancing the overall ethical standards of your organization. Such candidates are invaluable in steering the company through complex moral and legal landscapes, protecting the business from potential scandals, legal penalties, and reputational damage.\n\nThis test evaluates candidates’ abilities across a range of areas. It assesses understanding and application of ethics in conflicts of interest, ensuring integrity in the procurement process, and effectively managing personal interests and relationships. The test also assesses the candidate’s capability of handling insider information, adhering to policies, and complying with legal standards. It evaluates their proficiency in maintaining professional conduct, managing financial practices ethically, and navigating ethical dilemmas across various business functions like marketing, operations, and human resources. Additionally, the test examines their skills in ethical leadership, addressing workplace discrimination and harassment, promoting inclusivity, and cultivating a respectful work environment.\n\nThis screening test is instrumental in identifying candidates suitable for roles that demand high ethical standards and compliance awareness. It helps pinpoint professionals who can translate their knowledge and skills in ethical decision-making into tangible business benefits. Candidates excelling in this test are adept at navigating complex ethical scenarios, ensuring compliance with laws and policies, and promoting a culture of integrity and inclusivity. They are capable of making ethically sound decisions that positively impact the company's reputation, legal standing, and workplace harmony. Moreover, their ability to embed ethical considerations into business practices contributes significantly to fostering an environment of trust and responsibility within the organization.\n\nThe Business Ethics and Compliance test is more than a measure of knowledge; it is a tool to gauge a candidate's ability to apply ethical principles in real-world situations. It is especially beneficial for managerial or advisory roles that interface with multiple facets of a business, including management, finance, human resources, and operations. By ensuring that those you hire possess a solid ethical foundation, you're safeguarding your organization against potential legal and reputational risks, while investing in the cultivation of a responsible and principled workforce.",
+    "category": "Situational judgment",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions
+1- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">Your company wants to purchase material X, and you are responsible for obtaining vendor proposals. One of the interested vendors is an old friend, and they message you to get more details of the other proposals before submitting their own bid.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">How should you respond to your friend’s message</strong><span style="color: rgb(0, 0, 0); background-color: transparent;">?</span></p></div>
+- Only share information already shared with all bidding vendors.
+- Only share the highest quoted price.
+- Only share the list of vendors who are bidding.
+- Only share the average quoted price.
+
+2- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="background-color: transparent; color: rgb(0, 0, 0);">You are a human resources (HR) manager at a software company. An employee responsible for access to the company's customer data informs you that one of their friends from another company requested they share your customer information to help them with market analysis. The employee further shared that their friend is trustworthy, and they are confident the friend will maintain confidentiality. The employee seeks your advice regarding the most appropriate response per company policy.</span></p><p><br></p><p><strong style="background-color: transparent; color: rgb(0, 0, 0);">What should you suggest?</strong></p></div>
+- Approve sharing the data with their friend if the friend agrees to sign a non-disclosure agreement.
+- Ask the employee to anonymize the data and then share it with their friend.
+- Inform the employee to ask your friend to pay for the data and sign a non-disclosure agreement.
+- Instruct the employee to decline the request and explain that sharing customer data violates company policy and data privacy regulations.
+
+3- multiple response
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are a finance manager and are worried about a continuous decrease in the company’s share price due to low profitability. Your chief financial officer (CFO) suggests that a common practice in the industry is to use the Last in First Out (LIFO) inventory method instead of the First In First Out (FIFO) inventory method being used currently. Making this change would immediately lead to an increase in reported profitability.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Before giving your consent, what are some of the ethical factors you should keep in mind?</strong></p><p><br></p></div>
+- How easy is it to reverse the decision in case the regulatory authorities object to it after the posting of your results?
+- What possible perception could this decision cause amongst shareholders and other stakeholders?
+- Does the decision meet all compliance requirements?
+- If implemented, how should this change be communicated to all stakeholders?
+- If regulatory authorities disapprove of this decision, is the liability limited to the organization, or will you be personally liable, too?
+- Do you need to announce this change, or can you go ahead and do this immediately?
+
+4- single choice
+<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You overhear a group of your team members discussing a private video of one of your colleagues that has been posted online without their consent. You have a close professional relationship with this colleague and are concerned about the situation.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the most appropriate action to take first?</strong></p><p><br></p></div>
+- Address the team members involved in the discussion, emphasizing the importance of respecting privacy and discouraging such conversations.
+- Inform HR about the situation so they can provide guidance and support to the affected colleague and address the behavior of the team members.
+- Investigate the matter further and report your findings to the human resources (HR) department.
+- Reach out to the affected colleague privately to offer support and assistance in addressing the situation.

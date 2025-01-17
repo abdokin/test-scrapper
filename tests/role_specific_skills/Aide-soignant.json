@@ -1,0 +1,1042 @@
+{
+  "title": "Aide-soignant",
+  "attributes": {
+    "overview": "Ce test d'aide-soignant évalue la capacité du candidat à assister les patients à domicile, en établissement de soins ou dans un environnement similaire. Ce test vous aidera à recruter des aides-soignants qui ont un impact positif quotidien sur la santé et le bien-être des patients.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Techniques de soins aux patients",
+      "Assistance aux activités de la vie quotidienne (AVQ)",
+      "Support vital de base (BLS) et premiers secours",
+      "Compétences relationnelles en soins de santé"
+    ],
+    "relevancy": "Aides-soignants, assistants en soins, aides à domicile et auxiliaires de vie",
+    "description": "Un bon aide-soignant peut transformer la vie des patients et de leurs proches. Que ce soit dans un établissement de soins, au domicile d'un patient ou dans un environnement similaire, les aides-soignants sont en première ligne pour favoriser la qualité de vie des patients. Ce poste nécessite la maîtrise des techniques de soins et des compétences interpersonnelles. Les meilleurs aides fournissent une large gamme de services aux clients, agissant comme soignants, accompagnants, défenseurs et intermédiaires avec les autres prestataires de soins de santé.",
+    "category": "Compétences spécifiques au rôle",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Pendant une chaude journée d'été, vous êtes affecté(e) à un résident de 72 ans dans une maison de retraite. À 10h, vous allez dans sa chambre pour lui demander ce qu'il souhaite pour le déjeuner. En lui parlant, vous remarquez que sa respiration semble rapide et qu'il a l'air généralement mal en point. Il dit : « J'ai un peu chaud. »</p><p>&nbsp;</p><p><strong>Que devez-vous faire en premier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Retirer quelques couches de ses vêtements.</p>"
+        },
+        {
+          "content": "<p>Prendre sa température corporelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le guider dans des exercices de respiration profonde.</p>"
+        },
+        {
+          "content": "<p>Ouvrir les fenêtres de sa chambre.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous vous occupez d'une personne de 85 ans ayant survécu à un AVC, qui souffre d'hypertension et de difficultés à avaler. La diététicienne et l'orthophoniste ont fourni un guide d'alimentation pour cette patiente, qui comprend des repas mixés et un régime pauvre en sodium. Cependant, la patiente refuse son dîner et vous dit que la nourriture mixée lui coupe l'appétit.</p><p>&nbsp;</p><p><strong>Comment devriez-vous procéder ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui dire qu'elle doit suivre le régime mixé pour éviter de s'étouffer et qu'elle s'y habituera avec le temps.</p>"
+        },
+        {
+          "content": "<p>Lui proposer des repas mixés en plus petites quantités. Demander l'aide de l'infirmière si elle continue à refuser ses repas.</p>"
+        },
+        {
+          "content": "<p>Mixer tous les ingrédients ensemble. Fournir des condiments avec la nourriture mixée.</p>"
+        },
+        {
+          "content": "<p>Lui demander ses préférences alimentaires. Proposer de les intégrer dans les repas en utilisant des ingrédients adaptés à son régime.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Dans la salle d'activités des résidents, M. Dubois, 78 ans, s'effondre soudainement. Vous vous précipitez pour l'aider, mais il ne répond pas à votre voix. Il ne respire pas et n'a pas de pouls.</p><p>&nbsp;</p><p><strong>Que devez-vous faire en premier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Appeler un collègue pour contacter les urgences et commencer immédiatement les compressions thoraciques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Placer M. Dubois en position latérale de sécurité et demander à un collègue d'apporter le défibrillateur.</p>"
+        },
+        {
+          "content": "<p>Appeler un collègue pour contacter les urgences et donner deux insufflations avant de commencer les compressions.</p>"
+        },
+        {
+          "content": "<p>Placer M. Dubois en position latérale de sécurité et informer immédiatement l'infirmière.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente de 85 ans souffrant de démence refuse de prendre sa douche hebdomadaire. Elle devient agitée et dit qu'elle a déjà pris sa douche ce matin, ce qui n'est pas le cas.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Insister fermement sur le fait qu'elle doit prendre sa douche pour des raisons d'hygiène.</p>"
+        },
+        {
+          "content": "<p>Reporter la douche à plus tard dans la journée et essayer une approche différente.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Appeler immédiatement sa famille pour qu'ils la convainquent.</p>"
+        },
+        {
+          "content": "<p>Lui dire qu'elle se trompe et qu'elle n'a pas pris de douche ce matin.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes qui peuvent indiquer qu'un patient âgé est déshydraté ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Sécheresse de la bouche et des lèvres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Urine foncée et moins fréquente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Peau qui reste plissée quand on la pince</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de l'appétit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors du changement de position d'un patient alité, vous remarquez une zone rouge sur son sacrum qui ne blanchit pas à la pression.</p><p>&nbsp;</p><p><strong>Quelle action devez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Appliquer une crème hydratante et continuer la surveillance.</p>"
+        },
+        {
+          "content": "<p>Signaler immédiatement l'observation à l'infirmière responsable.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Masser vigoureusement la zone pour stimuler la circulation.</p>"
+        },
+        {
+          "content": "<p>Attendre le prochain changement de position pour réévaluer.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un patient atteint de la maladie de Parkinson a des difficultés à manger. Que devriez-vous faire pour l'aider ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des couverts adaptés et prévoir plus de temps pour le repas.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nourrir vous-même pour accélérer le repas.</p>"
+        },
+        {
+          "content": "<p>Proposer uniquement des aliments liquides.</p>"
+        },
+        {
+          "content": "<p>Réduire le temps de repas pour éviter la fatigue.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques à suivre lors du transfert d'un patient du lit au fauteuil ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer la procédure au patient avant de commencer</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Verrouiller les freins du lit et du fauteuil</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Effectuer le transfert seul pour plus d'efficacité</p>"
+        },
+        {
+          "content": "<p>Évaluer la capacité du patient à participer au transfert</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un patient diabétique se plaint soudainement de transpiration excessive et de tremblements. Que suspectez-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une hyperglycémie</p>"
+        },
+        {
+          "content": "<p>Une hypoglycémie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un coup de chaleur</p>"
+        },
+        {
+          "content": "<p>Une crise d'anxiété</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de la toilette d'un patient âgé, vous remarquez des bleus inexpliqués sur ses bras. Quelle est la première chose à faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter vos observations et en informer l'infirmière responsable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Interroger directement le patient sur l'origine des bleus</p>"
+        },
+        {
+          "content": "<p>Appliquer une crème anti-hématome</p>"
+        },
+        {
+          "content": "<p>En parler aux autres aides-soignants pendant la pause</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les mesures appropriées pour prévenir les chutes chez les personnes âgées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir un environnement bien éclairé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Garder les couloirs libres d'obstacles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager l'utilisation de chaussures antidérapantes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Limiter tous les déplacements du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une patiente atteinte de démence devient agressive pendant sa toilette. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Poursuivre la toilette rapidement pour en finir au plus vite</p>"
+        },
+        {
+          "content": "<p>Arrêter, la rassurer et essayer plus tard avec une approche différente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Appeler immédiatement du renfort</p>"
+        },
+        {
+          "content": "<p>Lui donner un médicament calmant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une patiente de 80 ans se plaint de douleurs à la poitrine et de difficultés à respirer pendant son petit-déjeuner.</p><p>&nbsp;</p><p><strong>Quelle est la première action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui donner un verre d'eau et lui demander de se calmer.</p>"
+        },
+        {
+          "content": "<p>Alerter immédiatement l'infirmière et rester avec la patiente.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'aider à terminer son repas d'abord.</p>"
+        },
+        {
+          "content": "<p>La faire marcher pour améliorer sa respiration.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'une infection urinaire chez une personne âgée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Confusion ou changement de comportement inhabituel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Urine trouble ou malodorante</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de l'appétit</p>"
+        },
+        {
+          "content": "<p>Augmentation de la fréquence des mictions</p>",
+          "correct": true
+        }
+      ]
+    },  
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de la toilette d'un patient, vous remarquez une rougeur inhabituelle et une odeur désagréable entre ses orteils.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Appliquer une crème antifongique disponible.</p>"
+        },
+        {
+          "content": "<p>Documenter l'observation et en informer l'infirmière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le problème car ce n'est pas grave.</p>"
+        },
+        {
+          "content": "<p>Frotter vigoureusement la zone pour la nettoyer.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un patient atteint de démence refuse catégoriquement de prendre ses médicaments.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les mélanger discrètement dans sa nourriture.</p>"
+        },
+        {
+          "content": "<p>Informer l'infirmière et documenter le refus.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Insister fermement jusqu'à ce qu'il les prenne.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation et réessayer plus tard.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour prévenir les escarres chez un patient alité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Changer de position toutes les 2-3 heures</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir la peau propre et sèche</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Masser vigoureusement les zones rougies</p>"
+        },
+        {
+          "content": "<p>Utiliser des coussins de positionnement adaptés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident diabétique vous demande un biscuit supplémentaire après son goûter. Sa glycémie était normale lors du dernier contrôle.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier son plan de soins et consulter l'infirmière avant de donner une collation supplémentaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser catégoriquement car il est diabétique.</p>"
+        },
+        {
+          "content": "<p>Lui donner le biscuit puisque sa glycémie était normale.</p>"
+        },
+        {
+          "content": "<p>Suggérer d'attendre le prochain repas.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente de 90 ans, habituellement communicative, semble aujourd'hui confuse et somnolente. Sa température est normale.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>La laisser se reposer car elle est probablement fatiguée.</p>"
+        },
+        {
+          "content": "<p>Signaler immédiatement ce changement de comportement à l'infirmière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui proposer une activité stimulante.</p>"
+        },
+        {
+          "content": "<p>Prendre sa tension artérielle.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques lors de l'aide à la prise des repas ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Installer le résident en position assise à 90 degrés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier la température des aliments</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mélanger tous les aliments ensemble pour gagner du temps</p>"
+        },
+        {
+          "content": "<p>Respecter le rythme du résident</p>",
+          "correct": true
+        }
+      ]
+    },  
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors du change d'un résident, vous remarquez une rougeur importante au niveau du pli de l'aine.</p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Appliquer une crème disponible dans la salle de bain.</p>"
+        },
+        {
+          "content": "<p>Documenter l'observation et en informer l'infirmière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser la zone à l'air libre pendant quelques heures.</p>"
+        },
+        {
+          "content": "<p>Nettoyer vigoureusement la zone.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident atteint de la maladie d'Alzheimer devient agité et cherche à sortir de l'établissement en disant qu'il doit aller travailler.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le rediriger en douceur vers une activité et valider ses émotions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui expliquer qu'il est retraité et ne travaille plus.</p>"
+        },
+        {
+          "content": "<p>L'ignorer car il oubliera bientôt.</p>"
+        },
+        {
+          "content": "<p>Le forcer à retourner dans sa chambre.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'une possible déshydratation chez une personne âgée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Confusion mentale</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Peau sèche et peu élastique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Somnolence excessive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de l'appétit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente vous confie qu'elle a peur de tomber pendant sa douche.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter ses craintes et proposer d'évaluer les équipements de sécurité nécessaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui dire que tout ira bien et qu'il ne faut pas avoir peur.</p>"
+        },
+        {
+          "content": "<p>Suggérer de ne plus prendre de douche.</p>"
+        },
+        {
+          "content": "<p>L'ignorer car elle exagère probablement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'un transfert, un résident se plaint soudainement d'une douleur vive à la hanche.</p><p><strong>Que faites-vous ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Arrêter immédiatement le transfert et appeler de l'aide.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer le transfert rapidement pour le mettre en sécurité.</p>"
+        },
+        {
+          "content": "<p>Lui donner un antidouleur.</p>"
+        },
+        {
+          "content": "<p>Masser la zone douloureuse.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques lors de la mobilisation d'un patient ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer les gestes avant de les effectuer</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser les équipements d'aide appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Adopter une posture qui préserve votre dos</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire les mouvements le plus rapidement possible</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident refuse de manger son repas car il dit que la nourriture est empoisonnée.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Goûter la nourriture devant lui pour le rassurer.</p>"
+        },
+        {
+          "content": "<p>L'écouter calmement et signaler la situation à l'équipe soignante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Insister qu'il doit manger pour sa santé.</p>"
+        },
+        {
+          "content": "<p>Le laisser seul jusqu'à ce qu'il accepte de manger.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'une résidente porte les mêmes vêtements depuis plusieurs jours et refuse de se changer.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui proposer plusieurs tenues et la laisser choisir celle qu'elle préfère.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La forcer à se changer pour son bien.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation car ce n'est pas grave.</p>"
+        },
+        {
+          "content": "<p>Demander à sa famille d'intervenir.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'anxiété chez une personne âgée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Agitation inhabituelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Troubles du sommeil</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Plaintes somatiques fréquentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de l'appétit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident atteint de démence devient agressif pendant sa toilette.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Arrêter l'activité et essayer plus tard avec une approche différente.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer la toilette rapidement pour en finir.</p>"
+        },
+        {
+          "content": "<p>Appeler immédiatement la sécurité.</p>"
+        },
+        {
+          "content": "<p>Le gronder pour son comportement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente se plaint de constipation depuis plusieurs jours.</p><p><strong>Quelle est la première action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler le problème à l'infirmière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui donner un laxatif disponible.</p>"
+        },
+        {
+          "content": "<p>Augmenter sa consommation d'eau sans en référer.</p>"
+        },
+        {
+          "content": "<p>Ignorer car c'est fréquent chez les personnes âgées.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à surveiller lors de la prise des repas d'un résident ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La posture et le positionnement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les difficultés à avaler</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La quantité consommée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La conversation avec les autres résidents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente malvoyante a besoin d'aide pour prendre son repas. Comment devez-vous procéder ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Décrire l'emplacement des aliments en utilisant l'image d'une horloge et guider ses mains.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mélanger tous les aliments ensemble pour faciliter la prise du repas.</p>"
+        },
+        {
+          "content": "<p>La faire manger sans explications pour gagner du temps.</p>"
+        },
+        {
+          "content": "<p>Lui servir uniquement des aliments qu'elle peut manger avec une cuillère.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'alerte d'un accident vasculaire cérébral (AVC) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Déformation soudaine du visage</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faiblesse d'un côté du corps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Troubles soudains de la parole</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Légère toux sèche</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident souffrant de démence refuse de prendre sa douche car il dit avoir peur de l'eau.</p><p><strong>Quelle approche adoptez-vous ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Essayer une toilette au lavabo comme alternative et en informer l'équipe soignante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Insister fermement car l'hygiène est importante.</p>"
+        },
+        {
+          "content": "<p>Lui dire que sa peur est irrationnelle.</p>"
+        },
+        {
+          "content": "<p>Reporter la toilette à la semaine suivante.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une odeur d'urine dans la chambre d'un résident qui n'est habituellement pas incontinent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Noter le changement et en informer l'infirmière pour évaluation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre une protection sans en parler pour éviter de le gêner.</p>"
+        },
+        {
+          "content": "<p>Ignorer car cela arrive parfois aux personnes âgées.</p>"
+        },
+        {
+          "content": "<p>Lui faire des reproches pour qu'il fasse plus attention.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la prévention des chutes nocturnes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir une veilleuse allumée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>S'assurer que la sonnette d'appel est à portée de main</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Retirer tous les meubles de la chambre</p>"
+        },
+        {
+          "content": "<p>Vérifier que le chemin vers les toilettes est dégagé</p>",
+          "correct": true
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident diabétique présente une hypoglycémie légère et est conscient.</p><p><strong>Quelle est la première action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui donner du sucre ou un jus de fruit selon le protocole établi.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui faire faire de l'exercice pour augmenter sa glycémie.</p>"
+        },
+        {
+          "content": "<p>Appeler immédiatement les secours.</p>"
+        },
+        {
+          "content": "<p>Lui administrer son insuline.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente se plaint de douleurs lors des transferts mais refuse d'utiliser son déambulateur.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer l'importance du déambulateur pour sa sécurité et encourager son utilisation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La laisser se déplacer sans aide si elle insiste.</p>"
+        },
+        {
+          "content": "<p>La forcer à utiliser le déambulateur.</p>"
+        },
+        {
+          "content": "<p>Lui dire de rester au lit pour éviter les douleurs.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'une possible dépression chez une personne âgée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Perte d'intérêt pour les activités habituelles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Changements dans les habitudes de sommeil</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de la sociabilité</p>"
+        },
+        {
+          "content": "<p>Perte d'appétit ou changement de poids</p>",
+          "correct": true
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident atteint de la maladie de Parkinson a des difficultés à boutonner sa chemise.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'encourager à faire ce qu'il peut et l'aider pour le reste, en respectant son rythme.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire tout à sa place pour gagner du temps.</p>"
+        },
+        {
+          "content": "<p>Lui suggérer de porter uniquement des t-shirts.</p>"
+        },
+        {
+          "content": "<p>Le presser pour qu'il aille plus vite.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors du coucher, une résidente vous confie qu'elle a peur de mourir pendant son sommeil.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'écouter avec empathie et la rassurer, puis en informer l'équipe soignante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui dire que tout ira bien et qu'elle ne doit pas y penser.</p>"
+        },
+        {
+          "content": "<p>Changer de sujet pour la distraire.</p>"
+        },
+        {
+          "content": "<p>Lui donner un somnifère pour l'aider à dormir.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour la prévention des infections urinaires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager une hydratation régulière</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Assurer une bonne hygiène intime</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Changer les protections dès que nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Limiter les apports en liquides le soir</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident présente des troubles de la déglutition. Quelle précaution est essentielle pendant les repas ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>S'assurer qu'il est bien assis et que les aliments ont la texture adaptée selon les recommandations.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le faire manger rapidement pour éviter la fatigue.</p>"
+        },
+        {
+          "content": "<p>Lui donner beaucoup de liquides pour faciliter la déglutition.</p>"
+        },
+        {
+          "content": "<p>Le laisser manger seul pour maintenir son autonomie.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une résidente atteinte de démence cherche constamment son mari décédé.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Valider ses émotions et la rediriger doucement vers une activité apaisante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui rappeler que son mari est décédé.</p>"
+        },
+        {
+          "content": "<p>Ignorer ses questions à ce sujet.</p>"
+        },
+        {
+          "content": "<p>Lui dire d'arrêter d'en parler.</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les signes d'une possible maltraitance à surveiller chez les résidents ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Changements inexpliqués dans le comportement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Marques ou blessures inexpliquées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Repli sur soi soudain</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demandes d'attention fréquentes</p>"
+        }
+      ]
+    },    
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un résident refuse de participer aux activités sociales et reste isolé dans sa chambre.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En parler à l'équipe soignante et proposer des activités adaptées à ses intérêts.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le forcer à participer aux activités de groupe.</p>"
+        },
+        {
+          "content": "<p>Respecter son choix sans chercher à comprendre.</p>"
+        },
+        {
+          "content": "<p>Lui dire que son comportement n'est pas bon pour lui.</p>"
+        }
+      ]
+    }
+  ]
+}

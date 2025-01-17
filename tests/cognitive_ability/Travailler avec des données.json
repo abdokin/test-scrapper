@@ -1,0 +1,43 @@
+{
+  "title": "Travailler avec des données",
+  "attributes": {
+    "overview": "Le test Travailler avec des données évalue la capacité des candidats à travailler avec des données, notamment à les manipuler correctement et à effectuer des analyses de données de base.  Ce test vous aide à identifier les candidats qui comprennent comment travailler avec des données pour suivre et présenter des résultats.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Comprendre les concepts de traitement des données",
+      "Procéder à une analyse et à une interprétation de base des données",
+      "Travailler avec des graphiques et des diagrammes"
+    ],
+    "relevancy": "Spécialistes de la saisie de données, analystes de données, analystes marketing, responsables marketing, assistant·e·s de données et autres rôles nécessitant de travailler avec des données.",
+    "description": "La capacité à travailler avec des données est importante dans un large éventail de rôles, des préposé·e·s à la saisie des données aux analystes et aux gestionnaires. Il est important que les personnes qui travaillent à la saisie, à la lecture et à la manipulation des données aient une solide compréhension des principes qui sous-tendent la gestion des données, afin d’éviter d’introduire des erreurs qui pourraient exercer un impact important sur les résultats de l’entreprise. Une bonne compréhension des données est également nécessaire lors de l’analyse ou de la création de visualisations de données, afin de s’assurer que les données sont représentées fidèlement.  \n\nLe test « Travailler avec des données » évalue la compréhension des concepts de traitement des données par les candidat·e·s, ainsi que leurs compétences en matière d’analyse et d’interprétation des données de base et d’utilisation des graphiques. \n\nLes candidat·e·s qui obtiennent de bons résultats à ce test ont une bonne maîtrise des concepts de données, peuvent veiller à ce que l’intégrité des données soit maintenue pendant la saisie, et sont capables d’effectuer des analyses de base, d’interpréter et de produire des visualisations simples.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+  ]
+}
+
+questions:
+1- single choice
+<div class="ql-editor" contenteditable="false"><p>On vous présente le tableau ci-dessous, dans lequel toutes les informations sont exactes.</p><p><br></p><p><strong>Quelle colonne doit être prise en compte avant que vous puissiez analyser les données ?</strong></p><p><br></p><div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Name</th> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Classe</th> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Date de naissance</th> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Résultat du test</th> </tr> </thead> <tbody> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Jacques</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4PW</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">30° Novembre</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">80,5</td> </tr> <tr style="background-color: #f2f2f2;"> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Mohammed</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4A</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">02/05/12</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">83</td> </tr> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Sophie</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4A</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">1° déc. 2011</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">67</td> </tr> <tr style="background-color: #f2f2f2;"> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Georges</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4PW</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">08/03/12</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">76,5</td> </tr> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nicole</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4PW</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">04/05/12</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">78</td> </tr> <tr style="background-color: #f2f2f2;"> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Laurence</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">4G</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">24-Jan-12</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">92</td> </tr> </tbody> </table> </div></div>
+- Nom
+- Classe
+- Date de naissance
+- Résultat du test
+
+2- single choice
+<p>Que faut-il faire pour trouver la <strong>moyenne</strong> d’un ensemble de nombres&nbsp;?</p>
+- Rechercher le nombre qui apparait le plus fréquemment.
+- Calculer la somme des nombres et la diviser par la quantité de nombres contenus dans l'ensemble.
+- Rechercher le nombre å mi-chemin entre le plus petit nombre et le plus grand nombre.
+- Classer tous les nombres dans l'ordre croissant et rechercher le nombre du milieu.
+
+3- single choice
+<div class="ql-editor" contenteditable="false"><p>Vous travaillez en tant qu’analyste marketing pour une entreprise de crèmes glacées et on vous présente les données d’une enquête sur les parfums de crème glacée préférés des gens. Dans l’enquête, il était demandé aux gens de sélectionner leur parfum préféré dans une liste de 25&nbsp;choix, et plus de 800&nbsp;personnes ont répondu. Votre responsable vous a demandé de réaliser un tableau rapide pour illustrer et comparer la popularité de tous les parfums.&nbsp;&nbsp;</p><p><br></p><p><strong>Quel type de tableau serait le mieux adapté à cette tâche&nbsp;?</strong></p></div>
+- Diagramme de dispersion
+- Graphique en secteurs
+- Graphique barres
+- Graphique linéaire
