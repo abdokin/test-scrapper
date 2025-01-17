@@ -18,34 +18,1215 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Selon les livres comptables de votre entreprise, le solde de clôture des comptes débiteurs est de 250 000 € et le total des ventes à crédit pour l'année est de 750 000 €.</p><p><strong>Quel est le taux de rotation des comptes clients ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>3 fois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>0,33 fois</p>"
+        },
+        {
+          "content": "<p>1,5 fois</p>"
+        },
+        {
+          "content": "<p>5 fois</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>La société Coucous a vendu des marchandises d'une valeur de 350 000 € à la société Grebes avec un crédit de 20 jours.</p><p><strong>Lequel des éléments suivants sera enregistré dans les livres de la société Coucous pour cette transaction ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit de la société Grebes : 350 000 €<br>Crédit de la société Coucous : 350 000 €</p>"
+        },
+        {
+          "content": "<p>Débit de la société Grebes : 350 000 €<br>Crédit des ventes : 350 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit des ventes : 350 000 €<br>Crédit de la société Coucous : 350 000 €</p>"
+        },
+        {
+          "content": "<p>Débit de la trésorerie : 350 000 €<br>Crédit des ventes : 350 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Votre cliente Zoé a acheté des biens d'une valeur de 50 000 € au cours de l'année. Parmi ces achats, 60 % ont été effectués à crédit. Au cours de l'année, Zoé a payé 10 000 € et a également utilisé une remise en espèces de 2 000 €. Le solde d'ouverture était de 4 000 €.</p><p><strong>Quel est le solde de clôture de Zoé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>40 000 €</p>"
+        },
+        {
+          "content": "<p>54 000 €</p>"
+        },
+        {
+          "content": "<p>22 000 €</p>"
+        },
+        {
+          "content": "<p>46 000 €</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Lesquels des soldes suivants sont inclus dans la liste utilisée pour rapprocher les comptes clients avec le compte de contrôle du Grand Livre des comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Soldes d'ouverture Grand Livres des comptes fournisseurs</p>"
+        },
+        {
+          "content": "<p>Soldes d'ouverture du Grand Livre des comptes clients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Soldes de clôture du Grand Livre des comptes clients</p>"
+        },
+        {
+          "content": "<p>Soldes de tous les actifs figurant au bilan</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture client montre un montant de 12 000 € avec une TVA de 20%. Quel est le montant total à comptabiliser dans les comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>12 000 €</p>"
+        },
+        {
+          "content": "<p>14 400 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2 400 €</p>"
+        },
+        {
+          "content": "<p>10 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être vérifiés lors du rapprochement des comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les paiements reçus des clients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les avoirs émis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les factures émises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les notes de frais des employés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client bénéficie d'une remise de 2% pour paiement anticipé sur une facture de 5 000 € HT. Quel est le montant de la remise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>100 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>120 €</p>"
+        },
+        {
+          "content": "<p>50 €</p>"
+        },
+        {
+          "content": "<p>200 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture émise le 15 janvier avec un délai de paiement de 30 jours n'a toujours pas été payée le 20 février. Quelle est la première action à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Envoyer immédiatement le dossier au contentieux</p>"
+        },
+        {
+          "content": "<p>Envoyer une relance courtoise au client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Annuler la facture</p>"
+        },
+        {
+          "content": "<p>Bloquer tous les comptes du client</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client a un solde créditeur de 500 € dans ses comptes. Que signifie cette situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le client doit 500 € à l'entreprise</p>"
+        },
+        {
+          "content": "<p>L'entreprise doit 500 € au client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le compte est à zéro</p>"
+        },
+        {
+          "content": "<p>Il y a une erreur de saisie</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels documents sont nécessaires pour effectuer une relance client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Relevé de compte</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Copies des factures impayées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des relances précédentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Liste des fournisseurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client paie une facture de 1 200 € TTC avec un escompte de 3%. Quel est le montant à encaisser ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>1 164 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 236 €</p>"
+        },
+        {
+          "content": "<p>1 200 €</p>"
+        },
+        {
+          "content": "<p>1 140 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le délai moyen de recouvrement des créances clients est de 45 jours. Les ventes annuelles sont de 900 000 €. Quel devrait être le solde moyen des comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>111 986 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>120 000 €</p>"
+        },
+        {
+          "content": "<p>90 000 €</p>"
+        },
+        {
+          "content": "<p>135 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture de 5 000 € HT a été émise avec un taux de pénalité de retard de 5% par mois. Le client paie avec 2 mois de retard. Quel est le montant des pénalités de retard ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>250 €</p>"
+        },
+        {
+          "content": "<p>750 €</p>"
+        },
+        {
+          "content": "<p>1 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client conteste une facture de 3 000 € HT. Après vérification, vous constatez une erreur de quantité. Quel document devez-vous émettre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un avoir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une nouvelle facture</p>"
+        },
+        {
+          "content": "<p>Une lettre de relance</p>"
+        },
+        {
+          "content": "<p>Un bon de livraison</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles informations doivent figurer sur une facture client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le numéro de TVA intracommunautaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les conditions de paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La date d'échéance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le salaire du dirigeant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le ratio de rotation des comptes clients est de 8. Combien de jours en moyenne les clients mettent-ils pour payer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>45,6 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>30 jours</p>"
+        },
+        {
+          "content": "<p>60 jours</p>"
+        },
+        {
+          "content": "<p>90 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client a effectué un virement de 1 200 € alors que sa facture était de 1 500 €. Quelle écriture comptable doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit Banque 1 200 €, Débit Client 300 €, Crédit Client 1 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit Banque 1 200 €, Crédit Client 1 200 €</p>"
+        },
+        {
+          "content": "<p>Débit Client 1 500 €, Crédit Banque 1 200 €, Crédit Caisse 300 €</p>"
+        },
+        {
+          "content": "<p>Débit Banque 1 500 €, Crédit Client 1 500 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les méthodes appropriées pour évaluer la solvabilité d'un nouveau client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Consultation des états financiers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérification auprès d'une agence de crédit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Analyse des références commerciales</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Consultation des réseaux sociaux personnels</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client règle une facture de 10 000 € HT avec un escompte de 2% et une remise commerciale de 5%. Quel est le montant net à payer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>9 310 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>9 500 €</p>"
+        },
+        {
+          "content": "<p>9 800 €</p>"
+        },
+        {
+          "content": "<p>9 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la provision pour créances douteuses à comptabiliser si le risque de non-paiement est estimé à 60% sur une créance de 8 000 € ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>4 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 200 €</p>"
+        },
+        {
+          "content": "<p>8 000 €</p>"
+        },
+        {
+          "content": "<p>5 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont nécessaires pour établir un échéancier client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les dates d'échéance des factures</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les montants dus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'historique des paiements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le chiffre d'affaires prévisionnel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le délai de prescription d'une créance commerciale en France ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>5 ans</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 ans</p>"
+        },
+        {
+          "content": "<p>3 ans</p>"
+        },
+        {
+          "content": "<p>2 ans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le montant de la TVA à reverser sur une créance irrécouvrable de 6 000 € TTC (TVA 20%) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>1 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 200 €</p>"
+        },
+        {
+          "content": "<p>800 €</p>"
+        },
+        {
+          "content": "<p>600 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages de l'affacturage ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Amélioration de la trésorerie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction des délais de paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Externalisation du recouvrement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation du chiffre d'affaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la première étape lors de la réception d'un paiement client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identifier la facture correspondante</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Enregistrer le paiement en comptabilité</p>"
+        },
+        {
+          "content": "<p>Envoyer un reçu au client</p>"
+        },
+        {
+          "content": "<p>Classer le règlement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande un délai de paiement supplémentaire. Quelle information est la plus pertinente à vérifier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'historique des paiements du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le montant de la commande</p>"
+        },
+        {
+          "content": "<p>La date de création de l'entreprise</p>"
+        },
+        {
+          "content": "<p>Le secteur d'activité</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture de 2 000 € HT a été émise avec une TVA de 20%. Le client bénéficie d'une remise de 10%. Quel est le montant TTC final ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 160 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2 400 €</p>"
+        },
+        {
+          "content": "<p>1 800 €</p>"
+        },
+        {
+          "content": "<p>2 200 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Que faire si un chèque client est rejeté pour provision insuffisante ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter immédiatement le client et réclamer un nouveau paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Annuler la facture</p>"
+        },
+        {
+          "content": "<p>Attendre que le client nous recontacte</p>"
+        },
+        {
+          "content": "<p>Transférer directement le dossier au contentieux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le taux de recouvrement des créances ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>(Montant encaissé / Montant facturation) x 100</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>(Montant facturation / Montant encaissé) x 100</p>"
+        },
+        {
+          "content": "<p>(Montant encaissé - Montant facturation) x 100</p>"
+        },
+        {
+          "content": "<p>(Montant facturation - Montant encaissé) x 100</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être vérifiés lors de la réception d'un paiement international ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le taux de change appliqué</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les frais bancaires déduits</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La correspondance avec la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'adresse du client</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est l'impact d'une provision pour créances douteuses sur le résultat de l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une diminution du résultat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une augmentation du résultat</p>"
+        },
+        {
+          "content": "<p>Aucun impact sur le résultat</p>"
+        },
+        {
+          "content": "<p>Un impact variable selon les cas</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter un trop-perçu client de 50 € ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer un avoir ou un remboursement au client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la différence</p>"
+        },
+        {
+          "content": "<p>Conserver le montant en caisse</p>"
+        },
+        {
+          "content": "<p>L'affecter à un autre client</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les moyens de paiement acceptables pour un règlement client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Virement bancaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chèque</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Carte bancaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cryptomonnaie non déclarée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le délai moyen de règlement client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>(Créances clients / Chiffre d'affaires TTC) x 360 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>(Chiffre d'affaires TTC / Créances clients) x 360 jours</p>"
+        },
+        {
+          "content": "<p>(Créances clients x Chiffre d'affaires TTC) / 360 jours</p>"
+        },
+        {
+          "content": "<p>(Créances clients + Chiffre d'affaires TTC) / 360 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture de 15 000 € HT est payée avec 45 jours de retard. Le taux de pénalité mentionné sur la facture est de 3 fois le taux d'intérêt légal (supposons 3,90%). Quel est le montant des pénalités de retard ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>216,75 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>450 €</p>"
+        },
+        {
+          "content": "<p>175,50 €</p>"
+        },
+        {
+          "content": "<p>585 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans une lettre de relance de niveau 2 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rappel des factures impayées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mention de la première relance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Délai de régularisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Menace de poursuites judiciaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client règle plusieurs factures d'un montant total de 25 000 € HT. Le paiement reçu est de 24 500 € sans explication. Quelle est la première action à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le client pour comprendre l'écart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Passer la différence en pertes</p>"
+        },
+        {
+          "content": "<p>Émettre une facture complémentaire</p>"
+        },
+        {
+          "content": "<p>Ignorer la différence</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la procédure correcte pour annuler une facture erronée déjà comptabilisée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Émettre un avoir d'annulation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer la facture du système</p>"
+        },
+        {
+          "content": "<p>Modifier directement la facture</p>"
+        },
+        {
+          "content": "<p>Ignorer l'erreur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les indicateurs clés à suivre pour la gestion des comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>DSO (Délai moyen de règlement)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Taux de recouvrement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Balance âgée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nombre de factures émises</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client en redressement judiciaire doit 30 000 €. L'administrateur judiciaire propose un règlement de 40%. Quelle provision doit être comptabilisée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>18 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12 000 €</p>"
+        },
+        {
+          "content": "<p>30 000 €</p>"
+        },
+        {
+          "content": "<p>15 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le traitement comptable d'un escompte de règlement de 2% accordé sur une facture de 10 000 € HT ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit compte 665 'Escomptes accordés' : 200 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Crédit compte 665 'Escomptes accordés' : 200 €</p>"
+        },
+        {
+          "content": "<p>Débit compte 765 'Escomptes obtenus' : 200 €</p>"
+        },
+        {
+          "content": "<p>Crédit compte 765 'Escomptes obtenus' : 200 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les informations nécessaires pour établir une balance âgée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Date de facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montant dû</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Échéance de paiement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Numéro de SIRET du client</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le montant de la provision pour dépréciation si le risque de non-recouvrement est estimé à 75% sur une créance TTC de 12 000 € ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>9 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 000 €</p>"
+        },
+        {
+          "content": "<p>12 000 €</p>"
+        },
+        {
+          "content": "<p>6 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la durée maximale légale de conservation des factures clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>10 ans</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>5 ans</p>"
+        },
+        {
+          "content": "<p>3 ans</p>"
+        },
+        {
+          "content": "<p>7 ans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'un système de relance automatisé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Gain de temps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Standardisation du processus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivi systématique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction du chiffre d'affaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter un avoir client non utilisé depuis plus d'un an ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le client pour proposer un remboursement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le transférer en produits exceptionnels</p>"
+        },
+        {
+          "content": "<p>L'annuler automatiquement</p>"
+        },
+        {
+          "content": "<p>Le maintenir indéfiniment</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client a plusieurs factures impayées et propose un échéancier de paiement. Quelle information est la plus importante à vérifier avant d'accepter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La capacité de paiement réelle du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ancienneté du client</p>"
+        },
+        {
+          "content": "<p>Le montant de sa dernière commande</p>"
+        },
+        {
+          "content": "<p>Son secteur d'activité</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être vérifiés lors d'un rapprochement bancaire concernant les encaissements clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les dates de valeur des encaissements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les montants reçus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les références des paiements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les coordonnées bancaires des clients</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une facture de 8 000 € HT est payée avec un retard de 30 jours. L'indemnité forfaitaire de recouvrement est de 40 €. Quel est le montant total à réclamer (hors pénalités de retard) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>9 640 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>9 600 €</p>"
+        },
+        {
+          "content": "<p>8 040 €</p>"
+        },
+        {
+          "content": "<p>8 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter comptablement une créance prescrite ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La passer en perte sur créances irrécouvrables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La maintenir dans les comptes clients</p>"
+        },
+        {
+          "content": "<p>La transférer en produits</p>"
+        },
+        {
+          "content": "<p>La convertir en avoir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les informations à vérifier avant d'accorder un crédit à un nouveau client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les états financiers récents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les incidents de paiement antérieurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La cotation bancaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nombre d'employés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le traitement comptable d'une remise de chèque client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit compte 5112 'Chèques à l'encaissement', Crédit compte 411 'Clients'</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit compte 411 'Clients', Crédit compte 5112 'Chèques à l'encaissement'</p>"
+        },
+        {
+          "content": "<p>Débit compte 512 'Banque', Crédit compte 411 'Clients'</p>"
+        },
+        {
+          "content": "<p>Débit compte 411 'Clients', Crédit compte 512 'Banque'</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment calculer le coût du crédit client pour l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>(Créances clients × Taux de financement) / 360 × Délai de paiement moyen</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>(Créances clients + Taux de financement) × Délai de paiement moyen</p>"
+        },
+        {
+          "content": "<p>(Créances clients / Taux de financement) × Délai de paiement moyen</p>"
+        },
+        {
+          "content": "<p>(Créances clients × Délai de paiement moyen) / Taux de financement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les étapes d'une procédure de recouvrement amiable ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Relance téléphonique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoi de lettres de relance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposition d'échéancier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Saisie immédiate des biens</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client conteste une facture deux mois après sa réception. Quel délai légal a-t-il pour contester une facture ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>1 mois après réception</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2 mois après réception</p>"
+        },
+        {
+          "content": "<p>3 mois après réception</p>"
+        },
+        {
+          "content": "<p>6 mois après réception</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment traiter une différence de change positive sur un règlement client en devise étrangère ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Crédit du compte 766 'Gains de change'</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit du compte 666 'Pertes de change'</p>"
+        },
+        {
+          "content": "<p>Crédit du compte 411 'Clients'</p>"
+        },
+        {
+          "content": "<p>Débit du compte 411 'Clients'</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions:
-1- single choise
-<div class="ql-editor" contenteditable="false"><p>Selon les livres comptables de votre entreprise, le solde de clôture des comptes débiteurs est de 250&nbsp;000&nbsp;€ et le total des ventes à crédit pour l'année est de 750&nbsp;000&nbsp;€.</p><p>&nbsp;</p><p><strong>Quel est le taux de rotation des comptes clients&nbsp;?</strong></p></div>
-- 3 fois
-- 0,33 fois
-- 1,5 fois
-- 5 fois
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p>La société Coucous a vendu des marchandises d'une valeur de 350&nbsp;000&nbsp;€ à la société Grebes avec un crédit de 20&nbsp;jours.</p><p><br></p><p><strong>Lequel des éléments suivants sera enregistré dans les livres de la société Coucous pour cette transaction&nbsp;?</strong></p></div>
-- <div class="ql-editor" contenteditable="false"><p>Débit de la société Grebes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit de la société Coucous&nbsp;: 350&nbsp;000&nbsp;€</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Débit de la société Grebes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Débit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit de la société Coucous&nbsp;: 350&nbsp;000&nbsp;€</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Débit de la trésorerie&nbsp;: 350&nbsp;000&nbsp;€</p><p>Crédit des ventes&nbsp;: 350&nbsp;000&nbsp;€</p></div>
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p>Votre cliente Zoé a acheté des biens d'une valeur de 50 000 € au cours de l'année. Parmi ces achats, 60 % ont été effectués à crédit. Au cours de l'année, Zoé a payé 10 000 € et a également utilisé une remise en espèces de 2 000 €. Le solde d'ouverture était de 4 000 €.</p><p><br></p><p><strong>Quel est le solde de clôture de Zoé ?</strong></p></div>
-- 40 000$
-- 54 ooo€
-- 22 ooo$
-- 46 000€
-
-4- single choice
-<p>Lesquels des soldes suivants sont inclus dans la liste utilisée pour rapprocher les comptes clients avec le compte de contrôle du Grand Livre des comptes clients&nbsp;?</p>
-- Soldes d'ouverture Grand Livres des comptes fournisseurs.
-- Soldes d'ouverture du Grand Livre des comptes clients.
-- Soldes de clöture du Grand Livre des comptes clients.
-- Soldes de tous les actifs figurant au bilan.

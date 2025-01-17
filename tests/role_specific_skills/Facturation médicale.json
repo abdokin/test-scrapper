@@ -1,16 +1,16 @@
 {
   "title": "Facturation médicale",
   "attributes": {
-    "overview": "This Medical Billing test assesses a candidate's knowledge and skills in medical coding, insurance and claim management, reimbursement, communication, and documentation.",
+    "overview": "Ce test de facturation médicale évalue les connaissances et les compétences du candidat en matière de codage médical, de gestion des assurances et des réclamations, de remboursement, de communication et de documentation.",
     "level": "intermediate",
     "covered_skills": [
-      "Medical Coding",
-      "Insurance and Claim Management",
-      "Billing and Reimbursement",
-      "Communication and Documentation"
+      "Codage médical",
+      "Gestion des assurances et des réclamations",
+      "Facturation et remboursement",
+      "Communication et documentation"
     ],
-    "relevancy": "Medical billers, medical coders,\n\nrevenue cycle managers,\n\nbilling analysts, practice managers, accounts receivable specialists, and insurance verification specialists",
-    "description": "In today's healthcare industry, efficient medical billing and reimbursement practices are essential to ensure that healthcare providers receive timely and appropriate compensation for their services. \n\nThis Medical Billing test evaluates candidates' knowledge and expertise in the four critical areas of medical billing and reimbursement: medical coding, insurance and claim management, reimbursement and billing, and communication and documentation. Through questions that assess skills such as verifying insurance eligibility, submitting claims, following up on denials, and managing reimbursement issues, this test evaluates a candidate's ability to navigate the complexities of medical billing and reimbursement. \n\nCandidates who perform well on this test will have a strong grasp of the principles of medical billing and reimbursement, as well as the practical experience necessary to execute these principles effectively. This test helps employers identify candidates who have the technical knowledge and practical experience needed to succeed in medical billing and reimbursement roles. By hiring candidates who perform well on this test, employers can ensure that their medical billing and reimbursement processes are efficient and effective, allowing them to focus on providing quality healthcare services to their patients.",
+    "relevancy": "Facturiers médicaux, codeurs médicaux, gestionnaires du cycle de revenus, analystes de facturation, gestionnaires de cabinet, spécialistes des comptes clients et spécialistes de la vérification d'assurance",
+    "description": "Dans l'industrie des soins de santé d'aujourd'hui, des pratiques efficaces de facturation médicale et de remboursement sont essentielles pour garantir que les prestataires de soins de santé reçoivent une compensation appropriée et en temps opportun pour leurs services.\n\nCe test de facturation médicale évalue les connaissances et l'expertise des candidats dans les quatre domaines critiques de la facturation médicale et du remboursement : le codage médical, la gestion des assurances et des réclamations, le remboursement et la facturation, ainsi que la communication et la documentation. À travers des questions évaluant des compétences telles que la vérification de l'admissibilité à l'assurance, la soumission des réclamations, le suivi des refus et la gestion des problèmes de remboursement, ce test évalue la capacité d'un candidat à naviguer dans les complexités de la facturation médicale et du remboursement.\n\nLes candidats qui réussissent bien à ce test auront une bonne compréhension des principes de la facturation médicale et du remboursement, ainsi que l'expérience pratique nécessaire pour mettre ces principes en œuvre efficacement.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 12,
@@ -18,32 +18,1043 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que codeur médical dans un établissement de santé, le médecin a documenté l'état du patient comme étant une \"fracture de la jambe droite\", mais n'a pas précisé quelle partie de la jambe droite était fracturée.</p><p>&nbsp;</p><p><strong>Conformément aux directives CIM-10-CM et aux meilleures pratiques, quelle action devriez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le médecin pour obtenir plus d'informations sur la localisation de la fracture.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attribuer un code pour une fracture non déplacée de la jambe droite.</p>"
+        },
+        {
+          "content": "<p>Attribuer un code pour une blessure non spécifiée de la jambe droite.</p>"
+        },
+        {
+          "content": "<p>Attribuer un code pour une fracture de la jambe droite en supposant la localisation la plus probable selon l'âge et les antécédents médicaux du patient.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous travaillez comme facturier médical pour une grande organisation de santé. Vous devez déterminer le montant de remboursement approprié pour un service médical spécifique, et vous disposez du barème des frais fourni par la compagnie d'assurance. Le barème indique un taux de coassurance de 50% pour le service, et les frais facturés sont de 500€.</p><p>&nbsp;</p><p><strong>Selon le barème des frais, quel est le montant autorisé pour ce service ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>100€</p>"
+        },
+        {
+          "content": "<p>125€</p>"
+        },
+        {
+          "content": "<p>250€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>500€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous travaillez comme facturier médical pour une grande organisation de santé. Un patient a reçu un traitement médical d'un prestataire de soins hors réseau, et la réclamation soumise à la compagnie d'assurance a été refusée, le patient étant tenu responsable du coût total du traitement. Le patient est mécontent et demande que l'organisation de santé couvre les frais de traitement.</p><p>&nbsp;</p><p><strong>Quelle est la démarche appropriée à suivre pour résoudre cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Resoumettre la réclamation avec un nouveau code de facturation que vous jugez correct après recherche.</p>"
+        },
+        {
+          "content": "<p>Soumettre un appel avec les dossiers médicaux et la documentation nécessaire au nom du patient pour justifier la nécessité médicale du traitement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organiser un échéancier de paiement avec le patient pour l'aider à couvrir le coût du traitement.</p>"
+        },
+        {
+          "content": "<p>Informer le patient que l'hôpital n'est pas responsable du coût des traitements hors réseau.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p><strong>Vrai ou faux : </strong>En tant que facturier médical examinant le dossier médical d'un patient, vous remarquez que la documentation du médecin est incomplète et qu'il manque des détails cruciaux. Selon les directives de documentation médicale, est-il acceptable d'ajouter des informations manquantes au dossier après la sortie du patient ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>"
+        },
+        {
+          "content": "<p>Faux</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels éléments sont requis pour une soumission correcte des réclamations d'assurance maladie ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informations démographiques complètes du patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Codes de diagnostic et de procédure appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Numéro d'identification du prestataire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique complet des vaccinations du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Un patient se présente avec une assurance primaire et secondaire. Quelle est la procédure correcte de facturation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Facturer simultanément les deux assurances</p>"
+        },
+        {
+          "content": "<p>Facturer d'abord l'assurance secondaire</p>"
+        },
+        {
+          "content": "<p>Facturer uniquement l'assurance qui offre la meilleure couverture</p>"
+        },
+        {
+          "content": "<p>Facturer d'abord l'assurance primaire, puis l'assurance secondaire après réception de l'EOB</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles sont les informations nécessaires pour vérifier l'éligibilité d'un patient à l'assurance ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Nom et date de naissance du patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Numéro d'identification de l'assurance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des paiements précédents</p>"
+        },
+        {
+          "content": "<p>Nom de l'employeur du patient</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Que signifie le terme \"timely filing limit\" en facturation médicale ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le délai maximum pour que le patient paie sa facture</p>"
+        },
+        {
+          "content": "<p>Le délai maximum pour soumettre une réclamation à l'assurance après la date de service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le temps nécessaire pour traiter une réclamation</p>"
+        },
+        {
+          "content": "<p>La période de conservation des dossiers médicaux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Un patient conteste une facture car il pense que son assurance aurait dû couvrir le service. Quelle est la première étape à suivre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Annuler immédiatement la facture</p>"
+        },
+        {
+          "content": "<p>Vérifier l'EOB et la politique de couverture de l'assurance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer directement le cas au service de recouvrement</p>"
+        },
+        {
+          "content": "<p>Demander au patient de contacter directement son assurance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels sont les éléments essentiels d'une note de service correctement documentée ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Date et heure du service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signature du prestataire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Description détaillée du service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des paiements précédents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure correcte lorsqu'une réclamation est rejetée pour cause de diagnostic incompatible avec l'âge du patient ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer le rejet et soumettre à nouveau la même réclamation</p>"
+        },
+        {
+          "content": "<p>Vérifier le code de diagnostic et corriger toute erreur de codage</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facturer directement le patient</p>"
+        },
+        {
+          "content": "<p>Changer l'âge du patient dans le système</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment devriez-vous gérer une situation où un patient demande une copie détaillée de sa facture ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Fournir un relevé détaillé après vérification de l'identité du patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser la demande pour des raisons de confidentialité</p>"
+        },
+        {
+          "content": "<p>Diriger le patient vers son assurance</p>"
+        },
+        {
+          "content": "<p>Envoyer uniquement le montant total dû</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles sont les causes courantes de rejet des réclamations ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informations démographiques incorrectes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Codes de diagnostic invalides</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Autorisation préalable manquante</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Changement de température extérieure</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la meilleure pratique pour gérer les paiements en double des patients ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer le surplus et l'appliquer aux futures factures</p>"
+        },
+        {
+          "content": "<p>Traiter immédiatement un remboursement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que le patient demande un remboursement</p>"
+        },
+        {
+          "content": "<p>Transférer le surplus au service comptabilité sans notification</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment devez-vous procéder lorsqu'un patient conteste un refus de couverture pour \"nécessité médicale\" ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander au médecin de fournir une lettre de justification médicale et soumettre un appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Conseiller au patient de payer la facture sans poser de questions</p>"
+        },
+        {
+          "content": "<p>Ignorer la contestation du patient</p>"
+        },
+        {
+          "content": "<p>Annuler automatiquement la facture</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quel est le délai standard pour soumettre un appel après un refus de réclamation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>180 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>30 jours</p>"
+        },
+        {
+          "content": "<p>365 jours</p>"
+        },
+        {
+          "content": "<p>45 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels documents sont nécessaires pour soumettre un appel efficace ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lettre d'appel détaillée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Notes cliniques pertinentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>EOB original</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Photographie du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure appropriée pour corriger une erreur de facturation après qu'une réclamation a été payée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer l'erreur si le paiement a été reçu</p>"
+        },
+        {
+          "content": "<p>Soumettre une réclamation corrigée avec le code de correction approprié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que l'assurance découvre l'erreur</p>"
+        },
+        {
+          "content": "<p>Créer une nouvelle réclamation sans référence à l'originale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles sont les informations essentielles à vérifier avant de soumettre une réclamation ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Éligibilité du patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Exactitude des codes de diagnostic</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Autorisations requises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Âge du médecin traitant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Que signifie le terme \"coordination des prestations\" (COB) ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le processus de détermination de la responsabilité de paiement lorsqu'un patient a plusieurs assurances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La coordination entre différents départements médicaux</p>"
+        },
+        {
+          "content": "<p>Le processus de planification des rendez-vous</p>"
+        },
+        {
+          "content": "<p>La coordination des soins entre différents prestataires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment gérer une situation où un patient refuse de payer sa quote-part (copayment) ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser de fournir le service sauf en cas d'urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la quote-part et fournir le service</p>"
+        },
+        {
+          "content": "<p>Facturer uniquement l'assurance</p>"
+        },
+        {
+          "content": "<p>Annuler automatiquement la quote-part</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la première étape pour résoudre un problème de facturation avec une compagnie d'assurance ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le service client de l'assurance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer immédiatement un appel formel</p>"
+        },
+        {
+          "content": "<p>Facturer directement le patient</p>"
+        },
+        {
+          "content": "<p>Annuler la réclamation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels sont les éléments essentiels d'une politique de facturation transparente ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Explication claire des frais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Options de paiement disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procédures de contestation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique médical du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle information est requise sur une facture pour justifier l'utilisation du code de procédure 99214 ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documentation d'une visite de niveau modéré avec prise de décision médicale de complexité modérée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Seulement la signature du médecin</p>"
+        },
+        {
+          "content": "<p>Uniquement les antécédents du patient</p>"
+        },
+        {
+          "content": "<p>Une simple note indiquant \"visite de routine\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment traiter une situation où un patient affirme avoir une assurance mais ne peut pas fournir de carte d'assurance ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Considérer le patient comme non assuré</p>"
+        },
+        {
+          "content": "<p>Demander les informations de base et vérifier l'éligibilité auprès de l'assureur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser de voir le patient</p>"
+        },
+        {
+          "content": "<p>Fournir gratuitement le service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels éléments doivent être vérifiés lors de la réception d'un EOB ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Montant payé par rapport au montant facturé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Codes de refus ou d'ajustement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Responsabilité du patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Couleur du papier de l'EOB</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure correcte pour facturer un service non couvert à un patient Medicare ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire signer un ABN avant de fournir le service et facturer le patient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir le service gratuitement</p>"
+        },
+        {
+          "content": "<p>Facturer Medicare sans tenir compte de la couverture</p>"
+        },
+        {
+          "content": "<p>Refuser de fournir le service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles informations doivent être incluses dans une lettre d'appel pour un refus de réclamation ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Numéro de réclamation original</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Justification détaillée de l'appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documentation clinique pertinente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Photo du bureau du médecin</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment gérer une situation où un patient demande une réduction de sa facture en raison de difficultés financières ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Examiner la politique de réduction financière de l'établissement et demander la documentation nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser automatiquement la demande</p>"
+        },
+        {
+          "content": "<p>Accorder une réduction sans vérification</p>"
+        },
+        {
+          "content": "<p>Transférer immédiatement au service de recouvrement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la meilleure façon de gérer un patient qui conteste des frais de services auxiliaires ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Examiner la documentation et expliquer en détail les services fournis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer automatiquement les frais</p>"
+        },
+        {
+          "content": "<p>Ignorer la contestation</p>"
+        },
+        {
+          "content": "<p>Diriger le patient vers un autre service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels sont les éléments essentiels d'un plan de paiement approprié ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Montant des versements mensuels défini</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Date d'échéance des paiements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Durée totale du plan</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des achats du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment traiter une demande de remboursement d'un patient pour un trop-perçu ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier le compte et traiter le remboursement selon la politique établie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la demande</p>"
+        },
+        {
+          "content": "<p>Attendre que le patient relance la demande</p>"
+        },
+        {
+          "content": "<p>Appliquer le montant aux futures factures sans consentement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure appropriée pour facturer des services rendus à un patient décédé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Facturer la succession du patient selon les procédures légales établies</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Annuler automatiquement tous les frais</p>"
+        },
+        {
+          "content": "<p>Facturer le plus proche parent sans vérification</p>"
+        },
+        {
+          "content": "<p>Ignorer la facturation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles sont les bonnes pratiques pour la gestion des comptes débiteurs ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suivi régulier des comptes en souffrance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documentation précise des contacts avec les patients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Application cohérente des politiques de recouvrement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Jugement basé sur l'apparence du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quel est le délai standard pour la soumission d'une facture médicale à l'assurance après la date de service ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>90 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>30 jours</p>"
+        },
+        {
+          "content": "<p>180 jours</p>"
+        },
+        {
+          "content": "<p>365 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels sont les éléments requis pour une autorisation préalable ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Diagnostic précis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Plan de traitement proposé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Notes cliniques justificatives</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des paiements du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment traiter une demande de duplicata de facture d'un patient ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier l'identité du patient et envoyer une copie conforme</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser systématiquement la demande</p>"
+        },
+        {
+          "content": "<p>Envoyer uniquement le solde dû</p>"
+        },
+        {
+          "content": "<p>Rediriger vers le service comptabilité</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle action est appropriée lorsqu'un patient conteste une facture après le délai de réclamation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Examiner la contestation et les circonstances particulières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter automatiquement la contestation</p>"
+        },
+        {
+          "content": "<p>Transférer au service contentieux</p>"
+        },
+        {
+          "content": "<p>Annuler la facture sans examen</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels éléments doivent être vérifiés lors de la réception d'un paiement d'assurance ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Correspondance avec la facture originale</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ajustements contractuels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Codes de rejet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ancienneté du compte patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment gérer un paiement reçu pour un patient décédé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter l'exécuteur testamentaire ou le représentant légal</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Retourner automatiquement le paiement</p>"
+        },
+        {
+          "content": "<p>Déposer le paiement sans vérification</p>"
+        },
+        {
+          "content": "<p>Transférer à un compte en suspens</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles sont les informations nécessaires pour traiter un remboursement patient ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Confirmation du trop-perçu</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Adresse postale valide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Historique des paiements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Photo d'identité du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure appropriée pour facturer des services non couverts ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Obtenir un consentement écrit du patient avant le service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facturer directement l'assurance</p>"
+        },
+        {
+          "content": "<p>Attendre la réponse de l'assurance</p>"
+        },
+        {
+          "content": "<p>Annuler les frais automatiquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment traiter une réclamation rejetée pour \"service en double\" ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier la documentation et soumettre avec modificateur si justifié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facturer automatiquement le patient</p>"
+        },
+        {
+          "content": "<p>Ignorer le rejet</p>"
+        },
+        {
+          "content": "<p>Supprimer la deuxième charge</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment gérer une situation où un patient demande une facture détaillée pour ses impôts ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Fournir un relevé détaillé avec les codes CPT et les montants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donner uniquement le montant total</p>"
+        },
+        {
+          "content": "<p>Diriger le patient vers son comptable</p>"
+        },
+        {
+          "content": "<p>Refuser la demande</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quels éléments sont nécessaires pour un codage correct des consultations externes ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Niveau de service approprié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Durée de la consultation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Complexité médicale documentée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préférence de paiement du patient</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Quelle est la procédure correcte pour facturer des services fournis à un patient sous tutelle ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Obtenir l'autorisation du tuteur légal et lui adresser la facturation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facturer directement le patient</p>"
+        },
+        {
+          "content": "<p>Ignorer la facturation</p>"
+        },
+        {
+          "content": "<p>Facturer l'établissement de soins</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p><strong>Quelles informations doivent être vérifiées lors de la réception d'un paiement par chèque ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Montant correspond à la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signature présente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Date de validité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Couleur du chèque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p><strong>Comment traiter une demande de facturation distincte pour des services rendus le même jour ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier si les services sont distincts et utiliser les modificateurs appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser automatiquement la demande</p>"
+        },
+        {
+          "content": "<p>Combiner tous les services en une seule facture</p>"
+        },
+        {
+          "content": "<p>Facturer uniquement le service le plus cher</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div class="ql-editor" contenteditable="false"><p>You are working as a medical coder for a healthcare facility. The physician documented the patient's condition as “right leg fracture,” but did not specify which part of the right leg was fractured.</p><p>&nbsp;</p><p><strong>In accordance with the ICD-10-CM guidelines and best practices, which of the following actions should you take?</strong></p></div>
-- <p>Contact the physician to obtain further information about the location of the fracture.</p>
-- <p>Assign a code for non-displaced fracture of the right leg.</p>
-- <p>Assign a code for an unspecified injury of the right leg.</p>
-- <p>Assign a code for a fracture of the right leg, assuming the most likely location based on the patient's age and medical history.</p>
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p>You are working as a medical biller for a large healthcare organization. You need to determine the appropriate reimbursement amount for a specific medical service, and you have the fee schedule provided by the insurance company. The fee schedule indicates a 50% coinsurance rate for the service, and the billed charge is $500.</p><p>&nbsp;</p><p><strong>Based on the fee schedule, what is the allowed amount for this service?</strong></p></div>
-$100
-$125
-$250
-$500
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p>You are working as a medical biller for a large healthcare organization. One of the patients received medical treatment from an out-of-network healthcare provider, and the claim submitted to the insurance company was denied, with the patient being held responsible for the full cost of the treatment. The patient is unhappy and requests that the healthcare organization covers the treatment cost.</p><p>&nbsp;</p><p><strong>What is the appropriate course of action for you to take in order to resolve the situation?</strong></p></div>
-- <p>Resubmit the claim with a new billing code that you believe is correct after doing research.</p>
-- <p>Submit an appeal with medical records and necessary documentation on patient's behalf to support the medical necessity of the treatment.</p>
-- <p>Arrange a payment schedule with the patient to help them cover the cost of the treatment.</p>
-- <p>Inform the patient that the hospital is not responsible for the cost of out-of-network treatment.</p>
-
-4- single choice
-<div class="ql-editor" contenteditable="false"><p><strong>True or false: </strong>You are a medical biller reviewing a patient's medical record and notice that the physician's documentation is incomplete and missing crucial details. According to medical documentation and charting guidelines, it is acceptable to add missing information to the record after the patient has been discharged.</p></div>
-- True
-- False

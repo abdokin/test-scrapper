@@ -1,16 +1,16 @@
 {
   "title": "Gestion des services de santé",
   "attributes": {
-    "overview": "This Health Services Management test evaluates a candidate’s ability to lead a team in a healthcare or health services organization. This screening test will help you hire health services management experts who can lead your organization.",
+    "overview": "Ce test de Gestion des Services de Santé évalue la capacité d'un candidat à diriger une équipe dans une organisation de santé. Ce test de présélection vous aidera à recruter des experts en gestion des services de santé capables de diriger votre organisation.",
     "level": "intermediate",
     "covered_skills": [
-      "Ability to effectively manage a team",
-      "Ability to understand quality care indicators and steps to improve them",
-      "Ability to make sound high-level financial management decisions",
-      "Ability to communicate with patients and other shareholders"
+      "Capacité à gérer efficacement une équipe",
+      "Capacité à comprendre les indicateurs de qualité des soins et les étapes pour les améliorer",
+      "Capacité à prendre des décisions financières stratégiques pertinentes",
+      "Capacité à communiquer avec les patients et autres parties prenantes"
     ],
-    "relevancy": "Licensed Nursing Home Administrators (LNHAs); Directors of Nursing; Assistant Directors of Nursing; Hospital Administrators, Managers, and Department Directors, or any roles requiring strong health services management skills.",
-    "description": "Hiring candidates with health services management skills will ensure your organization is patient-centered, focused on quality care outcomes, and seen as an expert in your industry.\n\nThis Health Services Management test evaluates candidates’ abilities to effectively manage a team, understand quality care indicators and steps to improve them, make sound high-level financial management decisions, and communicate with patients and other shareholders.\n\nThis screening test will help you identify directors and managers who make leadership decisions that are patient-centric and leverage your organization as the expert in your local area. Candidates who do well on this test will be able to effectively lead a team, implement quality improvement strategies, make high-level financial decisions, and communicate on behalf of their department or agency.",
+    "relevancy": "Administrateurs d'établissements de soins (EHPAD), Directeurs des soins, Directeurs adjoints des soins, Administrateurs hospitaliers, Gestionnaires et Directeurs de département, ou tout poste nécessitant de solides compétences en gestion des services de santé.",
+    "description": "Le recrutement de candidats possédant des compétences en gestion des services de santé garantira que votre organisation est centrée sur le patient, focalisée sur la qualité des soins et reconnue comme experte dans votre secteur.\n\nCe test de Gestion des Services de Santé évalue la capacité des candidats à gérer efficacement une équipe, à comprendre les indicateurs de qualité des soins et les moyens de les améliorer, à prendre des décisions financières stratégiques pertinentes et à communiquer avec les patients et autres parties prenantes.\n\nCe test de présélection vous aidera à identifier les directeurs et gestionnaires qui prennent des décisions de leadership centrées sur le patient et qui positionnent votre organisation comme experte dans votre zone géographique. Les candidats qui réussissent ce test seront capables de diriger efficacement une équipe, de mettre en œuvre des stratégies d'amélioration de la qualité, de prendre des décisions financières stratégiques et de communiquer au nom de leur département ou établissement.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 15,
@@ -18,33 +18,1026 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous dirigez une unité de soins pour personnes atteintes de troubles de la mémoire dans une résidence pour personnes âgées. Votre chef d'équipe du soir, Maryann, soumet des dossiers incomplets. Vous savez qu'elle est occupée à couvrir des postes vacants tout en essayant de recruter de nouveaux employés, ce qui pourrait expliquer ses dossiers incomplets.</p><p>&nbsp;</p><p><strong>Que devriez-vous faire concernant ses dossiers incomplets ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter immédiatement avec Maryann des attentes de l'organisation en matière de documentation et des exigences réglementaires, en lui rappelant que ses obligations de documentation affectent directement les soins aux patients.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Discuter avec Maryann des attentes en matière de documentation uniquement si le comportement persiste après l'embauche de nouveaux membres de l'équipe.</p>"
+        },
+        {
+          "content": "<p>Dire à Maryann que vous comprenez que ses dossiers incomplets sont dus au manque de personnel et proposer de compléter hebdomadairement la documentation manquante à sa place.</p>"
+        },
+        {
+          "content": "<p>Parler aux RH pour licencier Maryann immédiatement pour pratiques de documentation inappropriées mettant l'organisation en danger de problèmes réglementaires.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous dirigez un service de soins à domicile. Vous constatez que 65% de vos clients ont contracté une infection urinaire au cours du mois dernier. Votre responsable clinique affirme que c'est une simple coïncidence et ne semble pas inquiet.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure façon de donner suite à cette préoccupation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Consulter le logiciel de documentation de votre agence pour vérifier si les soignants suivent le plan de soins concernant la gestion de l'incontinence urinaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander à votre responsable clinique pourquoi il/elle considère ce problème comme une simple coïncidence et comment cela pourrait être possible.</p>"
+        },
+        {
+          "content": "<p>Contacter les médecins de votre région pour savoir si vos clients contractent plus d'infections urinaires que leurs autres patients.</p>"
+        },
+        {
+          "content": "<p>Appeler les familles des clients pour leur demander si leur proche a des antécédents d'infections urinaires.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous dirigez une équipe de techniciens en radiologie dans un hôpital très fréquenté. Votre conseil d'administration n'a approuvé aucune nouvelle dépense pour votre département cette année fiscale. Vous avez remarqué que deux de vos équipements ne fonctionnent pas de manière constante, empêchant vos techniciens de les utiliser. Par conséquent, vous ne pouvez plus servir autant de patients qu'avant. Votre équipe technique pourrait être en mesure de résoudre ces problèmes si on lui en donnait l'occasion.</p><p>&nbsp;</p><p><strong>Que pouvez-vous faire pour améliorer les soins aux patients et l'efficacité de l'équipe ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander des fonds d'investissement pour réparer ou remplacer les équipements défectueux.</p>"
+        },
+        {
+          "content": "<p>Demander à votre équipe de techniciens s'ils peuvent collaborer pour trouver un moyen de réparer les équipements défectueux.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Informer le service de planification qu'ils ne peuvent plus programmer autant de rendez-vous qu'auparavant.</p>"
+        },
+        {
+          "content": "<p>Organiser une réunion de réflexion en équipe pour trouver de nouvelles façons de servir les patients sans utiliser les équipements défectueux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous dirigez une clinique ambulatoire qui fournit des vaccins contre la grippe pour la communauté. On vous a demandé d'en parler demain matin lors d'une émission de télévision locale. Pour vous préparer, vous avez rassemblé des informations sur les prévisions de la saison grippale de cette année, comme demandé par l'équipe de télévision.</p><p>&nbsp;</p><p><strong>Vrai ou faux :</strong> Vous devriez également préparer des informations sur la réponse de votre clinique à la saison grippale de l'année dernière.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de votre équipe soignante a commis une erreur de médication mineure qui n'a pas causé de préjudice au patient. Quelle est la meilleure approche à adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler l'incident selon le protocole établi et organiser une formation de remise à niveau pour toute l'équipe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer l'incident puisqu'il n'y a pas eu de conséquences graves.</p>"
+        },
+        {
+          "content": "<p>Réprimander sévèrement l'employé devant ses collègues pour faire un exemple.</p>"
+        },
+        {
+          "content": "<p>Attendre de voir si cela se reproduit avant d'agir.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de l'élaboration d'un nouveau protocole de sécurité pour votre service ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Consulter les employés de première ligne pour obtenir leur avis.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Examiner les incidents de sécurité précédents.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémenter immédiatement sans période de test.</p>"
+        },
+        {
+          "content": "<p>Organiser des sessions de formation pour le personnel.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre établissement connaît une augmentation significative des plaintes des patients concernant les temps d'attente. Quelle devrait être votre première action ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les données de flux des patients pour identifier les goulots d'étranglement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Embaucher immédiatement plus de personnel.</p>"
+        },
+        {
+          "content": "<p>Réduire le nombre de rendez-vous quotidiens.</p>"
+        },
+        {
+          "content": "<p>Envoyer un email d'excuse à tous les patients.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de gestion de crise sanitaire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une chaîne de communication claire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures d'évacuation détaillées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un plan de continuité des soins.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un budget marketing d'urgence.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau système informatique de gestion des dossiers patients doit être implémenté. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Former d'abord un groupe pilote avant le déploiement général.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déployer immédiatement dans tous les services.</p>"
+        },
+        {
+          "content": "<p>Laisser chaque service choisir sa date de migration.</p>"
+        },
+        {
+          "content": "<p>Continuer avec l'ancien système en parallèle indéfiniment.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un audit révèle que les procédures de désinfection ne sont pas systématiquement documentées. Quelle action immédiate devez-vous prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion d'équipe pour revoir les protocoles et mettre en place un système de vérification quotidien.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sanctionner le personnel responsable du nettoyage.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème car aucune infection n'a été signalée.</p>"
+        },
+        {
+          "content": "<p>Sous-traiter immédiatement le service de nettoyage.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans un rapport mensuel de performance du service ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les indicateurs de satisfaction des patients.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les statistiques d'incidents et d'accidents.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les horaires détaillés du personnel.</p>"
+        },
+        {
+          "content": "<p>L'analyse des coûts et du budget.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez une augmentation des arrêts maladie dans votre service. Quelle est la première étape à suivre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les patterns et causes potentielles des absences.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des sanctions disciplinaires.</p>"
+        },
+        {
+          "content": "<p>Augmenter les salaires immédiatement.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation en espérant qu'elle se résolve d'elle-même.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un patient se plaint de la qualité des repas servis. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion avec le service de restauration et le diététicien pour évaluer la situation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer au patient de se faire livrer ses repas de l'extérieur.</p>"
+        },
+        {
+          "content": "<p>Ignorer la plainte car elle n'est pas d'ordre médical.</p>"
+        },
+        {
+          "content": "<p>Changer immédiatement de prestataire de restauration.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles mesures sont appropriées pour améliorer la sécurité des patients la nuit ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Augmenter l'éclairage dans les zones critiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Former le personnel aux protocoles de nuit.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduire le nombre de rondes pour ne pas déranger les patients.</p>"
+        },
+        {
+          "content": "<p>Installer des systèmes d'appel d'urgence supplémentaires.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le budget de formation de votre service a été réduit de 30%. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer des formations internes et identifier les formations prioritaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Annuler toutes les formations prévues.</p>"
+        },
+        {
+          "content": "<p>Demander aux employés de payer leur formation.</p>"
+        },
+        {
+          "content": "<p>Ignorer les besoins en formation cette année.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de prévention des infections nosocomiales ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Protocoles de lavage des mains.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation continue du personnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveillance des cas.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Restriction totale des visites.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau membre du personnel fait régulièrement des erreurs dans ses rapports. Quelle action prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une session de formation individuelle et mettre en place un système de mentorat.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le menacer de licenciement.</p>"
+        },
+        {
+          "content": "<p>Ignorer les erreurs car il est nouveau.</p>"
+        },
+        {
+          "content": "<p>Réduire ses responsabilités définitivement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de l'intégration d'un nouveau médecin dans le service ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présentation à l'équipe existante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation aux protocoles spécifiques du service.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attribution immédiate d'une charge complète de patients.</p>"
+        },
+        {
+          "content": "<p>Désignation d'un référent pour l'accompagnement.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez une augmentation des conflits entre les équipes de jour et de nuit. Quelle action privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des réunions communes régulières pour améliorer la communication.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Séparer complètement les équipes.</p>"
+        },
+        {
+          "content": "<p>Imposer des sanctions disciplinaires.</p>"
+        },
+        {
+          "content": "<p>Ignorer les tensions en espérant qu'elles se résorbent.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le taux de satisfaction des patients baisse depuis trois mois. Quelle première action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les questionnaires de satisfaction pour identifier les causes précises.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Changer immédiatement tout le personnel d'accueil.</p>"
+        },
+        {
+          "content": "<p>Arrêter de mesurer la satisfaction temporairement.</p>"
+        },
+        {
+          "content": "<p>Offrir des cadeaux aux patients mécontents.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans un plan d'amélioration de la qualité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Objectifs mesurables.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Échéancier précis.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Budget illimité.</p>"
+        },
+        {
+          "content": "<p>Indicateurs de suivi.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un équipement critique tombe en panne. Quelle action immédiate prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Activer le plan de continuité des soins et contacter le service technique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fermer le service jusqu'à réparation.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème et continuer normalement.</p>"
+        },
+        {
+          "content": "<p>Commander immédiatement un nouvel équipement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour gérer le stress du personnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des séances de supervision.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposer un soutien psychologique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les signes de stress.</p>"
+        },
+        {
+          "content": "<p>Mettre en place des rotations équilibrées.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une famille se plaint du manque de communication concernant l'état de santé de leur proche. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion avec l'équipe soignante et la famille.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la plainte car l'équipe est occupée.</p>"
+        },
+        {
+          "content": "<p>Transférer le patient dans un autre service.</p>"
+        },
+        {
+          "content": "<p>Limiter les visites de la famille.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Les délais d'attente aux urgences augmentent régulièrement. Quelle solution privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser le flux des patients et optimiser le triage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser les cas non urgents.</p>"
+        },
+        {
+          "content": "<p>Doubler le personnel sans analyse.</p>"
+        },
+        {
+          "content": "<p>Fermer temporairement le service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de gestion des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identification des risques potentiels.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procédures d'urgence.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation du personnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Budget marketing.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le stock de médicaments critiques est bas. Quelle action immédiate prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter les fournisseurs et activer le plan d'urgence.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre la prochaine livraison normale.</p>"
+        },
+        {
+          "content": "<p>Fermer le service.</p>"
+        },
+        {
+          "content": "<p>Utiliser des alternatives non validées.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles mesures sont appropriées pour améliorer l'hygiène hospitalière ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation régulière du personnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Audits surprise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Affichage des protocoles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction du nombre de patients.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre du personnel refuse de participer aux formations obligatoires. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser un entretien pour comprendre les raisons et rappeler les obligations.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le licencier immédiatement.</p>"
+        },
+        {
+          "content": "<p>Ignorer son refus.</p>"
+        },
+        {
+          "content": "<p>Le dispenser de formation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de l'implémentation d'un nouveau protocole de soins ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation du personnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Phase de test.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Évaluation des résultats.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Application immédiate sans formation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le budget de votre service est dépassé de 15%. Quelle action prioritaire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les postes de dépenses et identifier les économies possibles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduire immédiatement le personnel.</p>"
+        },
+        {
+          "content": "<p>Ignorer le dépassement.</p>"
+        },
+        {
+          "content": "<p>Fermer temporairement le service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de formation continue ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluation des besoins.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Calendrier réaliste.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Budget illimité.</p>"
+        },
+        {
+          "content": "<p>Objectifs mesurables.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un conflit éclate entre deux membres de l'équipe. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une médiation et établir un plan d'action.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les ignorer jusqu'à ce qu'ils règlent le problème.</p>"
+        },
+        {
+          "content": "<p>Transférer l'un d'eux dans un autre service.</p>"
+        },
+        {
+          "content": "<p>Les sanctionner tous les deux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles mesures sont appropriées pour améliorer la sécurité des données patients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation à la confidentialité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mots de passe régulièrement changés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accès limité aux dossiers.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suppression de tous les dossiers papier.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Les résultats d'une enquête de satisfaction du personnel sont négatifs. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les résultats en détail et établir un plan d'action avec l'équipe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les résultats.</p>"
+        },
+        {
+          "content": "<p>Sanctionner les employés mécontents.</p>"
+        },
+        {
+          "content": "<p>Arrêter les enquêtes de satisfaction.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un patient refuse un traitement prescrit. Quelle action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter avec le patient pour comprendre ses raisons et expliquer les risques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Forcer l'administration du traitement.</p>"
+        },
+        {
+          "content": "<p>Ignorer le refus.</p>"
+        },
+        {
+          "content": "<p>Demander son transfert immédiat.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour préparer une accréditation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Audit interne préalable.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation du personnel aux critères.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mise à jour des procédures.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dissimulation des problèmes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le système informatique est en panne depuis 2 heures. Quelle action prioritaire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Activer le plan de continuité et utiliser les procédures papier temporaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fermer le service.</p>"
+        },
+        {
+          "content": "<p>Renvoyer les patients.</p>"
+        },
+        {
+          "content": "<p>Attendre sans rien faire.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de développement professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Objectifs individuels.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Échéancier réaliste.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Évaluation régulière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promotions garanties.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez une augmentation des infections post-opératoires. Quelle action immédiate ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lancer une investigation et renforcer les mesures d'hygiène.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Arrêter toutes les opérations.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème.</p>"
+        },
+        {
+          "content": "<p>Blâmer l'équipe chirurgicale.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles mesures sont appropriées pour améliorer la coordination entre services ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réunions inter-services régulières.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Protocoles de communication standardisés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rotation forcée du personnel.</p>"
+        },
+        {
+          "content": "<p>Outils de communication partagés.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre du personnel arrive régulièrement en retard. Quelle action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser un entretien pour comprendre les raisons et trouver des solutions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le sanctionner immédiatement.</p>"
+        },
+        {
+          "content": "<p>Ignorer les retards.</p>"
+        },
+        {
+          "content": "<p>Le transférer dans un autre service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le taux d'erreurs médicamenteuses augmente. Quelle première action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les causes et revoir les procédures de distribution des médicaments.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sanctionner le personnel responsable.</p>"
+        },
+        {
+          "content": "<p>Arrêter de compter les erreurs.</p>"
+        },
+        {
+          "content": "<p>Sous-traiter la distribution des médicaments.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour améliorer la prise en charge des urgences ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation continue des équipes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Protocoles d'intervention clairs.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction du nombre de patients.</p>"
+        },
+        {
+          "content": "<p>Exercices de simulation réguliers.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Le matériel médical n'est pas correctement rangé après utilisation. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des procédures claires et former le personnel au rangement systématique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Acheter plus de matériel.</p>"
+        },
+        {
+          "content": "<p>Restreindre l'accès au matériel.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de gestion des déchets médicaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tri sélectif approprié.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation du personnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traçabilité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Élimination commune avec les déchets ordinaires.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau protocole de soins n'est pas respecté par certains membres de l'équipe. Quelle action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une session de formation complémentaire et évaluer la compréhension.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sanctionner les personnes concernées.</p>"
+        },
+        {
+          "content": "<p>Abandonner le nouveau protocole.</p>"
+        },
+        {
+          "content": "<p>Ignorer les écarts de pratique.</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions
-
-1- single choice
-<div class="ql-editor" contenteditable="false"><p>You lead a memory care unit in a senior living community. Your evening shift team lead, Maryann, has been submitting incomplete charting. You know that she has been busy covering for empty shifts while trying to hire new employees to fill them, which could explain her incomplete charting.</p><p>&nbsp;</p><p><strong>What should you do in regards to her incomplete charting?</strong></p></div>
-- <p>Talk with Maryann about your organization’s charting expectations and regulatory requirements immediately, reminding her about how her charting obligations directly affect patient care.</p>
-- <p>Talk with Maryann about your organization’s charting expectations and regulatory requirements only&nbsp;if the behavior continues once she hires new team members</p>
-- <p>Tell Maryann that you understand her incomplete charting is due to staffing shortages and offer to complete missing documentation and charting weekly on her behalf.</p>
-- <p>Speak with HR about terminating Maryann immediately for improper documentation practices and putting your organization at risk for regulatory issues.</p>
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p>You are the leader of a home care agency. You want to understand why 65% of your agency’s clients have gotten a urinary tract infection in the past month. Your clinical team lead says it is just a coincidence and seems unconcerned.</p><p>&nbsp;</p><p><strong>What is the best way to follow up with your concern?</strong></p></div>
-- <p>Pull up your agency’s documentation software to see if caregivers are assisting with urinary incontinence management per the care plan.</p>
-- <p>Ask your clinical team lead why he/she views this issue as just a coincidence and how that could happen.</p>
-- <p>Call the physicians in your area to inquire if your clients are getting urinary tract infections more than their peers.</p>
-- <p>Call client family members to ask if they know if their loved one has a history of urinary tract infections.</p>
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p>You lead a team of radiology technicians at a busy hospital. Your board of directors has not approved any new expenditures for your department this fiscal year. You’ve noticed that two of your pieces of equipment consistently don’t work, so your techs are not able to use them. Therefore, you are not serving as many patients as you were when the equipment was fully functioning. Your tech team may be able to fix the issues, if given the opportunity.</p><p>&nbsp;</p><p><strong>What can you do to improve patient care and team efficiency?</strong></p></div>
-- <p>Request capital expenditure money in order to fix or replace the inconsistent pieces of equipment.</p>
-- <p>Ask your technician team if they can work together to find a way to fix the inconsistent equipment.</p>
-- <p>Tell the scheduling department that they can no longer schedule as many appointments as they have in the past.</p>
-- <p>Schedule a team brainstorming meeting to find new ways to serve patients without using the inconsistent equipment.</p>
-
-4- single choice
-<div class="ql-editor" contenteditable="false"><p>You are the leader of an outpatient clinic that is providing flu shots for the greater community. You’ve been asked to speak about it on-air with a local television station tomorrow morning. In order to prepare, you pulled information about the forecast for this year’s flu season, which is what the television team asked you to bring.</p><p>&nbsp;</p><p><strong>True or false:</strong> You should also prepare information about your clinic’s response to last year’s flu season.</p></div>
-- True
-- False
