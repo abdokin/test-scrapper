@@ -1,16 +1,16 @@
 {
   "title": "Comptabilité (Intermédiaire)",
   "attributes": {
-    "overview": "This Accounting (Intermediate) test evaluates a candidate's ability to record financial transactions in the relevant books of accounts. This hiring test will help you hire accounting experts who can interpret and communicate financial information.",
+    "overview": "Ce test de Comptabilité (Intermédiaire) évalue la capacité d'un candidat à enregistrer les transactions financières dans les livres comptables appropriés. Ce test aide à recruter des experts comptables capables d'interpréter et de communiquer les informations financières.",
     "level": "intermediate",
     "covered_skills": [
-      "Books of accounts",
-      "Recording financial transactions",
-      "Year-end adjustments",
-      "Preparation and analysis of financial statements"
+      "Livres comptables",
+      "Enregistrement des transactions financières",
+      "Ajustements de fin d'année",
+      "Préparation et analyse des états financiers"
     ],
-    "relevancy": "roles that record financial transactions, maintain books of accounts and related records, manage accounts payables and receivables, prepare financial statements from the books of accounts, and interpret financial information for management.",
-    "description": "Every organization, from a brand-new startup to an established corporation, needs well-qualified financial experts. Having someone who can accurately record financial transactions allows organizations to properly assess their financial performance. In order to do this, these professionals must be able to properly maintain books of accounts, prepare financial statements from those books, and interpret this financial information for management. \n\nThis Accounting (Intermediate) test will help to assess candidates’ practical knowledge of key accounting concepts, such as keeping books of accounts, recording financial transactions, making year-end adjustments, and preparing and interpreting financial statements. \n\nThis accounting skills test will help you identify accounting employees who have intermediate-level accounting skills or higher with good knowledge of standard accounting practices. \n\nFor another accounting test with a higher difficulty level, check out our Accounting (Advanced) test.",
+    "relevancy": "Postes qui nécessitent l'enregistrement des transactions financières, la tenue des livres comptables, la gestion des comptes créditeurs et débiteurs, la préparation des états financiers et l'interprétation des informations financières pour la direction.",
+    "description": "Chaque organisation, qu'elle soit une startup ou une entreprise établie, a besoin d'experts financiers qualifiés. Avoir quelqu'un capable d'enregistrer avec précision les transactions financières permet aux organisations d'évaluer correctement leur performance financière. Pour ce faire, ces professionnels doivent être en mesure de tenir correctement les livres comptables, de préparer les états financiers et d'interpréter ces informations pour la direction.\n\nCe test de Comptabilité (Intermédiaire) aide à évaluer les connaissances pratiques des candidats sur les concepts clés de la comptabilité, tels que la tenue des livres comptables, l'enregistrement des transactions financières, les ajustements de fin d'année, et la préparation et l'interprétation des états financiers.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 12,
@@ -18,32 +18,969 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Votre entreprise a récemment transféré tous ses registres financiers dans un nouveau logiciel comptable. On vous a demandé de vérifier l'exactitude du transfert des soldes entre les livres comptables. Les informations du compte bancaire sont présentées dans le tableau ci-dessous.</p><p>&nbsp;</p><p class=\"ql-align-justify\"><strong>Quel solde apparaîtra dans la balance de vérification au 31 août, et de quel côté se trouve-t-il ?</strong></p><p><br></p><div> <div style=\"margin-bottom: 15px;\"> <div style=\"text-align: right; font-weight: bold; margin-bottom: 2px;\">Débit</div> <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 20%;\">Date</th> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 50%;\">Détails</th> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 30%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.01</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Solde reporté</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">50,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.15</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Compte ventes</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">10,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.27</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Compte clients</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">20,000</td> </tr> <tr> <td style=\"padding: 3px; background-color: #E8EEF4;\"></td> <td style=\"padding: 3px; background-color: #E8EEF4;\"></td> <td style=\"padding: 3px; background-color: #E8EEF4; font-weight: bold;\">80,000</td> </tr> </tbody> </table> </div> <div> <div style=\"text-align: right; font-weight: bold; margin-bottom: 2px;\">Crédit</div> <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 20%;\">Date</th> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 50%;\">Détails</th> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 30%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.12</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Compte équipement</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">40,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.23</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Compte achats</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">10,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.31</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Solde à reporter</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">30,000</td> </tr> <tr> <td style=\"padding: 3px; background-color: #E8F4F0;\"></td> <td style=\"padding: 3px; background-color: #E8F4F0;\"></td> <td style=\"padding: 3px; background-color: #E8F4F0; font-weight: bold;\">80,000</td> </tr> </tbody> </table> </div> </div></div>"
+      },
+      "options": [
+        {
+          "content": "<p>30 000 € au débit</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>30 000 € au crédit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>50 000 € au débit</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>50 000 € au crédit</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Avant l'incorporation des ajustements de fin d'année, vos livres comptables montrent un solde de 1 000 € au compte de provision pour créances douteuses. Selon la politique de l'entreprise, une provision de 5% pour créances douteuses est constituée pour toutes les créances de plus de deux ans. Le rapport de vieillissement des débiteurs est présenté dans le tableau ci-dessous.</p><p>&nbsp;</p><p><strong>Quel est le solde de la provision pour créances douteuses en fin d'année ?</strong></p><p><br></p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;\">Âge des créances</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Jusqu'à 6 mois</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">700 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6 mois à 1 an</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">100 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1 an à 2 ans</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">60 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Plus de 2 ans</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50 000</td> </tr> </tbody> </table></div>"
+      },
+      "options": [
+        {
+          "content": "<p>1 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>2 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 500 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>5 500 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Les détails des ventes réalisées et des dépenses engagées par votre entreprise au cours de l'année, ainsi que les montants reçus et payés, sont présentés dans le tableau ci-dessous.</p><p>&nbsp;</p><p><strong>Quel est le montant du bénéfice/(perte) selon la comptabilité de caisse et la comptabilité d'engagement ?</strong></p><p><br></p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 50%;\">Description</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Ventes (€)</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Dépenses (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Total de l'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">100 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">80 000</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Encaissements/décaissements de l'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">70 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">75 000</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Solde créances/dettes en fin d'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">30 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">5 000</td> </tr> </tbody> </table></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Comptabilité de caisse : Perte de 5 000 €<br>Comptabilité d'engagement : Bénéfice de 20 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Comptabilité de caisse : Bénéfice de 25 000 €<br>Comptabilité d'engagement : Perte de 5 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Comptabilité de caisse : Bénéfice de 25 000 €<br>Comptabilité d'engagement : Bénéfice de 20 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Comptabilité de caisse : Bénéfice de 5 000 €<br>Comptabilité d'engagement : Bénéfice de 25 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a les transactions suivantes dans son journal des ventes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Date</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Client</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Montant HT (€)</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">TVA (20%)</th></tr></thead><tbody><tr><td>15/03/2025</td><td>Société A</td><td>1 000</td><td>200</td></tr><tr><td>16/03/2025</td><td>Société B</td><td>2 500</td><td>500</td></tr><tr><td>17/03/2025</td><td>Société C</td><td>3 000</td><td>600</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant total de TVA collectée à déclarer pour ces transactions ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>1 300 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6 500 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>7 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>650 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quelles sont les caractéristiques essentielles pour qu'un bien soit considéré comme une immobilisation selon les normes internationales ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Générer des avantages économiques futurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoir un coût qui peut être évalué de façon fiable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être utilisé sur plus d'un exercice comptable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Être nécessairement un bien corporel</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Vous analysez l'amortissement d'une machine. Voici les informations :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Information</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Détail</th></tr></thead><tbody><tr><td>Prix d'achat HT</td><td>100 000 €</td></tr><tr><td>Date d'acquisition</td><td>01/01/2025</td></tr><tr><td>Durée d'utilisation prévue</td><td>5 ans</td></tr><tr><td>Valeur résiduelle estimée</td><td>10 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de l'amortissement annuel selon la méthode linéaire ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>18 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>20 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>16 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>22 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Voici le rapprochement bancaire d'une entreprise :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant (€)</th></tr></thead><tbody><tr><td>Solde selon relevé bancaire</td><td>25 000</td></tr><tr><td>Chèques émis non débités</td><td>3 000</td></tr><tr><td>Virements reçus non crédités</td><td>2 000</td></tr><tr><td>Frais bancaires non comptabilisés</td><td>100</td></tr></tbody></table><p><br></p><p><strong>Quel devrait être le solde correct du compte banque dans la comptabilité ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>23 900 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>24 100 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>23 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>24 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Dans le cadre de la clôture annuelle des comptes, quels sont les éléments à vérifier pour les stocks ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La valorisation au plus bas du coût et de la valeur nette de réalisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'inventaire physique des stocks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La provision pour dépréciation si nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La réévaluation systématique à la hausse des stocks</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise présente les soldes suivants :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Compte</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Solde (€)</th></tr></thead><tbody><tr><td>Capital social</td><td>100 000</td></tr><tr><td>Report à nouveau</td><td>20 000</td></tr><tr><td>Résultat de l'exercice</td><td>30 000</td></tr><tr><td>Réserve légale</td><td>5 000</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant des capitaux propres ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>155 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>125 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>150 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>130 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p>Une société a acquis un véhicule le 1er juillet 2024 pour 24 000 € HT. La TVA est de 20%. Quelle écriture comptable doit être passée à la date d'acquisition ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 2182 Matériel de transport : 24 000 €<br>Débit 44562 TVA déductible : 4 800 €<br>Crédit 404 Fournisseurs d'immobilisations : 28 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 2182 Matériel de transport : 28 800 €<br>Crédit 404 Fournisseurs d'immobilisations : 28 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 2182 Matériel de transport : 24 000 €<br>Crédit 404 Fournisseurs d'immobilisations : 24 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 2182 Matériel de transport : 28 800 €<br>Crédit 404 Fournisseurs d'immobilisations : 24 000 €<br>Crédit 44562 TVA déductible : 4 800 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a acheté des marchandises le 15 mars 2025. La facture indique :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Description</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Montant HT</td><td>5 000 €</td></tr><tr><td>Remise 10%</td><td>500 €</td></tr><tr><td>Frais de transport</td><td>200 €</td></tr><tr><td>TVA 20%</td><td>940 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant total TTC à payer ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>5 640 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6 140 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>5 440 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>4 700 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Dans le cadre de l'analyse du cycle client, quels sont les contrôles à effectuer lors de la clôture des comptes ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérification de l'antériorité des créances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rapprochement entre le total des créances et la balance auxiliaire clients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Validation des encaissements reçus après la clôture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation systématique des provisions pour dépréciation</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a acheté un logiciel pour 12 000 € HT le 1er avril 2025. La durée d'amortissement est de 3 ans. Quelle est la dotation aux amortissements à comptabiliser au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>3 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>2 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>1 500 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Un client règle une facture de 6 000 € TTC par chèque. Le relevé bancaire montre que le chèque a été rejeté pour provision insuffisante. Quelle écriture comptable doit être passée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 411 Clients : 6 000 €<br>Crédit 512 Banque : 6 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 512 Banque : 6 000 €<br>Crédit 411 Clients : 6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 654 Pertes sur créances irrécouvrables : 6 000 €<br>Crédit 411 Clients : 6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise constate au 31 décembre 2025 que la valeur de son stock de marchandises est de 50 000 €. Une étude de marché montre que ces marchandises ne pourront être vendues qu'à 45 000 €. Quel est le montant de la provision pour dépréciation à comptabiliser ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>5 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>45 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>50 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>0 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a payé le 1er juillet 2025 sa prime d'assurance annuelle de 12 000 €. Au 31 décembre 2025, quelle est l'écriture de régularisation à passer ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 6 000 €<br>Crédit 616 Primes d'assurance : 6 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 616 Primes d'assurance : 6 000 €<br>Crédit 486 Charges constatées d'avance : 6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 12 000 €<br>Crédit 616 Primes d'assurance : 12 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a acquis une machine pour 80 000 € HT le 1er janvier 2025. Les frais de transport s'élèvent à 2 000 € HT et les frais d'installation à 3 000 € HT. La TVA est de 20%. Quel est le coût d'entrée de cette immobilisation à l'actif du bilan ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>85 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>102 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>80 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>96 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quelles sont les informations essentielles qui doivent généralement figurer sur une facture commerciale selon les normes internationales ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les coordonnées complètes du vendeur et de l'acheteur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La date d'émission et le numéro de la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La description détaillée des biens ou services avec les prix</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La signature manuscrite du dirigeant</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise présente les informations suivantes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Chiffre d'affaires HT</td><td>500 000 €</td></tr><tr><td>Achats de marchandises HT</td><td>300 000 €</td></tr><tr><td>Variation de stock</td><td>-20 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de la marge commerciale ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>180 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>200 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>220 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>160 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Au 31 décembre 2025, une entreprise dispose des informations suivantes concernant ses créances clients :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Créance</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Montant</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Probabilité de recouvrement</th></tr></thead><tbody><tr><td>Client A</td><td>10 000 €</td><td>40%</td></tr><tr><td>Client B</td><td>15 000 €</td><td>70%</td></tr></tbody></table><p><br></p><p><strong>Quel montant de provision pour dépréciation doit être comptabilisé ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>10 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>4 500 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>25 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a souscrit un emprunt de 100 000 € le 1er juillet 2025 au taux annuel de 6%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 661 Charges d'intérêts : 3 000 €<br>Crédit 1688 Intérêts courus : 3 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 661 Charges d'intérêts : 6 000 €<br>Crédit 1688 Intérêts courus : 6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 1688 Intérêts courus : 3 000 €<br>Crédit 661 Charges d'intérêts : 3 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a vendu des marchandises pour 50 000 € HT le 15 décembre 2025. Le client bénéficie d'une remise de 2% pour paiement comptant. Le client paie la facture le jour même. Quelle écriture comptable doit être passée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 512 Banque : 58 800 €<br>Débit 665 Escomptes accordés : 1 000 €<br>Crédit 707 Ventes de marchandises : 50 000 €<br>Crédit 44571 TVA collectée : 9 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 512 Banque : 59 800 €<br>Crédit 707 Ventes de marchandises : 50 000 €<br>Crédit 44571 TVA collectée : 9 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 512 Banque : 58 800 €<br>Crédit 707 Ventes de marchandises : 49 000 €<br>Crédit 44571 TVA collectée : 9 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 512 Banque : 60 000 €<br>Crédit 707 Ventes de marchandises : 50 000 €<br>Crédit 44571 TVA collectée : 10 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a effectué les opérations suivantes en décembre 2025 :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Date</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Opération</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant HT</th></tr></thead><tbody><tr><td>05/12</td><td>Vente de marchandises</td><td>20 000 €</td></tr><tr><td>12/12</td><td>Avoir pour retour</td><td>2 000 €</td></tr><tr><td>20/12</td><td>Remise commerciale</td><td>1 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de TVA collectée à 20% à déclarer ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>3 400 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>3 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>3 600 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quels éléments doivent être vérifiés lors d'un contrôle des immobilisations ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La réalité physique des immobilisations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La correcte application du plan d'amortissement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'existence de factures d'acquisition</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La valeur de revente estimée</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Un salarié a effectué une mission du 28 au 30 décembre 2025. Il présente sa note de frais de 600 € le 5 janvier 2026. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6256 Frais de mission : 600 €<br>Crédit 4286 Personnel - charges à payer : 600 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6256 Frais de mission : 600 €<br>Crédit 421 Personnel - rémunérations dues : 600 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 4286 Personnel - charges à payer : 600 €<br>Crédit 6256 Frais de mission : 600 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a souscrit un contrat d'entretien annuel le 1er octobre 2025 pour 4 800 € HT. La facture est reçue et payée le même jour. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 3 600 €<br>Crédit 615 Entretien et réparations : 3 600 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 615 Entretien et réparations : 3 600 €<br>Crédit 486 Charges constatées d'avance : 3 600 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 1 200 €<br>Crédit 615 Entretien et réparations : 1 200 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société présente les éléments suivants concernant sa trésorerie :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Solde comptable</td><td>15 000 €</td></tr><tr><td>Chèques émis non débités</td><td>2 000 €</td></tr><tr><td>Virements reçus non crédités</td><td>3 000 €</td></tr><tr><td>Agios non comptabilisés</td><td>200 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le solde du relevé bancaire ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>15 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>14 200 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>16 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>15 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a acheté un véhicule le 1er juillet 2025 pour 30 000 € HT. Elle l'amortit sur 5 ans en linéaire. Au 31 décembre 2025, une expertise révèle que sa valeur actuelle n'est plus que de 25 000 €. Quelle écriture de dépréciation doit être passée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6816 Dotations aux dépréciations : 2 000 €<br>Crédit 29182 Dépréciations des matériels de transport : 2 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6816 Dotations aux dépréciations : 5 000 €<br>Crédit 29182 Dépréciations des matériels de transport : 5 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 29182 Dépréciations des matériels de transport : 2 000 €<br>Crédit 6816 Dotations aux dépréciations : 2 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société fait l'objet d'un contrôle fiscal. L'administration fiscale conteste la déductibilité d'une charge de 10 000 € HT. Le risque de redressement est estimé à 80%. Quelle provision doit être comptabilisée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>8 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>12 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>6 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quels sont les éléments à vérifier lors du contrôle de la caisse ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La concordance entre le solde théorique et le solde physique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'existence des justificatifs pour chaque mouvement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La séparation des fonctions entre le caissier et le comptable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le cours des devises étrangères</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a reçu le 15 décembre 2025 une facture d'électricité couvrant la période du 1er novembre 2025 au 31 janvier 2026, d'un montant de 3 000 € HT. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 1 000 €<br>Crédit 6061 Fournitures non stockables : 1 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6061 Fournitures non stockables : 1 000 €<br>Crédit 486 Charges constatées d'avance : 1 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 2 000 €<br>Crédit 6061 Fournitures non stockables : 2 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a émis un chèque de 5 000 € le 29 décembre 2025 pour régler un fournisseur. Le chèque n'est pas débité sur le relevé bancaire au 31 décembre 2025. Dans l'état de rapprochement bancaire, cette opération doit apparaître :</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>En moins dans les opérations de trésorerie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En plus dans les opérations de trésorerie</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>En moins dans les opérations comptables</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>En plus dans les opérations comptables</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a accordé un prêt de 50 000 € à un de ses salariés le 1er juillet 2025, au taux annuel de 2%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 2748 Intérêts courus : 500 €<br>Crédit 7623 Intérêts des prêts : 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 2748 Intérêts courus : 1 000 €<br>Crédit 7623 Intérêts des prêts : 1 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 7623 Intérêts des prêts : 500 €<br>Crédit 2748 Intérêts courus : 500 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Au 31 décembre 2025, une entreprise possède un stock de marchandises de 100 000 €. L'inventaire physique révèle une valeur de 95 000 €. De plus, la valeur de réalisation nette est estimée à 92 000 €. Quelle est la valeur à inscrire au bilan ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>92 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>95 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>100 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>93 500 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a vendu un équipement le 30 septembre 2025 pour 40 000 € HT. Les informations concernant cet équipement sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Information</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Prix d'acquisition HT</td><td>100 000 €</td></tr><tr><td>Date d'acquisition</td><td>01/01/2023</td></tr><tr><td>Durée d'amortissement</td><td>5 ans</td></tr></tbody></table><p><br></p><p><strong>Quelle est la moins-value ou plus-value de cession ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Moins-value de 20 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Plus-value de 20 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Moins-value de 40 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Plus-value de 40 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quels sont les éléments à vérifier lors du contrôle des charges de personnel ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La cohérence entre les charges sociales et les salaires bruts</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'exactitude des déclarations sociales</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La correcte comptabilisation des congés payés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le montant des dividendes versés</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise reçoit le 15 décembre 2025 une facture d'assurance de 6 000 € HT pour la période du 1er janvier au 31 décembre 2026. La facture est payée le même jour. Quelle écriture doit être passée au 31 décembre 2025 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 6 000 €<br>Crédit 616 Primes d'assurance : 6 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 616 Primes d'assurance : 6 000 €<br>Crédit 486 Charges constatées d'avance : 6 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 486 Charges constatées d'avance : 3 000 €<br>Crédit 616 Primes d'assurance : 3 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société présente les soldes suivants au 31 décembre 2025 :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Compte</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Solde</th></tr></thead><tbody><tr><td>TVA collectée</td><td>50 000 €</td></tr><tr><td>TVA déductible sur immobilisations</td><td>15 000 €</td></tr><tr><td>TVA déductible sur ABS</td><td>25 000 €</td></tr><tr><td>Crédit de TVA à reporter</td><td>5 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de TVA à payer ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>5 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>15 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>0 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise constate lors de son inventaire que des marchandises d'une valeur de 8 000 € ont été volées. L'assurance confirme un remboursement de 6 000 €. Quelle écriture doit être passée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 671 Charges exceptionnelles : 8 000 €<br>Débit 471 Compte d'attente : 6 000 €<br>Crédit 607 Achats de marchandises : 8 000 €<br>Crédit 771 Produits exceptionnels : 6 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 671 Charges exceptionnelles : 2 000 €<br>Crédit 607 Achats de marchandises : 2 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 671 Charges exceptionnelles : 8 000 €<br>Crédit 607 Achats de marchandises : 8 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Quels sont les documents à établir obligatoirement lors de la clôture annuelle des comptes ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le bilan</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le compte de résultat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'annexe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le plan de trésorerie mensuel</p>",
+          "correct": false
+        }
+      ]
+    }
   ]
 }
-
-questions:
-1- single choice
-<div class="ql-editor" contenteditable="false"><p class="ql-align-justify">Your company recently transferred all of its financial records into a new accounting software. You have been asked to check the transfer’s accuracy for balances moved between books of accounts. You are given the bank ledger account information pictured in the below table to check.</p><p>&nbsp;</p><p class="ql-align-justify"><strong>What balance will be shown in the trial balance on August 31st, and which side is it on?</strong></p><p><br></p><div> <!-- First Table (Dr.) --> <div style="margin-bottom: 15px;"> <div style="text-align: right; font-weight: bold; margin-bottom: 2px;">Dr.</div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 20%;">Date</th> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 50%;">Particulars</th> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 30%;">Amount ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.01</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Balance b/d</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">50,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.15</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Sales A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">10,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.27</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Trade debtor A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">20,000</td> </tr> <tr> <td style="padding: 3px; background-color: #E8EEF4;"></td> <td style="padding: 3px; background-color: #E8EEF4;"></td> <td style="padding: 3px; background-color: #E8EEF4; font-weight: bold;">80,000</td> </tr> </tbody> </table> </div> <!-- Second Table (Cr.) --> <div> <div style="text-align: right; font-weight: bold; margin-bottom: 2px;">Cr.</div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 20%;">Date</th> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 50%;">Particulars</th> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 30%;">Amount ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.12</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Plant A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">40,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.23</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Purchases A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">10,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.31</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Balance c/d</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">30,000</td> </tr> <tr> <td style="padding: 3px; background-color: #E8F4F0;"></td> <td style="padding: 3px; background-color: #E8F4F0;"></td> <td style="padding: 3px; background-color: #E8F4F0; font-weight: bold;">80,000</td> </tr> </tbody> </table> </div> </div></div>
-- $30,000 on the debit side of the trial balance
-- $50,000 on the debit side of the trial balance
-- $30,000 on the credit side of the trial balance
-- $50,000 on the credit side of the trial balance
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p class="ql-align-justify">Before incorporating year-end adjustments, your company’s books of accounts show a balance of $1,000 on account of provision for doubtful debts.&nbsp;As per company policy, a 5% provision for doubtful debts is made for all debts that are older than two years. The aging report of debtors is given in the table below.</p><p>&nbsp;</p><p><strong>What is the balance of provision for doubtful debts at the year-end?</strong></p><p><br></p><table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;">Age of debtors</th> <th style="background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;">Amount ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 8px; border-bottom: 1px solid #ddd;">Up to 6 months</td> <td style="padding: 8px; border-bottom: 1px solid #ddd;">700,000</td> </tr> <tr> <td style="padding: 8px; border-bottom: 1px solid #ddd;">6 months to 1 year</td> <td style="padding: 8px; border-bottom: 1px solid #ddd;">100,000</td> </tr> <tr> <td style="padding: 8px; border-bottom: 1px solid #ddd;">1 year to 2 years</td> <td style="padding: 8px; border-bottom: 1px solid #ddd;">60,000</td> </tr> <tr> <td style="padding: 8px; border-bottom: 1px solid #ddd;">Greater than 2 years</td> <td style="padding: 8px; border-bottom: 1px solid #ddd;">50,000</td> </tr> </tbody> </table></div>
-$1,000
-$2,500
-$3,500
-$5,500
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p class="ql-align-justify">Details of the sales your company made and the expenses it incurred during the year, along with the amounts they received and paid, are given in the table below.</p><p class="ql-align-justify">&nbsp;</p><p class="ql-align-justify"><strong>What is the amount of profit/(loss) under cash basis accounting and accrual basis accounting?</strong></p><p><br></p><div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 50%;">Description</th> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Sales ($)</th> <th style="background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;">Expenses ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Total for the year</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">100,000</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">80,000</td> </tr> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Cash received against sales/paid against expenses during the year</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">70,000</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">75,000</td> </tr> <tr> <td style="padding: 10px; border-bottom: 1px solid #ddd;">Receivable/payable balance at year-end</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">30,000</td> <td style="padding: 10px; border-bottom: 1px solid #ddd;">5,000</td> </tr> </tbody> </table> </div></div>
-- <div class="ql-editor" contenteditable="false"><p>Cash basis: Loss of $5,000</p><p>Accrual basis: Profit of $20,000</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Cash basis: Profit of $25,000</p><p>Accrual basis: Loss of $5,000</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Cash basis: Profit of $25,000</p><p>Accrual basis: Profit of $20,000</p></div>
-- <div class="ql-editor" contenteditable="false"><p>Cash basis: Profit of $5,000</p><p>Accrual basis: Profit of $25,000</p></div>
-
-4- single choice
-<div class="ql-editor" contenteditable="false"><p class="ql-align-justify">Your company recently transferred all of its financial records into a new accounting software. You have been asked to check the transfer’s accuracy for balances moved between books of accounts. You are given the bank ledger account information pictured in the below table to check.</p><p>&nbsp;</p><p class="ql-align-justify"><strong>What balance will be shown in the trial balance on August 31st, and which side is it on?</strong></p><p><br></p><div> <!-- First Table (Dr.) --> <div style="margin-bottom: 15px;"> <div style="text-align: right; font-weight: bold; margin-bottom: 2px;">Dr.</div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 20%;">Date</th> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 50%;">Particulars</th> <th style="background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 30%;">Amount ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.01</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Balance b/d</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">50,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.15</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Sales A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">10,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.27</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">To Trade debtor A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">20,000</td> </tr> <tr> <td style="padding: 3px; background-color: #E8EEF4;"></td> <td style="padding: 3px; background-color: #E8EEF4;"></td> <td style="padding: 3px; background-color: #E8EEF4; font-weight: bold;">80,000</td> </tr> </tbody> </table> </div> <!-- Second Table (Cr.) --> <div> <div style="text-align: right; font-weight: bold; margin-bottom: 2px;">Cr.</div> <table style="width: 100%; border-collapse: collapse; font-size: 12px;"> <thead> <tr> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 20%;">Date</th> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 50%;">Particulars</th> <th style="background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 30%;">Amount ($)</th> </tr> </thead> <tbody> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.12</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Plant A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">40,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.23</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Purchases A/c</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">10,000</td> </tr> <tr> <td style="padding: 3px; border-bottom: 1px solid #ddd;">08.31</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">By Balance c/d</td> <td style="padding: 3px; border-bottom: 1px solid #ddd;">30,000</td> </tr> <tr> <td style="padding: 3px; background-color: #E8F4F0;"></td> <td style="padding: 3px; background-color: #E8F4F0;"></td> <td style="padding: 3px; background-color: #E8F4F0; font-weight: bold;">80,000</td> </tr> </tbody> </table> </div> </div></div>
-- True
-- False
