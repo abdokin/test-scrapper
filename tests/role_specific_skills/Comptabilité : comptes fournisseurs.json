@@ -277,21 +277,21 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le délai légal maximum de paiement entre entreprises en France ?</p>"
+        "content": "<p>Quel est le délai de paiement généralement recommandé pour maintenir de bonnes relations commerciales avec les fournisseurs ?</p>"
       },
       "options": [
         {
-          "content": "<p>60 jours à compter de la date d'émission de la facture</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>90 jours</p>"
-        },
-        {
-          "content": "<p>30 jours</p>"
+          "content": "<p>30 jours après la facture</p>"
         },
         {
           "content": "<p>45 jours fin de mois</p>"
+        },
+        {
+          "content": "<p>60 jours maximum après la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>90 jours après la facture</p>"
         }
       ]
     },
@@ -711,7 +711,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quelle est la méthode de valorisation des stocks la plus courante en France ?</p>"
+        "content": "<p>Quelle méthode de valorisation des stocks est largement acceptée et recommandée pour sa simplicité et sa fiabilité ?</p>"
       },
       "options": [
         {

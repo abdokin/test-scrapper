@@ -1,15 +1,15 @@
 {
   "title": "Gestion des risques",
   "attributes": {
-    "overview": "This Risk Management test evaluates a candidate’s ability to identify, assess, and mitigate business risks. This screening test will help you hire experts who can enhance decision-making and ensure continuous improvement and organizational resilience.",
+    "overview": "Ce test de Gestion des risques évalue la capacité d'un candidat à identifier, évaluer et atténuer les risques commerciaux. Ce test de sélection vous aidera à recruter des experts capables d'améliorer la prise de décision et d'assurer l'amélioration continue et la résilience organisationnelle.",
     "level": "intermediate",
     "covered_skills": [
-      "Establishing risk management function and risk identification",
-      "Risk assessment",
-      "Risk treatment, reporting, and review"
+      "Établissement de la fonction de gestion des risques et identification des risques",
+      "Évaluation des risques",
+      "Traitement, reporting et revue des risques"
     ],
-    "relevancy": "Risk owners, risk oversight bodies, professional accountants, auditors, risk managers, compliance officers, operational risk analysts, business continuity planners, risk assessment specialists, corporate risk consultants, risk and compliance coordinators,",
-    "description": "Hiring a candidate with strong risk management skills will significantly benefit your business. They will identify and manage risks adeptly, leading to improved decision-making and a more resilient business structure. Their proficiency in establishing risk management functions, understanding organizational context, and effectively allocating resources is invaluable.\n\nThe Risk Management test assesses candidates' abilities in identifying and evaluating risks, including root cause analysis and risk level determination. It also evaluates their proficiency in risk analysis techniques, prioritization, treatment planning, and assessing residual risk, along with implementing key risk indicators.\n\nScreening for professionals with these skills will enhance your business by effectively managing risks and ensuring compliance. Successful candidates will contribute to proactive risk management, fostering a culture of continuous improvement and business resilience.",
+    "relevancy": "Propriétaires de risques, organes de surveillance des risques, comptables professionnels, auditeurs, gestionnaires de risques, responsables de la conformité, analystes des risques opérationnels, planificateurs de la continuité des activités, spécialistes de l'évaluation des risques, consultants en risques d'entreprise, coordinateurs des risques et de la conformité",
+    "description": "Le recrutement d'un candidat possédant de solides compétences en gestion des risques apportera des avantages significatifs à votre entreprise. Ils identifieront et géreront les risques avec habileté, conduisant à une meilleure prise de décision et à une structure commerciale plus résiliente. Leur expertise dans l'établissement des fonctions de gestion des risques, la compréhension du contexte organisationnel et l'allocation efficace des ressources est inestimable.\n\nLe test de Gestion des risques évalue les capacités des candidats à identifier et évaluer les risques, y compris l'analyse des causes profondes et la détermination du niveau de risque. Il évalue également leur maîtrise des techniques d'analyse des risques, de la priorisation, de la planification du traitement et de l'évaluation du risque résiduel, ainsi que la mise en œuvre d'indicateurs clés de risque.\n\nLe screening de professionnels possédant ces compétences améliorera votre entreprise en gérant efficacement les risques et en assurant la conformité. Les candidats retenus contribueront à une gestion proactive des risques, favorisant une culture d'amélioration continue et de résilience commerciale.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 15,
@@ -17,36 +17,1086 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que consultant en gestion des risques nouvellement nommé, vous devez comprendre l'appétit pour le risque de l'entreprise.</p><p><br></p><p><strong>Qui devrait être responsable de l'approbation de l'appétit pour le risque de l'entreprise ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le conseil d'administration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La direction générale</p>"
+        },
+        {
+          "content": "<p>Le gestionnaire des risques</p>"
+        },
+        {
+          "content": "<p>Le responsable de l'audit interne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>En tant que gestionnaire des risques dans une entreprise manufacturière, vous souhaitez évaluer la probabilité de non-disponibilité d'un matériau nécessaire à la production d'une commande importante.</p><p><br></p><p><strong>Quels facteurs devriez-vous prendre en compte ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'historique de la disponibilité du matériau</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le jugement professionnel du responsable des achats</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les contrôles internes sur les achats et la gestion des stocks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le niveau de compétence et l'engagement de l'équipe de production</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que gestionnaire des risques, vous avez mis en place un plan pour atténuer l'utilisation non autorisée des véhicules de l'entreprise, initialement considérée comme un risque élevé. Cependant, des lacunes mineures dans le contrôle persistent, laissant un faible risque résiduel.</p><p><br></p><p><strong>Quelle devrait être votre prochaine étape concernant le risque résiduel ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ne prendre aucune autre mesure</p>"
+        },
+        {
+          "content": "<p>Interdire au personnel d'utiliser les véhicules de l'entreprise jusqu'à ce que le risque résiduel soit atténué</p>"
+        },
+        {
+          "content": "<p>Consulter les utilisateurs des véhicules et demander leur avis sur l'atténuation du risque résiduel</p>"
+        },
+        {
+          "content": "<p>Documenter le risque résiduel et assurer son examen et son suivi périodiques</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que consultant pour la Banque ABC, vous devez proposer des stratégies efficaces de gestion des risques de fraude pour prévenir le détournement potentiel de fonds par les caissiers.</p><p><br></p><p><strong>Quelle mesure devriez-vous prendre en premier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Effectuer une évaluation des risques de détournement potentiel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des contrôles internes stricts sur la manipulation des espèces</p>"
+        },
+        {
+          "content": "<p>Effectuer un audit surprise de la caisse</p>"
+        },
+        {
+          "content": "<p>Installer des caméras de sécurité dans la salle des caissiers</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise souhaite mettre en place un système de gestion des risques.</p><p><br></p><p><strong>Quelle est la première étape essentielle dans ce processus ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir le contexte organisationnel et les objectifs stratégiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer une matrice de risques détaillée</p>"
+        },
+        {
+          "content": "<p>Nommer un responsable de la gestion des risques</p>"
+        },
+        {
+          "content": "<p>Définir les indicateurs clés de risque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre de l'évaluation des risques d'un nouveau projet informatique, quels éléments devraient être inclus dans le registre des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La description détaillée de chaque risque identifié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'évaluation de la probabilité et de l'impact</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les mesures d'atténuation proposées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le coût total du projet</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans le contexte de la gestion des risques, quelle est la meilleure définition du risque inhérent ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le risque qui reste après la mise en place des contrôles</p>"
+        },
+        {
+          "content": "<p>Le niveau de risque avant la mise en place de tout contrôle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le risque acceptable par l'organisation</p>"
+        },
+        {
+          "content": "<p>Le risque lié aux contrôles eux-mêmes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques d'un bon indicateur clé de risque (KRI) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il est mesurable et quantifiable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est prédicatif et permet d'anticiper les risques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est aligné avec les objectifs de l'organisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est complexe et difficile à comprendre</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus appropriée pour gérer un risque identifié comme ayant un impact élevé mais une faible probabilité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Transférer le risque via une assurance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter le risque sans action</p>"
+        },
+        {
+          "content": "<p>Éliminer complètement l'activité générant le risque</p>"
+        },
+        {
+          "content": "<p>Ignorer le risque car sa probabilité est faible</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments devraient être inclus dans un plan de continuité d'activité efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une analyse d'impact sur l'activité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures de communication de crise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des plans de reprise détaillés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le budget annuel de l'entreprise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de traiter un risque identifié comme ayant un impact et une probabilité modérés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place des contrôles pour réduire le risque</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter complètement l'activité</p>"
+        },
+        {
+          "content": "<p>Transférer le risque à un tiers</p>"
+        },
+        {
+          "content": "<p>Accepter le risque sans action</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une culture de gestion des risques efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une communication ouverte sur les risques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'engagement visible de la direction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La formation continue du personnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une approche punitive des erreurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour évaluer l'efficacité d'un contrôle de risque ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Effectuer des tests réguliers et documenter les résultats</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se fier uniquement aux rapports d'incidents</p>"
+        },
+        {
+          "content": "<p>Attendre qu'un problème survienne</p>"
+        },
+        {
+          "content": "<p>Consulter uniquement l'opinion des experts</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels facteurs devraient être considérés lors de l'évaluation des risques liés aux fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La stabilité financière du fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La dépendance à un fournisseur unique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les contrôles de qualité du fournisseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ancienneté des employés du fournisseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le principal objectif d'une revue périodique des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>S'assurer que les contrôles restent efficaces et appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Justifier le budget de gestion des risques</p>"
+        },
+        {
+          "content": "<p>Satisfaire les exigences réglementaires uniquement</p>"
+        },
+        {
+          "content": "<p>Identifier les responsables des incidents passés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'un rapport efficace sur les risques pour le conseil d'administration ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un résumé des principaux risques et leur évolution</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les incidents majeurs et les leçons apprises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les actions d'atténuation proposées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les détails techniques des contrôles informatiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure réponse face à un risque émergent nouvellement identifié ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer rapidement son impact potentiel et définir une stratégie de réponse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre d'avoir plus d'informations avant d'agir</p>"
+        },
+        {
+          "content": "<p>Ignorer le risque jusqu'à ce qu'il se matérialise</p>"
+        },
+        {
+          "content": "<p>Transférer immédiatement le risque à un tiers</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'une approche intégrée de la gestion des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une meilleure allocation des ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une vision plus complète des risques de l'organisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une prise de décision plus éclairée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une réduction des coûts à court terme</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer les risques liés aux projets innovants ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adopter une approche progressive avec des points de contrôle réguliers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter tout projet innovant</p>"
+        },
+        {
+          "content": "<p>Sous-traiter tous les aspects risqués</p>"
+        },
+        {
+          "content": "<p>Ignorer les risques pour favoriser l'innovation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans le cadre d'une fusion-acquisition, à quel moment l'évaluation des risques devrait-elle commencer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Dès le début du processus de due diligence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Après la signature de l'accord</p>"
+        },
+        {
+          "content": "<p>Une fois la fusion terminée</p>"
+        },
+        {
+          "content": "<p>Uniquement en cas de problèmes identifiés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments devraient être inclus dans une politique de gestion des risques cybernétiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les procédures de réponse aux incidents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les exigences de formation des employés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les protocoles de sauvegarde des données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le plan marketing digital</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment devrait-on traiter un risque identifié comme ayant un impact catastrophique mais une probabilité très faible ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer un plan de continuité d'activité spécifique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le risque vu sa faible probabilité</p>"
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur les risques plus probables</p>"
+        },
+        {
+          "content": "<p>Attendre que le risque se matérialise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un programme efficace de gestion des risques environnementaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'identification systématique des impacts environnementaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures de surveillance continue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un plan d'intervention d'urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une stratégie marketing verte</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les risques liés à la réputation de l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place une surveillance proactive et un plan de communication de crise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réagir uniquement lorsqu'une crise survient</p>"
+        },
+        {
+          "content": "<p>Limiter toute communication externe</p>"
+        },
+        {
+          "content": "<p>Déléguer entièrement la gestion à une agence externe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels facteurs devraient être considérés lors de l'évaluation des risques liés aux ressources humaines ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La rotation du personnel clé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les compétences critiques et leur disponibilité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La conformité aux lois du travail</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La couleur des uniformes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la première étape dans le développement d'un plan de gestion de crise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identifier les scénarios de crise potentiels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rédiger un communiqué de presse</p>"
+        },
+        {
+          "content": "<p>Organiser une réunion d'urgence</p>"
+        },
+        {
+          "content": "<p>Contacter les médias</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une stratégie efficace de gestion des risques de conformité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La veille réglementaire continue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La formation régulière du personnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les audits de conformité périodiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La publicité des sanctions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment devrait-on gérer un conflit entre les objectifs commerciaux et la gestion des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Trouver un équilibre en évaluant les compromis de manière objective</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toujours privilégier les objectifs commerciaux</p>"
+        },
+        {
+          "content": "<p>Ignorer les risques pour atteindre les objectifs</p>"
+        },
+        {
+          "content": "<p>Abandonner les objectifs commerciaux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un programme de gestion des risques de fraude ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des contrôles internes robustes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une politique de lancement d'alerte</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des audits réguliers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des sanctions publiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les risques liés aux nouvelles technologies ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une évaluation progressive avec des tests pilotes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une adoption immédiate et complète</p>"
+        },
+        {
+          "content": "<p>Le rejet de toute nouvelle technologie</p>"
+        },
+        {
+          "content": "<p>L'attente jusqu'à ce que la technologie soit obsolète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments devraient être inclus dans une analyse de scénarios de risque ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les impacts potentiels sur différents aspects de l'entreprise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les interconnexions entre les risques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les mesures d'atténuation possibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les préférences personnelles des dirigeants</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de promouvoir une culture de sensibilisation aux risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Intégrer la gestion des risques dans les processus quotidiens</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des règles strictes sans explication</p>"
+        },
+        {
+          "content": "<p>Punir les erreurs sévèrement</p>"
+        },
+        {
+          "content": "<p>Ignorer les petits incidents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'un bon plan de communication des risques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des canaux de communication clairement définis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une hiérarchisation des messages selon leur importance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures de remontée d'information</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des communications uniquement descendantes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment devrait-on traiter les risques émergents liés aux changements climatiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer des scénarios et des plans d'adaptation flexibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que les impacts soient plus clairs</p>"
+        },
+        {
+          "content": "<p>Ignorer ces risques car ils sont à long terme</p>"
+        },
+        {
+          "content": "<p>Se fier uniquement aux assurances</p>"
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Dans le contexte de la gestion des risques opérationnels, quelle est la meilleure définition d'un événement déclencheur ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Un indicateur qui signale la nécessité d'une action immédiate</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Un rapport mensuel sur les risques</p>"
+            },
+            {
+              "content": "<p>Une réunion d'équipe régulière</p>"
+            },
+            {
+              "content": "<p>Un objectif annuel de performance</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels éléments sont essentiels dans un programme de gestion des risques liés aux tiers ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>L'évaluation initiale des fournisseurs</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>La surveillance continue des performances</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les clauses contractuelles de protection</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les relations personnelles avec les fournisseurs</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Quelle approche est la plus appropriée pour gérer les risques dans un environnement en évolution rapide ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Adopter une approche agile avec des révisions fréquentes</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Maintenir des contrôles rigides et inflexibles</p>"
+            },
+            {
+              "content": "<p>Attendre que l'environnement se stabilise</p>"
+            },
+            {
+              "content": "<p>Ignorer les changements mineurs</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels sont les éléments clés d'une matrice de risques efficace ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Une échelle claire de probabilité</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Une échelle d'impact bien définie</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Des critères d'évaluation cohérents</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Des couleurs attrayantes</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Comment devrait-on gérer un risque qui ne peut pas être quantifié précisément ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Utiliser une approche qualitative et des scénarios</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Ignorer le risque jusqu'à ce qu'il puisse être mesuré</p>"
+            },
+            {
+              "content": "<p>Supposer qu'il est négligeable</p>"
+            },
+            {
+              "content": "<p>Le classifier automatiquement comme risque majeur</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels éléments devraient être inclus dans un plan de succession des risques ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>L'identification des rôles critiques</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les compétences requises pour chaque poste</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les plans de développement des successeurs</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les préférences personnelles des employés</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Quelle est la meilleure approche pour gérer les risques liés à la propriété intellectuelle ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Développer une stratégie complète de protection et de surveillance</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Garder toutes les innovations secrètes</p>"
+            },
+            {
+              "content": "<p>Éviter tout développement innovant</p>"
+            },
+            {
+              "content": "<p>Ignorer les violations mineures</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels facteurs devraient être considérés lors de l'évaluation des risques géopolitiques ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>La stabilité politique des régions d'opération</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les changements réglementaires potentiels</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les tensions commerciales internationales</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les préférences culturelles locales</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Quelle est la meilleure façon de gérer les risques liés à la protection des données ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Mettre en place une approche multicouche de sécurité et de gouvernance</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Limiter l'accès à toutes les données</p>"
+            },
+            {
+              "content": "<p>Stocker uniquement des données non sensibles</p>"
+            },
+            {
+              "content": "<p>Sous-traiter toute la gestion des données</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels sont les éléments essentiels d'un programme de gestion des risques de projet ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>L'identification continue des risques</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>L'analyse d'impact sur les objectifs du projet</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les plans de réponse aux risques</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les préférences du chef de projet</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Comment devrait-on gérer les risques liés à l'innovation technologique ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Équilibrer l'innovation avec une gestion prudente des risques</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Éviter toute innovation risquée</p>"
+            },
+            {
+              "content": "<p>Adopter toutes les nouvelles technologies</p>"
+            },
+            {
+              "content": "<p>Attendre que les concurrents innovent</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels sont les éléments clés d'une stratégie de résilience organisationnelle ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>La diversification des ressources critiques</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>La flexibilité des processus opérationnels</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>La capacité d'adaptation rapide</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>La centralisation de toutes les décisions</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Quelle est la meilleure approche pour gérer les risques liés aux changements organisationnels ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Planifier et communiquer de manière proactive</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Imposer les changements rapidement</p>"
+            },
+            {
+              "content": "<p>Minimiser la communication</p>"
+            },
+            {
+              "content": "<p>Ignorer la résistance au changement</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_response",
+            "content": "<p>Quels éléments devraient être inclus dans une évaluation des risques financiers ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>L'analyse des flux de trésorerie</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>L'évaluation des contreparties</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les risques de marché</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Les préférences des actionnaires</p>"
+            }
+          ]
+        },
+        {
+          "question_attributes": {
+            "type": "multiple_choice",
+            "content": "<p>Comment devrait-on gérer les conflits entre différentes parties prenantes dans la gestion des risques ?</p>"
+          },
+          "options": [
+            {
+              "content": "<p>Rechercher un consensus basé sur des critères objectifs</p>",
+              "correct": true
+            },
+            {
+              "content": "<p>Suivre uniquement l'avis de la direction</p>"
+            },
+            {
+              "content": "<p>Éviter toute discussion de conflit</p>"
+            },
+            {
+              "content": "<p>Ignorer les opinions minoritaires</p>"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You have been appointed as a risk management consultant. To start work, you need to understand the company’s risk appetite.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Who should be responsible for approving the company's risk appetite?</strong></p></div>
-- The board of directors
-Senior management
-The risk manager
-The head of internal auditing
-The shareholders
-
-2- multiple response
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the risk manager at a manufacturing company. You want to assess the likelihood of non-availability of a material required for the production of a significant order.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Which of the following factors should you consider?</strong></p></div>
-- History of material availability.
-Professional judgment of the head of procurement.
-Internal controls on procurement and inventory management.
-Standardization of the manufacturing process.
-Skill level and commitment of the production team.
-Total cost and contribution margin associated with the order.
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the risk manager for your company and have implemented a plan to mitigate unauthorized use of company vehicles, initially deemed a high risk. However, minor control gaps persist, leaving a small residual risk.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What should be your next step regarding the residual risk?</strong></p></div>
-- Take no further action.
-Prohibit staff from using company vehicles until residual risk is mitigated.
-Consult with vehicle users and ask for their input on mitigating the residual risk.
-Document the residual risk and ensure its periodic review and monitoring.
-
-4- <div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are a consultant for ABC Bank. You need to propose effective fraud risk management strategies to prevent the potential embezzlement of funds by cashiers.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Which of the following steps should you take first?</strong></p></div>
-- Conduct a risk assessment of the potential embezzlement.
-Implement strong internal controls on cash handling.
-Conduct a surprise cash audit.
-Install security cameras in the cashier's room.

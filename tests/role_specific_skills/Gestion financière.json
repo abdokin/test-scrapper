@@ -1,16 +1,16 @@
 {
   "title": "Gestion financière",
   "attributes": {
-    "overview": "This test evaluates candidates’ ability to manage finance in order to maximize business profits and minimize risk. The test will help you to identify candidates equipped with practical skills to effectively handle the financial side of your business.",
+    "overview": "Ce test évalue la capacité des candidats à gérer les finances afin de maximiser les bénéfices et minimiser les risques de l'entreprise. Le test vous aidera à identifier les candidats dotés des compétences pratiques nécessaires pour gérer efficacement l'aspect financier de votre entreprise.",
     "level": "intermediate",
     "covered_skills": [
-      "Working capital management",
-      "Investment appraisal and decision-making",
-      "Capital structure and cost",
-      "Forecasting and analyzing financial outcomes"
+      "Gestion du fonds de roulement",
+      "Évaluation et prise de décision d'investissement",
+      "Structure et coût du capital",
+      "Prévision et analyse des résultats financiers"
     ],
-    "relevancy": "Financial controller, corporate accountant, comptroller, finance manager, treasurer, auditor, and anyone else responsible for managing and controlling the overall finances of a business.",
-    "description": "The survival of any business requires the availability of and access to financing. Every company wants to maximize its profits and minimize risk, but the availability of financing does not provide a guarantee for these outcomes. Effective and efficient management of finance requires skilled oversight to ensure that sufficient funds are available to meet current liabilities and for the continued smooth running of business operations. This Financial Management test will help you find the person who can manage your business’s finances to ensure the short-, medium-, and long-term success of your business.\n\nThis hiring test focuses on capital management, investment appraisal, capital structure, and forecasting outcomes. Working-capital management includes understanding the most feasible credit period to be allowed to debtors and the most beneficial time to pay creditors, in addition to various decisions regarding inventory management. Investment appraisal includes allocating funds to invest in the most profitable business opportunities and having funds required for the business at the lowest possible cost. The person managing your company’s finances should also proactively identify possible financial risks and devise mitigation strategies to prevent the occurrence and impacts of such events.\n\nThe Financial Management test will help to assess candidates’ financial-management skills. The candidates who perform well on the test are likely to possess excellent financial-management skills in real-world scenarios. The test ensures that successful candidates will be a good addition to your company’s finance team and that they will perform their duties efficiently and effectively right from the start.",
+    "relevancy": "Contrôleur financier, comptable d'entreprise, directeur financier, trésorier, auditeur et toute personne responsable de la gestion et du contrôle des finances globales d'une entreprise.",
+    "description": "La survie de toute entreprise nécessite la disponibilité et l'accès au financement. Chaque entreprise souhaite maximiser ses profits et minimiser les risques, mais la disponibilité du financement ne garantit pas ces résultats. Une gestion efficace des finances nécessite une supervision qualifiée pour garantir que des fonds suffisants sont disponibles pour faire face aux passifs courants et assurer le bon fonctionnement des opérations commerciales. Ce test de Gestion Financière vous aidera à trouver la personne capable de gérer les finances de votre entreprise pour assurer son succès à court, moyen et long terme.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 15,
@@ -18,34 +18,981 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Votre entreprise prévoit des ventes de 10 000 € sans délai de crédit. Les ventes augmenteraient à 12 000 € si un délai de crédit d'un mois est accordé. Cependant, ce délai de crédit entraînera 5% de créances douteuses. Le ratio de contribution aux ventes de votre entreprise est de 0,30 et son coût de financement est de 10%.</p><p><strong>Quel est le bénéfice total de votre entreprise sans délai de crédit et avec un délai de crédit d'un mois ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Sans délai de crédit : 3 000 €</p><p>Avec délai d'un mois : 2 900 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sans délai de crédit : 3 000 €</p><p>Avec délai d'un mois : 3 600 €</p>"
+        },
+        {
+          "content": "<p>Sans délai de crédit : 3 000 €</p><p>Avec délai d'un mois : 3 500 €</p>"
+        },
+        {
+          "content": "<p>Sans délai de crédit : 2 500 €</p><p>Avec délai d'un mois : 3 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>La société Tulipe souhaite acquérir la société Lys. Le ratio prix/bénéfice (P/E) de la société Lys est de 5, et son bénéfice par action (BPA) est de 2 €.</p><p><strong>En utilisant le ratio P/E pour évaluer la valeur de l'entreprise, quel prix la société Tulipe devrait-elle être prête à payer pour acheter la société Lys ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 € par action</p>"
+        },
+        {
+          "content": "<p>5 € par action</p>"
+        },
+        {
+          "content": "<p>7 € par action</p>"
+        },
+        {
+          "content": "<p>10 € par action</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre entreprise envisage de contracter un prêt bancaire de 100 000 € pour financer une opportunité d'investissement. La banque a accepté d'accorder le prêt à un taux d'intérêt de 10%. Un taux d'imposition de 30% s'applique sur tous les bénéfices de l'entreprise.</p><p><strong>Quel est le coût de ce capital d'emprunt pour l'entreprise ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>3%</p>"
+        },
+        {
+          "content": "<p>7%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10%</p>"
+        },
+        {
+          "content": "<p>13%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous travaillez comme contrôleur financier dans un fonds commun de placement. Au cours de la dernière année, la direction s'inquiétait des fluctuations importantes du taux de rendement des fonds investis.</p><p><strong>Quelle action devriez-vous prendre pour réduire ce risque ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Investir tous les fonds uniquement dans des actions du secteur pétrolier et gazier</p>"
+        },
+        {
+          "content": "<p>Créer un portefeuille d'investissements corrélés négativement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer un portefeuille d'investissements corrélés positivement</p>"
+        },
+        {
+          "content": "<p>Créer un portefeuille sans corrélation entre les investissements</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Votre entreprise évalue un nouveau projet d'investissement. Quels éléments parmi les suivants doivent être inclus dans l'analyse du flux de trésorerie ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les coûts irrécupérables déjà engagés</p>"
+        },
+        {
+          "content": "<p>L'augmentation du fonds de roulement nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les flux de trésorerie différentiels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La valeur résiduelle des équipements</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a un ratio d'endettement actuel de 40%. Elle envisage d'émettre de nouvelles actions pour financer son expansion. Comment cette émission affectera-t-elle son ratio d'endettement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le ratio d'endettement augmentera</p>"
+        },
+        {
+          "content": "<p>Le ratio d'endettement diminuera</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le ratio d'endettement restera inchangé</p>"
+        },
+        {
+          "content": "<p>L'effet dépendra du prix d'émission des actions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise présente les données suivantes :<br>Chiffre d'affaires : 500 000 €<br>Coût des ventes : 300 000 €<br>Stock moyen : 60 000 €<br>Quel est son ratio de rotation des stocks ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>5 fois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>8,33 fois</p>"
+        },
+        {
+          "content": "<p>3 fois</p>"
+        },
+        {
+          "content": "<p>1,67 fois</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages du financement par emprunt par rapport au financement par actions ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les intérêts sont déductibles fiscalement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pas de dilution du contrôle des actionnaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Aucune obligation de remboursement</p>"
+        },
+        {
+          "content": "<p>Effet de levier financier potentiel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Un projet nécessite un investissement initial de 200 000 € et générera des flux de trésorerie de 50 000 € par an pendant 5 ans. Si le taux d'actualisation est de 10%, quelle est la Valeur Actuelle Nette (VAN) du projet ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>-10 475 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>50 000 €</p>"
+        },
+        {
+          "content": "<p>0 €</p>"
+        },
+        {
+          "content": "<p>10 475 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a un cycle d'exploitation de 90 jours et un cycle de paiement de 60 jours. Quel est son cycle de conversion de trésorerie ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>150 jours</p>"
+        },
+        {
+          "content": "<p>30 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>-30 jours</p>"
+        },
+        {
+          "content": "<p>60 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les mesures appropriées pour gérer le risque de change dans une entreprise internationale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des contrats à terme</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des swaps de devises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les fluctuations de change</p>"
+        },
+        {
+          "content": "<p>Diversifier les devises utilisées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise a un ratio de couverture des intérêts de 1,5, que cela indique-t-il sur sa santé financière ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'entreprise est dans une excellente situation financière</p>"
+        },
+        {
+          "content": "<p>L'entreprise peut couvrir ses frais financiers mais avec une marge de sécurité limitée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'entreprise ne peut pas couvrir ses frais financiers</p>"
+        },
+        {
+          "content": "<p>Le ratio n'a aucune signification pour la santé financière</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans le cadre de l'analyse du point mort, si les coûts fixes sont de 100 000 €, le prix de vente unitaire est de 50 € et le coût variable unitaire est de 30 €, quel est le point mort en unités ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 000 unités</p>"
+        },
+        {
+          "content": "<p>5 000 unités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 333 unités</p>"
+        },
+        {
+          "content": "<p>1 667 unités</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les facteurs à considérer lors de l'établissement d'une politique de crédit client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le coût du financement du crédit accordé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le risque de créances douteuses</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'impact sur le volume des ventes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La couleur du logo de l'entreprise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise a un ratio de liquidité générale de 2,5 et un ratio de liquidité immédiate de 0,8, que peut-on en déduire sur ses stocks ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les stocks représentent une part importante de l'actif circulant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les stocks sont insuffisants</p>"
+        },
+        {
+          "content": "<p>Les stocks sont négligeables</p>"
+        },
+        {
+          "content": "<p>Il n'y a pas de stocks</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise envisage un projet avec les flux de trésorerie suivants :<br>Année 0 : -150 000 €<br>Année 1 : 60 000 €<br>Année 2 : 80 000 €<br>Année 3 : 90 000 €<br>Avec un taux d'actualisation de 12%, quel est le Taux de Rentabilité Interne (TRI) de ce projet ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>18%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>15%</p>"
+        },
+        {
+          "content": "<p>20%</p>"
+        },
+        {
+          "content": "<p>22%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'utiliser le système de classification ABC pour la gestion des stocks ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Meilleure allocation des ressources de contrôle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction des coûts de stockage</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identification des articles critiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Élimination totale des ruptures de stock</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise a un ratio d'endettement de 0,6 et un ratio de couverture des intérêts de 3,5, que devrait-elle considérer avant d'émettre de nouvelles obligations ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rien, ces ratios indiquent une situation idéale pour émettre plus de dette</p>"
+        },
+        {
+          "content": "<p>Le risque d'augmentation du coût du capital</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Uniquement le taux d'intérêt du marché</p>"
+        },
+        {
+          "content": "<p>Seulement l'opinion des actionnaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans une analyse de sensibilité d'un projet d'investissement, quelle variable a généralement l'impact le plus significatif sur la VAN ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les revenus projetés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les coûts administratifs</p>"
+        },
+        {
+          "content": "<p>Les coûts de maintenance</p>"
+        },
+        {
+          "content": "<p>Les frais d'assurance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à considérer lors de l'évaluation du besoin en fonds de roulement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le délai de rotation des stocks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le délai de paiement des clients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le délai de paiement des fournisseurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La valeur du bâtiment de l'entreprise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a un coût des capitaux propres de 15% et un coût de la dette après impôt de 6%. Si sa structure de capital cible est de 60% de capitaux propres et 40% de dette, quel est son coût moyen pondéré du capital (CMPC) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>9%</p>"
+        },
+        {
+          "content": "<p>10,5%</p>"
+        },
+        {
+          "content": "<p>11,4%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12,6%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise présente un ratio de rotation des créances clients de 8, que signifie ce chiffre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les clients paient en moyenne tous les 45,6 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'entreprise perd 8% de ses créances chaque année</p>"
+        },
+        {
+          "content": "<p>Les clients paient en moyenne tous les 8 jours</p>"
+        },
+        {
+          "content": "<p>L'entreprise a 8 fois plus de clients que l'année précédente</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les caractéristiques d'une bonne politique de gestion de la trésorerie ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintien d'un solde de sécurité approprié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Investissement des excédents temporaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Synchronisation des entrées et sorties de fonds</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Conservation de toute la trésorerie en compte courant</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure méthode pour évaluer la rentabilité d'un projet d'investissement à long terme ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le délai de récupération simple</p>"
+        },
+        {
+          "content": "<p>La Valeur Actuelle Nette (VAN)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le taux de rendement comptable</p>"
+        },
+        {
+          "content": "<p>L'indice de profitabilité simple</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un contexte d'inflation élevée, quelle stratégie de gestion des stocks est la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réduire au maximum les stocks</p>"
+        },
+        {
+          "content": "<p>Augmenter les stocks des matières premières stratégiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir les niveaux de stocks constants</p>"
+        },
+        {
+          "content": "<p>Éliminer complètement les stocks</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels facteurs influencent le choix entre le financement par dette ou par capitaux propres ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le taux d'imposition de l'entreprise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le risque d'exploitation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La structure financière actuelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'âge des dirigeants</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a un effet de levier d'exploitation de 3 et un effet de levier financier de 2. Quel est son effet de levier combiné ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>5</p>"
+        },
+        {
+          "content": "<p>6</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1,5</p>"
+        },
+        {
+          "content": "<p>4</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si le rendement des actifs (ROA) d'une entreprise est de 12% et son ratio d'endettement est de 0,5, quel est son rendement des capitaux propres (ROE) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>18%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>24%</p>"
+        },
+        {
+          "content": "<p>6%</p>"
+        },
+        {
+          "content": "<p>12%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer le risque de taux d'intérêt ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des swaps de taux d'intérêt</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Équilibrer les dettes à taux fixe et variable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveiller les prévisions de taux d'intérêt</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les variations de taux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans l'analyse du point mort, si la marge sur coûts variables est de 40% et les coûts fixes sont de 200 000 €, quel est le chiffre d'affaires nécessaire pour atteindre le seuil de rentabilité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>500 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>800 000 €</p>"
+        },
+        {
+          "content": "<p>300 000 €</p>"
+        },
+        {
+          "content": "<p>400 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a les données suivantes :<br>Bénéfice avant intérêts et impôts (BAII) : 500 000 €<br>Intérêts : 100 000 €<br>Taux d'imposition : 25%<br>Nombre d'actions : 100 000<br>Quel est le bénéfice par action (BPA) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>3,00 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>5,00 €</p>"
+        },
+        {
+          "content": "<p>4,00 €</p>"
+        },
+        {
+          "content": "<p>2,50 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'une politique de dividendes stable ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réduction de l'incertitude pour les investisseurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signal positif au marché</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facilité d'accès au financement externe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maximisation des avantages fiscaux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si le beta d'une action est de 1,5, le taux sans risque est de 3% et la prime de risque du marché est de 6%, quel est le coût des capitaux propres selon le MEDAF ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>12%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>9%</p>"
+        },
+        {
+          "content": "<p>15%</p>"
+        },
+        {
+          "content": "<p>10,5%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise achète des matières premières à crédit. Si son délai de paiement fournisseurs passe de 30 à 45 jours, quel sera l'impact sur son besoin en fonds de roulement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le BFR augmentera</p>"
+        },
+        {
+          "content": "<p>Le BFR diminuera</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le BFR ne changera pas</p>"
+        },
+        {
+          "content": "<p>L'effet dépend du volume d'achats</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les indicateurs pertinents pour évaluer la performance d'un centre de profit ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La marge d'exploitation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le retour sur investissement (ROI)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La valeur économique ajoutée (EVA)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le taux de rotation du personnel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans le cadre d'une fusion-acquisition, si la valeur comptable d'une entreprise est de 1 000 000 € et que le goodwill est estimé à 200 000 €, quelle est la valeur totale de l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>800 000 €</p>"
+        },
+        {
+          "content": "<p>1 000 000 €</p>"
+        },
+        {
+          "content": "<p>1 200 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 400 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise a un cycle d'exploitation de 120 jours et souhaite le réduire, quelle action serait la plus efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Augmenter le délai de paiement fournisseurs</p>"
+        },
+        {
+          "content": "<p>Optimiser la rotation des stocks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmenter les ventes</p>"
+        },
+        {
+          "content": "<p>Réduire les coûts fixes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans une analyse du risque de crédit client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les états financiers historiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'historique des paiements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les perspectives du secteur d'activité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La localisation géographique du siège social</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans le cas d'un projet avec des flux de trésorerie irréguliers, quelle méthode d'évaluation est la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le délai de récupération</p>"
+        },
+        {
+          "content": "<p>La VAN</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le taux de rendement comptable</p>"
+        },
+        {
+          "content": "<p>Le délai de récupération actualisé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise a un ratio de liquidité immédiate de 0,5 et des stocks représentant 40% de l'actif circulant, quel est son ratio de liquidité générale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>0,83</p>"
+        },
+        {
+          "content": "<p>0,9</p>"
+        },
+        {
+          "content": "<p>1,2</p>"
+        },
+        {
+          "content": "<p>0,833</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'utiliser des options comme instrument de couverture ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Protection contre les mouvements défavorables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Possibilité de profiter des mouvements favorables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Flexibilité dans la gestion du risque</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Absence de coût initial</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise a un chiffre d'affaires de 5 000 000 € et un taux de marge brute de 40%. Si les charges fixes sont de 1 500 000 €, quel est son seuil de rentabilité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>3 750 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2 500 000 €</p>"
+        },
+        {
+          "content": "<p>4 000 000 €</p>"
+        },
+        {
+          "content": "<p>3 000 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Si une entreprise émet des obligations à 10 ans avec un coupon de 4% alors que le taux du marché est de 5%, comment ces obligations seront-elles cotées sur le marché ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Au pair</p>"
+        },
+        {
+          "content": "<p>Au-dessus du pair</p>"
+        },
+        {
+          "content": "<p>En dessous du pair</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Impossible à déterminer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les avantages d'un système de gestion de trésorerie centralisé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Optimisation des soldes de trésorerie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction des coûts de transaction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Meilleur pouvoir de négociation avec les banques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Élimination du risque de change</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans une analyse coût-volume-profit, si la marge sur coûts variables est de 30% et que les coûts fixes augmentent de 20%, de combien le chiffre d'affaires doit-il augmenter pour maintenir le même bénéfice ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>20%</p>"
+        },
+        {
+          "content": "<p>30%</p>"
+        },
+        {
+          "content": "<p>66,7%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>50%</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div class="ql-editor" contenteditable="false"><p>Your company’s estimated sales are $10,000 if no credit time is allowed. Sales will increase to $12,000 if credit time of one month is allowed. However, one month’s credit time will result in 5% bad debts. Your company’s contribution to sales ratio is 0.30, and its finance cost is 10%.</p><p>&nbsp;</p><p><strong>What is your company’s total profit with no credit time and with a credit time of one month?</strong></p></div>
-- <div class="ql-editor" contenteditable="false"><p class="ql-align-justify">No credit time: $3,000</p><p class="ql-align-justify">Credit time of one month: $2,900</p></div>
-- <div class="ql-editor" contenteditable="false"><p>No credit time: $3,000</p><p>Credit time of one month: $3,600</p></div>
-- <div class="ql-editor" contenteditable="false"><p>No credit time: $3,000</p><p>Credit time of one month: $3,500</p></div>
-- <div class="ql-editor" contenteditable="false"><p>No credit time: $2,500</p><p>Credit time of one month: $3,000</p></div>
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p>Tulip Company wants to acquire Lilly Company. Lilly Company’s price/earnings (P/E) ratio&nbsp;is 5, and its earning per share (EPS) is $2.</p><p>&nbsp;</p><p><strong>Using the P/E ratio to evaluate the value of business, what price should Tulip Company be willing to pay to buy Lilly Company?</strong></p></div>
-- $2 per share
-$5 per share
-$7 per share
-$10 per share
-
-3- single choice
-<div class="ql-editor" contenteditable="false"><p>Your company is considering taking out a bank loan of $100,000 to finance an investment opportunity. The bank has agreed to issue the loan at an interest rate of 10%. A tax rate of 30% applies on all of the company’s profits.</p><p>&nbsp;</p><p><strong>What is the cost of this debt capital to the company?</strong></p></div>
-- 3%
-- 7%
-- 10%
-- 13%
-
-4- single choice
-<div class="ql-editor" contenteditable="false"><p>You are working as a financial controller at a mutual fund. During the last year, management was concerned about significant fluctuation in the rate of return on funds invested. Management asked you to take measures to reduce this volatility.</p><p><br></p><p><strong>Which of the following actions should help you reduce this risk?</strong></p></div>
-- Invest all funds in shares of oil and gas sector companies only.
-Create a portfolio of negatively correlated investments.
-Create a portfolio of positively correlated investments.
-Create a portfolio with no correlation among the investments.

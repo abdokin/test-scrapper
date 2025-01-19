@@ -1,16 +1,16 @@
 {
-  "title": "Gestion des risques",
+  "title": "Leadership et gestion du personnel",
   "attributes": {
-    "overview": "The Leadership and People Management test evaluates a candidate’s ability to lead others within an organization using both influence and guidance. This test will help you hire leaders who can support and develop others to help your organization grow.",
+    "overview": "Le test de Leadership et gestion du personnel évalue la capacité d'un candidat à diriger au sein d'une organisation en utilisant l'influence et l'accompagnement. Ce test vous aidera à recruter des leaders capables de soutenir et développer les autres pour faire croître votre organisation.",
     "level": "intermediate",
     "covered_skills": [
-      "Delegate authority and task responsibility",
-      "Plan and support the development of others",
-      "Provide timely guidance and feedback",
-      "Gain acceptance of ideas and plans"
+      "Déléguer l'autorité et les responsabilités",
+      "Planifier et soutenir le développement des autres",
+      "Fournir des conseils et du feedback en temps opportun",
+      "Obtenir l'adhésion aux idées et aux plans"
     ],
-    "relevancy": "Managers, team leaders, and employees in other leadership roles.",
-    "description": "Powerful leaders scale your organization’s potential. They carry out impactful strategies and provide actionable directives that get results.  \n\nThis Leadership and People Management test evaluates candidates’ abilities to delegate authority and task responsibility, plan and support the development of others, provide timely guidance and feedback, and gain acceptance of ideas and plans. Rather than proposing a specific leadership style, this test follows the situational theory of leadership developed by Blanchard and Hersey and asks candidates to evaluate factors to decide when to tell, sell, participate, or delegate in different scenarios based on the needs of each situation.\n\nThis screening test will help you identify leaders who have a genuine interest in developing others and can unite talent behind important objectives. These are the leaders who understand how to align the needs and goals of the organization with the skills and aspirations of their team members to produce results and satisfaction at all levels. Successful leaders lead by example and create a space where people can share ideas, ask questions, and be accountable for their actions.",
+    "relevancy": "Managers, chefs d'équipe et employés occupant d'autres rôles de leadership.",
+    "description": "Les leaders efficaces multiplient le potentiel de votre organisation. Ils mettent en œuvre des stratégies percutantes et fournissent des directives exploitables qui produisent des résultats.\n\nCe test de Leadership et gestion du personnel évalue la capacité des candidats à déléguer l'autorité et les responsabilités, à planifier et soutenir le développement des autres, à fournir des conseils et du feedback opportuns, et à obtenir l'adhésion aux idées et aux plans. Plutôt que de proposer un style de leadership spécifique, ce test suit la théorie situationnelle du leadership développée par Blanchard et Hersey, et demande aux candidats d'évaluer les facteurs pour décider quand diriger, convaincre, participer ou déléguer dans différents scénarios selon les besoins de chaque situation.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 12,
@@ -18,33 +18,1010 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Un nouvel employé d'un autre département rejoindra votre équipe la semaine prochaine. Il a demandé ce transfert car il trouvait son travail trop prévisible et monotone. Ses rapports de performance montrent qu'il a bien contribué aux projets de programmation mais qu'il doit améliorer ses compétences en présentation.</p><p><br></p><p><strong>Comment soutiendriez-vous son développement ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter des projets à venir avec lui et faire confiance qu'il apprendra à faire de meilleures présentations sur le terrain.</p>"
+        },
+        {
+          "content": "<p>Rencontrer son ancien manager pour discuter de ses points faibles et du plan de développement sur lequel il travaillait.</p>"
+        },
+        {
+          "content": "<p>Le rencontrer pour discuter de ses objectifs et besoins en formation et établir ensemble un programme de développement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rechercher des ressources sur l'amélioration des compétences en présentation et lui donner du matériel éducatif à lire.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous êtes en pleine période de pointe de l'entreprise et vous avez remarqué que le moral de votre équipe baisse en raison de la pression. Un client de longue date s'est plaint que le rapport envoyé la semaine dernière contenait de nombreuses fautes et des informations incohérentes.</p><p><br></p><p><strong>Comment devriez-vous aborder ce sujet avec votre équipe ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager le feedback du client avec l'équipe et réfléchir ensemble à des moyens de gérer la pression. Leur demander de refaire le rapport pour la semaine prochaine.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander à l'équipe de refaire le rapport dès que possible en expliquant que vous ne pouvez pas vous permettre de perdre un client important.</p>"
+        },
+        {
+          "content": "<p>Dire à l'équipe que le client a changé d'avis et souhaite un rapport révisé, pour éviter d'affecter davantage leur moral.</p>"
+        },
+        {
+          "content": "<p>Exiger que l'équipe refasse le rapport immédiatement, en les informant que des mesures disciplinaires seront prises si la performance ne s'améliore pas.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>En tant que leader, quelles actions sont efficaces pour développer les compétences de votre équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des sessions de feedback régulières individuelles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier les opportunités d'apprentissage dans les projets quotidiens.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que les membres de l'équipe demandent de l'aide.</p>"
+        },
+        {
+          "content": "<p>Créer un environnement où l'on peut apprendre de ses erreurs.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de votre équipe très performant commence à montrer des signes de démotivation. Ses collègues se plaignent qu'il ne participe plus aux réunions d'équipe comme avant.</p><p><br></p><p><strong>Quelle serait la meilleure approche dans cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion d'équipe pour discuter de l'importance de la participation de tous.</p>"
+        },
+        {
+          "content": "<p>Lui parler en privé pour comprendre les raisons de ce changement et explorer des solutions ensemble.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre de voir si la situation s'améliore d'elle-même.</p>"
+        },
+        {
+          "content": "<p>Lui envoyer un email pour lui rappeler ses responsabilités envers l'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous devez présenter un nouveau projet important à votre équipe. Certains membres sont enthousiastes, d'autres semblent réticents au changement.</p><p><br></p><p><strong>Quelle est la meilleure façon de procéder ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présenter le projet en mettant l'accent sur les opportunités qu'il offre et créer un espace pour le dialogue.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le projet en rappelant que le changement est nécessaire pour l'entreprise.</p>"
+        },
+        {
+          "content": "<p>Reporter la présentation jusqu'à ce que toute l'équipe soit plus réceptive.</p>"
+        },
+        {
+          "content": "<p>Déléguer la présentation aux membres enthousiastes de l'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour déléguer efficacement une tâche importante ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Définir clairement les objectifs et les attentes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir toutes les ressources nécessaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier chaque étape du travail quotidiennement.</p>"
+        },
+        {
+          "content": "<p>Établir des points de contrôle réguliers.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un membre talentueux de votre équipe s'ennuie dans son rôle actuel et pourrait chercher d'autres opportunités.</p><p><br></p><p><strong>Quelle serait la meilleure approche pour le retenir et le motiver ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui offrir une augmentation de salaire immédiate.</p>"
+        },
+        {
+          "content": "<p>Discuter de ses aspirations professionnelles et créer un plan de développement personnalisé.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui donner plus de travail pour qu'il soit trop occupé pour chercher ailleurs.</p>"
+        },
+        {
+          "content": "<p>Attendre qu'il exprime son mécontentement avant d'agir.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à créer une culture d'innovation au sein d'une équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager la prise de risques calculés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Célébrer les échecs constructifs comme des opportunités d'apprentissage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des solutions standardisées pour tous les problèmes.</p>"
+        },
+        {
+          "content": "<p>Créer des espaces de dialogue et d'expérimentation.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Deux membres de votre équipe sont en conflit concernant la direction d'un projet important.</p><p><br></p><p><strong>Quelle approche serait la plus efficace pour résoudre cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une médiation structurée pour comprendre les deux points de vue et trouver un terrain d'entente.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre une décision unilatérale pour mettre fin au conflit rapidement.</p>"
+        },
+        {
+          "content": "<p>Laisser les membres de l'équipe résoudre le conflit entre eux.</p>"
+        },
+        {
+          "content": "<p>Réaffecter l'un des membres à un autre projet.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe vient de terminer un projet majeur qui n'a pas atteint tous ses objectifs.</p><p><br></p><p><strong>Quelle est la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une rétrospective pour identifier les leçons apprises et planifier les améliorations futures.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier les responsables des échecs pour éviter qu'ils ne se reproduisent.</p>"
+        },
+        {
+          "content": "<p>Minimiser l'importance des objectifs non atteints pour maintenir le moral.</p>"
+        },
+        {
+          "content": "<p>Passer rapidement au projet suivant sans s'attarder sur les échecs.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour gérer une équipe à distance ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des rituels de communication réguliers.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des outils de collaboration appropriés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveiller constamment l'activité en ligne des employés.</p>"
+        },
+        {
+          "content": "<p>Définir des objectifs et attentes clairs.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collaborateur expérimenté résiste aux changements technologiques nécessaires.</p><p><br></p><p><strong>Quelle approche serait la plus constructive ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Comprendre ses préoccupations et proposer un accompagnement personnalisé.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui donner un ultimatum pour adopter les nouvelles technologies.</p>"
+        },
+        {
+          "content": "<p>L'exempter des changements en raison de son expérience.</p>"
+        },
+        {
+          "content": "<p>Le réaffecter à un rôle moins technique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour mener efficacement un entretien d'évaluation annuel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Préparer des exemples concrets de performance.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écouter activement les retours de l'employé.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur les points à améliorer.</p>"
+        },
+        {
+          "content": "<p>Établir des objectifs de développement mutuellement convenus.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe doit livrer un projet urgent mais manque de ressources.</p><p><br></p><p><strong>Quelle est la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réévaluer les priorités et ajuster le périmètre du projet avec les parties prenantes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander à l'équipe de faire des heures supplémentaires jusqu'à la livraison.</p>"
+        },
+        {
+          "content": "<p>Réduire la qualité pour respecter les délais.</p>"
+        },
+        {
+          "content": "<p>Ignorer les contraintes de ressources et maintenir le plan initial.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à développer la résilience d'une équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager le partage des connaissances entre les membres.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Développer des plans de contingence pour les situations critiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter de parler des difficultés potentielles.</p>"
+        },
+        {
+          "content": "<p>Créer une culture de soutien mutuel.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet important prend du retard en raison de problèmes de communication entre les départements.</p><p><br></p><p><strong>Quelle action serait la plus efficace ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place des réunions de coordination inter-départements et des processus de communication clairs.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Centraliser toutes les décisions pour accélérer le processus.</p>"
+        },
+        {
+          "content": "<p>Imposer des pénalités aux départements qui ne respectent pas les délais.</p>"
+        },
+        {
+          "content": "<p>Ajouter des niveaux de validation supplémentaires.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de votre équipe fait constamment des erreurs dans son travail malgré ses efforts visibles.</p><p><br></p><p><strong>Quelle serait la meilleure approche pour améliorer sa performance ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui assigner un mentor et créer un plan de formation structuré.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui donner un avertissement formel pour le motiver à s'améliorer.</p>"
+        },
+        {
+          "content": "<p>Réduire ses responsabilités jusqu'à nouvel ordre.</p>"
+        },
+        {
+          "content": "<p>Le transférer dans une autre équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont efficaces pour gérer le stress de l'équipe pendant les périodes intenses ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des points réguliers pour réévaluer les priorités.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager les pauses et le maintien d'un équilibre travail-vie personnelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les signes de stress pour maintenir la productivité.</p>"
+        },
+        {
+          "content": "<p>Fournir des ressources supplémentaires si nécessaire.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez intégrer un nouveau membre dans une équipe très soudée.</p><p><br></p><p><strong>Quelle approche favoriserait le mieux son intégration ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des activités informelles pour créer des liens.</p>"
+        },
+        {
+          "content": "<p>Mettre en place un programme d'intégration structuré avec un parrain désigné.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le laisser trouver sa place naturellement.</p>"
+        },
+        {
+          "content": "<p>Forcer des collaborations immédiates sur des projets majeurs.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à maintenir la motivation d'une équipe sur le long terme ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Reconnaître régulièrement les contributions individuelles et collectives.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Offrir des opportunités de développement professionnel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organiser des compétitions internes avec des récompenses.</p>"
+        },
+        {
+          "content": "<p>Aligner les objectifs de l'équipe avec les aspirations individuelles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe expérimentée commence à montrer des signes de complaisance et de routine.</p><p><br></p><p><strong>Quelle action serait la plus appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Introduire de nouveaux défis et responsabilités pour stimuler leur engagement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmenter la surveillance et le contrôle.</p>"
+        },
+        {
+          "content": "<p>Réorganiser complètement l'équipe.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation tant que les objectifs sont atteints.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un conflit personnel entre deux membres affecte la dynamique de l'équipe.</p><p><br></p><p><strong>Quelle serait la meilleure façon d'intervenir ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les rencontrer séparément puis ensemble pour faciliter une résolution.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le conflit tant qu'il reste personnel.</p>"
+        },
+        {
+          "content": "<p>Les séparer en les affectant à des projets différents.</p>"
+        },
+        {
+          "content": "<p>Organiser une réunion d'équipe pour discuter du problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour réussir un changement organisationnel important ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer clairement la vision et les objectifs.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Impliquer les équipes dans le processus de changement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement rapidement sans discussion.</p>"
+        },
+        {
+          "content": "<p>Fournir les ressources et le support nécessaires.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet crucial prend du retard en raison de problèmes techniques imprévus.</p><p><br></p><p><strong>Quelle approche serait la plus constructive ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer la situation avec l'équipe et ajuster le plan en conséquence.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Exiger des heures supplémentaires pour rattraper le retard.</p>"
+        },
+        {
+          "content": "<p>Chercher des responsables pour éviter de futurs problèmes.</p>"
+        },
+        {
+          "content": "<p>Continuer selon le plan initial en espérant rattraper le retard.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques favorisent une culture de feedback constructif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Donner et recevoir du feedback régulièrement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur les comportements spécifiques plutôt que les personnes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre l'évaluation annuelle pour tout feedback.</p>"
+        },
+        {
+          "content": "<p>Créer un environnement de confiance et d'ouverture.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe doit collaborer avec une autre équipe qui a des méthodes de travail très différentes.</p><p><br></p><p><strong>Quelle approche favoriserait le mieux la collaboration ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser un atelier pour aligner les méthodes et définir un cadre commun.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer vos méthodes de travail à l'autre équipe.</p>"
+        },
+        {
+          "content": "<p>Laisser chaque équipe travailler à sa manière.</p>"
+        },
+        {
+          "content": "<p>Désigner un intermédiaire pour gérer toutes les interactions.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre très performant de votre équipe demande une promotion que vous ne pouvez pas lui offrir actuellement.</p><p><br></p><p><strong>Quelle serait la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter d'autres opportunités de développement et créer un plan de carrière.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui suggérer de chercher des opportunités ailleurs.</p>"
+        },
+        {
+          "content": "<p>Promettre une promotion future sans date précise.</p>"
+        },
+        {
+          "content": "<p>Expliquer simplement que ce n'est pas possible actuellement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles stratégies sont efficaces pour développer l'autonomie d'une équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Déléguer progressivement plus de responsabilités.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager la prise de décision au niveau de l'équipe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un contrôle strict sur toutes les décisions.</p>"
+        },
+        {
+          "content": "<p>Fournir les outils et ressources nécessaires.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une baisse de la qualité dans les livrables de l'équipe.</p><p><br></p><p><strong>Quelle action serait la plus efficace ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les causes profondes avec l'équipe et établir un plan d'amélioration.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des contrôles qualité plus stricts.</p>"
+        },
+        {
+          "content": "<p>Avertir l'équipe des conséquences de la mauvaise qualité.</p>"
+        },
+        {
+          "content": "<p>Réduire la charge de travail de l'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles approches sont efficaces pour gérer les désaccords au sein d'une équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager une discussion ouverte et respectueuse.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chercher des solutions qui prennent en compte différents points de vue.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer une solution pour mettre fin au débat.</p>"
+        },
+        {
+          "content": "<p>Faciliter un dialogue constructif centré sur les objectifs communs.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet important nécessite des compétences que votre équipe ne possède pas encore.</p><p><br></p><p><strong>Quelle serait la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer un plan de formation et rechercher des ressources externes si nécessaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser le projet par manque de compétences.</p>"
+        },
+        {
+          "content": "<p>Accepter le projet et espérer que l'équipe apprendra sur le tas.</p>"
+        },
+        {
+          "content": "<p>Sous-traiter entièrement le projet.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une employée très compétente hésite à prendre des responsabilités supplémentaires par manque de confiance.</p><p><br></p><p><strong>Quelle approche serait la plus efficace ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui confier progressivement des projets de plus en plus complexes avec un soutien adapté.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La laisser dans son rôle actuel où elle excelle.</p>"
+        },
+        {
+          "content": "<p>La forcer à prendre plus de responsabilités pour son développement.</p>"
+        },
+        {
+          "content": "<p>Suggérer qu'elle suive une formation en leadership.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques contribuent à une délégation efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Définir clairement les responsabilités et les attentes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un suivi régulier sans microgestion.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier chaque détail du travail délégué.</p>"
+        },
+        {
+          "content": "<p>Donner l'autorité nécessaire pour prendre des décisions.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe doit présenter un projet important mais le présentateur principal est tombé malade.</p><p><br></p><p><strong>Quelle serait la meilleure solution ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Réorganiser rapidement l'équipe et préparer un remplaçant avec le support nécessaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reporter la présentation jusqu'au retour du présentateur.</p>"
+        },
+        {
+          "content": "<p>Faire la présentation vous-même sans impliquer l'équipe.</p>"
+        },
+        {
+          "content": "<p>Envoyer la présentation par email aux parties prenantes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions favorisent l'innovation au sein d'une équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Créer un environnement sûr pour exprimer de nouvelles idées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Allouer du temps pour l'expérimentation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Punir les échecs pour encourager la prudence.</p>"
+        },
+        {
+          "content": "<p>Reconnaître et valoriser les initiatives créatives.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de l'équipe remet systématiquement en question vos décisions devant les autres.</p><p><br></p><p><strong>Quelle approche serait la plus professionnelle ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le rencontrer en privé pour comprendre ses préoccupations et établir des limites claires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ignorer pour éviter la confrontation.</p>"
+        },
+        {
+          "content": "<p>Le réprimander publiquement pour montrer l'exemple.</p>"
+        },
+        {
+          "content": "<p>Le transférer dans une autre équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe doit intégrer une nouvelle technologie complexe dans ses processus.</p><p><br></p><p><strong>Quelle serait la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer un plan d'adoption progressif avec formation et support continu.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer un changement rapide pour minimiser la période de transition.</p>"
+        },
+        {
+          "content": "<p>Laisser chacun apprendre à son rythme sans structure.</p>"
+        },
+        {
+          "content": "<p>Sous-traiter l'adoption à des experts externes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour construire une équipe performante ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des objectifs clairs et partagés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Favoriser la communication ouverte et honnête.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir une compétition constante entre les membres.</p>"
+        },
+        {
+          "content": "<p>Développer la confiance et le respect mutuel.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de l'équipe partage une idée innovante qui pourrait améliorer significativement un processus.</p><p><br></p><p><strong>Quelle serait la meilleure réaction ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Explorer l'idée en équipe et créer un plan de test si pertinent.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter l'idée car le processus actuel fonctionne.</p>"
+        },
+        {
+          "content": "<p>Demander l'approbation de la hiérarchie avant d'en discuter.</p>"
+        },
+        {
+          "content": "<p>Mettre l'idée en œuvre immédiatement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles approches sont efficaces pour gérer la résistance au changement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer clairement les raisons et bénéfices du changement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écouter et adresser les préoccupations de l'équipe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement sans discussion.</p>"
+        },
+        {
+          "content": "<p>Impliquer l'équipe dans le processus de changement.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez que la qualité du travail d'un membre de l'équipe se dégrade progressivement.</p><p><br></p><p><strong>Quelle serait la première étape appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une discussion privée pour comprendre la situation et offrir du support.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer un avertissement écrit.</p>"
+        },
+        {
+          "content": "<p>Réduire ses responsabilités immédiatement.</p>"
+        },
+        {
+          "content": "<p>Discuter de sa performance lors de la prochaine réunion d'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques favorisent un environnement de travail inclusif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Valoriser les différentes perspectives et expériences.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Assurer une participation équitable dans les discussions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traiter tout le monde de manière identique sans exception.</p>"
+        },
+        {
+          "content": "<p>Créer des opportunités de collaboration diverses.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une tension croissante apparaît entre deux équipes qui doivent collaborer sur un projet.</p><p><br></p><p><strong>Quelle approche serait la plus constructive ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une session de travail commune pour aligner les objectifs et améliorer la communication.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser les équipes résoudre leurs différends seules.</p>"
+        },
+        {
+          "content": "<p>Imposer une structure hiérarchique claire entre les équipes.</p>"
+        },
+        {
+          "content": "<p>Séparer les équipes et gérer le projet en deux parties.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet important risque de ne pas atteindre ses objectifs malgré les efforts de l'équipe.</p><p><br></p><p><strong>Quelle serait la meilleure action à prendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer la situation avec l'équipe et les parties prenantes pour ajuster les objectifs ou les ressources.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer comme prévu en espérant une amélioration.</p>"
+        },
+        {
+          "content": "<p>Annuler le projet pour éviter l'échec.</p>"
+        },
+        {
+          "content": "<p>Remplacer les membres de l'équipe projet.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à maintenir un bon équilibre travail-vie personnelle dans l'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respecter les horaires de travail et les temps de repos.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Planifier les charges de travail de manière réaliste.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager le travail le weekend pour plus de productivité.</p>"
+        },
+        {
+          "content": "<p>Promouvoir la flexibilité dans l'organisation du travail.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre équipe a reçu un feedback négatif d'un client important.</p><p><br></p><p><strong>Quelle serait la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser le feedback avec l'équipe et développer un plan d'action pour s'améliorer.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier et sanctionner les responsables.</p>"
+        },
+        {
+          "content": "<p>Minimiser l'importance du feedback pour protéger le moral de l'équipe.</p>"
+        },
+        {
+          "content": "<p>Changer immédiatement les processus sans analyse.</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div fxflex="100" ngclass.xs="p-8 q-a-resp" ngclass.sm="p-8 q-a-resp" ngclass.md="p-28 q-a-resp" ngclass.lg="p-40" ngclass.xl="p-40" class="question p-8 q-a-resp ng-star-inserted" style="flex: 1 1 100%; box-sizing: border-box; max-width: 100%;"><!----><tgo-quill-view class="disable-text-selection" _nghost-ng-c1836743785=""><quill-view _ngcontent-ng-c1836743785="" theme="snow"><div quill-view-element="" class="ql-container ql-snow ql-disabled ngx-quill-view"><div class="ql-editor" contenteditable="false"><p>An employee from another department will join your team next week. They requested the transfer because they felt their work was becoming predictable and monotonous. Their performance reports show they have made good contributions to programming projects but need to improve their presentation skills.</p><p><br></p><p><strong>How would you support their development? </strong></p></div></div></quill-view></tgo-quill-view></div>
-- Discuss your team's upcoming projects with them and trust that they will learn to create better presentations on the job.
-- Meet with their former manager to discuss their weaknesses and the development plan they were working on.
-- Meet with them to discuss their goals and training needs and set a development program together.
-- Research how to improve presentation skills and give them educational materials they can read to improve.
-
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p>You are in the middle of the company’s peak business period and have noticed that your team’s morale is dropping due to pressure. One of the long-term clients of the company has complained that the report your team sent last week was full of typos and inconsistent information.&nbsp;</p><p><br></p><p><strong>How should you approach your team about this?</strong></p></div>
-- Share the client's feedback with your team and brainstorm ways to manage the pressure of the peak period. Ask them to redo the report by next week.
-- Ask your team to redo the report as soon as possible. Explain that you're not in a position to lose an important client.
-- Tell your team the client changed his mind and wants a revised report to avoid harming your team's morale further with negative feedback.
-- Ask your team to redo the report immediately, letting them know you're concerned about their performance and will apply disciplinary actions if it doesn't improve.
-
-3- <div class="ql-editor" contenteditable="false"><p>One of your direct reports is not making the expected progress on an assignment you have given them. When you ask them about it, they say they are feeling stressed. They are a competent worker and you know they have the skills required to complete the assignment.</p><p><br></p><p><strong>How would you approach the situation?</strong></p></div>
-- Remind them that they have the skills required and that you trust them to complete the work on time.
-- Remind them of the deadline and explain that it is not negotiable.
-- Discuss what's causing their stress and discuss ways to mitigate it with a time-bound plan.
-- Outline what they still need to do for the project, give them an action plan, and check in on their progress daily.
-
-4- <div class="ql-editor" contenteditable="false"><p>As the Director of Human Resources, you have noticed stark differences between the leadership styles of top and middle managers at your company. You want to implement a leadership development program to harmonize the company’s approach to leadership. The CEO of the company, however, does not think this is a critical issue that needs addressing at the moment.</p><p><br></p><p><strong>How can you convince the CEO to approve the program?</strong></p></div>
-- Wait until the stark differences in leadership styles affect a key metric in a demonstrable way, then pitch the program to the CEO again.
-- Write a report explaining all the differences you see in leadership styles and give examples of what a harmonized leadership style would look like.
-- Explain your idea to other directors in your company and ask that they support you in your request for approval from the CEO.
-- Write a report on the positive impact a harmonized leadership style would have on the company's bottom line.

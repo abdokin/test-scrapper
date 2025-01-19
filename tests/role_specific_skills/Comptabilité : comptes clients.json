@@ -476,21 +476,21 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<p>Quel est le délai de prescription d'une créance commerciale en France ?</p>"
+        "content": "<p>Quelle est la meilleure pratique concernant le suivi des créances commerciales anciennes ?</p>"
       },
       "options": [
         {
-          "content": "<p>5 ans</p>",
+          "content": "<p>Vérifier régulièrement les délais de prescription applicables dans votre juridiction et agir en conséquence</p>",
           "correct": true
         },
         {
-          "content": "<p>10 ans</p>"
+          "content": "<p>Attendre que le client paie, peu importe le temps écoulé</p>"
         },
         {
-          "content": "<p>3 ans</p>"
+          "content": "<p>Ignorer les créances de plus de 2 ans</p>"
         },
         {
-          "content": "<p>2 ans</p>"
+          "content": "<p>Considérer toutes les créances comme valables indéfiniment</p>"
         }
       ]
     },

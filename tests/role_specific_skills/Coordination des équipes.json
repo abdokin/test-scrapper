@@ -1,51 +1,1121 @@
 {
   "title": "Coordination des équipes",
   "attributes": {
-    "overview": "This Shift Coordination test evaluates a candidate’s ability to organize schedules, communicate effectively, and manage tasks. This screening test will help you hire adept shift management experts who can help streamline operations and boost productivity.",
+    "overview": "Ce test de Coordination des Équipes évalue la capacité d'un candidat à organiser les plannings, à communiquer efficacement et à gérer les tâches. Ce test de présélection vous aidera à recruter des experts en gestion d'équipes qui peuvent contribuer à rationaliser les opérations et à augmenter la productivité.",
     "level": "intermediate",
     "covered_skills": [
-      "Shift planning and allocation",
-      "Communication and coordination",
-      "Problem solving",
-      "Team management and efficiency"
+      "Planification et allocation des quarts de travail",
+      "Communication et coordination",
+      "Résolution de problèmes",
+      "Gestion d'équipe et efficacité"
     ],
-    "relevancy": "Shift coordinators, shift supervisors, team leaders, managers, and assistant managers.",
-    "description": "The ability to expertly organize and manage a team's schedules unlocks your business's potential. Candidates skilled in this area bring invaluable benefits, ensuring efficient scheduling, clear communication, and optimal task delegation. This leads to increased productivity, reduced labor costs, and enhanced team morale.\n\nThis Shift Coordination test assesses candidates' proficiency across various key skill areas, including shift planning and allocation, communication and coordination, problem solving, and team management and efficiency.\n\nThis screening test empowers you to identify adept shift management professionals. Those who excel can optimize staffing, productivity, and expectations while mitigating labor costs. Candidates who perform well promise improved organizational efficiency and heightened employee satisfaction.",
+    "relevancy": "Coordinateurs d'équipe, superviseurs de quart, chefs d'équipe, managers et managers adjoints.",
+    "description": "La capacité à organiser et gérer efficacement les plannings d'une équipe est la clé du potentiel de votre entreprise. Les candidats qualifiés dans ce domaine apportent des avantages inestimables, assurant une planification efficace, une communication claire et une délégation optimale des tâches. Cela conduit à une productivité accrue, une réduction des coûts de main-d'œuvre et une amélioration du moral des équipes.\n\nCe test de Coordination des Équipes évalue les compétences des candidats dans plusieurs domaines clés, notamment la planification et l'allocation des quarts de travail, la communication et la coordination, la résolution de problèmes, ainsi que la gestion et l'efficacité des équipes.\n\nCe test de présélection vous permet d'identifier les professionnels compétents en gestion d'équipes. Ceux qui excellent peuvent optimiser la gestion du personnel, la productivité et les attentes tout en réduisant les coûts de main-d'œuvre. Les candidats performants promettent une meilleure efficacité organisationnelle et une satisfaction accrue des employés.",
     "category": "Role-specific skills",
     "language": "french",
     "questions_to_answer": 16,
     "duration_seconds": 600,
     "position": 1
-  },
+  },  
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que coordinateur de quart dans un centre d'appels 24/7 qui traite principalement des demandes techniques et des réclamations clients, vous souhaitez optimiser l'efficacité du service client à chaque quart. Vous avez une équipe d'agents avec différentes expertises, préférences, âges et genres.</p><p><br></p><p><strong>Quel est le facteur le plus important dans l'attribution des agents à un quart de travail ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'expertise des agents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ancienneté des agents</p>"
+        },
+        {
+          "content": "<p>Les préférences horaires des agents</p>"
+        },
+        {
+          "content": "<p>La disponibilité des agents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que coordinateur dans une usine de production, vous remarquez un manque de communication claire entre les superviseurs de quart. Les informations critiques concernant les problèmes de machines, la maintenance et les mises à jour d'inventaire sont souvent perdues ou mal transmises, entraînant des retards de production et de l'inefficacité.</p><p><br></p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer des protocoles de communication structurés pour les changements de quart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Introduire une plateforme numérique de communication</p>"
+        },
+        {
+          "content": "<p>Encourager une culture de travail collaborative</p>"
+        },
+        {
+          "content": "<p>Organiser une formation immédiate pour les superviseurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre de la gestion des congés, quelles sont les bonnes pratiques à mettre en place ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir un système de rotation équitable des congés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un calendrier partagé des absences</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accorder systématiquement la priorité aux demandes les plus anciennes</p>"
+        },
+        {
+          "content": "<p>Planifier les remplacements à l'avance</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collaborateur vous informe qu'il doit s'absenter immédiatement pour une urgence familiale pendant son quart de travail. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter immédiatement les remplaçants disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser la demande sans justification valable</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation jusqu'au prochain quart</p>"
+        },
+        {
+          "content": "<p>Demander au collaborateur de rester jusqu'à la fin du quart</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans un rapport de changement de quart efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les incidents survenus pendant le quart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les tâches en cours et à suivre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les conversations personnelles entre collègues</p>"
+        },
+        {
+          "content": "<p>L'état des équipements et ressources</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous constatez une baisse de productivité récurrente pendant certains quarts de travail. Quelle devrait être votre première action ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les données de performance pour identifier les causes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des objectifs plus stricts</p>"
+        },
+        {
+          "content": "<p>Modifier immédiatement les horaires de travail</p>"
+        },
+        {
+          "content": "<p>Sanctionner les équipes moins performantes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les mesures appropriées pour gérer les conflits entre membres d'équipe de différents quarts ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des réunions de médiation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Établir des processus de communication clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les tensions pour éviter les confrontations</p>"
+        },
+        {
+          "content": "<p>Documenter les incidents et leurs résolutions</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où un employé arrive régulièrement en retard à son quart de travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Planifier un entretien individuel pour comprendre la situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Appliquer immédiatement des sanctions disciplinaires</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème s'il effectue bien son travail</p>"
+        },
+        {
+          "content": "<p>En discuter devant toute l'équipe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels facteurs doit-on considérer lors de la création d'un planning de quarts ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les compétences requises pour chaque période</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les périodes de forte activité anticipées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les préférences personnelles uniquement</p>"
+        },
+        {
+          "content": "<p>Les exigences légales de temps de repos</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un équipement crucial tombe en panne pendant votre quart. Quelle est la première action à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer l'impact sur les opérations et mettre en place un plan d'urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre la fin du quart pour signaler le problème</p>"
+        },
+        {
+          "content": "<p>Chercher un responsable à blâmer</p>"
+        },
+        {
+          "content": "<p>Continuer le travail sans tenir compte de la panne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez organiser une formation obligatoire pour votre équipe répartie sur plusieurs quarts. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser plusieurs sessions à différents horaires pour accommoder tous les quarts</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Programmer une seule session et demander aux employés d'adapter leurs horaires</p>"
+        },
+        {
+          "content": "<p>Reporter la formation jusqu'à ce que tous soient disponibles en même temps</p>"
+        },
+        {
+          "content": "<p>Déléguer la formation aux superviseurs de chaque quart</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour maintenir une coordination efficace entre les équipes distantes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un système de documentation partagé et actualisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des réunions de synchronisation régulières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des outils de communication en temps réel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des rapports hebdomadaires uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez des tensions entre deux équipes concernant le transfert des responsabilités entre les quarts. Quelle solution est la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir une procédure standardisée de passation de quart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Séparer complètement les équipes</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème tant qu'il n'y a pas de conflit ouvert</p>"
+        },
+        {
+          "content": "<p>Changer la composition des équipes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont pertinentes pour améliorer la motivation des équipes de nuit ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Offrir des primes pour le travail de nuit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Assurer une rotation équitable des horaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Négliger leurs besoins spécifiques</p>"
+        },
+        {
+          "content": "<p>Organiser des moments d'échange réguliers avec la direction</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de l'équipe demande à changer définitivement son horaire de travail pour des raisons personnelles. Comment procéder ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer l'impact sur l'équipe et chercher des solutions équilibrées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser automatiquement pour éviter de créer un précédent</p>"
+        },
+        {
+          "content": "<p>Accepter sans condition pour maintenir la satisfaction</p>"
+        },
+        {
+          "content": "<p>Transférer la demande à un autre service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer les périodes de forte activité ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Anticiper les besoins en personnel supplémentaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir une liste de remplaçants disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les signes de fatigue des équipes</p>"
+        },
+        {
+          "content": "<p>Ajuster les objectifs en fonction de la charge</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où plusieurs employés demandent les mêmes dates de congés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Appliquer des critères objectifs préétablis (ancienneté, rotation, etc.)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter toutes les demandes sans condition</p>"
+        },
+        {
+          "content": "<p>Refuser toutes les demandes</p>"
+        },
+        {
+          "content": "<p>Laisser les employés décider entre eux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau système de gestion des quarts doit être mis en place. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Former progressivement les équipes et recueillir leurs retours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement sans préavis</p>"
+        },
+        {
+          "content": "<p>Laisser chaque équipe choisir son système</p>"
+        },
+        {
+          "content": "<p>Maintenir l'ancien système en parallèle indéfiniment</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels indicateurs sont pertinents pour évaluer l'efficacité de la coordination des équipes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le taux de rotation du personnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La productivité par quart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nombre de pauses prises</p>"
+        },
+        {
+          "content": "<p>Le niveau de satisfaction des employés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Face à un conflit entre deux membres de l'équipe concernant la répartition des tâches, quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une discussion structurée pour trouver un compromis équitable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer une solution sans discussion</p>"
+        },
+        {
+          "content": "<p>Ignorer le conflit</p>"
+        },
+        {
+          "content": "<p>Transférer un des membres dans une autre équipe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour intégrer un nouveau membre dans l'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Désigner un mentor expérimenté</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir une documentation détaillée des procédures</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le laisser se débrouiller seul</p>"
+        },
+        {
+          "content": "<p>Organiser des points réguliers de suivi</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où un employé refuse systématiquement de faire des heures supplémentaires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter pour comprendre ses contraintes et trouver des alternatives</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le sanctionner immédiatement</p>"
+        },
+        {
+          "content": "<p>L'exclure des projets importants</p>"
+        },
+        {
+          "content": "<p>Ignorer ses refus</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de continuité des opérations ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une liste des contacts d'urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures de remplacement définies</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un plan de communication clair</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des objectifs de production inchangés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche privilégier pour améliorer la communication entre les équipes de différents fuseaux horaires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place des outils de communication asynchrone efficaces</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des horaires de réunion fixes</p>"
+        },
+        {
+          "content": "<p>Limiter les interactions entre les équipes</p>"
+        },
+        {
+          "content": "<p>Ignorer les différences de fuseau horaire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour maintenir la cohésion d'équipe dans un environnement de travail hybride ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des réunions d'équipe régulières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager les échanges informels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Négliger les activités de team building</p>"
+        },
+        {
+          "content": "<p>Maintenir une communication transparente</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe exprime des inquiétudes concernant la charge de travail croissante. Quelle est la première action à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser la répartition actuelle des tâches et collecter des données concrètes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmenter immédiatement les effectifs</p>"
+        },
+        {
+          "content": "<p>Suggérer à l'équipe de travailler plus efficacement</p>"
+        },
+        {
+          "content": "<p>Attendre de voir si la situation s'améliore d'elle-même</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans un briefing de début de quart efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les objectifs spécifiques du quart</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les points d'attention particuliers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les discussions personnelles entre collègues</p>"
+        },
+        {
+          "content": "<p>La répartition des responsabilités</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où un membre de l'équipe refuse de collaborer avec un collègue spécifique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une médiation professionnelle pour résoudre le conflit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réorganiser les équipes sans discussion</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation tant qu'elle n'affecte pas la production</p>"
+        },
+        {
+          "content": "<p>Sanctionner les deux employés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de l'introduction d'un nouveau processus de travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Former progressivement les équipes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter clairement les nouvelles procédures</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement sans préavis</p>"
+        },
+        {
+          "content": "<p>Recueillir et intégrer les retours des équipes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet urgent nécessite des ressources supplémentaires. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer les compétences disponibles et réorganiser les priorités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des heures supplémentaires à toute l'équipe</p>"
+        },
+        {
+          "content": "<p>Recruter immédiatement de nouveaux employés</p>"
+        },
+        {
+          "content": "<p>Réduire la qualité pour tenir les délais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'un système de rotation des tâches efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une formation adéquate pour chaque poste</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un planning de rotation claire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une rotation quotidienne obligatoire</p>"
+        },
+        {
+          "content": "<p>Un suivi des compétences acquises</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où les objectifs fixés semblent irréalistes pour l'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les contraintes et proposer des ajustements réalistes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir les objectifs pour stimuler la performance</p>"
+        },
+        {
+          "content": "<p>Laisser l'équipe définir ses propres objectifs</p>"
+        },
+        {
+          "content": "<p>Ignorer les plaintes de l'équipe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour maintenir la motivation pendant les quarts de nuit ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Assurer une communication régulière avec la direction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir un environnement de travail adapté</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer les mêmes conditions qu'en journée</p>"
+        },
+        {
+          "content": "<p>Organiser des pauses structurées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Face à des erreurs répétées dans les rapports de quart, quelle action prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Standardiser le format et organiser une formation de mise à niveau</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer l'obligation de faire des rapports</p>"
+        },
+        {
+          "content": "<p>Sanctionner les personnes responsables</p>"
+        },
+        {
+          "content": "<p>Ignorer les erreurs mineures</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels aspects doivent être considérés lors de la planification des formations d'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La disponibilité des différentes équipes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les besoins spécifiques en compétences</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le budget disponible uniquement</p>"
+        },
+        {
+          "content": "<p>L'impact sur les opérations courantes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une baisse soudaine de performance dans une équipe habituellement efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identifier les causes sous-jacentes par le dialogue et l'observation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des sanctions immédiates</p>"
+        },
+        {
+          "content": "<p>Reorganiser l'équipe sans analyse</p>"
+        },
+        {
+          "content": "<p>Attendre que la situation s'améliore</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer les absences imprévues ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir une liste de remplaçants qualifiés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoir des procédures d'urgence documentées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer l'impact sur la charge de travail</p>"
+        },
+        {
+          "content": "<p>Communiquer rapidement avec l'équipe</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche adopter face à des suggestions d'amélioration provenant de l'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer objectivement chaque suggestion et donner un retour constructif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter les suggestions qui perturbent les habitudes</p>"
+        },
+        {
+          "content": "<p>Implémenter toutes les suggestions sans analyse</p>"
+        },
+        {
+          "content": "<p>Rediriger toutes les suggestions vers la direction</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une transition réussie entre les équipes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un temps de chevauchement suffisant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une communication claire des priorités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des discussions informelles uniquement</p>"
+        },
+        {
+          "content": "<p>Un suivi des tâches en cours</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment réagir face à un conflit entre deux équipes concernant l'utilisation des ressources partagées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir un système équitable de partage et de réservation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser les équipes gérer seules le conflit</p>"
+        },
+        {
+          "content": "<p>Attribuer toutes les ressources à l'équipe la plus productive</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème tant qu'il n'y a pas d'incident</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez une augmentation des tensions entre les équipes du matin et de l'après-midi concernant l'état des postes de travail. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir une checklist standardisée de transfert de poste</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Installer des caméras de surveillance</p>"
+        },
+        {
+          "content": "<p>Sanctionner l'équipe la moins ordonnée</p>"
+        },
+        {
+          "content": "<p>Ignorer les plaintes tant qu'il n'y a pas d'incident grave</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une réorganisation des équipes, quels éléments doivent être prioritairement pris en compte ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les compétences complémentaires des membres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'équilibre des charges de travail</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les affinités personnelles uniquement</p>"
+        },
+        {
+          "content": "<p>La continuité des opérations</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau système de gestion des horaires doit être implémenté. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place une phase de test avec une équipe pilote</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement immédiatement à toutes les équipes</p>"
+        },
+        {
+          "content": "<p>Laisser chaque équipe choisir son système</p>"
+        },
+        {
+          "content": "<p>Maintenir l'ancien système en parallèle indéfiniment</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour améliorer la communication inter-équipes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place des réunions de coordination régulières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer un système de documentation partagée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Limiter les échanges entre équipes</p>"
+        },
+        {
+          "content": "<p>Standardiser les processus de communication</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Face à des plaintes récurrentes concernant la répartition des tâches, quelle action entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Effectuer un audit des compétences et de la charge de travail</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les plaintes si les objectifs sont atteints</p>"
+        },
+        {
+          "content": "<p>Réorganiser les équipes sans analyse</p>"
+        },
+        {
+          "content": "<p>Augmenter la supervision</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour maintenir la qualité du service pendant les périodes de congés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une planification anticipée des remplacements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des procédures documentées accessibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une réduction systématique des objectifs</p>"
+        },
+        {
+          "content": "<p>Un système de transfert des connaissances</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où plusieurs équipes revendiquent la priorité pour l'utilisation d'une ressource critique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir un système objectif de priorisation basé sur les besoins opérationnels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attribuer la ressource à l'équipe la plus ancienne</p>"
+        },
+        {
+          "content": "<p>Laisser les équipes négocier entre elles</p>"
+        },
+        {
+          "content": "<p>Alterner l'utilisation par jour</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles mesures sont appropriées pour améliorer l'intégration des nouveaux membres dans les équipes existantes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Assigner un mentor expérimenté</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prévoir des points de suivi réguliers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser l'intégration se faire naturellement</p>"
+        },
+        {
+          "content": "<p>Fournir une documentation détaillée des processus</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de l'équipe montre des signes d'épuisement professionnel. Quelle est la première action à entreprendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser un entretien individuel pour comprendre sa situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduire immédiatement sa charge de travail</p>"
+        },
+        {
+          "content": "<p>Suggérer un congé maladie</p>"
+        },
+        {
+          "content": "<p>Transférer ses responsabilités à l'équipe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants pour maintenir la cohésion d'équipe lors du travail en mode hybride ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des réunions régulières avec toute l'équipe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des outils de collaboration efficaces</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une présence physique obligatoire</p>"
+        },
+        {
+          "content": "<p>Une communication transparente sur les objectifs</p>",
+          "correct": true
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As the shift coordinator in a 24/7 call center that mainly handles technical inquiries and customer complaints, you want to optimize customer service efficiency in each shift. You have a team of agents with different expertise, preferences, age, and gender.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the most important factor in allocating agents to a shift?</strong></p></div>
-Agents' expertise
-Agents' seniority
-Agents' shift preference
-Agents' availability
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As the shift coordinator at a manufacturing plant, you notice there is a lack of clear communication between shift supervisors. Critical information about machine issues, maintenance, and inventory updates often gets lost or is not conveyed properly, leading to production delays and inefficiency. You want to improve the information flow between shifts.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the first thing you should do?</strong></p></div>
-- <p>Develop structured communication protocols for shift handovers, specifying key information to be shared and the format for updates.</p>
-- <p>Introduce a digital platform or communication tool to facilitate real-time updates and seamless information sharing between shifts.</p>
-- <p>Foster a collaborative work culture by promoting open communication, idea sharing, and mutual support among team members.</p>
-- <p>Provide immediate training to shift supervisors and team members on the importance of communication.</p>
-
-3- simple choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are the shift coordinator at a busy retail store. Several employees have called in sick on short notice, leaving you with a significant staffing shortage for the upcoming shift. At the same time, the store is expecting a higher-than-usual number of customers due to a special promotion.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What should your first step be to address this situation?</strong></p></div>
-- <p>Contact other available employees, part-time workers, or those with flexible schedules to see if they can come in to help during the shift.</p>
-- <p>Redistribute tasks among the available staff to maximize efficiency and ensure essential functions are covered.</p>
-- <p>Temporarily close the store during the shift to reorganize and prepare for the next shift.</p>
-- <p>Add yourself to the schedule, helping staff where and when you’re most needed during this busy shift.&nbsp;</p>
-
-4- simple choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">As a manufacturing supervisor, you notice that two members of your team who previously worked well together are now having frequent disagreements and conflicts. This tension is affecting their productivity and the team’s morale.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the first action you should take?</strong></p></div>
-- <p>Schedule separate meetings with the team members involved in the conflict, allowing each person to express their concerns to you privately.&nbsp;</p>
-- <p>Promote bonding by initiating team-building activities that help build trust, strengthen communication, and foster a harmonious work environment.</p>
-- <p>Invite both team members to have a conversation with you acting as a mediator to encourage a respectful dialogue to help them find common ground.</p>
-- <p>Invite both team members to have a conversation with you acting as a mediator to encourage a respectful dialogue to help them find common ground.</p>

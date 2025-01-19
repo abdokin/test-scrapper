@@ -1,0 +1,1085 @@
+{
+  "title": "Fondamentaux des Ressources Humaines (RH)",
+  "attributes": {
+    "overview": "Le test des fondamentaux des ressources humaines (RH) évalue les compétences de base nécessaires à un professionnel des ressources humaines dans toute organisation. Le test vous aide à identifier les candidats qui peuvent prendre soin de votre atout le plus précieux : votre personnel.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Expertise en matière de ressources humaines",
+      "Sens des affaires",
+      "Recommander des solutions exploitables",
+      "Gestion des relations"
+    ],
+    "relevancy": "Personnel généraliste dans les RH, managers RH, superviseurs RH, consultants RH, managers opérations liées au personnel.",
+    "description": "Un spécialiste des ressources humaines compétent et qualifié peut apporter beaucoup à une organisation.\n\nIls et elles peuvent identifier les domaines difficiles qui ont un impact direct sur l’organisation et prendre des mesures concrètes pour s’assurer que les objectifs des RH sont stratégiquement alignés sur ceux de l’entreprise.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p><strong>Vrai ou faux :</strong> La dotation en personnel et le recrutement sont principalement les fonctions des managers.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>"
+        },
+        {
+          "content": "<p>Faux</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Quel est le principal objectif de politiques RH efficaces ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Aider l'organisation à éviter les problèmes de conformité juridique.</p>"
+        },
+        {
+          "content": "<p>Aligner stratégiquement sur les opérations commerciales pour accroître les performances de l'organisation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déterminer la perception globale que les consommateurs ont des activités de l'entreprise.</p>"
+        },
+        {
+          "content": "<p>Fournir un encadrement structuré aux employés.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Traditionnellement, quelle est la fonction d'un directeur des ressources humaines ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Former les employés à leurs fonctions professionnelles du quotidien.</p>"
+        },
+        {
+          "content": "<p>Créer une procédure étape par étape sur la façon de vendre le produit de l'entreprise.</p>"
+        },
+        {
+          "content": "<p>Recommander et créer des programmes de formation et de développement reposant sur les meilleures pratiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Servir de coach et de mentor pour former les employés.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous êtes responsable des ressources humaines dans une grande entreprise. Le service informatique vient d'entreprendre un important projet de refonte qui nécessitera la mise à niveau des systèmes de tous les services dans un délai d'une semaine. La responsable informatique vous demande de l'aider à recruter des personnes qualifiées pour participer à ce projet.</p><p><strong>Quelle devrait être votre première mesure pour aider la responsable ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter une agence de travail temporaire pour demander 10 employés intérimaires.</p>"
+        },
+        {
+          "content": "<p>Créer une offre d'emploi pour attirer du personnel qualifié.</p>"
+        },
+        {
+          "content": "<p>Commencer à interviewer le personnel informatique interne actuel pour déterminer qui devrait travailler sur le projet.</p>"
+        },
+        {
+          "content": "<p>Rencontrer le manager pour discuter des postes et des compétences nécessaires au projet.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments font partie d'un processus d'intégration efficace des nouveaux employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présentation de la culture et des valeurs de l'entreprise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation aux procédures de sécurité et aux politiques de l'entreprise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rencontre avec les membres clés de l'équipe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Discussion immédiate sur les augmentations de salaire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer un conflit entre deux employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer le conflit en espérant qu'il se résolve de lui-même</p>"
+        },
+        {
+          "content": "<p>Organiser une réunion médiatisée pour comprendre les points de vue des deux parties</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer immédiatement l'un des employés dans un autre service</p>"
+        },
+        {
+          "content": "<p>Prendre parti pour l'employé le plus ancien</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la principale raison de mettre en place un système d'évaluation des performances ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter les erreurs des employés</p>"
+        },
+        {
+          "content": "<p>Justifier les décisions de licenciement</p>"
+        },
+        {
+          "content": "<p>Favoriser le développement professionnel et améliorer la performance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduire les coûts salariaux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une politique de diversité et d'inclusion efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation régulière sur les biais inconscients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Processus de recrutement équitable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Quotas stricts par département</p>"
+        },
+        {
+          "content": "<p>Programmes de mentorat inclusifs</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation où un employé demande une augmentation de salaire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser immédiatement pour éviter de créer un précédent</p>"
+        },
+        {
+          "content": "<p>Évaluer la demande en fonction de la performance, du marché et du budget</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accorder systématiquement l'augmentation pour éviter le départ de l'employé</p>"
+        },
+        {
+          "content": "<p>Reporter la discussion à l'année suivante</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'un programme de bien-être efficace en entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Équilibre travail-vie personnelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Support pour la santé mentale</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Activités physiques obligatoires</p>"
+        },
+        {
+          "content": "<p>Programmes de gestion du stress</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer un employé sous-performant ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le licencier immédiatement</p>"
+        },
+        {
+          "content": "<p>Identifier les causes et mettre en place un plan d'amélioration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduire ses responsabilités sans discussion</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème pour maintenir la paix sociale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le rôle principal des RH dans la gestion du changement organisationnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faciliter la communication et accompagner les employés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer les changements sans consultation</p>"
+        },
+        {
+          "content": "<p>Gérer uniquement la documentation administrative</p>"
+        },
+        {
+          "content": "<p>Attendre les directives de la direction</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un programme de formation efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluation des besoins</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Objectifs d'apprentissage clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Méthodes d'évaluation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Contenu standardisé pour tous</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation de harcèlement signalée au travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mener une enquête approfondie et confidentielle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confronter directement l'accusé</p>"
+        },
+        {
+          "content": "<p>Ignorer la plainte si elle est informelle</p>"
+        },
+        {
+          "content": "<p>Transférer la victime dans un autre service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure pratique pour la gestion des talents ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Se concentrer uniquement sur les hauts potentiels</p>"
+        },
+        {
+          "content": "<p>Développer un plan de succession pour les postes clés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que les employés demandent des opportunités</p>"
+        },
+        {
+          "content": "<p>Recruter exclusivement en externe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une stratégie de rétention des employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rémunération compétitive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Opportunités de développement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Environnement de travail positif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Contrats de travail restrictifs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus efficace pour la gestion des absences ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Politique stricte sans exception</p>"
+        },
+        {
+          "content": "<p>Approche flexible basée sur la confiance et la responsabilité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveillance constante des employés</p>"
+        },
+        {
+          "content": "<p>Pénalités financières systématiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les aspects essentiels d'une politique de télétravail efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Critères d'éligibilité clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attentes en matière de disponibilité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Outils de collaboration appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Surveillance constante des employés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer efficacement la communication interne pendant une période de changement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer uniquement quand tout est finalisé</p>"
+        },
+        {
+          "content": "<p>Maintenir une communication régulière, transparente et bidirectionnelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déléguer toute la communication aux managers</p>"
+        },
+        {
+          "content": "<p>Limiter l'information pour éviter les inquiétudes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure façon de gérer les conflits intergénérationnels au travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Séparer les équipes par génération</p>"
+        },
+        {
+          "content": "<p>Créer des opportunités d'apprentissage mutuel et de collaboration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les différences générationnelles</p>"
+        },
+        {
+          "content": "<p>Favoriser la génération majoritaire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un programme d'avantages sociaux compétitif ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Couverture santé complète</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Plan d'épargne retraite</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Flexibilité des horaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cadeaux d'entreprise mensuels</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer efficacement la période d'essai d'un nouvel employé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Attendre la fin de la période pour donner un feedback</p>"
+        },
+        {
+          "content": "<p>Fournir un feedback régulier et des points d'étape structurés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser l'employé se débrouiller seul</p>"
+        },
+        {
+          "content": "<p>Prolonger systématiquement la période d'essai</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une politique de mobilité interne réussie ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Transparence des opportunités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Processus de candidature équitable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accompagnement dans la transition</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Restriction des mouvements interdépartementaux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer une restructuration d'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Planifier et communiquer de manière transparente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procéder rapidement sans consultation</p>"
+        },
+        {
+          "content": "<p>Informer uniquement les personnes concernées</p>"
+        },
+        {
+          "content": "<p>Attendre que les rumeurs circulent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les indicateurs clés de performance (KPI) pertinents pour les RH ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Taux de rotation du personnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Engagement des employés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Temps de recrutement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nombre de procédures disciplinaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande de congé parental ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suivre strictement les obligations légales minimales</p>"
+        },
+        {
+          "content": "<p>Accompagner l'employé et planifier son retour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Décourager les longues absences</p>"
+        },
+        {
+          "content": "<p>Attendre la dernière minute pour organiser</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour mettre en place un système de mentorat ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Assigner des mentors au hasard</p>"
+        },
+        {
+          "content": "<p>Créer des binômes basés sur les objectifs et la compatibilité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser les employés trouver seuls leur mentor</p>"
+        },
+        {
+          "content": "<p>Imposer le mentorat à tous</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans une politique de confidentialité RH ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Protection des données personnelles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procédures de gestion des documents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Niveaux d'accès définis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partage libre des informations</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande de promotion interne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer objectivement les compétences et le potentiel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promouvoir automatiquement par ancienneté</p>"
+        },
+        {
+          "content": "<p>Refuser pour éviter les précédents</p>"
+        },
+        {
+          "content": "<p>Attendre une vacance de poste</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche adopter pour la gestion des compétences ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer une cartographie dynamique des compétences</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se fier uniquement aux diplômes</p>"
+        },
+        {
+          "content": "<p>Ignorer les soft skills</p>"
+        },
+        {
+          "content": "<p>Laisser les employés gérer leur développement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un processus de recrutement efficace ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Description de poste précise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Processus de sélection structuré</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Communication régulière avec les candidats</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Décision basée uniquement sur l'expérience</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une situation de burn-out ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer les signes précurseurs</p>"
+        },
+        {
+          "content": "<p>Mettre en place un plan d'accompagnement personnalisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer une démission</p>"
+        },
+        {
+          "content": "<p>Réduire la charge de travail sans analyse</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une politique de rémunération équitable ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Grilles salariales transparentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critères d'évaluation objectifs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Révision régulière des salaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Négociation individuelle systématique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les départs à la retraite ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Attendre la dernière minute</p>"
+        },
+        {
+          "content": "<p>Planifier la transition et le transfert des connaissances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser le département gérer seul</p>"
+        },
+        {
+          "content": "<p>Remplacer immédiatement sans transition</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les suggestions des employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mettre en place un système structuré de collecte et de suivi</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les suggestions non sollicitées</p>"
+        },
+        {
+          "content": "<p>Rediriger toutes les suggestions vers la direction</p>"
+        },
+        {
+          "content": "<p>Implémenter chaque suggestion sans évaluation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une politique de gestion des performances ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Objectifs SMART</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Feedback régulier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Plan de développement individuel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Comparaison systématique entre collègues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande de formation coûteuse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser automatiquement pour des raisons budgétaires</p>"
+        },
+        {
+          "content": "<p>Évaluer le ROI potentiel et l'alignement stratégique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter toutes les demandes sans analyse</p>"
+        },
+        {
+          "content": "<p>Reporter indéfiniment la décision</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une politique de temps de travail flexible ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Plages horaires de présence obligatoire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Système de suivi du temps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Processus de validation des horaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Horaires totalement libres</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche adopter face à une baisse de motivation collective ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des activités sociales obligatoires</p>"
+        },
+        {
+          "content": "<p>Identifier les causes profondes et agir sur elles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmenter les salaires sans analyse</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'un programme d'intégration des nouveaux managers ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Formation aux politiques RH</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mentorat par un manager expérimenté</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Introduction aux processus de gestion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attribution immédiate d'objectifs complexes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande de temps partiel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser systématiquement</p>"
+        },
+        {
+          "content": "<p>Évaluer l'impact organisationnel et proposer des solutions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter sans condition</p>"
+        },
+        {
+          "content": "<p>Transférer l'employé dans un autre service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les conflits d'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identifier les causes et faciliter le dialogue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer une solution d'autorité</p>"
+        },
+        {
+          "content": "<p>Ignorer les tensions</p>"
+        },
+        {
+          "content": "<p>Restructurer l'équipe sans discussion</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une politique de développement des compétences ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluation régulière des besoins</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parcours de formation personnalisés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivi des progrès</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation uniquement en présentiel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer un conflit entre un manager et son équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une médiation et identifier les solutions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Remplacer immédiatement le manager</p>"
+        },
+        {
+          "content": "<p>Ignorer les plaintes</p>"
+        },
+        {
+          "content": "<p>Transférer toute l'équipe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche adopter pour la gestion des talents ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Développer une stratégie globale d'identification et développement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur le recrutement externe</p>"
+        },
+        {
+          "content": "<p>Attendre les demandes d'évolution</p>"
+        },
+        {
+          "content": "<p>Limiter les opportunités de développement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments essentiels d'une politique de reconnaissance ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Reconnaissance régulière des accomplissements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critères transparents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Variété des formes de reconnaissance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Récompenses uniquement financières</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment gérer une demande de mobilité internationale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer la faisabilité et accompagner le processus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser automatiquement</p>"
+        },
+        {
+          "content": "<p>Laisser l'employé gérer seul</p>"
+        },
+        {
+          "content": "<p>Imposer des conditions restrictives</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments clés d'une politique de santé et sécurité au travail ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluation régulière des risques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Formation continue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procédures d'urgence claires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documentation minimale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les départs volontaires ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Conduire un entretien de départ constructif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les raisons du départ</p>"
+        },
+        {
+          "content": "<p>Tenter de retenir à tout prix</p>"
+        },
+        {
+          "content": "<p>Accélérer le départ</p>"
+        }
+      ]
+    }
+  ]
+}

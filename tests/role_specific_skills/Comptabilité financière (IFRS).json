@@ -1,0 +1,1019 @@
+{
+  "title": "Comptabilité financière (IFRS)",
+  "attributes": {
+    "overview": "Ce test de Comptabilité financière (IFRS) évalue la capacité des candidats à enregistrer, classer et résumer les transactions comptables conformément aux Normes internationales d’information financière (International Financial Reporting Standards, IFRS). Ce test de sélection vous aidera à recruter des experts ayant des compétences pratiques en comptabilité financière.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Enregistrement et documentation",
+      "Classification et synthèse",
+      "Rapports et présentations",
+      "Interprétation et analyse financière"
+    ],
+    "relevancy": "Comptables, assistant·e·s comptables, comptables financier·ière·s, directeurs financier·ière·s et autres fonctions nécessitant une bonne connaissance de la comptabilité financière.",
+    "description": "La comptabilité financière joue un rôle important en aidant les entreprises à suivre leurs revenus et leurs dépenses, à assurer le respect des lois et à fournir aux investisseurs, à la direction et aux pouvoirs publics les informations financières dont ils ont besoin pour prendre de bonnes décisions.\n\nCe test de comptabilité financière (IFRS) évalue les compétences des candidats dans divers domaines de la comptabilité financière, allant du bilan et du compte de résultat aux flux de trésorerie et aux capitaux propres. Le test évalue les compétences des candidats en matière d'enregistrement et de documentation, de classification et de synthèse, de reporting et de présentation, d'interprétation et d'analyse financière. Toutes les questions sont axées sur l'application pratique et évaluent la capacité du candidat à préparer des livres qui reflètent une situation financière réelle et équitable de l'entité déclarante et à traiter des transactions comptables complexes, tant dans le cadre des normes internationales d'information financière complètes (IFRS complètes) que des normes internationales d'information financière pour les petites et moyennes entités (IFRS pour les PME).\n\nLes candidats qui obtiennent de bons résultats à ce test ont une bonne connaissance des IFRS et possèdent les compétences techniques nécessaires pour effectuer des tâches comptables, traiter des processus comptables de base et complexes, préparer des états financiers et interpréter les résultats financiers.",
+    "category": "Role-specific skills",
+    "language": "french",
+    "questions_to_answer": 12,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Un fabricant d'ampoules électriques prépare ses livres de comptes selon les normes IFRS pour les petites et moyennes entreprises. Un inventaire réalisé le dernier jour de l'exercice annuel de la société, le 30 juin 2020, a montré que l'entreprise disposait de 2 000 ampoules dans l'entrepôt. Chaque ampoule avait été achetée à un coût d'acquisition de 2 €, et a un prix de vente de 2,20 €, et un coût moyen de livraison de 0,30 €.</p><p><strong>Quelle est la valeur des stocks pour l'année se terminant le 30 juin 2020 ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>3 800 €</p>"
+        },
+        {
+          "content": "<p>4 200 €</p>"
+        },
+        {
+          "content": "<p>4 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 400 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Mango Limited transforme des mangues pour produire de la pulpe. Le 7 juillet 2019, des mangues d'une valeur de 15 000 € ont été achetées à crédit. Le fournisseur a été entièrement payé le 31 juillet 2019 par chèque.</p><p><strong>Quel compte devez-vous débiter pour cet achat ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Travaux en cours</p>"
+        },
+        {
+          "content": "<p>Créditeurs</p>"
+        },
+        {
+          "content": "<p>Inventaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Banque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Bears Limited, une société d'investissement, a acheté 10 000 actions de Flamingo Limited à 2 € par action avec droit aux dividendes le 12 avril 2020, avec des frais de courtage de 1 %. Bears Limited a reçu un dividende de 0,30 € par action le 31 mai 2020.</p><p><strong>Quelle valeur initiale enregistrerez-vous comme coût d'investissement dans les livres de comptes de Bears Limited ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>20 200 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>17 200 €</p>"
+        },
+        {
+          "content": "<p>17 000 €</p>"
+        },
+        {
+          "content": "<p>20 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Brits Corporation a clôturé ses livres de comptes le 31 décembre 2018. Les soldes de fin d'exercice annuel comprenaient des fournisseurs pour 1 000 €, un inventaire pour 800 €, des créances pour 1 700 € et une taxe sur la valeur ajoutée (TVA) à récupérer pour 700 €.</p><p><strong>Vrai ou faux : </strong>Le ratio de liquidité générale de Brits Corporation est inférieur à trois (3).</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Selon les IFRS, comment doit-on comptabiliser les coûts d'emprunt directement attribuables à l'acquisition d'un actif qualifié ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les passer en charges immédiatement</p>"
+        },
+        {
+          "content": "<p>Les capitaliser dans le coût de l'actif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les comptabiliser en produits différés</p>"
+        },
+        {
+          "content": "<p>Les ignorer complètement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans le coût d'acquisition d'une immobilisation corporelle selon les IFRS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Prix d'achat après déduction des remises commerciales</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Coûts directement attribuables à la mise en place</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Coûts de formation du personnel</p>"
+        },
+        {
+          "content": "<p>Coûts de démantèlement estimés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a acquis une machine pour 50 000 € avec une durée d'utilité estimée de 5 ans et une valeur résiduelle de 10 000 €. En utilisant la méthode de l'amortissement linéaire, quelle est la charge d'amortissement annuelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>8 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 000 €</p>"
+        },
+        {
+          "content": "<p>12 000 €</p>"
+        },
+        {
+          "content": "<p>7 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments font partie des capitaux propres selon les IFRS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Capital social</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réserves</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Provisions pour risques</p>"
+        },
+        {
+          "content": "<p>Report à nouveau</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise vend des marchandises pour 120 000 € HT le 15 mars. Le client bénéficie d'une remise de 5% s'il paie dans les 10 jours. Le client paie le 23 mars. Quel montant doit être comptabilisé en produits ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>120 000 €</p>"
+        },
+        {
+          "content": "<p>114 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>126 000 €</p>"
+        },
+        {
+          "content": "<p>110 000 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Selon les IFRS, quels événements postérieurs à la clôture nécessitent un ajustement des états financiers ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La faillite d'un client confirmant son insolvabilité existante à la date de clôture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La détermination du montant exact d'un bonus basé sur les résultats annuels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'acquisition d'une nouvelle filiale</p>"
+        },
+        {
+          "content": "<p>Une grève déclenchée après la date de clôture</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on comptabiliser une provision selon IAS 37 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>À la valeur nominale</p>"
+        },
+        {
+          "content": "<p>À la valeur actualisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au montant le plus faible possible</p>"
+        },
+        {
+          "content": "<p>Au montant le plus élevé possible</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être présentés dans le tableau des flux de trésorerie selon IAS 7 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Flux de trésorerie liés aux activités opérationnelles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Flux de trésorerie liés aux activités d'investissement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Variations des capitaux propres</p>"
+        },
+        {
+          "content": "<p>Flux de trésorerie liés aux activités de financement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise achète un stock de marchandises le 1er décembre pour 10 000 €. Au 31 décembre, la valeur de réalisation nette est estimée à 9 500 €. Quelle est la valeur à inscrire au bilan ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>10 000 €</p>"
+        },
+        {
+          "content": "<p>9 500 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>9 750 €</p>"
+        },
+        {
+          "content": "<p>8 500 €</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel est le traitement comptable correct pour les coûts de développement d'un nouveau produit selon IAS 38 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les capitaliser si les critères de reconnaissance sont remplis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les passer systématiquement en charges</p>"
+        },
+        {
+          "content": "<p>Les capitaliser dans tous les cas</p>"
+        },
+        {
+          "content": "<p>Les ignorer jusqu'à la commercialisation du produit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les critères de reconnaissance d'un actif selon le cadre conceptuel des IFRS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'entité contrôle la ressource</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des avantages économiques futurs sont probables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'actif doit être physiquement tangible</p>"
+        },
+        {
+          "content": "<p>Le coût peut être évalué de façon fiable</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise reçoit une facture en dollars américains le 1er décembre. Le paiement est effectué le 15 janvier. Selon les IFRS, à quel taux de change doit-on convertir cette dette ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Au taux du 1er décembre</p>"
+        },
+        {
+          "content": "<p>Au taux du 31 décembre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au taux du 15 janvier</p>"
+        },
+        {
+          "content": "<p>À la moyenne des taux sur la période</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans le calcul du coût de revient d'un produit fabriqué ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Coûts directs des matières premières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Main d'œuvre directe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Frais de commercialisation</p>"
+        },
+        {
+          "content": "<p>Frais généraux de production</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on comptabiliser un contrat de location selon IFRS 16 dans les comptes du preneur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Uniquement comme une charge de location</p>"
+        },
+        {
+          "content": "<p>Comme un actif et une dette de location</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Comme une charge payée d'avance</p>"
+        },
+        {
+          "content": "<p>Uniquement dans les engagements hors bilan</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société acquiert un immeuble de placement. Selon IAS 40, quel modèle d'évaluation peut-elle choisir ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Uniquement le modèle du coût</p>"
+        },
+        {
+          "content": "<p>Uniquement le modèle de la juste valeur</p>"
+        },
+        {
+          "content": "<p>Le modèle du coût ou de la juste valeur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le modèle de réévaluation uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Selon IFRS 15, quelles sont les étapes de reconnaissance du revenu ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Identifier le contrat avec le client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déterminer le prix de la transaction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Évaluer la solvabilité du client</p>"
+        },
+        {
+          "content": "<p>Identifier les obligations de performance</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on traiter les coûts d'entretien régulier d'une immobilisation corporelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les capitaliser systématiquement</p>"
+        },
+        {
+          "content": "<p>Les comptabiliser en charges</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les répartir sur 5 ans</p>"
+        },
+        {
+          "content": "<p>Les ignorer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société détient 40% des actions d'une autre entreprise et exerce une influence notable sur celle-ci. Selon IAS 28, quelle méthode de comptabilisation doit être utilisée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Méthode de l'intégration globale</p>"
+        },
+        {
+          "content": "<p>Méthode de la mise en équivalence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Méthode du coût historique</p>"
+        },
+        {
+          "content": "<p>Méthode de la juste valeur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être présentés dans l'état du résultat global selon IAS 1 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le résultat net de la période</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les autres éléments du résultat global</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les variations de trésorerie</p>"
+        },
+        {
+          "content": "<p>Le résultat global total</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client verse un acompte de 30 000 € le 1er mars pour une commande qui sera livrée en juin. Comment doit-on comptabiliser cet acompte à la réception ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En produits</p>"
+        },
+        {
+          "content": "<p>En produits constatés d'avance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En créances clients</p>"
+        },
+        {
+          "content": "<p>En capitaux propres</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les critères de dépréciation d'un actif selon IAS 36 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Indices de perte de valeur externes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Indices de perte de valeur internes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Âge de l'actif uniquement</p>"
+        },
+        {
+          "content": "<p>Valeur comptable supérieure à la valeur recouvrable</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on évaluer les stocks selon IAS 2 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Au plus bas du coût et de la valeur nette de réalisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toujours au coût historique</p>"
+        },
+        {
+          "content": "<p>Toujours à la valeur de marché</p>"
+        },
+        {
+          "content": "<p>Au plus haut du coût et de la valeur nette de réalisation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être inclus dans le coût d'emprunt capitalisable selon IAS 23 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les intérêts sur découvert bancaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'amortissement des coûts accessoires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les dividendes sur actions préférentielles</p>"
+        },
+        {
+          "content": "<p>Les différences de change sur emprunts en devise</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société émet des obligations convertibles en actions. Selon IAS 32, comment doit-elle les comptabiliser ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Uniquement en dette</p>"
+        },
+        {
+          "content": "<p>Uniquement en capitaux propres</p>"
+        },
+        {
+          "content": "<p>En séparant la composante dette et la composante capitaux propres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En produits financiers</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise vend des produits avec une garantie de 2 ans. Comment doit-elle comptabiliser cette garantie selon IFRS 15 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Comme une obligation de performance distincte</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Comme une charge à payer</p>"
+        },
+        {
+          "content": "<p>Comme un passif éventuel</p>"
+        },
+        {
+          "content": "<p>Comme une provision pour risques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les critères de classification d'un actif comme 'détenu en vue de la vente' selon IFRS 5 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La vente est hautement probable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'actif est disponible pour une vente immédiate</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'actif est complètement amorti</p>"
+        },
+        {
+          "content": "<p>La vente devrait être conclue dans l'année</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on comptabiliser les subventions publiques selon IAS 20 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Toujours en produits immédiats</p>"
+        },
+        {
+          "content": "<p>En produits différés, étalés sur la durée d'utilité de l'actif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En capitaux propres</p>"
+        },
+        {
+          "content": "<p>En déduction de l'actif concerné uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société acquiert ses propres actions. Selon IAS 32, comment doit-elle les comptabiliser ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En déduction des capitaux propres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En actifs financiers</p>"
+        },
+        {
+          "content": "<p>En charges</p>"
+        },
+        {
+          "content": "<p>En produits</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels événements peuvent donner lieu à une provision selon IAS 37 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une obligation actuelle résultant d'un événement passé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une sortie probable de ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des pertes opérationnelles futures</p>"
+        },
+        {
+          "content": "<p>Un montant pouvant être estimé de manière fiable</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Comment doit-on comptabiliser les coûts de restructuration selon IAS 37 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En charges immédiatement</p>"
+        },
+        {
+          "content": "<p>En provision dès l'annonce du plan détaillé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En charges à répartir</p>"
+        },
+        {
+          "content": "<p>En produits différés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles informations doivent être fournies dans l'annexe concernant les parties liées selon IAS 24 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La nature des relations entre les parties liées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le montant des transactions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les soldes des comptes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le détail des conflits entre actionnaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise reçoit un dividende d'une filiale étrangère. À quel taux de change doit-on convertir ce dividende ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Au taux de clôture</p>"
+        },
+        {
+          "content": "<p>Au taux historique</p>"
+        },
+        {
+          "content": "<p>Au taux du jour de la distribution</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au taux moyen de l'exercice</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Selon IFRS 9, comment doit-on classer un investissement dans des actions ordinaires qui ne sont pas détenues à des fins de transaction ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Obligatoirement à la juste valeur par résultat</p>"
+        },
+        {
+          "content": "<p>Au coût amorti</p>"
+        },
+        {
+          "content": "<p>À la juste valeur par autres éléments du résultat global (option irrévocable)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au plus bas du coût et de la valeur de marché</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les critères de reconnaissance d'un passif selon le cadre conceptuel des IFRS ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Obligation actuelle résultant d'événements passés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sortie probable de ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montant pouvant être estimé de manière fiable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Approbation préalable des actionnaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise acquiert un brevet pour 100 000 € avec une durée de protection légale de 20 ans, mais ne prévoit de l'utiliser que pendant 5 ans. Quelle est la durée d'amortissement à retenir ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>20 ans</p>"
+        },
+        {
+          "content": "<p>5 ans</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 ans</p>"
+        },
+        {
+          "content": "<p>15 ans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Selon IAS 12, quelles différences temporaires donnent lieu à la comptabilisation d'un impôt différé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Différences entre valeur comptable et base fiscale des actifs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Différences entre valeur comptable et base fiscale des passifs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reports déficitaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Différences permanentes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société cotée publie ses états financiers trimestriels. Selon IAS 34, comment doit-elle évaluer l'impôt sur les bénéfices pour la période intermédiaire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En utilisant le taux effectif annuel moyen estimé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En appliquant le taux nominal d'impôt</p>"
+        },
+        {
+          "content": "<p>En ignorant l'impôt jusqu'à la fin de l'année</p>"
+        },
+        {
+          "content": "<p>En utilisant le taux d'impôt du trimestre précédent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un contrat de construction a un prix fixe de 1 000 000 €. À la fin de l'année 1, les coûts encourus sont de 400 000 € et les coûts estimés pour terminer sont de 500 000 €. Quel est le pourcentage d'avancement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>44,4%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>40%</p>"
+        },
+        {
+          "content": "<p>50%</p>"
+        },
+        {
+          "content": "<p>45%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être présentés dans le tableau de variation des capitaux propres selon IAS 1 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le résultat net de la période</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les dividendes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les variations de périmètre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les flux de trésorerie d'exploitation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société identifie une erreur significative dans ses états financiers de l'exercice précédent. Comment doit-elle la corriger selon IAS 8 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>De manière prospective</p>"
+        },
+        {
+          "content": "<p>Par le compte de résultat de l'exercice en cours</p>"
+        },
+        {
+          "content": "<p>De manière rétrospective en retraitant les exercices antérieurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En l'ignorant si elle n'est pas matérielle</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les critères de capitalisation des coûts de développement selon IAS 38 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faisabilité technique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Intention d'achever l'actif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Capacité à l'utiliser ou le vendre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Approbation du conseil d'administration</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société accorde des options sur actions à ses employés. Selon IFRS 2, à quelle date doit-elle évaluer la juste valeur de ces options ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>À la date d'attribution</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>À la date d'exercice</p>"
+        },
+        {
+          "content": "<p>À la date de clôture</p>"
+        },
+        {
+          "content": "<p>À la date d'acquisition des droits</p>"
+        }
+      ]
+    }
+  ]
+}
