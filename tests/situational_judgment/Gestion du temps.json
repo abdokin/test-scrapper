@@ -4,17 +4,13 @@
     "overview": "Le test de gestion du temps évalue la capacité des candidats à gérer leur temps dans un environnement professionnel. À l'aide de scénarios typiques sur le lieu de travail, ce test évalue dans quelle mesure les candidats peuvent hiérarchiser, exécuter, coopérer et réfléchir sur les tâches et les projets.",
     "level": "intermediate",
     "covered_skills": [
-      "Priorisation des tâches",
-      "Planification efficace",
-      "Gestion des délais",
-      "Délégation",
-      "Gestion du stress",
-      "Équilibre vie professionnelle/vie personnelle",
-      "Utilisation d'outils de productivité",
-      "Communication et collaboration"
+      "Priorité et planification",
+      "Exécution",
+      "Communication et coopération",
+      "État d'esprit"
     ],
-    "relevancy": "Ce test est pertinent pour tous les postes nécessitant une gestion efficace du temps, en particulier pour les rôles de gestion, de coordination de projets ou de travail en équipe.",
-    "description": "Le test évalue la capacité des candidats à gérer leur temps de manière efficace dans divers scénarios professionnels, en mettant l'accent sur la priorisation, la planification et l'exécution des tâches.",
+    "relevancy": "Tout poste qui exige une bonne gestion du temps.",
+    "description": "Les employés qui gèrent bien leur temps gèrent également bien leur travail. Une bonne gestion du temps permet aux employés de travailler plus efficacement et de devenir plus productifs en se concentrant sur ce qui est important et aura le plus d'impact sur l'entreprise, sans se perdre dans l'agitation qui n'apporte aucun résultat. Cela conduit également à une meilleure prise de décision, à moins de procrastination et à un travail de meilleure qualité en général.\n\nCe test de gestion du temps évalue les compétences des candidats à hiérarchiser les tâches en fonction des délais, de l'importance et de l'impact ; à exécuter les tâches efficacement ; et à collaborer et à communiquer avec les collègues et les superviseurs sur les tâches. Il évalue également la capacité des candidats à réfléchir sur leurs propres attitudes à l'égard de leur travail, notamment dans le suivi des résultats et l'ancrage d'habitudes positives de gestion du temps. Le test fournit aux candidats des scénarios de travail réels et leur demande de prendre la meilleure décision pour résoudre chaque situation de la manière la plus efficace et la plus productive.\n\nLes candidats qui obtiennent de bons résultats à ce test peuvent distinguer les tâches urgentes des tâches importantes et l'impact de chacune sur leurs objectifs et les objectifs de l'entreprise afin de hiérarchiser le travail pour obtenir les meilleurs résultats. Ils peuvent communiquer efficacement les progrès et les besoins avec les parties prenantes internes et externes et bien se coordonner avec les autres pour en faire plus sans efforts inutiles. Ils peuvent gérer les distractions pour rester concentrés sur leur travail et gérer la qualité de ses résultats. Enfin, ils sont capables d'examiner leur propre travail ainsi que le travail de leurs pairs et d'apporter les ajustements nécessaires à leur flux de travail.",
     "category": "Situational judgment",
     "language": "french",
     "questions_to_answer": 16,
@@ -26,21 +22,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Vous avez plusieurs tâches urgentes à accomplir avant la fin de la journée. Quelle approche est la plus efficace pour gérer cette situation ?"
+        "content": "<div><p>Vous êtes un professionnel de niveau intermédiaire dans un service d'audit d'une grande entreprise.</p><p>&nbsp;</p><p><strong>Idéalement, qui devrait définir vos objectifs au travail&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Faire la liste des tâches et les classer par ordre de priorité",
+          "content": "<p>Le service des ressources humaines&nbsp;: mes objectifs sont dans ma description de poste.</p>"
+        },
+        {
+          "content": "<p>Je me fixe mes propres objectifs au travail&nbsp;: je suis autonome.</p>"
+        },
+        {
+          "content": "<p>Mon responsable et moi définissons mes objectifs ensemble.</p>",
           "correct": true
         },
         {
-          "content": "Commencer par la tâche la plus facile pour gagner du temps"
-        },
-        {
-          "content": "Demander à reporter toutes les échéances au lendemain"
-        },
-        {
-          "content": "Travailler plus tard pour tout terminer"
+          "content": "<p>Mon responsable s'en occupe.</p>"
         }
       ]
     },
@@ -48,21 +44,43 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Vous recevez constamment des e-mails tout au long de la journée. Quelle est la meilleure stratégie pour gérer votre boîte de réception sans perturber votre productivité ?"
+        "content": "<div><p>Vous avez une importante charge de travail et vous manquez souvent de temps pour effectuer toutes vos tâches. En particulier, vous devez répondre à certains e-mails tous les jours qui ne nécessitent généralement qu'une réponse courte et simple, mais vous ne parvenez pas à effectuer cette tâche pendant votre journée normale.</p><p>&nbsp;</p><p><strong>Comment devez-vous gérer les réponses à ces e-mails&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Vérifier et répondre aux e-mails en temps réel"
+          "content": "<p>Traiter ces e-mails pendant votre pause déjeuner lorsque vous ne travaillez pas sur d'autres tâches.</p>"
         },
         {
-          "content": "Désactiver les notifications et consulter les e-mails à des moments précis de la journée",
+          "content": "<p>Planifier des blocs de temps au cours de la journée que vous consacrerez uniquement à répondre à ces e-mails.</p>",
           "correct": true
         },
         {
-          "content": "Déléguer la gestion de votre boîte e-mail à un collègue"
+          "content": "<p>Accomplir plusieurs tâches en même temps et répondre à ces e-mails lors d'autres réunions.</p>"
         },
         {
-          "content": "Ignorer les e-mails jusqu'à la fin de la journée"
+          "content": "<p>Traiter ces e-mails dès le matin.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Vous êtes chef de projet informatique dans une entreprise technologique. Vous utilisez à la fois les e-mails et Slack (une application de chat et de collaboration).</p><p>&nbsp;</p><p><strong>Quel est le meilleur moment pour traiter vos e-mails&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Tout le temps, car vous ne savez pas ce qu'ils peuvent contenir et certains exigent une réponse aussi prompte que possible.</p>"
+        },
+        {
+          "content": "<p>Le matin, lorsque vous avez le plus d'énergie et que votre mental est le plus vif.</p>"
+        },
+        {
+          "content": "<p>À différents moments de la journée ou de la semaine que vous consacrez uniquement au traitement des e-mails, en fonction du temps de réponse requis.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une fois par semaine, car les e-mails vous détournent de votre travail réel et les communications les plus urgentes ne sont pas les e-mails.</p>"
         }
       ]
     },
@@ -70,87 +88,65 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": true,
-        "content": "Quelles sont les techniques efficaces pour améliorer la gestion du temps au travail ?"
+        "content": "<div><p>Vous travaillez dans une entreprise de taille moyenne, au sein d'un environnement organisationnel très actif et chargé. Vous remarquez que vous avez du mal à structurer votre journée. Vos journées sont finalement assez chaotiques&nbsp;: chaque matin, votre programme est bouleversé par un afflux soudain d'e-mails, des crises à gérer ou des collègues qui interrompent votre travail.</p><p>&nbsp;</p><p><strong>Quelles sont les bonnes stratégies à adopter pour y faire face&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Utiliser un agenda ou un outil de planification",
+          "content": "<p>Préparer un plan pour toute la journée et prévoir du temps pour les imprévus. Ainsi, vous disposerez de plus de temps dans votre planning pour gérer les incidents.</p>",
           "correct": true
         },
         {
-          "content": "Pratiquer la technique Pomodoro",
+          "content": "<p>Accepter que vous travaillez dans un environnement chaotique et rien ne sert de planifier les choses.</p>"
+        },
+        {
+          "content": "<p>Établir une routine matinale pour gérer au moins certaines des tâches les plus importantes que vous devez effectuer dans la journée.</p>",
           "correct": true
         },
         {
-          "content": "Éviter de prendre des pauses pour maximiser le temps de travail"
-        },
-        {
-          "content": "Établir des objectifs clairs et mesurables",
-          "correct": true
+          "content": "<p>Ignorer le chaos et faire un important effort pour supprimer tout ce qui vous détourne de votre travail dans votre environnement direct, y compris les sollicitations de vos collègues.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Vous avez une réunion importante dans une heure et vous n'avez pas encore préparé votre présentation. Que faites-vous ?"
+        "content": "<div><p>Vous avez trois projets à gérer simultanément. L'un d'eux a une échéance dans deux semaines, un autre dans un mois, et le dernier dans trois mois. Tous sont d'importance égale pour l'entreprise.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour gérer ces projets&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Annuler la réunion et la reporter"
+          "content": "<p>Se concentrer exclusivement sur le projet ayant l'échéance la plus proche jusqu'à ce qu'il soit terminé.</p>"
         },
         {
-          "content": "Improviser pendant la réunion sans préparation"
+          "content": "<p>Répartir son temps également entre les trois projets.</p>"
         },
         {
-          "content": "Concentrer vos efforts sur les points clés à couvrir",
+          "content": "<p>Établir un planning détaillé pour chaque projet en commençant par celui qui a l'échéance la plus proche, tout en travaillant en parallèle sur les trois.</p>",
           "correct": true
         },
         {
-          "content": "Demander à un collègue de faire la présentation à votre place"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer les interruptions fréquentes au travail ?"
-      },
-      "options": [
-        {
-          "content": "Ignorer toutes les interruptions"
-        },
-        {
-          "content": "Planifier des plages horaires sans interruption",
-          "correct": true
-        },
-        {
-          "content": "Travailler exclusivement en dehors des heures de bureau"
-        },
-        {
-          "content": "Déléguer toutes vos tâches pour éviter les interruptions"
+          "content": "<p>Déléguer les deux projets les plus éloignés pour se concentrer sur celui qui est urgent.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les signes d'une mauvaise gestion du temps ?"
+        "content": "<div><p>Vous devez présenter un rapport important demain matin, mais vous n'avez pas encore commencé à le préparer. Il est déjà 16h.</p><p>&nbsp;</p><p><strong>Quelles sont les actions appropriées à entreprendre dans cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Manquer régulièrement des délais",
+          "content": "<p>Informer immédiatement votre responsable de la situation et demander un délai supplémentaire.</p>",
           "correct": true
         },
         {
-          "content": "Se sentir constamment stressé ou dépassé",
+          "content": "<p>Rester au bureau tard le soir pour terminer le rapport, quitte à sacrifier la qualité.</p>"
+        },
+        {
+          "content": "<p>Établir rapidement un plan d'action pour prioriser les éléments essentiels du rapport.</p>",
           "correct": true
         },
         {
-          "content": "Avoir une liste de tâches bien organisée"
-        },
-        {
-          "content": "Procrastiner fréquemment",
+          "content": "<p>Demander de l'aide à des collègues pour partager la charge de travail.</p>",
           "correct": true
         }
       ]
@@ -158,64 +154,64 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer un projet à long terme avec plusieurs étapes ?"
+        "content": "<div><p>Pendant une réunion importante, vous recevez plusieurs notifications urgentes sur votre téléphone.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure façon de gérer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Attendre la dernière minute pour tout faire d'un coup"
+          "content": "<p>Vérifier discrètement les notifications pendant la réunion.</p>"
         },
         {
-          "content": "Diviser le projet en tâches plus petites avec des échéances intermédiaires",
+          "content": "<p>Mettre votre téléphone en mode silencieux et attendre la fin de la réunion pour vérifier les messages.</p>",
           "correct": true
         },
         {
-          "content": "Déléguer l'intégralité du projet à quelqu'un d'autre"
+          "content": "<p>Quitter la réunion pour répondre aux messages urgents.</p>"
         },
         {
-          "content": "Travailler exclusivement sur ce projet jusqu'à ce qu'il soit terminé"
+          "content": "<p>Répondre aux messages tout en participant à la réunion.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle approche est la plus efficace pour gérer plusieurs projets simultanément ?"
+        "content": "<div><p>Vous constatez que vous passez beaucoup de temps en réunions qui ne sont pas toujours productives.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour optimiser votre temps en réunion&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Se concentrer sur un seul projet à la fois jusqu'à ce qu'il soit terminé"
-        },
-        {
-          "content": "Jongler entre les projets en fonction de l'humeur du moment"
-        },
-        {
-          "content": "Utiliser un système de gestion de projet pour suivre les progrès de chaque projet",
+          "content": "<p>Demander systématiquement un ordre du jour avant d'accepter une réunion et décliner celles qui ne sont pas essentielles.</p>",
           "correct": true
         },
         {
-          "content": "Déléguer tous les projets à d'autres membres de l'équipe"
+          "content": "<p>Accepter toutes les réunions pour ne pas manquer d'informations importantes.</p>"
+        },
+        {
+          "content": "<p>Participer aux réunions tout en travaillant sur d'autres tâches.</p>"
+        },
+        {
+          "content": "<p>Déléguer systématiquement votre participation à un collègue.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les stratégies efficaces pour éviter la procrastination ?"
+        "content": "<div><p>Vous remarquez que vous êtes souvent interrompu dans votre travail par des collègues qui viennent vous poser des questions.</p><p>&nbsp;</p><p><strong>Quelles solutions peuvent être mises en place pour gérer ces interruptions&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Définir des objectifs clairs et réalistes",
+          "content": "<p>Établir des plages horaires dédiées aux questions des collègues.</p>",
           "correct": true
         },
         {
-          "content": "Utiliser la technique des \"5 minutes\" pour commencer une tâche",
+          "content": "<p>Ignorer complètement les collègues qui viennent vous voir.</p>"
+        },
+        {
+          "content": "<p>Créer une FAQ pour les questions récurrentes.</p>",
           "correct": true
         },
         {
-          "content": "Attendre d'être parfaitement motivé avant de commencer"
-        },
-        {
-          "content": "Éliminer les distractions de l'environnement de travail",
+          "content": "<p>Travailler régulièrement à distance pour éviter les interruptions.</p>",
           "correct": true
         }
       ]
@@ -223,129 +219,129 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour gérer les tâches imprévues qui surgissent au cours de la journée ?"
+        "content": "<div><p>Vous devez travailler sur un projet complexe qui nécessite une grande concentration.</p><p>&nbsp;</p><p><strong>Quel est le meilleur moment pour programmer ce travail&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les ignorer complètement pour se concentrer sur le plan initial"
+          "content": "<p>En fin de journée quand il y a moins de monde au bureau.</p>"
         },
         {
-          "content": "Les ajouter à votre liste de tâches et réévaluer les priorités",
+          "content": "<p>Pendant votre pic d'énergie quotidien, en bloquant ce temps dans votre agenda.</p>",
           "correct": true
         },
         {
-          "content": "Les traiter immédiatement, quelle que soit leur importance"
+          "content": "<p>Le week-end quand vous êtes plus tranquille.</p>"
         },
         {
-          "content": "Les reporter systématiquement au lendemain"
+          "content": "<p>Entre deux réunions pour optimiser votre temps.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer le stress lié aux délais serrés ?"
+        "content": "<div><p>Vous recevez une demande urgente alors que vous êtes en train de terminer une tâche importante.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure façon de gérer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Ignorer le stress et continuer à travailler sans pause"
+          "content": "<p>Abandonner immédiatement votre tâche en cours pour traiter l'urgence.</p>"
         },
         {
-          "content": "Demander systématiquement des extensions de délai"
-        },
-        {
-          "content": "Pratiquer des techniques de respiration et de relaxation",
+          "content": "<p>Évaluer rapidement le niveau réel d'urgence et l'impact sur vos autres engagements avant de décider.</p>",
           "correct": true
         },
         {
-          "content": "Abandonner le projet si le stress devient trop important"
+          "content": "<p>Ignorer la demande urgente jusqu'à ce que vous ayez terminé votre tâche.</p>"
+        },
+        {
+          "content": "<p>Essayer de faire les deux tâches simultanément.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages d'une bonne gestion du temps ?"
+        "content": "<div><p>Vous constatez que votre productivité diminue au fil de la journée.</p><p>&nbsp;</p><p><strong>Quelles sont les meilleures pratiques pour maintenir un bon niveau d'efficacité tout au long de la journée&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Réduction du stress",
+          "content": "<p>Faire des pauses régulières pour maintenir votre concentration.</p>",
           "correct": true
         },
         {
-          "content": "Augmentation de la productivité",
+          "content": "<p>Alterner entre des tâches qui demandent différents niveaux d'attention.</p>",
           "correct": true
         },
         {
-          "content": "Amélioration de l'équilibre vie professionnelle/vie personnelle",
-          "correct": true
+          "content": "<p>Boire beaucoup de café pour rester éveillé.</p>"
         },
         {
-          "content": "Élimination complète des deadlines"
+          "content": "<p>Planifier les tâches importantes en fonction de vos pics d'énergie.</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les réunions pour optimiser le temps ?"
+        "content": "<div><p>Un collègue vous demande de l'aide sur un projet, mais vous avez déjà un emploi du temps chargé.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure réponse à donner&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Organiser des réunions sans agenda précis"
-        },
-        {
-          "content": "Inviter le plus de personnes possible pour avoir toutes les opinions"
-        },
-        {
-          "content": "Fixer un ordre du jour clair et respecter le temps alloué",
+          "content": "<p>Expliquer votre situation actuelle et proposer un moment précis où vous pourrez l'aider.</p>",
           "correct": true
         },
         {
-          "content": "Prolonger la réunion jusqu'à ce que tous les sujets soient épuisés"
+          "content": "<p>Accepter d'aider immédiatement pour maintenir de bonnes relations.</p>"
+        },
+        {
+          "content": "<p>Refuser catégoriquement car vous êtes trop occupé.</p>"
+        },
+        {
+          "content": "<p>Dire que vous réfléchirez à sa demande sans donner suite.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle approche est la plus efficace pour déléguer des tâches ?"
+        "content": "<div><p>Vous devez gérer plusieurs deadlines qui se chevauchent.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure stratégie pour gérer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Déléguer uniquement les tâches les moins importantes"
+          "content": "<p>Travailler plus d'heures pour tout terminer à temps.</p>"
         },
         {
-          "content": "Déléguer sans donner d'instructions claires"
-        },
-        {
-          "content": "Déléguer en fonction des compétences et fournir des instructions précises",
+          "content": "<p>Créer un planning détaillé en tenant compte des priorités et communiquer avec les parties prenantes.</p>",
           "correct": true
         },
         {
-          "content": "Éviter de déléguer pour garder le contrôle sur toutes les tâches"
+          "content": "<p>Se concentrer uniquement sur la deadline la plus proche.</p>"
+        },
+        {
+          "content": "<p>Demander un report de toutes les deadlines.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les bonnes pratiques pour établir des priorités ?"
+        "content": "<div><p>Vous remarquez que vous perdez beaucoup de temps à chercher des documents et des informations.</p><p>&nbsp;</p><p><strong>Quelles solutions peuvent améliorer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Utiliser la matrice d'Eisenhower (urgent/important)",
+          "content": "<p>Mettre en place un système de classement numérique efficace.</p>",
           "correct": true
         },
         {
-          "content": "Tenir compte des échéances et de l'impact sur les objectifs",
+          "content": "<p>Créer des modèles pour les documents fréquemment utilisés.</p>",
           "correct": true
         },
         {
-          "content": "Prioriser uniquement les tâches agréables"
+          "content": "<p>Demander à quelqu'un d'autre de gérer vos documents.</p>"
         },
         {
-          "content": "Réévaluer régulièrement les priorités",
+          "content": "<p>Utiliser des tags et des mots-clés pour faciliter la recherche.</p>",
           "correct": true
         }
       ]
@@ -353,64 +349,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les distractions numériques (réseaux sociaux, notifications) pendant le travail ?"
+        "content": "<div><p>Vous avez tendance à sous-estimer le temps nécessaire pour accomplir vos tâches.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour résoudre ce problème&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Désactiver les notifications et utiliser des applications de blocage",
+          "content": "<p>Ajouter systématiquement 50% au temps estimé pour chaque tâche.</p>"
+        },
+        {
+          "content": "<p>Tenir un journal du temps réellement passé sur les tâches pour améliorer vos estimations futures.</p>",
           "correct": true
         },
         {
-          "content": "Vérifier constamment les réseaux sociaux pour rester informé"
+          "content": "<p>Prévoir moins de tâches dans votre journée.</p>"
         },
         {
-          "content": "Supprimer définitivement tous les comptes de réseaux sociaux"
-        },
-        {
-          "content": "Alterner toutes les 5 minutes entre travail et réseaux sociaux"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour commencer la journée de travail ?"
-      },
-      "options": [
-        {
-          "content": "Commencer immédiatement par la tâche la plus difficile"
-        },
-        {
-          "content": "Passer en revue les e-mails pendant plusieurs heures"
-        },
-        {
-          "content": "Planifier la journée et identifier les priorités",
-          "correct": true
-        },
-        {
-          "content": "Attendre que les collègues arrivent pour décider quoi faire"
+          "content": "<p>Demander à vos collègues d'estimer le temps nécessaire à votre place.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de prendre des pauses régulières pendant le travail ?"
+        "content": "<div><p>Votre équipe travaille sur un projet important et vous constatez que certains membres prennent du retard.</p><p>&nbsp;</p><p><strong>Quelles actions peuvent aider à améliorer la gestion du temps de l'équipe&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Amélioration de la concentration",
+          "content": "<p>Organiser des réunions quotidiennes courtes pour suivre l'avancement.</p>",
           "correct": true
         },
         {
-          "content": "Réduction du stress",
+          "content": "<p>Mettre en place des outils de suivi de projet collaboratifs.</p>",
           "correct": true
         },
         {
-          "content": "Augmentation du temps de travail effectif"
+          "content": "<p>Augmenter la pression sur les membres en retard.</p>"
         },
         {
-          "content": "Prévention de la fatigue mentale",
+          "content": "<p>Identifier et éliminer les obstacles qui ralentissent l'équipe.</p>",
           "correct": true
         }
       ]
@@ -418,129 +393,108 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour gérer un projet qui prend du retard ?"
+        "content": "<div><p>À la fin de votre journée de travail, vous constatez que vous n'avez pas accompli tout ce que vous aviez prévu.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour terminer la journée&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Ignorer le retard et espérer le rattraper plus tard"
+          "content": "<p>Rester tard pour terminer toutes les tâches prévues.</p>"
         },
         {
-          "content": "Abandonner le projet"
-        },
-        {
-          "content": "Réévaluer le plan, ajuster les priorités et communiquer avec les parties prenantes",
+          "content": "<p>Analyser votre journée, ajuster votre planning pour le lendemain et noter les tâches prioritaires.</p>",
           "correct": true
         },
         {
-          "content": "Travailler jour et nuit sans pause jusqu'à rattraper le retard"
+          "content": "<p>Reporter toutes les tâches non terminées au lendemain sans planification.</p>"
+        },
+        {
+          "content": "<p>Culpabiliser de ne pas avoir atteint vos objectifs.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer les tâches récurrentes ?"
+        "content": "<div><p>Vous avez une réunion importante dans 30 minutes et vous réalisez que vous n'êtes pas suffisamment préparé.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche dans cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les traiter au cas par cas chaque fois qu'elles se présentent"
+          "content": "<p>Annuler la réunion au dernier moment.</p>"
         },
         {
-          "content": "Les automatiser ou créer des systèmes pour les gérer efficacement",
+          "content": "<p>Utiliser les 30 minutes pour vous concentrer sur les points essentiels à aborder.</p>",
           "correct": true
         },
         {
-          "content": "Les ignorer car elles sont moins importantes que les nouvelles tâches"
+          "content": "<p>Participer à la réunion sans préparation.</p>"
         },
         {
-          "content": "Les déléguer systématiquement à d'autres personnes"
+          "content": "<p>Demander à un collègue de vous remplacer.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les caractéristiques d'un objectif SMART ?"
+        "content": "<div><p>Vous devez former un nouveau collègue tout en maintenant votre propre productivité.</p><p>&nbsp;</p><p><strong>Quelles sont les meilleures stratégies pour gérer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Spécifique",
+          "content": "<p>Planifier des sessions de formation à des moments précis de la journée.</p>",
           "correct": true
         },
         {
-          "content": "Mesurable",
+          "content": "<p>Créer une documentation détaillée pour les tâches répétitives.</p>",
           "correct": true
         },
         {
-          "content": "Atteignable",
+          "content": "<p>Demander à d'autres collègues de participer à la formation.</p>",
           "correct": true
         },
         {
-          "content": "Rapide"
+          "content": "<p>Laisser le nouveau collègue apprendre par lui-même.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les demandes urgentes de dernière minute ?"
+        "content": "<div><p>Vous recevez constamment des notifications de différentes applications professionnelles sur votre téléphone.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure façon de gérer ces notifications&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les ignorer complètement"
+          "content": "<p>Désactiver toutes les notifications.</p>"
         },
         {
-          "content": "Les accepter toutes sans exception"
-        },
-        {
-          "content": "Évaluer leur importance réelle et les intégrer dans le planning si nécessaire",
+          "content": "<p>Configurer des périodes spécifiques pour recevoir les notifications et les désactiver le reste du temps.</p>",
           "correct": true
         },
         {
-          "content": "Les reporter systématiquement au lendemain"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle approche est la plus efficace pour maintenir un bon équilibre entre vie professionnelle et vie personnelle ?"
-      },
-      "options": [
-        {
-          "content": "Travailler le plus possible pour maximiser la productivité"
+          "content": "<p>Répondre immédiatement à chaque notification.</p>"
         },
         {
-          "content": "Négliger les responsabilités professionnelles au profit de la vie personnelle"
-        },
-        {
-          "content": "Établir des limites claires et respecter des horaires de travail définis",
-          "correct": true
-        },
-        {
-          "content": "Mélanger complètement vie professionnelle et vie personnelle sans distinction"
+          "content": "<p>Ignorer les notifications jusqu'à la fin de la journée.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages d'utiliser un agenda ou un outil de planification ?"
+        "content": "<div><p>Vous devez améliorer votre productivité pendant les heures de télétravail.</p><p>&nbsp;</p><p><strong>Quelles sont les meilleures pratiques à mettre en place&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Meilleure visualisation des tâches et des échéances",
+          "content": "<p>Créer un espace de travail dédié et organisé.</p>",
           "correct": true
         },
         {
-          "content": "Réduction du stress lié à l'oubli de tâches importantes",
+          "content": "<p>Établir des horaires de travail fixes comme au bureau.</p>",
           "correct": true
         },
         {
-          "content": "Augmentation automatique du temps disponible dans une journée"
+          "content": "<p>Travailler depuis n'importe quel endroit de la maison.</p>"
         },
         {
-          "content": "Facilitation de la priorisation des tâches",
+          "content": "<p>Maintenir une routine quotidienne structurée.</p>",
           "correct": true
         }
       ]
@@ -548,64 +502,64 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les tâches qui prennent plus de temps que prévu ?"
+        "content": "<div><p>Vous remarquez que certaines de vos tâches hebdomadaires sont répétitives et chronophages.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour optimiser ces tâches&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les abandonner immédiatement"
-        },
-        {
-          "content": "Continuer à y travailler sans ajuster le planning"
-        },
-        {
-          "content": "Réévaluer leur importance, ajuster le planning et communiquer si nécessaire",
+          "content": "<p>Automatiser les tâches lorsque possible et créer des processus standardisés.</p>",
           "correct": true
         },
         {
-          "content": "Les déléguer systématiquement à quelqu'un d'autre"
+          "content": "<p>Continuer à les faire manuellement pour assurer la qualité.</p>"
+        },
+        {
+          "content": "<p>Les reporter à plus tard.</p>"
+        },
+        {
+          "content": "<p>Les déléguer systématiquement à des collègues.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour éviter le multitâche excessif ?"
+        "content": "<div><p>Vous devez participer à une visioconférence importante mais votre connexion internet est instable.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure solution à adopter&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Jongler constamment entre plusieurs tâches pour rester stimulé"
-        },
-        {
-          "content": "Se concentrer sur une tâche à la fois pendant des périodes définies",
+          "content": "<p>Prévenir à l'avance et avoir un plan B (téléphone, autre lieu) prêt.</p>",
           "correct": true
         },
         {
-          "content": "Travailler uniquement sur les tâches faciles qui ne demandent pas de concentration"
+          "content": "<p>Espérer que la connexion s'améliore pendant la réunion.</p>"
         },
         {
-          "content": "Déléguer toutes les tâches pour éviter d'avoir à les gérer soi-même"
+          "content": "<p>Annuler votre participation à la dernière minute.</p>"
+        },
+        {
+          "content": "<p>Participer malgré les problèmes techniques.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les stratégies efficaces pour gérer son énergie tout au long de la journée ?"
+        "content": "<div><p>Vous devez gérer plusieurs projets avec des équipes internationales dans différents fuseaux horaires.</p><p>&nbsp;</p><p><strong>Quelles sont les meilleures pratiques pour optimiser la collaboration&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Identifier ses pics d'énergie et planifier les tâches importantes en conséquence",
+          "content": "<p>Utiliser des outils de collaboration asynchrone.</p>",
           "correct": true
         },
         {
-          "content": "Prendre des pauses régulières pour se ressourcer",
+          "content": "<p>Établir des plages horaires de chevauchement pour les réunions importantes.</p>",
           "correct": true
         },
         {
-          "content": "Consommer de la caféine en continu pour maintenir un niveau d'énergie élevé"
+          "content": "<p>Exiger que toutes les équipes s'adaptent à votre fuseau horaire.</p>"
         },
         {
-          "content": "Pratiquer des exercices de respiration ou de méditation",
+          "content": "<p>Documenter clairement les décisions et les progrès pour toutes les équipes.</p>",
           "correct": true
         }
       ]
@@ -613,64 +567,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour gérer les interruptions fréquentes des collègues ?"
+        "content": "<div><p>Vous avez tendance à procrastiner sur les tâches importantes mais peu urgentes.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure stratégie pour surmonter cette habitude&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Ignorer complètement les collègues"
-        },
-        {
-          "content": "Être toujours disponible pour chaque interruption"
-        },
-        {
-          "content": "Établir des plages horaires dédiées aux échanges et communiquer clairement ses disponibilités",
+          "content": "<p>Diviser les grandes tâches en sous-tâches plus petites et planifiables.</p>",
           "correct": true
         },
         {
-          "content": "Travailler exclusivement en dehors des heures de bureau pour éviter les interruptions"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer une longue liste de tâches ?"
-      },
-      "options": [
-        {
-          "content": "Commencer par les tâches les plus faciles pour réduire rapidement la liste"
+          "content": "<p>Attendre que ces tâches deviennent urgentes.</p>"
         },
         {
-          "content": "Prioriser les tâches en fonction de leur importance et urgence",
-          "correct": true
+          "content": "<p>Les déléguer systématiquement.</p>"
         },
         {
-          "content": "Déléguer toutes les tâches à d'autres personnes"
-        },
-        {
-          "content": "Ignorer la liste et traiter les tâches au hasard"
+          "content": "<p>Les ignorer car elles ne sont pas urgentes.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de tenir un journal de bord ou de faire un bilan régulier de sa gestion du temps ?"
+        "content": "<div><p>Vous devez améliorer l'efficacité des réunions d'équipe hebdomadaires.</p><p>&nbsp;</p><p><strong>Quelles actions peuvent contribuer à cet objectif&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Identifier les domaines d'amélioration",
+          "content": "<p>Établir et distribuer un ordre du jour précis à l'avance.</p>",
           "correct": true
         },
         {
-          "content": "Prendre conscience des habitudes improductives",
+          "content": "<p>Désigner un gardien du temps pour chaque réunion.</p>",
           "correct": true
         },
         {
-          "content": "Augmenter automatiquement sa productivité"
+          "content": "<p>Laisser la discussion suivre son cours naturel.</p>"
         },
         {
-          "content": "Mesurer les progrès réalisés dans la gestion du temps",
+          "content": "<p>Limiter le nombre de participants aux personnes essentielles.</p>",
           "correct": true
         }
       ]
@@ -678,43 +611,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer les tâches à long terme ?"
+        "content": "<div><p>Un projet urgent vient d'être ajouté à votre charge de travail déjà importante.</p><p>&nbsp;</p><p><strong>Quelle est la première action à entreprendre&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les ignorer jusqu'à ce qu'elles deviennent urgentes"
-        },
-        {
-          "content": "Les diviser en sous-tâches avec des échéances intermédiaires",
+          "content": "<p>Évaluer l'impact sur vos autres engagements et renégocier les délais si nécessaire.</p>",
           "correct": true
         },
         {
-          "content": "Les déléguer systématiquement à d'autres personnes"
+          "content": "<p>Commencer immédiatement le nouveau projet.</p>"
         },
         {
-          "content": "Les traiter uniquement pendant les heures supplémentaires"
+          "content": "<p>Refuser le projet car vous êtes déjà trop occupé.</p>"
+        },
+        {
+          "content": "<p>Ajouter simplement le projet à votre liste de tâches.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages d'utiliser la technique Pomodoro ?"
+        "content": "<div><p>Vous constatez que vous passez trop de temps à répondre aux messages instantanés pendant votre journée de travail.</p><p>&nbsp;</p><p><strong>Quelles solutions peuvent améliorer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Amélioration de la concentration",
+          "content": "<p>Définir des périodes spécifiques pour répondre aux messages.</p>",
           "correct": true
         },
         {
-          "content": "Réduction de la fatigue mentale",
+          "content": "<p>Utiliser des réponses automatiques pour les questions fréquentes.</p>",
           "correct": true
         },
         {
-          "content": "Élimination complète des distractions"
+          "content": "<p>Désactiver complètement la messagerie instantanée.</p>"
         },
         {
-          "content": "Meilleure gestion du temps de travail",
+          "content": "<p>Configurer votre statut pour indiquer vos disponibilités.</p>",
           "correct": true
         }
       ]
@@ -722,64 +655,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour gérer les tâches imprévues qui surgissent fréquemment ?"
+        "content": "<div><p>Vous devez présenter un projet important mais vous n'êtes pas sûr d'avoir toutes les informations nécessaires.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Les ignorer complètement"
+          "content": "<p>Reporter la présentation jusqu'à ce que vous ayez toutes les informations.</p>"
         },
         {
-          "content": "Les traiter immédiatement, quelle que soit leur importance"
-        },
-        {
-          "content": "Prévoir du temps dans votre planning pour les tâches imprévues",
+          "content": "<p>Identifier les lacunes, préparer ce que vous avez et être transparent sur les informations manquantes.</p>",
           "correct": true
         },
         {
-          "content": "Les reporter systématiquement au lendemain"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour améliorer sa capacité à estimer le temps nécessaire pour accomplir une tâche ?"
-      },
-      "options": [
-        {
-          "content": "Toujours sous-estimer le temps nécessaire pour créer un sentiment d'urgence"
+          "content": "<p>Faire la présentation en improvisant sur les parties manquantes.</p>"
         },
         {
-          "content": "Toujours surestimer le temps nécessaire pour avoir une marge de sécurité"
-        },
-        {
-          "content": "Tenir un journal du temps réellement passé sur les tâches et ajuster les estimations futures en conséquence",
-          "correct": true
-        },
-        {
-          "content": "Demander à quelqu'un d'autre d'estimer le temps à votre place"
+          "content": "<p>Demander à quelqu'un d'autre de faire la présentation.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les stratégies efficaces pour gérer le perfectionnisme excessif ?"
+        "content": "<div><p>Vous remarquez que votre temps de pause déjeuner est souvent perturbé par des demandes professionnelles.</p><p>&nbsp;</p><p><strong>Quelles solutions peuvent vous aider à préserver ce temps de pause&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Fixer des limites de temps pour chaque tâche",
+          "content": "<p>Bloquer ce temps dans votre agenda comme 'non disponible'.</p>",
           "correct": true
         },
         {
-          "content": "Accepter que certaines tâches n'ont pas besoin d'être parfaites",
+          "content": "<p>Changer l'heure de votre pause pour un moment plus calme.</p>",
           "correct": true
         },
         {
-          "content": "Toujours viser la perfection, quel que soit le coût en temps"
+          "content": "<p>Manger devant votre ordinateur en continuant à travailler.</p>"
         },
         {
-          "content": "Pratiquer la règle du \"assez bon\" pour certaines tâches",
+          "content": "<p>Communiquer clairement à votre équipe l'importance de respecter ce temps de pause.</p>",
           "correct": true
         }
       ]
@@ -787,64 +699,43 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure façon de gérer les réunions improductives ?"
+        "content": "<div><p>Vous devez prendre une décision importante mais vous n'avez que des informations partielles.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche dans cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Participer passivement sans rien dire"
+          "content": "<p>Attendre d'avoir toutes les informations avant de décider.</p>"
         },
         {
-          "content": "Refuser systématiquement toutes les invitations aux réunions"
-        },
-        {
-          "content": "Proposer un ordre du jour clair et des objectifs précis pour chaque réunion",
+          "content": "<p>Évaluer les risques, consulter les experts disponibles et prendre une décision éclairée avec les informations disponibles.</p>",
           "correct": true
         },
         {
-          "content": "Prolonger la durée des réunions pour s'assurer que tous les sujets sont abordés"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour gérer le temps passé sur les réseaux sociaux pendant les heures de travail ?"
-      },
-      "options": [
-        {
-          "content": "Vérifier constamment les réseaux sociaux pour rester informé"
+          "content": "<p>Laisser quelqu'un d'autre prendre la décision.</p>"
         },
         {
-          "content": "Bloquer complètement l'accès aux réseaux sociaux pendant les heures de travail"
-        },
-        {
-          "content": "Allouer des plages horaires spécifiques et limitées pour consulter les réseaux sociaux",
-          "correct": true
-        },
-        {
-          "content": "Déléguer la gestion des réseaux sociaux à un collègue"
+          "content": "<p>Prendre une décision rapide sans analyse approfondie.</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages de créer des routines de travail ?"
+        "content": "<div><p>Votre espace de travail numérique devient de plus en plus désorganisé.</p><p>&nbsp;</p><p><strong>Quelles actions peuvent vous aider à mieux l'organiser&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Réduction du temps passé à prendre des décisions",
+          "content": "<p>Mettre en place une structure de dossiers logique et cohérente.</p>",
           "correct": true
         },
         {
-          "content": "Amélioration de l'efficacité pour les tâches récurrentes",
+          "content": "<p>Archiver régulièrement les fichiers obsolètes.</p>",
           "correct": true
         },
         {
-          "content": "Élimination complète du besoin de planification"
+          "content": "<p>Tout stocker dans un seul dossier.</p>"
         },
         {
-          "content": "Création d'un rythme de travail plus stable",
+          "content": "<p>Utiliser un système de nommage standardisé pour les fichiers.</p>",
           "correct": true
         }
       ]
@@ -852,42 +743,329 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour gérer les périodes de forte charge de travail ?"
+        "content": "<div><p>Un projet important a pris du retard à cause d'un fournisseur externe.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche pour gérer cette situation&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Travailler sans interruption jusqu'à ce que tout soit terminé"
+          "content": "<p>Attendre que le fournisseur rattrape son retard.</p>"
         },
         {
-          "content": "Ignorer les tâches supplémentaires et maintenir votre routine habituelle"
-        },
-        {
-          "content": "Réévaluer les priorités, ajuster le planning et communiquer avec les parties prenantes",
+          "content": "<p>Évaluer l'impact, ajuster le planning et communiquer avec toutes les parties prenantes.</p>",
           "correct": true
         },
         {
-          "content": "Déléguer toutes les tâches à d'autres personnes"
+          "content": "<p>Changer immédiatement de fournisseur.</p>"
+        },
+        {
+          "content": "<p>Ignorer le retard et continuer selon le planning initial.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez optimiser votre temps pendant les déplacements professionnels.</p><p>&nbsp;</p><p><strong>Quelles sont les meilleures stratégies à adopter&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Préparer des tâches adaptées au travail mobile.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser le temps de transport pour la planification stratégique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Programmer des appels pendant tous les trajets.</p>"
+        },
+        {
+          "content": "<p>Télécharger les documents nécessaires pour le travail hors ligne.</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle technique est la plus efficace pour maintenir sa concentration pendant de longues périodes de travail ?"
+        "content": "<div><p>Vous remarquez que votre équipe perd beaucoup de temps à chercher des informations dans les emails.</p><p>&nbsp;</p><p><strong>Quelle solution est la plus appropriée&nbsp;?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Travailler sans pause jusqu'à ce que la tâche soit terminée"
-        },
-        {
-          "content": "Alterner entre périodes de travail intensif et courtes pauses",
+          "content": "<p>Mettre en place un système de gestion des connaissances centralisé.</p>",
           "correct": true
         },
         {
-          "content": "Consommer de grandes quantités de caféine"
+          "content": "<p>Demander à chacun de mieux organiser ses emails.</p>"
         },
         {
-          "content": "Travailler uniquement sur des tâches faciles et peu exigeantes"
+          "content": "<p>Augmenter la fréquence des réunions d'équipe.</p>"
+        },
+        {
+          "content": "<p>Créer plus de listes de diffusion.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez améliorer l'efficacité des réunions virtuelles.</p><p>&nbsp;</p><p><strong>Quelles pratiques sont les plus efficaces&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Tester la technologie avant chaque réunion importante.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des outils de collaboration en ligne pendant la réunion.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser la caméra éteinte pour économiser de la bande passante.</p>"
+        },
+        {
+          "content": "<p>Établir des règles claires pour la participation.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous recevez régulièrement des demandes urgentes en fin de journée.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure façon de gérer cette situation&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Réserver du temps en fin de journée pour les urgences potentielles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les demandes qui arrivent après une certaine heure.</p>"
+        },
+        {
+          "content": "<p>Rester plus tard chaque jour pour gérer ces demandes.</p>"
+        },
+        {
+          "content": "<p>Transférer systématiquement ces demandes à d'autres collègues.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez présenter un rapport mensuel mais les données nécessaires sont incomplètes.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les tendances avec les données disponibles et être transparent sur les limites.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Extrapoler les données manquantes sans le mentionner.</p>"
+        },
+        {
+          "content": "<p>Reporter la présentation jusqu'à avoir toutes les données.</p>"
+        },
+        {
+          "content": "<p>Présenter uniquement les données complètes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Votre charge de travail administrative augmente constamment.</p><p>&nbsp;</p><p><strong>Quelles solutions peuvent vous aider à mieux la gérer&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Automatiser les tâches répétitives quand c'est possible.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer des modèles pour les documents fréquemment utilisés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les tâches administratives non urgentes.</p>"
+        },
+        {
+          "content": "<p>Mettre en place des processus standardisés.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous constatez que certaines réunions récurrentes ne sont plus productives.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure action à entreprendre&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer leur utilité et proposer des alternatives si nécessaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer à y assister par habitude.</p>"
+        },
+        {
+          "content": "<p>Arrêter d'y assister sans explication.</p>"
+        },
+        {
+          "content": "<p>Déléguer systématiquement votre présence à un collègue.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez gérer efficacement plusieurs projets avec des priorités changeantes.</p><p>&nbsp;</p><p><strong>Quelles pratiques sont les plus efficaces&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir un tableau de bord centralisé des projets.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réévaluer régulièrement les priorités avec les parties prenantes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur le projet le plus urgent.</p>"
+        },
+        {
+          "content": "<p>Communiquer clairement les changements de priorité à l'équipe.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous remarquez que votre concentration diminue significativement l'après-midi.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure solution à long terme&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter votre planning pour placer les tâches importantes le matin.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Boire plus de café l'après-midi.</p>"
+        },
+        {
+          "content": "<p>Prolonger votre journée de travail en soirée.</p>"
+        },
+        {
+          "content": "<p>Ignorer ces variations d'énergie.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez améliorer la collaboration dans une équipe dispersée géographiquement.</p><p>&nbsp;</p><p><strong>Quelles solutions sont les plus efficaces&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des outils de gestion de projet collaboratifs.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organiser des points réguliers de synchronisation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer des réunions quotidiennes pour tous.</p>"
+        },
+        {
+          "content": "<p>Établir des processus clairs de communication et de reporting.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un collègue vous demande régulièrement de l'aide au dernier moment pour ses deadlines.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche à long terme&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Discuter avec lui pour comprendre la cause du problème et proposer des solutions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser systématiquement de l'aider.</p>"
+        },
+        {
+          "content": "<p>Continuer à l'aider pour maintenir de bonnes relations.</p>"
+        },
+        {
+          "content": "<p>Le signaler à votre supérieur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez organiser une formation importante pour votre équipe.</p><p>&nbsp;</p><p><strong>Quelles actions sont essentielles pour optimiser le temps de formation&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer les besoins précis de formation de chaque participant.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer des supports de formation adaptés et réutilisables.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Organiser une seule session pour tout le monde.</p>"
+        },
+        {
+          "content": "<p>Créer un plan de suivi post-formation.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous avez plusieurs tâches importantes à réaliser mais vous ne savez pas par où commencer.</p><p>&nbsp;</p><p><strong>Quelle est la meilleure approche&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer l'urgence et l'importance de chaque tâche avant de commencer.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Commencer par la tâche la plus facile.</p>"
+        },
+        {
+          "content": "<p>Demander à quelqu'un d'autre de choisir pour vous.</p>"
+        },
+        {
+          "content": "<p>Faire les tâches dans l'ordre où elles sont arrivées.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous devez améliorer votre gestion documentaire numérique.</p><p>&nbsp;</p><p><strong>Quelles pratiques sont les plus efficaces&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un système de versioning clair pour les documents.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place une nomenclature standardisée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Garder tous les documents dans un seul dossier.</p>"
+        },
+        {
+          "content": "<p>Faire des sauvegardes régulières des documents importants.</p>",
+          "correct": true
         }
       ]
     }

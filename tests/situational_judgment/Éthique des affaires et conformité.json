@@ -1,16 +1,16 @@
 {
   "title": "Éthique des affaires et conformité",
   "attributes": {
-    "overview": "The Business Ethics and Compliance test evaluates a candidate's awareness, judgment, and knowledge of ethical issues in business settings. It assesses their ethical decision-making skills across business functional areas",
+    "overview": "Ce test évalue la sensibilisation, le jugement et la connaissance des candidats concernant les questions éthiques en entreprise. Il évalue leurs compétences en matière de prise de décision éthique dans différents domaines d'activité.",
     "level": "intermediate",
     "covered_skills": [
-      "Conflicts of interest",
-      "Ethical decision-making and compliance",
-      "Ethical decision-making across business functions",
-      "Business ethics and inclusive workplaces"
+      "Conflits d'intérêts",
+      "Prise de décision éthique et conformité",
+      "Prise de décision éthique dans les fonctions commerciales",
+      "Éthique des affaires et milieux de travail inclusifs"
     ],
-    "relevancy": "Managers across business settings who require ethical decision-making skills and the ability to comply with ethical and/or legal standards. This test is for managers who make decisions across functional areas (e.g., .operations and people management).",
-    "description": "In the contemporary business landscape, ethical integrity and compliance are not just legal necessities but pivotal components for sustainable success. Hiring candidates with strong business ethics and compliance skills is important for building a trustworthy corporate reputation, maintaining regulatory compliance, and fostering a positive workplace culture. These attributes are essential for mitigating risks, ensuring legal compliance, and enhancing the overall ethical standards of your organization. Such candidates are invaluable in steering the company through complex moral and legal landscapes, protecting the business from potential scandals, legal penalties, and reputational damage.\n\nThis test evaluates candidates’ abilities across a range of areas. It assesses understanding and application of ethics in conflicts of interest, ensuring integrity in the procurement process, and effectively managing personal interests and relationships. The test also assesses the candidate’s capability of handling insider information, adhering to policies, and complying with legal standards. It evaluates their proficiency in maintaining professional conduct, managing financial practices ethically, and navigating ethical dilemmas across various business functions like marketing, operations, and human resources. Additionally, the test examines their skills in ethical leadership, addressing workplace discrimination and harassment, promoting inclusivity, and cultivating a respectful work environment.\n\nThis screening test is instrumental in identifying candidates suitable for roles that demand high ethical standards and compliance awareness. It helps pinpoint professionals who can translate their knowledge and skills in ethical decision-making into tangible business benefits. Candidates excelling in this test are adept at navigating complex ethical scenarios, ensuring compliance with laws and policies, and promoting a culture of integrity and inclusivity. They are capable of making ethically sound decisions that positively impact the company's reputation, legal standing, and workplace harmony. Moreover, their ability to embed ethical considerations into business practices contributes significantly to fostering an environment of trust and responsibility within the organization.\n\nThe Business Ethics and Compliance test is more than a measure of knowledge; it is a tool to gauge a candidate's ability to apply ethical principles in real-world situations. It is especially beneficial for managerial or advisory roles that interface with multiple facets of a business, including management, finance, human resources, and operations. By ensuring that those you hire possess a solid ethical foundation, you're safeguarding your organization against potential legal and reputational risks, while investing in the cultivation of a responsible and principled workforce.",
+    "relevancy": "Managers dans tous les contextes professionnels nécessitant des compétences en prise de décision éthique et la capacité à respecter les normes éthiques et/ou légales. Ce test est destiné aux managers qui prennent des décisions dans différents domaines fonctionnels.",
+    "description": "Dans le paysage commercial contemporain, l'intégrité éthique et la conformité ne sont pas seulement des nécessités légales, mais des composantes essentielles pour un succès durable. Le recrutement de candidats ayant de solides compétences en éthique des affaires et en conformité est important pour établir une réputation d'entreprise fiable, maintenir la conformité réglementaire et favoriser une culture de travail positive.\n\nCe test évalue la capacité des candidats à comprendre et à appliquer l'éthique dans les situations de conflits d'intérêts, à assurer l'intégrité dans le processus d'approvisionnement et à gérer efficacement les intérêts et les relations personnels. Le test évalue également leur capacité à gérer les informations privilégiées, à respecter les politiques et à se conformer aux normes légales.",
     "category": "Situational judgment",
     "language": "french",
     "questions_to_answer": 15,
@@ -18,36 +18,1059 @@
     "position": 1
   },
   "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Votre entreprise souhaite acheter du matériel X, et vous êtes responsable de l'obtention des propositions des fournisseurs. L'un des fournisseurs intéressés est un vieil ami, et il vous contacte pour obtenir plus de détails sur les autres propositions avant de soumettre sa propre offre.</p><p><br></p><p><strong>Comment devriez-vous répondre au message de votre ami ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ne partager que les informations déjà communiquées à tous les soumissionnaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ne partager que le prix le plus élevé proposé.</p>"
+        },
+        {
+          "content": "<p>Ne partager que la liste des fournisseurs qui soumissionnent.</p>"
+        },
+        {
+          "content": "<p>Ne partager que le prix moyen proposé.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>En tant que responsable des ressources humaines dans une entreprise de logiciels, un employé ayant accès aux données clients vous informe qu'un ami d'une autre entreprise lui a demandé de partager vos informations clients pour une analyse de marché. L'employé affirme que son ami est digne de confiance et maintiendra la confidentialité.</p><p><br></p><p><strong>Que devriez-vous suggérer ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Approuver le partage des données si l'ami signe un accord de confidentialité.</p>"
+        },
+        {
+          "content": "<p>Demander à l'employé d'anonymiser les données avant de les partager.</p>"
+        },
+        {
+          "content": "<p>Suggérer que l'ami paie pour les données et signe un accord de confidentialité.</p>"
+        },
+        {
+          "content": "<p>Demander à l'employé de refuser la requête en expliquant que cela viole la politique de l'entreprise et les règles de confidentialité.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>En tant que responsable financier, vous êtes préoccupé par la baisse continue du cours de l'action de l'entreprise due à une faible rentabilité. Votre directeur financier suggère d'utiliser la méthode LIFO au lieu de la méthode FIFO pour l'inventaire, une pratique courante dans l'industrie qui augmenterait immédiatement la rentabilité déclarée.</p><p><br></p><p><strong>Quels facteurs éthiques devriez-vous prendre en compte avant de donner votre accord ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>La facilité de réversibilité de la décision en cas d'objection des autorités réglementaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La perception possible de cette décision par les actionnaires et autres parties prenantes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La conformité de la décision avec toutes les exigences réglementaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La nécessité d'annoncer ce changement immédiatement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous entendez un groupe de membres de votre équipe discuter d'une vidéo privée d'un de vos collègues qui a été publiée en ligne sans son consentement. Vous entretenez une relation professionnelle étroite avec ce collègue et êtes préoccupé par la situation.</p><p><br></p><p><strong>Quelle est la première action la plus appropriée à prendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>S'adresser aux membres de l'équipe impliqués dans la discussion pour souligner l'importance du respect de la vie privée.</p>"
+        },
+        {
+          "content": "<p>Informer les RH de la situation pour qu'ils puissent fournir un soutien au collègue affecté.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Enquêter davantage sur l'affaire avant de faire un rapport aux RH.</p>"
+        },
+        {
+          "content": "<p>Contacter le collègue affecté en privé pour offrir du soutien.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important vous offre des billets VIP pour un événement sportif majeur. Votre entreprise a une politique concernant les cadeaux mais vous n'êtes pas sûr de la limite autorisée.</p><p><br></p><p><strong>Quelle est la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Accepter les billets car c'est un client important.</p>"
+        },
+        {
+          "content": "<p>Consulter la politique de l'entreprise et demander conseil à votre supérieur avant de répondre.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser poliment sans vérifier la politique.</p>"
+        },
+        {
+          "content": "<p>Accepter les billets mais les partager avec l'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>En tant que responsable du recrutement, vous remarquez des pratiques discriminatoires potentielles dans le processus de sélection. Quelles actions devraient être prises pour résoudre ce problème ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Examiner et standardiser les critères de sélection pour tous les candidats.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Former l'équipe de recrutement sur les biais inconscients.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le problème car il est trop sensible à aborder.</p>"
+        },
+        {
+          "content": "<p>Mettre en place un système de suivi des décisions de recrutement.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un collègue utilise les ressources de l'entreprise pour son activité personnelle pendant les heures de travail.</p><p><br></p><p><strong>Quelle est la réponse la plus appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>En parler directement au collègue et l'informer de la politique de l'entreprise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la situation car cela ne vous affecte pas directement.</p>"
+        },
+        {
+          "content": "<p>En parler à vos autres collègues pour avoir leur avis.</p>"
+        },
+        {
+          "content": "<p>Documenter l'activité secrètement pour constituer un dossier.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une fusion d'entreprises, quelles actions sont éthiquement appropriées concernant les informations confidentielles ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respecter strictement les accords de confidentialité signés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les informations uniquement avec les parties autorisées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Discuter des détails avec sa famille pour avoir des conseils.</p>"
+        },
+        {
+          "content": "<p>Documenter tous les échanges d'informations confidentielles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un fournisseur vous propose une commission personnelle pour favoriser leur entreprise dans un appel d'offres.</p><p><br></p><p><strong>Quelle est la meilleure réponse à cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser l'offre et signaler l'incident à votre supérieur.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter la commission mais être transparent dans le processus d'appel d'offres.</p>"
+        },
+        {
+          "content": "<p>Négocier un pourcentage plus faible pour minimiser l'impact.</p>"
+        },
+        {
+          "content": "<p>Suggérer de partager la commission avec l'équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez des inexactitudes dans les rapports financiers mensuels qui pourraient avantager l'entreprise.</p><p><br></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler immédiatement les inexactitudes au service financier pour correction.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre le prochain cycle de rapport pour voir si le problème persiste.</p>"
+        },
+        {
+          "content": "<p>Ignorer les inexactitudes car elles profitent à l'entreprise.</p>"
+        },
+        {
+          "content": "<p>En discuter uniquement avec vos collègues de confiance.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une campagne marketing, quelles pratiques sont éthiquement acceptables ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des témoignages clients vérifiés et authentiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter des données précises sur les performances du produit.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Exagérer légèrement les avantages du produit pour augmenter les ventes.</p>"
+        },
+        {
+          "content": "<p>Être transparent sur les conditions et limitations du produit.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collègue vous demande de ne pas mentionner son erreur mineure dans un rapport important.</p><p><br></p><p><strong>Quelle est la réponse la plus éthique ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Accepter car l'erreur est mineure.</p>"
+        },
+        {
+          "content": "<p>Refuser et inclure l'erreur dans le rapport avec une solution proposée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter en échange d'une faveur future.</p>"
+        },
+        {
+          "content": "<p>Ignorer complètement la section concernée dans le rapport.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion de données personnelles des employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Limiter l'accès aux données uniquement au personnel autorisé.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des protocoles de sécurité stricts.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les informations lors des réunions d'équipe pour plus de transparence.</p>"
+        },
+        {
+          "content": "<p>Documenter chaque accès aux données personnelles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une réunion internationale, vous remarquez que certains collègues échangent des blagues qui pourraient être considérées comme culturellement insensibles.</p><p><br></p><p><strong>Quelle est la meilleure approche pour gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la situation pour éviter la confrontation.</p>"
+        },
+        {
+          "content": "<p>Intervenir immédiatement pour exprimer votre désaccord de manière professionnelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rire poliment pour maintenir l'harmonie du groupe.</p>"
+        },
+        {
+          "content": "<p>Quitter la réunion en signe de protestation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>En tant que responsable d'équipe, quelles actions sont appropriées pour promouvoir un environnement de travail éthique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des formations régulières sur l'éthique professionnelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Établir des canaux de communication confidentiels pour les signalements.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Récompenser financièrement les employés qui signalent des infractions.</p>"
+        },
+        {
+          "content": "<p>Montrer l'exemple en respectant scrupuleusement les politiques d'entreprise.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un concurrent laisse accidentellement des documents confidentiels dans une salle de conférence partagée.</p><p><br></p><p><strong>Quelle est l'action la plus éthique à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lire rapidement les documents avant de les retourner.</p>"
+        },
+        {
+          "content": "<p>Informer immédiatement le concurrent et organiser le retour des documents sans les consulter.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire des copies des documents importants avant de les retourner.</p>"
+        },
+        {
+          "content": "<p>Ignorer les documents et laisser quelqu'un d'autre gérer la situation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont appropriées lors de la gestion d'un conflit d'intérêts potentiel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Divulguer immédiatement le conflit à votre supérieur.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter la situation et les mesures prises.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Gérer la situation vous-même sans en informer personne.</p>"
+        },
+        {
+          "content": "<p>Se retirer du processus de prise de décision concerné.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un système de sécurité présente une faille qui pourrait compromettre les données des clients.</p><p><br></p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Alerter immédiatement l'équipe de sécurité informatique et votre supérieur.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Essayer de résoudre le problème vous-même.</p>"
+        },
+        {
+          "content": "<p>Attendre de voir si d'autres personnes ont remarqué le problème.</p>"
+        },
+        {
+          "content": "<p>En informer d'abord les clients concernés.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une restructuration d'entreprise, quelles actions sont éthiquement appropriées ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer de manière transparente avec les employés affectés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Respecter les obligations légales de préavis et d'indemnisation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Offrir un soutien pour la transition professionnelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Retarder l'annonce jusqu'au dernier moment possible.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collègue vous confie qu'il soupçonne des pratiques de harcèlement dans son département.</p><p><br></p><p><strong>Quelle est la meilleure façon de gérer cette information ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager votre collègue à signaler la situation aux RH et l'accompagner si nécessaire.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mener votre propre enquête discrète.</p>"
+        },
+        {
+          "content": "<p>Confronter directement les personnes suspectées.</p>"
+        },
+        {
+          "content": "<p>Suggérer à votre collègue d'ignorer la situation pour éviter les problèmes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont acceptables lors de l'évaluation des performances des employés ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des critères objectifs et mesurables.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter systématiquement les performances.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tenir compte des opinions personnelles sur l'employé.</p>"
+        },
+        {
+          "content": "<p>Fournir des feedbacks réguliers et constructifs.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez que votre entreprise utilise des pratiques fiscales légales mais éthiquement discutables.</p><p><br></p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Soulever la question lors d'une réunion de direction en proposant des alternatives plus éthiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la situation puisque les pratiques sont légales.</p>"
+        },
+        {
+          "content": "<p>Divulguer l'information aux médias.</p>"
+        },
+        {
+          "content": "<p>En discuter avec vos collègues pour recueillir leurs opinions.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour protéger la propriété intellectuelle de l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respecter les accords de confidentialité même après avoir quitté l'entreprise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signaler toute violation potentielle des droits de propriété intellectuelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les innovations avec des collègues d'autres entreprises.</p>"
+        },
+        {
+          "content": "<p>Documenter et sécuriser toutes les innovations et découvertes.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important demande des modifications de dernière minute qui compromettraient la qualité du produit.</p><p><br></p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer professionnellement pourquoi ces modifications ne sont pas recommandées et proposer des alternatives.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter les modifications pour satisfaire le client.</p>"
+        },
+        {
+          "content": "<p>Refuser catégoriquement les modifications.</p>"
+        },
+        {
+          "content": "<p>Reporter la décision à votre supérieur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un nouveau processus automatisé discrimine involontairement certains groupes de clients.</p><p><br></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler immédiatement le problème et recommander une révision du processus.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre de voir si d'autres personnes remarquent le problème.</p>"
+        },
+        {
+          "content": "<p>Modifier discrètement le processus vous-même.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème car il n'était pas intentionnel.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont appropriées lors de la négociation avec des fournisseurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir des registres détaillés de toutes les communications.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traiter tous les fournisseurs équitablement selon des critères objectifs.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter des invitations à des événements sociaux de leur part.</p>"
+        },
+        {
+          "content": "<p>Être transparent sur les critères de sélection.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez une erreur dans un rapport déjà publié qui avantage votre département.</p><p><br></p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler l'erreur et initier le processus de correction, même si cela désavantage votre département.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer l'erreur puisqu'elle est avantageuse.</p>"
+        },
+        {
+          "content": "<p>Attendre la prochaine mise à jour du rapport pour corriger l'erreur.</p>"
+        },
+        {
+          "content": "<p>Corriger l'erreur sans en informer personne.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées pour promouvoir la diversité et l'inclusion dans le processus de recrutement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un langage inclusif dans les offres d'emploi.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Former les recruteurs sur les biais inconscients.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Établir des quotas stricts pour chaque groupe démographique.</p>"
+        },
+        {
+          "content": "<p>Diversifier les canaux de recrutement.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collègue senior vous demande d'accéder à son compte pour approuver des dépenses pendant ses vacances.</p><p><br></p><p><strong>Quelle est la réponse la plus appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser poliment et suggérer de suivre la procédure officielle de délégation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter car c'est un collègue de confiance.</p>"
+        },
+        {
+          "content": "<p>Accepter mais documenter toutes les actions effectuées.</p>"
+        },
+        {
+          "content": "<p>Demander à un autre collègue de le faire à votre place.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'un audit interne, quelles pratiques sont considérées comme éthiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Fournir un accès complet à tous les documents demandés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répondre honnêtement à toutes les questions posées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Consulter des collègues pour aligner les réponses.</p>"
+        },
+        {
+          "content": "<p>Signaler toute irrégularité découverte pendant l'audit.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un projet utilise des données clients d'une manière non prévue dans la politique de confidentialité.</p><p><br></p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Alerter immédiatement le responsable de la protection des données.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer le projet mais modifier la politique plus tard.</p>"
+        },
+        {
+          "content": "<p>Ignorer le problème car personne ne s'en est plaint.</p>"
+        },
+        {
+          "content": "<p>En discuter uniquement avec l'équipe projet.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'une erreur commise par un membre de votre équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter l'erreur comme une opportunité d'apprentissage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter l'incident et les mesures correctives.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dissimuler l'erreur pour protéger l'équipe.</p>"
+        },
+        {
+          "content": "<p>Mettre en place des mesures préventives pour l'avenir.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un fournisseur propose d'accélérer une livraison urgente en échange d'un paiement non officiel.</p><p><br></p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser catégoriquement et signaler l'incident.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter car c'est dans l'intérêt de l'entreprise.</p>"
+        },
+        {
+          "content": "<p>Négocier un montant plus faible.</p>"
+        },
+        {
+          "content": "<p>Demander une facture officielle pour ce service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont acceptables lors de la représentation de l'entreprise sur les réseaux sociaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respecter les directives de communication de l'entreprise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier l'exactitude des informations avant de les partager.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager des informations confidentielles pour paraître plus crédible.</p>"
+        },
+        {
+          "content": "<p>Maintenir un ton professionnel et respectueux.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez que certains objectifs de performance sont impossibles à atteindre sans compromettre la qualité.</p><p><br></p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Soulever la question auprès de la direction avec des données concrètes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Modifier les rapports pour atteindre les objectifs.</p>"
+        },
+        {
+          "content": "<p>Ignorer les standards de qualité pour atteindre les objectifs.</p>"
+        },
+        {
+          "content": "<p>Attendre que quelqu'un d'autre soulève le problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un conflit entre collègues ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter impartialement les deux parties.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter les discussions et les résolutions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre parti pour le collègue le plus ancien.</p>"
+        },
+        {
+          "content": "<p>Faciliter un dialogue constructif.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez une faille de sécurité qui pourrait être exploitée pour accéder à des informations sensibles.</p><p><br></p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler immédiatement la faille à l'équipe de sécurité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tester la faille pour en comprendre la portée.</p>"
+        },
+        {
+          "content": "<p>En informer vos collègues pour les mettre en garde.</p>"
+        },
+        {
+          "content": "<p>Corriger la faille vous-même si possible.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont appropriées lors de la gestion de la propriété intellectuelle des clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Respecter strictement les accords de confidentialité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Limiter l'accès aux informations sensibles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser les innovations des clients pour améliorer vos produits.</p>"
+        },
+        {
+          "content": "<p>Documenter toute utilisation des informations client.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collègue suggère de contourner une procédure de sécurité pour gagner du temps.</p><p><br></p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser et expliquer l'importance des procédures de sécurité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter exceptionnellement pour cette fois.</p>"
+        },
+        {
+          "content": "<p>Suggérer une solution encore plus rapide.</p>"
+        },
+        {
+          "content": "<p>Ignorer la suggestion sans commentaire.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont appropriées lors de la gestion des ressources de l'entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser les ressources de manière efficiente et responsable.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signaler tout gaspillage ou mauvaise utilisation.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Emprunter du matériel pour un usage personnel.</p>"
+        },
+        {
+          "content": "<p>Maintenir des registres précis d'utilisation.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez des inexactitudes dans les rapports environnementaux de l'entreprise.</p><p><br></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler les inexactitudes à l'équipe responsable de la conformité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les erreurs car elles sont mineures.</p>"
+        },
+        {
+          "content": "<p>Corriger les rapports vous-même.</p>"
+        },
+        {
+          "content": "<p>En parler uniquement à vos collègues.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'une situation de discrimination potentielle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter tous les incidents et comportements observés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Signaler la situation aux ressources humaines.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confronter directement la personne accusée.</p>"
+        },
+        {
+          "content": "<p>Soutenir la victime et l'orienter vers les ressources appropriées.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur les projets d'autres clients.</p><p><br></p><p><strong>Quelle est la réponse la plus appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser poliment en expliquant les obligations de confidentialité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager uniquement des informations générales.</p>"
+        },
+        {
+          "content": "<p>Échanger des informations contre d'autres informations.</p>"
+        },
+        {
+          "content": "<p>Rediriger la demande vers un autre département.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une négociation internationale, vous apprenez que votre partenaire commercial utilise des pratiques de travail douteuses.</p><p><br></p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer formellement la situation et soulever les préoccupations avec la direction.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la situation car elle se produit dans un autre pays.</p>"
+        },
+        {
+          "content": "<p>Continuer la négociation mais demander une remise.</p>"
+        },
+        {
+          "content": "<p>Rompre immédiatement tout contact sans explication.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la découverte d'un conflit entre les politiques internes et les exigences légales locales ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Consulter le service juridique pour obtenir des clarifications.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter les points de conflit identifiés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Choisir d'appliquer uniquement les règles les plus simples.</p>"
+        },
+        {
+          "content": "<p>Proposer des solutions d'alignement conformes aux deux cadres.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un employé partage avec vous ses inquiétudes concernant des pratiques potentiellement dangereuses pour la santé dans l'entreprise.</p><p><br></p><p><strong>Quelle est la première action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter les préoccupations et les signaler au service de santé et sécurité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer à l'employé de garder le silence pour éviter les problèmes.</p>"
+        },
+        {
+          "content": "<p>Attendre d'avoir plus de preuves avant d'agir.</p>"
+        },
+        {
+          "content": "<p>Partager l'information sur les réseaux sociaux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une fusion d'entreprises, quelles pratiques sont éthiquement appropriées concernant la gestion du personnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer de manière transparente sur le processus de fusion.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Assurer un traitement équitable dans l'évaluation des postes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Favoriser les employés de l'entreprise acquéreuse.</p>"
+        },
+        {
+          "content": "<p>Fournir un accompagnement professionnel aux employés affectés.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez que certains collègues partagent des informations confidentielles sur un groupe de messagerie personnel.</p><p><br></p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Alerter la direction et le service informatique de cette violation de sécurité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejoindre le groupe pour surveiller les informations partagées.</p>"
+        },
+        {
+          "content": "<p>Avertir discrètement les membres du groupe sans en informer la direction.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation car c'est une pratique courante.</p>"
+        }
+      ]
+    }
   ]
 }
-
-questions
-1- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">Your company wants to purchase material X, and you are responsible for obtaining vendor proposals. One of the interested vendors is an old friend, and they message you to get more details of the other proposals before submitting their own bid.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">How should you respond to your friend’s message</strong><span style="color: rgb(0, 0, 0); background-color: transparent;">?</span></p></div>
-- Only share information already shared with all bidding vendors.
-- Only share the highest quoted price.
-- Only share the list of vendors who are bidding.
-- Only share the average quoted price.
-
-2- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="background-color: transparent; color: rgb(0, 0, 0);">You are a human resources (HR) manager at a software company. An employee responsible for access to the company's customer data informs you that one of their friends from another company requested they share your customer information to help them with market analysis. The employee further shared that their friend is trustworthy, and they are confident the friend will maintain confidentiality. The employee seeks your advice regarding the most appropriate response per company policy.</span></p><p><br></p><p><strong style="background-color: transparent; color: rgb(0, 0, 0);">What should you suggest?</strong></p></div>
-- Approve sharing the data with their friend if the friend agrees to sign a non-disclosure agreement.
-- Ask the employee to anonymize the data and then share it with their friend.
-- Inform the employee to ask your friend to pay for the data and sign a non-disclosure agreement.
-- Instruct the employee to decline the request and explain that sharing customer data violates company policy and data privacy regulations.
-
-3- multiple response
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You are a finance manager and are worried about a continuous decrease in the company’s share price due to low profitability. Your chief financial officer (CFO) suggests that a common practice in the industry is to use the Last in First Out (LIFO) inventory method instead of the First In First Out (FIFO) inventory method being used currently. Making this change would immediately lead to an increase in reported profitability.&nbsp;</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">Before giving your consent, what are some of the ethical factors you should keep in mind?</strong></p><p><br></p></div>
-- How easy is it to reverse the decision in case the regulatory authorities object to it after the posting of your results?
-- What possible perception could this decision cause amongst shareholders and other stakeholders?
-- Does the decision meet all compliance requirements?
-- If implemented, how should this change be communicated to all stakeholders?
-- If regulatory authorities disapprove of this decision, is the liability limited to the organization, or will you be personally liable, too?
-- Do you need to announce this change, or can you go ahead and do this immediately?
-
-4- single choice
-<div class="ql-editor" contenteditable="false"><p><span style="color: rgb(0, 0, 0); background-color: transparent;">You overhear a group of your team members discussing a private video of one of your colleagues that has been posted online without their consent. You have a close professional relationship with this colleague and are concerned about the situation.</span></p><p><br></p><p><strong style="color: rgb(0, 0, 0); background-color: transparent;">What is the most appropriate action to take first?</strong></p><p><br></p></div>
-- Address the team members involved in the discussion, emphasizing the importance of respecting privacy and discouraging such conversations.
-- Inform HR about the situation so they can provide guidance and support to the affected colleague and address the behavior of the team members.
-- Investigate the matter further and report your findings to the human resources (HR) department.
-- Reach out to the affected colleague privately to offer support and assistance in addressing the situation.

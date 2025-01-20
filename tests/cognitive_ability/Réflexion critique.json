@@ -1,20 +1,16 @@
 {
   "title": "Réflexion critique",
   "attributes": {
-    "overview": "Ce test évalue la capacité des candidats à analyser des situations complexes, tirer des conclusions logiques et identifier des relations de cause à effet.",
-    "level": "intermediate",
+    "overview": "Ce test de sélection Réflexion critique évalue les compétences des candidats en matière de pensée critique par le biais d'un raisonnement inductif et déductif. Ce test de compétences pré-embauche vous aidera à identifier les candidats capables d'évaluer les informations et de prendre des décisions judicieuses.",
+    "level": "advanced",
     "covered_skills": [
-      "Raisonnement logique",
-      "Analyse de données",
-      "Identification de biais",
-      "Évaluation d'arguments",
-      "Déduction logique",
-      "Induction",
-      "Résolution de problèmes complexes",
-      "Prise de décision rationnelle"
+      "Analysez les syllogismes",
+      "Tirez des conclusions",
+      "Reconnaître des hypothèses",
+      "Pesez les arguments"
     ],
-    "relevancy": "Ce test est pertinent pour les postes nécessitant une forte capacité d'analyse, de prise de décision et d'évaluation objective des situations.",
-    "description": "Le test évalue la capacité à analyser des informations, identifier des schémas logiques et tirer des conclusions pertinentes.",
+    "relevancy": "Toute fonction impliquant un degré élevé de réflexion critique et indépendante pour résoudre des problèmes complexes, comme les analystes, les cadres, les juristes, les informaticiens et les scientifiques des données, entre autres.",
+    "description": "Une réflexion critique efficace requiert la capacité de conceptualiser, appliquer, analyser, synthétiser et évaluer activement et habilement les informations afin de porter un jugement ou de formuler une solution innovante. Les employés dotés d'une forte capacité de réflexion critique peuvent résoudre des problèmes de manière habile et indépendante et concevoir de nouvelles approches pour résoudre des problèmes complexes en utilisant des compétences analytiques.\n\nCe test Réflexion critique évalue les capacités des candidats à résoudre des syllogismes par un raisonnement déductif, à interpréter des séquences et des arrangements et à tirer des conclusions solides, à évaluer les relations de cause à effet et à reconnaître les hypothèses. Le test présente aux candidats des énoncés simples ou multiples et leur demande d'analyser l'information et d'utiliser la logique pour identifier la bonne réponse.\n\nSi vous recherchez des candidats qui pensent de manière indépendante, qui résolvent des problèmes complexes et qui génèrent des solutions innovantes, ce test est tout indiqué. Il s'agit d'un excellent test à inclure pour vérifier les compétences analytiques générales des candidats.",
     "category": "Cognitive ability",
     "language": "french",
     "questions_to_answer": 16,
@@ -26,21 +22,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Une entreprise constate que ses ventes augmentent toujours le mois suivant une campagne publicitaire. Le directeur marketing en conclut que la publicité est la seule cause de l'augmentation des ventes.<br><br>Quel est le défaut dans ce raisonnement ?"
+        "content": "<div><p><em>Pour cette question, considérez les prémisses suivantes comme des faits et choisissez la conclusion qui en découle logiquement. Pour être logique, la conclusion doit être une conséquence logique des prémisses. N'abordez pas ces prémisses ou ces conclusions sur la base d'informations ou de croyances extérieures à ce test, que ce soient votre compréhension de la réalité, des informations connues ou des suppositions éclairées extérieures à ce test.</em></p><p><br></p><p><strong>Prémisse 1</strong> : Tous les managers peuvent consulter des documents confidentiels.</p><p><br></p><p><strong>Prémisse 2</strong> : Tous les chefs d'équipe sont des managers.</p><p><br></p><p><strong>Quelle conclusion découle logiquement de ces prémisses ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Il confond corrélation et causalité",
+          "content": "<p>Aucun chef d'équipe ne peut consulter de documents confidentiels.</p>"
+        },
+        {
+          "content": "<p>Tous les managers sont des chefs d'équipe.</p>"
+        },
+        {
+          "content": "<p>Aucun manager n'est chef d'équipe.</p>"
+        },
+        {
+          "content": "<p>Tous les chefs d'équipe peuvent consulter des documents confidentiels.</p>",
           "correct": true
-        },
-        {
-          "content": "Les données sont insuffisantes"
-        },
-        {
-          "content": "La période est trop courte"
-        },
-        {
-          "content": "L'échantillon est trop petit"
         }
       ]
     },
@@ -48,21 +44,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Tous les employés qui arrivent tôt sont productifs. Jean arrive tôt. Sophie est productive.<br><br>Quelle conclusion peut-on en tirer ?"
+        "content": "<div><p><em>Pour cette question, considérez les affirmations ci-dessous et choisissez la réponse qui décrit le mieux si l'affirmation 2 contredit, soutient, réaffirme ou n'est pas pertinente par rapport à la logique de l'affirmation 1.</em></p><p><br></p><p><strong>Affirmation 1</strong> : Être efficace au travail signifie, selon la valeur de la tâche, équilibrer le temps et les efforts nécessaires à l'accomplissement de ladite tâche. Une tâche qui prend beaucoup de temps et d'énergie doit avoir une valeur élevée, sinon la compléter n'est pas efficace. Pour être efficace, il faut de la sagesse en plus d'autres compétences.</p><p><br></p><p><strong>Affirmation 2</strong> : Les employés les plus efficaces sont ceux qui ne remettent pas en question les tâches qui leur sont assignées et qui disent simplement \"oui\" à tout ce qu'on leur demande.</p></div>"
       },
       "options": [
         {
-          "content": "On ne peut pas conclure sur la relation entre Jean et Sophie",
+          "content": "<p>L'affirmation 2 <strong>contredit</strong> l'affirmation 1.</p>",
           "correct": true
         },
         {
-          "content": "Jean et Sophie sont productifs"
+          "content": "<p>L'affirmation 2 <strong>soutient</strong> l'affirmation 1.</p>"
         },
         {
-          "content": "Sophie arrive tôt"
+          "content": "<p>L'affirmation 2 <strong>réaffirme</strong> l'affirmation 1.</p>"
         },
         {
-          "content": "Jean est plus productif que Sophie"
+          "content": "<p>L'affirmation 2 <strong>ne concerne pas</strong> l'affirmation 1.</p>"
         }
       ]
     },
@@ -70,632 +66,918 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Une enquête montre que 90% des utilisateurs d'un nouveau smartphone sont satisfaits. L'entreprise en conclut que son produit est excellent.<br><br>Quelle information manque pour valider cette conclusion ?"
+        "content": "<div><p><em>Pour cette question, examinez le passage ci-dessous et identifiez l'hypothèse sur laquelle le passage s'appuie le plus logiquement ou dont il dépend.</em></p><p><br></p><p><strong>Passage</strong> : Une étude a révélé que les entreprises qui impliquent les clients dans les premières phases de développement de leurs produits ont un taux de satisfaction client supérieur de 15 % après le lancement. Ainsi, l'intégration des commentaires client pendant le développement d'un produit pourrait améliorer l'adoption d'un nouveau produit par les utilisateurs.</p></div>"
       },
       "options": [
         {
-          "content": "Le profil des personnes interrogées et leur représentativité",
+          "content": "<p>L'enquête a interrogé des entreprises créant des produits similaires les uns aux autres.</p>"
+        },
+        {
+          "content": "<p>Une augmentation de 15 % du taux de satisfaction client aura un impact sur la rentabilité d'une entreprise.</p>"
+        },
+        {
+          "content": "<p>Les coûts liés à l'implication des clients dans le développement précoce des produits sont compensés par l'augmentation des recettes résultant de la satisfaction accrue des clients.</p>"
+        },
+        {
+          "content": "<p>L'augmentation de la satisfaction client se traduit par une augmentation de l'adoption par les utilisateurs.</p>",
           "correct": true
-        },
-        {
-          "content": "Le prix du smartphone"
-        },
-        {
-          "content": "La durée de l'enquête"
-        },
-        {
-          "content": "Le nombre de smartphones vendus"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans une ville, le taux de criminalité a baissé après l'installation de caméras de surveillance. Le maire affirme que les caméras ont réduit la criminalité.<br><br>Quelle autre explication pourrait être valable ?"
+        "preview": true,
+        "content": "<div><p><em>Pour cette question, considérez l'argument suivant et l'information qui lui est associé. Décidez ensuite de la relation entre l'information et la force de l'argument.</em></p><p><br></p><p><strong>Argument :</strong> L'utilisation d'entretiens structurés dans le processus d'embauche permet d'obtenir de meilleurs résultats en matière de sélection des employés. Ces formats standardisés peuvent contribuer à réduire les préjugés et à fournir des comparaisons plus précises entre les candidats.</p><p><br></p><p><strong>Information :</strong> Les managers signalent que les candidats qui obtiennent de bons résultats lors des entretiens structurés ont également tendance à obtenir de bons résultats au travail s'ils sont embauchés.</p></div>"
       },
       "options": [
         {
-          "content": "Une augmentation simultanée des patrouilles de police",
+          "content": "<p>Renforce</p>",
           "correct": true
         },
         {
-          "content": "La qualité des caméras"
+          "content": "<p>Affaiblit</p>"
         },
         {
-          "content": "Le coût de l'installation"
+          "content": "<p>N'a aucun effet</p>"
         },
         {
-          "content": "L'emplacement des caméras"
+          "content": "<p>Ne peut pas être déterminé</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un médicament est testé sur 1000 patients. 800 voient leur état s'améliorer. Le laboratoire affirme que le médicament est efficace à 80%.<br><br>Quelle information cruciale manque ?"
+        "content": "<div><p><em>Analysez le raisonnement suivant et identifiez la conclusion la plus logique.</em></p><p><br></p><p>Si une entreprise investit dans la formation continue, ses employés développent de nouvelles compétences. Si les employés développent de nouvelles compétences, ils sont plus productifs. Les employés de l'entreprise X sont plus productifs.</p></div>"
       },
       "options": [
         {
-          "content": "Les résultats d'un groupe placebo",
+          "content": "<p>L'entreprise X investit certainement dans la formation continue.</p>"
+        },
+        {
+          "content": "<p>L'entreprise X pourrait investir dans la formation continue.</p>",
           "correct": true
         },
         {
-          "content": "L'âge des patients"
+          "content": "<p>Les employés de l'entreprise X ont nécessairement développé de nouvelles compétences.</p>"
         },
         {
-          "content": "La durée du traitement"
+          "content": "<p>La formation continue est la seule façon d'augmenter la productivité.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les failles logiques dans l'argument suivant :</em></p><p><br></p><p>Les entreprises qui ont un budget marketing élevé réussissent toujours. Notre entreprise a un budget marketing élevé, donc nous réussirons certainement. De plus, comme nous réussirons, nous devrions immédiatement embaucher plus de personnel.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Suppose que la corrélation implique la causalité</p>",
+          "correct": true
         },
         {
-          "content": "Le coût du médicament"
+          "content": "<p>Fait une généralisation hâtive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tire des conclusions prématurées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilise des données statistiques incorrectes</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un vendeur affirme : 'Ce produit est le meilleur car c'est celui que j'utilise personnellement.'<br><br>Quel type de biais est présent dans cet argument ?"
+        "content": "<div><p><em>Quelle conclusion peut-on tirer des informations suivantes ?</em></p><p><br></p><p>Tous les projets réussis nécessitent une bonne planification. Certains projets qui ont une bonne planification échouent quand même.</p></div>"
       },
       "options": [
         {
-          "content": "Biais d'expérience personnelle",
+          "content": "<p>La bonne planification garantit le succès d'un projet.</p>"
+        },
+        {
+          "content": "<p>La bonne planification est nécessaire mais pas suffisante pour le succès d'un projet.</p>",
           "correct": true
         },
         {
-          "content": "Biais de confirmation"
+          "content": "<p>La planification n'est pas importante pour le succès d'un projet.</p>"
         },
         {
-          "content": "Biais de sélection"
+          "content": "<p>Les projets qui échouent n'ont jamais de bonne planification.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quelles conclusions peuvent être tirées logiquement de l'énoncé suivant ?</em></p><p><br></p><p>Dans une équipe de 10 personnes, chaque membre parle au moins deux langues, et au moins une personne parle le mandarin.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Il y a au moins 20 compétences linguistiques dans l'équipe</p>",
+          "correct": true
         },
         {
-          "content": "Biais d'autorité"
+          "content": "<p>Tous les membres de l'équipe peuvent communiquer entre eux</p>"
+        },
+        {
+          "content": "<p>Au moins une personne parle plus de deux langues</p>"
+        },
+        {
+          "content": "<p>Le mandarin est l'une des langues les plus parlées dans l'équipe</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une étude montre que les personnes qui boivent du thé vert vivent plus longtemps. On en conclut que le thé vert prolonge la vie.<br><br>Quel facteur important n'est pas pris en compte ?"
+        "content": "<div><p><em>Évaluez l'argument suivant :</em></p><p><br></p><p>Les employés qui travaillent à distance sont plus productifs car ils passent moins de temps dans les transports. Par conséquent, toutes les entreprises devraient passer au travail à distance.</p></div>"
       },
       "options": [
         {
-          "content": "Le mode de vie global des buveurs de thé vert",
+          "content": "<p>L'argument est parfaitement logique</p>"
+        },
+        {
+          "content": "<p>L'argument néglige d'autres facteurs importants</p>",
           "correct": true
         },
         {
-          "content": "La marque de thé"
+          "content": "<p>L'argument est totalement invalide</p>"
         },
         {
-          "content": "La quantité consommée"
+          "content": "<p>L'argument n'a aucun rapport avec la conclusion</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quels éléments renforceraient l'argument suivant ?</em></p><p><br></p><p>L'adoption d'un système de gestion de projet numérique augmentera notre efficacité.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Des données montrant une amélioration de l'efficacité dans d'autres entreprises similaires</p>",
+          "correct": true
         },
         {
-          "content": "Le prix du thé"
+          "content": "<p>Une analyse des coûts actuels liés aux retards de projet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des témoignages d'employés sur les problèmes du système actuel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le fait que nos concurrents utilisent déjà ce système</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Si A implique B, et B implique C, alors :<br>1. A implique toujours C<br>2. C implique toujours A<br>3. B est toujours présent avec C<br><br>Quelle(s) affirmation(s) est/sont vraie(s) ?"
+        "content": "<div><p><em>Analysez la situation suivante :</em></p><p><br></p><p>Un responsable remarque que les employés qui prennent une pause déjeuner plus longue sont plus productifs l'après-midi. Il en conclut que l'entreprise devrait imposer des pauses déjeuner plus longues à tous les employés.</p></div>"
       },
       "options": [
         {
-          "content": "Uniquement 1",
+          "content": "<p>Le raisonnement est valide car il est basé sur une observation directe</p>"
+        },
+        {
+          "content": "<p>La conclusion ne tient pas compte des préférences individuelles</p>",
           "correct": true
         },
         {
-          "content": "1 et 2"
+          "content": "<p>L'observation est probablement inexacte</p>"
         },
         {
-          "content": "2 et 3"
-        },
-        {
-          "content": "Toutes"
+          "content": "<p>La durée de la pause déjeuner n'a aucun impact sur la productivité</p>"
         }
       ]
     },
     {
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Un politique déclare : 'Mon opposant veut réduire le budget de la police. Il veut donc clairement que la criminalité augmente.'<br><br>Quel type de raisonnement fallacieux est utilisé ici ?"
-  },
-  "options": [
-    {
-      "content": "Faux dilemme (conclusion hâtive)",
-      "correct": true
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les hypothèses implicites dans l'énoncé suivant :</em></p><p><br></p><p>L'entreprise devrait investir dans des bureaux plus spacieux car cela augmentera la satisfaction des employés.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'espace de travail actuel est insuffisant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La satisfaction des employés est principalement liée à l'espace de travail</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le coût de l'investissement est justifié par les bénéfices attendus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les employés préfèrent travailler au bureau plutôt qu'à distance</p>",
+          "correct": true
+        }
+      ]
     },
     {
-      "content": "Argument d'autorité"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez le raisonnement suivant :</em></p><p><br></p><p>Si une entreprise a une forte culture d'innovation, elle attire les meilleurs talents. Notre entreprise attire les meilleurs talents, donc nous avons une forte culture d'innovation.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement comporte une erreur logique d'affirmation du conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le raisonnement est incomplet</p>"
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        }
+      ]
     },
     {
-      "content": "Généralisation abusive"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez la validité de l'argument suivant :</em></p><p><br></p><p>Les entreprises qui investissent dans la formation de leurs employés voient leur chiffre d'affaires augmenter. L'entreprise X a vu son chiffre d'affaires augmenter. Donc l'entreprise X a investi dans la formation de ses employés.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est logiquement valide</p>"
+        },
+        {
+          "content": "<p>L'argument présente une erreur de causalité inverse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont insuffisantes</p>"
+        },
+        {
+          "content": "<p>La conclusion est contradictoire</p>"
+        }
+      ]
     },
     {
-      "content": "Attaque personnelle"
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez le raisonnement suivant :</em></p><p><br></p><p>Toutes les entreprises performantes ont une stratégie digitale claire. L'entreprise Y n'a pas de stratégie digitale claire. Quelle conclusion peut-on en tirer ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'entreprise Y n'est pas performante</p>"
+        },
+        {
+          "content": "<p>L'entreprise Y pourrait être performante ou non</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'entreprise Y est performante</p>"
+        },
+        {
+          "content": "<p>L'entreprise Y deviendra bientôt performante</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Dans le contexte suivant, identifiez les suppositions implicites :</em></p><p><br></p><p>Une entreprise décide d'implémenter un système de travail flexible car cela augmentera la productivité de ses employés.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les employés ont les moyens de travailler efficacement à distance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La flexibilité horaire n'affectera pas négativement la collaboration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les managers sont capables de gérer des équipes flexibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le système actuel limite la productivité</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la force de l'argument suivant :</em></p><p><br></p><p>Les entreprises qui investissent dans l'automatisation réduisent leurs coûts opérationnels. Notre entreprise a réduit ses coûts opérationnels, donc notre investissement dans l'automatisation a été un succès.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est parfaitement logique</p>"
+        },
+        {
+          "content": "<p>L'argument confond corrélation et causalité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'argument manque de prémisses</p>"
+        },
+        {
+          "content": "<p>L'argument est contradictoire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quelles conclusions peuvent être logiquement tirées de l'énoncé suivant ?</em></p><p><br></p><p>Dans une équipe internationale, chaque projet doit avoir au moins un membre qui parle anglais et un qui parle mandarin. L'équipe A compte 5 membres et gère actuellement 3 projets.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Au moins un membre de l'équipe parle anglais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au moins un membre de l'équipe parle mandarin</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Certains membres parlent probablement les deux langues</p>"
+        },
+        {
+          "content": "<p>L'équipe peut gérer jusqu'à 5 projets</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez le raisonnement suivant :</em></p><p><br></p><p>Si une entreprise adopte une politique de durabilité, elle attire plus de clients. L'entreprise Z attire plus de clients. Donc, l'entreprise Z a adopté une politique de durabilité.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur d'affirmation du conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le raisonnement est incomplet</p>"
+        },
+        {
+          "content": "<p>Les prémisses sont insuffisantes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les faiblesses dans l'argument suivant :</em></p><p><br></p><p>Puisque nos concurrents ont tous adopté l'intelligence artificielle, nous devons immédiatement investir massivement dans cette technologie pour rester compétitifs.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Ne considère pas la pertinence pour le modèle d'affaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignore les coûts et risques potentiels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suppose que toutes les implémentations d'IA sont équivalentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>S'appuie sur un argument d'autorité</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la logique suivante :</em></p><p><br></p><p>Les entreprises qui ont une forte présence sur les réseaux sociaux attirent plus de jeunes talents. Notre entreprise veut attirer plus de jeunes talents. Donc, nous devons augmenter notre présence sur les réseaux sociaux.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur de causalité</p>"
+        },
+        {
+          "content": "<p>La conclusion ne découle pas des prémisses</p>"
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Dans le contexte suivant, identifiez les hypothèses valides :</em></p><p><br></p><p>Une entreprise décide de passer à un modèle de travail entièrement à distance pour réduire ses coûts immobiliers.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les économies immobilières dépassent les coûts de transition</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La productivité peut être maintenue à distance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'infrastructure technique est adaptée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les employés préfèrent travailler à distance</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez la validité de la conclusion suivante :</em></p><p><br></p><p>Les entreprises qui investissent dans la formation continue voient leur taux de rétention augmenter. Notre taux de rétention a augmenté l'année dernière. Notre programme de formation continue est donc efficace.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La conclusion est logiquement valide</p>"
+        },
+        {
+          "content": "<p>La conclusion présente une erreur de causalité inverse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        },
+        {
+          "content": "<p>La conclusion est incomplète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez le raisonnement suivant :</em></p><p><br></p><p>Si une entreprise utilise l'analyse des données, elle prend de meilleures décisions. L'entreprise W prend de meilleures décisions. Donc l'entreprise W utilise l'analyse des données.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement commet l'erreur d'affirmation du conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont insuffisantes</p>"
+        },
+        {
+          "content": "<p>La conclusion est contradictoire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les suppositions implicites dans l'énoncé suivant :</em></p><p><br></p><p>L'implémentation d'un nouveau système de gestion de projet améliorera notre efficacité opérationnelle.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le système actuel est une source d'inefficacité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les employés adopteront facilement le nouveau système</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les bénéfices dépasseront les coûts d'implémentation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nouveau système est compatible avec nos processus</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez la logique suivante :</em></p><p><br></p><p>Tous les leaders efficaces sont de bons communicants. Marie est une bonne communicante. Donc Marie est une leader efficace.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur de syllogisme</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        },
+        {
+          "content": "<p>La conclusion est incomplète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quelles conclusions peut-on logiquement tirer de l'énoncé suivant ?</em></p><p><br></p><p>Dans notre entreprise, tous les managers ont au moins 5 ans d'expérience et parlent au moins deux langues. Jean a 3 ans d'expérience et parle trois langues.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Jean n'est pas manager</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Jean pourrait devenir manager dans 2 ans</p>"
+        },
+        {
+          "content": "<p>Jean a les compétences linguistiques requises pour être manager</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Jean ne sera jamais manager</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la force de l'argument suivant :</em></p><p><br></p><p>Les entreprises qui investissent dans le bien-être des employés voient leur productivité augmenter. Notre entreprise a vu sa productivité augmenter. Donc notre investissement dans le bien-être des employés a été efficace.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est parfaitement logique</p>"
+        },
+        {
+          "content": "<p>L'argument confond corrélation et causalité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'argument manque de prémisses</p>"
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les failles logiques dans l'argument suivant :</em></p><p><br></p><p>Toutes les entreprises performantes de notre secteur utilisent l'intelligence artificielle. Donc, si nous implémentons l'IA, nous deviendrons performants.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Confond corrélation et causalité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Simplifie excessivement les facteurs de succès</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignore les conditions spécifiques à chaque entreprise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suppose que toutes les implémentations d'IA sont équivalentes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez le raisonnement suivant dans un contexte professionnel :</em></p><p><br></p><p>Si un projet est bien planifié, il sera livré dans les délais. Le projet X n'a pas été livré dans les délais. Quelle conclusion peut-on en tirer ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le projet X n'était pas bien planifié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le projet X était mal exécuté</p>"
+        },
+        {
+          "content": "<p>Le projet X manquait de ressources</p>"
+        },
+        {
+          "content": "<p>Les délais étaient trop courts</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Dans le scénario suivant, identifiez les hypothèses valides :</em></p><p><br></p><p>Une entreprise décide d'adopter une politique de réunions limitées à 30 minutes pour augmenter la productivité.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les réunions actuelles contiennent du temps improductif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La communication peut être efficace en 30 minutes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les participants seront mieux préparés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toutes les réunions sont similaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la validité de l'argument suivant :</em></p><p><br></p><p>Les équipes diversifiées sont plus innovantes. Notre équipe est devenue plus innovante cette année. Donc notre équipe est devenue plus diversifiée.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est valide</p>"
+        },
+        {
+          "content": "<p>L'argument présente une erreur de causalité inverse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'argument est incomplet</p>"
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les suppositions implicites dans l'énoncé suivant :</em></p><p><br></p><p>Le passage à des outils collaboratifs en ligne améliorera la communication entre les équipes.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les outils actuels sont un frein à la communication</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les employés adopteront facilement les nouveaux outils</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'infrastructure technique est adéquate</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les équipes préfèrent la collaboration en ligne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez la logique suivante :</em></p><p><br></p><p>Tous les projets réussis nécessitent une bonne communication. Ce projet a une bonne communication. Donc ce projet réussira.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur d'affirmation du conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        },
+        {
+          "content": "<p>La conclusion est incomplète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez le raisonnement suivant :</em></p><p><br></p><p>Les entreprises qui investissent dans la cybersécurité réduisent leurs risques. L'entreprise Y a réduit ses risques. Donc l'entreprise Y a investi dans la cybersécurité.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement commet une erreur logique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont insuffisantes</p>"
+        },
+        {
+          "content": "<p>La conclusion est contradictoire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quelles conclusions peut-on logiquement tirer de l'énoncé suivant ?</em></p><p><br></p><p>Dans notre organisation, tous les chefs de projet sont certifiés en gestion de projet et ont géré au moins trois projets majeurs. Sophie est certifiée en gestion de projet et a géré deux projets majeurs.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Sophie n'est pas chef de projet</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sophie sera chef de projet après son prochain projet majeur</p>"
+        },
+        {
+          "content": "<p>Sophie remplit partiellement les conditions requises</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sophie ne deviendra jamais chef de projet</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez la validité de l'argument suivant :</em></p><p><br></p><p>Les entreprises qui adoptent des pratiques durables voient leur réputation s'améliorer. Notre réputation s'est améliorée. Donc nos pratiques durables sont efficaces.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est logiquement valide</p>"
+        },
+        {
+          "content": "<p>L'argument présente une erreur de causalité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        },
+        {
+          "content": "<p>La conclusion est incomplète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les failles logiques dans l'argument suivant :</em></p><p><br></p><p>Les start-ups technologiques qui réussissent ont toutes des espaces de travail ouverts et des tables de ping-pong. Donc, pour réussir, nous devons créer des espaces ouverts et installer des tables de ping-pong.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Confond corrélation et causalité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Généralisation hâtive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Néglige d'autres facteurs de succès</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suppose que toutes les entreprises sont identiques</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la force de l'argument suivant :</em></p><p><br></p><p>Les employés qui participent aux formations volontaires sont plus performants. Nous devrions donc rendre toutes les formations obligatoires pour augmenter la performance.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'argument est valide</p>"
+        },
+        {
+          "content": "<p>L'argument ignore la motivation intrinsèque</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'argument manque de données</p>"
+        },
+        {
+          "content": "<p>L'argument est incomplet</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Dans le contexte suivant, identifiez les hypothèses valides :</em></p><p><br></p><p>L'entreprise décide d'implémenter un système de mentorat pour améliorer le développement professionnel.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les mentors ont les compétences nécessaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les employés sont intéressés par le mentorat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le temps investi sera bénéfique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le mentorat est la seule solution possible</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Analysez le raisonnement suivant :</em></p><p><br></p><p>Si une équipe utilise une méthodologie agile, elle livre plus rapidement. L'équipe A livre plus rapidement. Donc l'équipe A utilise une méthodologie agile.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur d'affirmation du conséquent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont insuffisantes</p>"
+        },
+        {
+          "content": "<p>La conclusion est contradictoire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Quelles conclusions peut-on logiquement tirer des énoncés suivants ?</em></p><p><br></p><p>Tous les gestionnaires de projet expérimentés utilisent des outils de planification avancés. Julie n'utilise pas d'outils de planification avancés.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Julie n'est pas une gestionnaire de projet expérimentée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Julie est une gestionnaire de projet débutante</p>"
+        },
+        {
+          "content": "<p>Julie devrait utiliser des outils de planification avancés</p>"
+        },
+        {
+          "content": "<p>Julie n'est pas efficace dans son travail</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><em>Évaluez la logique suivante :</em></p><p><br></p><p>Les équipes qui communiquent bien réussissent leurs projets. L'équipe B a réussi son projet. Donc l'équipe B communique bien.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le raisonnement est valide</p>"
+        },
+        {
+          "content": "<p>Le raisonnement présente une erreur logique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les prémisses sont contradictoires</p>"
+        },
+        {
+          "content": "<p>La conclusion est incomplète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><em>Identifiez les suppositions implicites dans l'énoncé suivant :</em></p><p><br></p><p>L'adoption d'un système de feedback continu améliorera la performance des employés.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les employés souhaitent recevoir plus de feedback</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les managers peuvent donner un feedback constructif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le système actuel est inadéquat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le feedback fréquent est toujours bénéfique</p>"
+        }
+      ]
     }
   ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Une entreprise note que ses employés les plus performants prennent toujours un café le matin. Elle décide d'offrir le café à tous ses employés pour augmenter la productivité.<br><br>Quel est le problème avec ce raisonnement ?"
-  },
-  "options": [
-    {
-      "content": "Confusion entre corrélation et causalité inverse",
-      "correct": true
-    },
-    {
-      "content": "Échantillon trop petit"
-    },
-    {
-      "content": "Manque de données"
-    },
-    {
-      "content": "Période d'observation insuffisante"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Énoncé : 'Si tous les experts sont d'accord, alors c'est forcément vrai.'<br><br>Pourquoi ce raisonnement est-il problématique ?"
-  },
-  "options": [
-    {
-      "content": "Il s'appuie uniquement sur l'argument d'autorité sans considérer les preuves",
-      "correct": true
-    },
-    {
-      "content": "Les experts ne sont pas qualifiés"
-    },
-    {
-      "content": "L'unanimité est impossible"
-    },
-    {
-      "content": "Les experts peuvent se tromper"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Une étude montre que les enfants qui jouent aux jeux vidéo ont de meilleurs résultats en mathématiques. Les chercheurs concluent que les jeux vidéo améliorent les capacités mathématiques.<br><br>Quelle variable n'a peut-être pas été prise en compte ?"
-  },
-  "options": [
-    {
-      "content": "Les enfants doués en mathématiques sont peut-être naturellement plus attirés par les jeux vidéo",
-      "correct": true
-    },
-    {
-      "content": "Le type de jeux vidéo"
-    },
-    {
-      "content": "Le temps de jeu"
-    },
-    {
-      "content": "L'âge des enfants"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Argument : 'Cette méthode de management fonctionne car elle est utilisée depuis 50 ans.'<br><br>Quel est le principal défaut de ce raisonnement ?"
-  },
-  "options": [
-    {
-      "content": "L'appel à la tradition ne garantit pas l'efficacité",
-      "correct": true
-    },
-    {
-      "content": "La période est trop courte"
-    },
-    {
-      "content": "Le contexte a changé"
-    },
-    {
-      "content": "Manque de preuves statistiques"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Dans un débat sur l'environnement, quelqu'un affirme : 'Si vous n'êtes pas d'accord avec cette mesure écologique, c'est que vous ne vous souciez pas de l'avenir de nos enfants.'<br><br>Quel type d'argument fallacieux est utilisé ?"
-  },
-  "options": [
-    {
-      "content": "Faux dilemme et appel à l'émotion",
-      "correct": true
-    },
-    {
-      "content": "Argument d'autorité"
-    },
-    {
-      "content": "Généralisation hâtive"
-    },
-    {
-      "content": "Raisonnement circulaire"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Hypothèse : Si A est vrai, alors B est vrai. B est vrai.<br><br>Quelle conclusion peut-on en tirer sur A ?"
-  },
-  "options": [
-    {
-      "content": "On ne peut pas conclure sur A",
-      "correct": true
-    },
-    {
-      "content": "A est nécessairement vrai"
-    },
-    {
-      "content": "A est nécessairement faux"
-    },
-    {
-      "content": "A est probablement vrai"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Une publicité affirme : '9 dentistes sur 10 recommandent ce dentifrice.'<br><br>Quelle question critique devrait-on se poser ?"
-  },
-  "options": [
-    {
-      "content": "Comment ces dentistes ont-ils été sélectionnés et combien ont été interrogés ?",
-      "correct": true
-    },
-    {
-      "content": "Qui est le dixième dentiste ?"
-    },
-    {
-      "content": "Quel est le prix du dentifrice ?"
-    },
-    {
-      "content": "Depuis quand existe ce dentifrice ?"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Un restaurant affirme : 'Nos ventes ont augmenté de 150% après avoir baissé les prix de 50%. Cette stratégie est donc toujours gagnante.'<br><br>Quel élément crucial n'est pas pris en compte dans cette analyse ?"
-  },
-  "options": [
-    {
-      "content": "La marge bénéficiaire et la rentabilité globale",
-      "correct": true
-    },
-    {
-      "content": "Le nombre de clients"
-    },
-    {
-      "content": "La période considérée"
-    },
-    {
-      "content": "La concurrence"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Énoncé : 'La consommation de glace augmente en été, et les noyades aussi. Donc manger de la glace augmente le risque de noyade.'<br><br>Quel concept statistique est ignoré ?"
-  },
-  "options": [
-    {
-      "content": "La variable cachée (la saison/température) qui explique les deux phénomènes",
-      "correct": true
-    },
-    {
-      "content": "L'échantillonnage"
-    },
-    {
-      "content": "La marge d'erreur"
-    },
-    {
-      "content": "La représentativité"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Dans un débat : 'Cette théorie doit être vraie car personne n'a encore prouvé qu'elle était fausse.'<br><br>Quel problème logique cette affirmation présente-t-elle ?"
-  },
-  "options": [
-    {
-      "content": "L'argument du silence (absence de preuve n'est pas preuve d'absence)",
-      "correct": true
-    },
-    {
-      "content": "Le faux dilemme"
-    },
-    {
-      "content": "L'attaque personnelle"
-    },
-    {
-      "content": "La généralisation hâtive"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Un vendeur affirme : 'Ce produit est naturel, donc il est sans danger.'<br><br>Quel est le défaut principal de ce raisonnement ?"
-  },
-  "options": [
-    {
-      "content": "L'appel à la nature (naturel n'équivaut pas à sûr)",
-      "correct": true
-    },
-    {
-      "content": "Manque de preuves"
-    },
-    {
-      "content": "Argument d'autorité"
-    },
-    {
-      "content": "Généralisation excessive"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Situation : Une entreprise constate que ses employés les plus stressés sont ceux qui prennent le plus de pauses café. Elle décide de limiter les pauses café pour réduire le stress.<br><br>Quel est l'erreur de raisonnement ?"
-  },
-  "options": [
-    {
-      "content": "Confusion entre cause et effet (les employés stressés prennent peut-être plus de pauses pour se détendre)",
-      "correct": true
-    },
-    {
-      "content": "Échantillon non représentatif"
-    },
-    {
-      "content": "Période d'observation insuffisante"
-    },
-    {
-      "content": "Manque de groupe témoin"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Raisonnement : 'Plus de 50% des accidents de la route se produisent à moins de 5 km du domicile, donc il est plus dangereux de conduire près de chez soi.'<br><br>Quelle information manque pour valider cette conclusion ?"
-  },
-  "options": [
-    {
-      "content": "La proportion de trajets effectués à moins de 5 km du domicile",
-      "correct": true
-    },
-    {
-      "content": "La vitesse moyenne"
-    },
-    {
-      "content": "Le type de véhicule"
-    },
-    {
-      "content": "L'heure des accidents"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Dans une étude : 'Les personnes qui dorment plus de 9 heures par nuit ont plus de problèmes de santé. Il faut donc éviter de trop dormir.'<br><br>Quel facteur important est négligé ?"
-  },
-  "options": [
-    {
-      "content": "Les problèmes de santé peuvent être la cause et non la conséquence du long sommeil",
-      "correct": true
-    },
-    {
-      "content": "L'âge des personnes"
-    },
-    {
-      "content": "Le type de sommeil"
-    },
-    {
-      "content": "L'activité physique"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Argument : 'Cette décision est la meilleure car c'est celle qui a été choisie par la majorité.'<br><br>Quel type de biais est présent ?"
-  },
-  "options": [
-    {
-      "content": "L'appel à la popularité (argumentum ad populum)",
-      "correct": true
-    },
-    {
-      "content": "Le biais de confirmation"
-    },
-    {
-      "content": "Le biais d'ancrage"
-    },
-    {
-      "content": "Le biais de disponibilité"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Une étude conclut : 'Les personnes qui possèdent une voiture de luxe vivent plus longtemps. Donc, acheter une voiture de luxe augmente l'espérance de vie.'<br><br>Quel facteur confondant majeur n'est pas pris en compte ?"
-  },
-  "options": [
-    {
-      "content": "Le niveau socio-économique qui influence à la fois le pouvoir d'achat et l'accès aux soins",
-      "correct": true
-    },
-    {
-      "content": "L'âge des conducteurs"
-    },
-    {
-      "content": "La marque de la voiture"
-    },
-    {
-      "content": "Le style de conduite"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Paradoxe : 'Si cette phrase est vraie, alors elle est fausse. Mais si elle est fausse, alors elle est vraie.'<br><br>Quelle est la meilleure approche pour analyser ce type de paradoxe ?"
-  },
-  "options": [
-    {
-      "content": "Reconnaître que certaines propositions autoréférentielles ne peuvent pas avoir une valeur de vérité stable",
-      "correct": true
-    },
-    {
-      "content": "Décider qu'elle est vraie"
-    },
-    {
-      "content": "Décider qu'elle est fausse"
-    },
-    {
-      "content": "Ignorer le paradoxe"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Un chercheur affirme : 'Notre médicament est efficace car 60% des patients se sont améliorés, contre 55% dans le groupe placebo, avec p<0.05.'<br><br>Quelle question importante doit-on se poser ?"
-  },
-  "options": [
-    {
-      "content": "La différence de 5% est-elle cliniquement significative, malgré sa significativité statistique ?",
-      "correct": true
-    },
-    {
-      "content": "Le p est-il correct ?"
-    },
-    {
-      "content": "Combien de patients ont participé ?"
-    },
-    {
-      "content": "Quelle était la durée de l'étude ?"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Raisonnement : 'Si A implique B, et B est vrai dans 90% des cas, alors A est vrai dans 90% des cas.'<br><br>Pourquoi ce raisonnement est-il incorrect ?"
-  },
-  "options": [
-    {
-      "content": "Il confond la probabilité conditionnelle avec sa réciproque",
-      "correct": true
-    },
-    {
-      "content": "Les pourcentages sont inexacts"
-    },
-    {
-      "content": "L'implication est fausse"
-    },
-    {
-      "content": "L'échantillon est trop petit"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Dans un débat : 'Soit vous acceptez ma proposition, soit vous êtes contre le progrès.'<br><br>Quels sont les deux problèmes logiques dans cette affirmation ?"
-  },
-  "options": [
-    {
-      "content": "Faux dilemme et argument épouvantail",
-      "correct": true
-    },
-    {
-      "content": "Généralisation et analogie"
-    },
-    {
-      "content": "Ad hominem et pétition de principe"
-    },
-    {
-      "content": "Appel à l'autorité et confusion"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Une publicité indique : '80% des utilisateurs ont préféré notre produit lors d'un test en aveugle.'<br><br>Quelles sont les deux questions critiques essentielles à poser ?"
-  },
-  "options": [
-    {
-      "content": "Taille de l'échantillon et méthode de sélection des participants",
-      "correct": true
-    },
-    {
-      "content": "Prix du produit et date du test"
-    },
-    {
-      "content": "Lieu du test et durée"
-    },
-    {
-      "content": "Marque et packaging"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Situation : 'Depuis que nous avons installé des détecteurs de fumée, le nombre d'incendies a augmenté de 30%.'<br><br>Quelle est l'explication la plus probable ?"
-  },
-  "options": [
-    {
-      "content": "Les détecteurs permettent de repérer plus d'incendies qui passaient inaperçus avant",
-      "correct": true
-    },
-    {
-      "content": "Les détecteurs causent les incendies"
-    },
-    {
-      "content": "C'est une coïncidence"
-    },
-    {
-      "content": "Les statistiques sont fausses"
-    }
-  ]
-},
-{
-  "question_attributes": {
-    "type": "multiple_choice",
-    "content": "Argument : 'Si cette théorie était fausse, les scientifiques l'auraient déjà réfutée.'<br><br>Quel principe épistémologique est négligé ici ?"
-  },
-  "options": [
-    {
-      "content": "La charge de la preuve incombe à celui qui fait l'affirmation, pas à ceux qui doutent",
-      "correct": true
-    },
-    {
-      "content": "Les scientifiques peuvent se tromper"
-    },
-    {
-      "content": "La théorie n'est pas testable"
-    },
-    {
-      "content": "Les preuves sont insuffisantes"
-    }
-  ]
-}
- ]
 }

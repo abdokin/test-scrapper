@@ -1,68 +1,42 @@
 {
-  "title": "Résolution de problèmes",
+  "title": "Résolution de problème",
   "attributes": {
-    "overview": "Ce test évalue la capacité des candidats à analyser des situations complexes, à identifier les informations pertinentes et à prendre des décisions logiques basées sur des données.",
+    "overview": "Ce test de résolution de problèmes évalue la capacité des candidats à définir des problèmes et à analyser des données et des informations textuelles pour prendre des décisions correctes. Ce test vous aide à identifier les candidats qui utilisent des compétences analytiques pour évaluer des situations complexes et y répondre.",
     "level": "intermediate",
     "covered_skills": [
-      "Analyse de situations",
-      "Prise de décision",
-      "Logique déductive",
-      "Interprétation de données",
-      "Résolution de conflits",
-      "Identification des priorités",
-      "Gestion des ressources",
-      "Pensée critique"
+      "Créer et ajuster des plannings",
+      "Interpréter des données et appliquer la logique pour prendre des décisions",
+      "Établir des priorités et appliquer un ordre sur la base d'un ensemble donné de règles",
+      "Analyser des informations textuelles et numériques pour tirer des conclusions"
     ],
-    "relevancy": "Ce test est pertinent pour les postes nécessitant une bonne capacité d'analyse, de prise de décision et de résolution de problèmes complexes.",
-    "description": "Le test évalue la capacité à comprendre des situations complexes et à proposer des solutions appropriées.",
+    "relevancy": "Toute fonction impliquant la gestion de variables en constante évolution dans des délais serrés. Il peut s'agir d'assistants administratifs, de chefs de projet, de planificateurs et de personnes travaillant dans l'hôtellerie ou la vente.",
+    "description": "La résolution efficace de problèmes requiert un vaste ensemble de compétences qui permet aux individus, aux équipes et aux entreprises de progresser vers les objectifs fixés. Elle implique la capacité de définir un problème, de le décomposer en parties gérables, de développer des approches pour résoudre le (sous-)problème en faisant appel à la créativité et à la pensée analytique, et de l'exécuter sans faille.\n\nCe test de résolution de problèmes vous permet d'identifier les candidats qui font preuve de ces capacités. Le test présente aux candidats des scénarios typiques de résolution de problèmes, tels que l'établissement d'un calendrier sur la base d'un ensemble diversifié de conditions, l'identification de la bonne séquence d'actions sur la base d'un certain nombre de règles de gestion et la formulation de conclusions sur la base d'informations textuelles et numériques. \n\nLe test exige des candidats qu'ils identifient les bonnes réponses aux questions dans un temps limité. Les candidats qui réussissent le test sont capables d'identifier rapidement les éléments clés du problème et de le résoudre rapidement sans commettre d'erreurs. Il s'agit d'un excellent test à inclure pour vérifier les compétences analytiques générales des candidats.",
     "category": "Cognitive ability",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 540,
     "position": 1
   },
-  "questions": [
+  "questions":   [
     {
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Une entreprise constate une baisse de 15% des ventes en ligne alors que les visites sur le site augmentent de 20%. Les retours clients mentionnent des problèmes lors du paiement.<br><br>Quelle devrait être la première action à entreprendre ?"
+        "content": "<div class=\"ql-editor\"><p>Voici l'emploi du temps de Nathan, Sarah et Violette :</p><p><br></p><table style=\"border-collapse: collapse; width: 100%;\"> <tr> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Dim</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Lun</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mar</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mer</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Jeu</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ven</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sam</th> </tr> <tr> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> </tr> <tr> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> </tr> </table><p><br></p><p>Nicole peut travailler n'importe quel jour où Nathan ou Julie sont programmés. Julie peut travailler n'importe quel jour où Sarah ou Violette sont programmées.</p><p>&nbsp;</p><p><strong>Qui peut être programmé n'importe quel jour de la semaine ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Auditer le système de paiement en ligne",
+          "content": "<p>Personne</p>"
+        },
+        {
+          "content": "<p>Nicole</p>"
+        },
+        {
+          "content": "<p>Julie</p>"
+        },
+        {
+          "content": "<p>Julie et Nicole</p>",
           "correct": true
-        },
-        {
-          "content": "Augmenter le budget marketing"
-        },
-        {
-          "content": "Réduire les prix des produits"
-        },
-        {
-          "content": "Modifier le design du site"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "Dans une équipe de 10 personnes, 3 membres signalent régulièrement des conflits avec un collègue qui arrive systématiquement en retard aux réunions et ne respecte pas les délais.<br><br>Quelle approche serait la plus appropriée ?"
-      },
-      "options": [
-        {
-          "content": "Organiser une réunion individuelle avec le collègue pour comprendre la situation",
-          "correct": true
-        },
-        {
-          "content": "Exclure immédiatement le collègue de l'équipe"
-        },
-        {
-          "content": "Ignorer le problème pour éviter les tensions"
-        },
-        {
-          "content": "Réorganiser toute l'équipe"
         }
       ]
     },
@@ -70,714 +44,904 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Un restaurant reçoit de nombreuses plaintes concernant le temps d'attente le soir. L'analyse montre que :<br>- Le temps d'attente moyen est de 45 minutes<br>- Il y a 2 serveurs pour 20 tables<br>- La cuisine fonctionne normalement<br><br>Quelle solution serait la plus efficace ?"
+        "content": "<div class=\"ql-editor\"><p>45 personnes d'une certaine société peuvent travailler ensemble pour terminer un projet en 15 jours. Pour un projet de la même charge de travail, la société a décidé d'employer 15 personnes. Supposez que toutes les personnes ont le même niveau de productivité.</p><p>&nbsp;</p><p><strong>En combien de jours ce projet peut-il être achevé ?&nbsp;</strong></p></div>"
       },
       "options": [
         {
-          "content": "Embaucher un serveur supplémentaire pour le service du soir",
+          "content": "<p>5 jours</p>"
+        },
+        {
+          "content": "<p>10 jours</p>"
+        },
+        {
+          "content": "<p>45 jours</p>"
+        },
+        {
+          "content": "<p>22,5 jours</p>",
           "correct": true
-        },
-        {
-          "content": "Augmenter les prix"
-        },
-        {
-          "content": "Réduire le nombre de tables"
-        },
-        {
-          "content": "Modifier le menu"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une entreprise doit livrer 3 commandes urgentes avec un seul véhicule :<br>- Client A : 10 km, délai 2h<br>- Client B : 5 km, délai 3h<br>- Client C : 15 km, délai 1h<br><br>Dans quel ordre effectuer les livraisons ?"
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p>Le tableau suivant indique l'ordre dans lequel certains ingrédients, étiquetés de A à F, doivent être mélangés (la gauche en premier, la droite en dernier).</p><p><br></p><table style=\"border-collapse: collapse; width: 100%;\"> <tr> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">?</th> </tr> </table><p><br></p><p>De plus, nous savons que :</p><p><br></p><ol><li>Les ingrédients A et D sont ajoutés par étapes consécutives</li><li>B est ajouté avant A</li><li>F n'est pas ajouté juste avant ou juste après C</li></ol><p><br></p><p><strong>Quel ingrédient doit être ajouté en dernier ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "C - B - A",
+          "content": "<p>B</p>"
+        },
+        {
+          "content": "<p>D</p>"
+        },
+        {
+          "content": "<p>E</p>",
           "correct": true
         },
         {
-          "content": "A - B - C"
-        },
-        {
-          "content": "B - A - C"
-        },
-        {
-          "content": "B - C - A"
+          "content": "<p>F</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un projet important est en retard de 2 semaines sur un délai initial de 8 semaines. L'équipe dispose de trois options :<br>1. Ajouter 2 nouveaux membres (1 semaine de formation nécessaire)<br>2. Faire des heures supplémentaires (coût élevé)<br>3. Réduire certaines fonctionnalités<br><br>Quelle est la meilleure solution ?"
+        "preview": true,
+        "content": "<div class=\"ql-editor\"><p>Une cliente souhaite commander un gâteau sans œuf et avec une garniture biologique.</p><p><br></p><p><table style=\"width: 100%; border-collapse: collapse;\"> <tr> <th colspan=\"2\" style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Garnitures</th> <th colspan=\"2\" style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Gâteaux</th> </tr> <tr> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Biologique</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Non biologique</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Sans œufs</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Avec œufs</th> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Cerises</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Oranges</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux au beurre</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux quatre-quarts</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Fraises</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Kiwis</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux éponges</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux aux carottes</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Pommes</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Poires</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux mousseline</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Génoises</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Poires</td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> </tr> </table></p><p><br></p><p><strong>Lequel des gâteaux suivants peut-elle commander ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Réduire certaines fonctionnalités",
+          "content": "<p>Gâteau quatre-quarts garni de poires et de fraises.</p>"
+        },
+        {
+          "content": "<p>Gâteau au beurre garni d'oranges et de kiwis.</p>"
+        },
+        {
+          "content": "<p>Génoise garnie de pommes et de cerises.</p>"
+        },
+        {
+          "content": "<p>Gâteau mousseline garni de fraises et de pommes.</p>",
           "correct": true
-        },
-        {
-          "content": "Ajouter 2 nouveaux membres"
-        },
-        {
-          "content": "Faire des heures supplémentaires"
-        },
-        {
-          "content": "Combiner les options 1 et 2"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un magasin constate que 30% des clients quittent la file d'attente sans acheter. Les données montrent :<br>- Temps d'attente moyen : 12 minutes<br>- 2 caisses sur 5 sont ouvertes<br>- Pic d'affluence entre 12h et 14h<br><br>Quelle solution apporterait le meilleur rapport coût/efficacité ?"
+        "content": "<p>Dans une entreprise, un projet nécessite 120 heures de travail. Marie travaille 25% plus vite que la moyenne, Pierre travaille à la vitesse moyenne, et Sophie travaille 20% moins vite que la moyenne. Si les trois travaillent ensemble sur le projet, combien d'heures leur faudra-t-il ?</p>"
       },
       "options": [
         {
-          "content": "Ouvrir une caisse supplémentaire aux heures de pointe",
+          "content": "<p>35 heures</p>"
+        },
+        {
+          "content": "<p>40 heures</p>",
           "correct": true
         },
         {
-          "content": "Installer des caisses automatiques"
+          "content": "<p>45 heures</p>"
         },
         {
-          "content": "Agrandir l'espace d'attente"
+          "content": "<p>50 heures</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un magasin souhaite organiser ses produits selon les règles suivantes :</p><ul><li>Les produits frais doivent être placés près de la caisse</li><li>Les produits lourds doivent être près de l'entrée</li><li>Les produits fragiles ne doivent pas être près des produits lourds</li></ul><p><strong>Parmi les arrangements suivants, lesquels respectent toutes les règles ?</strong></p>"
+      },
+             "options": [
+        {
+          "content": "<p>Entrée → Produits lourds → Produits fragiles → Produits frais → Caisse</p>",
+          "correct": true
         },
         {
-          "content": "Réduire les prix aux heures creuses"
+          "content": "<p>Entrée → Produits fragiles → Produits lourds → Produits frais → Caisse</p>"
+        },
+        {
+          "content": "<p>Entrée → Produits lourds → Produits frais → Produits fragiles → Caisse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Entrée → Produits frais → Produits fragiles → Produits lourds → Caisse</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans un entrepôt, on constate une augmentation des erreurs de préparation de commandes :<br>- 15% d'erreurs le matin<br>- 25% d'erreurs l'après-midi<br>- Système d'éclairage vieillissant<br>- Nouvelle organisation des stocks depuis 1 mois<br><br>Quelle est la cause probable principale ?"
+        "content": "<p>Une équipe de 5 personnes doit être formée à partir de 8 employés. Lucas et Marie ne peuvent pas être dans la même équipe. Antoine doit obligatoirement faire partie de l'équipe. Si Marie est sélectionnée, Thomas doit aussi l'être.</p><p><strong>Combien de combinaisons d'équipes différentes sont possibles ?</strong></p>"
       },
       "options": [
         {
-          "content": "La nouvelle organisation des stocks",
+          "content": "<p>12 combinaisons</p>"
+        },
+        {
+          "content": "<p>15 combinaisons</p>"
+        },
+        {
+          "content": "<p>18 combinaisons</p>",
           "correct": true
         },
         {
-          "content": "Le système d'éclairage"
+          "content": "<p>21 combinaisons</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un gestionnaire de projet doit planifier une série de tâches avec les contraintes suivantes :</p><ul><li>La tâche A doit être terminée avant la tâche B</li><li>Les tâches C et D peuvent être effectuées en parallèle</li><li>La tâche E ne peut commencer qu'après la fin des tâches B et C</li></ul><p><strong>Quelles séquences de tâches sont valides ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>A → B → C → D → E</p>",
+          "correct": true
         },
         {
-          "content": "La fatigue des employés"
+          "content": "<p>C → D → A → B → E</p>",
+          "correct": true
         },
         {
-          "content": "Le manque de formation"
+          "content": "<p>B → A → C → D → E</p>"
+        },
+        {
+          "content": "<p>A → C → D → B → E</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une équipe doit choisir entre trois projets :<br>Projet A : 6 mois, ROI 20%, risque moyen<br>Projet B : 3 mois, ROI 15%, risque faible<br>Projet C : 12 mois, ROI 30%, risque élevé<br><br>Avec des ressources limitées, quel projet choisir ?"
+        "content": "<div class=\"ql-editor\"><p>Un entrepôt reçoit des livraisons selon le tableau suivant :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Matin</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Après-midi</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Lundi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">150</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">200</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mardi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">175</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">225</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mercredi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">125</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">175</td></tr></table><p>Si le taux de traitement est de 50 colis par heure et que chaque période (matin/après-midi) dure 4 heures, quel jour l'entrepôt accumulera-t-il le plus de retard ?</p></div>"
       },
       "options": [
         {
-          "content": "Projet B",
+          "content": "<p>Lundi</p>"
+        },
+        {
+          "content": "<p>Mardi</p>",
           "correct": true
         },
         {
-          "content": "Projet A"
+          "content": "<p>Mercredi</p>"
         },
         {
-          "content": "Projet C"
+          "content": "<p>Aucun retard ne sera accumulé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Dans un restaurant, les règles de service sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Température de service</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préparation</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Soupe</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat principal</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">65°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Dessert</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">4°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr></table><p>La température baisse de 5°C toutes les 2 minutes pour les plats chauds. <strong>Quelles séquences de préparation permettent de servir tous les plats à la bonne température ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Commencer par le plat principal, puis la soupe, puis le dessert</p>"
         },
         {
-          "content": "Projets A et B en parallèle"
+          "content": "<p>Commencer par la soupe, puis le plat principal, puis le dessert</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer la soupe et le plat principal en même temps, puis le dessert</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer le dessert en premier, puis le plat principal et la soupe</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un site e-commerce connaît les problèmes suivants :<br>- Taux d'abandon panier : 75%<br>- Temps de chargement moyen : 8 secondes<br>- Trafic mobile : 60% des visites<br>- Notes utilisateurs : 2,5/5<br><br>Quelle devrait être la priorité d'action ?"
+        "content": "<p>Une entreprise doit organiser trois réunions : finance (F), marketing (M) et production (P). Les contraintes sont :</p><ul><li>La réunion F doit avoir lieu avant la réunion M</li><li>La réunion P peut avoir lieu à n'importe quel moment</li><li>Il doit y avoir au moins une heure entre chaque réunion</li><li>Les réunions doivent se tenir entre 9h et 12h</li><li>Chaque réunion dure exactement une heure</li></ul><p><strong>Combien d'arrangements différents sont possibles ?</strong></p>"
       },
       "options": [
         {
-          "content": "Optimiser le temps de chargement du site",
+          "content": "<p>4 arrangements</p>"
+        },
+        {
+          "content": "<p>6 arrangements</p>",
           "correct": true
         },
         {
-          "content": "Refaire le design du site"
+          "content": "<p>8 arrangements</p>"
         },
         {
-          "content": "Ajouter plus de produits"
-        },
-        {
-          "content": "Augmenter le budget publicité"
+          "content": "<p>12 arrangements</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une entreprise de livraison fait face à une situation critique :<br>- 5 livreurs en arrêt maladie sur 20<br>- 100 colis urgents à livrer aujourd'hui<br>- Budget limité pour heures supplémentaires<br>- Délai client maximum : 24h<br><br>Quelle est la meilleure solution immédiate ?"
+        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes hebdomadaires :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Département</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes (€)</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Croissance hebdomadaire</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Électronique</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+5%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Vêtements</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+8%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Alimentation</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+3%</td></tr></table><p><strong>Dans combien de semaines le département Vêtements dépassera-t-il le département Électronique en termes de ventes hebdomadaires ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Prioriser les livraisons selon l'urgence et la proximité géographique",
+          "content": "<p>12 semaines</p>"
+        },
+        {
+          "content": "<p>15 semaines</p>",
           "correct": true
         },
         {
-          "content": "Embaucher des intérimaires"
+          "content": "<p>18 semaines</p>"
         },
         {
-          "content": "Reporter toutes les livraisons"
+          "content": "<p>Jamais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Une usine doit organiser sa production selon les contraintes suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Machine</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préchauffage</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de production</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de refroidissement</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1h</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td></tr></table><p>La journée de travail dure 8 heures. <strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La machine A peut être utilisée deux fois dans la journée</p>",
+          "correct": true
         },
         {
-          "content": "Sous-traiter à une autre entreprise"
+          "content": "<p>La machine B peut être utilisée deux fois dans la journée</p>"
+        },
+        {
+          "content": "<p>Les deux machines peuvent fonctionner simultanément</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est possible d'utiliser la machine A trois fois dans la journée</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans un service client, on observe :<br>- Temps d'attente moyen : 15 minutes<br>- 40% des appels concernent le même problème technique<br>- Satisfaction client en baisse de 30%<br>- Turnover des agents : 25%<br><br>Quelle action aurait le plus d'impact ?"
+        "content": "<p>Une équipe de développement doit livrer trois fonctionnalités : A, B et C. Les estimations sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Fonctionnalité</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de développement</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de test</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Valeur business</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Haute</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Moyenne</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Basse</td></tr></table><p>Si A dépend de C, et qu'une seule personne peut travailler sur le projet, quel est l'ordre optimal de développement ?</p>"
       },
       "options": [
         {
-          "content": "Créer une FAQ dédiée au problème technique récurrent",
+          "content": "<p>B → C → A</p>"
+        },
+        {
+          "content": "<p>C → A → B</p>",
           "correct": true
         },
         {
-          "content": "Augmenter le nombre d'agents"
+          "content": "<p>A → B → C</p>"
         },
         {
-          "content": "Changer le logiciel de gestion"
+          "content": "<p>C → B → A</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un responsable logistique doit organiser le stockage de trois types de produits : réfrigérés (R), congelés (C) et secs (S). Les contraintes sont :</p><ul><li>Les produits R et C doivent être stockés dans des zones à température contrôlée</li><li>Il y a deux zones à température contrôlée (Z1 et Z2) et une zone normale (Z3)</li><li>Z1 peut maintenir une température plus basse que Z2</li><li>Les produits C doivent être stockés à la température la plus basse possible</li></ul><p><strong>Quelles configurations de stockage sont valides ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Z1:C, Z2:R, Z3:S</p>",
+          "correct": true
         },
         {
-          "content": "Former plus les agents"
+          "content": "<p>Z1:R, Z2:C, Z3:S</p>"
+        },
+        {
+          "content": "<p>Z1:C, Z2:S, Z3:R</p>"
+        },
+        {
+          "content": "<p>Z1:C et R, Z2:vide, Z3:S</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une équipe projet rencontre des difficultés :<br>- Délais non respectés : 60% des tâches<br>- Communications confuses entre services<br>- Objectifs mal compris par l'équipe<br>- Budget respecté<br><br>Quelle action entreprendre en priorité ?"
+        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse ses ventes sur trois zones :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Zone</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes actuelles</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Croissance mensuelle</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût marketing</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nord</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+4%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2000€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sud</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+6%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1500€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Est</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+5%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1800€</td></tr></table><p>Si l'entreprise ne peut investir que dans une seule zone, laquelle devrait-elle choisir pour maximiser le retour sur investissement après 6 mois ?</p></div>"
       },
       "options": [
         {
-          "content": "Organiser une réunion de clarification des objectifs",
+          "content": "<p>Zone Nord</p>"
+        },
+        {
+          "content": "<p>Zone Sud</p>",
           "correct": true
         },
         {
-          "content": "Changer le chef de projet"
+          "content": "<p>Zone Est</p>"
         },
         {
-          "content": "Augmenter le budget"
-        },
-        {
-          "content": "Réduire la taille du projet"
+          "content": "<p>Toutes les zones sont équivalentes</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans un petit supermarché :<br>- 20% des produits représentent 80% des ventes<br>- Espace de stockage limité<br>- Pertes importantes sur produits frais<br>- Concurrence proche avec prix plus bas<br><br>Quelle stratégie adopter ?"
+        "content": "<p>Un chef de projet doit organiser une série de formations pour son équipe. Les contraintes sont :</p><ul><li>Formation technique (T) : 3 heures</li><li>Formation management (M) : 2 heures</li><li>Formation sécurité (S) : 1 heure</li><li>La formation T doit avoir lieu avant M</li><li>La formation S peut avoir lieu à tout moment</li><li>Il faut une pause d'au moins 30 minutes entre chaque formation</li><li>La journée commence à 9h et se termine à 17h</li></ul><p><strong>Quelle est l'heure la plus tardive à laquelle la journée de formation peut se terminer, en respectant toutes les contraintes ?</strong></p>"
       },
       "options": [
         {
-          "content": "Optimiser le stock des produits les plus vendus et réduire celui des autres",
+          "content": "<p>15h30</p>"
+        },
+        {
+          "content": "<p>16h00</p>"
+        },
+        {
+          "content": "<p>16h30</p>",
           "correct": true
         },
         {
-          "content": "Baisser tous les prix"
+          "content": "<p>17h00</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse les compétences de ses employés :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Employé</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Programmation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Design</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Gestion</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Alex</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Béa</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Chris</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr></table><p>Un projet requiert de la programmation et de la gestion. Il faut constituer une équipe de deux personnes avec au moins une compétence en commun. <strong>Quelles combinaisons d'équipes sont possibles ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Alex et Béa</p>"
         },
         {
-          "content": "Agrandir le magasin"
+          "content": "<p>Alex et Chris</p>",
+          "correct": true
         },
         {
-          "content": "Changer de fournisseurs"
+          "content": "<p>Béa et Chris</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les trois ensemble</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une startup en croissance fait face à :<br>- Augmentation rapide des clients (+200%)<br>- Infrastructure IT saturée<br>- Budget limité<br>- Équipe technique restreinte<br><br>Quelle solution privilégier ?"
+        "content": "<div class=\"ql-editor\"><p>Dans un centre d'appels, les appels sont distribués selon le tableau suivant :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Période</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nombre d'appels</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Durée moyenne</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8h-10h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10h-12h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12h-14h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">60</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">6 min</td></tr></table><p>Sachant qu'un agent peut travailler 7 heures par jour avec une efficacité de 80%, combien d'agents sont nécessaires pour couvrir la période 8h-14h ?</p></div>"
       },
       "options": [
         {
-          "content": "Migrer vers une infrastructure cloud évolutive",
+          "content": "<p>4 agents</p>"
+        },
+        {
+          "content": "<p>5 agents</p>"
+        },
+        {
+          "content": "<p>6 agents</p>",
           "correct": true
         },
         {
-          "content": "Acheter plus de serveurs"
+          "content": "<p>7 agents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise de livraison doit optimiser ses routes. Les contraintes sont :</p><ul><li>Le camion A peut transporter jusqu'à 1000 kg</li><li>Le camion B peut transporter jusqu'à 800 kg</li><li>Les livraisons doivent être faites avant 17h</li><li>Chaque camion ne peut faire qu'un seul voyage</li></ul><p>Commandes à livrer :</p><ul><li>Client 1 : 400 kg (délai : 15h)</li><li>Client 2 : 600 kg (délai : 16h)</li><li>Client 3 : 500 kg (délai : 14h)</li><li>Client 4 : 300 kg (délai : 17h)</li></ul><p><strong>Quelles combinaisons de livraisons sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Camion A : Clients 1 et 2 / Camion B : Clients 3 et 4</p>"
         },
         {
-          "content": "Limiter les nouveaux clients"
+          "content": "<p>Camion A : Clients 2 et 4 / Camion B : Clients 1 et 3</p>",
+          "correct": true
         },
         {
-          "content": "Recruter plus de techniciens"
+          "content": "<p>Camion A : Clients 1 et 3 / Camion B : Clients 2 et 4</p>"
+        },
+        {
+          "content": "<p>Camion A : Clients 3 et 4 / Camion B : Clients 1 et 2</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans une usine de production :<br>- Pannes fréquentes d'une machine clé<br>- Coût maintenance : +40% cette année<br>- Machine amortie depuis 3 ans<br>- Production en hausse<br><br>Quelle décision prendre ?"
+        "content": "<div class=\"ql-editor\"><p>Un restaurant analyse ses commandes du midi :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préparation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Commandes moyennes</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Salade</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pasta</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pizza</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">18€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25</td></tr></table><p>Si le restaurant veut maximiser son efficacité (revenu par minute de préparation), quel plat devrait-il promouvoir ?</p></div>"
       },
       "options": [
         {
-          "content": "Investir dans une nouvelle machine",
+          "content": "<p>Salade</p>",
           "correct": true
         },
         {
-          "content": "Continuer la maintenance"
+          "content": "<p>Pasta</p>"
         },
         {
-          "content": "Former plus de techniciens"
+          "content": "<p>Pizza</p>"
         },
         {
-          "content": "Réduire la production"
+          "content": "<p>Tous les plats sont équivalents</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une chaîne de restaurants constate :<br>- Baisse de qualité des plats signalée<br>- Rotation élevée du personnel en cuisine<br>- Temps de préparation en hausse de 30%<br>- Coûts des matières premières stables<br>- Chef principal démissionnaire<br><br>Quelle action prioritaire entreprendre ?"
+        "content": "<p>Une équipe de développement utilise la méthode suivante pour estimer les tâches :</p><ul><li>Tâche facile : 1 point</li><li>Tâche moyenne : 2 points</li><li>Tâche difficile : 3 points</li><li>Tâche complexe : 5 points</li></ul><p>L'équipe peut traiter 8 points par semaine. Pour un projet donné, il y a :</p><ul><li>2 tâches faciles</li><li>3 tâches moyennes</li><li>2 tâches difficiles</li><li>1 tâche complexe</li></ul><p><strong>Combien de semaines seront nécessaires pour compléter le projet ?</strong></p>"
       },
       "options": [
         {
-          "content": "Recruter un chef expérimenté et revoir l'organisation de la cuisine",
+          "content": "<p>2 semaines</p>"
+        },
+        {
+          "content": "<p>2.5 semaines</p>"
+        },
+        {
+          "content": "<p>3 semaines</p>",
           "correct": true
         },
         {
-          "content": "Changer les fournisseurs"
+          "content": "<p>3.5 semaines</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse les compétences requises pour différents projets :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Design</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Développement</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marketing</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr></table><p>Si Marie a des compétences en design et marketing, et Thomas en développement, <strong>quels projets peuvent-ils réaliser ensemble ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Projet A</p>",
+          "correct": true
         },
         {
-          "content": "Simplifier la carte"
+          "content": "<p>Projet B</p>",
+          "correct": true
         },
         {
-          "content": "Augmenter les salaires"
+          "content": "<p>Projet C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Aucun projet</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans une école de formation :<br>- Taux d'abandon des étudiants : 35%<br>- Satisfaction des cours en ligne : 65%<br>- Satisfaction des cours présentiels : 85%<br>- Demandes d'inscription en hausse<br><br>Quelle stratégie adopter ?"
+        "content": "<p>Une entreprise doit organiser des formations pour 12 employés. Les contraintes sont :</p><ul><li>Maximum 4 personnes par session</li><li>Chaque session dure 2 heures</li><li>Il faut 30 minutes de pause entre les sessions</li><li>La journée commence à 9h et se termine à 17h</li><li>Le formateur a besoin d'une pause déjeuner d'une heure</li></ul><p><strong>Quel est le nombre minimum de jours nécessaires pour former tous les employés ?</strong></p>"
       },
       "options": [
         {
-          "content": "Privilégier les cours en présentiel et améliorer la qualité du contenu en ligne",
+          "content": "<p>1 jour</p>",
           "correct": true
         },
         {
-          "content": "Passer tout en distanciel"
+          "content": "<p>2 jours</p>"
         },
         {
-          "content": "Réduire les effectifs"
+          "content": "<p>3 jours</p>"
         },
         {
-          "content": "Augmenter les frais d'inscription"
+          "content": "<p>4 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes par heure :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Heure</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Clients</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes moyennes</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">9h-11h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">11h-13h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">13h-15h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35€</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La période 11h-13h génère le plus de revenus totaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le panier moyen est le plus élevé entre 13h et 15h</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La période 9h-11h est la moins rentable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nombre de clients est constant tout au long de la journée</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une entreprise fait face à une crise médiatique :<br>- Accusations sur réseaux sociaux<br>- Clients mécontents qui s'expriment<br>- Employés inquiets<br>- Chiffre d'affaires en baisse de 15%<br><br>Quelle devrait être la première réaction ?"
+        "content": "<div class=\"ql-editor\"><p>Une bibliothèque analyse son système de prêt :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Type</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Durée de prêt</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pénalité par jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Retards moyens</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Romans</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">14 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.50€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 jours</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Magazines</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">7 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">DVD</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td></tr></table><p>Sur 100 emprunts de chaque type, quel montant total de pénalités la bibliothèque peut-elle s'attendre à percevoir ?</p></div>"
       },
       "options": [
         {
-          "content": "Communiquer de manière transparente sur les actions correctives prévues",
+          "content": "<p>350€</p>"
+        },
+        {
+          "content": "<p>400€</p>",
           "correct": true
         },
         {
-          "content": "Ignorer les accusations"
+          "content": "<p>450€</p>"
         },
         {
-          "content": "Fermer les réseaux sociaux"
+          "content": "<p>500€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un gestionnaire de projet doit organiser trois réunions avec différentes équipes. Les contraintes sont :</p><ul><li>L'équipe A est disponible le matin avant 11h</li><li>L'équipe B est disponible l'après-midi après 14h</li><li>L'équipe C est disponible toute la journée</li><li>Les réunions durent 1 heure</li><li>Il faut 30 minutes entre chaque réunion</li><li>La journée va de 9h à 17h</li></ul><p><strong>Quelles séquences de réunions sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>A → C → B</p>",
+          "correct": true
         },
         {
-          "content": "Lancer une campagne publicitaire"
+          "content": "<p>C → A → B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>B → C → A</p>"
+        },
+        {
+          "content": "<p>C → B → A</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans un entrepôt logistique :<br>- Erreurs de picking : +25%<br>- Nouveaux employés : 40% de l'effectif<br>- Système de gestion récemment mis à jour<br>- Plaintes clients en hausse<br><br>Quelle solution mettre en place ?"
+        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse l'efficacité de ses canaux de communication :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Canal</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût par message</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux de réponse</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Valeur moyenne</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Email</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.10€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">SMS</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.25€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Téléphone</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40€</td></tr></table><p>Pour 1000 contacts, quel canal offre le meilleur retour sur investissement ?</p></div>"
       },
       "options": [
         {
-          "content": "Renforcer la formation des nouveaux employés sur le système",
+          "content": "<p>Email</p>",
           "correct": true
         },
         {
-          "content": "Revenir à l'ancien système"
+          "content": "<p>SMS</p>"
         },
         {
-          "content": "Automatiser tout le picking"
+          "content": "<p>Téléphone</p>"
         },
         {
-          "content": "Embaucher plus de personnel"
+          "content": "<p>Tous les canaux sont équivalents</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un service informatique constate :<br>- Augmentation des tickets support : +50%<br>- Temps de résolution moyen : 48h<br>- Problèmes récurrents : 60% des cas<br>- Satisfaction utilisateurs : 45%<br><br>Quelle approche privilégier ?"
+        "content": "<p>Une équipe doit livrer trois modules logiciels : Interface (I), Base de données (B), et API (A). Les contraintes sont :</p><ul><li>L'interface dépend de l'API</li><li>La base de données est indépendante</li><li>Chaque module prend exactement 2 semaines</li><li>L'équipe peut travailler sur deux modules en parallèle</li></ul><p><strong>Quelle est la durée minimale pour livrer tous les modules ?</strong></p>"
       },
       "options": [
         {
-          "content": "Créer une base de connaissances pour les problèmes récurrents",
+          "content": "<p>2 semaines</p>"
+        },
+        {
+          "content": "<p>4 semaines</p>",
           "correct": true
         },
         {
-          "content": "Remplacer tous les équipements"
+          "content": "<p>6 semaines</p>"
         },
         {
-          "content": "Doubler l'équipe support"
+          "content": "<p>8 semaines</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Un service client analyse ses performances :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Agent</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Appels/heure</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Satisfaction</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Résolution</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marc</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">90%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Julie</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Paul</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Marc a la meilleure qualité de service globale</p>",
+          "correct": true
         },
         {
-          "content": "Externaliser le support"
+          "content": "<p>Julie est la plus efficace en termes de volume</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Paul a les performances les plus équilibrées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tous les agents ont des performances équivalentes</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une équipe commerciale rencontre des difficultés :<br>- Objectifs atteints : 65%<br>- Durée moyenne de vente : +20%<br>- Taux de conversion en baisse<br>- Turnover commercial élevé<br><br>Quelle action entreprendre en priorité ?"
+        "content": "<p>Une entreprise doit optimiser sa chaîne de production. Les contraintes sont :</p><ul><li>L'étape A prend 2 minutes</li><li>L'étape B prend 3 minutes</li><li>L'étape C prend 1 minute</li><li>L'étape B ne peut commencer qu'après A</li><li>L'étape C peut commencer à tout moment</li><li>Il y a 3 postes de travail disponibles</li></ul><p><strong>Quel est le temps minimum nécessaire pour traiter 10 unités ?</strong></p>"
       },
       "options": [
         {
-          "content": "Analyser le processus de vente et identifier les points de blocage",
+          "content": "<p>20 minutes</p>"
+        },
+        {
+          "content": "<p>25 minutes</p>"
+        },
+        {
+          "content": "<p>30 minutes</p>",
           "correct": true
         },
         {
-          "content": "Changer tous les objectifs"
-        },
-        {
-          "content": "Recruter plus de commerciaux"
-        },
-        {
-          "content": "Augmenter les commissions"
+          "content": "<p>35 minutes</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Dans un service de maintenance :<br>- Délais d'intervention : +40%<br>- Coûts des pièces : +25%<br>- Stock de pièces insuffisant<br>- Satisfaction client : 55%<br><br>Quelle solution apporter ?"
+        "content": "<div class=\"ql-editor\"><p>Un service de livraison analyse ses performances :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Zone</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Distance moyenne</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps moyen</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût/km</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1.5€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1€</td></tr></table><p>Pour 100 livraisons réparties également entre les zones, quel est le coût total ?</p></div>"
       },
       "options": [
         {
-          "content": "Optimiser la gestion des stocks et prévoir les pièces critiques",
+          "content": "<p>1500€</p>"
+        },
+        {
+          "content": "<p>1700€</p>",
           "correct": true
         },
         {
-          "content": "Augmenter tous les stocks"
+          "content": "<p>1900€</p>"
         },
         {
-          "content": "Sous-traiter la maintenance"
+          "content": "<p>2100€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise doit gérer trois projets simultanément. Les contraintes sont :</p><ul><li>Le projet A nécessite 2 développeurs et 1 designer</li><li>Le projet B nécessite 1 développeur et 2 designers</li><li>Le projet C nécessite 1 développeur et 1 designer</li><li>L'équipe compte 3 développeurs et 3 designers au total</li></ul><p><strong>Quelles combinaisons de projets peuvent être réalisées simultanément ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Projets A et B</p>"
         },
         {
-          "content": "Augmenter les prix"
+          "content": "<p>Projets A et C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Projets B et C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les trois projets ensemble</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une entreprise lance sa transformation digitale :<br>- Résistance de 40% des employés<br>- Coûts dépassant de 30% le budget<br>- Retard de 2 mois sur le planning<br>- Premiers retours utilisateurs mitigés<br><br>Quelle action corrective privilégier ?"
+        "content": "<div class=\"ql-editor\"><p>Un restaurant analyse ses temps de service :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Étape</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps minimum</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps maximum</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prise de commande</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Préparation</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Service</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 min</td></tr></table><p>Pour servir 4 tables simultanément avec 2 serveurs et 2 cuisiniers, quel est le temps maximum théorique nécessaire ?</p></div>"
       },
       "options": [
         {
-          "content": "Mettre en place un plan d'accompagnement au changement et de formation",
+          "content": "<p>20 minutes</p>"
+        },
+        {
+          "content": "<p>25 minutes</p>"
+        },
+        {
+          "content": "<p>28 minutes</p>",
           "correct": true
         },
         {
-          "content": "Abandonner la transformation"
-        },
-        {
-          "content": "Imposer les changements"
-        },
-        {
-          "content": "Changer de prestataire"
+          "content": "<p>30 minutes</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un projet critique présente :<br>- 3 équipes en conflit<br>- Objectifs interprétés différemment<br>- Deadline dans 2 mois<br>- Budget déjà consommé à 70%<br><br>Quelle approche adopter ?"
+        "content": "<p>Une équipe marketing dispose d'un budget de 10000€ pour une campagne. Les options sont :</p><ul><li>Publicité en ligne : 2000€ pour 100000 impressions</li><li>Affichage urbain : 3000€ pour 50000 impressions</li><li>Radio : 4000€ pour 75000 impressions</li></ul><p>Si l'objectif est de maximiser le nombre d'impressions, quelle combinaison devrait être choisie ?</p>"
       },
       "options": [
         {
-          "content": "Organiser un workshop de réalignement des objectifs entre équipes",
+          "content": "<p>5 campagnes en ligne</p>",
           "correct": true
         },
         {
-          "content": "Remplacer les chefs d'équipe"
+          "content": "<p>2 campagnes en ligne + 2 affichages urbains</p>"
         },
         {
-          "content": "Fusionner les équipes"
+          "content": "<p>1 campagne en ligne + 1 radio + 1 affichage urbain</p>"
         },
         {
-          "content": "Demander plus de budget"
+          "content": "<p>2 radios + 1 affichage urbain</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes par catégorie :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Catégorie</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes/jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marge</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Stock moyen</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">200</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">100</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>La catégorie A a la rotation de stock la plus rapide</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La catégorie C a la meilleure marge</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La catégorie B a le meilleur équilibre ventes/marge</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toutes les catégories ont la même rentabilité</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une usine fait face à :<br>- Qualité produits : -15%<br>- Accidents de travail : +20%<br>- Absentéisme élevé<br>- Maintenance préventive négligée<br><br>Quelle priorité d'action ?"
+        "content": "<p>Une entreprise analyse trois processus de production :</p><ul><li>Processus 1 : 100 unités/heure, 5% de défauts</li><li>Processus 2 : 80 unités/heure, 3% de défauts</li><li>Processus 3 : 120 unités/heure, 8% de défauts</li></ul><p><strong>Pour produire 1000 unités sans défaut, quel processus est le plus rapide ?</strong></p>"
       },
       "options": [
         {
-          "content": "Réaliser un audit sécurité et qualité complet",
+          "content": "<p>Processus 1</p>"
+        },
+        {
+          "content": "<p>Processus 2</p>",
           "correct": true
         },
         {
-          "content": "Licencier les absents"
+          "content": "<p>Processus 3</p>"
         },
         {
-          "content": "Augmenter la production"
-        },
-        {
-          "content": "Changer les machines"
+          "content": "<p>Tous les processus sont équivalents</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Situation dans un grand magasin :<br>- Vols en hausse de 25%<br>- Système de surveillance obsolète<br>- Personnel de sécurité insuffisant<br>- Budget sécurité limité<br><br>Quelle solution privilégier ?"
+        "content": "<div class=\"ql-editor\"><p>Une école de langues analyse ses résultats :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Niveau</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Heures/niveau</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux de réussite</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix/heure</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Débutant</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Intermédiaire</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Avancé</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">65%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50€</td></tr></table><p>Pour un budget de 2000€, quel niveau offre la meilleure probabilité d'obtention du diplôme ?</p></div>"
       },
       "options": [
         {
-          "content": "Moderniser le système de surveillance en priorisant les zones sensibles",
+          "content": "<p>Niveau Débutant</p>",
           "correct": true
         },
         {
-          "content": "Fermer temporairement"
+          "content": "<p>Niveau Intermédiaire</p>"
         },
         {
-          "content": "Augmenter tous les prix"
+          "content": "<p>Niveau Avancé</p>"
         },
         {
-          "content": "Réduire les horaires"
+          "content": "<p>Tous les niveaux sont équivalents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise doit organiser une conférence avec les contraintes suivantes :</p><ul><li>3 salles disponibles (capacités : 50, 100 et 150 personnes)</li><li>4 présentations prévues (audiences attendues : 40, 80, 120 et 90 personnes)</li><li>Chaque présentation dure exactement 1 heure</li><li>La conférence doit durer 2 heures maximum</li></ul><p><strong>Quelles organisations sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présentations 40 et 120 en parallèle, puis 80 et 90</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présentations 80 et 90 en parallèle, puis 40 et 120</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les quatre présentations en parallèle</p>"
+        },
+        {
+          "content": "<p>Présentations en séquence : 40, puis 80, puis 120, puis 90</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une PME constate :<br>- Croissance rapide : +100% en 1 an<br>- Structure organisationnelle floue<br>- Communication interne défaillante<br>- Processus non formalisés<br><br>Quelle action prioritaire ?"
+        "content": "<div class=\"ql-editor\"><p>Un service informatique analyse ses tickets support :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Priorité</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps moyen</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">% du total</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">SLA (heures)</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Haute</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Moyenne</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">4</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Basse</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8</td></tr></table><p>Pour traiter 100 tickets par jour avec un taux de respect des SLA de 100%, combien d'agents sont nécessaires (journée de 8 heures) ?</p></div>"
       },
       "options": [
         {
-          "content": "Redéfinir l'organigramme et formaliser les processus clés",
+          "content": "<p>25 agents</p>"
+        },
+        {
+          "content": "<p>27 agents</p>"
+        },
+        {
+          "content": "<p>29 agents</p>",
           "correct": true
         },
         {
-          "content": "Ralentir la croissance"
-        },
-        {
-          "content": "Licencier les managers"
-        },
-        {
-          "content": "Déménager dans de plus grands locaux"
+          "content": "<p>31 agents</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Un service RH observe :<br>- Durée recrutement : +45 jours<br>- Candidats qui se désistent : 30%<br>- Postes critiques non pourvus<br>- Process de recrutement complexe<br><br>Quelle solution apporter ?"
+        "content": "<p>Une entreprise de recyclage doit traiter trois types de matériaux :</p><ul><li>Plastique : 2 minutes/unité, capacité machine 100 unités/jour</li><li>Verre : 3 minutes/unité, capacité machine 80 unités/jour</li><li>Métal : 4 minutes/unité, capacité machine 60 unités/jour</li></ul><p>Les machines fonctionnent 8 heures par jour. Si l'entreprise reçoit 150 unités à répartir également entre les trois types, en combien de jours minimum peut-elle traiter toute la livraison ?</p>"
       },
       "options": [
         {
-          "content": "Simplifier le processus de recrutement et accélérer la prise de décision",
+          "content": "<p>1 jour</p>"
+        },
+        {
+          "content": "<p>2 jours</p>"
+        },
+        {
+          "content": "<p>3 jours</p>",
           "correct": true
         },
         {
-          "content": "Augmenter tous les salaires"
+          "content": "<p>4 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div class=\"ql-editor\"><p>Un hôtel analyse ses réservations :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Type</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix/nuit</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux occupation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût entretien</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Standard</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">100€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Supérieur</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">150€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">60%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Suite</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">250€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50€</td></tr></table><p><strong>Quelles affirmations sont correctes sur une base mensuelle (30 jours) ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Les chambres standard génèrent le plus de revenus</p>",
+          "correct": true
         },
         {
-          "content": "Externaliser tout le recrutement"
+          "content": "<p>Les suites ont la plus grande marge par nuit occupée</p>",
+          "correct": true
         },
         {
-          "content": "Réduire les exigences"
+          "content": "<p>Les chambres supérieures ont le meilleur ratio revenu/coût</p>"
+        },
+        {
+          "content": "<p>Tous les types de chambres ont la même rentabilité</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Une entreprise internationale constate :<br>- Collaboration difficile entre pays<br>- Fuseaux horaires problématiques<br>- Différences culturelles marquées<br>- Projets en retard de 30%<br><br>Quelle approche adopter ?"
+        "content": "<p>Une équipe de développement utilise un système de points pour estimer les tâches :</p><ul><li>1 point = 4 heures de travail</li><li>L'équipe peut traiter 20 points par sprint de 2 semaines</li><li>Chaque membre travaille 6 heures par jour sur les tâches</li><li>Les sprints sont du lundi au vendredi</li></ul><p><strong>Combien de développeurs compte l'équipe ?</strong></p>"
       },
       "options": [
         {
-          "content": "Mettre en place des outils collaboratifs et des règles de communication adaptées",
+          "content": "<p>3 développeurs</p>"
+        },
+        {
+          "content": "<p>4 développeurs</p>"
+        },
+        {
+          "content": "<p>5 développeurs</p>",
           "correct": true
         },
         {
-          "content": "Centraliser toutes les équipes"
-        },
-        {
-          "content": "Imposer une seule culture"
-        },
-        {
-          "content": "Réduire les projets internationaux"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Lors d'une fusion d'entreprises :<br>- Culture d'entreprise très différente<br>- Doublon de postes : 30% des effectifs<br>- Synergies non réalisées après 6 mois<br>- Démissions en hausse<br><br>Quelle devrait être la première action ?"
-      },
-      "options": [
-        {
-          "content": "Établir une feuille de route d'intégration claire avec objectifs mesurables",
-          "correct": true
-        },
-        {
-          "content": "Licencier immédiatement les doublons"
-        },
-        {
-          "content": "Maintenir les structures séparées"
-        },
-        {
-          "content": "Changer toute la direction"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Une entreprise fait face à des défis environnementaux :<br>- Pression des clients pour plus d'écologie<br>- Réglementation qui se durcit<br>- Coûts énergétiques en hausse de 40%<br>- Concurrents déjà engagés<br><br>Quelle stratégie adopter ?"
-      },
-      "options": [
-        {
-          "content": "Lancer un plan de transformation écologique avec objectifs à court et moyen terme",
-          "correct": true
-        },
-        {
-          "content": "Ignorer les pressions"
-        },
-        {
-          "content": "Délocaliser la production"
-        },
-        {
-          "content": "Augmenter les prix"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Un laboratoire de R&D constate :<br>- Innovation en baisse : -40% de brevets<br>- Budget constant mais résultats en baisse<br>- Départs de chercheurs clés<br>- Concurrence plus innovante<br><br>Quelle approche privilégier ?"
-      },
-      "options": [
-        {
-          "content": "Mettre en place un programme d'innovation ouverte et de collaboration externe",
-          "correct": true
-        },
-        {
-          "content": "Augmenter le budget"
-        },
-        {
-          "content": "Réduire les projets"
-        },
-        {
-          "content": "Copier la concurrence"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Face à une crise sanitaire dans l'entreprise :<br>- 25% des employés malades<br>- Production ralentie de 40%<br>- Protocoles sanitaires insuffisants<br>- Clients inquiets<br><br>Quelle action immédiate entreprendre ?"
-      },
-      "options": [
-        {
-          "content": "Renforcer les mesures sanitaires et réorganiser le travail en équipes isolées",
-          "correct": true
-        },
-        {
-          "content": "Fermer l'entreprise"
-        },
-        {
-          "content": "Ignorer la situation"
-        },
-        {
-          "content": "Licencier les malades"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Une entreprise traditionnelle fait face à :<br>- Nouveaux concurrents digitaux<br>- Parts de marché : -20% en 1 an<br>- Clients demandant plus de digital<br>- Système IT vieillissant<br><br>Quelle stratégie adopter ?"
-      },
-      "options": [
-        {
-          "content": "Lancer un plan de transformation digitale progressif et former les équipes",
-          "correct": true
-        },
-        {
-          "content": "Vendre l'entreprise"
-        },
-        {
-          "content": "Baisser tous les prix"
-        },
-        {
-          "content": "Licencier pour réduire les coûts"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Dans le cadre d'une expansion internationale :<br>- Marchés cibles très différents<br>- Ressources limitées<br>- Réglementations complexes<br>- Concurrence locale forte<br><br>Quelle approche choisir ?"
-      },
-      "options": [
-        {
-          "content": "Se concentrer sur un marché test avant d'étendre progressivement",
-          "correct": true
-        },
-        {
-          "content": "Entrer sur tous les marchés"
-        },
-        {
-          "content": "Abandonner l'expansion"
-        },
-        {
-          "content": "Racheter un concurrent"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Une startup en hypercroissance fait face à :<br>- Infrastructure technique saturée<br>- Qualité de service en baisse<br>- Dette technique importante<br>- Équipe tech débordée<br><br>Quelle décision prendre ?"
-      },
-      "options": [
-        {
-          "content": "Ralentir temporairement la croissance pour consolider l'infrastructure",
-          "correct": true
-        },
-        {
-          "content": "Continuer la croissance"
-        },
-        {
-          "content": "Changer toute l'infrastructure"
-        },
-        {
-          "content": "Licencier l'équipe tech"
+          "content": "<p>6 développeurs</p>"
         }
       ]
     }
