@@ -926,27 +926,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure façon de gérer les interruptions fréquentes au travail ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Ignorer toutes les interruptions</p>"
-        },
-        {
-          "content": "<p>Mettre en place des plages horaires dédiées aux demandes</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Travailler exclusivement en dehors des heures de bureau</p>"
-        },
-        {
-          "content": "<p>Porter des écouteurs en permanence</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_response",
         "content": "<p>Quelles sont les bonnes pratiques pour la gestion des archives numériques ?</p>"
       },
