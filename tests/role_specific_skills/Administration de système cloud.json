@@ -1,0 +1,981 @@
+{
+  "title": "Administration de système cloud",
+  "attributes": {
+    "overview": "Ce test d’administration de système cloud évalue les compétences des candidats en matière d’installation, de configuration et de maintenance des systèmes informatiques. Ce test vous aide à identifier les sysadmins ayant une expérience de Windows et de Linux, ainsi qu’une expérience des solutions et réseaux sur le cloud.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Administration des systèmes Windows",
+      "Administration du système Linux",
+      "Cloud AWS/Azure",
+      "Mise en réseau"
+    ],
+    "relevancy": "Administrateurs système cloud de niveau moyen à supérieur travaillant avec Windows, Linux, AWS et Azure.",
+    "description": "Aujourd’hui, presque toutes les organisations modernes s’appuient sur des systèmes et des réseaux informatiques pour mener à bien leurs activités. Et disposer d’une infrastructure informatique solide, bien organisée et fiable est un élément non négociable pour créer et développer une entreprise solide. Les administrateurs de systèmes cloud sont les experts qui déterminent les besoins en systèmes d’une organisation, mettent à niveau et optimisent les performances de ses systèmes, et résolvent les problèmes qui peuvent apparaître dans le matériel et les logiciels. \n\nCe test d’administration de système cloud évalue les compétences des candidats dans les systèmes Windows et Linux. Il évalue également les connaissances fondamentales des candidats en matière de cloud sur AWS et Azure, ainsi que leurs aptitudes en matière de réseaux. \n\nLes candidats qui obtiennent de bons résultats à ce test de sélection sont capables d’organiser et de gérer des systèmes Windows et Linux, et iels peuvent interpréter et résoudre les problèmes rencontrés par les utilisateurs du réseau. They also have the fundamental skills to provide support for infrastructure in the cloud and have a strong understanding of networking. This sysadmin test covers the day-to-day tasks of system administrators and a few less common ones they will deal with fairly regularly. Iels possèdent également les compétences fondamentales pour fournir un soutien à l’infrastructure dans le cloud et ont une bonne compréhension des réseaux. Ce test de sysadmin couvre les tâches quotidiennes des administrateurs système et quelques autres moins courantes auxquelles iels seront confrontés assez régulièrement.",
+    "category": "role_specific_skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous essayez de vous connecter à l'un de vos serveurs Windows sur site. Vous remarquez que la disposition du clavier n'est pas celle à laquelle vous êtes habitué et que votre mot de passe contient des caractères spéciaux.</p><p><br></p><p><strong>Que devez-vous faire pour vous connecter le plus rapidement possible&nbsp;?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser le clavier l'écran</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Redémarrer la machine</p>"
+        },
+        {
+          "content": "<p>Utiliser les touches rémanentes (sticky keys)</p>"
+        },
+        {
+          "content": "<p>Utiliser un contraste élevé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Votre entreprise travaille avec des informations critiques qui ne doivent pas être stockées sur une infrastructure partagée.</p><p><br></p><p><strong>Quel type de cloud devez-vous choisir&nbsp;?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Cloud communautaire</p>"
+        },
+        {
+          "content": "<p>Cloud hybride</p>"
+        },
+        {
+          "content": "<p>Cloud public</p>"
+        },
+        {
+          "content": "<p>Cloud privé</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Considérons le tableau de routage suivant.</p><ol><li>192.168.12.0/24, passerelle 10.10.0.3</li><li>192.168.0.0/16, passerelle 10.10.0.4</li><li>192.168.13.0/24, passerelle 10.10.0.2</li><li>0.0.0.0/0, passerelle 10.10.0.1</li></ol><p><br></p><p><strong>Quelle passerelle sera utilisée pour envoyer un paquet à 192.168.1.12&nbsp;?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>10.10.0.1</p>"
+        },
+        {
+          "content": "<p>10.10.0.2</p>"
+        },
+        {
+          "content": "<p>10.10.0.3</p>"
+        },
+        {
+          "content": "<p>10.10.0.4</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour automatiser le déploiement d'une infrastructure multi-cloud complexe avec un état partagé et une gestion des versions, quel outil serait le plus approprié?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Terraform avec backend distant et workspaces</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>AWS CloudFormation avec des templates imbriqués</p>"
+        },
+        {
+          "content": "<p>Azure Resource Manager avec des templates liés</p>"
+        },
+        {
+          "content": "<p>Ansible avec des playbooks dynamiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un environnement Kubernetes, votre cluster présente des problèmes de performance. Quelles métriques clés devriez-vous analyser pour diagnostiquer les goulots d'étranglement?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le taux de saturation du control plane et l'utilisation de l'etcd</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les métriques de pod throttling et le CPU throttling des conteneurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nombre de connexions TCP established et TIME_WAIT</p>"
+        },
+        {
+          "content": "<p>La latence des appels API et les erreurs 429 Too Many Requests</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre application conteneurisée subit des interruptions de service intermittentes. Les logs montrent des erreurs OOMKilled. Quelle est la meilleure approche pour résoudre ce problème tout en optimisant les coûts?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Augmenter les limites de mémoire de tous les pods</p>"
+        },
+        {
+          "content": "<p>Implémenter un Horizontal Pod Autoscaler basé sur l'utilisation de la mémoire avec des métriques personnalisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déployer l'application sur des nodes avec plus de mémoire</p>"
+        },
+        {
+          "content": "<p>Activer la compression de mémoire du kernel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez mettre en place une solution de base de données hautement disponible dans AWS avec une RTO de 30 secondes. Quelle configuration est la plus appropriée?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Multi-AZ RDS avec Read Replicas dans différentes régions</p>"
+        },
+        {
+          "content": "<p>Aurora Global Database avec Auto Failover et Write Forwarding</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>RDS Single-AZ avec snapshots automatiques</p>"
+        },
+        {
+          "content": "<p>DynamoDB avec tables globales</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Votre infrastructure utilise un cluster EKS avec des workloads sensibles. Quelles mesures de sécurité avancées devraient être mises en place?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configuration d'un pod security policy avec seccomp profiles personnalisés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémentation de network policies avec Calico en mode strict</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de Vault pour la gestion des secrets avec rotation automatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Activation du chiffrement des volumes EBS</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de l'analyse des métriques de performance d'une application distribuée, vous observez des latences élevées intermittentes. Les logs montrent des temps de réponse normaux. Quelle est la cause la plus probable?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Problème de configuration DNS</p>"
+        },
+        {
+          "content": "<p>Clock drift entre les différents services</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Saturation du réseau</p>"
+        },
+        {
+          "content": "<p>Cache miss rates élevés</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une migration vers une architecture de microservices, quels patterns de résilience devraient être implémentés?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Circuit Breaker avec configuration adaptative</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Bulkhead pattern avec isolation des ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Retry avec exponential backoff et jitter</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cache-Aside pattern simple</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez optimiser les performances d'une application stateless avec des pics de charge imprévisibles. Quelle solution d'auto-scaling est la plus appropriée?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Predictive scaling basé sur les métriques historiques</p>"
+        },
+        {
+          "content": "<p>Target tracking scaling avec custom metrics et warm pools</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Simple scaling basé sur la CPU utilisation</p>"
+        },
+        {
+          "content": "<p>Step scaling avec scheduled actions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un environnement multi-cloud avec Azure et AWS, comment gérer de manière optimale la synchronisation des identités et des accès?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser Azure AD comme IdP principal avec fédération AWS et SCIM</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir des systèmes d'identité séparés</p>"
+        },
+        {
+          "content": "<p>Utiliser AWS IAM comme système principal</p>"
+        },
+        {
+          "content": "<p>Implémenter un LDAP local synchronisé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Votre infrastructure cloud présente des coûts élevés imprévus. Quelles actions avancées permettraient d'optimiser ces coûts?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'une architecture serverless avec des triggers événementiels</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de Spot Instances avec des stratégies de fallback automatisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mise en place d'un système de tagging hiérarchique avec allocation des coûts</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réduction de la taille des instances</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour un système de messaging hautement distribué, quelle configuration garantirait la meilleure consistance des messages tout en maintenant des performances optimales?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Kafka avec ISR=2 et min.insync.replicas=2</p>"
+        },
+        {
+          "content": "<p>RabbitMQ avec Quorum Queues et lazy queues</p>"
+        },
+        {
+          "content": "<p>Apache Pulsar avec géo-réplication et curseurs persistants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Amazon SQS avec FIFO queues</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'implémentation d'une stratégie de disaster recovery pour une application critique, quels éléments doivent être considérés pour garantir un RPO < 1 minute?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mise en place d'une réplication synchrone des données avec monitoring des lag times</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémentation d'un journal de transactions avec réplication continue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de snapshots incrémentaux toutes les 5 minutes</p>"
+        },
+        {
+          "content": "<p>Utilisation de CDC (Change Data Capture) avec streaming en temps réel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Votre application containerisée présente des fuites de mémoire intermittentes difficiles à diagnostiquer. Quelle approche de debugging avancée est la plus appropriée?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utilisation de pprof avec heap profiling en continu</p>"
+        },
+        {
+          "content": "<p>Implémentation d'eBPF pour le tracing kernel-level avec flamegraphs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de core dumps automatiques</p>"
+        },
+        {
+          "content": "<p>Activation du garbage collector en mode verbose</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un environnement Kubernetes avec service mesh, quelles configurations avancées permettraient d'optimiser la sécurité des communications inter-services?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de mTLS avec rotation automatique des certificats</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration d'une authorization policy basée sur SPIFFE/SPIRE</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mise en place d'un WAF avec règles personnalisées</p>"
+        },
+        {
+          "content": "<p>Utilisation de service account tokens avec durée de vie limitée</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de l'optimisation des performances d'une base de données distribuée, vous observez des latences élevées sur certaines requêtes spécifiques. Quelle approche de diagnostic est la plus pertinente?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyse des EXPLAIN ANALYZE avec focus sur les scan patterns</p>"
+        },
+        {
+          "content": "<p>Implémentation d'un système de tracing distribué avec corrélation des spans</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Monitoring des locks et deadlocks</p>"
+        },
+        {
+          "content": "<p>Vérification des index et statistiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les coûts d'une infrastructure serverless à grande échelle, quelle stratégie avancée est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Mise en place d'un système de caching multi-niveaux avec invalidation intelligente</p>"
+        },
+        {
+          "content": "<p>Implémentation d'un orchestrateur de fonctions avec gestion dynamique du provisionnement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de réservations de capacité</p>"
+        },
+        {
+          "content": "<p>Configuration d'un système de mise en cache des résultats</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un environnement de conteneurs, quelles pratiques avancées de sécurité devraient être implémentées?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configuration d'une chaîne de signature d'images avec Notary/TUF</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémentation d'un runtime sécurisé comme gVisor ou kata-containers</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mise en place de scans de vulnérabilités en temps réel</p>"
+        },
+        {
+          "content": "<p>Utilisation d'un système de détection d'anomalies basé sur eBPF</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour gérer efficacement le scale-out d'une application stateful dans Kubernetes, quelle approche est la plus robuste?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utilisation d'un operator custom avec reconciliation loop et gestion d'état</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de StatefulSets standards</p>"
+        },
+        {
+          "content": "<p>Implémentation de PVC dynamiques</p>"
+        },
+        {
+          "content": "<p>Utilisation de DaemonSets avec affinity rules</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une architecture zero-trust, quelles mesures avancées devraient être mises en place?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'une PKI hiérarchique avec rotation automatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de BeyondCorp pour l'accès aux ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de firewalls applicatifs par service</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système d'authentification contextuelle</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les performances d'un système de caching distribué à grande échelle, quelle stratégie est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un algorithme de consistent hashing avec bounded loads</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de LRU simple avec TTL</p>"
+        },
+        {
+          "content": "<p>Configuration de replica shards</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un cache warming périodique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour garantir la cohérence des données dans un système distribué avec eventual consistency, quelle approche est la plus robuste?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de CRDTs avec vector clocks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de transactions distribuées</p>"
+        },
+        {
+          "content": "<p>Configuration de réplication master-slave</p>"
+        },
+        {
+          "content": "<p>Mise en place de locks distribués</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un environnement de microservices complexe, vous observez des cascades d'échecs intermittentes. Quelle approche architecturale offre la meilleure résilience?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de Domain-Driven Design avec Bounded Contexts isolés</p>"
+        },
+        {
+          "content": "<p>Application du pattern Saga avec compensation distribuée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de transactions distribuées 2PC</p>"
+        },
+        {
+          "content": "<p>Configuration de timeouts statiques</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour optimiser les performances d'un cluster Elasticsearch à grande échelle, quelles configurations avancées sont les plus pertinentes?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configuration de hot-warm-cold architecture avec ILM personnalisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémentation de custom analyzers avec tokenization adaptative</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de force merges périodiques</p>"
+        },
+        {
+          "content": "<p>Configuration de routing adaptatif basé sur les patterns d'accès</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un système de streaming temps réel à haute performance, quelle stratégie de partitionnement offre le meilleur équilibre entre latence et débit?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partitionnement dynamique avec rééquilibrage automatique basé sur la charge</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partitionnement statique par clé</p>"
+        },
+        {
+          "content": "<p>Round-robin simple</p>"
+        },
+        {
+          "content": "<p>Partitionnement géographique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour sécuriser un pipeline CI/CD cloud-native, quelles mesures avancées devraient être implémentées?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de supply chain security avec Sigstore/Cosign</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de SLSA niveau 3 avec attestations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de scans de dépendances basiques</p>"
+        },
+        {
+          "content": "<p>Mise en place de GitOps avec promotion immutable</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les performances d'une application GraphQL distribuée, quelle approche est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de DataLoader avec batching et caching intelligent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de caching simple par query</p>"
+        },
+        {
+          "content": "<p>Configuration de timeouts par resolver</p>"
+        },
+        {
+          "content": "<p>Limitation du nombre de nested fields</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un environnement multi-cloud, quelles stratégies avancées de gestion des coûts devraient être implémentées?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un orchestrateur cross-cloud avec arbitrage de coûts</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de spot instances avec failover automatique cross-provider</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de budgets simples par service</p>"
+        },
+        {
+          "content": "<p>Mise en place d'une stratégie de placement workload basée sur les coûts</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour gérer efficacement la configuration d'une infrastructure large échelle, quelle approche offre la meilleure maintenabilité?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utilisation de modules Terraform avec remote state et workspaces</p>"
+        },
+        {
+          "content": "<p>Implémentation de Crossplane avec composition dynamique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration manuelle avec documentation</p>"
+        },
+        {
+          "content": "<p>Scripts d'automatisation simples</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un système de base de données distribuée, quelle stratégie de sharding offre la meilleure scalabilité?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Sharding dynamique avec algorithme de consistent hashing et répartition de charge</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sharding par plage de valeurs</p>"
+        },
+        {
+          "content": "<p>Sharding géographique simple</p>"
+        },
+        {
+          "content": "<p>Round-robin sharding</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour sécuriser un environnement Kubernetes en production, quelles mesures avancées sont essentielles?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'OPA/Gatekeeper avec policies personnalisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de runtime security avec Falco et règles custom</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de network policies basiques</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système de détection d'anomalies basé sur ML</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les performances d'une application serverless avec état, quelle architecture est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un système de state management distribué avec CQRS et Event Sourcing</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation d'une base de données relationnelle classique</p>"
+        },
+        {
+          "content": "<p>Storage local avec synchronisation périodique</p>"
+        },
+        {
+          "content": "<p>Cache distribué simple</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un système de traitement de données en temps réel, vous observez des problèmes de back-pressure. Quelle solution architecturale est la plus appropriée?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un système de load shedding adaptatif avec QoS configurable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmentation de la capacité de traitement</p>"
+        },
+        {
+          "content": "<p>Mise en place de buffers plus grands</p>"
+        },
+        {
+          "content": "<p>Réduction du taux d'entrée des données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour optimiser les performances d'un cluster Redis géo-distribué, quelles configurations avancées sont essentielles?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configuration de CRDT-based replication avec résolution de conflits personnalisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémentation de sharding dynamique avec migration automatique des slots</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de réplication synchrone simple</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système de routage intelligent basé sur la latence</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour gérer efficacement la sécurité des secrets dans un environnement multi-cloud, quelle approche offre le meilleur compromis entre sécurité et facilité d'utilisation?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un système centralisé de gestion des secrets avec rotation automatique et audit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de systèmes de secrets séparés par cloud</p>"
+        },
+        {
+          "content": "<p>Stockage des secrets dans des variables d'environnement chiffrées</p>"
+        },
+        {
+          "content": "<p>Configuration manuelle des secrets par environnement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un environnement de conteneurs en production, quelles pratiques avancées d'observabilité devraient être mises en place?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de tracing distribué avec sampling adaptatif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de métriques custom avec agrégation intelligente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de logging basique</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système de détection d'anomalies basé sur l'IA</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les performances d'une application distribuée utilisant gRPC, quelle stratégie est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de connection pooling avec load balancing adaptatif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de compression simple</p>"
+        },
+        {
+          "content": "<p>Configuration de timeouts statiques</p>"
+        },
+        {
+          "content": "<p>Augmentation de la taille des buffers</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un système de messagerie événementielle, quelle approche garantit la meilleure ordering semantics tout en maintenant la performance?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de Lamport clocks avec causal consistency</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation d'un ordre FIFO simple</p>"
+        },
+        {
+          "content": "<p>Configuration de timestamps globaux</p>"
+        },
+        {
+          "content": "<p>Séquençage par source unique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour sécuriser un environnement serverless, quelles mesures avancées sont nécessaires?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de least privilege avec ABAC dynamique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de security headers automatiques avec WAF intelligent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de timeouts basiques</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système de détection d'injection avec ML</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les coûts d'un data lake cloud, quelle stratégie offre le meilleur rapport coût-performance?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'une architecture lambda avec tiering automatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de stockage à faible coût</p>"
+        },
+        {
+          "content": "<p>Compression des données</p>"
+        },
+        {
+          "content": "<p>Archivage périodique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Pour gérer efficacement un cluster Kubernetes à grande échelle, quelles pratiques avancées sont essentielles?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation de cluster autoscaling avec overprovisioning intelligent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Configuration de priority classes avec preemption personnalisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de quotas simples</p>"
+        },
+        {
+          "content": "<p>Mise en place d'un système de placement workload basé sur l'IA</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pour optimiser les performances d'une application avec des requêtes graphiques complexes, quelle approche est la plus efficace?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémentation d'un moteur de requêtes distribué avec partitionnement adaptatif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utilisation de caching simple</p>"
+        },
+        {
+          "content": "<p>Optimisation des index</p>"
+        },
+        {
+          "content": "<p>Limitation de la profondeur des requêtes</p>"
+        }
+      ]
+    }
+  ]
+}

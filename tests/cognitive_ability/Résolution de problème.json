@@ -11,7 +11,7 @@
     ],
     "relevancy": "Toute fonction impliquant la gestion de variables en constante évolution dans des délais serrés. Il peut s'agir d'assistants administratifs, de chefs de projet, de planificateurs et de personnes travaillant dans l'hôtellerie ou la vente.",
     "description": "La résolution efficace de problèmes requiert un vaste ensemble de compétences qui permet aux individus, aux équipes et aux entreprises de progresser vers les objectifs fixés. Elle implique la capacité de définir un problème, de le décomposer en parties gérables, de développer des approches pour résoudre le (sous-)problème en faisant appel à la créativité et à la pensée analytique, et de l'exécuter sans faille.\n\nCe test de résolution de problèmes vous permet d'identifier les candidats qui font preuve de ces capacités. Le test présente aux candidats des scénarios typiques de résolution de problèmes, tels que l'établissement d'un calendrier sur la base d'un ensemble diversifié de conditions, l'identification de la bonne séquence d'actions sur la base d'un certain nombre de règles de gestion et la formulation de conclusions sur la base d'informations textuelles et numériques. \n\nLe test exige des candidats qu'ils identifient les bonnes réponses aux questions dans un temps limité. Les candidats qui réussissent le test sont capables d'identifier rapidement les éléments clés du problème et de le résoudre rapidement sans commettre d'erreurs. Il s'agit d'un excellent test à inclure pour vérifier les compétences analytiques générales des candidats.",
-    "category": "Cognitive ability",
+    "category": "cognitive_ability",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 540,
@@ -22,29 +22,7 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<div class=\"ql-editor\"><p>Voici l'emploi du temps de Nathan, Sarah et Violette :</p><p><br></p><table style=\"border-collapse: collapse; width: 100%;\"> <tr> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Dim</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Lun</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mar</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mer</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Jeu</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ven</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sam</th> </tr> <tr> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sarah</td> </tr> <tr> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nathan</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Violette</td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> <td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td> </tr> </table><p><br></p><p>Nicole peut travailler n'importe quel jour où Nathan ou Julie sont programmés. Julie peut travailler n'importe quel jour où Sarah ou Violette sont programmées.</p><p>&nbsp;</p><p><strong>Qui peut être programmé n'importe quel jour de la semaine ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Personne</p>"
-        },
-        {
-          "content": "<p>Nicole</p>"
-        },
-        {
-          "content": "<p>Julie</p>"
-        },
-        {
-          "content": "<p>Julie et Nicole</p>",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div class=\"ql-editor\"><p>45 personnes d'une certaine société peuvent travailler ensemble pour terminer un projet en 15 jours. Pour un projet de la même charge de travail, la société a décidé d'employer 15 personnes. Supposez que toutes les personnes ont le même niveau de productivité.</p><p>&nbsp;</p><p><strong>En combien de jours ce projet peut-il être achevé ?&nbsp;</strong></p></div>"
+        "content": "<p>45 personnes d'une certaine société peuvent travailler ensemble pour terminer un projet en 15 jours. Pour un projet de la même charge de travail, la société a décidé d'employer 15 personnes. Supposez que toutes les personnes ont le même niveau de productivité.</p><p>&nbsp;</p><p><strong>En combien de jours ce projet peut-il être achevé ?&nbsp;</strong></p>"
       },
       "options": [
         {
@@ -66,43 +44,67 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<div class=\"ql-editor\"><p>Le tableau suivant indique l'ordre dans lequel certains ingrédients, étiquetés de A à F, doivent être mélangés (la gauche en premier, la droite en dernier).</p><p><br></p><table style=\"border-collapse: collapse; width: 100%;\"> <tr> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\"></th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</th> <th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">?</th> </tr> </table><p><br></p><p>De plus, nous savons que :</p><p><br></p><ol><li>Les ingrédients A et D sont ajoutés par étapes consécutives</li><li>B est ajouté avant A</li><li>F n'est pas ajouté juste avant ou juste après C</li></ol><p><br></p><p><strong>Quel ingrédient doit être ajouté en dernier ?</strong></p></div>"
+        "content": "<p>Une équipe commerciale doit atteindre un objectif de 100 000€ de ventes en 4 semaines. La première semaine, ils réalisent 15 000€. La deuxième semaine, ils augmentent leurs ventes de 40%. La troisième semaine, ils maintiennent le même montant que la deuxième semaine.</p><p><strong>Quel montant doivent-ils réaliser la dernière semaine pour atteindre leur objectif ?</strong></p>"
       },
       "options": [
         {
-          "content": "<p>B</p>"
-        },
-        {
-          "content": "<p>D</p>"
-        },
-        {
-          "content": "<p>E</p>",
+          "content": "<p>49 000€</p>",
           "correct": true
         },
         {
-          "content": "<p>F</p>"
+          "content": "<p>45 000€</p>"
+        },
+        {
+          "content": "<p>52 000€</p>"
+        },
+        {
+          "content": "<p>47 000€</p>"
         }
       ]
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
+        "type": "multiple_response",
         "preview": true,
-        "content": "<div class=\"ql-editor\"><p>Une cliente souhaite commander un gâteau sans œuf et avec une garniture biologique.</p><p><br></p><p><table style=\"width: 100%; border-collapse: collapse;\"> <tr> <th colspan=\"2\" style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Garnitures</th> <th colspan=\"2\" style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Gâteaux</th> </tr> <tr> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Biologique</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Non biologique</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Sans œufs</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: center;\">Avec œufs</th> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Cerises</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Oranges</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux au beurre</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux quatre-quarts</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Fraises</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Kiwis</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux éponges</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux aux carottes</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Pommes</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Poires</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Gâteaux mousseline</td> <td style=\"padding: 6px; border: 1px solid #ddd;\">Génoises</td> </tr> <tr> <td style=\"padding: 6px; border: 1px solid #ddd;\">Poires</td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> <td style=\"padding: 6px; border: 1px solid #ddd;\"></td> </tr> </table></p><p><br></p><p><strong>Lequel des gâteaux suivants peut-elle commander ?</strong></p></div>"
+        "content": "<p>Un responsable doit réorganiser son équipe en tenant compte des contraintes suivantes :</p><ul><li>Alice ne peut pas travailler le lundi</li><li>Bernard doit travailler avec Claire</li><li>David ne peut travailler qu'en début de semaine</li></ul><p><strong>Parmi les organisations suivantes, lesquelles sont valides ?</strong></p>"
       },
       "options": [
         {
-          "content": "<p>Gâteau quatre-quarts garni de poires et de fraises.</p>"
-        },
-        {
-          "content": "<p>Gâteau au beurre garni d'oranges et de kiwis.</p>"
-        },
-        {
-          "content": "<p>Génoise garnie de pommes et de cerises.</p>"
-        },
-        {
-          "content": "<p>Gâteau mousseline garni de fraises et de pommes.</p>",
+          "content": "<p>Lundi : Bernard, Claire, David / Mardi : Alice, Bernard, Claire</p>",
           "correct": true
+        },
+        {
+          "content": "<p>Lundi : Alice, Bernard, Claire / Mardi : David</p>"
+        },
+        {
+          "content": "<p>Lundi : David / Mardi : Bernard, Claire / Mercredi : Alice</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lundi : Alice, David / Mardi : Bernard / Mercredi : Claire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Un responsable doit réorganiser son équipe en tenant compte des contraintes suivantes :</p><ul><li>Alice ne peut pas travailler le lundi</li><li>Bernard doit travailler avec Claire</li><li>David ne peut travailler qu'en début de semaine</li></ul><p><strong>Parmi les organisations suivantes, lesquelles sont valides ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lundi : Bernard, Claire, David / Mardi : Alice, Bernard, Claire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lundi : Alice, Bernard, Claire / Mardi : David</p>"
+        },
+        {
+          "content": "<p>Lundi : David / Mardi : Bernard, Claire / Mercredi : Alice</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lundi : Alice, David / Mardi : Bernard / Mercredi : Claire</p>"
         }
       ]
     },
@@ -196,49 +198,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un entrepôt reçoit des livraisons selon le tableau suivant :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Matin</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Après-midi</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Lundi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">150</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">200</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mardi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">175</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">225</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Mercredi</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">125</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">175</td></tr></table><p>Si le taux de traitement est de 50 colis par heure et que chaque période (matin/après-midi) dure 4 heures, quel jour l'entrepôt accumulera-t-il le plus de retard ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Lundi</p>"
-        },
-        {
-          "content": "<p>Mardi</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Mercredi</p>"
-        },
-        {
-          "content": "<p>Aucun retard ne sera accumulé</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Dans un restaurant, les règles de service sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Température de service</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préparation</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Soupe</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat principal</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">65°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Dessert</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">4°C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr></table><p>La température baisse de 5°C toutes les 2 minutes pour les plats chauds. <strong>Quelles séquences de préparation permettent de servir tous les plats à la bonne température ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Commencer par le plat principal, puis la soupe, puis le dessert</p>"
-        },
-        {
-          "content": "<p>Commencer par la soupe, puis le plat principal, puis le dessert</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Préparer la soupe et le plat principal en même temps, puis le dessert</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Préparer le dessert en premier, puis le plat principal et la soupe</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Une entreprise doit organiser trois réunions : finance (F), marketing (M) et production (P). Les contraintes sont :</p><ul><li>La réunion F doit avoir lieu avant la réunion M</li><li>La réunion P peut avoir lieu à n'importe quel moment</li><li>Il doit y avoir au moins une heure entre chaque réunion</li><li>Les réunions doivent se tenir entre 9h et 12h</li><li>Chaque réunion dure exactement une heure</li></ul><p><strong>Combien d'arrangements différents sont possibles ?</strong></p>"
       },
       "options": [
@@ -254,70 +213,6 @@
         },
         {
           "content": "<p>12 arrangements</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes hebdomadaires :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Département</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes (€)</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Croissance hebdomadaire</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Électronique</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+5%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Vêtements</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+8%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Alimentation</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15000</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+3%</td></tr></table><p><strong>Dans combien de semaines le département Vêtements dépassera-t-il le département Électronique en termes de ventes hebdomadaires ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>12 semaines</p>"
-        },
-        {
-          "content": "<p>15 semaines</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>18 semaines</p>"
-        },
-        {
-          "content": "<p>Jamais</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Une usine doit organiser sa production selon les contraintes suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Machine</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préchauffage</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de production</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de refroidissement</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1h</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td></tr></table><p>La journée de travail dure 8 heures. <strong>Quelles affirmations sont correctes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>La machine A peut être utilisée deux fois dans la journée</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La machine B peut être utilisée deux fois dans la journée</p>"
-        },
-        {
-          "content": "<p>Les deux machines peuvent fonctionner simultanément</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Il est possible d'utiliser la machine A trois fois dans la journée</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Une équipe de développement doit livrer trois fonctionnalités : A, B et C. Les estimations sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Fonctionnalité</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de développement</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de test</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Valeur business</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Haute</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Moyenne</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Basse</td></tr></table><p>Si A dépend de C, et qu'une seule personne peut travailler sur le projet, quel est l'ordre optimal de développement ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>B → C → A</p>"
-        },
-        {
-          "content": "<p>C → A → B</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>A → B → C</p>"
-        },
-        {
-          "content": "<p>C → B → A</p>"
         }
       ]
     },
@@ -346,27 +241,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse ses ventes sur trois zones :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Zone</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes actuelles</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Croissance mensuelle</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût marketing</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nord</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+4%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2000€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Sud</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+6%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1500€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Est</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40000€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">+5%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1800€</td></tr></table><p>Si l'entreprise ne peut investir que dans une seule zone, laquelle devrait-elle choisir pour maximiser le retour sur investissement après 6 mois ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Zone Nord</p>"
-        },
-        {
-          "content": "<p>Zone Sud</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Zone Est</p>"
-        },
-        {
-          "content": "<p>Toutes les zones sont équivalentes</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Un chef de projet doit organiser une série de formations pour son équipe. Les contraintes sont :</p><ul><li>Formation technique (T) : 3 heures</li><li>Formation management (M) : 2 heures</li><li>Formation sécurité (S) : 1 heure</li><li>La formation T doit avoir lieu avant M</li><li>La formation S peut avoir lieu à tout moment</li><li>Il faut une pause d'au moins 30 minutes entre chaque formation</li><li>La journée commence à 9h et se termine à 17h</li></ul><p><strong>Quelle est l'heure la plus tardive à laquelle la journée de formation peut se terminer, en respectant toutes les contraintes ?</strong></p>"
       },
       "options": [
@@ -382,49 +256,6 @@
         },
         {
           "content": "<p>17h00</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse les compétences de ses employés :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Employé</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Programmation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Design</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Gestion</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Alex</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Béa</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Chris</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr></table><p>Un projet requiert de la programmation et de la gestion. Il faut constituer une équipe de deux personnes avec au moins une compétence en commun. <strong>Quelles combinaisons d'équipes sont possibles ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Alex et Béa</p>"
-        },
-        {
-          "content": "<p>Alex et Chris</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Béa et Chris</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les trois ensemble</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Dans un centre d'appels, les appels sont distribués selon le tableau suivant :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Période</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Nombre d'appels</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Durée moyenne</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8h-10h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10h-12h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12h-14h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">60</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">6 min</td></tr></table><p>Sachant qu'un agent peut travailler 7 heures par jour avec une efficacité de 80%, combien d'agents sont nécessaires pour couvrir la période 8h-14h ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>4 agents</p>"
-        },
-        {
-          "content": "<p>5 agents</p>"
-        },
-        {
-          "content": "<p>6 agents</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>7 agents</p>"
         }
       ]
     },
@@ -453,27 +284,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un restaurant analyse ses commandes du midi :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Plat</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps de préparation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Commandes moyennes</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Salade</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pasta</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pizza</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">18€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25</td></tr></table><p>Si le restaurant veut maximiser son efficacité (revenu par minute de préparation), quel plat devrait-il promouvoir ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Salade</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Pasta</p>"
-        },
-        {
-          "content": "<p>Pizza</p>"
-        },
-        {
-          "content": "<p>Tous les plats sont équivalents</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Une équipe de développement utilise la méthode suivante pour estimer les tâches :</p><ul><li>Tâche facile : 1 point</li><li>Tâche moyenne : 2 points</li><li>Tâche difficile : 3 points</li><li>Tâche complexe : 5 points</li></ul><p>L'équipe peut traiter 8 points par semaine. Pour un projet donné, il y a :</p><ul><li>2 tâches faciles</li><li>3 tâches moyennes</li><li>2 tâches difficiles</li><li>1 tâche complexe</li></ul><p><strong>Combien de semaines seront nécessaires pour compléter le projet ?</strong></p>"
       },
       "options": [
@@ -489,29 +299,6 @@
         },
         {
           "content": "<p>3.5 semaines</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse les compétences requises pour différents projets :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Design</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Développement</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marketing</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Projet C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\"></td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">✓</td></tr></table><p>Si Marie a des compétences en design et marketing, et Thomas en développement, <strong>quels projets peuvent-ils réaliser ensemble ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Projet A</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Projet B</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Projet C</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Aucun projet</p>"
         }
       ]
     },
@@ -533,50 +320,6 @@
         },
         {
           "content": "<p>4 jours</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes par heure :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Heure</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Clients</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes moyennes</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">9h-11h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">11h-13h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">13h-15h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35€</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>La période 11h-13h génère le plus de revenus totaux</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le panier moyen est le plus élevé entre 13h et 15h</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La période 9h-11h est la moins rentable</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le nombre de clients est constant tout au long de la journée</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Une bibliothèque analyse son système de prêt :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Type</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Durée de prêt</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Pénalité par jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Retards moyens</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Romans</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">14 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.50€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 jours</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Magazines</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">7 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 jours</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">DVD</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 jours</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 jour</td></tr></table><p>Sur 100 emprunts de chaque type, quel montant total de pénalités la bibliothèque peut-elle s'attendre à percevoir ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>350€</p>"
-        },
-        {
-          "content": "<p>400€</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>450€</p>"
-        },
-        {
-          "content": "<p>500€</p>"
         }
       ]
     },
@@ -605,27 +348,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Une entreprise analyse l'efficacité de ses canaux de communication :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Canal</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût par message</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux de réponse</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Valeur moyenne</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Email</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.10€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">SMS</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">0.25€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Téléphone</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2.00€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40€</td></tr></table><p>Pour 1000 contacts, quel canal offre le meilleur retour sur investissement ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Email</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>SMS</p>"
-        },
-        {
-          "content": "<p>Téléphone</p>"
-        },
-        {
-          "content": "<p>Tous les canaux sont équivalents</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Une équipe doit livrer trois modules logiciels : Interface (I), Base de données (B), et API (A). Les contraintes sont :</p><ul><li>L'interface dépend de l'API</li><li>La base de données est indépendante</li><li>Chaque module prend exactement 2 semaines</li><li>L'équipe peut travailler sur deux modules en parallèle</li></ul><p><strong>Quelle est la durée minimale pour livrer tous les modules ?</strong></p>"
       },
       "options": [
@@ -641,29 +363,6 @@
         },
         {
           "content": "<p>8 semaines</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Un service client analyse ses performances :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Agent</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Appels/heure</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Satisfaction</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Résolution</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marc</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">90%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Julie</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75%</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Paul</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Marc a la meilleure qualité de service globale</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Julie est la plus efficace en termes de volume</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Paul a les performances les plus équilibrées</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Tous les agents ont des performances équivalentes</p>"
         }
       ]
     },
@@ -685,27 +384,6 @@
         },
         {
           "content": "<p>35 minutes</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un service de livraison analyse ses performances :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Zone</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Distance moyenne</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps moyen</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût/km</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">15 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1.5€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">12 km</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">25 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1€</td></tr></table><p>Pour 100 livraisons réparties également entre les zones, quel est le coût total ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>1500€</p>"
-        },
-        {
-          "content": "<p>1700€</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>1900€</p>"
-        },
-        {
-          "content": "<p>2100€</p>"
         }
       ]
     },
@@ -734,27 +412,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un restaurant analyse ses temps de service :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Étape</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps minimum</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps maximum</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prise de commande</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">5 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Préparation</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">10 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20 min</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Service</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1 min</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3 min</td></tr></table><p>Pour servir 4 tables simultanément avec 2 serveurs et 2 cuisiniers, quel est le temps maximum théorique nécessaire ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>20 minutes</p>"
-        },
-        {
-          "content": "<p>25 minutes</p>"
-        },
-        {
-          "content": "<p>28 minutes</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>30 minutes</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Une équipe marketing dispose d'un budget de 10000€ pour une campagne. Les options sont :</p><ul><li>Publicité en ligne : 2000€ pour 100000 impressions</li><li>Affichage urbain : 3000€ pour 50000 impressions</li><li>Radio : 4000€ pour 75000 impressions</li></ul><p>Si l'objectif est de maximiser le nombre d'impressions, quelle combinaison devrait être choisie ?</p>"
       },
       "options": [
@@ -770,29 +427,6 @@
         },
         {
           "content": "<p>2 radios + 1 affichage urbain</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes par catégorie :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Catégorie</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Ventes/jour</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Marge</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Stock moyen</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">A</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">200</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">B</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">35%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">100</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">C</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">45%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50</td></tr></table><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>La catégorie A a la rotation de stock la plus rapide</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La catégorie C a la meilleure marge</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La catégorie B a le meilleur équilibre ventes/marge</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Toutes les catégories ont la même rentabilité</p>"
         }
       ]
     },
@@ -814,27 +448,6 @@
         },
         {
           "content": "<p>Tous les processus sont équivalents</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Une école de langues analyse ses résultats :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Niveau</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Heures/niveau</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux de réussite</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix/heure</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Débutant</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">85%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Intermédiaire</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">75%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Avancé</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">65%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50€</td></tr></table><p>Pour un budget de 2000€, quel niveau offre la meilleure probabilité d'obtention du diplôme ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Niveau Débutant</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Niveau Intermédiaire</p>"
-        },
-        {
-          "content": "<p>Niveau Avancé</p>"
-        },
-        {
-          "content": "<p>Tous les niveaux sont équivalents</p>"
         }
       ]
     },
@@ -863,27 +476,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un service informatique analyse ses tickets support :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Priorité</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Temps moyen</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">% du total</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">SLA (heures)</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Haute</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">1h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Moyenne</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">2h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">4</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Basse</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">3h</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">8</td></tr></table><p>Pour traiter 100 tickets par jour avec un taux de respect des SLA de 100%, combien d'agents sont nécessaires (journée de 8 heures) ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>25 agents</p>"
-        },
-        {
-          "content": "<p>27 agents</p>"
-        },
-        {
-          "content": "<p>29 agents</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>31 agents</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Une entreprise de recyclage doit traiter trois types de matériaux :</p><ul><li>Plastique : 2 minutes/unité, capacité machine 100 unités/jour</li><li>Verre : 3 minutes/unité, capacité machine 80 unités/jour</li><li>Métal : 4 minutes/unité, capacité machine 60 unités/jour</li></ul><p>Les machines fonctionnent 8 heures par jour. Si l'entreprise reçoit 150 unités à répartir également entre les trois types, en combien de jours minimum peut-elle traiter toute la livraison ?</p>"
       },
       "options": [
@@ -899,28 +491,6 @@
         },
         {
           "content": "<p>4 jours</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Un hôtel analyse ses réservations :</p><table style=\"width: 100%; border-collapse: collapse;\"><tr><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Type</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Prix/nuit</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Taux occupation</th><th style=\"background-color: #333333; color: white; padding: 8px; text-align: center; border: 1px solid #dddddd;\">Coût entretien</th></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Standard</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">100€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">80%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">20€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Supérieur</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">150€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">60%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">30€</td></tr><tr><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">Suite</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">250€</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">40%</td><td style=\"padding: 8px; text-align: center; border: 1px solid #dddddd;\">50€</td></tr></table><p><strong>Quelles affirmations sont correctes sur une base mensuelle (30 jours) ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Les chambres standard génèrent le plus de revenus</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les suites ont la plus grande marge par nuit occupée</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les chambres supérieures ont le meilleur ratio revenu/coût</p>"
-        },
-        {
-          "content": "<p>Tous les types de chambres ont la même rentabilité</p>"
         }
       ]
     },
@@ -942,6 +512,440 @@
         },
         {
           "content": "<p>6 développeurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un restaurant doit planifier ses commandes hebdomadaires. Les statistiques montrent :</p><ul><li>Moyenne de 100 clients par jour</li><li>Chaque client commande en moyenne 300g de nourriture</li><li>20% de marge de sécurité nécessaire</li><li>Les aliments se conservent 5 jours</li></ul><p><strong>Quelle quantité de nourriture (en kg) doit être commandée pour une semaine ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>210 kg</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>175 kg</p>"
+        },
+        {
+          "content": "<p>252 kg</p>"
+        },
+        {
+          "content": "<p>180 kg</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise doit organiser des entretiens annuels avec les contraintes suivantes :</p><ul><li>5 managers disponibles</li><li>Chaque entretien dure 45 minutes</li><li>Pause de 15 minutes entre chaque entretien</li><li>Horaires : 9h-12h et 14h-17h</li></ul><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un manager peut réaliser 6 entretiens par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>30 employés peuvent être reçus en une journée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il faut 2 jours pour 50 employés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un manager peut faire 8 entretiens par jour</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe de développement utilise un système de points où :</p><ul><li>Tâche simple = 2 points</li><li>Tâche moyenne = 3 points</li><li>Tâche complexe = 5 points</li></ul><p>L'équipe peut traiter 15 points par semaine. Pour un projet donné, il y a :</p><ul><li>4 tâches simples</li><li>3 tâches moyennes</li><li>2 tâches complexes</li></ul><p><strong>En combien de semaines le projet sera-t-il terminé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 semaines</p>"
+        },
+        {
+          "content": "<p>3 semaines</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 semaines</p>"
+        },
+        {
+          "content": "<p>5 semaines</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un service logistique doit organiser des livraisons avec les contraintes suivantes :</p><ul><li>3 camions disponibles</li><li>Capacité maximum par camion : 1000 kg</li><li>4 clients à livrer : A (400 kg), B (600 kg), C (500 kg), D (300 kg)</li><li>Les clients A et B doivent être livrés le matin</li><li>Le client C doit être livré l'après-midi</li></ul><p><strong>Quelles organisations sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Camion 1 : A+D (matin), Camion 2 : B (matin), Camion 3 : C (après-midi)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Camion 1 : A+B (matin), Camion 2 : C+D (après-midi)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Camion 1 : A (matin), Camion 2 : B+D (matin), Camion 3 : C (après-midi)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Camion 1 : A+B+D (matin), Camion 2 : C (après-midi)</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise analyse ses ventes mensuelles :</p><ul><li>Janvier : 100 unités</li><li>Février : 120 unités (+20%)</li><li>Mars : 150 unités (+25%)</li><li>Avril : 180 unités (+20%)</li></ul><p><strong>Si la tendance se maintient, combien d'unités seront vendues en mai ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>210 unités</p>"
+        },
+        {
+          "content": "<p>216 unités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>225 unités</p>"
+        },
+        {
+          "content": "<p>240 unités</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une équipe support doit être organisée avec les contraintes suivantes :</p><ul><li>Couverture 24/7 nécessaire</li><li>3 shifts de 8 heures</li><li>2 personnes minimum par shift</li><li>Une personne ne peut pas faire deux shifts consécutifs</li><li>Chaque personne doit avoir 2 jours de repos par semaine</li></ul><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Il faut au minimum 8 personnes dans l'équipe</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chaque personne travaille 40 heures par semaine</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6 personnes sont suffisantes pour couvrir tous les shifts</p>"
+        },
+        {
+          "content": "<p>Une équipe de 10 personnes permet d'avoir 3 personnes par shift</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet nécessite les ressources suivantes :</p><ul><li>4 développeurs à 80€/heure</li><li>2 designers à 70€/heure</li><li>1 chef de projet à 100€/heure</li></ul><p>Le projet est estimé à 160 heures-homme pour les développeurs, 80 heures-homme pour les designers et 40 heures pour le chef de projet.</p><p><strong>Quel est le budget total nécessaire ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>21 600€</p>"
+        },
+        {
+          "content": "<p>24 800€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>26 400€</p>"
+        },
+        {
+          "content": "<p>28 000€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise analyse trois processus de production :</p><ul><li>Processus A : 200 unités/heure, 4% de défauts</li><li>Processus B : 180 unités/heure, 2% de défauts</li><li>Processus C : 240 unités/heure, 6% de défauts</li></ul><p><strong>Pour produire 2000 unités sans défaut, quel est le processus le plus rapide ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Processus A</p>"
+        },
+        {
+          "content": "<p>Processus B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Processus C</p>"
+        },
+        {
+          "content": "<p>Tous les processus sont équivalents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un service informatique doit planifier des mises à jour avec les contraintes suivantes :</p><ul><li>4 serveurs à mettre à jour</li><li>Chaque mise à jour prend 2 heures</li><li>Maximum 2 serveurs peuvent être mis à jour simultanément</li><li>Les serveurs 1 et 2 ne peuvent pas être mis à jour en même temps</li><li>Le serveur 4 doit être mis à jour après le serveur 3</li></ul><p><strong>Quelles séquences de mise à jour sont valides ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Serveurs 1+3, puis 2+4</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Serveurs 2+3, puis 1+4</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Serveurs 1+2, puis 3+4</p>"
+        },
+        {
+          "content": "<p>Serveurs 1+4, puis 2+3</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe de vente a les objectifs suivants :</p><ul><li>Objectif mensuel : 100 000€</li><li>Augmentation de 10% chaque mois</li><li>Bonus si l'objectif est dépassé de 15%</li></ul><p>Si l'équipe a réalisé 95 000€ en janvier, 112 000€ en février et 120 000€ en mars, <strong>quel était l'objectif de mars ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>110 000€</p>"
+        },
+        {
+          "content": "<p>121 000€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>130 000€</p>"
+        },
+        {
+          "content": "<p>115 000€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de formation propose trois types de cours :</p><ul><li>Formation en ligne : 50€/personne</li><li>Formation hybride : 80€/personne</li><li>Formation présentielle : 120€/personne</li></ul><p>Un budget de 5000€ est disponible pour former 70 employés. La formation présentielle est limitée à 20 personnes maximum.</p><p><strong>Quelle est la meilleure répartition possible pour former tous les employés sans dépasser le budget ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>20 présentiels, 25 hybrides, 25 en ligne</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>15 présentiels, 30 hybrides, 25 en ligne</p>"
+        },
+        {
+          "content": "<p>20 présentiels, 30 hybrides, 20 en ligne</p>"
+        },
+        {
+          "content": "<p>10 présentiels, 35 hybrides, 25 en ligne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans un centre d'appels, les données suivantes ont été collectées :</p><ul><li>Temps moyen par appel : 5 minutes</li><li>Temps de traitement post-appel : 2 minutes</li><li>Pauses obligatoires : 45 minutes par jour</li><li>Journée de travail : 7h30</li></ul><p><strong>Quelles conclusions sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un agent peut traiter environ 60 appels par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le temps productif disponible est de 6h45 par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le temps total par appel est de 7 minutes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un agent peut traiter 80 appels par jour</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de livraison analyse ses données :</p><ul><li>Temps moyen de livraison : 15 minutes</li><li>Temps de trajet entre livraisons : 10 minutes</li><li>Préparation des colis : 5 minutes/colis</li><li>Horaires : 9h-17h avec 1h de pause</li></ul><p><strong>Combien de livraisons maximum un livreur peut-il effectuer par jour ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>21 livraisons</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>24 livraisons</p>"
+        },
+        {
+          "content": "<p>18 livraisons</p>"
+        },
+        {
+          "content": "<p>28 livraisons</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un projet informatique a les caractéristiques suivantes :</p><ul><li>6 développeurs disponibles</li><li>100 tâches à réaliser</li><li>Temps moyen par tâche : 4 heures</li><li>15% des tâches nécessitent une revue de code</li><li>Revue de code : 1 heure par tâche</li></ul><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le projet nécessite 415 heures-homme au total</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avec 6 développeurs, le projet peut être terminé en 9 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>15 tâches nécessitent 5 heures chacune</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le projet peut être terminé en 7 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise organise un événement avec les contraintes suivantes :</p><ul><li>Budget total : 10 000€</li><li>Location salle : 2 000€</li><li>Traiteur : 45€/personne</li><li>Matériel audiovisuel : 1 500€</li><li>Documentation : 15€/personne</li></ul><p><strong>Combien de participants maximum peuvent être accueillis ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>105 personnes</p>"
+        },
+        {
+          "content": "<p>115 personnes</p>"
+        },
+        {
+          "content": "<p>108 personnes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>120 personnes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un service marketing analyse le taux de conversion de trois campagnes :</p><ul><li>Campagne A : 1000 vues, 50 clics, 10 achats</li><li>Campagne B : 800 vues, 60 clics, 15 achats</li><li>Campagne C : 1200 vues, 80 clics, 12 achats</li></ul><p><strong>Quelle campagne a le meilleur taux de conversion global (vues vers achats) ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Campagne A</p>"
+        },
+        {
+          "content": "<p>Campagne B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Campagne C</p>"
+        },
+        {
+          "content": "<p>Toutes ont le même taux</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une équipe de maintenance doit planifier ses interventions avec les contraintes suivantes :</p><ul><li>4 techniciens disponibles</li><li>3 sites à visiter</li><li>Temps d'intervention : 2 heures par site</li><li>Temps de trajet : 1 heure entre les sites</li><li>Les sites 1 et 2 doivent être visités le matin</li></ul><p><strong>Quelles organisations sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 techniciens par site, visites simultanées des sites 1 et 2</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 technicien par site, visites séquentielles</p>"
+        },
+        {
+          "content": "<p>2 techniciens site 1, 1 technicien site 2, 1 technicien site 3</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 techniciens site 1, 1 technicien réparti sur sites 2 et 3</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise analyse sa productivité :</p><ul><li>Objectif : 1000 unités par semaine</li><li>Production actuelle : 800 unités</li><li>Temps de production par unité : 12 minutes</li><li>Temps d'installation machine : 30 minutes par jour</li><li>Temps disponible : 8 heures par jour, 5 jours par semaine</li></ul><p><strong>De combien faut-il réduire le temps de production par unité pour atteindre l'objectif ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 minutes</p>"
+        },
+        {
+          "content": "<p>3 minutes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 minutes</p>"
+        },
+        {
+          "content": "<p>5 minutes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un restaurant analyse ses données :</p><ul><li>Capacité : 50 places</li><li>Temps moyen par repas : 45 minutes</li><li>Heures d'ouverture : 12h-14h30 et 19h-22h30</li><li>Taux de remplissage moyen : 80%</li></ul><p><strong>Quelles conclusions sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le restaurant peut servir environ 200 clients par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chaque service peut accueillir 2 rotations complètes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le restaurant sert environ 160 clients par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 rotations complètes sont possibles par service</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe de 5 personnes doit être formée parmi 8 candidats. Les contraintes sont :</p><ul><li>Alice et Bob ne peuvent pas travailler ensemble</li><li>Charlie doit être dans l'équipe</li><li>Si David est sélectionné, Emma doit l'être aussi</li><li>Frank et George doivent être sélectionnés ensemble ou pas du tout</li></ul><p><strong>Combien de combinaisons d'équipes différentes sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>12 combinaisons</p>"
+        },
+        {
+          "content": "<p>15 combinaisons</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>18 combinaisons</p>"
+        },
+        {
+          "content": "<p>20 combinaisons</p>"
         }
       ]
     }

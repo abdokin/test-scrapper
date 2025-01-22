@@ -11,7 +11,7 @@
     ],
     "relevancy": "Postes qui nécessitent l'enregistrement des transactions financières, la tenue des livres comptables, la gestion des comptes créditeurs et débiteurs, la préparation des états financiers et l'interprétation des informations financières pour la direction.",
     "description": "Chaque organisation, qu'elle soit une startup ou une entreprise établie, a besoin d'experts financiers qualifiés. Avoir quelqu'un capable d'enregistrer avec précision les transactions financières permet aux organisations d'évaluer correctement leur performance financière. Pour ce faire, ces professionnels doivent être en mesure de tenir correctement les livres comptables, de préparer les états financiers et d'interpréter ces informations pour la direction.\n\nCe test de Comptabilité (Intermédiaire) aide à évaluer les connaissances pratiques des candidats sur les concepts clés de la comptabilité, tels que la tenue des livres comptables, l'enregistrement des transactions financières, les ajustements de fin d'année, et la préparation et l'interprétation des états financiers.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 600,
@@ -20,179 +20,8 @@
   "questions": [
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Votre entreprise a récemment transféré tous ses registres financiers dans un nouveau logiciel comptable. On vous a demandé de vérifier l'exactitude du transfert des soldes entre les livres comptables. Les informations du compte bancaire sont présentées dans le tableau ci-dessous.</p><p>&nbsp;</p><p class=\"ql-align-justify\"><strong>Quel solde apparaîtra dans la balance de vérification au 31 août, et de quel côté se trouve-t-il ?</strong></p><p><br></p><div> <div style=\"margin-bottom: 15px;\"> <div style=\"text-align: right; font-weight: bold; margin-bottom: 2px;\">Débit</div> <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 20%;\">Date</th> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 50%;\">Détails</th> <th style=\"background-color: #2F4F4F; color: white; padding: 3px; text-align: left; width: 30%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.01</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Solde reporté</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">50,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.15</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Compte ventes</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">10,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.27</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">À Compte clients</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">20,000</td> </tr> <tr> <td style=\"padding: 3px; background-color: #E8EEF4;\"></td> <td style=\"padding: 3px; background-color: #E8EEF4;\"></td> <td style=\"padding: 3px; background-color: #E8EEF4; font-weight: bold;\">80,000</td> </tr> </tbody> </table> </div> <div> <div style=\"text-align: right; font-weight: bold; margin-bottom: 2px;\">Crédit</div> <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 20%;\">Date</th> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 50%;\">Détails</th> <th style=\"background-color: #45B19D; color: white; padding: 3px; text-align: left; width: 30%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.12</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Compte équipement</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">40,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.23</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Compte achats</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">10,000</td> </tr> <tr> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">08.31</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">Par Solde à reporter</td> <td style=\"padding: 3px; border-bottom: 1px solid #ddd;\">30,000</td> </tr> <tr> <td style=\"padding: 3px; background-color: #E8F4F0;\"></td> <td style=\"padding: 3px; background-color: #E8F4F0;\"></td> <td style=\"padding: 3px; background-color: #E8F4F0; font-weight: bold;\">80,000</td> </tr> </tbody> </table> </div> </div></div>"
-      },
-      "options": [
-        {
-          "content": "<p>30 000 € au débit</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>30 000 € au crédit</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>50 000 € au débit</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>50 000 € au crédit</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Avant l'incorporation des ajustements de fin d'année, vos livres comptables montrent un solde de 1 000 € au compte de provision pour créances douteuses. Selon la politique de l'entreprise, une provision de 5% pour créances douteuses est constituée pour toutes les créances de plus de deux ans. Le rapport de vieillissement des débiteurs est présenté dans le tableau ci-dessous.</p><p>&nbsp;</p><p><strong>Quel est le solde de la provision pour créances douteuses en fin d'année ?</strong></p><p><br></p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;\">Âge des créances</th> <th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left; width: 50%;\">Montant (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Jusqu'à 6 mois</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">700 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">6 mois à 1 an</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">100 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">1 an à 2 ans</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">60 000</td> </tr> <tr> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">Plus de 2 ans</td> <td style=\"padding: 8px; border-bottom: 1px solid #ddd;\">50 000</td> </tr> </tbody> </table></div>"
-      },
-      "options": [
-        {
-          "content": "<p>1 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>2 500 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>3 500 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>5 500 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Les détails des ventes réalisées et des dépenses engagées par votre entreprise au cours de l'année, ainsi que les montants reçus et payés, sont présentés dans le tableau ci-dessous.</p><p>&nbsp;</p><p><strong>Quel est le montant du bénéfice/(perte) selon la comptabilité de caisse et la comptabilité d'engagement ?</strong></p><p><br></p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 50%;\">Description</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Ventes (€)</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Dépenses (€)</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Total de l'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">100 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">80 000</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Encaissements/décaissements de l'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">70 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">75 000</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Solde créances/dettes en fin d'année</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">30 000</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">5 000</td> </tr> </tbody> </table></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Comptabilité de caisse : Perte de 5 000 €<br>Comptabilité d'engagement : Bénéfice de 20 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Comptabilité de caisse : Bénéfice de 25 000 €<br>Comptabilité d'engagement : Perte de 5 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>Comptabilité de caisse : Bénéfice de 25 000 €<br>Comptabilité d'engagement : Bénéfice de 20 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>Comptabilité de caisse : Bénéfice de 5 000 €<br>Comptabilité d'engagement : Bénéfice de 25 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a les transactions suivantes dans son journal des ventes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Date</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Client</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">Montant HT (€)</th><th style=\"background-color: #45B19D; color: white; padding: 8px; text-align: left;\">TVA (20%)</th></tr></thead><tbody><tr><td>15/03/2025</td><td>Société A</td><td>1 000</td><td>200</td></tr><tr><td>16/03/2025</td><td>Société B</td><td>2 500</td><td>500</td></tr><tr><td>17/03/2025</td><td>Société C</td><td>3 000</td><td>600</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant total de TVA collectée à déclarer pour ces transactions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>1 300 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>6 500 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>7 800 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>650 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quelles sont les caractéristiques essentielles pour qu'un bien soit considéré comme une immobilisation selon les normes internationales ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Générer des avantages économiques futurs</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Avoir un coût qui peut être évalué de façon fiable</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Être utilisé sur plus d'un exercice comptable</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Être nécessairement un bien corporel</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Vous analysez l'amortissement d'une machine. Voici les informations :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Information</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Détail</th></tr></thead><tbody><tr><td>Prix d'achat HT</td><td>100 000 €</td></tr><tr><td>Date d'acquisition</td><td>01/01/2025</td></tr><tr><td>Durée d'utilisation prévue</td><td>5 ans</td></tr><tr><td>Valeur résiduelle estimée</td><td>10 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de l'amortissement annuel selon la méthode linéaire ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>18 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>20 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>16 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>22 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Voici le rapprochement bancaire d'une entreprise :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant (€)</th></tr></thead><tbody><tr><td>Solde selon relevé bancaire</td><td>25 000</td></tr><tr><td>Chèques émis non débités</td><td>3 000</td></tr><tr><td>Virements reçus non crédités</td><td>2 000</td></tr><tr><td>Frais bancaires non comptabilisés</td><td>100</td></tr></tbody></table><p><br></p><p><strong>Quel devrait être le solde correct du compte banque dans la comptabilité ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>23 900 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>24 100 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>23 800 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>24 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Dans le cadre de la clôture annuelle des comptes, quels sont les éléments à vérifier pour les stocks ?</p></div>"
+        "content": "<p>Dans le cadre de la clôture annuelle des comptes, quels sont les éléments à vérifier pour les stocks ?</p>"
       },
       "options": [
         {
@@ -216,32 +45,8 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise présente les soldes suivants :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Compte</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Solde (€)</th></tr></thead><tbody><tr><td>Capital social</td><td>100 000</td></tr><tr><td>Report à nouveau</td><td>20 000</td></tr><tr><td>Résultat de l'exercice</td><td>30 000</td></tr><tr><td>Réserve légale</td><td>5 000</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant des capitaux propres ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>155 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>125 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>150 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>130 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "preview": true,
-        "content": "<div class=\"ql-editor\"><p>Une société a acquis un véhicule le 1er juillet 2024 pour 24 000 € HT. La TVA est de 20%. Quelle écriture comptable doit être passée à la date d'acquisition ?</p></div>"
+        "content": "<p>Une société a acquis un véhicule le 1er juillet 2024 pour 24 000 € HT. La TVA est de 20%. Quelle écriture comptable doit être passée à la date d'acquisition ?</p>"
       },
       "options": [
         {
@@ -264,32 +69,8 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a acheté des marchandises le 15 mars 2025. La facture indique :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Description</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Montant HT</td><td>5 000 €</td></tr><tr><td>Remise 10%</td><td>500 €</td></tr><tr><td>Frais de transport</td><td>200 €</td></tr><tr><td>TVA 20%</td><td>940 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant total TTC à payer ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>5 640 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>6 140 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>5 440 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>4 700 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Dans le cadre de l'analyse du cycle client, quels sont les contrôles à effectuer lors de la clôture des comptes ?</p></div>"
+        "content": "<p>Dans le cadre de l'analyse du cycle client, quels sont les contrôles à effectuer lors de la clôture des comptes ?</p>"
       },
       "options": [
         {
@@ -313,7 +94,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a acheté un logiciel pour 12 000 € HT le 1er avril 2025. La durée d'amortissement est de 3 ans. Quelle est la dotation aux amortissements à comptabiliser au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une société a acheté un logiciel pour 12 000 € HT le 1er avril 2025. La durée d'amortissement est de 3 ans. Quelle est la dotation aux amortissements à comptabiliser au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -337,7 +118,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Un client règle une facture de 6 000 € TTC par chèque. Le relevé bancaire montre que le chèque a été rejeté pour provision insuffisante. Quelle écriture comptable doit être passée ?</p></div>"
+        "content": "<p>Un client règle une facture de 6 000 € TTC par chèque. Le relevé bancaire montre que le chèque a été rejeté pour provision insuffisante. Quelle écriture comptable doit être passée ?</p>"
       },
       "options": [
         {
@@ -361,7 +142,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise constate au 31 décembre 2025 que la valeur de son stock de marchandises est de 50 000 €. Une étude de marché montre que ces marchandises ne pourront être vendues qu'à 45 000 €. Quel est le montant de la provision pour dépréciation à comptabiliser ?</p></div>"
+        "content": "<p>Une entreprise constate au 31 décembre 2025 que la valeur de son stock de marchandises est de 50 000 €. Une étude de marché montre que ces marchandises ne pourront être vendues qu'à 45 000 €. Quel est le montant de la provision pour dépréciation à comptabiliser ?</p>"
       },
       "options": [
         {
@@ -385,7 +166,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a payé le 1er juillet 2025 sa prime d'assurance annuelle de 12 000 €. Au 31 décembre 2025, quelle est l'écriture de régularisation à passer ?</p></div>"
+        "content": "<p>Une société a payé le 1er juillet 2025 sa prime d'assurance annuelle de 12 000 €. Au 31 décembre 2025, quelle est l'écriture de régularisation à passer ?</p>"
       },
       "options": [
         {
@@ -409,7 +190,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a acquis une machine pour 80 000 € HT le 1er janvier 2025. Les frais de transport s'élèvent à 2 000 € HT et les frais d'installation à 3 000 € HT. La TVA est de 20%. Quel est le coût d'entrée de cette immobilisation à l'actif du bilan ?</p></div>"
+        "content": "<p>Une société a acquis une machine pour 80 000 € HT le 1er janvier 2025. Les frais de transport s'élèvent à 2 000 € HT et les frais d'installation à 3 000 € HT. La TVA est de 20%. Quel est le coût d'entrée de cette immobilisation à l'actif du bilan ?</p>"
       },
       "options": [
         {
@@ -433,7 +214,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quelles sont les informations essentielles qui doivent généralement figurer sur une facture commerciale selon les normes internationales ?</p></div>"
+        "content": "<p>Quelles sont les informations essentielles qui doivent généralement figurer sur une facture commerciale selon les normes internationales ?</p>"
       },
       "options": [
         {
@@ -457,55 +238,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise présente les informations suivantes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Chiffre d'affaires HT</td><td>500 000 €</td></tr><tr><td>Achats de marchandises HT</td><td>300 000 €</td></tr><tr><td>Variation de stock</td><td>-20 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de la marge commerciale ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>180 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>200 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>220 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>160 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Au 31 décembre 2025, une entreprise dispose des informations suivantes concernant ses créances clients :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Créance</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Montant</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Probabilité de recouvrement</th></tr></thead><tbody><tr><td>Client A</td><td>10 000 €</td><td>40%</td></tr><tr><td>Client B</td><td>15 000 €</td><td>70%</td></tr></tbody></table><p><br></p><p><strong>Quel montant de provision pour dépréciation doit être comptabilisé ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>10 500 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>6 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>4 500 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>25 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a souscrit un emprunt de 100 000 € le 1er juillet 2025 au taux annuel de 6%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une société a souscrit un emprunt de 100 000 € le 1er juillet 2025 au taux annuel de 6%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -529,7 +262,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a vendu des marchandises pour 50 000 € HT le 15 décembre 2025. Le client bénéficie d'une remise de 2% pour paiement comptant. Le client paie la facture le jour même. Quelle écriture comptable doit être passée ?</p></div>"
+        "content": "<p>Une société a vendu des marchandises pour 50 000 € HT le 15 décembre 2025. Le client bénéficie d'une remise de 2% pour paiement comptant. Le client paie la facture le jour même. Quelle écriture comptable doit être passée ?</p>"
       },
       "options": [
         {
@@ -552,32 +285,8 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a effectué les opérations suivantes en décembre 2025 :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Date</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Opération</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant HT</th></tr></thead><tbody><tr><td>05/12</td><td>Vente de marchandises</td><td>20 000 €</td></tr><tr><td>12/12</td><td>Avoir pour retour</td><td>2 000 €</td></tr><tr><td>20/12</td><td>Remise commerciale</td><td>1 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de TVA collectée à 20% à déclarer ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>3 400 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>4 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>3 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>3 600 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quels éléments doivent être vérifiés lors d'un contrôle des immobilisations ?</p></div>"
+        "content": "<p>Quels éléments doivent être vérifiés lors d'un contrôle des immobilisations ?</p>"
       },
       "options": [
         {
@@ -601,7 +310,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Un salarié a effectué une mission du 28 au 30 décembre 2025. Il présente sa note de frais de 600 € le 5 janvier 2026. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Un salarié a effectué une mission du 28 au 30 décembre 2025. Il présente sa note de frais de 600 € le 5 janvier 2026. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -625,7 +334,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a souscrit un contrat d'entretien annuel le 1er octobre 2025 pour 4 800 € HT. La facture est reçue et payée le même jour. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une entreprise a souscrit un contrat d'entretien annuel le 1er octobre 2025 pour 4 800 € HT. La facture est reçue et payée le même jour. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -649,31 +358,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société présente les éléments suivants concernant sa trésorerie :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Élément</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Solde comptable</td><td>15 000 €</td></tr><tr><td>Chèques émis non débités</td><td>2 000 €</td></tr><tr><td>Virements reçus non crédités</td><td>3 000 €</td></tr><tr><td>Agios non comptabilisés</td><td>200 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le solde du relevé bancaire ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>15 800 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>14 200 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>16 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>15 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a acheté un véhicule le 1er juillet 2025 pour 30 000 € HT. Elle l'amortit sur 5 ans en linéaire. Au 31 décembre 2025, une expertise révèle que sa valeur actuelle n'est plus que de 25 000 €. Quelle écriture de dépréciation doit être passée ?</p></div>"
+        "content": "<p>Une entreprise a acheté un véhicule le 1er juillet 2025 pour 30 000 € HT. Elle l'amortit sur 5 ans en linéaire. Au 31 décembre 2025, une expertise révèle que sa valeur actuelle n'est plus que de 25 000 €. Quelle écriture de dépréciation doit être passée ?</p>"
       },
       "options": [
         {
@@ -697,7 +382,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société fait l'objet d'un contrôle fiscal. L'administration fiscale conteste la déductibilité d'une charge de 10 000 € HT. Le risque de redressement est estimé à 80%. Quelle provision doit être comptabilisée ?</p></div>"
+        "content": "<p>Une société fait l'objet d'un contrôle fiscal. L'administration fiscale conteste la déductibilité d'une charge de 10 000 € HT. Le risque de redressement est estimé à 80%. Quelle provision doit être comptabilisée ?</p>"
       },
       "options": [
         {
@@ -721,7 +406,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quels sont les éléments à vérifier lors du contrôle de la caisse ?</p></div>"
+        "content": "<p>Quels sont les éléments à vérifier lors du contrôle de la caisse ?</p>"
       },
       "options": [
         {
@@ -745,7 +430,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a reçu le 15 décembre 2025 une facture d'électricité couvrant la période du 1er novembre 2025 au 31 janvier 2026, d'un montant de 3 000 € HT. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une entreprise a reçu le 15 décembre 2025 une facture d'électricité couvrant la période du 1er novembre 2025 au 31 janvier 2026, d'un montant de 3 000 € HT. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -769,7 +454,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a émis un chèque de 5 000 € le 29 décembre 2025 pour régler un fournisseur. Le chèque n'est pas débité sur le relevé bancaire au 31 décembre 2025. Dans l'état de rapprochement bancaire, cette opération doit apparaître :</p></div>"
+        "content": "<p>Une société a émis un chèque de 5 000 € le 29 décembre 2025 pour régler un fournisseur. Le chèque n'est pas débité sur le relevé bancaire au 31 décembre 2025. Dans l'état de rapprochement bancaire, cette opération doit apparaître :</p>"
       },
       "options": [
         {
@@ -793,7 +478,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise a accordé un prêt de 50 000 € à un de ses salariés le 1er juillet 2025, au taux annuel de 2%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une entreprise a accordé un prêt de 50 000 € à un de ses salariés le 1er juillet 2025, au taux annuel de 2%. Les intérêts sont payables annuellement le 30 juin. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -817,7 +502,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Au 31 décembre 2025, une entreprise possède un stock de marchandises de 100 000 €. L'inventaire physique révèle une valeur de 95 000 €. De plus, la valeur de réalisation nette est estimée à 92 000 €. Quelle est la valeur à inscrire au bilan ?</p></div>"
+        "content": "<p>Au 31 décembre 2025, une entreprise possède un stock de marchandises de 100 000 €. L'inventaire physique révèle une valeur de 95 000 €. De plus, la valeur de réalisation nette est estimée à 92 000 €. Quelle est la valeur à inscrire au bilan ?</p>"
       },
       "options": [
         {
@@ -840,32 +525,8 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société a vendu un équipement le 30 septembre 2025 pour 40 000 € HT. Les informations concernant cet équipement sont les suivantes :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Information</th><th style=\"background-color: #45B19D; color: white; padding: 8px;\">Montant</th></tr></thead><tbody><tr><td>Prix d'acquisition HT</td><td>100 000 €</td></tr><tr><td>Date d'acquisition</td><td>01/01/2023</td></tr><tr><td>Durée d'amortissement</td><td>5 ans</td></tr></tbody></table><p><br></p><p><strong>Quelle est la moins-value ou plus-value de cession ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Moins-value de 20 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Plus-value de 20 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>Moins-value de 40 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>Plus-value de 40 000 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quels sont les éléments à vérifier lors du contrôle des charges de personnel ?</p></div>"
+        "content": "<p>Quels sont les éléments à vérifier lors du contrôle des charges de personnel ?</p>"
       },
       "options": [
         {
@@ -889,7 +550,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise reçoit le 15 décembre 2025 une facture d'assurance de 6 000 € HT pour la période du 1er janvier au 31 décembre 2026. La facture est payée le même jour. Quelle écriture doit être passée au 31 décembre 2025 ?</p></div>"
+        "content": "<p>Une entreprise reçoit le 15 décembre 2025 une facture d'assurance de 6 000 € HT pour la période du 1er janvier au 31 décembre 2026. La facture est payée le même jour. Quelle écriture doit être passée au 31 décembre 2025 ?</p>"
       },
       "options": [
         {
@@ -913,31 +574,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une société présente les soldes suivants au 31 décembre 2025 :</p><table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Compte</th><th style=\"background-color: #2F4F4F; color: white; padding: 8px;\">Solde</th></tr></thead><tbody><tr><td>TVA collectée</td><td>50 000 €</td></tr><tr><td>TVA déductible sur immobilisations</td><td>15 000 €</td></tr><tr><td>TVA déductible sur ABS</td><td>25 000 €</td></tr><tr><td>Crédit de TVA à reporter</td><td>5 000 €</td></tr></tbody></table><p><br></p><p><strong>Quel est le montant de TVA à payer ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>5 000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>10 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>15 000 €</p>",
-          "correct": false
-        },
-        {
-          "content": "<p>0 €</p>",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p class=\"ql-align-justify\">Une entreprise constate lors de son inventaire que des marchandises d'une valeur de 8 000 € ont été volées. L'assurance confirme un remboursement de 6 000 €. Quelle écriture doit être passée ?</p></div>"
+        "content": "<p>Une entreprise constate lors de son inventaire que des marchandises d'une valeur de 8 000 € ont été volées. L'assurance confirme un remboursement de 6 000 €. Quelle écriture doit être passée ?</p>"
       },
       "options": [
         {
@@ -961,7 +598,7 @@
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Quels sont les documents à établir obligatoirement lors de la clôture annuelle des comptes ?</p></div>"
+        "content": "<p>Quels sont les documents à établir obligatoirement lors de la clôture annuelle des comptes ?</p>"
       },
       "options": [
         {
@@ -978,6 +615,536 @@
         },
         {
           "content": "<p>Le plan de trésorerie mensuel</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Une société a reçu une facture d'achat de marchandises le 28 décembre 2025 pour 10 000 € HT. Les marchandises ne sont livrées que le 3 janvier 2026. Quelle écriture doit être passée au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 408 Fournisseurs - Factures non parvenues : 10 000 €<br>Crédit 607 Achats de marchandises : 10 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire car les marchandises n'ont pas été livrées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 607 Achats de marchandises : 10 000 €<br>Crédit 401 Fournisseurs : 10 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 487 Produits constatés d'avance : 10 000 €<br>Crédit 607 Achats de marchandises : 10 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "preview": true,
+        "content": "<p>Quels sont les principes comptables fondamentaux à respecter lors de la clôture des comptes ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le principe de prudence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le principe de continuité d'exploitation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le principe d'indépendance des exercices</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le principe de maximisation du résultat</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise accorde une remise de 2 000 € HT à un client suite à un litige sur la qualité des marchandises. Quelle écriture comptable doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 709 RRR accordés : 2 000 €<br>Crédit 411 Clients : 2 400 €<br>Débit 44571 TVA collectée : 400 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 709 RRR accordés : 2 400 €<br>Crédit 411 Clients : 2 400 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 411 Clients : 2 000 €<br>Crédit 709 RRR accordés : 2 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 709 RRR accordés : 2 000 €<br>Crédit 411 Clients : 2 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a reçu un acompte de 5 000 € HT d'un client le 15 décembre 2025 pour une prestation qui sera réalisée en mars 2026. Quelle écriture doit être passée au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 487 Produits constatés d'avance : 5 000 €<br>Crédit 706 Prestations de services : 5 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 706 Prestations de services : 5 000 €<br>Crédit 487 Produits constatés d'avance : 5 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 411 Clients : 5 000 €<br>Crédit 706 Prestations de services : 5 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments doivent être vérifiés lors du lettrage des comptes clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La correspondance entre les factures et les règlements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ancienneté des créances non lettrées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les avoirs non encore imputés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le chiffre d'affaires prévisionnel</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a reçu le 31 décembre 2025 un virement bancaire de 12 000 € qui ne correspond à aucune facture émise. Comment doit-elle comptabiliser cette opération ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 512 Banque : 12 000 €<br>Crédit 471 Compte d'attente : 12 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 512 Banque : 12 000 €<br>Crédit 411 Clients : 12 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Ne rien comptabiliser en attendant d'identifier l'origine</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 512 Banque : 12 000 €<br>Crédit 708 Produits divers : 12 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise constate qu'une créance client de 4 000 € TTC (TVA 20%) est devenue irrécouvrable. Quelle écriture doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 654 Pertes sur créances irrécouvrables : 3 333,33 €<br>Débit 44571 TVA collectée : 666,67 €<br>Crédit 411 Clients : 4 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 654 Pertes sur créances irrécouvrables : 4 000 €<br>Crédit 411 Clients : 4 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 654 Pertes sur créances irrécouvrables : 3 333,33 €<br>Crédit 411 Clients : 3 333,33 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 416 Clients douteux : 4 000 €<br>Crédit 411 Clients : 4 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a acquis un brevet le 1er juillet 2025 pour 60 000 € HT. La durée d'utilisation prévue est de 5 ans. Quel est le montant de la dotation aux amortissements à comptabiliser au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>6 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>3 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>60 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les contrôles à effectuer lors de la révision des comptes de TVA ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La cohérence entre la TVA collectée et le chiffre d'affaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La justification des opérations d'autoliquidation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La conformité des taux appliqués</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le montant des dividendes distribués</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a reçu une facture d'avocat de 3 000 € HT le 5 janvier 2026 pour des prestations réalisées en décembre 2025. Quelle écriture doit être passée au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6226 Honoraires : 3 000 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 3 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 6226 Honoraires : 3 600 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 3 600 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 408 Fournisseurs - Factures non parvenues : 3 000 €<br>Crédit 6226 Honoraires : 3 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise dispose d'un stock de marchandises de 20 000 € au 31 décembre 2025. Une étude de marché révèle que ces marchandises ne pourront être vendues qu'à 16 000 €. Des frais de vente de 1 000 € sont à prévoir. Quel est le montant de la dépréciation à comptabiliser ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>5 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>3 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>1 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à vérifier lors du contrôle des emprunts ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La concordance avec le tableau d'amortissement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le calcul des intérêts courus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'existence du contrat de prêt</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le cours de l'action en bourse</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a émis un effet de commerce de 8 000 € le 15 décembre 2025, échéance le 15 mars 2026. Le 31 décembre 2025, elle escompte cet effet. Les frais d'escompte s'élèvent à 200 €. Quelle écriture doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 512 Banque : 7 800 €<br>Débit 627 Services bancaires : 200 €<br>Crédit 413 Effets à recevoir : 8 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 512 Banque : 8 000 €<br>Crédit 413 Effets à recevoir : 8 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 512 Banque : 7 800 €<br>Crédit 413 Effets à recevoir : 7 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 413 Effets à recevoir : 8 000 €<br>Crédit 512 Banque : 8 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise verse des jetons de présence aux membres de son conseil d'administration pour un montant total de 15 000 €. Les charges sociales s'élèvent à 3 000 €. Quelle écriture doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6531 Jetons de présence : 15 000 €<br>Débit 6451 Charges de sécurité sociale : 3 000 €<br>Crédit 421 Personnel - rémunérations dues : 15 000 €<br>Crédit 431 Sécurité sociale : 3 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6531 Jetons de présence : 18 000 €<br>Crédit 421 Personnel - rémunérations dues : 18 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 6531 Jetons de présence : 15 000 €<br>Crédit 421 Personnel - rémunérations dues : 15 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 421 Personnel - rémunérations dues : 15 000 €<br>Crédit 6531 Jetons de présence : 15 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les documents à analyser lors de la révision des comptes de charges de personnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La Déclaration Sociale Nominative (DSN)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les bulletins de paie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le registre unique du personnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le grand livre des fournisseurs</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société reçoit une facture de maintenance informatique le 15 janvier 2026 pour 2 400 € HT, couvrant la période du 1er octobre 2025 au 31 mars 2026. Quelle écriture de régularisation doit être passée au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6156 Maintenance : 800 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 800 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6156 Maintenance : 1 200 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 1 200 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 6156 Maintenance : 2 400 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 2 400 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise cède un matériel industriel le 31 décembre 2025. Prix de cession : 15 000 € HT. Valeur d'origine : 40 000 € HT. Amortissements cumulés : 30 000 €. Quelle est la plus ou moins-value de cession ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Plus-value de 5 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Moins-value de 5 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Plus-value de 25 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Moins-value de 25 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de la révision des comptes annuels, quels sont les contrôles à effectuer sur les immobilisations ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La vérification des tableaux d'amortissement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'inventaire physique des immobilisations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'analyse des dépenses d'entretien et réparation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le contrôle des factures clients</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société provisionne les congés payés au 31 décembre 2025. Le montant des droits acquis s'élève à 25 000 € et les charges sociales correspondantes à 10 000 €. Quelle écriture doit être passée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6412 Congés payés : 25 000 €<br>Débit 6452 Charges sur congés payés : 10 000 €<br>Crédit 4282 Dettes provisionnées pour congés payés : 25 000 €<br>Crédit 4482 Charges sociales sur congés payés : 10 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6412 Congés payés : 35 000 €<br>Crédit 4282 Dettes provisionnées pour congés payés : 35 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 6412 Congés payés : 25 000 €<br>Crédit 4282 Dettes provisionnées pour congés payés : 25 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une société a souscrit un emprunt de 200 000 € le 1er juillet 2025 au taux de 4% l'an. Les intérêts sont payables annuellement le 30 juin. Quel est le montant des intérêts courus au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>4 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>8 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>2 000 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>6 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise reçoit une facture de loyer le 2 janvier 2026 pour le 4ème trimestre 2025, d'un montant de 9 000 € HT. Quelle écriture doit être passée au 31 décembre 2025 ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Débit 6132 Locations immobilières : 9 000 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 9 000 €</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Débit 6132 Locations immobilières : 10 800 €<br>Crédit 408 Fournisseurs - Factures non parvenues : 10 800 €</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Aucune écriture n'est nécessaire</p>",
+          "correct": false
+        },
+        {
+          "content": "<p>Débit 408 Fournisseurs - Factures non parvenues : 9 000 €<br>Crédit 6132 Locations immobilières : 9 000 €</p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les éléments à vérifier lors du contrôle des provisions pour risques et charges ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'existence d'une obligation à la clôture de l'exercice</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La probabilité de sortie de ressources</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La fiabilité de l'estimation du montant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le cours des actions en bourse</p>",
           "correct": false
         }
       ]

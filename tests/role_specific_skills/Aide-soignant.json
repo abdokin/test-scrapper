@@ -11,7 +11,7 @@
     ],
     "relevancy": "Aides-soignants, assistants en soins, aides à domicile et auxiliaires de vie",
     "description": "Un bon aide-soignant peut transformer la vie des patients et de leurs proches. Que ce soit dans un établissement de soins, au domicile d'un patient ou dans un environnement similaire, les aides-soignants sont en première ligne pour favoriser la qualité de vie des patients. Ce poste nécessite la maîtrise des techniques de soins et des compétences interpersonnelles. Les meilleurs aides fournissent une large gamme de services aux clients, agissant comme soignants, accompagnants, défenseurs et intermédiaires avec les autres prestataires de soins de santé.",
-    "category": "Compétences spécifiques au rôle",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,

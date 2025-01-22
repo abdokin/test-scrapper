@@ -10,7 +10,7 @@
     ],
     "relevancy": "Spécialistes de la saisie de données, analystes de données, analystes marketing, responsables marketing, assistant·e·s de données et autres rôles nécessitant de travailler avec des données.",
     "description": "La capacité à travailler avec des données est importante dans un large éventail de rôles, des préposé·e·s à la saisie des données aux analystes et aux gestionnaires. Il est important que les personnes qui travaillent à la saisie, à la lecture et à la manipulation des données aient une solide compréhension des principes qui sous-tendent la gestion des données, afin d’éviter d’introduire des erreurs qui pourraient exercer un impact important sur les résultats de l’entreprise. Une bonne compréhension des données est également nécessaire lors de l’analyse ou de la création de visualisations de données, afin de s’assurer que les données sont représentées fidèlement.  \n\nLe test « Travailler avec des données » évalue la compréhension des concepts de traitement des données par les candidat·e·s, ainsi que leurs compétences en matière d’analyse et d’interprétation des données de base et d’utilisation des graphiques. \n\nLes candidat·e·s qui obtiennent de bons résultats à ce test ont une bonne maîtrise des concepts de données, peuvent veiller à ce que l’intégrité des données soit maintenue pendant la saisie, et sont capables d’effectuer des analyses de base, d’interpréter et de produire des visualisations simples.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 600,
@@ -21,21 +21,609 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "<div class=\"ql-editor\"><p>On vous présente le tableau ci-dessous, dans lequel toutes les informations sont exactes.</p><p><br></p><p><strong>Quelle colonne doit être prise en compte avant que vous puissiez analyser les données ?</strong></p><p><br></p><div> <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\"> <thead> <tr> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Name</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Classe</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Date de naissance</th> <th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 25%;\">Résultat du test</th> </tr> </thead> <tbody> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Jacques</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4PW</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">30° Novembre</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">80,5</td> </tr> <tr style=\"background-color: #f2f2f2;\"> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mohammed</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4A</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">02/05/12</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">83</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Sophie</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4A</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">1° déc. 2011</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">67</td> </tr> <tr style=\"background-color: #f2f2f2;\"> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Georges</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4PW</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">08/03/12</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">76,5</td> </tr> <tr> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Nicole</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4PW</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">04/05/12</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">78</td> </tr> <tr style=\"background-color: #f2f2f2;\"> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Laurence</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4G</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">24-Jan-12</td> <td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">92</td> </tr> </tbody> </table> </div></div>"
+        "content": "<p>Que faut-il faire pour trouver la <strong>moyenne</strong> d'un ensemble de nombres ?</p>"
       },
       "options": [
         {
-          "content": "<p>Nom</p>"
+          "content": "<p>Rechercher le nombre qui apparait le plus fréquemment.</p>"
         },
         {
-          "content": "<p>Classe</p>"
-        },
-        {
-          "content": "<p>Date de naissance</p>",
+          "content": "<p>Calculer la somme des nombres et la diviser par la quantité de nombres contenus dans l'ensemble.</p>",
           "correct": true
         },
         {
-          "content": "<p>Résultat du test</p>"
+          "content": "<p>Rechercher le nombre å mi-chemin entre le plus petit nombre et le plus grand nombre.</p>"
+        },
+        {
+          "content": "<p>Classer tous les nombres dans l'ordre croissant et rechercher le nombre du milieu.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous travaillez en tant qu'analyste marketing pour une entreprise de crèmes glacées et on vous présente les données d'une enquête sur les parfums de crème glacée préférés des gens. Dans l'enquête, il était demandé aux gens de sélectionner leur parfum préféré dans une liste de 25 choix, et plus de 800 personnes ont répondu. Votre responsable vous a demandé de réaliser un tableau rapide pour illustrer et comparer la popularité de tous les parfums.</p><p><br></p><p><strong>Quel type de tableau serait le mieux adapté à cette tâche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Diagramme de dispersion</p>"
+        },
+        {
+          "content": "<p>Graphique en secteurs</p>"
+        },
+        {
+          "content": "<p>Graphique barres</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Graphique linéaire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le contexte de l'analyse des données, quelles sont les étapes importantes pour garantir la qualité des données ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier la cohérence des formats de données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier et traiter les valeurs manquantes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer systématiquement toutes les valeurs extrêmes</p>"
+        },
+        {
+          "content": "<p>Documenter les sources et les méthodes de collecte</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous disposez d'un ensemble de données contenant des informations sur les ventes mensuelles. Vous remarquez une valeur de vente anormalement élevée pour un mois particulier. Quelle est la première étape la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Supprimer immédiatement la valeur car elle est clairement erronée</p>"
+        },
+        {
+          "content": "<p>Vérifier la source des données et confirmer si la valeur est réelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Remplacer la valeur par la moyenne des autres mois</p>"
+        },
+        {
+          "content": "<p>Ignorer cette valeur dans l'analyse</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors de l'analyse de données chronologiques, quelle méthode est la plus appropriée pour identifier une tendance à long terme ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Calculer la moyenne mobile</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Compter la fréquence des valeurs</p>"
+        },
+        {
+          "content": "<p>Calculer l'écart-type</p>"
+        },
+        {
+          "content": "<p>Identifier la valeur médiane</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de la préparation d'un rapport de données pour une présentation, quels éléments sont essentiels pour assurer une communication efficace ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Inclure une légende claire pour tous les graphiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des échelles appropriées pour les axes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ajouter le plus de données possible sur un seul graphique</p>"
+        },
+        {
+          "content": "<p>Fournir un titre descriptif pour chaque visualisation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans une feuille de calcul, vous remarquez que certaines cellules contiennent des données au format texte alors qu'elles devraient être numériques. Quelle est la meilleure approche pour résoudre ce problème ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Supprimer toutes les lignes contenant des erreurs de format</p>"
+        },
+        {
+          "content": "<p>Convertir manuellement les données dans le bon format après vérification</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le problème car cela n'affecte pas l'analyse</p>"
+        },
+        {
+          "content": "<p>Remplacer toutes les valeurs par zéro</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Vous analysez les données de vente d'un magasin. Quelles métriques seraient les plus pertinentes pour évaluer la performance des ventes ? Sélectionnez toutes les réponses qui s'appliquent.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Le chiffre d'affaires moyen par client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le taux de conversion des visiteurs en clients</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La couleur préférée des employés</p>"
+        },
+        {
+          "content": "<p>La croissance des ventes d'une période à l'autre</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez analyser la relation entre deux variables continues : le prix d'un produit et le nombre d'unités vendues. Quel type de graphique serait le plus approprié ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Un graphique en secteurs</p>"
+        },
+        {
+          "content": "<p>Un diagramme de dispersion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un diagramme en bâtons</p>"
+        },
+        {
+          "content": "<p>Un histogramme empilé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un ensemble de données, la médiane est significativement différente de la moyenne. Que cela suggère-t-il généralement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les données sont parfaitement symétriques</p>"
+        },
+        {
+          "content": "<p>Il y a une erreur dans les calculs</p>"
+        },
+        {
+          "content": "<p>Les données sont asymétriques ou contiennent des valeurs extrêmes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'ensemble de données est trop petit pour être analysé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'importation de données d'un fichier CSV, quelles vérifications sont importantes à effectuer ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier que les séparateurs de colonnes sont correctement reconnus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>S'assurer que l'encodage des caractères est approprié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Compter le nombre de lignes du fichier</p>"
+        },
+        {
+          "content": "<p>Vérifier la cohérence des formats de date</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez présenter des données mensuelles sur trois ans. Les données montrent de fortes variations saisonnières qui masquent la tendance générale. Quelle technique serait la plus appropriée pour identifier la tendance sous-jacente ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Calculer la moyenne mobile sur 12 mois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser uniquement les données du dernier mois de chaque année</p>"
+        },
+        {
+          "content": "<p>Calculer la médiane de chaque année</p>"
+        },
+        {
+          "content": "<p>Supprimer les mois présentant des valeurs extrêmes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'analyse de données financières dans un tableur, quelles fonctions sont particulièrement utiles ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>RECHERCHEV pour lier des données de différentes feuilles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>TRI pour organiser les données par ordre croissant ou décroissant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>SOMPROD pour calculer des totaux pondérés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>MAJUSCULE pour mettre le texte en majuscules</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez analyser la distribution des âges dans un échantillon de population. La moyenne est de 45 ans, la médiane de 42 ans, et le mode est de 38 ans. Que pouvez-vous conclure ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La distribution est parfaitement symétrique</p>"
+        },
+        {
+          "content": "<p>La distribution est asymétrique vers la droite (skewed right)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La distribution est asymétrique vers la gauche (skewed left)</p>"
+        },
+        {
+          "content": "<p>La distribution est bimodale</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Dans un contexte d'analyse de données, que signifie le terme \"granularité\" ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le niveau de détail des données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La qualité des données</p>"
+        },
+        {
+          "content": "<p>La taille du jeu de données</p>"
+        },
+        {
+          "content": "<p>Le format de stockage des données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans une analyse de corrélation, vous obtenez un coefficient de -0,95. Quelle est l'interprétation correcte ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Il n'y a pas de relation entre les variables</p>"
+        },
+        {
+          "content": "<p>Il existe une forte corrélation négative entre les variables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il existe une faible corrélation positive entre les variables</p>"
+        },
+        {
+          "content": "<p>Les variables sont parfaitement corrélées positivement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle méthode est la plus appropriée pour normaliser des données qui suivent une distribution normale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Z-score (score standardisé)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Min-Max scaling</p>"
+        },
+        {
+          "content": "<p>Logarithme naturel</p>"
+        },
+        {
+          "content": "<p>Racine carrée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'agrégation de données temporelles, quelles méthodes sont appropriées ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Regrouper par semaine, mois ou trimestre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des moyennes mobiles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer les données anciennes</p>"
+        },
+        {
+          "content": "<p>Calculer des totaux cumulés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quel type de visualisation est le plus approprié pour comparer la distribution de plusieurs variables continues ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Boîte à moustaches (Box plot)</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Graphique circulaire</p>"
+        },
+        {
+          "content": "<p>Graphique en anneau</p>"
+        },
+        {
+          "content": "<p>Treemap</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le contexte du nettoyage des données, quelles actions sont recommandées ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Standardiser les formats de date</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer les doublons</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer toutes les valeurs extrêmes</p>"
+        },
+        {
+          "content": "<p>Traiter les valeurs manquantes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un ensemble de données contient les valeurs suivantes : 2, 4, 4, 6, 8, 8, 8, 10</p><p><br></p><p><strong>Quelle est la médiane de cet ensemble ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>7</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6</p>"
+        },
+        {
+          "content": "<p>8</p>"
+        },
+        {
+          "content": "<p>6,25</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle méthode devriez-vous utiliser pour identifier des relations non linéaires entre deux variables continues ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Coefficient de corrélation de Pearson</p>"
+        },
+        {
+          "content": "<p>Coefficient de corrélation de Spearman</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Test du chi-carré</p>"
+        },
+        {
+          "content": "<p>Test t de Student</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'analyse de séries temporelles, quelles techniques sont appropriées pour identifier les tendances saisonnières ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Décomposition multiplicative</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Analyse des variations année par année</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Calcul des moyennes mobiles saisonnières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suppression des valeurs extrêmes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans un ensemble de données, vous observez les valeurs suivantes pour l'âge des employés :</p><p>25, 28, 28, 30, 32, 32, 32, 35, 35, 38</p><p><br></p><p><strong>Quel est le mode de cet ensemble de données ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>28</p>"
+        },
+        {
+          "content": "<p>30</p>"
+        },
+        {
+          "content": "<p>32</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>35</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle mesure statistique est la plus appropriée pour décrire la dispersion des données lorsque la distribution n'est pas normale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écart-type</p>"
+        },
+        {
+          "content": "<p>Variance</p>"
+        },
+        {
+          "content": "<p>Intervalle interquartile</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Moyenne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de l'analyse d'une base de données clients, quels indicateurs sont pertinents pour évaluer la qualité des données ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le pourcentage de champs vides</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le nombre d'enregistrements dupliqués</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La cohérence des formats d'adresse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La couleur préférée des clients</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle affirmation décrit le mieux le concept de \"biais de survivant\" dans l'analyse de données ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La tendance à ne considérer que les cas qui ont réussi, ignorant ceux qui ont échoué</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'erreur consistant à analyser uniquement les données les plus récentes</p>"
+        },
+        {
+          "content": "<p>La pratique de supprimer les valeurs aberrantes</p>"
+        },
+        {
+          "content": "<p>La tendance à préférer les grandes bases de données</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le contexte de la visualisation de données, quels principes sont importants pour créer des graphiques efficaces ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des échelles appropriées pour les axes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter la surcharge d'informations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Choisir des couleurs qui créent un contraste suffisant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser autant d'effets 3D que possible</p>"
         }
       ]
     },
@@ -130,50 +718,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Observez le tableau suivant qui montre les ventes trimestrielles d'une entreprise :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Trimestre</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2022</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2023</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">T1</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">45.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">52.000 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">T2</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">48.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">54.000 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">T3</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">51.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">57.000 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">T4</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">50.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">59.000 €</td></tr></tbody></table></div><p><br></p><p><strong>Quel est le pourcentage d'augmentation des ventes entre le T1 2022 et le T1 2023 ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>13,5%</p>"
-        },
-        {
-          "content": "<p>15,6%</p>"
-        },
-        {
-          "content": "<p>15,5%</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>14,8%</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Examinez le graphique ci-dessous qui montre la répartition des dépenses mensuelles d'une entreprise :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Catégorie</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Montant (€)</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Salaires</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">25.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Marketing</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">8.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Équipement</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">12.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Services</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">5.000</td></tr></tbody></table></div><p><br></p><p><strong>Quelles affirmations sont correctes concernant ces données ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Les salaires représentent 50% des dépenses totales</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le marketing et les services combinés équivalent à 13.000 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>L'équipement représente 24% des dépenses totales</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les dépenses totales sont inférieures à 45.000 €</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Lors de l'analyse de données chronologiques, quelle méthode est la plus appropriée pour identifier une tendance à long terme ?</p>"
       },
       "options": [
@@ -189,27 +733,6 @@
         },
         {
           "content": "<p>Identifier la valeur médiane</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un chercheur dispose des données suivantes sur l'âge de plusieurs participants :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Âge</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: center;\">Fréquence</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">20-25</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">8</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">26-30</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">15</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">31-35</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">12</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">36-40</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: center;\">5</td></tr></tbody></table></div><p><br></p><p><strong>Quel type de graphique serait le plus approprié pour représenter ces données ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Un graphique linéaire</p>"
-        },
-        {
-          "content": "<p>Un histogramme</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Un graphique circulaire</p>"
-        },
-        {
-          "content": "<p>Un nuage de points</p>"
         }
       ]
     },
@@ -259,268 +782,6 @@
     },
     {
       "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Vous analysez les données de vente d'un magasin. Quelles métriques seraient les plus pertinentes pour évaluer la performance des ventes ? Sélectionnez toutes les réponses qui s'appliquent.</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Le chiffre d'affaires moyen par client</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le taux de conversion des visiteurs en clients</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La couleur préférée des employés</p>"
-        },
-        {
-          "content": "<p>La croissance des ventes d'une période à l'autre</p>",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Vous devez analyser la relation entre deux variables continues : le prix d'un produit et le nombre d'unités vendues. Quel type de graphique serait le plus approprié ?</p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Un graphique en secteurs</p>"
-        },
-        {
-          "content": "<p>Un diagramme de dispersion</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Un diagramme en bâtons</p>"
-        },
-        {
-          "content": "<p>Un histogramme empilé</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Dans un ensemble de données, la médiane est significativement différente de la moyenne. Que cela suggère-t-il généralement ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Les données sont parfaitement symétriques</p>"
-        },
-        {
-          "content": "<p>Il y a une erreur dans les calculs</p>"
-        },
-        {
-          "content": "<p>Les données sont asymétriques ou contiennent des valeurs extrêmes</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>L'ensemble de données est trop petit pour être analysé</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Lors de l'importation de données d'un fichier CSV, quelles vérifications sont importantes à effectuer ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Vérifier que les séparateurs de colonnes sont correctement reconnus</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>S'assurer que l'encodage des caractères est approprié</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Compter le nombre de lignes du fichier</p>"
-        },
-        {
-          "content": "<p>Vérifier la cohérence des formats de date</p>",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Observez les données de vente suivantes :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Région</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2022</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2023</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Variation</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Nord</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">120.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">150.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">25%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Sud</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">85.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">110.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">?</td></tr></tbody></table></div><p><br></p><p><strong>Quelle est la variation en pourcentage pour la région Sud ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>25%</p>"
-        },
-        {
-          "content": "<p>29,4%</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>22,7%</p>"
-        },
-        {
-          "content": "<p>30,5%</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Un fichier de données contient les éléments suivants :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">ID</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Date</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Montant</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">001</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2023-13-01</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">1.000 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">002</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2023-01-15</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">-500 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">003</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2023/02/01</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2000</td></tr></tbody></table></div><p><br></p><p><strong>Quels problèmes de qualité des données pouvez-vous identifier ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Date invalide (2023-13-01)</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Formats de date incohérents</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Formats monétaires incohérents</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les ID sont incorrects</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Vous devez présenter des données mensuelles sur trois ans. Les données montrent de fortes variations saisonnières qui masquent la tendance générale. Quelle technique serait la plus appropriée pour identifier la tendance sous-jacente ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Calculer la moyenne mobile sur 12 mois</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Utiliser uniquement les données du dernier mois de chaque année</p>"
-        },
-        {
-          "content": "<p>Calculer la médiane de chaque année</p>"
-        },
-        {
-          "content": "<p>Supprimer les mois présentant des valeurs extrêmes</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Vous analysez les temps de réponse du service client :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Temps de réponse</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Nombre de cas</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">0-5 minutes</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">150</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">6-10 minutes</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">200</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">11-15 minutes</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">100</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">>15 minutes</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">50</td></tr></tbody></table></div><p><br></p><p><strong>Quel pourcentage des cas est résolu en 10 minutes ou moins ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>60%</p>"
-        },
-        {
-          "content": "<p>70%</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>75%</p>"
-        },
-        {
-          "content": "<p>80%</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Lors de l'analyse de données financières dans un tableur, quelles fonctions sont particulièrement utiles ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
-      },
-      "options": [
-        {
-          "content": "<p>RECHERCHEV pour lier des données de différentes feuilles</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>TRI pour organiser les données par ordre croissant ou décroissant</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>SOMPROD pour calculer des totaux pondérés</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>MAJUSCULE pour mettre le texte en majuscules</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Examinez les données de satisfaction client suivantes :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Niveau de satisfaction</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2022</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">2023</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Très satisfait</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">45%</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">48%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Satisfait</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">30%</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">32%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Neutre</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">15%</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">12%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Insatisfait</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">10%</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">8%</td></tr></tbody></table></div><p><br></p><p><strong>Quelle est l'évolution du taux de satisfaction globale (Très satisfait + Satisfait) entre 2022 et 2023 ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Une augmentation de 3 points de pourcentage</p>"
-        },
-        {
-          "content": "<p>Une augmentation de 5 points de pourcentage</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Une diminution de 3 points de pourcentage</p>"
-        },
-        {
-          "content": "<p>Une augmentation de 7 points de pourcentage</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Vous devez analyser la distribution des âges dans un échantillon de population. La moyenne est de 45 ans, la médiane de 42 ans, et le mode est de 38 ans. Que pouvez-vous conclure ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>La distribution est parfaitement symétrique</p>"
-        },
-        {
-          "content": "<p>La distribution est asymétrique vers la droite (skewed right)</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La distribution est asymétrique vers la gauche (skewed left)</p>"
-        },
-        {
-          "content": "<p>La distribution est bimodale</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>En analysant les données suivantes sur les ventes mensuelles :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Mois</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Ventes (€)</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Janvier</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">50.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Février</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">48.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mars</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">150.000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Avril</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">52.000</td></tr></tbody></table></div><p><br></p><p><strong>Quelles observations sont correctes ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Mars présente une valeur aberrante potentielle</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La médiane serait plus représentative que la moyenne</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les ventes sont stables hors mars</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La tendance générale est à la hausse</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
         "type": "multiple_choice",
         "content": "<p>Dans un contexte d'analyse de données, que signifie le terme \"granularité\" ?</p>"
       },
@@ -543,28 +804,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Vous analysez les données de performance d'une équipe de vente :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Vendeur</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Objectif</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Réalisé</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Écart</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">A</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">100.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">95.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">-5%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">B</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">80.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">88.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">10%</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">C</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">120.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">114.000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">-5%</td></tr></tbody></table></div><p><br></p><p><strong>Quel est le taux de réalisation moyen par rapport aux objectifs pour l'ensemble de l'équipe ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>0%</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>-5%</p>"
-        },
-        {
-          "content": "<p>5%</p>"
-        },
-        {
-          "content": "<p>10%</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Dans une analyse de corrélation, vous obtenez un coefficient de -0,95. Quelle est l'interprétation correcte ?</p></div>"
+        "content": "<div><p>Dans une analyse de corrélation, vous obtenez un coefficient de -0,95. Quelle est l'interprétation correcte ?</p></div>"
       },
       "options": [
         {
@@ -579,29 +819,6 @@
         },
         {
           "content": "<p>Les variables sont parfaitement corrélées positivement</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Voici les données de vente mensuelles d'une boutique en ligne :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Mois</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Visiteurs</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Ventes</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Panier moyen</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Janvier</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1000</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">50</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">75 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Février</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1200</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">45</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">80 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mars</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">800</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">40</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">85 €</td></tr></tbody></table></div><p><br></p><p><strong>Quelles observations sont correctes ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Le panier moyen augmente chaque mois</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le taux de conversion diminue progressivement</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le chiffre d'affaires est stable</p>"
-        },
-        {
-          "content": "<p>Février a le plus grand nombre de visiteurs</p>",
-          "correct": true
         }
       ]
     },
@@ -652,27 +869,6 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Examinez le tableau suivant des températures moyennes mensuelles :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Mois</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Température (°C)</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Janvier</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">5</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Février</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">7</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mars</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">12</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Avril</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">15</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mai</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">20</td></tr></tbody></table></div><p><br></p><p><strong>Quelle est l'augmentation moyenne de température entre chaque mois ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>3,75 °C</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>3,25 °C</p>"
-        },
-        {
-          "content": "<p>4 °C</p>"
-        },
-        {
-          "content": "<p>5 °C</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
         "content": "<p>Quel type de visualisation est le plus approprié pour comparer la distribution de plusieurs variables continues ?</p>"
       },
       "options": [
@@ -717,7 +913,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un ensemble de données contient les valeurs suivantes : 2, 4, 4, 6, 8, 8, 8, 10</p><p><br></p><p><strong>Quelle est la médiane de cet ensemble ?</strong></p></div>"
+        "content": "<div><p>Un ensemble de données contient les valeurs suivantes : 2, 4, 4, 6, 8, 8, 8, 10</p><p><br></p><p><strong>Quelle est la médiane de cet ensemble ?</strong></p></div>"
       },
       "options": [
         {
@@ -732,268 +928,6 @@
         },
         {
           "content": "<p>6,25</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Voici les résultats d'une campagne marketing :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Canal</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Budget</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Conversions</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Coût/Conversion</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Email</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">50</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">20 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Social</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">2000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">80</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">25 €</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Search</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">3000 €</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">100</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">30 €</td></tr></tbody></table></div><p><br></p><p><strong>Quelles conclusions sont correctes ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>L'email a le meilleur coût par conversion</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le search génère le plus de conversions</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le coût par conversion augmente avec le budget</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le social media a le meilleur retour sur investissement</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle méthode devriez-vous utiliser pour identifier des relations non linéaires entre deux variables continues ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Coefficient de corrélation de Pearson</p>"
-        },
-        {
-          "content": "<p>Coefficient de corrélation de Spearman</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Test du chi-carré</p>"
-        },
-        {
-          "content": "<p>Test t de Student</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Examinez les données de vente suivantes par région :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Région</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Q1</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Q2</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Q3</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Q4</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Nord</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">100</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">120</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">90</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">130</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Sud</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">80</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">95</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">85</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">110</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Est</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">70</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">75</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">80</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">85</td></tr></tbody></table></div><p><br></p><p><strong>Quelle région montre la plus forte croissance en valeur absolue entre Q1 et Q4 ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Nord</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Sud</p>"
-        },
-        {
-          "content": "<p>Est</p>"
-        },
-        {
-          "content": "<p>Toutes les régions ont la même croissance</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Lors de l'analyse de séries temporelles, quelles techniques sont appropriées pour identifier les tendances saisonnières ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Décomposition multiplicative</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Analyse des variations année par année</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Calcul des moyennes mobiles saisonnières</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Suppression des valeurs extrêmes</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Dans un ensemble de données, vous observez les valeurs suivantes pour l'âge des employés :</p><p>25, 28, 28, 30, 32, 32, 32, 35, 35, 38</p><p><br></p><p><strong>Quel est le mode de cet ensemble de données ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>28</p>"
-        },
-        {
-          "content": "<p>30</p>"
-        },
-        {
-          "content": "<p>32</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>35</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<div class=\"ql-editor\"><p>Considérez les données suivantes sur les retards des employés :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Retard (minutes)</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Fréquence</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">0-5</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">45</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">6-10</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">30</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">11-15</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">15</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">16-20</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">10</td></tr></tbody></table></div><p><br></p><p><strong>Quelles affirmations sont correctes ? (Sélectionnez toutes les réponses qui s'appliquent)</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>La majorité des employés arrive avec moins de 6 minutes de retard</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>25% des employés arrivent avec plus de 10 minutes de retard</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La distribution est asymétrique vers la droite</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Les retards sont distribués uniformément</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle mesure statistique est la plus appropriée pour décrire la dispersion des données lorsque la distribution n'est pas normale ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Écart-type</p>"
-        },
-        {
-          "content": "<p>Variance</p>"
-        },
-        {
-          "content": "<p>Intervalle interquartile</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Moyenne</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Un magasin analyse ses ventes hebdomadaires :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Semaine</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Ventes (€)</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">1</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1000</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1200</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">3</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">900</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">1300</td></tr></tbody></table></div><p><br></p><p><strong>Quelle est la moyenne mobile sur 2 semaines pour la semaine 3 ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>1050 €</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>1100 €</p>"
-        },
-        {
-          "content": "<p>1150 €</p>"
-        },
-        {
-          "content": "<p>1200 €</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Lors de l'analyse d'une base de données clients, quels indicateurs sont pertinents pour évaluer la qualité des données ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Le pourcentage de champs vides</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Le nombre d'enregistrements dupliqués</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La cohérence des formats d'adresse</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>La couleur préférée des clients</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle affirmation décrit le mieux le concept de \"biais de survivant\" dans l'analyse de données ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>La tendance à ne considérer que les cas qui ont réussi, ignorant ceux qui ont échoué</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>L'erreur consistant à analyser uniquement les données les plus récentes</p>"
-        },
-        {
-          "content": "<p>La pratique de supprimer les valeurs aberrantes</p>"
-        },
-        {
-          "content": "<p>La tendance à préférer les grandes bases de données</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div class=\"ql-editor\"><p>Dans un jeu de données, vous observez que les valeurs d'une colonne suivent cette distribution :</p><div><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: left;\">Valeur</th><th style=\"background-color: #2F4F4F; color: white; padding: 10px; text-align: right;\">Fréquence</th></tr></thead><tbody><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">1</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">15</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">2</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">30</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">3</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">40</td></tr><tr><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">4</td><td style=\"padding: 10px; border-bottom: 1px solid #ddd; text-align: right;\">15</td></tr></tbody></table></div><p><br></p><p><strong>Quelle est la meilleure description de cette distribution ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "<p>Asymétrique vers la droite</p>"
-        },
-        {
-          "content": "<p>Asymétrique vers la gauche</p>"
-        },
-        {
-          "content": "<p>Approximativement normale</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Uniforme</p>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_response",
-        "content": "<p>Dans le contexte de la visualisation de données, quels principes sont importants pour créer des graphiques efficaces ? Sélectionnez toutes les réponses qui s'appliquent.</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Utiliser des échelles appropriées pour les axes</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Éviter la surcharge d'informations</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Choisir des couleurs qui créent un contraste suffisant</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Utiliser autant d'effets 3D que possible</p>"
         }
       ]
     }

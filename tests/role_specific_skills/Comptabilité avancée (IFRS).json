@@ -11,7 +11,7 @@
     ],
     "relevancy": "Comptables, experts-comptables et autres fonctions nécessitant une solide expertise comptable.",
     "description": "De bonnes pratiques comptables permettent à la direction de votre entreprise de prendre de meilleures décisions sur la base d’états financiers et de projections précis. Elles apportent également la sérénité à votre entreprise, sachant que tous ses paiements, factures et déclarations fiscales sont traités et en bon ordre.\n\nCe test de comptabilité évalue la capacité des candidats à définir les terminologies et les concepts comptables de base, à comptabiliser les chiffres dans les bons comptes et dans la bonne partie (débit/crédit), à calculer les chiffres comptables et à gérer les chiffres comptables et les documents financiers. Il vous aide à identifier les candidats dotés de solides compétences qui peuvent reprendre ou mettre en place les pratiques comptables de votre entreprise.\n\nLes candidats qui obtiennent de bons résultats à ce test peuvent accomplir avec compétence des tâches comptables essentielles telles que la comptabilité en partie double, la comptabilisation des stocks, les amortissements, les charges à payer et les paiements anticipés. They can also manage accounts payable and accounts receivable, perform analysis of records, and prepare financial statements.\n\nCe test suit les normes internationales d'information financière (IFRS), car tous les concepts, la terminologie et les questions du test sont conformes aux IFRS.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,

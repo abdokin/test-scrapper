@@ -11,7 +11,7 @@
     ],
     "relevancy": "Contrôleur financier, comptable d'entreprise, directeur financier, trésorier, auditeur et toute personne responsable de la gestion et du contrôle des finances globales d'une entreprise.",
     "description": "La survie de toute entreprise nécessite la disponibilité et l'accès au financement. Chaque entreprise souhaite maximiser ses profits et minimiser les risques, mais la disponibilité du financement ne garantit pas ces résultats. Une gestion efficace des finances nécessite une supervision qualifiée pour garantir que des fonds suffisants sont disponibles pour faire face aux passifs courants et assurer le bon fonctionnement des opérations commerciales. Ce test de Gestion Financière vous aidera à trouver la personne capable de gérer les finances de votre entreprise pour assurer son succès à court, moyen et long terme.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,

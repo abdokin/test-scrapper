@@ -11,7 +11,7 @@
     ],
     "relevancy": "Tout rôle qui exige une attention aux détails, comme le service à la clientèle, les assistants de bureau, les administrateurs et les comptables, pour n’en citer que quelques-uns. Ce test est également bien adapté pour tester l’attention globale des candidats pour les emplois de niveau débutant.",
     "description": "Petits éléments mais grand impact. Des fautes de grammaire qui peuvent donner une impression d'amateurisme aux erreurs dans les chiffres et les données qui peuvent avoir de graves conséquences, l'attention portée aux détails est une compétence importante que tout professionnel doit posséder.\n\nCe test de sélection Attention aux détails (textuels) évalue la capacité des candidats à tenir compte des détails en leur présentant des tâches qui leur demandent de faire correspondre ou de filtrer des informations, de comparer des énoncés et d'en vérifier la cohérence. Le test fournit des indications sur la vigilance des candidats en leur demandant d'identifier les erreurs, les omissions ou les incohérences dans les informations présentées.\n\nLes candidats qui obtiennent de bons résultats à ce test Attention aux détails sont capables de traiter des informations textuelles et d'arriver à la bonne réponse sans perdre de vue les petits détails qui peuvent avoir un impact important. Si vous recherchez des candidats qui font preuve de rigueur dans leur travail et qui tiennent compte de chaque petit détail avant d'arriver à une conclusion, ce test est fait pour vous. Ce test est également parfait pour vérifier les compétences analytiques générales des candidats.",
-    "category": "Cognitive ability",
+    "category": "cognitive_ability",
     "language": "french",
     "questions_to_answer": 16,
     "duration_seconds": 720,
@@ -21,29 +21,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "preview": true,
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez l'adresse figurant dans le dossier avec l'adresse figurant dans l'annuaire, comme indiqué ci-dessous. </span></p><p class='ql-align-justify'><br></p><p class='ql-align-justify'><strong style='color: rgb(67, 67, 67);'>Combien de mots, de nombres, d'espaces et de signes de ponctuation sont différents dans les deux versions ? </strong></p><p class='ql-align-justify'>Remarque : une séquence unifiée de chiffres sans espace ni tiret entre eux compte pour un seul nombre.</p><p class='ql-align-justify'><br></p><table style='width: 100%; border-collapse: collapse;'> <thead> <tr> <th style='background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 50%;'> Adresse dans le dossier </th> <th style='background-color: #2F4F4F; color: white; padding: 10px; text-align: left; width: 50%;'> Adresse dans l'annuaire </th> </tr> </thead> <tbody> <tr> <td style='padding: 15px; border: 1px solid #ddd;'> Jonathan Bouvier<br> Appartement n° 838388<br> 717, avenue Jean Jaurès<br> 69000 Lyon </td> <td style='padding: 15px; border: 1px solid #ddd;'> Jonathan Bouvier,<br> Appartement no. 838388<br> 717, avenue Jean Jaurès<br> 69000 Lyon </td> </tr> </tbody> </table></div>"
-      },
-      "options": [
-        {
-          "content": "<span style='color: rgb(67, 67, 67);'>Il y a 0 différences dans les adresses.</span>"
-        },
-        {
-          "content": "<span style='color: rgb(67, 67, 67);'>Il y a 2 différences dans les adresses.</span>"
-        },
-        {
-          "content": "<span style='color: rgb(67, 67, 67);'>Il y a 3 différences dans les adresses.</span>",
-          "correct": true
-        },
-        {
-          "content": "<span style='color: rgb(67, 67, 67);'>Il y a 4 différences dans les adresses.</span>"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Madeleine a vu Jeanne et Belle, qui mesurent tous deux plus de 1,80 m, jouer au basket-ball en portant des chaussures blanches. Jeanne a invité leur amie Claire, qui pèse 87 kilos et mesure environ 1,67 m, à se joindre à elles pour jouer au tennis le lendemain matin. Après avoir joué au tennis, toutes ont dû terminer leurs devoirs qui devaient être rendus le lendemain, un mardi. </span></p><p><strong style='color: rgb(67, 67, 67);'>Quel jour Madeleine a-t-elle vu Jeanne et Belle jouer au basket-ball en portant des chaussures blanches ? </strong></p></div>"
+        "content": "<div><p><span>Madeleine a vu Jeanne et Belle, qui mesurent tous deux plus de 1,80 m, jouer au basket-ball en portant des chaussures blanches. Jeanne a invité leur amie Claire, qui pèse 87 kilos et mesure environ 1,67 m, à se joindre à elles pour jouer au tennis le lendemain matin. Après avoir joué au tennis, toutes ont dû terminer leurs devoirs qui devaient être rendus le lendemain, un mardi. </span></p><p><strong>Quel jour Madeleine a-t-elle vu Jeanne et Belle jouer au basket-ball en portant des chaussures blanches ? </strong></p></div>"
       },
       "options": [
         {
@@ -64,7 +42,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Un élève a copié l'énoncé A dans son cahier (comme indiqué dans l'énoncé B ci-dessous). </span><strong style='color: rgb(67, 67, 67);'>Combien de mots l'élève a-t-il recopié de façon incorrecte ?</strong></p><p class='ql-align-justify'><br></p><p class='ql-align-justify'><strong style='color: rgb(67, 67, 67);'> Énoncé A</strong><span style='color: rgb(67, 67, 67);'> : Les cours facultatifs de deuxième année étaient la parapsychologie, la physiologie, l'astronomie, les mathématiques médiévales, l'alchimie et la divination, mais la plupart des élèves les ont jugés inintéressants.</span></p><p class='ql-align-justify'><br></p><p class='ql-align-justify'><strong style='color: rgb(67, 67, 67);'> Énoncé B</strong><span style='color: rgb(67, 67, 67);'> : Les cours facultatifs de deuxième année étaient la parapsychologie, la psychologie, l'astrologie, les mathématiques médiévales, l'alchimie et la divination, mais la plupart des élèves les ont jugés inintéressants.</span></p></div>"
+        "content": "<div><p><span>Un élève a copié l'énoncé A dans son cahier (comme indiqué dans l'énoncé B ci-dessous). </span><strong>Combien de mots l'élève a-t-il recopié de façon incorrecte ?</strong></p><p><br></p><p><strong> Énoncé A</strong><span> : Les cours facultatifs de deuxième année étaient la parapsychologie, la physiologie, l'astronomie, les mathématiques médiévales, l'alchimie et la divination, mais la plupart des élèves les ont jugés inintéressants.</span></p><p><br></p><p><strong> Énoncé B</strong><span> : Les cours facultatifs de deuxième année étaient la parapsychologie, la psychologie, l'astrologie, les mathématiques médiévales, l'alchimie et la divination, mais la plupart des élèves les ont jugés inintéressants.</span></p></div>"
       },
       "options": [
         {
@@ -85,7 +63,7 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p><span style='color: rgb(67, 67, 67);'>Léo et Alex se sont retrouvés à un endroit précis et ont commencé à marcher dans des directions opposées. Léo a marché tout droit vers l'ouest pendant 5 kilomètres, a tourné à gauche et a marché pendant deux kilomètres, puis a tourné à droite et a marché pendant deux kilomètres supplémentaires. Ils se sont arrêtés à un point de vue panoramique pour reprendre leur souffle. Alex a continué à marcher tout droit pendant 7 kilomètres et a fait demi-tour. Ils se sont arrêtés pour se reposer à mi-chemin. Léo et Alex étaient tous deux tournés vers le soleil couchant lorsqu'ils se sont arrêtés pour faire une pause.</span></p><p><strong style='color: rgb(67, 67, 67);'> La description ci-dessus est-elle cohérente ?</strong></p></div>"
+        "content": "<div><p><span>Léo et Alex se sont retrouvés à un endroit précis et ont commencé à marcher dans des directions opposées. Léo a marché tout droit vers l'ouest pendant 5 kilomètres, a tourné à gauche et a marché pendant deux kilomètres, puis a tourné à droite et a marché pendant deux kilomètres supplémentaires. Ils se sont arrêtés à un point de vue panoramique pour reprendre leur souffle. Alex a continué à marcher tout droit pendant 7 kilomètres et a fait demi-tour. Ils se sont arrêtés pour se reposer à mi-chemin. Léo et Alex étaient tous deux tournés vers le soleil couchant lorsqu'ils se sont arrêtés pour faire une pause.</span></p><p><strong> La description ci-dessus est-elle cohérente ?</strong></p></div>"
       },
       "options": [
         {
@@ -100,926 +78,214 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux séquences de nombres ci-dessous :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 10px; border: 1px solid #ddd;'>Séquence 1: 847365291847365291847365</td></tr><tr><td style='padding: 10px; border: 1px solid #ddd;'>Séquence 2: 847365291847365291847356</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Combien de différences y a-t-il entre ces deux séquences ?</strong></p></div>"
+        "content": "<div><p>Comparez les deux séquences numériques suivantes :</p><p>Séquence 1: 847-365-9912-4730</p><p>Séquence 2: 847-365-9921-4730</p><p><strong>Combien de chiffres sont différents entre les deux séquences ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Aucune différence"
+          "content": "1"
         },
         {
-          "content": "Une différence"
-        },
-        {
-          "content": "Deux différences",
+          "content": "2",
           "correct": true
         },
         {
-          "content": "Trois différences"
+          "content": "3"
+        },
+        {
+          "content": "4"
         }
       ]
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez le tableau des ventes ci-dessous :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Produit</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Prix unitaire</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Quantité</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Total</th></tr></thead><tbody><tr><td style='padding: 8px; border: 1px solid #ddd;'>Stylos</td><td style='padding: 8px; border: 1px solid #ddd;'>2,50 €</td><td style='padding: 8px; border: 1px solid #ddd;'>24</td><td style='padding: 8px; border: 1px solid #ddd;'>60,00 €</td></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>Cahiers</td><td style='padding: 8px; border: 1px solid #ddd;'>3,75 €</td><td style='padding: 8px; border: 1px solid #ddd;'>12</td><td style='padding: 8px; border: 1px solid #ddd;'>45,00 €</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelles erreurs de calcul contient ce tableau ?</strong></p></div>"
+        "type": "multiple_response",
+        "content": "<div><p>Marie a envoyé un e-mail à ses collègues avec les informations suivantes :</p><p>'La réunion aura lieu le mardi 15 mars à 14h30 dans la salle B-204. Les participants doivent apporter leurs rapports de février et janvier. La présentation durera 45 minutes.'</p><p>Plus tard, elle envoie une correction : 'La réunion aura lieu le mardi 15 mars à 14h30 dans la salle B-240. Les participants doivent apporter leurs rapports de janvier et mars. La présentation durera 45 minutes.'</p><p><strong>Quels éléments ont été modifiés dans le deuxième message ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Aucune erreur"
-        },
-        {
-          "content": "Erreur dans le calcul des stylos uniquement",
+          "content": "Le numéro de la salle de réunion",
           "correct": true
-        },
-        {
-          "content": "Erreur dans le calcul des cahiers uniquement"
-        },
-        {
-          "content": "Erreurs dans les deux calculs"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Vous recevez deux versions d'une même facture :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr><tr><td style='padding: 15px; border: 1px solid #ddd;'>N° de facture : A-2024-0234<br>Date : 15/01/2024<br>Client : Martin Dubois<br>Montant HT : 1250,00 €<br>TVA (20%) : 250,00 €<br>Total TTC : 1500,00 €</td><td style='padding: 15px; border: 1px solid #ddd;'>N° de facture : A-2024-0234<br>Date : 15/01/2024<br>Client : Martin Dubois<br>Montant HT : 1250,00 €<br>TVA (20%) : 250,00 €<br>Total TTC : 1550,00 €</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle anomalie trouvez-vous dans ces factures ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le numéro de facture est incorrect"
-        },
-        {
-          "content": "Le calcul de la TVA est erroné"
-        },
-        {
-          "content": "Les totaux TTC sont différents",
-          "correct": true
-        },
-        {
-          "content": "Le nom du client est mal orthographié"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez attentivement l'adresse email suivante :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>contact.service-client@entreprise-internationale.com</p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>contact.service-clients@entreprise-internationale.com</p><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux adresses email ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Il n'y a aucune différence"
-        },
-        {
-          "content": "Le domaine est différent"
-        },
-        {
-          "content": "Le mot 'service' est écrit différemment"
-        },
-        {
-          "content": "Le mot 'client' est au singulier dans la première et au pluriel dans la seconde",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux emplois du temps ci-dessous :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><th colspan='2' style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th colspan='2' style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>9h00</td><td style='padding: 8px; border: 1px solid #ddd;'>Réunion équipe</td><td style='padding: 8px; border: 1px solid #ddd;'>9h00</td><td style='padding: 8px; border: 1px solid #ddd;'>Réunion équipe</td></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>10h30</td><td style='padding: 8px; border: 1px solid #ddd;'>Appel client</td><td style='padding: 8px; border: 1px solid #ddd;'>10h30</td><td style='padding: 8px; border: 1px solid #ddd;'>Appel clients</td></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>14h15</td><td style='padding: 8px; border: 1px solid #ddd;'>Présentation</td><td style='padding: 8px; border: 1px solid #ddd;'>14h15</td><td style='padding: 8px; border: 1px solid #ddd;'>Présentation projet</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Combien de différences y a-t-il entre ces deux emplois du temps ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Aucune différence"
-        },
-        {
-          "content": "Une différence"
-        },
-        {
-          "content": "Deux différences",
-          "correct": true
-        },
-        {
-          "content": "Trois différences"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez le code de référence suivant :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>XYZ-2024-01/A-458796</p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>XYZ-2024-01/A-458769</p><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux codes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Les deux derniers chiffres sont inversés"
-        },
-        {
-          "content": "Les trois derniers chiffres sont différents",
-          "correct": true
-        },
-        {
-          "content": "Le préfixe est différent"
-        },
-        {
-          "content": "Il n'y a aucune différence"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>La séquence suivante suit une logique précise :</span></p><p style='font-family: monospace; text-align: center; padding: 10px; background-color: #f5f5f5;'>2, 6, 12, 20, 30, 42, 56, 69, 84, 100</p><p><strong style='color: rgb(67, 67, 67);'>Quel nombre dans cette séquence ne suit pas la logique ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "42"
-        },
-        {
-          "content": "56"
-        },
-        {
-          "content": "69",
-          "correct": true
-        },
-        {
-          "content": "84"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les deux versions du même paragraphe :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Notre entreprise, fondée en 1985, compte aujourd'hui 234 employés répartis sur 4 sites en France. Le chiffre d'affaires a atteint 12,5 millions d'euros en 2023.</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd;'>Notre entreprise, fondée en 1985, compte aujourd'hui 243 employés répartis sur 4 sites en France. Le chiffre d'affaires a atteint 12,5 millions d'euros en 2023.</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la seule différence entre ces deux paragraphes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'année de fondation"
-        },
-        {
-          "content": "Le nombre d'employés",
-          "correct": true
-        },
-        {
-          "content": "Le nombre de sites"
-        },
-        {
-          "content": "Le chiffre d'affaires"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Observez le tableau des températures suivant :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Ville</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Lundi</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Mardi</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Mercredi</th></tr></thead><tbody><tr><td style='padding: 8px; border: 1px solid #ddd;'>Paris</td><td style='padding: 8px; border: 1px solid #ddd;'>15°C</td><td style='padding: 8px; border: 1px solid #ddd;'>17°C</td><td style='padding: 8px; border: 1px solid #ddd;'>16°C</td></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>Lyon</td><td style='padding: 8px; border: 1px solid #ddd;'>18°C</td><td style='padding: 8px; border: 1px solid #ddd;'>19°C</td><td style='padding: 8px; border: 1px solid #ddd;'>21°C</td></tr><tr><td style='padding: 8px; border: 1px solid #ddd;'>Marseille</td><td style='padding: 8px; border: 1px solid #ddd;'>22°C</td><td style='padding: 8px; border: 1px solid #ddd;'>20°C</td><td style='padding: 8px; border: 1px solid #ddd;'>23°C</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle ville montre une augmentation constante de température sur les trois jours ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Paris"
-        },
-        {
-          "content": "Lyon",
-          "correct": true
-        },
-        {
-          "content": "Marseille"
-        },
-        {
-          "content": "Aucune ville"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans le texte suivant, combien y a-t-il d'erreurs typographiques (espaces manquants ou en trop) ?</span></p><p style='padding: 10px; background-color: #f5f5f5;'>La réunion aura lieu le lundi 15 janvier à 14h30 .Les participants devront apporter leurs documents.La présentation durera environ 45minutes , suivie d'une pause café de 15 minutes.</p><p><strong style='color: rgb(67, 67, 67);'>Sélectionnez le nombre correct d'erreurs :</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "2 erreurs"
-        },
-        {
-          "content": "3 erreurs"
-        },
-        {
-          "content": "4 erreurs",
-          "correct": true
-        },
-        {
-          "content": "5 erreurs"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les deux formules mathématiques suivantes :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>(x + y)² = x² + 2xy + y²</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>(x + y)² = x² + 2xy - y²</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux formules ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le signe devant x²"
-        },
-        {
-          "content": "Le coefficient de xy"
-        },
-        {
-          "content": "Le signe devant y²",
-          "correct": true
-        },
-        {
-          "content": "L'exposant de (x + y)"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez le relevé bancaire suivant :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Date</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Description</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Débit</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Crédit</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Solde</th></tr></thead><tbody><tr><td>01/01</td><td>Solde initial</td><td></td><td></td><td>1000,00 €</td></tr><tr><td>02/01</td><td>Achat supermarché</td><td>125,50 €</td><td></td><td>874,50 €</td></tr><tr><td>03/01</td><td>Salaire</td><td></td><td>2000,00 €</td><td>2874,50 €</td></tr><tr><td>04/01</td><td>Facture électricité</td><td>89,90 €</td><td></td><td>2784,60 €</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle erreur contient ce relevé bancaire ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le solde initial est incorrect"
-        },
-        {
-          "content": "L'achat au supermarché est mal calculé"
-        },
-        {
-          "content": "Le crédit du salaire est inexact"
-        },
-        {
-          "content": "Le solde final après la facture d'électricité est erroné",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux versions du même graphique :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr></thead><tbody><tr><td style='padding: 15px; border: 1px solid #ddd;'>📊 Ventes 2023<br>Q1: 25%<br>Q2: 30%<br>Q3: 20%<br>Q4: 25%</td><td style='padding: 15px; border: 1px solid #ddd;'>📊 Ventes 2023<br>Q1: 25%<br>Q2: 30%<br>Q3: 25%<br>Q4: 25%</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le pourcentage du Q1"
-        },
-        {
-          "content": "Le pourcentage du Q2"
-        },
-        {
-          "content": "Le pourcentage du Q3",
-          "correct": true
-        },
-        {
-          "content": "Le pourcentage du Q4"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les coordonnées GPS suivantes :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace;'>48°51'30.5\"N 2°17'40.8\"E</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace;'>48°51'30.5\"N 2°17'40.0\"E</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces coordonnées ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "La latitude"
-        },
-        {
-          "content": "Les degrés de longitude"
-        },
-        {
-          "content": "Les minutes de longitude"
-        },
-        {
-          "content": "Les secondes de longitude",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans le texte suivant, quel type d'erreur apparaît trois fois ?</span></p><p style='padding: 10px; background-color: #f5f5f5;'>La société a été crée en 1995. Elle s'est développée grace à son innovation constante. Aujourd'hui, elle emploie plus de 500 personnes grace à sa croissance continue. Le succès a été obtenu grace au travail acharné de toute l'équipe.</p></div>"
-      },
-      "options": [
-        {
-          "content": "Erreur de conjugaison"
-        },
-        {
-          "content": "Erreur d'accent",
-          "correct": true
-        },
-        {
-          "content": "Erreur de ponctuation"
-        },
-        {
-          "content": "Erreur d'accord"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux versions du même numéro de téléphone :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Version 1: +33 (0)1 23 45 67 89</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Version 2: +33 (0)1 23 45 76 89</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux numéros ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'indicatif international"
-        },
-        {
-          "content": "Les deux premiers chiffres"
-        },
-        {
-          "content": "Les chiffres au milieu sont inversés",
-          "correct": true
-        },
-        {
-          "content": "Les derniers chiffres"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez le tableau des horaires de train suivant :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Train</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Départ</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Arrivée</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Durée</th></tr></thead><tbody><tr><td>TGV 6741</td><td>08:15</td><td>10:45</td><td>2h30</td></tr><tr><td>TGV 6743</td><td>09:30</td><td>12:00</td><td>2h40</td></tr><tr><td>TGV 6745</td><td>10:45</td><td>13:15</td><td>2h30</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle anomalie trouvez-vous dans ce tableau ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'heure de départ du premier train"
-        },
-        {
-          "content": "L'heure d'arrivée du dernier train"
-        },
-        {
-          "content": "La durée du trajet du deuxième train",
-          "correct": true
-        },
-        {
-          "content": "Les numéros des trains"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux listes d'ingrédients suivantes :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>• 250g de farine<br>• 3 œufs<br>• 125g de beurre<br>• 100g de sucre<br>• 1 sachet de levure</td><td style='padding: 15px; border: 1px solid #ddd;'>• 250g de farine<br>• 3 œufs<br>• 125g de beure<br>• 100g de sucre<br>• 1 sachet de levure</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est l'erreur dans la deuxième liste ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "La quantité de farine"
-        },
-        {
-          "content": "Le nombre d'œufs"
-        },
-        {
-          "content": "L'orthographe du mot 'beurre'",
-          "correct": true
-        },
-        {
-          "content": "La quantité de sucre"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les deux versions du même code produit :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>Version 1: FR-2024-ABC-123456-01</p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>Version 2: FR-2024-ABC-123456-10</p><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux codes ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le préfixe pays"
-        },
-        {
-          "content": "L'année"
-        },
-        {
-          "content": "Le code produit"
-        },
-        {
-          "content": "Les derniers chiffres sont inversés",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Observez le tableau des notes suivant :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Matière</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Coefficient</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Note</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Total</th></tr></thead><tbody><tr><td>Mathématiques</td><td>3</td><td>15</td><td>45</td></tr><tr><td>Français</td><td>2</td><td>14</td><td>28</td></tr><tr><td>Histoire</td><td>2</td><td>16</td><td>31</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle erreur contient ce tableau ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le total en mathématiques"
-        },
-        {
-          "content": "Le total en français"
-        },
-        {
-          "content": "Le total en histoire",
-          "correct": true
-        },
-        {
-          "content": "Tous les totaux sont corrects"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux adresses suivantes :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>27, rue de la République<br>Appartement 203<br>69002 Lyon<br>France</td><td style='padding: 15px; border: 1px solid #ddd;'>27, rue de la République<br>Appartement 230<br>69002 Lyon<br>France</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux adresses ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le numéro de rue"
-        },
-        {
-          "content": "Le nom de la rue"
-        },
-        {
-          "content": "Le numéro d'appartement",
-          "correct": true
-        },
-        {
-          "content": "Le code postal"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les deux versions du même mot de passe :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>Version 1: Secure@Pass2024!</p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>Version 2: Secure@pass2024!</p><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux mots de passe ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le caractère spécial"
-        },
-        {
-          "content": "La casse de la lettre 'p'",
-          "correct": true
-        },
-        {
-          "content": "Les chiffres"
-        },
-        {
-          "content": "Le point d'exclamation"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux versions du même paragraphe :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Notre équipe internationale compte 127 employés répartis dans 12 pays. Nous collaborons quotidiennement via des outils numériques pour assurer une communication efficace malgré les différents fuseaux horaires.</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd;'>Notre équipe internationale compte 127 employés répartis dans 21 pays. Nous collaborons quotidiennement via des outils numériques pour assurer une communication efficace malgré les différents fuseaux horaires.</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le nombre d'employés"
-        },
-        {
-          "content": "Les chiffres du nombre de pays sont inversés",
-          "correct": true
-        },
-        {
-          "content": "La mention des fuseaux horaires"
-        },
-        {
-          "content": "La description des outils"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ce tableau des ventes trimestrielles :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Trimestre</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Objectif</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Réalisé</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Écart</th></tr></thead><tbody><tr><td>T1</td><td>100 000 €</td><td>98 500 €</td><td>-1 500 €</td></tr><tr><td>T2</td><td>120 000 €</td><td>125 000 €</td><td>5 000 €</td></tr><tr><td>T3</td><td>150 000 €</td><td>155 000 €</td><td>4 000 €</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle erreur contient ce tableau ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'écart du T1"
-        },
-        {
-          "content": "L'écart du T2"
-        },
-        {
-          "content": "L'écart du T3",
-          "correct": true
-        },
-        {
-          "content": "Tous les écarts sont corrects"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux versions du même planning :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Lundi 9h30 : Réunion d'équipe<br>Mardi 14h15 : Formation<br>Mercredi 11h00 : Point client<br>Jeudi 15h30 : Présentation<br>Vendredi 10h00 : Réunion mensuelle</td><td style='padding: 15px; border: 1px solid #ddd;'>Lundi 9h30 : Réunion d'équipe<br>Mardi 14h15 : Formation<br>Mercredi 11h00 : Point clients<br>Jeudi 15h30 : Présentation<br>Vendredi 10h00 : Réunion mensuelle</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'heure de la réunion d'équipe"
-        },
-        {
-          "content": "Le jour de la formation"
-        },
-        {
-          "content": "Le pluriel dans 'Point client(s)'",
-          "correct": true
-        },
-        {
-          "content": "L'heure de la réunion mensuelle"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez les deux versions du même calcul :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Version 1: (15 × 4) + (23 × 3) = 129</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Version 2: (15 × 4) + (23 × 3) = 139</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quel calcul est correct ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Version 1",
-          "correct": true
-        },
-        {
-          "content": "Version 2"
-        },
-        {
-          "content": "Les deux versions"
-        },
-        {
-          "content": "Aucune version"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans le texte suivant, combien y a-t-il d'erreurs d'accord ?</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Les document envoyés la semaine dernière ont été validé par la direction. Les nouvelles procédures seront mise en place dès lundi prochain. Tous les employés concernés seront informé par email.</p></div>"
-      },
-      "options": [
-        {
-          "content": "2 erreurs"
-        },
-        {
-          "content": "3 erreurs"
-        },
-        {
-          "content": "4 erreurs",
-          "correct": true
-        },
-        {
-          "content": "5 erreurs"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez les deux séquences de chiffres :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace; text-align: center;'>7854-9632-1478-2365</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace; text-align: center;'>7854-9623-1478-2365</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Où se trouve la différence entre ces deux séquences ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Premier groupe de chiffres"
-        },
-        {
-          "content": "Deuxième groupe de chiffres",
-          "correct": true
-        },
-        {
-          "content": "Troisième groupe de chiffres"
-        },
-        {
-          "content": "Quatrième groupe de chiffres"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux extraits de rapports financiers :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr></thead><tbody><tr><td style='padding: 15px; border: 1px solid #ddd;'>Le chiffre d'affaires du premier trimestre s'élève à 2,45 millions d'euros, soit une augmentation de 12% par rapport à l'année précédente.</td><td style='padding: 15px; border: 1px solid #ddd;'>Le chiffre d'affaires du premier trimestre s'élève à 2,45 millions d'euros, soit une augmentation de 21% par rapport à l'année précédente.</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la différence entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le montant du chiffre d'affaires"
-        },
-        {
-          "content": "Les chiffres du pourcentage sont inversés",
-          "correct": true
-        },
-        {
-          "content": "La période concernée"
-        },
-        {
-          "content": "L'unité monétaire"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans ce tableau de données, identifiez l'incohérence :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Produit</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Stock initial</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Ventes</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Stock final</th></tr></thead><tbody><tr><td>Modèle A</td><td>150</td><td>75</td><td>75</td></tr><tr><td>Modèle B</td><td>200</td><td>125</td><td>85</td></tr><tr><td>Modèle C</td><td>180</td><td>60</td><td>120</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quel modèle présente une incohérence dans ses chiffres ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Modèle A"
-        },
-        {
-          "content": "Modèle B",
-          "correct": true
-        },
-        {
-          "content": "Modèle C"
-        },
-        {
-          "content": "Aucun modèle"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez ces deux références de produit :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>REF: AX-2024-0123/B-456</p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>REF: AX-2024-0132/B-456</p><p><strong style='color: rgb(67, 67, 67);'>Quelle différence existe entre ces références ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le préfixe"
-        },
-        {
-          "content": "L'année"
-        },
-        {
-          "content": "Les chiffres du milieu sont dans un ordre différent",
-          "correct": true
-        },
-        {
-          "content": "Le suffixe"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez cette séquence de données :</span></p><p style='text-align: center; padding: 10px; background-color: #f5f5f5;'>1, 4, 9, 16, 23, 36, 49</p><p><strong style='color: rgb(67, 67, 67);'>Quel nombre ne suit pas la logique de la séquence ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "16"
-        },
-        {
-          "content": "23",
-          "correct": true
-        },
-        {
-          "content": "36"
-        },
-        {
-          "content": "49"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans le texte suivant, identifiez l'incohérence logique :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Marie est plus âgée que Sophie. Sophie est plus âgée que Pierre. Pierre est plus âgé que Marie. Tous les trois sont majeurs.</p></div>"
-      },
-      "options": [
-        {
-          "content": "L'âge de Marie par rapport à Sophie"
-        },
-        {
-          "content": "L'âge de Sophie par rapport à Pierre"
-        },
-        {
-          "content": "L'âge de Pierre par rapport à Marie",
-          "correct": true
-        },
-        {
-          "content": "Le fait qu'ils soient tous majeurs"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez ces deux versions d'un même agenda :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Version 1:<br>- Réunion à 9h30<br>- Déjeuner d'équipe à 12h45<br>- Conférence de 14h30 à 16h00<br>- Appel client à 16h30</td><td style='padding: 15px; border: 1px solid #ddd;'>Version 2:<br>- Réunion à 9h30<br>- Déjeuner d'équipe à 12h45<br>- Conférence de 14h30 à 16h30<br>- Appel client à 16h30</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quel problème potentiel identifiez-vous ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "L'heure du déjeuner"
         },
         {
           "content": "L'heure de la réunion"
         },
         {
-          "content": "Un chevauchement d'horaires dans la version 2",
+          "content": "Les rapports demandés",
           "correct": true
         },
         {
-          "content": "L'heure de l'appel client"
+          "content": "La durée de la présentation"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Dans cette liste de codes postaux, trouvez l'anomalie :</span></p><p style='font-family: monospace; padding: 10px; background-color: #f5f5f5;'>75001, 75002, 75003, 75004, 75006, 75005, 75007</p></div>"
+        "content": "<div><p>Dans le texte suivant, combien y a-t-il d'erreurs de frappe ?</p><p>'Notre entreprise, fondée en 1986, s'est développpée rapidement grâce à notre approche innovente. Nous avons maintenant plus de 500 employées répartis dans 12 pays différents. Notre chiffre d'affaires a augmenté de 15% l'année dernère.'</p></div>"
       },
       "options": [
         {
-          "content": "Le premier code postal"
+          "content": "2"
         },
         {
-          "content": "Le quatrième code postal"
-        },
-        {
-          "content": "Les cinquième et sixième codes sont inversés",
+          "content": "3",
           "correct": true
         },
         {
-          "content": "Le dernier code postal"
+          "content": "4"
+        },
+        {
+          "content": "5"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux formules de calcul :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Prix HT × 1,20 = Prix TTC</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; text-align: center;'>Prix HT × 0,20 = Montant TVA</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Si le prix HT est de 100 €, quel calcul est incorrect ?</strong></p></div>"
+        "content": "<div><p>Un document contient les informations suivantes :</p><p>'Le projet A nécessite 3 développeurs pendant 4 semaines. Le projet B nécessite 2 développeurs pendant 6 semaines. Le projet C nécessite 4 développeurs pendant 3 semaines.'</p><p><strong>Quel projet nécessite le plus de semaines-personnes au total ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le calcul du prix TTC"
-        },
-        {
-          "content": "Le calcul de la TVA",
+          "content": "Projet A",
           "correct": true
         },
         {
-          "content": "Les deux calculs"
+          "content": "Projet B"
         },
         {
-          "content": "Aucun calcul"
+          "content": "Projet C"
+        },
+        {
+          "content": "Tous les projets sont équivalents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Examinez les deux versions d'une adresse :</p><p>Version 1: 23 rue des Lilas, Appartement 4B, 75008 Paris, France</p><p>Version 2: 23 rue des Lilas, Appartement B4, 75008 Paris, France</p><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le code postal est identique dans les deux versions",
+          "correct": true
+        },
+        {
+          "content": "Le numéro de rue est différent"
+        },
+        {
+          "content": "L'ordre des chiffres et des lettres dans le numéro d'appartement est inversé",
+          "correct": true
+        },
+        {
+          "content": "Le nom de la rue est différent"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Analysez ce compte-rendu de réunion :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>La réunion a débuté à 14h30 avec 12 participants présents. Durant la séance, 3 personnes sont parties après la première heure, et 2 autres sont arrivées pour la présentation finale. Le compte-rendu mentionne que les 12 participants ont approuvé les décisions en fin de réunion.</p><p><strong style='color: rgb(67, 67, 67);'>Quelle incohérence trouvez-vous dans ce compte-rendu ?</strong></p></div>"
+        "content": "<div><p>Dans une série de 10 numéros de téléphone :</p><p>555-0123</p><p>555-0124</p><p>555-0125</p><p>555-0126</p><p>555-0127</p><p>555-0128</p><p>555-0129</p><p>555-0130</p><p>555-0131</p><p>555-0132</p><p><strong>Combien de numéros contiennent le chiffre '1' ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "L'heure de début de réunion"
+          "content": "9"
         },
         {
-          "content": "Le nombre de départs"
-        },
-        {
-          "content": "Le nombre final de participants",
+          "content": "10",
           "correct": true
         },
         {
-          "content": "Le nombre d'arrivées"
+          "content": "11"
+        },
+        {
+          "content": "12"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux versions d'un même bon de commande :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr><tr><td style='padding: 15px; border: 1px solid #ddd;'>Commande n°2024-123<br>Date: 15/01/2024<br>Quantité: 150 unités<br>Prix unitaire: 12,50 €<br>Total: 1 875,00 €</td><td style='padding: 15px; border: 1px solid #ddd;'>Commande n°2024-123<br>Date: 15/01/2024<br>Quantité: 150 unités<br>Prix unitaire: 12,50 €<br>Total: 1 785,00 €</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle version contient une erreur ?</strong></p></div>"
+        "content": "<div><p>Sophie dit : 'J'ai acheté 3 chemises bleues à 25€ chacune, 2 pantalons noirs à 45€ chacun, et une veste à 80€. J'ai bénéficié d'une réduction de 15% sur le total.'</p><p><strong>Quel est le montant final après réduction ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Version 1"
+          "content": "186,15€"
         },
         {
-          "content": "Version 2",
+          "content": "187,00€",
           "correct": true
         },
         {
-          "content": "Les deux versions"
+          "content": "188,70€"
         },
         {
-          "content": "Aucune version"
+          "content": "190,25€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Dans le texte suivant, identifiez les incohérences :</p><p>'Pierre est arrivé au bureau à 9h00. Il a eu trois réunions : la première de 8h30 à 9h30, la deuxième de 10h00 à 11h30, et la dernière de 11h00 à 12h00. Il a déjeuné à 12h30 avec des clients.'</p></div>"
+      },
+      "options": [
+        {
+          "content": "Pierre ne pouvait pas assister à la première réunion",
+          "correct": true
+        },
+        {
+          "content": "Il y a un chevauchement entre la deuxième et la troisième réunion",
+          "correct": true
+        },
+        {
+          "content": "L'heure du déjeuner est incorrecte"
+        },
+        {
+          "content": "La durée totale des réunions est impossible"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Lisez ces deux extraits de politique de retour :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Les retours sont acceptés dans un délai de 14 jours suivant la réception. Le produit doit être dans son emballage d'origine et non utilisé. Les frais de retour sont à la charge du client.</td><td style='padding: 15px; border: 1px solid #ddd;'>Les retours sont acceptés dans un délai de 14 jours suivant la réception. Le produit doit être dans son emballage d'origine et non utilisé. Les frais de retour sont remboursés sur demande.</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle différence importante existe entre ces deux versions ?</strong></p></div>"
+        "content": "<div><p>Un message contient les informations suivantes :</p><p>'Envoyé : lundi 10 avril 2024 à 15:45</p><p>Reçu : lundi 10 avril 2024 à 15:44'</p><p><strong>Quelle est l'anomalie dans ces horodatages ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le délai de retour"
+          "content": "Les dates sont différentes"
         },
         {
-          "content": "L'état requis du produit"
-        },
-        {
-          "content": "La prise en charge des frais de retour",
+          "content": "Le message a été reçu avant d'être envoyé",
           "correct": true
         },
         {
-          "content": "Les conditions d'emballage"
+          "content": "Les heures sont identiques"
+        },
+        {
+          "content": "Il n'y a pas d'anomalie"
         }
       ]
     },
     {
       "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces informations sur un événement :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Le séminaire commence à 9h00 et se termine à 17h00.<br>Programme :<br>8h30-9h00 : Accueil<br>9h00-10h30 : Présentation<br>10h30-10h45 : Pause<br>10h45-12h30 : Ateliers<br>12h30-14h00 : Déjeuner<br>14h00-15h30 : Conférence<br>15h30-15h45 : Pause<br>15h45-17h30 : Table ronde</p><p><strong style='color: rgb(67, 67, 67);'>Quelle incohérence trouvez-vous dans ce programme ?</strong></p></div>"
+        "type": "multiple_response",
+        "content": "<div><p>Examinez cette liste de tâches :</p><p>1. Envoyer le rapport mensuel</p><p>2. Préparer la présentation client</p><p>3. Organiser la réunion d'équipe</p><p>4. Finaliser le budget annuel</p><p>Status mis à jour :</p><p>'Le rapport mensuel est terminé. La présentation client est en cours. La réunion d'équipe est reportée. Le budget annuel est en attente de validation.'</p><p><strong>Quelles tâches ne sont pas complètement terminées ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "L'heure d'accueil"
+          "content": "Le rapport mensuel"
         },
         {
-          "content": "La durée du déjeuner"
-        },
-        {
-          "content": "L'heure de fin ne correspond pas au programme",
+          "content": "La présentation client",
           "correct": true
         },
         {
-          "content": "La durée des pauses"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez ces deux descriptions de poste :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Nous recherchons un(e) assistant(e) administratif(ve) avec 3 ans d'expérience minimum. Maîtrise requise : Word, Excel, PowerPoint. Anglais courant exigé. Salaire selon profil.</td><td style='padding: 15px; border: 1px solid #ddd;'>Nous recherchons un(e) assistant(e) administratif(ve) avec 2 ans d'expérience minimum. Maîtrise requise : Word, Excel, PowerPoint. Anglais courant exigé. Salaire : 30-35K€ selon expérience.</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Combien de différences significatives y a-t-il entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Une différence"
-        },
-        {
-          "content": "Deux différences",
+          "content": "La réunion d'équipe",
           "correct": true
         },
         {
-          "content": "Trois différences"
-        },
-        {
-          "content": "Quatre différences"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Analysez ce tableau de répartition des tâches :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Personne</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Tâches</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Temps estimé</th></tr></thead><tbody><tr><td>Sophie</td><td>Rapport mensuel</td><td>3h</td></tr><tr><td>Marc</td><td>Mise à jour base de données</td><td>2h</td></tr><tr><td>Sophie</td><td>Réunion client</td><td>1h</td></tr><tr><td>Marc</td><td>Formation équipe</td><td>4h</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Si Sophie et Marc travaillent 7h par jour, quelle anomalie identifiez-vous ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le temps total de Sophie"
-        },
-        {
-          "content": "Le temps total de Marc"
-        },
-        {
-          "content": "La répartition des tâches"
-        },
-        {
-          "content": "Marc dépasse son temps disponible",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux versions d'un même e-mail :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Objet : Réunion importante - 25/01<br>La réunion trimestrielle aura lieu le jeudi 25 janvier dans la salle Bordeaux. Tous les responsables de service doivent être présents. La réunion commencera à 9h00 précises.</td><td style='padding: 15px; border: 1px solid #ddd;'>Objet : Réunion importante - 25/01<br>La réunion trimestrielle aura lieu le mardi 25 janvier dans la salle Bordeaux. Tous les responsables de service doivent être présents. La réunion commencera à 9h00 précises.</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle incohérence trouvez-vous entre ces deux versions ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "La date"
-        },
-        {
-          "content": "Le jour ne correspond pas à la date",
-          "correct": true
-        },
-        {
-          "content": "L'heure"
-        },
-        {
-          "content": "Le lieu"
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Analysez ces statistiques de vente :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Les ventes ont augmenté de 15% au premier trimestre, puis de 20% au deuxième trimestre. Au troisième trimestre, elles ont baissé de 10%. Le rapport indique une croissance totale de 35% sur les trois trimestres.</p><p><strong style='color: rgb(67, 67, 67);'>Quelle erreur contient cette analyse ?</strong></p></div>"
-      },
-      "options": [
-        {
-          "content": "Le pourcentage du premier trimestre"
-        },
-        {
-          "content": "Le pourcentage du deuxième trimestre"
-        },
-        {
-          "content": "Le pourcentage du troisième trimestre"
-        },
-        {
-          "content": "Le calcul de la croissance totale",
+          "content": "Le budget annuel",
           "correct": true
         }
       ]
@@ -1027,62 +293,150 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux versions d'une facture client :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 1</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Version 2</th></tr></thead><tbody><tr><td style='padding: 15px; border: 1px solid #ddd;'>Client : Martin & Co<br>Date : 15/01/2024<br>Articles : 45 × 25,00 €<br>Sous-total : 1 125,00 €<br>TVA (20%) : 225,00 €<br>Total : 1 350,00 €</td><td style='padding: 15px; border: 1px solid #ddd;'>Client : Martin & Co<br>Date : 15/01/2024<br>Articles : 45 × 25,00 €<br>Sous-total : 1 125,00 €<br>TVA (20%) : 225,00 €<br>Total : 1 450,00 €</td></tr></tbody></table><p><strong style='color: rgb(67, 67, 67);'>Quelle erreur identifiez-vous ?</strong></p></div>"
+        "content": "<div><p>Un employé a noté les horaires de ses réunions pour la semaine :</p><p>Lundi : 9h30 - 10h45 et 11h00 - 12h15</p><p>Mardi : 14h00 - 15h30 et 15h15 - 16h45</p><p>Mercredi : 10h00 - 11h30 et 13h00 - 14h30</p><p><strong>Quel jour y a-t-il un conflit d'horaire ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le calcul du sous-total"
+          "content": "Lundi"
         },
         {
-          "content": "Le calcul de la TVA"
-        },
-        {
-          "content": "Le total final dans la version 2",
+          "content": "Mardi",
           "correct": true
         },
         {
-          "content": "Le prix unitaire"
+          "content": "Mercredi"
+        },
+        {
+          "content": "Il n'y a pas de conflit"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Comparez ces deux versions d'une recette :</p><p>Version 1 : '250g de farine, 2 œufs, 125g de beurre, 100g de sucre, 1 sachet de levure'</p><p>Version 2 : '250g de farine, 2 œufs, 125g de beurre, 100g de sucre en poudre, 1 sachet de levure chimique'</p><p><strong>Quelles différences existe-t-il entre les deux versions ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "La précision 'en poudre' pour le sucre",
+          "correct": true
+        },
+        {
+          "content": "La quantité de farine"
+        },
+        {
+          "content": "La précision 'chimique' pour la levure",
+          "correct": true
+        },
+        {
+          "content": "La quantité de beurre"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Analysez ce planning hebdomadaire :</span></p><table style='width: 100%; border-collapse: collapse;'><thead><tr><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Jour</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Activité</th><th style='background-color: #2F4F4F; color: white; padding: 10px;'>Durée</th></tr></thead><tbody><tr><td>Lundi</td><td>Formation Excel</td><td>3h</td></tr><tr><td>Mardi</td><td>Réunion client</td><td>2h</td></tr><tr><td>Mercredi</td><td>Atelier équipe</td><td>4h</td></tr><tr><td>Jeudi</td><td>Présentation projet</td><td>2h</td></tr><tr><td>Vendredi</td><td>Point hebdomadaire</td><td>1h</td></tr></tbody></table><p>Le rapport indique un total de 13 heures d'activités pour la semaine.</p><p><strong style='color: rgb(67, 67, 67);'>Quelle est l'erreur dans ce rapport ?</strong></p></div>"
+        "content": "<div><p>Dans la séquence suivante, combien de fois le motif 'ABC' apparaît-il ?</p><p>ABCABDABCABCDEABCFABGABC</p></div>"
       },
       "options": [
         {
-          "content": "Le total est de 12 heures",
+          "content": "3"
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "5",
           "correct": true
         },
         {
-          "content": "Le total est de 14 heures"
-        },
-        {
-          "content": "La durée de la formation Excel"
-        },
-        {
-          "content": "La durée du point hebdomadaire"
+          "content": "6"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez ces deux versions d'une notice technique :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Température de fonctionnement : 15°C à 35°C<br>Humidité relative : 20% à 80%<br>Altitude maximale : 2000m<br>Poids : 2,5 kg</td><td style='padding: 15px; border: 1px solid #ddd;'>Température de fonctionnement : 15°C à 35°C<br>Humidité relative : 20% à 80%<br>Altitude maximale : 2000m<br>Poids : 2,50 kg</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle est la seule différence entre ces versions ?</strong></p></div>"
+        "content": "<div><p>Un fichier contient les informations suivantes :</p><p>'Document créé le : 12/03/2024 à 14:30</p><p>Dernière modification : 12/03/2024 à 14:15</p><p>Dernière sauvegarde : 12/03/2024 à 14:45'</p><p><strong>Quelle incohérence peut-on noter dans ces informations ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "La température maximale"
+          "content": "La date de création est incorrecte"
         },
         {
-          "content": "L'humidité relative"
+          "content": "La dernière modification est antérieure à la création",
+          "correct": true
         },
         {
-          "content": "L'altitude maximale"
+          "content": "La dernière sauvegarde est impossible"
         },
         {
-          "content": "La précision décimale du poids",
+          "content": "Il n'y a pas d'incohérence"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un message d'erreur apparaît : 'Impossible de télécharger le fichier rapport_2024.doc (erreur 404). Veuillez vérifier le nom du fichier ou contacter l'administrateur au poste 2244.'</p><p>Plus tard, un deuxième message apparaît : 'Impossible de télécharger le fichier rapport_2024.doc (erreur 404). Veuillez vérifier le nom du fichier ou contacter l'administrateur au poste 2424.'</p><p><strong>Quelles différences existe-t-il entre les deux messages ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le nom du fichier"
+        },
+        {
+          "content": "Le code d'erreur"
+        },
+        {
+          "content": "Le numéro de poste",
+          "correct": true
+        },
+        {
+          "content": "Le type de fichier"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Une société a enregistré les ventes suivantes :</p><p>2021 : 1.245.678€</p><p>2022 : 1.345.678€</p><p>2023 : 1.445.678€</p><p><strong>Quelle est l'augmentation annuelle constante ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "100.000€",
+          "correct": true
+        },
+        {
+          "content": "110.000€"
+        },
+        {
+          "content": "200.000€"
+        },
+        {
+          "content": "Les augmentations ne sont pas constantes"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Analysez ce tableau des effectifs :</p><p>Département A : 12 hommes, 15 femmes</p><p>Département B : 8 hommes, 12 femmes</p><p>Département C : 10 hommes, 13 femmes</p><p>Total : 31 hommes, 39 femmes</p><p><strong>Quelles affirmations sont correctes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le total des hommes est incorrect",
+          "correct": true
+        },
+        {
+          "content": "Le total des femmes est incorrect",
+          "correct": true
+        },
+        {
+          "content": "Le département A a le plus d'employés",
+          "correct": true
+        },
+        {
+          "content": "Tous les départements ont plus de femmes que d'hommes",
           "correct": true
         }
       ]
@@ -1090,62 +444,317 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ce rapport d'inventaire :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Stock initial : 500 unités<br>Entrées : 300 unités<br>Sorties : 250 unités<br>Retours : 50 unités<br>Stock théorique final : 650 unités<br>Stock réel après comptage : 600 unités</p><p><strong style='color: rgb(67, 67, 67);'>Quelle anomalie identifiez-vous ?</strong></p></div>"
+        "content": "<div><p>Dans une liste de prix :</p><p>Article A : 24,99€</p><p>Article B : 19,99€</p><p>Article C : 29,99€</p><p>Promotion : -20% sur le total pour l'achat des trois articles</p><p><strong>Quel est le prix final pour l'achat des trois articles après réduction ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le calcul du stock théorique final"
+          "content": "59,97€"
         },
         {
-          "content": "L'écart entre stock théorique et réel",
+          "content": "60,77€",
           "correct": true
         },
         {
-          "content": "Le nombre de retours"
+          "content": "61,57€"
         },
         {
-          "content": "Le nombre de sorties"
+          "content": "62,37€"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un courriel contient le texte suivant :</p><p>'La conférence aura lieu le vendredi 15 mars dans l'amphithéâtre principal. L'accueil des participants débutera à 9h00, la première session commencera à 8h30. La pause déjeuner est prévue de 12h30 à 14h00. La journée se terminera à 17h30.'</p><p><strong>Quelles incohérences pouvez-vous identifier ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "La première session commence avant l'accueil",
+          "correct": true
+        },
+        {
+          "content": "La durée de la pause déjeuner"
+        },
+        {
+          "content": "L'heure de fin de la journée"
+        },
+        {
+          "content": "Le lieu de la conférence"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Lisez ce résumé de réunion :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>La réunion a commencé à 14h avec 8 participants. Après 30 minutes, 2 personnes sont parties et 3 nouvelles sont arrivées. À 15h30, 4 personnes supplémentaires ont rejoint la réunion. La réunion s'est terminée à 16h avec 15 participants.</p><p><strong style='color: rgb(67, 67, 67);'>Quelle incohérence y a-t-il dans ce résumé ?</strong></p></div>"
+        "content": "<div><p>Dans le texte suivant, combien y a-t-il de mots mal orthographiés ?</p><p>'Notre société est spécialisé dans la comercialisation de produits innovents. Nous proposons des solution adaptées aux besoins spécifique de nos clients. Notre équipe expérimenté vous accompagnera tout au long de votre projet.'</p></div>"
       },
       "options": [
         {
-          "content": "L'heure de début"
+          "content": "4"
         },
         {
-          "content": "Le nombre de départs"
+          "content": "5"
         },
         {
-          "content": "Le nombre final de participants",
+          "content": "6",
           "correct": true
         },
         {
-          "content": "L'heure de fin"
+          "content": "7"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Comparez ces deux versions d'une fiche produit :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd;'>Réf : ABC-123<br>Dimensions : 30 × 40 × 50 cm<br>Volume : 60 000 cm³<br>Poids : 2,5 kg</td><td style='padding: 15px; border: 1px solid #ddd;'>Réf : ABC-123<br>Dimensions : 30 × 40 × 50 cm<br>Volume : 60 000 cm³<br>Poids : 25 kg</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle différence significative existe entre ces versions ?</strong></p></div>"
+        "content": "<div><p>Dans le calendrier suivant :</p><p>Lundi 1er mars : Réunion d'équipe</p><p>Mercredi 3 mars : Présentation client</p><p>Vendredi 5 mars : Formation</p><p>Lundi 8 mars : Revue de projet</p><p><strong>Si aujourd'hui c'est le lundi 1er mars, dans combien de jours aura lieu la revue de projet ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "La référence"
+          "content": "5 jours"
         },
         {
-          "content": "Les dimensions"
+          "content": "6 jours"
         },
         {
-          "content": "Le volume"
+          "content": "7 jours",
+          "correct": true
         },
         {
-          "content": "Le poids diffère d'un facteur 10",
+          "content": "8 jours"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Comparez ces deux versions d'un bon de commande :</p><p>Version 1 : '5 ordinateurs portables modèle XPS-15, 3 écrans 27 pouces, 8 claviers sans fil'</p><p>Version 2 : '5 ordinateurs portables modèle XPS-15, 3 écrans 24 pouces, 8 claviers sans fils'</p><p><strong>Quelles différences existe-t-il entre les deux versions ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "La taille des écrans",
+          "correct": true
+        },
+        {
+          "content": "Le nombre d'ordinateurs"
+        },
+        {
+          "content": "L'orthographe de 'sans fil'",
+          "correct": true
+        },
+        {
+          "content": "Le modèle des ordinateurs"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un employé note ses heures de travail :</p><p>'Arrivée à 8h45, pause déjeuner de 12h15 à 13h45, départ à 17h15'</p><p><strong>Combien d'heures de travail effectif a-t-il réalisé ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "7 heures"
+        },
+        {
+          "content": "7 heures 15 minutes"
+        },
+        {
+          "content": "7 heures 30 minutes",
+          "correct": true
+        },
+        {
+          "content": "8 heures"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Examinez cette suite de caractères :</p><p>A1B2C3-D4E5F6-G7H8I9-J0K1L2</p><p><strong>Combien y a-t-il de chiffres pairs dans cette séquence ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "5"
+        },
+        {
+          "content": "6",
+          "correct": true
+        },
+        {
+          "content": "7"
+        },
+        {
+          "content": "8"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un message d'invitation indique :</p><p>'La réunion annuelle se tiendra le mardi 12 avril de 9h à 17h dans la salle de conférence du 3ème étage. Un déjeuner sera servi à 12h30. La présentation principale débutera à 8h45.'</p><p><strong>Quelles incohérences pouvez-vous identifier ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "La présentation commence avant le début de la réunion",
+          "correct": true
+        },
+        {
+          "content": "L'heure du déjeuner"
+        },
+        {
+          "content": "La durée de la réunion"
+        },
+        {
+          "content": "Le lieu de la réunion"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans ce relevé de notes :</p><p>Mathématiques : 15/20</p><p>Français : 13/20</p><p>Histoire : 16/20</p><p>Anglais : 14/20</p><p>Sciences : 17/20</p><p><strong>Quelle est la moyenne exacte ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "14,8/20"
+        },
+        {
+          "content": "15/20",
+          "correct": true
+        },
+        {
+          "content": "15,2/20"
+        },
+        {
+          "content": "15,5/20"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Comparez ces deux versions d'une adresse email :</p><p>Version 1 : jean.dupont@entreprise-exemple.com</p><p>Version 2 : jean.dupont@enterprise-exemple.com</p><p><strong>Quelles différences existe-t-il entre les deux adresses ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le prénom"
+        },
+        {
+          "content": "Le nom"
+        },
+        {
+          "content": "L'orthographe de 'entreprise'",
+          "correct": true
+        },
+        {
+          "content": "Le domaine '.com'"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un graphique montre l'évolution des ventes :</p><p>Janvier : 120 unités</p><p>Février : 150 unités</p><p>Mars : 180 unités</p><p>Avril : 210 unités</p><p><strong>Quelle est l'augmentation mensuelle constante ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "20 unités"
+        },
+        {
+          "content": "25 unités"
+        },
+        {
+          "content": "30 unités",
+          "correct": true
+        },
+        {
+          "content": "35 unités"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un formulaire contient les informations suivantes :</p><p>Nom : Martin</p><p>Date de naissance : 15/04/1985</p><p>Âge : 40 ans</p><p>Téléphone : 01-23-45-67-89</p><p><strong>Quelles informations sont incohérentes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le nom"
+        },
+        {
+          "content": "L'âge par rapport à la date de naissance",
+          "correct": true
+        },
+        {
+          "content": "Le format du numéro de téléphone"
+        },
+        {
+          "content": "La date de naissance"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans le texte suivant, combien y a-t-il d'erreurs de ponctuation ?</p><p>'La réunion s'est très bien passée hier Les participants ont été attentifs aux présentations; et ont posé beaucoup de questions pertinentes.Nous avons décidé de programmer une autre session le mois prochain ?'</p></div>"
+      },
+      "options": [
+        {
+          "content": "2"
+        },
+        {
+          "content": "3",
+          "correct": true
+        },
+        {
+          "content": "4"
+        },
+        {
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans ce numéro de commande : XYZ-2024-0123-ABC-456</p><p>Un collègue a retranscrit : XYZ-2024-0132-ABC-456</p><p><strong>Combien de chiffres ont été intervertis dans la retranscription ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "1"
+        },
+        {
+          "content": "2",
+          "correct": true
+        },
+        {
+          "content": "3"
+        },
+        {
+          "content": "4"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Analysez ces deux versions d'un inventaire :</p><p>Version 1 : '45 classeurs bleus, 23 boîtes d'archives, 156 stylos, 89 cahiers'</p><p>Version 2 : '54 classeurs bleus, 23 boîtes d'archives, 165 stylos, 98 cahiers'</p><p><strong>Quels éléments présentent des différences ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le nombre de classeurs",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de boîtes d'archives"
+        },
+        {
+          "content": "Le nombre de stylos",
+          "correct": true
+        },
+        {
+          "content": "Le nombre de cahiers",
           "correct": true
         }
       ]
@@ -1153,42 +762,170 @@
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Analysez ces statistiques de participation :</span></p><p style='padding: 10px; background-color: #f5f5f5;'>Séminaire du matin : 45 participants<br>Déjeuner : 40 participants<br>Atelier après-midi : 35 participants<br>Le rapport indique un taux de participation moyen de 45%</p><p><strong style='color: rgb(67, 67, 67);'>Quelle information manque pour valider le taux de participation ?</strong></p></div>"
+        "content": "<div><p>Un rapport mensuel indique :</p><p>'Sur les 240 demandes reçues ce mois-ci, 180 ont été traitées, 45 sont en cours de traitement, et 20 ont été rejetées.'</p><p><strong>Quelle anomalie pouvez-vous identifier ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le nombre total d'inscrits",
+          "content": "Le total des demandes traitées, en cours et rejetées ne correspond pas au nombre total de demandes",
           "correct": true
         },
         {
-          "content": "La durée des sessions"
+          "content": "Le nombre de demandes rejetées est trop élevé"
         },
         {
-          "content": "Le lieu de l'événement"
+          "content": "Le nombre de demandes en cours est incorrect"
         },
         {
-          "content": "Les horaires exacts"
+          "content": "Il n'y a pas d'anomalie"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "<div><p class='ql-align-justify'><span style='color: rgb(67, 67, 67);'>Examinez ces deux séquences de code produit :</span></p><table style='width: 100%; border-collapse: collapse;'><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace; text-align: center;'>XY-2024-ABC-45678-001</td></tr><tr><td style='padding: 15px; border: 1px solid #ddd; font-family: monospace; text-align: center;'>XY-2024-ABC-45687-001</td></tr></table><p><strong style='color: rgb(67, 67, 67);'>Quelle différence y a-t-il entre ces codes ?</strong></p></div>"
+        "content": "<div><p>Dans cette série de codes postaux :</p><p>75001, 75002, 75003, 75004, 75005, 75006, 75007, 75008, 75009, 75010</p><p><strong>Combien de fois apparaît le chiffre 7 ?</strong></p></div>"
       },
       "options": [
         {
-          "content": "Le préfixe"
-        },
-        {
-          "content": "L'année"
-        },
-        {
-          "content": "Les chiffres du milieu sont dans un ordre différent",
+          "content": "10",
           "correct": true
         },
         {
-          "content": "Le suffixe"
+          "content": "11"
+        },
+        {
+          "content": "12"
+        },
+        {
+          "content": "13"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un agenda indique :</p><p>'Lundi : Dentiste à 9h30</p><p>Mardi : Réunion de 10h à 12h</p><p>Mercredi : Déjeuner d'équipe de 12h à 13h30</p><p>Jeudi : Formation de 9h à 18h</p><p>Vendredi : Présentation à 8h45'</p><p><strong>Quels jours ont des événements qui durent plus de 2 heures ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Mardi",
+          "correct": true
+        },
+        {
+          "content": "Mercredi"
+        },
+        {
+          "content": "Jeudi",
+          "correct": true
+        },
+        {
+          "content": "Vendredi"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un tableau de données montre :</p><p>Région Nord : 345 clients</p><p>Région Sud : 432 clients</p><p>Région Est : 287 clients</p><p>Région Ouest : 391 clients</p><p><strong>Quel est le nombre total exact de clients ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "1 445"
+        },
+        {
+          "content": "1 455",
+          "correct": true
+        },
+        {
+          "content": "1 465"
+        },
+        {
+          "content": "1 475"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Comparez ces deux versions d'un planning :</p><p>Version 1 : 'Réunion à 10h30, pause déjeuner à 12h15, présentation à 14h00, fin de journée à 17h30'</p><p>Version 2 : 'Réunion à 10h30, pause déjeuner à 12h15, présentation à 14h30, fin de journée à 17h45'</p><p><strong>Quelles différences existe-t-il entre les deux versions ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "L'heure de la réunion"
+        },
+        {
+          "content": "L'heure de la présentation",
+          "correct": true
+        },
+        {
+          "content": "L'heure de la pause déjeuner"
+        },
+        {
+          "content": "L'heure de fin de journée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans le texte suivant, combien y a-t-il d'erreurs d'accord ?</p><p>'Les document présentés lors de la réunion mensuel ont été très apprécié par tous les participants présent. Les nouvelles procédures proposées seront mise en place dès la semaine prochaine.'</p></div>"
+      },
+      "options": [
+        {
+          "content": "4"
+        },
+        {
+          "content": "5",
+          "correct": true
+        },
+        {
+          "content": "6"
+        },
+        {
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Un employé a noté ses dépenses :</p><p>Transport : 45,30€</p><p>Repas : 23,50€</p><p>Hôtel : 125,00€</p><p>Divers : 15,20€</p><p>Total : 213,00€</p><p><strong>Quelles erreurs pouvez-vous identifier ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "Le montant du transport"
+        },
+        {
+          "content": "Le montant des repas"
+        },
+        {
+          "content": "Le montant total est incorrect",
+          "correct": true
+        },
+        {
+          "content": "Les centimes ne sont pas cohérents"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Dans cette séquence de codes produits :</p><p>ABC-123-XY</p><p>ABC-124-XY</p><p>ABC-125-XY</p><p>ABC-127-XY</p><p>ABC-128-XY</p><p><strong>Quel numéro manque dans la séquence ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "ABC-121-XY"
+        },
+        {
+          "content": "ABC-122-XY"
+        },
+        {
+          "content": "ABC-126-XY",
+          "correct": true
+        },
+        {
+          "content": "ABC-129-XY"
         }
       ]
     }

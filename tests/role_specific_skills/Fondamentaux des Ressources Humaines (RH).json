@@ -11,7 +11,7 @@
     ],
     "relevancy": "Personnel généraliste dans les RH, managers RH, superviseurs RH, consultants RH, managers opérations liées au personnel.",
     "description": "Un spécialiste des ressources humaines compétent et qualifié peut apporter beaucoup à une organisation.\n\nIls et elles peuvent identifier les domaines difficiles qui ont un impact direct sur l’organisation et prendre des mesures concrètes pour s’assurer que les objectifs des RH sont stratégiquement alignés sur ceux de l’entreprise.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 600,
@@ -229,27 +229,6 @@
         {
           "content": "<p>Programmes de gestion du stress</p>",
           "correct": true
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "<p>Quelle est la meilleure approche pour gérer un employé sous-performant ?</p>"
-      },
-      "options": [
-        {
-          "content": "<p>Le licencier immédiatement</p>"
-        },
-        {
-          "content": "<p>Identifier les causes et mettre en place un plan d'amélioration</p>",
-          "correct": true
-        },
-        {
-          "content": "<p>Réduire ses responsabilités sans discussion</p>"
-        },
-        {
-          "content": "<p>Ignorer le problème pour maintenir la paix sociale</p>"
         }
       ]
     },

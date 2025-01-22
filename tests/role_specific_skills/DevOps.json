@@ -1,23 +1,19 @@
 {
   "title": "DevOps",
   "attributes": {
-    "overview": "Ce test évalue les connaissances des candidats sur les concepts et pratiques DevOps, ainsi que leur capacité à les appliquer pour améliorer l'infrastructure, accélérer la mise sur le marché et optimiser le déploiement continu.",
+    "overview": "Le test DevOps évalue les connaissances des candidats sur les concepts et les pratiques DevOps et détermine s'ils peuvent appliquer ces connaissances pour améliorer l'infrastructure, accélérer la mise sur le marché et réduire le taux d'échec des nouvelles versions",
     "level": "intermediate",
     "covered_skills": [
-      "Infrastructure as Code",
-      "Intégration Continue / Déploiement Continu (CI/CD)",
-      "Conteneurisation et Orchestration",
-      "Automatisation",
-      "Monitoring et Logging",
-      "Gestion de Configuration",
-      "Cloud Computing",
-      "Sécurité DevOps"
+      "Administration et diagnostic des systèmes d'exploitation Linux",
+      "Comprendre et appliquer les principaux concepts, paradigmes et patrons de programmation.",
+      "Améliorer l'infrastructure informatique en recourant à des principes de l’infrastructure en tant que code et de l’informatique en nuage",
+      "Mise en œuvre des pratiques et principes DevOps au sein de l'organisation"
     ],
-    "relevancy": "Ce test est pertinent pour les postes d'ingénieur DevOps, SRE (Site Reliability Engineer), ou tout rôle nécessitant une expertise en pratiques DevOps.",
-    "description": "L'évaluation couvre les concepts fondamentaux et intermédiaires de DevOps, testant la capacité du candidat à implémenter et gérer des pipelines CI/CD, automatiser les processus et maintenir une infrastructure robuste.",
-    "category": "Programming skills",
+    "relevancy": "Ingénieurs DevOps et autres postes nécessitant une bonne maîtrise des connaissances DevOps, tels que les postes de développeurs, d’administrateurs système ou d’ingénieurs chargés de la fiabilité des sites.",
+    "description": "DevOps ne se contente pas de réunir les processus de développement et d'exploitation d'une entreprise, il crée un pôle central doté d’un système agile où le développement et l'exploitation peuvent collaborer efficacement. Le rôle de DevOps est devenu primordial pour faire évoluer la production et augmenter la vitesse du développement et des itérations.\n\nCe test DevOps évalue la capacité des candidats à administrer et à dépanner les systèmes d'exploitation Linux, à comprendre et à appliquer les concepts, paradigmes et modèles fondamentaux de programmation, à améliorer une infrastructure informatique en utilisant l'infrastructure en tant que code et les principes de l’informatique en nuage et à mettre en œuvre les pratiques et principes DevOps au sein de votre entreprise. \n\nLes candidats qui obtiennent de bons résultats à ce test peuvent facilement s'intégrer dans une culture DevOps ou l'activer pour votre entreprise. Ils ou elles comprennent les pratiques et outils DevOps de base et peuvent mettre à profit leurs connaissances pour accélérer les mises en production de votre équipe de développement, ajuster de manière efficace vos activités, automatiser certaines parties de votre cycle de production et réduire les taux d'échec.",
+    "category": "role_specific_skills",
     "language": "french",
-    "questions_to_answer": 13,
+    "questions_to_answer": 15,
     "duration_seconds": 600,
     "position": 1
   },
@@ -26,49 +22,21 @@
       "question_attributes": {
         "type": "multiple_choice",
         "preview": true,
-        "content": "Quel outil est principalement utilisé pour la conteneurisation d&#39;applications ?"
+        "content": "<p>Quel utilitaire Linux peut être utilisé pour diagnostiquer les problèmes de DNS&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Docker",
+          "content": "<p>dig</p>",
           "correct": true
         },
         {
-          "content": "Jenkins",
-          "correct": false
+          "content": "<p>ifconfig</p>"
         },
         {
-          "content": "Git",
-          "correct": false
+          "content": "<p>netstat</p>"
         },
         {
-          "content": "Maven",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "preview": true,
-        "content": "Quelle est la principale différence entre l&#39;int&eacute;gration continue (CI) et le d&eacute;ploiement continu (CD) ?"
-      },
-      "options": [
-        {
-          "content": "Le CI concerne l&#39;automatisation des tests, le CD concerne l&#39;automatisation du d&eacute;ploiement",
-          "correct": true
-        },
-        {
-          "content": "Le CI est plus rapide que le CD",
-          "correct": false
-        },
-        {
-          "content": "Le CD est uniquement pour le d&eacute;veloppement, le CI pour la production",
-          "correct": false
-        },
-        {
-          "content": "Il n&#39;y a aucune diff&eacute;rence entre les deux",
-          "correct": false
+          "content": "<p>telnet</p>"
         }
       ]
     },
@@ -76,936 +44,1167 @@
       "question_attributes": {
         "type": "multiple_response",
         "preview": true,
-        "content": "Quels sont les avantages de l&#39;Infrastructure as Code (IaC) ?"
+        "content": "<p>Lesquels des éléments suivants sont des étapes courantes de l'intégration continue&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Reproductibilit&eacute; de l&#39;infrastructure",
+          "content": "<p>Compilation</p>",
           "correct": true
         },
         {
-          "content": "Versionnement du code infrastructure",
+          "content": "<p>Déploiement dans un systöme opérationnel</p>"
+        },
+        {
+          "content": "<p>Refonte du code</p>"
+        },
+        {
+          "content": "<p>Le test unitaire</p>",
           "correct": true
         },
         {
-          "content": "Automatisation du d&eacute;ploiement",
+          "content": "<p>Test d'intégration</p>",
           "correct": true
-        },
-        {
-          "content": "R&eacute;duction des co&ucirc;ts mat&eacute;riels",
-          "correct": false
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est utilis&eacute; pour la gestion de configuration ?"
+        "preview": true,
+        "content": "<p>Parmi les concepts de cloud suivants, lequel est le mieux adapté pour améliorer la disponibilité de votre application&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Ansible",
+          "content": "<p>L'utilisation de zones de disponibilité du nuage</p>",
           "correct": true
         },
         {
-          "content": "Eclipse",
-          "correct": false
+          "content": "<p>L'utilisation de plusieurs fournisseurs de nuage</p>"
         },
         {
-          "content": "Postman",
-          "correct": false
+          "content": "<p>L'utilisation de groupes å ajustement automatique</p>"
         },
         {
-          "content": "Sublime Text",
-          "correct": false
+          "content": "<p>L'utilisation du nuage hybride</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle commande Kubernetes est utilis&eacute;e pour afficher tous les pods en cours d&#39;ex&eacute;cution ?"
+        "content": "<p>Quelle commande git va créer une branche appelée new-feature</p>"
       },
       "options": [
         {
-          "content": "kubectl get pods",
+          "content": "<p><code>git checkout -b new-feature</code></p>",
           "correct": true
         },
         {
-          "content": "kubectl list pods",
-          "correct": false
+          "content": "<p><code>git branch -c new-feature</code></p>"
         },
         {
-          "content": "kubectl show pods",
-          "correct": false
+          "content": "<p><code>git create --branch new-feature</code></p>"
         },
         {
-          "content": "kubectl display pods",
-          "correct": false
+          "content": "<p><code>git add --branch new-feature</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les secrets dans un pipeline CI/CD&nbsp;?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un gestionnaire de secrets comme HashiCorp Vault ou AWS Secrets Manager</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les stocker directement dans les fichiers de configuration Git</p>"
+        },
+        {
+          "content": "<p>Les encoder en Base64 dans les variables d'environnement</p>"
+        },
+        {
+          "content": "<p>Les partager via un canal Slack privé</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les piliers de l&#39;observabilit&eacute; dans DevOps ?"
+        "content": "<p>Quels sont les avantages de l'utilisation de conteneurs dans un environnement DevOps&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Logs",
+          "content": "<p>Isolation des dépendances</p>",
           "correct": true
         },
         {
-          "content": "M&eacute;triques",
+          "content": "<p>Portabilité entre différents environnements</p>",
           "correct": true
         },
         {
-          "content": "Traces",
-          "correct": true
+          "content": "<p>Réduction de la consommation de mémoire RAM</p>"
         },
         {
-          "content": "Rapports mensuels",
-          "correct": false
+          "content": "<p>Déploiements reproductibles</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel est le r&ocirc;le principal de Prometheus dans un environnement DevOps ?"
+        "content": "<p>Dans Kubernetes, quelle est la meilleure pratique pour gérer les mises à jour d'applications sans temps d'arrêt&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Collecte et stockage de m&eacute;triques",
+          "content": "<p>Utiliser une stratégie de déploiement Rolling Update</p>",
           "correct": true
         },
         {
-          "content": "D&eacute;ploiement d&#39;applications",
-          "correct": false
+          "content": "<p>Redémarrer tous les pods simultanément</p>"
         },
         {
-          "content": "Gestion des conteneurs",
-          "correct": false
+          "content": "<p>Utiliser uniquement des déploiements blue-green</p>"
         },
         {
-          "content": "Tests automatiques",
-          "correct": false
+          "content": "<p>Mettre à jour manuellement pod par pod</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels outils sont couramment utilis&eacute;s pour l&#39;int&eacute;gration continue ?"
+        "content": "<p>Quelles pratiques sont essentielles pour implémenter une stratégie de surveillance efficace dans un environnement DevOps&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Jenkins",
+          "content": "<p>Définir des SLOs (Service Level Objectives) clairs</p>",
           "correct": true
         },
         {
-          "content": "GitLab CI",
+          "content": "<p>Implémenter des alertes basées sur des seuils</p>",
           "correct": true
         },
         {
-          "content": "Travis CI",
-          "correct": true
+          "content": "<p>Surveiller uniquement les métriques système</p>"
         },
         {
-          "content": "Notepad++",
-          "correct": false
+          "content": "<p>Mettre en place une observabilité distribuée</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la principale fonction d&#39;un service mesh comme Istio ?"
+        "content": "<p>Quelle commande Terraform est la plus appropriée pour visualiser les changements planifiés avant leur application&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Gestion du trafic et de la s&eacute;curit&eacute; entre les services",
+          "content": "<p><code>terraform plan</code></p>",
           "correct": true
         },
         {
-          "content": "Stockage de donn&eacute;es",
-          "correct": false
+          "content": "<p><code>terraform show</code></p>"
         },
         {
-          "content": "Compilation de code",
-          "correct": false
+          "content": "<p><code>terraform preview</code></p>"
         },
         {
-          "content": "Gestion des bases de donn&eacute;es",
-          "correct": false
+          "content": "<p><code>terraform diff</code></p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les &eacute;l&eacute;ments cl&eacute;s d&#39;un pipeline CI/CD ?"
+        "content": "<p>Quelles pratiques contribuent à une gestion efficace des logs dans un environnement DevOps&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "Build automatique",
+          "content": "<p>Centralisation des logs</p>",
           "correct": true
         },
         {
-          "content": "Tests automatis&eacute;s",
+          "content": "<p>Structuration des logs en format JSON</p>",
           "correct": true
         },
         {
-          "content": "D&eacute;ploiement automatique",
-          "correct": true
+          "content": "<p>Stockage de tous les logs indéfiniment</p>"
         },
         {
-          "content": "Documentation manuelle",
-          "correct": false
+          "content": "<p>Implémentation de niveaux de log appropriés</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est utilis&eacute; pour la gestion de secrets dans Kubernetes ?"
+        "content": "<p>Quelle approche est recommandée pour gérer les configurations d'application entre différents environnements&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "HashiCorp Vault",
+          "content": "<p>Utiliser des variables d'environnement et des fichiers de configuration externes</p>",
           "correct": true
         },
         {
-          "content": "MySQL",
-          "correct": false
+          "content": "<p>Modifier directement le code source pour chaque environnement</p>"
         },
         {
-          "content": "Notepad",
-          "correct": false
+          "content": "<p>Maintenir des branches Git séparées pour chaque environnement</p>"
         },
         {
-          "content": "Windows Registry",
-          "correct": false
+          "content": "<p>Dupliquer l'application pour chaque environnement</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la commande Terraform pour cr&eacute;er ou mettre &agrave; jour l&#39;infrastructure ?"
+        "content": "<p>Quelle est la meilleure pratique pour gérer les dépendances dans un projet Docker&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "terraform apply",
+          "content": "<p>Utiliser des versions spécifiques dans le Dockerfile et les mettre à jour régulièrement</p>",
           "correct": true
         },
         {
-          "content": "terraform create",
-          "correct": false
+          "content": "<p>Toujours utiliser le tag 'latest' pour les images de base</p>"
         },
         {
-          "content": "terraform build",
-          "correct": false
+          "content": "<p>Installer toutes les dépendances manuellement lors du runtime</p>"
         },
         {
-          "content": "terraform execute",
-          "correct": false
+          "content": "<p>Copier les dépendances directement depuis un autre conteneur</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les services AWS couramment utilis&eacute;s dans une architecture DevOps ?"
+        "content": "<p>Quelles pratiques sont essentielles pour assurer la sécurité dans un pipeline CI/CD&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "EC2",
+          "content": "<p>Analyse statique du code (SAST)</p>",
           "correct": true
         },
         {
-          "content": "S3",
+          "content": "<p>Scan des vulnérabilités des conteneurs</p>",
           "correct": true
         },
         {
-          "content": "CodePipeline",
-          "correct": true
+          "content": "<p>Désactivation des tests de sécurité pour accélérer le déploiement</p>"
         },
         {
-          "content": "Microsoft Word",
-          "correct": false
+          "content": "<p>Validation des signatures des images</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la principale caract&eacute;ristique d&#39;un d&eacute;ploiement canary ?"
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les migrations de base de données dans un environnement DevOps&nbsp;?</p>"
       },
       "options": [
         {
-          "content": "D&eacute;ploiement progressif vers un sous-ensemble d&#39;utilisateurs",
+          "content": "<p>Utiliser des outils de migration automatisée avec contrôle de version</p>",
           "correct": true
         },
         {
-          "content": "D&eacute;ploiement instantan&eacute; pour tous les utilisateurs",
-          "correct": false
+          "content": "<p>Effectuer les modifications manuellement en production</p>"
         },
         {
-          "content": "D&eacute;ploiement uniquement en environnement de test",
-          "correct": false
+          "content": "<p>Ignorer les migrations et recréer la base de données à chaque déploiement</p>"
         },
         {
-          "content": "D&eacute;ploiement sans sauvegarde",
-          "correct": false
+          "content": "<p>Maintenir des scripts SQL séparés sans versionnement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle méthode est la plus efficace pour gérer le scaling horizontal d'une application stateless dans Kubernetes?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un Horizontal Pod Autoscaler basé sur des métriques personnalisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Augmenter manuellement le nombre de réplicas</p>"
+        },
+        {
+          "content": "<p>Utiliser uniquement le Vertical Pod Autoscaler</p>"
+        },
+        {
+          "content": "<p>Redémarrer périodiquement les pods</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les objectifs cl&eacute;s du Site Reliability Engineering (SRE) ?"
+        "content": "<p>Quelles pratiques sont recommandées pour optimiser les images Docker en production?</p>"
       },
       "options": [
         {
-          "content": "R&eacute;duction des temps d&#39;arr&ecirc;t",
+          "content": "<p>Utiliser des images multi-stage build</p>",
           "correct": true
         },
         {
-          "content": "Automatisation des t&acirc;ches op&eacute;rationnelles",
+          "content": "<p>Minimiser le nombre de couches</p>",
           "correct": true
         },
         {
-          "content": "Am&eacute;lioration des SLO",
-          "correct": true
+          "content": "<p>Inclure tous les outils de développement possibles</p>"
         },
         {
-          "content": "R&eacute;duction des co&ucirc;ts marketing",
-          "correct": false
+          "content": "<p>Utiliser des images de base minimales</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est utilis&eacute; pour la virtualisation de serveurs sur Azure ?"
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les rollbacks dans un environnement de production?</p>"
       },
       "options": [
         {
-          "content": "Azure Virtual Machines",
+          "content": "<p>Implémenter une stratégie de déploiement blue-green avec possibilité de basculement rapide</p>",
           "correct": true
         },
         {
-          "content": "Azure Paint",
-          "correct": false
+          "content": "<p>Restaurer manuellement la dernière sauvegarde de la base de données</p>"
         },
         {
-          "content": "Azure Calculator",
-          "correct": false
+          "content": "<p>Redéployer la version précédente sans plan de rollback</p>"
         },
         {
-          "content": "Azure Notes",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle est la principale diff&eacute;rence entre un d&eacute;ploiement bleu-vert et un d&eacute;ploiement canary ?"
-      },
-      "options": [
-        {
-          "content": "Le bleu-vert bascule tout le trafic d&#39;un coup, le canary est progressif",
-          "correct": true
-        },
-        {
-          "content": "Le bleu-vert est plus rapide que le canary",
-          "correct": false
-        },
-        {
-          "content": "Le canary ne n&eacute;cessite pas de tests",
-          "correct": false
-        },
-        {
-          "content": "Le bleu-vert ne n&eacute;cessite qu&#39;un seul environnement",
-          "correct": false
+          "content": "<p>Désactiver temporairement le service</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les composants essentiels d&#39;une strat&eacute;gie de test automatis&eacute; ?"
+        "content": "<p>Quelles pratiques contribuent à une gestion efficace des microservices?</p>"
       },
       "options": [
         {
-          "content": "Tests unitaires",
+          "content": "<p>Implémentation de circuit breakers</p>",
           "correct": true
         },
         {
-          "content": "Tests d&#39;int&eacute;gration",
+          "content": "<p>Utilisation de service mesh</p>",
           "correct": true
         },
         {
-          "content": "Tests de performance",
-          "correct": true
+          "content": "<p>Couplage fort entre les services</p>"
         },
         {
-          "content": "Tests manuels",
-          "correct": false
+          "content": "<p>Monitoring distribué avec traçage</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel service GCP est utilis&eacute; pour la gestion de conteneurs ?"
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les secrets dans Kubernetes?</p>"
       },
       "options": [
         {
-          "content": "Google Kubernetes Engine (GKE)",
+          "content": "<p>Utiliser des Sealed Secrets ou un External Secrets Operator</p>",
           "correct": true
         },
         {
-          "content": "Google Docs",
-          "correct": false
+          "content": "<p>Stocker les secrets en tant que ConfigMaps</p>"
         },
         {
-          "content": "Google Analytics",
-          "correct": false
+          "content": "<p>Encoder les secrets en Base64 dans les manifestes</p>"
         },
         {
-          "content": "Google Drive",
-          "correct": false
+          "content": "<p>Les stocker directement dans le code source</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les aspects cl&eacute;s de la haute disponibilit&eacute; ?"
+        "content": "<p>Quelles pratiques sont essentielles pour maintenir un cluster Kubernetes sécurisé?</p>"
       },
       "options": [
         {
-          "content": "R&eacute;partition g&eacute;ographique",
+          "content": "<p>Implémenter des Network Policies</p>",
           "correct": true
         },
         {
-          "content": "Redondance des syst&egrave;mes",
+          "content": "<p>Utiliser des Pod Security Policies ou Standards</p>",
           "correct": true
         },
         {
-          "content": "Equilibrage de charge",
-          "correct": true
+          "content": "<p>Donner des permissions root à tous les pods</p>"
         },
         {
-          "content": "Marketing digital",
-          "correct": false
+          "content": "<p>Activer l'audit logging</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est recommand&eacute; pour la gestion des d&eacute;pendances Python dans un environnement DevOps ?"
+        "content": "<p>Quelle est la meilleure approche pour gérer les performances d'une application distribuée?</p>"
       },
       "options": [
         {
-          "content": "Poetry",
+          "content": "<p>Implémenter un système de monitoring distribué avec APM</p>",
           "correct": true
         },
         {
-          "content": "Notepad",
-          "correct": false
+          "content": "<p>Vérifier manuellement les logs de chaque service</p>"
         },
         {
-          "content": "Paint",
-          "correct": false
+          "content": "<p>Attendre les rapports d'erreurs des utilisateurs</p>"
         },
         {
-          "content": "Excel",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour g&eacute;rer les mots de passe dans un pipeline CI/CD ?"
-      },
-      "options": [
-        {
-          "content": "Utiliser un gestionnaire de secrets",
-          "correct": true
-        },
-        {
-          "content": "Les stocker dans le code source",
-          "correct": false
-        },
-        {
-          "content": "Les &eacute;crire dans un fichier texte",
-          "correct": false
-        },
-        {
-          "content": "Les partager par email",
-          "correct": false
+          "content": "<p>Augmenter systématiquement les ressources allouées</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les principes cl&eacute;s de DevSecOps ?"
+        "content": "<p>Quelles pratiques sont recommandées pour l'automatisation du provisionnement d'infrastructure?</p>"
       },
       "options": [
         {
-          "content": "Int&eacute;gration de la s&eacute;curit&eacute; d&egrave;s le d&eacute;but",
+          "content": "<p>Utiliser le contrôle de version pour le code d'infrastructure</p>",
           "correct": true
         },
         {
-          "content": "Automatisation des tests de s&eacute;curit&eacute;",
+          "content": "<p>Implémenter des tests d'infrastructure</p>",
           "correct": true
         },
         {
-          "content": "Analyse continue des vuln&eacute;rabilit&eacute;s",
-          "correct": true
+          "content": "<p>Modifier manuellement les ressources cloud</p>"
         },
         {
-          "content": "V&eacute;rification manuelle uniquement",
-          "correct": false
+          "content": "<p>Utiliser des modules réutilisables</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est utilis&eacute; pour l&#39;agr&eacute;gation de logs dans un environnement distribu&eacute; ?"
+        "content": "<p>Quelle approche est la plus efficace pour gérer les dépendances entre microservices?</p>"
       },
       "options": [
         {
-          "content": "ELK Stack",
+          "content": "<p>Implémenter des contrats d'API avec tests de consommateur</p>",
           "correct": true
         },
         {
-          "content": "Microsoft Word",
-          "correct": false
+          "content": "<p>Tester uniquement en production</p>"
         },
         {
-          "content": "Paint",
-          "correct": false
+          "content": "<p>Ignorer la gestion de versions des APIs</p>"
         },
         {
-          "content": "Calculator",
-          "correct": false
+          "content": "<p>Coupler fortement les services entre eux</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les avantages d&#39;une architecture microservices ?"
+        "content": "<p>Quelles pratiques sont essentielles pour une stratégie de backup efficace dans un environnement cloud?</p>"
       },
       "options": [
         {
-          "content": "D&eacute;ploiement ind&eacute;pendant des services",
+          "content": "<p>Automatiser les sauvegardes avec rotation</p>",
           "correct": true
         },
         {
-          "content": "Meilleure scalabilit&eacute;",
+          "content": "<p>Tester régulièrement les restaurations</p>",
           "correct": true
         },
         {
-          "content": "Isolation des pannes",
-          "correct": true
+          "content": "<p>Stocker les backups dans la même région</p>"
         },
         {
-          "content": "Simplification du code",
-          "correct": false
+          "content": "<p>Chiffrer les données sensibles</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle strat&eacute;gie de backup est recommand&eacute;e pour une base de donn&eacute;es en production ?"
+        "content": "<p>Quelle approche est recommandée pour gérer les certificats SSL/TLS dans un environnement Kubernetes?</p>"
       },
       "options": [
         {
-          "content": "Backup incr&eacute;mental quotidien avec backup complet hebdomadaire",
+          "content": "<p>Utiliser cert-manager avec renouvellement automatique</p>",
           "correct": true
         },
         {
-          "content": "Pas de backup",
-          "correct": false
+          "content": "<p>Gérer manuellement les certificats sur chaque pod</p>"
         },
         {
-          "content": "Backup manuel mensuel",
-          "correct": false
+          "content": "<p>Utiliser uniquement des certificats auto-signés</p>"
         },
         {
-          "content": "Backup uniquement quand n&eacute;cessaire",
-          "correct": false
+          "content": "<p>Désactiver HTTPS pour simplifier la gestion</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les indicateurs cl&eacute;s de performance (KPI) en DevOps ?"
+        "content": "<p>Quelles pratiques sont essentielles pour optimiser les performances d'une pipeline CI/CD?</p>"
       },
       "options": [
         {
-          "content": "Fr&eacute;quence de d&eacute;ploiement",
+          "content": "<p>Paralléliser les étapes indépendantes</p>",
           "correct": true
         },
         {
-          "content": "Temps moyen de r&eacute;cup&eacute;ration (MTTR)",
+          "content": "<p>Utiliser des caches pour les dépendances</p>",
           "correct": true
         },
         {
-          "content": "Taux d&#39;&eacute;chec des changements",
-          "correct": true
+          "content": "<p>Exécuter tous les tests séquentiellement</p>"
         },
         {
-          "content": "Nombre de pauses caf&eacute;",
-          "correct": false
+          "content": "<p>Implémenter des builds incrémentaux</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour g&eacute;rer les configurations d&#39;application entre diff&eacute;rents environnements ?"
+        "content": "<p>Quelle stratégie est la plus appropriée pour gérer le chaos engineering dans un environnement de production?</p>"
       },
       "options": [
         {
-          "content": "Utiliser des variables d&#39;environnement",
+          "content": "<p>Commencer petit avec des expériences contrôlées et augmenter progressivement la complexité</p>",
           "correct": true
         },
         {
-          "content": "Hardcoder les valeurs",
-          "correct": false
+          "content": "<p>Injecter des pannes majeures sans prévenir l'équipe</p>"
         },
         {
-          "content": "Utiliser le m&ecirc;me fichier partout",
-          "correct": false
+          "content": "<p>Tester uniquement pendant les heures de pointe</p>"
         },
         {
-          "content": "Modifier manuellement &agrave; chaque d&eacute;ploiement",
-          "correct": false
+          "content": "<p>Éviter complètement les tests de chaos</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les aspects importants du monitoring dans DevOps ?"
+        "content": "<p>Quelles pratiques sont recommandées pour la gestion des bases de données dans un environnement conteneurisé?</p>"
       },
       "options": [
         {
-          "content": "Surveillance des performances",
+          "content": "<p>Utiliser des volumes persistants</p>",
           "correct": true
         },
         {
-          "content": "Alerting intelligent",
+          "content": "<p>Implémenter des backups automatisés</p>",
           "correct": true
         },
         {
-          "content": "Visualisation des m&eacute;triques",
-          "correct": true
+          "content": "<p>Stocker les données directement dans le conteneur</p>"
         },
         {
-          "content": "Rapports mensuels manuels",
-          "correct": false
+          "content": "<p>Configurer la réplication pour la haute disponibilité</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel pattern est utilis&eacute; pour g&eacute;rer les pannes en cascade dans une architecture microservices ?"
+        "content": "<p>Quelle approche est la plus efficace pour gérer les mises à jour de sécurité dans un environnement conteneurisé?</p>"
       },
       "options": [
         {
-          "content": "Circuit Breaker",
+          "content": "<p>Automatiser les scans et les mises à jour avec une politique de reconstruction régulière</p>",
           "correct": true
         },
         {
-          "content": "Try-Catch",
-          "correct": false
+          "content": "<p>Mettre à jour manuellement les conteneurs quand nécessaire</p>"
         },
         {
-          "content": "If-Else",
-          "correct": false
+          "content": "<p>Ignorer les mises à jour de sécurité pour maintenir la stabilité</p>"
         },
         {
-          "content": "While Loop",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle est la meilleure approche pour g&eacute;rer les migrations de base de donn&eacute;es dans un pipeline CI/CD ?"
-      },
-      "options": [
-        {
-          "content": "Utiliser des outils de migration avec versioning",
-          "correct": true
-        },
-        {
-          "content": "Ex&eacute;cuter les scripts manuellement",
-          "correct": false
-        },
-        {
-          "content": "Ignorer les migrations",
-          "correct": false
-        },
-        {
-          "content": "Recr&eacute;er la base &agrave; chaque fois",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour g&eacute;rer un incident en production ?"
-      },
-      "options": [
-        {
-          "content": "Suivre un processus d&#39;escalade d&eacute;fini",
-          "correct": true
-        },
-        {
-          "content": "Corriger sans documenter",
-          "correct": false
-        },
-        {
-          "content": "Ignorer les alertes mineures",
-          "correct": false
-        },
-        {
-          "content": "Red&eacute;marrer le syst&egrave;me imm&eacute;diatement",
-          "correct": false
+          "content": "<p>Attendre que les vulnérabilités soient exploitées</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les &eacute;l&eacute;ments essentiels d&#39;une ing&eacute;nierie du chaos r&eacute;ussie ?"
+        "content": "<p>Quels éléments sont essentiels dans une stratégie de monitoring moderne?</p>"
       },
       "options": [
         {
-          "content": "Tests en production contr&ocirc;l&eacute;s",
+          "content": "<p>Implémentation du tracing distribué</p>",
           "correct": true
         },
         {
-          "content": "Surveillance accrue pendant les tests",
+          "content": "<p>Corrélation des logs et métriques</p>",
           "correct": true
         },
         {
-          "content": "Plan de retour arri&egrave;re",
-          "correct": true
+          "content": "<p>Monitoring manuel périodique</p>"
         },
         {
-          "content": "Tests sans pr&eacute;venir l&#39;&eacute;quipe",
-          "correct": false
+          "content": "<p>Alerting basé sur le machine learning</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quel outil est recommand&eacute; pour l&#39;analyse des performances d&#39;une application ?"
+        "content": "<p>Quelle approche est la plus appropriée pour gérer le network policy dans Kubernetes?</p>"
       },
       "options": [
         {
-          "content": "New Relic",
+          "content": "<p>Implémenter le principe du moindre privilège avec des règles explicites</p>",
           "correct": true
         },
         {
-          "content": "Microsoft Excel",
-          "correct": false
+          "content": "<p>Autoriser tout le trafic par défaut</p>"
         },
         {
-          "content": "Google Docs",
-          "correct": false
+          "content": "<p>Bloquer tout le trafic sans exception</p>"
         },
         {
-          "content": "Notepad",
-          "correct": false
+          "content": "<p>Ne pas utiliser de network policies</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quelles sont les pratiques Agiles couramment utilis&eacute;es dans DevOps ?"
+        "content": "<p>Quelles pratiques sont recommandées pour la gestion des configurations dans un environnement multi-cloud?</p>"
       },
       "options": [
         {
-          "content": "Daily Stand-ups",
+          "content": "<p>Utiliser des abstractions cloud-agnostiques</p>",
           "correct": true
         },
         {
-          "content": "Sprints",
+          "content": "<p>Centraliser la gestion des configurations</p>",
           "correct": true
         },
         {
-          "content": "R&eacute;trospectives",
-          "correct": true
+          "content": "<p>Dupliquer manuellement les configurations</p>"
         },
         {
-          "content": "Documentation exhaustive pr&eacute;alable",
-          "correct": false
+          "content": "<p>Implémenter un système de versioning</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle m&eacute;thode est recommand&eacute;e pour optimiser les performances d&#39;une application conteneuris&eacute;e ?"
+        "content": "<p>Quelle approche est la plus efficace pour gérer le state dans Terraform?</p>"
       },
       "options": [
         {
-          "content": "Utiliser des images de conteneur l&eacute;g&egrave;res",
+          "content": "<p>Utiliser un backend distant avec verrouillage d'état</p>",
           "correct": true
         },
         {
-          "content": "Installer tous les outils possibles",
-          "correct": false
+          "content": "<p>Stocker l'état localement sur chaque machine</p>"
         },
         {
-          "content": "D&eacute;sactiver la surveillance",
-          "correct": false
+          "content": "<p>Ne pas suivre l'état de l'infrastructure</p>"
         },
         {
-          "content": "Augmenter syst&eacute;matiquement les ressources",
-          "correct": false
+          "content": "<p>Partager le fichier d'état via email</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les &eacute;l&eacute;ments d&#39;une bonne communication dans une &eacute;quipe DevOps ?"
+        "content": "<p>Quelles pratiques sont essentielles pour la gestion des incidents dans un environnement DevOps?</p>"
       },
       "options": [
         {
-          "content": "Documentation claire et accessible",
+          "content": "<p>Automatiser la détection et la réponse initiale</p>",
           "correct": true
         },
         {
-          "content": "Canaux de communication d&eacute;di&eacute;s",
+          "content": "<p>Maintenir une documentation post-mortem</p>",
           "correct": true
         },
         {
-          "content": "Partage r&eacute;gulier des connaissances",
-          "correct": true
+          "content": "<p>Ignorer les petits incidents</p>"
         },
         {
-          "content": "Communication uniquement par email",
-          "correct": false
+          "content": "<p>Établir des processus d'escalade clairs</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle approche est recommand&eacute;e pour g&eacute;rer les changements en production ?"
+        "content": "<p>Quelle est la meilleure approche pour implémenter une stratégie de feature flags dans un environnement microservices?</p>"
       },
       "options": [
         {
-          "content": "Processus de validation standardis&eacute;",
+          "content": "<p>Utiliser un service centralisé de gestion des features avec cache local</p>",
           "correct": true
         },
         {
-          "content": "D&eacute;ploiement direct en production",
-          "correct": false
+          "content": "<p>Stocker les flags directement dans le code source</p>"
         },
         {
-          "content": "Tests uniquement en production",
-          "correct": false
+          "content": "<p>Redéployer l'application pour chaque changement de feature</p>"
         },
         {
-          "content": "Validation verbale",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question_attributes": {
-        "type": "multiple_choice",
-        "content": "Quel outil est utilis&eacute; pour le monitoring des conteneurs ?"
-      },
-      "options": [
-        {
-          "content": "Prometheus avec cAdvisor",
-          "correct": true
-        },
-        {
-          "content": "Microsoft Paint",
-          "correct": false
-        },
-        {
-          "content": "Bloc-notes",
-          "correct": false
-        },
-        {
-          "content": "Windows Media Player",
-          "correct": false
+          "content": "<p>Utiliser des variables d'environnement uniquement</p>"
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_response",
-        "content": "Quels sont les &eacute;l&eacute;ments essentiels d&#39;un post-mortem d&#39;incident ?"
+        "content": "<p>Quelles pratiques sont essentielles pour optimiser la sécurité des conteneurs en production?</p>"
       },
       "options": [
         {
-          "content": "Chronologie d&eacute;taill&eacute;e",
+          "content": "<p>Scanner les images pour les vulnérabilités connues</p>",
           "correct": true
         },
         {
-          "content": "Analyse des causes racines",
+          "content": "<p>Implémenter le principe de moindre privilège</p>",
           "correct": true
         },
         {
-          "content": "Actions correctives",
-          "correct": true
+          "content": "<p>Exécuter les conteneurs en tant que root</p>"
         },
         {
-          "content": "Recherche des coupables",
-          "correct": false
+          "content": "<p>Utiliser des images de base minimalistes</p>",
+          "correct": true
         }
       ]
     },
     {
       "question_attributes": {
         "type": "multiple_choice",
-        "content": "Quelle est la meilleure pratique pour g&eacute;rer les d&eacute;pendances dans un projet DevOps ?"
+        "content": "<p>Quelle approche est la plus appropriée pour gérer le rate limiting dans une architecture de microservices?</p>"
       },
       "options": [
         {
-          "content": "Utiliser un gestionnaire de d&eacute;pendances avec versions fix&eacute;es",
+          "content": "<p>Implémenter un rate limiting distributé avec token bucket au niveau API Gateway</p>",
           "correct": true
         },
         {
-          "content": "Copier-coller le code n&eacute;cessaire",
-          "correct": false
+          "content": "<p>Ne pas implémenter de rate limiting</p>"
         },
         {
-          "content": "T&eacute;l&eacute;charger manuellement les d&eacute;pendances",
-          "correct": false
+          "content": "<p>Bloquer tous les appels après un certain seuil</p>"
         },
         {
-          "content": "Utiliser toujours la derni&egrave;re version",
-          "correct": false
+          "content": "<p>Utiliser un rate limiting par IP uniquement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour la gestion des logs dans un environnement distribué?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Agréger les logs dans un système centralisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémenter des identifiants de corrélation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker les logs uniquement localement</p>"
+        },
+        {
+          "content": "<p>Structurer les logs en format JSON avec métadonnées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle stratégie est la plus efficace pour gérer les configurations dans Kubernetes?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser une combinaison de ConfigMaps, Secrets et External Configuration Service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Hardcoder les configurations dans les pods</p>"
+        },
+        {
+          "content": "<p>Utiliser uniquement des variables d'environnement</p>"
+        },
+        {
+          "content": "<p>Stocker toutes les configurations dans des secrets</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont essentielles pour maintenir une architecture de microservices évolutive?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémenter des health checks appropriés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des stratégies de cache efficaces</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer des services monolithiques</p>"
+        },
+        {
+          "content": "<p>Mettre en place des circuit breakers</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus appropriée pour gérer les migrations de base de données dans un environnement de microservices?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des migrations versionnées avec backward compatibility</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Effectuer les migrations manuellement</p>"
+        },
+        {
+          "content": "<p>Ignorer le versioning des migrations</p>"
+        },
+        {
+          "content": "<p>Recréer la base de données à chaque déploiement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont recommandées pour la gestion des secrets dans un pipeline CI/CD?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un coffre-fort de secrets sécurisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rotation automatique des credentials</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker les secrets dans le code source</p>"
+        },
+        {
+          "content": "<p>Limiter l'accès aux secrets selon le principe du moindre privilège</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour implémenter une stratégie de backup dans un cluster Kubernetes?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un outil spécialisé de backup Kubernetes avec sauvegarde des états et configurations</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Sauvegarder uniquement les données des volumes persistants</p>"
+        },
+        {
+          "content": "<p>Faire des captures d'écran du dashboard</p>"
+        },
+        {
+          "content": "<p>Ne pas faire de backup car Kubernetes est hautement disponible</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une stratégie efficace de déploiement canary?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Monitoring détaillé des métriques de performance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Capacité de rollback automatisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déploiement direct en production</p>"
+        },
+        {
+          "content": "<p>Segmentation contrôlée du trafic</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus efficace pour gérer les Service Mesh dans un cluster Kubernetes de grande taille?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémenter un control plane centralisé avec data planes distribués et monitoring avancé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser uniquement des services NodePort</p>"
+        },
+        {
+          "content": "<p>Gérer manuellement le routage du trafic</p>"
+        },
+        {
+          "content": "<p>Désactiver le mTLS entre les services</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont essentielles pour optimiser les performances d'un pipeline GitOps?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des webhooks pour la synchronisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémenter des validations automatisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier manuellement chaque changement</p>"
+        },
+        {
+          "content": "<p>Maintenir un état désiré déclaratif</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure stratégie pour gérer les dépendances externes dans un environnement de microservices?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un gestionnaire de dépendances avec versioning sémantique et tests de contrat</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Copier toutes les dépendances localement</p>"
+        },
+        {
+          "content": "<p>Utiliser toujours la dernière version disponible</p>"
+        },
+        {
+          "content": "<p>Ignorer la gestion des versions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour implémenter une stratégie de disaster recovery dans le cloud?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir des backups cross-région</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Automatiser les procédures de failover</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stocker les backups uniquement en local</p>"
+        },
+        {
+          "content": "<p>Tester régulièrement le plan de reprise</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus appropriée pour gérer le scaling dans une architecture serverless?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémenter des mécanismes de throttling et de concurrence avec monitoring proactif</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser uniquement le scaling automatique par défaut</p>"
+        },
+        {
+          "content": "<p>Définir des limites fixes de scaling</p>"
+        },
+        {
+          "content": "<p>Désactiver le scaling automatique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont essentielles pour sécuriser un cluster EKS en production?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Configurer des security groups restrictifs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Implémenter le chiffrement des données au repos</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des credentials par défaut</p>"
+        },
+        {
+          "content": "<p>Activer le logging et l'audit avancé</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle approche est la plus efficace pour gérer la configuration d'une application multi-tenant?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un système de configuration hiérarchique avec isolation par tenant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mélanger les configurations de tous les tenants</p>"
+        },
+        {
+          "content": "<p>Utiliser une configuration unique pour tous les tenants</p>"
+        },
+        {
+          "content": "<p>Stocker les configurations en dur dans le code</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont recommandées pour l'observabilité dans un système distribué?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémenter des métriques personnalisées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser le tracing distribué</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se fier uniquement aux logs système</p>"
+        },
+        {
+          "content": "<p>Corréler les événements entre services</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la meilleure approche pour gérer les mises à jour de schéma GraphQL dans un environnement de microservices?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un registry de schéma centralisé avec versionning et validation automatique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Modifier directement le schéma en production</p>"
+        },
+        {
+          "content": "<p>Ne pas versionner les schémas</p>"
+        },
+        {
+          "content": "<p>Ignorer les breaking changes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont essentielles pour la gestion des performances dans un environnement de microservices?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Implémenter du caching distribué</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Optimiser les requêtes de base de données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les temps de réponse</p>"
+        },
+        {
+          "content": "<p>Utiliser des stratégies de bulk processing</p>",
+          "correct": true
         }
       ]
     }

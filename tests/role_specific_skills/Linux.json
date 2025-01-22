@@ -1,0 +1,970 @@
+{
+  "title": "Linux",
+  "attributes": {
+    "overview": "Ce test Linux évalue les connaissances techniques des candidats sur le système d'exploitation Linux. Ce test de présélection Linux vous aidera à identifier les candidats qualifiés en administration Linux.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Administration des systèmes Linux",
+      "Fonctionnement interne de Linux",
+      "L'écosystème Linux",
+      "Sécurité et confidentialité sous Linux"
+    ],
+    "relevancy": "Administrateurs systèmes, développeurs open-source, DevOps et tous autres rôles nécessitant une connaissance intermédiaire du système d'exploitation Linux et de son écosystème.",
+    "description": "Des puissants serveurs web hébergeant les principaux sites internet au smartphone dans votre poche, Linux est partout. L'esprit open-source a conquis le monde du développement logiciel, faisant des compétences Linux une exigence fondamentale pour de nombreuses professions techniques aujourd'hui. Recruter une personne qualifiée en Linux permettra à votre entreprise de tirer parti des avantages clés de ce système d'exploitation open-source, notamment ses faibles coûts, sa haute sécurité, ses performances et sa stabilité, ainsi que sa légèreté en termes d'espace disque.\n\nCe test Linux évalue les compétences Linux des candidats à travers des scénarios professionnels réalistes et évalue leurs capacités en administration système Linux, en fonctionnement interne de Linux, dans l'écosystème Linux, et en matière de sécurité et de confidentialité sous Linux. Dans l'ensemble, ce test Linux évalue les compétences requises des candidats pour exploiter, administrer et coordonner efficacement les systèmes Linux.\n\nLes candidats qui réussissent ce test ont une solide connaissance pratique des systèmes Linux et peuvent utiliser les logiciels et commandes Linux pour administrer des systèmes réels. Ce test vous aidera à recruter des candidats qualifiés en Linux, capables d'aider votre entreprise à tirer parti des principaux avantages de ce système d'exploitation open-source, notamment sa flexibilité et son adaptation aux programmeurs.",
+    "category": "software_skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Vous essayez d'accéder à un enregistrement DNS (Domain Name System) sous Linux. Vous souhaitez vérifier que l'enregistrement DNS du domaine contient un certain enregistrement TXT.</p><p>&nbsp;</p><p><strong>Comment pouvez-vous vérifier cela sous Linux ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser la commande <code><strong>dig</strong></code>.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Exécuter <code><strong>hostname</strong></code> sur l'adresse IP du domaine.</p>"
+        },
+        {
+          "content": "<p>Se connecter au serveur DNS avec OpenSSL.</p>"
+        },
+        {
+          "content": "<p>Rechercher le domaine avec une requête WHOIS.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Vous avez trouvé un bug dans le noyau Linux et souhaitez créer un correctif pour qu'il fonctionne correctement. La modification est simple et ne nécessite pas de fonctionnalité bas niveau.</p><p>&nbsp;</p><p><strong>Quel langage de programmation devriez-vous utiliser pour écrire votre correctif ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Rust</p>"
+        },
+        {
+          "content": "<p>Python</p>"
+        },
+        {
+          "content": "<p>C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>C++</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Vous prévoyez d'écrire un script pour automatiser des tâches courantes sur votre machine. Comme le script sera exécuté sur différents systèmes que vous ne contrôlez pas, vous voulez qu'il fonctionne sur diverses distributions Linux sans avoir besoin d'installer un interpréteur supplémentaire.</p><p>&nbsp;</p><p><strong>Que pouvez-vous faire pour rendre le script le plus compatible possible ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Compiler le script en assembleur ARM avec LLVM.</p>"
+        },
+        {
+          "content": "<p>Compiler le script en assembleur x86 avec GNU Compiler Collection (GCC).</p>"
+        },
+        {
+          "content": "<p>Écrire le script en Bourne Again Shell (<code><strong>/bin/bash</strong></code>).</p>"
+        },
+        {
+          "content": "<p>Écrire le script en Bourne Shell (<code><strong>/bin/sh</strong></code>).</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p>Un pirate informatique a infiltré un système Linux que vous gérez et a exfiltré le fichier <code><strong>/etc/passwd</strong></code>. Après avoir sécurisé le système pour empêcher d'autres violations, on vous demande d'évaluer les dommages qu'un attaquant pourrait causer avec ce fichier.</p><p>&nbsp;</p><p><strong>Vrai ou faux : </strong>Ce fichier donnera à l'attaquant les hachages des mots de passe des utilisateurs du système compromis.</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Vrai</p>"
+        },
+        {
+          "content": "<p>Faux</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez vérifier l'espace disque disponible sur tous les systèmes de fichiers montés. Quelle commande utiliseriez-vous ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ls -la</code></p>"
+        },
+        {
+          "content": "<p><code>df -h</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>du -sh</code></p>"
+        },
+        {
+          "content": "<p><code>free -m</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes peuvent être utilisées pour gérer les services système sous une distribution Linux utilisant systemd ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>systemctl start</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>service start</code></p>"
+        },
+        {
+          "content": "<p><code>systemctl status</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>systemctl enable</code></p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un processus consomme trop de ressources CPU. Quelle commande utiliseriez-vous pour modifier sa priorité d'exécution en temps réel ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>nice</code></p>"
+        },
+        {
+          "content": "<p><code>renice</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>top</code></p>"
+        },
+        {
+          "content": "<p><code>ps</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour sécuriser un serveur SSH, vous souhaitez désactiver l'authentification par mot de passe et n'autoriser que l'authentification par clé. Dans quel fichier devez-vous faire cette modification ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>/etc/ssh/sshd_config</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/etc/ssh/ssh_config</code></p>"
+        },
+        {
+          "content": "<p><code>/etc/ssh/config</code></p>"
+        },
+        {
+          "content": "<p><code>/etc/sshd/config</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles informations peuvent être trouvées dans le répertoire <code>/proc</code> ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>L'état actuel des processus</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les informations sur le matériel système</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les paramètres du noyau</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les fichiers de configuration des applications</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de voir en temps réel les dernières lignes ajoutées à un fichier journal ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>cat -n</code></p>"
+        },
+        {
+          "content": "<p><code>tail -f</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>less</code></p>"
+        },
+        {
+          "content": "<p><code>head</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez créer un système de fichiers ext4 sur une nouvelle partition. Quelle commande utiliseriez-vous ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>fdisk</code></p>"
+        },
+        {
+          "content": "<p><code>mount</code></p>"
+        },
+        {
+          "content": "<p><code>mkfs.ext4</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>fsck</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes peuvent être utilisées pour gérer les paquets sur une distribution basée sur Debian ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>apt update</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>apt install</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>yum install</code></p>"
+        },
+        {
+          "content": "<p><code>dpkg -i</code></p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour définir une variable d'environnement de manière permanente pour un utilisateur, dans quel fichier devez-vous l'ajouter ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>/etc/environment</code></p>"
+        },
+        {
+          "content": "<p><code>~/.bashrc</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/etc/profile</code></p>"
+        },
+        {
+          "content": "<p><code>/etc/bash.bashrc</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de visualiser les ports réseau en écoute sur un système Linux ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>netstat -tuln</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ifconfig</code></p>"
+        },
+        {
+          "content": "<p><code>ip addr</code></p>"
+        },
+        {
+          "content": "<p><code>route -n</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez archiver un répertoire tout en préservant les permissions et les liens symboliques. Quelle commande est la plus appropriée ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>zip -r archive.zip directory/</code></p>"
+        },
+        {
+          "content": "<p><code>tar -czf archive.tar.gz directory/</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>cp -r directory/ backup/</code></p>"
+        },
+        {
+          "content": "<p><code>rsync directory/ backup/</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes peuvent être utilisées pour diagnostiquer des problèmes de connexion réseau ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ping</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>traceroute</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>nslookup</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>whoami</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Un processus ne répond plus. Quelle combinaison de commandes permet de trouver son PID puis de le terminer proprement ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ps aux | grep process_name</code> suivi de <code>kill -15 PID</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>top</code> suivi de <code>killall process_name</code></p>"
+        },
+        {
+          "content": "<p><code>pgrep process_name</code> suivi de <code>kill -9 PID</code></p>"
+        },
+        {
+          "content": "<p><code>ps -ef</code> suivi de <code>pkill process_name</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer un serveur DNS secondaire, quel type de transfert de zone doit être autorisé dans la configuration de BIND9 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>AXFR</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>IXFR</p>"
+        },
+        {
+          "content": "<p>DNSXFR</p>"
+        },
+        {
+          "content": "<p>ZONEXFR</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles sont les bonnes pratiques pour sécuriser un serveur Linux ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Désactiver l'authentification root via SSH</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir le système à jour avec les correctifs de sécurité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des mots de passe par défaut</p>"
+        },
+        {
+          "content": "<p>Configurer un pare-feu</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de visualiser l'utilisation de la mémoire d'un processus spécifique ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>free -m</code></p>"
+        },
+        {
+          "content": "<p><code>pmap -x PID</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>top</code></p>"
+        },
+        {
+          "content": "<p><code>vmstat</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous souhaitez programmer une tâche pour s'exécuter toutes les 15 minutes. Quelle est la syntaxe correcte dans crontab ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>*/15 * * * *</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>15 * * * *</code></p>"
+        },
+        {
+          "content": "<p><code>0,15,30,45 * * * *</code></p>"
+        },
+        {
+          "content": "<p><code>*/15 0 * * *</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quels fichiers de journalisation sont importants à surveiller pour la sécurité système ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>/var/log/auth.log</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/var/log/syslog</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/var/log/kern.log</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/var/log/README</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de modifier les attributs d'un système de fichiers ext4 ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>tune2fs</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>resize2fs</code></p>"
+        },
+        {
+          "content": "<p><code>mkfs.ext4</code></p>"
+        },
+        {
+          "content": "<p><code>fsck.ext4</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer un pont réseau (bridge) entre deux interfaces réseau, quel outil de configuration devez-vous utiliser dans une distribution moderne ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>networkctl</code></p>"
+        },
+        {
+          "content": "<p><code>nmcli</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ifconfig</code></p>"
+        },
+        {
+          "content": "<p><code>brctl</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez identifier les processus qui consomment le plus d'I/O disque. Quelle commande utiliseriez-vous ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>top</code></p>"
+        },
+        {
+          "content": "<p><code>iotop</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>iostat</code></p>"
+        },
+        {
+          "content": "<p><code>dstat</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes peuvent être utilisées pour gérer les volumes logiques LVM ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>lvextend</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>vgcreate</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>pvdisplay</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>fdisk</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour empêcher un utilisateur de se connecter au système tout en conservant ses fichiers, quelle modification devez-vous apporter ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p>Supprimer l'utilisateur avec <code>userdel</code></p>"
+        },
+        {
+          "content": "<p>Modifier le shell de l'utilisateur en <code>/sbin/nologin</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Supprimer le mot de passe de l'utilisateur</p>"
+        },
+        {
+          "content": "<p>Modifier les permissions du répertoire personnel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de visualiser les règles de routage IPv6 actives sur le système ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>route -6</code></p>"
+        },
+        {
+          "content": "<p><code>ip -6 route show</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>netstat -r6</code></p>"
+        },
+        {
+          "content": "<p><code>routeipv6</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles options de montage sont recommandées pour améliorer la sécurité d'un système de fichiers ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>noexec</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>nosuid</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>nodev</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>async</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer une limite de ressources système pour tous les utilisateurs, quel fichier devez-vous modifier ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>/etc/security/limits.conf</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/etc/sysctl.conf</code></p>"
+        },
+        {
+          "content": "<p><code>/etc/profile</code></p>"
+        },
+        {
+          "content": "<p><code>/etc/resources.conf</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de vérifier si un service systemd particulier a rencontré des erreurs ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>systemctl status service_name</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>service service_name status</code></p>"
+        },
+        {
+          "content": "<p><code>ps aux | grep service_name</code></p>"
+        },
+        {
+          "content": "<p><code>journalctl service_name</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quels sont les outils appropriés pour surveiller les performances réseau sous Linux ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>iperf3</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>nethogs</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>tcpdump</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ping</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer une interface réseau en mode promiscuous, quelle commande utiliseriez-vous ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ip link set eth0 promisc on</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ifconfig eth0 promisc</code></p>"
+        },
+        {
+          "content": "<p><code>ethtool -p eth0</code></p>"
+        },
+        {
+          "content": "<p><code>networkctl promisc eth0</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de générer une nouvelle paire de clés SSH avec un algorithme spécifique ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ssh-keygen -t ed25519</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ssh-key create</code></p>"
+        },
+        {
+          "content": "<p><code>openssl genkey</code></p>"
+        },
+        {
+          "content": "<p><code>gpg --gen-key</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Vous devez créer un raid logiciel RAID5 sous Linux. Quel outil utiliseriez-vous ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>mdadm</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>lvcreate</code></p>"
+        },
+        {
+          "content": "<p><code>parted</code></p>"
+        },
+        {
+          "content": "<p><code>fdisk</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes peuvent être utilisées pour diagnostiquer des problèmes de performance CPU ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>mpstat</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>pidstat</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>perf top</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>free</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer un proxy inverse avec Nginx, quel bloc de configuration est nécessaire ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>location</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>server</code></p>"
+        },
+        {
+          "content": "<p><code>upstream</code></p>"
+        },
+        {
+          "content": "<p><code>proxy</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quels sont les fichiers importants pour la configuration du réseau sous systemd-networkd ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>.network</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>.netdev</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>.link</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>.conf</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de visualiser les sockets Unix en écoute sur le système ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>ss -xl</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>netstat -a</code></p>"
+        },
+        {
+          "content": "<p><code>lsof -U</code></p>"
+        },
+        {
+          "content": "<p><code>sockstat</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour configurer une politique de mot de passe plus stricte, quel module PAM devez-vous configurer ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>pam_pwquality.so</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>pam_unix.so</code></p>"
+        },
+        {
+          "content": "<p><code>pam_cracklib.so</code></p>"
+        },
+        {
+          "content": "<p><code>pam_password.so</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quelles commandes sont utiles pour le débogage des problèmes de DNS ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>dig</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>host</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>resolvectl status</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ping</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Pour créer un tunnel VPN point-à-point, quel outil est recommandé sous Linux ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>wireguard</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>ssh</code></p>"
+        },
+        {
+          "content": "<p><code>iptables</code></p>"
+        },
+        {
+          "content": "<p><code>netcat</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p>Quelle commande permet de voir les processus qui utilisent un fichier particulier ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>lsof</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>fuser</code></p>"
+        },
+        {
+          "content": "<p><code>ps</code></p>"
+        },
+        {
+          "content": "<p><code>pgrep</code></p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p>Quels sont les fichiers de configuration importants pour la sécurité SSH ?</p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><code>/etc/ssh/sshd_config</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>~/.ssh/authorized_keys</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/etc/ssh/ssh_known_hosts</code></p>",
+          "correct": true
+        },
+        {
+          "content": "<p><code>/etc/ssh/config</code></p>"
+        }
+      ]
+    }
+  ]
+}

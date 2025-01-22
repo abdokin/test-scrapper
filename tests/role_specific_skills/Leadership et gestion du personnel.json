@@ -11,7 +11,7 @@
     ],
     "relevancy": "Managers, chefs d'équipe et employés occupant d'autres rôles de leadership.",
     "description": "Les leaders efficaces multiplient le potentiel de votre organisation. Ils mettent en œuvre des stratégies percutantes et fournissent des directives exploitables qui produisent des résultats.\n\nCe test de Leadership et gestion du personnel évalue la capacité des candidats à déléguer l'autorité et les responsabilités, à planifier et soutenir le développement des autres, à fournir des conseils et du feedback opportuns, et à obtenir l'adhésion aux idées et aux plans. Plutôt que de proposer un style de leadership spécifique, ce test suit la théorie situationnelle du leadership développée par Blanchard et Hersey, et demande aux candidats d'évaluer les facteurs pour décider quand diriger, convaincre, participer ou déléguer dans différents scénarios selon les besoins de chaque situation.",
-    "category": "Role-specific skills",
+    "category": "role_specific_skills",
     "language": "french",
     "questions_to_answer": 12,
     "duration_seconds": 600,

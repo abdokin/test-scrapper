@@ -11,7 +11,7 @@
     ],
     "relevancy": "Tout poste qui exige de bonnes compétences en communication pour faciliter une collaboration efficace avec les autres.",
     "description": "Une bonne communication constitue le fondement de bonnes relations. Et en retour, les bonnes relations sont essentielles à la constitution d’équipes de qualité qui mènent votre entreprise vers l’excellence. Une bonne communication entre les membres d’une équipe permet d’instaurer la confiance, de résoudre (et même de prévenir) les problèmes, d’apporter clarté et visibilité, d’améliorer la productivité et d’accroître l’engagement. \n\nCe test de communication évalue les compétences des candidats en matière de compréhension, d’utilisation et d’interprétation de la communication écrite, et évalue leurs compétences en matière de communication verbale (en personne et dans un environnement virtuel), ainsi que l’écoute active et l’interprétation des signaux non verbaux. Ce test évalue également la capacité des candidats à clarifier les étapes suivantes, à résumer de manière efficace les messages, et à utiliser les règles de base de la communication professionnelle. \n\nLes candidats qui obtiennent de bons résultats à ce test de sélection savent écouter attentivement les autres, communiquer avec confiance et ouverture d’esprit, et offrir à la fois de l’empathie et un retour d’information dans les scénarios appropriés et de la manière qui convient.",
-    "category": "Situational judgment",
+    "category": "situational_judgment",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 480,

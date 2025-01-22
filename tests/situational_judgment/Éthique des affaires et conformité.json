@@ -11,7 +11,7 @@
     ],
     "relevancy": "Managers dans tous les contextes professionnels nécessitant des compétences en prise de décision éthique et la capacité à respecter les normes éthiques et/ou légales. Ce test est destiné aux managers qui prennent des décisions dans différents domaines fonctionnels.",
     "description": "Dans le paysage commercial contemporain, l'intégrité éthique et la conformité ne sont pas seulement des nécessités légales, mais des composantes essentielles pour un succès durable. Le recrutement de candidats ayant de solides compétences en éthique des affaires et en conformité est important pour établir une réputation d'entreprise fiable, maintenir la conformité réglementaire et favoriser une culture de travail positive.\n\nCe test évalue la capacité des candidats à comprendre et à appliquer l'éthique dans les situations de conflits d'intérêts, à assurer l'intégrité dans le processus d'approvisionnement et à gérer efficacement les intérêts et les relations personnels. Le test évalue également leur capacité à gérer les informations privilégiées, à respecter les politiques et à se conformer aux normes légales.",
-    "category": "Situational judgment",
+    "category": "situational_judgment",
     "language": "french",
     "questions_to_answer": 15,
     "duration_seconds": 600,
