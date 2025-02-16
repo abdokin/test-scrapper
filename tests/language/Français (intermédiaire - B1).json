@@ -6,8 +6,7 @@
     "covered_skills": [
       "Grammaire de base",
       "Construction des phrases",
-      "Compréhension de la lecture",
-      "Compréhension de l’oral"
+      "Compréhension de la lecture"
     ],
     "relevancy": "Le personnel d’assistance à la clientèle, les représentants commerciaux et autres employés qui ont besoin d’un niveau de français intermédiaire pour bien remplir leurs fonctions.",
     "description": "Les employés capables de communiquer en français à un niveau intermédiaire contribueront à améliorer les communications internes et externes de votre entreprise en supprimant les barrières linguistiques, et en améliorant le flux d’informations et la collaboration entre collègues et avec les clients.\n\nLe test de français (intermédiaire/B1) évalue la capacité d’un candidat à communiquer en français niveau B1 du Cadre européen commun de référence pour les langues (CECRL). Le test évalue les candidats dans les domaines de la grammaire et du vocabulaire, de la composition des phrases, de la compréhension de l’écrit et de l’oral.\n\nLes employés capables de parler français à un niveau intermédiaire peuvent communiquer avec la clientèle, des collègues et d’autres parties prenantes en toute aisance dans des situations du quotidien qui peuvent se présenter sur le lieu de travail. Les textes et les phrases utilisés dans le test reproduisent des situations réelles au travail et dans la vie quotidienne. Les personnes qui obtiennent de bons résultats à ce test sont capables de comprendre des phrases simples et cohérentes sur des sujets qui leur sont généralement familiers.",
@@ -905,6 +904,983 @@
         },
         {
           "content": "<p>dans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom relatif correct : C'est l'endroit _____ j'ai passé mon enfance.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>où</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>que</p>"
+        },
+        {
+          "content": "<p>dont</p>"
+        },
+        {
+          "content": "<p>qui</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peut-on utiliser pour exprimer la durée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Pendant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Depuis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pourtant</p>"
+        },
+        {
+          "content": "<p>Il y a</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la forme correcte du futur antérieur : Quand tu _____ ton travail, appelle-moi.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>auras fini</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>as fini</p>"
+        },
+        {
+          "content": "<p>avais fini</p>"
+        },
+        {
+          "content": "<p>finiras</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'adjectif indéfini correct : _____ personne ne peut répondre à cette question.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Aucune</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chaque</p>"
+        },
+        {
+          "content": "<p>Toute</p>"
+        },
+        {
+          "content": "<p>Quelque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots sont des connecteurs logiques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>D'abord</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ensuite</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Hier</p>"
+        },
+        {
+          "content": "<p>Enfin</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du verbe au passé simple : Elle _____ une lettre.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>écrivit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>écriva</p>"
+        },
+        {
+          "content": "<p>écrit</p>"
+        },
+        {
+          "content": "<p>écrira</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression de temps : Je dois finir ce rapport _____ demain.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>d'ici</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>depuis</p>"
+        },
+        {
+          "content": "<p>pendant</p>"
+        },
+        {
+          "content": "<p>il y a</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à exprimer la concession ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Bien que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Malgré</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parce que</p>"
+        },
+        {
+          "content": "<p>Quoique</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom correct : Je pense _____ souvent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>à elle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>elle</p>"
+        },
+        {
+          "content": "<p>d'elle</p>"
+        },
+        {
+          "content": "<p>la</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du subjonctif présent : Il faut que nous _____ patience.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>ayons</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>avons</p>"
+        },
+        {
+          "content": "<p>aurons</p>"
+        },
+        {
+          "content": "<p>ayions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les adverbes de manière terminant en -ment ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rapidement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Facilement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Bien</p>"
+        },
+        {
+          "content": "<p>Lentement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du participe présent : En _____ les escaliers, elle est tombée.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>montant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>monte</p>"
+        },
+        {
+          "content": "<p>monté</p>"
+        },
+        {
+          "content": "<p>montante</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom y : Nous _____ allons souvent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>y</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>en</p>"
+        },
+        {
+          "content": "<p>là</p>"
+        },
+        {
+          "content": "<p>lui</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à exprimer l'hypothèse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Si</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Au cas où</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parce que</p>"
+        },
+        {
+          "content": "<p>À condition que</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du plus-que-parfait : Elle _____ avant notre arrivée.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>était partie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>est partie</p>"
+        },
+        {
+          "content": "<p>sera partie</p>"
+        },
+        {
+          "content": "<p>partait</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom relatif correct : C'est la raison pour _____ je suis venu.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>laquelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>lequel</p>"
+        },
+        {
+          "content": "<p>qui</p>"
+        },
+        {
+          "content": "<p>que</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peut-on utiliser pour donner des conseils ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tu devrais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il vaut mieux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je suis sûr</p>"
+        },
+        {
+          "content": "<p>Je te conseille de</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du verbe au conditionnel passé : Elle _____ si elle avait pu.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>serait venue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>est venue</p>"
+        },
+        {
+          "content": "<p>viendra</p>"
+        },
+        {
+          "content": "<p>venait</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'expression de temps correcte : Je travaille ici _____ deux ans.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>depuis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pendant</p>"
+        },
+        {
+          "content": "<p>pour</p>"
+        },
+        {
+          "content": "<p>dans</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels mots servent à exprimer la fréquence ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Souvent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parfois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenant</p>"
+        },
+        {
+          "content": "<p>Rarement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du subjonctif passé : Il faut que vous _____ ce document.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>ayez signé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>avez signé</p>"
+        },
+        {
+          "content": "<p>aurez signé</p>"
+        },
+        {
+          "content": "<p>aviez signé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne préposition : Il s'intéresse _____ la musique.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>à</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>de</p>"
+        },
+        {
+          "content": "<p>pour</p>"
+        },
+        {
+          "content": "<p>en</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à exprimer le doute ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je doute que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je ne suis pas sûr que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je sais que</p>"
+        },
+        {
+          "content": "<p>Il est possible que</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom démonstratif correct : _____ qui est sur la table est à moi.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Celui</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Celle</p>"
+        },
+        {
+          "content": "<p>Ceux</p>"
+        },
+        {
+          "content": "<p>Ce</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du gérondif : Il est sorti _____ courant.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>en</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>de</p>"
+        },
+        {
+          "content": "<p>à</p>"
+        },
+        {
+          "content": "<p>par</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les marqueurs de temps du futur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demain</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La semaine prochaine</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Hier</p>"
+        },
+        {
+          "content": "<p>Dans trois jours</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du passé récent : Elle _____ d'arriver.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>vient</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>va</p>"
+        },
+        {
+          "content": "<p>est</p>"
+        },
+        {
+          "content": "<p>venait</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'adjectif indéfini correct : _____ effort sera récompensé.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Tout</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Chaque</p>"
+        },
+        {
+          "content": "<p>Aucun</p>"
+        },
+        {
+          "content": "<p>Quelque</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à structurer un texte ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>D'une part</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>D'autre part</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parfois</p>"
+        },
+        {
+          "content": "<p>En conclusion</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du verbe pronominal au passé composé : Elle _____ de bonne heure.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>s'est levée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>s'est levé</p>"
+        },
+        {
+          "content": "<p>s'a levée</p>"
+        },
+        {
+          "content": "<p>s'était levée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom relatif composé correct : Le problème _____ nous faisons face est complexe.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>auquel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>duquel</p>"
+        },
+        {
+          "content": "<p>lequel</p>"
+        },
+        {
+          "content": "<p>pour lequel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions peut-on utiliser pour exprimer son désaccord poliment ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je ne suis pas tout à fait d'accord</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je vois les choses différemment</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tu as tort</p>"
+        },
+        {
+          "content": "<p>Permettez-moi d'avoir un autre point de vue</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du verbe au futur antérieur : Quand vous _____ votre travail, vous pourrez partir.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>aurez terminé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>avez terminé</p>"
+        },
+        {
+          "content": "<p>terminerez</p>"
+        },
+        {
+          "content": "<p>aviez terminé</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne expression pour introduire une conclusion : _____, nous pouvons dire que ce projet est un succès.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>En définitive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>D'abord</p>"
+        },
+        {
+          "content": "<p>Ensuite</p>"
+        },
+        {
+          "content": "<p>Puis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels verbes sont suivis de la préposition 'à' ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Penser</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Réussir</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Aimer</p>"
+        },
+        {
+          "content": "<p>Commencer</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec l'expression de temps correcte : Il pleut _____ ce matin.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>depuis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>pendant</p>"
+        },
+        {
+          "content": "<p>il y a</p>"
+        },
+        {
+          "content": "<p>pour</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à exprimer la certitude ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Je suis sûr que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il est certain que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Peut-être que</p>"
+        },
+        {
+          "content": "<p>Sans aucun doute</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du subjonctif présent après 'bien que' : Bien qu'il _____ tard, il continue à travailler.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>soit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>est</p>"
+        },
+        {
+          "content": "<p>sera</p>"
+        },
+        {
+          "content": "<p>être</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du verbe au plus-que-parfait : Quand je suis arrivé, le train _____.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>était parti</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>est parti</p>"
+        },
+        {
+          "content": "<p>partait</p>"
+        },
+        {
+          "content": "<p>va partir</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les expressions de la comparaison ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Plus... que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Moins... que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donc</p>"
+        },
+        {
+          "content": "<p>Aussi... que</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Complétez avec le pronom correct : C'est un sujet _____ je connais bien.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>qui</p>"
+        },
+        {
+          "content": "<p>dont</p>"
+        },
+        {
+          "content": "<p>où</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels sont les marqueurs de temps du passé ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Hier</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La semaine dernière</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demain</p>"
+        },
+        {
+          "content": "<p>Il y a trois jours</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Quelle est la forme correcte du conditionnel présent : Si j'avais le temps, je _____ plus souvent.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>sortirais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>sortirai</p>"
+        },
+        {
+          "content": "<p>sors</p>"
+        },
+        {
+          "content": "<p>sortais</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Choisissez la bonne forme du participe présent : En _____ ce document, j'ai trouvé une erreur.</p>"
+      },
+      "options": [
+        {
+          "content": "<p>lisant</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>lu</p>"
+        },
+        {
+          "content": "<p>lit</p>"
+        },
+        {
+          "content": "<p>lisait</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles expressions servent à donner son opinion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>À mon avis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Je trouve que</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il pleut</p>"
+        },
+        {
+          "content": "<p>Selon moi</p>",
+          "correct": true
         }
       ]
     }

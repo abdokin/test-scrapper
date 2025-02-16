@@ -1,0 +1,2035 @@
+{
+  "title": "Agent de Centre d'Appels",
+  "attributes": {
+    "overview": "Ce test d'Agent de Centre d'Appels évalue les compétences relationnelles essentielles des candidats à travers des questions basées sur des scénarios. Ce test de présélection vous aidera à recruter des agents de centre d'appels capables de fournir un support et d'offrir une excellente expérience client.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Communication professionnelle",
+      "Compétences en service client",
+      "Résolution de problèmes",
+      "Travail d'équipe"
+    ],
+    "relevancy": "Agents de centre d'appels, agents de service client, représentants du support client et autres rôles de centre d'appels en contact avec la clientèle.",
+    "description": "Le recrutement de candidats possédant de solides compétences en service client est essentiel pour offrir une expérience client positive qui favorise la fidélité et soutient la croissance à long terme de l'entreprise.\n\nCe test d'Agent de Centre d'Appels évalue les compétences en communication professionnelle des candidats, garantissant qu'ils peuvent identifier comment transmettre clairement et efficacement les informations aux clients. Cela inclut leur capacité à reconnaître les moyens de simplifier des sujets complexes et à maintenir un ton amical et professionnel tout au long des interactions. Il évalue également les compétences en service client à travers des questions basées sur des scénarios pour déterminer la capacité des candidats à comprendre les besoins des clients et s'ils peuvent répondre de manière appropriée aux préoccupations, en s'assurant que les clients se sentent écoutés et valorisés.\n\nLe test évalue les compétences en résolution de problèmes à travers des scénarios pratiques, évaluant la capacité des candidats à penser de manière critique et à identifier des stratégies de résolution efficaces. Cela implique de comprendre comment résoudre les difficultés techniques, traiter les plaintes et mettre en œuvre des solutions qui préviennent les problèmes récurrents. Enfin, les compétences de collaboration sont évaluées pour s'assurer que les candidats peuvent travailler harmonieusement avec leurs pairs, contribuer à un environnement d'équipe positif et maintenir une qualité de service constante en partageant leurs connaissances et en soutenant les membres de l'équipe.\n\nL'utilisation de ce test pour identifier les meilleurs candidats aidera à assurer une haute satisfaction client, une résolution efficace des problèmes et un travail d'équipe efficace - des facteurs clés dans la construction d'une équipe de service client performante et fiable qui atteint les objectifs de l'entreprise.",
+    "category": "role_specific_skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 600,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous avez au téléphone un client que vous avez du mal à comprendre en raison de sa maîtrise limitée de la langue. Vous devez lui expliquer une étape de dépannage pour un problème d'appareil.</p><p><br></p><p>Ces quatre actions auront toutes le même résultat :</p><ol><li>Appuyer deux fois sur le bouton d'alimentation.</li><li>Éteindre l'appareil et effectuer une sauvegarde.</li><li>Éteindre l'appareil et le rallumer.</li><li>Redémarrer le système.</li></ol><p><br></p><p><strong>Que devriez-vous dire au client ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>\"Appuyez deux fois sur le gros bouton d'alimentation.\"</p>"
+        },
+        {
+          "content": "<p>\"Éteignez l'appareil, puis effectuez une sauvegarde.\"</p>"
+        },
+        {
+          "content": "<p>\"Éteignez l'appareil, attendez un moment, puis rallumez-le.\"</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>\"Cliquez sur redémarrer dans le menu d'alimentation.\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Vous êtes représentant dans un centre d'appels d'une entreprise de services informatiques de taille moyenne. Un client au téléphone a un problème de livraison manquée et attend une résolution rapide. Cependant, avant que vous n'ayez le temps d'obtenir les détails nécessaires, il se plaint de votre collègue Thomas, citant des problèmes non résolus et un mauvais service lors d'un appel la semaine dernière. Vous avez remarqué une tendance de plaintes concernant Thomas, mais vous n'êtes pas le responsable d'équipe.</p><p><br></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Résoudre le problème de livraison du client, et ne pas prendre d'autres mesures.</p>"
+        },
+        {
+          "content": "<p>Résoudre le problème de livraison du client, puis signaler les plaintes récurrentes concernant Thomas à votre responsable.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter des excuses au client et lui suggérer de soumettre ses commentaires directement à Thomas, puis résoudre son problème de livraison.</p>"
+        },
+        {
+          "content": "<p>Résoudre le problème de livraison du client, puis transmettre les commentaires sur Thomas directement à la direction.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<p>Un client est très mécontent car son produit ne fonctionne pas comme prévu. Il menace de publier des avis négatifs en ligne. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui dire que les avis négatifs n'affecteront pas l'entreprise</p>"
+        },
+        {
+          "content": "<p>Écouter sa frustration, s'excuser et proposer une solution concrète</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer immédiatement l'appel à un superviseur</p>"
+        },
+        {
+          "content": "<p>Lui rappeler les conditions générales de vente</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques à suivre lors de la prise en charge d'un appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Se présenter clairement au début de l'appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre des notes pendant l'appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Interrompre le client s'il parle trop</p>"
+        },
+        {
+          "content": "<p>Reformuler la demande du client pour confirmation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous demande une information que vous n'avez pas immédiatement sous la main. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>\"Je ne sais pas, pouvez-vous rappeler plus tard ?\"</p>"
+        },
+        {
+          "content": "<p>\"Je vais vérifier cette information pour vous. Permettez-moi de vous mettre en attente un moment.\"</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>\"Cette information n'est pas dans mon système.\"</p>"
+        },
+        {
+          "content": "<p>\"Je vais transférer votre appel à un autre service.\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client qui parle très rapidement et semble agité. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Parler encore plus vite pour suivre son rythme</p>"
+        },
+        {
+          "content": "<p>L'interrompre pour le calmer</p>"
+        },
+        {
+          "content": "<p>Utiliser un ton calme et posé pour réduire progressivement la tension</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui demander de rappeler quand il sera plus calme</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une bonne conclusion d'appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Résumer les actions convenues</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander s'il y a d'autres questions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Raccrocher dès que le problème est résolu</p>"
+        },
+        {
+          "content": "<p>Remercier le client pour son appel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte concernant une facture qu'il considère comme incorrecte. En vérifiant son compte, vous constatez qu'il a raison. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Transférer immédiatement l'appel au service de facturation</p>"
+        },
+        {
+          "content": "<p>Reconnaître l'erreur, s'excuser et expliquer le processus de correction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer au client d'envoyer une réclamation écrite</p>"
+        },
+        {
+          "content": "<p>Demander au client d'attendre la prochaine facture</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors d'un appel difficile, quelles actions sont appropriées pour maintenir un service professionnel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Garder un ton calme et professionnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur la recherche de solutions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répondre avec le même niveau d'émotion que le client</p>"
+        },
+        {
+          "content": "<p>Rester objectif et factuel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui n'existe pas dans votre produit. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>\"Malheureusement, cette fonction n'existe pas et ne sera jamais disponible.\"</p>"
+        },
+        {
+          "content": "<p>\"Je comprends votre besoin. Laissez-moi vous présenter les alternatives disponibles qui pourraient répondre à votre objectif.\"</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>\"Ce n'est pas possible avec notre produit.\"</p>"
+        },
+        {
+          "content": "<p>\"Vous devriez essayer un autre produit.\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un collègue donne régulièrement des informations incorrectes aux clients. Que devriez-vous faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la situation car ce n'est pas votre responsabilité</p>"
+        },
+        {
+          "content": "<p>En parler directement aux clients</p>"
+        },
+        {
+          "content": "<p>En discuter avec votre superviseur de manière professionnelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger votre collègue devant les clients</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer plusieurs tâches simultanément dans un centre d'appels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Prioriser les tâches selon leur urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir une liste de suivi organisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traiter tous les problèmes en même temps</p>"
+        },
+        {
+          "content": "<p>Documenter les actions importantes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous demande une exception aux politiques de l'entreprise. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Accepter immédiatement pour satisfaire le client</p>"
+        },
+        {
+          "content": "<p>Expliquer poliment la politique et proposer des alternatives conformes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser catégoriquement sans explication</p>"
+        },
+        {
+          "content": "<p>Transférer automatiquement l'appel à un superviseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pendant un appel, le système informatique ralentit considérablement. Quelle est la meilleure action ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Raccrocher et rappeler le client plus tard</p>"
+        },
+        {
+          "content": "<p>Informer le client de la situation et demander sa patience pendant que vous continuez</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le problème et continuer normalement</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler plus tard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la transmission d'informations techniques à un client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un langage simple et clair</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier la compréhension du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser le plus de termes techniques possible</p>"
+        },
+        {
+          "content": "<p>Procéder étape par étape</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous informe qu'il a déjà expliqué son problème à trois autres agents. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>\"Je comprends votre frustration. Permettez-moi de consulter l'historique et de résoudre votre problème sans que vous ayez à tout réexpliquer.\"</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>\"Ce n'est pas de ma faute si les autres agents n'ont pas pu vous aider.\"</p>"
+        },
+        {
+          "content": "<p>\"Vous devrez tout me réexpliquer pour que je puisse vous aider.\"</p>"
+        },
+        {
+          "content": "<p>\"Je vais vous transférer à un superviseur.\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client qui parle une langue que vous ne maîtrisez pas parfaitement. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Raccrocher poliment</p>"
+        },
+        {
+          "content": "<p>Continuer en essayant de deviner ce qu'il dit</p>"
+        },
+        {
+          "content": "<p>L'orienter vers un collègue ou un service qui parle sa langue</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui demander de rappeler plus tard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à une communication efficace par téléphone ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Articuler clairement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Adapter son débit de parole</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Parler fort pour être bien entendu</p>"
+        },
+        {
+          "content": "<p>Utiliser un vocabulaire approprié</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un concurrent. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Critiquer les produits du concurrent</p>"
+        },
+        {
+          "content": "<p>Se concentrer sur les avantages de vos propres produits</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donner des informations détaillées sur le concurrent</p>"
+        },
+        {
+          "content": "<p>Refuser de répondre à la question</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer un appel où le client est en colère ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Laisser le client exprimer sa frustration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un ton professionnel et calme</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Interrompre le client s'il se répète</p>"
+        },
+        {
+          "content": "<p>Se concentrer sur la résolution du problème</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>À la fin d'un appel, vous réalisez que vous avez oublié une information importante. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Attendre que le client rappelle</p>"
+        },
+        {
+          "content": "<p>Ignorer l'oubli car l'appel est terminé</p>"
+        },
+        {
+          "content": "<p>Rappeler le client immédiatement pour compléter l'information</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter l'oubli dans le dossier sans action</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la prise de notes pendant un appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Noter les points clés de la conversation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Enregistrer les actions à suivre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écrire chaque mot prononcé</p>"
+        },
+        {
+          "content": "<p>Documenter l'heure et la date de l'appel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte à propos d'un problème technique qu'il a déjà signalé plusieurs fois. En consultant l'historique, vous constatez que différentes solutions ont été proposées sans succès. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer à nouveau les mêmes solutions</p>"
+        },
+        {
+          "content": "<p>Escalader le problème à l'équipe technique spécialisée et assurer un suivi personnalisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer au client d'abandonner et de chercher une alternative</p>"
+        },
+        {
+          "content": "<p>Transférer l'appel à un autre agent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour gérer les appels pendant une panne système généralisée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informer clairement les clients de la situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter les coordonnées des clients pour les rappeler</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inventer des excuses pour gagner du temps</p>"
+        },
+        {
+          "content": "<p>Fournir des mises à jour régulières sur la résolution</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client âgé a du mal à suivre vos instructions techniques. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répéter les mêmes instructions plus fort</p>"
+        },
+        {
+          "content": "<p>Simplifier les instructions et procéder très progressivement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer qu'un membre plus jeune de sa famille rappelle</p>"
+        },
+        {
+          "content": "<p>Abandonner s'il ne comprend pas après deux tentatives</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels lors de la mise en attente d'un appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander la permission avant de mettre en attente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Expliquer la raison de la mise en attente</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en attente sans prévenir pour gagner du temps</p>"
+        },
+        {
+          "content": "<p>Donner une estimation du temps d'attente</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client qui souhaite annuler un service, mais vous constatez qu'il pourrait bénéficier d'une offre plus avantageuse. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Procéder directement à l'annulation comme demandé</p>"
+        },
+        {
+          "content": "<p>Présenter l'offre plus avantageuse tout en respectant son choix final</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Insister pour qu'il garde le service actuel</p>"
+        },
+        {
+          "content": "<p>Refuser l'annulation en citant les conditions contractuelles</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous demande une information confidentielle par téléphone. Quelle est la procédure appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Fournir l'information si le client insiste</p>"
+        },
+        {
+          "content": "<p>Vérifier son identité selon le protocole de sécurité avant de procéder</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser catégoriquement sans explication</p>"
+        },
+        {
+          "content": "<p>Donner l'information sans vérification</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel où le client parle de suicide ou d'automutilation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir la conversation tout en alertant un superviseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écouter avec empathie et prendre la situation au sérieux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Raccrocher immédiatement</p>"
+        },
+        {
+          "content": "<p>Fournir les coordonnées des services d'urgence appropriés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pendant un appel, vous entendez un bruit de fond important chez le client. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer le bruit et continuer normalement</p>"
+        },
+        {
+          "content": "<p>Suggérer poliment au client de se déplacer dans un endroit plus calme</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client de rappeler plus tard</p>"
+        },
+        {
+          "content": "<p>Hausser la voix pour couvrir le bruit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer les appels durant les périodes de forte affluence ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir la qualité du service malgré la pression</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rester efficace sans précipitation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écourter chaque appel au maximum</p>"
+        },
+        {
+          "content": "<p>Prioriser les cas urgents</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous demande votre avis personnel sur un produit concurrent. Quelle est la réponse la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Donner votre opinion honnête sur le concurrent</p>"
+        },
+        {
+          "content": "<p>Rediriger la conversation vers les avantages de vos produits</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer le produit concurrent</p>"
+        },
+        {
+          "content": "<p>Admettre que le produit concurrent est meilleur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une erreur dans la procédure standard fournie par l'entreprise. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer l'erreur et suivre la procédure</p>"
+        },
+        {
+          "content": "<p>Signaler l'erreur à votre superviseur de manière constructive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Modifier la procédure vous-même</p>"
+        },
+        {
+          "content": "<p>En discuter avec vos collègues pendant les appels</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la formation d'un nouveau collègue ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager les bonnes pratiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Montrer l'exemple en situation réelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Cacher vos propres erreurs</p>"
+        },
+        {
+          "content": "<p>Encourager les questions et le feedback</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui sera disponible dans une future mise à jour. Comment répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ne rien dire pour créer la surprise</p>"
+        },
+        {
+          "content": "<p>Informer le client de la future disponibilité sans donner de date précise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre une date de sortie spécifique</p>"
+        },
+        {
+          "content": "<p>Nier l'existence de futurs développements</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à maintenir un environnement de travail positif en centre d'appels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager les connaissances avec les collègues</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir une attitude positive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter toute interaction avec les collègues</p>"
+        },
+        {
+          "content": "<p>Participer aux réunions d'équipe de manière constructive</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel juste avant la fin de votre service. Le problème pourrait prendre du temps à résoudre. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écourter l'appel pour partir à l'heure</p>"
+        },
+        {
+          "content": "<p>Traiter l'appel correctement et assurer une transition appropriée si nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer immédiatement l'appel à un collègue</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler le lendemain</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client mentionne qu'il a du mal à entendre votre voix. Quelle est la meilleure action à prendre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Crier dans le microphone</p>"
+        },
+        {
+          "content": "<p>Vérifier votre équipement et ajuster votre position par rapport au micro</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client d'augmenter le volume de son téléphone</p>"
+        },
+        {
+          "content": "<p>Transférer l'appel à un autre agent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer plusieurs canaux de communication simultanément (téléphone, chat, email) ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des priorités claires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des modèles de réponses pré-rédigées quand approprié</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer certains canaux quand occupé</p>"
+        },
+        {
+          "content": "<p>Organiser son espace de travail efficacement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un service qui n'est plus proposé. Comment répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer la situation et proposer des alternatives actuelles appropriées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire simplement que ce service n'existe plus</p>"
+        },
+        {
+          "content": "<p>Suggérer de contacter un concurrent</p>"
+        },
+        {
+          "content": "<p>Éviter de répondre à la question</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la création d'un ticket d'incident ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Noter tous les détails pertinents du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure les coordonnées du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ajouter des commentaires personnels sur le client</p>"
+        },
+        {
+          "content": "<p>Documenter les actions déjà entreprises</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client se plaint d'un problème qui n'est clairement pas lié à votre service. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rejeter immédiatement sa demande</p>"
+        },
+        {
+          "content": "<p>Expliquer poliment les limites de votre service et orienter vers les ressources appropriées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tenter de résoudre le problème même s'il n'est pas de votre ressort</p>"
+        },
+        {
+          "content": "<p>Transférer l'appel sans explication</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un client potentiel hésite entre plusieurs options de service. Comment procéder ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Poser des questions pour comprendre ses besoins et recommander l'option la plus adaptée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Recommander l'option la plus chère</p>"
+        },
+        {
+          "content": "<p>Laisser le client décider seul</p>"
+        },
+        {
+          "content": "<p>Suggérer l'option la moins chère</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer un appel où le client parle très rapidement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Prendre des notes des points clés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander poliment de répéter si nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Interrompre fréquemment le client</p>"
+        },
+        {
+          "content": "<p>Reformuler pour confirmer la compréhension</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une exception qui nécessite l'approbation d'un superviseur, mais tous les superviseurs sont en réunion. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser la demande</p>"
+        },
+        {
+          "content": "<p>Expliquer la situation et proposer de le rappeler dès qu'un superviseur sera disponible</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accorder l'exception sans approbation</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler plus tard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de l'utilisation d'un script d'appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le script à la situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un ton naturel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivre le script mot pour mot</p>"
+        },
+        {
+          "content": "<p>Écouter activement le client</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un produit que vous ne connaissez pas bien. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire des suppositions basées sur des produits similaires</p>"
+        },
+        {
+          "content": "<p>Admettre que vous devez vérifier et proposer de rechercher l'information exacte</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donner des informations approximatives</p>"
+        },
+        {
+          "content": "<p>Transférer immédiatement l'appel</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Pendant un appel, vous remarquez une erreur dans le dossier du client qui pourrait l'affecter plus tard. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer l'erreur car elle n'affecte pas l'appel en cours</p>"
+        },
+        {
+          "content": "<p>Informer le client de l'erreur et la corriger immédiatement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger l'erreur sans en informer le client</p>"
+        },
+        {
+          "content": "<p>Laisser une note pour qu'un autre agent s'en occupe</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors d'une panne du système de téléphonie ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Noter les informations des clients pour les rappeler</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser les systèmes de secours disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partir en pause jusqu'à la résolution</p>"
+        },
+        {
+          "content": "<p>Suivre les procédures d'urgence établies</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des conseils sur l'utilisation d'une fonctionnalité complexe. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer rapidement et passer à l'appel suivant</p>"
+        },
+        {
+          "content": "<p>Guider le client étape par étape en vérifiant sa compréhension</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer un manuel d'utilisation par email</p>"
+        },
+        {
+          "content": "<p>Suggérer de consulter le site web</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments contribuent à une bonne gestion du temps en centre d'appels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Préparer son espace de travail avant le début du service</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser efficacement les outils disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prolonger les pauses quand possible</p>"
+        },
+        {
+          "content": "<p>Maintenir une organisation personnelle efficace</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte pour un problème urgent juste avant votre pause déjeuner. Comment gérer la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter le problème complètement avant de prendre votre pause</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer l'appel à un collègue</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler après votre pause</p>"
+        },
+        {
+          "content": "<p>Traiter rapidement le problème pour ne pas retarder votre pause</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous envoie un message très long et confus avec plusieurs problèmes différents. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter uniquement le premier problème mentionné</p>"
+        },
+        {
+          "content": "<p>Identifier et organiser méthodiquement chaque problème avant de répondre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client de renvoyer un message plus court</p>"
+        },
+        {
+          "content": "<p>Transférer le message à un superviseur</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer une conversation avec un client qui a des difficultés à s'exprimer ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire preuve de patience et d'empathie</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reformuler régulièrement pour confirmer la compréhension</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Terminer ses phrases pour gagner du temps</p>"
+        },
+        {
+          "content": "<p>Poser des questions claires et précises</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un client répète régulièrement les mêmes problèmes techniques. Quelle action est la plus appropriée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suggérer une formation approfondie sur le produit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les appels répétitifs</p>"
+        },
+        {
+          "content": "<p>Transférer systématiquement les appels à un autre service</p>"
+        },
+        {
+          "content": "<p>Lui conseiller de changer de produit</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la conclusion d'un appel de vente ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Récapituler les points clés de l'accord</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confirmer les prochaines étapes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Insister pour obtenir une décision immédiate</p>"
+        },
+        {
+          "content": "<p>Fournir ses coordonnées de contact</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un problème technique complexe que vous ne maîtrisez pas complètement. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire des suppositions basées sur votre expérience</p>"
+        },
+        {
+          "content": "<p>Consulter la documentation technique ou un expert tout en gardant le client informé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire au client que vous ne pouvez pas l'aider</p>"
+        },
+        {
+          "content": "<p>Donner une réponse approximative</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel avec un client qui parle une langue étrangère ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Parler lentement et clairement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des phrases simples et directes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les barrières linguistiques</p>"
+        },
+        {
+          "content": "<p>Proposer l'assistance d'un collègue bilingue si disponible</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client mécontent qui critique vos collègues. Comment gérer la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter ses préoccupations et proposer des solutions constructives</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Défendre vos collègues et contredire le client</p>"
+        },
+        {
+          "content": "<p>Ignorer ses commentaires sur vos collègues</p>"
+        },
+        {
+          "content": "<p>Rejoindre ses critiques pour le calmer</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer un pic d'appels inattendu ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir la qualité du service malgré la pression</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Communiquer avec l'équipe pour une répartition efficace</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écourter tous les appels</p>"
+        },
+        {
+          "content": "<p>Identifier les urgences et prioriser</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte pour un problème qui nécessite l'intervention d'un technicien, mais tous les créneaux sont réservés pour la semaine. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer la situation et proposer des solutions alternatives temporaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire qu'il n'y a rien à faire</p>"
+        },
+        {
+          "content": "<p>Promettre un créneau sans être sûr</p>"
+        },
+        {
+          "content": "<p>Suggérer de contacter un autre prestataire</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de l'explication d'une procédure technique par téléphone ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un langage clair et simple</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier la progression à chaque étape</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des termes techniques complexes</p>"
+        },
+        {
+          "content": "<p>S'assurer que le client suit correctement</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui existe mais qui n'est pas activée sur son compte. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer comment activer la fonctionnalité et vérifier les conditions d'accès</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire que la fonctionnalité n'existe pas</p>"
+        },
+        {
+          "content": "<p>Activer la fonctionnalité sans vérification</p>"
+        },
+        {
+          "content": "<p>Suggérer d'attendre une mise à jour</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client qui a déjà parlé à plusieurs agents sans résolution. Comment procéder ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Examiner l'historique, reconnaître sa frustration et prendre en charge la résolution complète</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer l'appel à un autre service</p>"
+        },
+        {
+          "content": "<p>Lui demander de tout réexpliquer</p>"
+        },
+        {
+          "content": "<p>Suggérer de rappeler plus tard</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel avec un client qui menace de changer de fournisseur ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter ses raisons sans l'interrompre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier des solutions pour répondre à ses besoins</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le laisser partir sans essayer de le retenir</p>"
+        },
+        {
+          "content": "<p>Proposer des alternatives adaptées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte pour un problème qui pourrait être résolu par lui-même en suivant le guide d'utilisation. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui dire de lire le guide et de rappeler si nécessaire</p>"
+        },
+        {
+          "content": "<p>Le guider à travers la solution tout en l'aidant à comprendre la procédure</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Résoudre le problème sans explication</p>"
+        },
+        {
+          "content": "<p>Lui envoyer uniquement le lien vers le guide</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la gestion d'un appel où le client demande un remboursement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier la politique de remboursement applicable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter précisément la demande</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre un remboursement immédiat</p>"
+        },
+        {
+          "content": "<p>Expliquer clairement la procédure à suivre</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous appelle en dehors des heures de service habituelles pour un problème urgent. Quelle est la meilleure réponse ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'informer des horaires d'ouverture et raccrocher</p>"
+        },
+        {
+          "content": "<p>Évaluer l'urgence et utiliser les procédures d'exception si nécessaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui dire de rappeler pendant les heures d'ouverture</p>"
+        },
+        {
+          "content": "<p>Transférer l'appel au service de garde sans vérification</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel avec un client qui ne comprend pas les termes techniques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des analogies simples</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Adapter son vocabulaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer à utiliser des termes techniques</p>"
+        },
+        {
+          "content": "<p>Utiliser des exemples concrets</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une faille de sécurité potentielle dans les informations fournies par un client. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer le problème car ce n'est pas votre responsabilité</p>"
+        },
+        {
+          "content": "<p>Alerter le client et le service sécurité selon la procédure</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>En discuter avec vos collègues pendant la pause</p>"
+        },
+        {
+          "content": "<p>Modifier les informations sans prévenir personne</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la gestion d'une plainte concernant une facturation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier l'historique des transactions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Expliquer clairement les détails de la facture</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter immédiatement toute contestation</p>"
+        },
+        {
+          "content": "<p>Documenter précisément la plainte</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un nouveau produit dont le lancement n'a pas encore été annoncé. Comment répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Donner toutes les informations disponibles en interne</p>"
+        },
+        {
+          "content": "<p>Ne partager que les informations officiellement communiquées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nier l'existence du nouveau produit</p>"
+        },
+        {
+          "content": "<p>Donner des informations approximatives</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un appel d'un client qui ne parle ni français ni anglais. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Raccrocher poliment</p>"
+        },
+        {
+          "content": "<p>Identifier la langue et utiliser le service de traduction disponible</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer en français malgré l'incompréhension</p>"
+        },
+        {
+          "content": "<p>Demander au client de trouver un interprète</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la détection d'une tentative de fraude ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suivre les procédures de sécurité établies</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Alerter le service concerné</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confronter directement le fraudeur présumé</p>"
+        },
+        {
+          "content": "<p>Documenter tous les détails suspects</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des modifications sur son compte mais ne peut pas fournir toutes les informations de sécurité requises. Que faites-vous ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser poliment et expliquer les exigences de sécurité</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Procéder aux modifications malgré tout</p>"
+        },
+        {
+          "content": "<p>Accepter des informations partielles</p>"
+        },
+        {
+          "content": "<p>Transférer l'appel sans explication</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques lors de l'utilisation d'un nouveau logiciel de gestion client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suivre la formation proposée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Pratiquer pendant les périodes calmes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter de demander de l'aide</p>"
+        },
+        {
+          "content": "<p>Noter les procédures importantes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client souhaite parler à votre superviseur qui n'est pas disponible immédiatement. Comment gérer la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Noter ses coordonnées et organiser un rappel du superviseur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser catégoriquement</p>"
+        },
+        {
+          "content": "<p>Donner le numéro personnel du superviseur</p>"
+        },
+        {
+          "content": "<p>Dire que le superviseur ne prend jamais d'appels</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la fin d'un appel difficile ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rester professionnel jusqu'au bout</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter précisément l'interaction</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Exprimer sa frustration au client</p>"
+        },
+        {
+          "content": "<p>Prendre un moment pour se recentrer</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client mentionne des problèmes personnels graves pendant l'appel. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer ces informations et se concentrer uniquement sur le problème technique</p>"
+        },
+        {
+          "content": "<p>Faire preuve d'empathie tout en restant professionnel et concentré sur la résolution</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donner des conseils personnels</p>"
+        },
+        {
+          "content": "<p>Raccourcir l'appel pour éviter la conversation</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel avec un client en situation de handicap ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter sa communication aux besoins spécifiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire preuve de patience et d'attention</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer systématiquement l'appel</p>"
+        },
+        {
+          "content": "<p>Proposer des solutions adaptées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous demande votre opinion personnelle sur un concurrent direct. Comment répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Donner votre avis honnête sur le concurrent</p>"
+        },
+        {
+          "content": "<p>Rester professionnel et rediriger la conversation vers vos services</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer ouvertement le concurrent</p>"
+        },
+        {
+          "content": "<p>Partager des rumeurs sur le concurrent</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour maintenir la confidentialité des données clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier l'identité avant tout accès aux données</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ne pas discuter des informations clients en public</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les données avec les collègues intéressés</p>"
+        },
+        {
+          "content": "<p>Suivre strictement les protocoles de sécurité</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un client appelle régulièrement pour le même type de problème, mais à chaque fois avec un agent différent. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser l'historique des appels et proposer une formation personnalisée</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer l'historique et traiter l'appel comme un nouveau cas</p>"
+        },
+        {
+          "content": "<p>Suggérer au client d'arrêter d'appeler aussi souvent</p>"
+        },
+        {
+          "content": "<p>Transférer automatiquement ses appels au support technique</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel où le client parle de manière agressive ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir un ton calme et professionnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur la résolution du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répondre sur le même ton pour s'imposer</p>"
+        },
+        {
+          "content": "<p>Documenter l'incident selon les procédures</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui sera disponible dans la prochaine version du produit, prévue pour le mois prochain. Comment répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informer de la future disponibilité sans donner de date précise</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nier l'existence de cette fonctionnalité</p>"
+        },
+        {
+          "content": "<p>Promettre une date exacte de sortie</p>"
+        },
+        {
+          "content": "<p>Suggérer d'attendre la prochaine version sans plus de détails</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la prise en charge d'un appel transféré par un collègue ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lire les notes de l'appel précédent</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confirmer la compréhension du problème avec le client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer la gestion précédente de l'appel</p>"
+        },
+        {
+          "content": "<p>Assurer la continuité du service</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un service premium alors qu'il utilise actuellement la version gratuite. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer les avantages du service premium en fonction de son utilisation actuelle</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer les limitations de la version gratuite</p>"
+        },
+        {
+          "content": "<p>Insister pour qu'il passe immédiatement à la version premium</p>"
+        },
+        {
+          "content": "<p>Minimiser les différences entre les versions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer un appel pendant une panne du système de facturation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informer clairement le client de la situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter les informations pour un traitement ultérieur</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inventer des montants approximatifs</p>"
+        },
+        {
+          "content": "<p>Proposer des solutions temporaires appropriées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client senior a des difficultés à naviguer sur le site web pendant que vous lui donnez des instructions. Comment procéder ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le rythme et utiliser des repères visuels simples</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui suggérer de demander de l'aide à quelqu'un de plus jeune</p>"
+        },
+        {
+          "content": "<p>Abandonner les instructions et faire la manipulation vous-même</p>"
+        },
+        {
+          "content": "<p>Répéter les mêmes instructions plus rapidement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont appropriées lors de la gestion d'un appel avec un client qui menace de porter plainte ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rester calme et professionnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter précisément la conversation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Menacer de mettre fin à son contrat</p>"
+        },
+        {
+          "content": "<p>Suivre les procédures établies pour ce type de situation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous détectez une erreur dans la documentation officielle pendant un appel. Comment gérer la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler l'erreur en interne et fournir les informations correctes au client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivre la documentation malgré l'erreur</p>"
+        },
+        {
+          "content": "<p>Critiquer la documentation auprès du client</p>"
+        },
+        {
+          "content": "<p>Ignorer l'erreur et improviser</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la gestion d'un appel concernant une réclamation sur les réseaux sociaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter la réclamation selon les procédures standard</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Coordonner avec l'équipe des médias sociaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les commentaires sur les réseaux sociaux</p>"
+        },
+        {
+          "content": "<p>Documenter la résolution pour les deux canaux</p>",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

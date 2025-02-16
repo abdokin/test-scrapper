@@ -1,16 +1,16 @@
 {
   "title": "Communication (Intermédiaire)",
   "attributes": {
-    "overview": "Ce test de communication de niveau intermédiaire évalue les compétences des candidats à communiquer clairement et efficacement dans un contexte professionnel, y compris la communication écrite, verbale et interpersonnelle, ainsi que l'écoute active et la communication non verbale.",
+    "overview": "Ce test de communication de niveau intermédiaire évalue les compétences des candidats à communiquer clairement et efficacement dans un contexte professionnel, en se concentrant sur la compréhension et l'analyse des situations de communication professionnelle.",
     "level": "intermediate",
     "covered_skills": [
       "Communication écrite",
-      "Communication verbale",
-      "Communication interpersonnelle",
-      "Communication non verbale et écoute active"
+      "Analyse des situations de communication",
+      "Communication professionnelle",
+      "Compréhension des bonnes pratiques"
     ],
     "relevancy": "Tout poste nécessitant de bonnes compétences en communication dans un environnement professionnel.",
-    "description": "La communication professionnelle efficace va au-delà de la simple maîtrise de la langue ; elle implique de communiquer avec clarté, de créer des liens empathiques et de répondre avec maturité. Les personnes qui démontrent systématiquement d'excellentes compétences en communication professionnelle ont la capacité de forger des relations solides, de diriger plus efficacement et d'améliorer leur visibilité au sein de leur organisation – ainsi que la visibilité de l'organisation sur le marché. L'embauche de candidats ayant de solides compétences en communication aidera également votre organisation à réussir de manière indirecte, car une communication efficace favorise la collaboration, améliore la productivité et favorise un environnement de travail positif, en particulier lorsqu'ils occupent des postes de direction.\n\nCe test évalue les compétences des candidats en matière de compréhension, d'utilisation et d'interprétation de la communication écrite, verbale et interpersonnelle dans un contexte professionnel, ainsi que leurs compétences en écoute active et en communication non verbale.\n\nLes candidats qui réussissent bien à ce test de sélection savent écouter attentivement les autres, communiquer avec confiance et ouverture d'esprit, et offrir à la fois de l'empathie et des retours d'information de manière appropriée selon les scénarios.",
+    "description": "La communication professionnelle efficace va au-delà de la simple maîtrise de la langue ; elle implique de communiquer avec clarté, de créer des liens empathiques et de répondre avec maturité. Les personnes qui démontrent systématiquement d'excellentes compétences en communication professionnelle ont la capacité de forger des relations solides, de diriger plus efficacement et d'améliorer leur visibilité au sein de leur organisation – ainsi que la visibilité de l'organisation sur le marché. L'embauche de candidats ayant de solides compétences en communication aidera également votre organisation à réussir de manière indirecte, car une communication efficace favorise la collaboration, améliore la productivité et favorise un environnement de travail positif, en particulier lorsqu'ils occupent des postes de direction.\n\nCe test évalue les compétences des candidats en matière de compréhension et d'analyse des situations de communication professionnelle à travers des scénarios pratiques. Les candidats sont évalués sur leur capacité à identifier les approches de communication les plus appropriées et à appliquer les meilleures pratiques de communication en entreprise.\n\nLes candidats qui réussissent bien à ce test de sélection savent identifier les approches les plus adaptées selon le contexte, communiquer avec confiance et ouverture d'esprit, et offrir à la fois de l'empathie et des retours d'information de manière appropriée selon les scénarios.",
     "category": "situational_judgment",
     "language": "french",
     "questions_to_answer": 12,
@@ -1111,6 +1111,884 @@
         },
         {
           "content": "<p>Des canaux de feedback rapide et direct.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collègue senior vous demande de l'aide pour un projet urgent, mais vous avez déjà des délais serrés pour vos propres tâches. Quelle est la meilleure façon de répondre ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer votre situation actuelle et proposer des alternatives ou un délai réaliste.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter immédiatement pour maintenir de bonnes relations.</p>"
+        },
+        {
+          "content": "<p>Refuser catégoriquement en citant vos délais.</p>"
+        },
+        {
+          "content": "<p>Rediriger la demande vers un autre collègue sans explication.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour rédiger un email de suivi après une réunion importante ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Résumer les points clés et les décisions prises.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lister clairement les prochaines étapes et les responsabilités.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure des détails sur toutes les discussions, même non pertinentes.</p>"
+        },
+        {
+          "content": "<p>Définir les échéances et les attentes.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une réunion virtuelle, vous remarquez que deux participants ont une conversation parallèle dans le chat qui perturbe la discussion principale. Comment gérer cette situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Désactiver la fonction chat pour tout le monde.</p>"
+        },
+        {
+          "content": "<p>Recentrer poliment l'attention sur le sujet principal et suggérer de garder les discussions annexes pour plus tard.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer la situation et continuer la réunion.</p>"
+        },
+        {
+          "content": "<p>Réprimander publiquement les participants concernés.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la préparation d'une présentation pour des décideurs ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Commencer par les conclusions et recommandations principales.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure des données pertinentes pour appuyer vos points.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter tous les détails techniques disponibles.</p>"
+        },
+        {
+          "content": "<p>Préparer des réponses aux questions potentielles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un membre de votre équipe propose une idée qui, selon votre expérience, a déjà échoué par le passé. Comment réagir constructivement ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Partager les leçons apprises des expériences passées et explorer ensemble comment adapter l'idée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter l'idée en citant l'échec précédent.</p>"
+        },
+        {
+          "content": "<p>Accepter l'idée sans mentionner les expériences passées.</p>"
+        },
+        {
+          "content": "<p>Suggérer de reporter la discussion à plus tard.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour communiquer des objectifs d'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Définir des critères de succès mesurables.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Aligner les objectifs avec la stratégie globale.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fixer les objectifs sans consultation de l'équipe.</p>"
+        },
+        {
+          "content": "<p>Établir un calendrier clair avec des points de contrôle.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez annoncer l'annulation d'un projet auquel l'équipe a consacré beaucoup d'efforts. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer honnêtement les raisons, reconnaître les efforts et discuter des prochaines étapes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer un email bref annonçant la décision.</p>"
+        },
+        {
+          "content": "<p>Déléguer l'annonce aux responsables d'équipe.</p>"
+        },
+        {
+          "content": "<p>Minimiser l'importance du projet et passer rapidement à autre chose.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une communication de changement, quels éléments sont essentiels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer clairement les raisons du changement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Décrire l'impact sur les équipes et les processus.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer le changement sans discussion.</p>"
+        },
+        {
+          "content": "<p>Prévoir un plan d'accompagnement.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une présentation, vous remarquez que certaines personnes semblent confuses mais n'osent pas poser de questions. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Faire une pause et reformuler les points clés en encourageant les questions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer la présentation comme prévu.</p>"
+        },
+        {
+          "content": "<p>Demander directement aux personnes qui semblent confuses de s'exprimer.</p>"
+        },
+        {
+          "content": "<p>Accélérer le rythme pour finir plus tôt.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles stratégies sont efficaces pour gérer un conflit d'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter activement toutes les parties concernées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faciliter un dialogue constructif.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre parti pour le plus ancien membre de l'équipe.</p>"
+        },
+        {
+          "content": "<p>Chercher des solutions consensuelles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des modifications importantes à la dernière minute sur un projet presque terminé. Comment communiquer à ce sujet ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluer l'impact des changements et présenter clairement les options possibles avec leurs conséquences.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser poliment en citant les délais convenus.</p>"
+        },
+        {
+          "content": "<p>Accepter toutes les modifications sans discussion.</p>"
+        },
+        {
+          "content": "<p>Suggérer de reporter les modifications à une phase ultérieure.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments contribuent à une communication efficace lors d'une négociation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Préparer ses arguments à l'avance.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écouter activement l'autre partie.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rester inflexible sur ses positions.</p>"
+        },
+        {
+          "content": "<p>Chercher des solutions gagnant-gagnant.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez présenter des résultats financiers décevants à l'équipe. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présenter les faits objectivement, analyser les causes et proposer un plan d'action.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minimiser l'importance des résultats négatifs.</p>"
+        },
+        {
+          "content": "<p>Reporter la présentation en attendant de meilleurs résultats.</p>"
+        },
+        {
+          "content": "<p>Blâmer les facteurs externes pour les mauvais résultats.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour animer une réunion de brainstorming productive ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des règles de base claires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager toutes les idées sans jugement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer immédiatement les idées irréalistes.</p>"
+        },
+        {
+          "content": "<p>Structurer la session avec des objectifs précis.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet important prend du retard à cause d'un malentendu entre les équipes. Comment aborder la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion pour clarifier les attentes et établir un plan de rattrapage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier et sanctionner les responsables du retard.</p>"
+        },
+        {
+          "content": "<p>Continuer le projet en ignorant les malentendus.</p>"
+        },
+        {
+          "content": "<p>Réaffecter le projet à une nouvelle équipe.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un collaborateur étranger vous envoie un message que vous trouvez offensant, probablement dû à des différences culturelles. Quelle est la meilleure approche ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler immédiatement le comportement aux ressources humaines.</p>"
+        },
+        {
+          "content": "<p>Engager une discussion respectueuse pour comprendre son point de vue et expliquer votre perspective.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le message et éviter les interactions futures.</p>"
+        },
+        {
+          "content": "<p>Répondre de manière similaire pour lui faire comprendre le problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les pratiques essentielles pour une communication efficace dans une équipe multiculturelle ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter son style de communication selon le contexte culturel.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier régulièrement la compréhension mutuelle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer un style de communication unique.</p>"
+        },
+        {
+          "content": "<p>Être attentif aux différences de communication non verbale.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez animer une formation technique pour un groupe aux niveaux de compétence très variés. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le contenu au niveau moyen du groupe.</p>"
+        },
+        {
+          "content": "<p>Structurer la formation par niveaux progressifs avec des exercices adaptés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur les participants les plus avancés.</p>"
+        },
+        {
+          "content": "<p>Diviser le groupe selon les niveaux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la création d'une documentation technique pour des utilisateurs non techniques ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un langage clair et accessible.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure des exemples concrets et des cas d'usage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Détailler toutes les spécifications techniques.</p>"
+        },
+        {
+          "content": "<p>Structurer l'information de manière logique et progressive.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une visioconférence, vous remarquez qu'un participant semble en désaccord mais reste silencieux. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>L'interpeller directement devant tout le monde.</p>"
+        },
+        {
+          "content": "<p>Créer une opportunité naturelle pour qu'il puisse exprimer son point de vue.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les signes de désaccord.</p>"
+        },
+        {
+          "content": "<p>Lui envoyer un message privé pendant la réunion.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour communiquer des décisions stratégiques à l'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer le contexte et les raisons des décisions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter clairement les impacts sur l'équipe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Annoncer les décisions sans justification.</p>"
+        },
+        {
+          "content": "<p>Prévoir un temps pour les questions et les préoccupations.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important est mécontent d'un service et menace de rompre le contrat. Comment gérer la communication ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter ses griefs, proposer des solutions concrètes et établir un plan d'action clair.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Offrir immédiatement des compensations financières.</p>"
+        },
+        {
+          "content": "<p>Défendre vigoureusement la qualité du service.</p>"
+        },
+        {
+          "content": "<p>Transférer la plainte à un autre service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'un feedback négatif à un collaborateur, quels éléments sont importants ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Choisir un moment et un lieu appropriés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur des comportements spécifiques.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Faire des comparaisons avec d'autres collègues.</p>"
+        },
+        {
+          "content": "<p>Proposer des pistes d'amélioration concrètes.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez présenter un projet complexe à des parties prenantes de différents départements. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter la présentation selon les intérêts et besoins de chaque groupe.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter tous les détails techniques de manière exhaustive.</p>"
+        },
+        {
+          "content": "<p>Se concentrer uniquement sur les aspects financiers.</p>"
+        },
+        {
+          "content": "<p>Utiliser le même support pour tous les groupes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments contribuent à une communication écrite efficace en entreprise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une structure claire et logique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un message concis et précis.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'utilisation d'un langage familier.</p>"
+        },
+        {
+          "content": "<p>Une conclusion ou des actions clairement définies.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une réunion, deux collègues s'engagent dans un débat houleux. Comment intervenir ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Recentrer la discussion sur les objectifs de la réunion et proposer de traiter le désaccord séparément.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser le débat se poursuivre.</p>"
+        },
+        {
+          "content": "<p>Prendre parti pour l'un des collègues.</p>"
+        },
+        {
+          "content": "<p>Mettre fin à la réunion immédiatement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour communiquer efficacement lors d'une situation de crise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Maintenir une communication régulière et transparente.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des informations vérifiées et factuelles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minimiser systématiquement la gravité de la situation.</p>"
+        },
+        {
+          "content": "<p>Définir des canaux de communication clairs.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet important nécessite une collaboration étroite avec un collègue avec qui vous avez eu des différends. Comment aborder la situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Se concentrer sur les objectifs professionnels et établir des règles de collaboration claires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander à être réaffecté à un autre projet.</p>"
+        },
+        {
+          "content": "<p>Travailler de manière indépendante en minimisant les interactions.</p>"
+        },
+        {
+          "content": "<p>Exiger que le collègue soit remplacé.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de la préparation d'une présentation importante, quels éléments sont essentiels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le contenu à l'audience.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer des supports visuels pertinents.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure le maximum d'informations possible.</p>"
+        },
+        {
+          "content": "<p>Anticiper les questions potentielles.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un feedback contradictoire de deux supérieurs sur un projet. Comment gérer cette situation ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion avec les deux supérieurs pour aligner les attentes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivre les directives du supérieur le plus haut placé.</p>"
+        },
+        {
+          "content": "<p>Tenter de satisfaire les deux demandes simultanément.</p>"
+        },
+        {
+          "content": "<p>Ignorer les feedbacks contradictoires.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous animez une réunion hybride et remarquez que les participants à distance ont du mal à suivre les discussions des personnes présentes dans la salle. Quelle est la meilleure solution ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander aux personnes présentes de parler plus fort.</p>"
+        },
+        {
+          "content": "<p>Reformuler régulièrement les points clés et s'assurer que tous peuvent participer équitablement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer aux participants à distance de se concentrer davantage.</p>"
+        },
+        {
+          "content": "<p>Séparer la réunion en deux sessions distinctes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont recommandées lors de la rédaction d'un compte-rendu de réunion ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Structurer le document avec des sections claires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Noter les actions, responsables et échéances.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure tous les échanges mot pour mot.</p>"
+        },
+        {
+          "content": "<p>Mettre en évidence les décisions prises.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un nouveau collaborateur international semble avoir du mal à s'intégrer en raison de la barrière linguistique. Quelle approche privilégier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager l'équipe à parler plus lentement et clairement, et mettre en place un système de soutien.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui suggérer de prendre des cours de langue intensifs.</p>"
+        },
+        {
+          "content": "<p>Le placer dans une équipe uniquement composée de personnes parlant sa langue.</p>"
+        },
+        {
+          "content": "<p>Minimiser les interactions nécessitant une communication verbale.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Dans le cadre d'une présentation à des investisseurs, quels éléments sont essentiels ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une structure claire et concise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des données financières précises et pertinentes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des anecdotes personnelles détaillées.</p>"
+        },
+        {
+          "content": "<p>Une analyse des risques et opportunités.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous devez communiquer un changement de dernière minute qui affecte plusieurs équipes dans différents fuseaux horaires. Quelle approche adopter ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Envoyer un email détaillé avec suivi de lecture.</p>"
+        },
+        {
+          "content": "<p>Combiner communication écrite et sessions de questions-réponses adaptées aux fuseaux horaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que chaque équipe commence sa journée de travail.</p>"
+        },
+        {
+          "content": "<p>Déléguer la communication aux responsables locaux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques favorisent une communication efficace lors d'un conflit d'équipe ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Encourager l'expression respectueuse des points de vue.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier les points communs et les solutions possibles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre parti pour le point de vue majoritaire.</p>"
+        },
+        {
+          "content": "<p>Établir des règles de discussion claires.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important envoie un message urgent pendant vos congés. Quelle est la meilleure réponse automatique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une réponse indiquant votre absence, la date de retour et les contacts alternatifs pour les urgences.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un message promettant de répondre dès que possible.</p>"
+        },
+        {
+          "content": "<p>Une réponse détaillant votre emploi du temps pendant les congés.</p>"
+        },
+        {
+          "content": "<p>Aucune réponse automatique pour ne pas inquiéter les clients.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la rédaction d'une proposition commerciale ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le contenu aux besoins spécifiques du client.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Présenter clairement la valeur ajoutée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inclure toutes les réalisations de l'entreprise.</p>"
+        },
+        {
+          "content": "<p>Structurer l'information de manière logique.</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'une présentation, vous réalisez que vous avez dépassé le temps alloué de moitié. Que faire ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Résumer rapidement les points restants en vous excusant pour le dépassement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Continuer au même rythme pour ne rien omettre.</p>"
+        },
+        {
+          "content": "<p>Sauter directement à la conclusion.</p>"
+        },
+        {
+          "content": "<p>Demander une extension du temps sans modifier le contenu.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour animer une réunion de prise de décision ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Présenter clairement les options disponibles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Encourager la participation de tous les acteurs concernés.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Imposer rapidement une solution.</p>"
+        },
+        {
+          "content": "<p>Documenter le processus de décision et les prochaines étapes.</p>",
           "correct": true
         }
       ]

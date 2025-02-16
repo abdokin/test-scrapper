@@ -1,0 +1,1977 @@
+{
+  "title": "Service Client",
+  "attributes": {
+    "overview": "Ce test de Service Client évalue la capacité des candidats à interagir de manière appropriée et à appliquer des solutions pertinentes. Il vous aidera à recruter des experts qui amélioreront vos opérations en augmentant la satisfaction client et en évitant les impressions négatives.",
+    "level": "intermediate",
+    "covered_skills": [
+      "Compréhension des besoins clients",
+      "Communication avec les clients",
+      "Technique de service client",
+      "Opérations de service client"
+    ],
+    "relevancy": "Représentants du service client, Spécialistes du support technique, Agents de centre d'appels, Spécialistes du support informatique, Chargés de service client, Responsables de la réussite client, Gestionnaires de relations clients, Responsables du service client",
+    "description": "Le recrutement de candidats ayant des compétences exceptionnelles en service client permet de favoriser la fidélité des clients, d'augmenter les taux de satisfaction et de rétention, conduisant à des revenus plus élevés et une meilleure réputation de la marque.\n\nCe test de Service Client évalue la capacité des candidats à comprendre les demandes des clients, identifier les causes profondes, interagir avec empathie et attention, déterminer des solutions précises et efficaces, et éviter les impressions négatives. Il teste également les connaissances des candidats sur l'amélioration de l'efficacité des opérations de l'équipe de service client par une communication claire, l'analyse des données pertinentes et la mise en œuvre de systèmes améliorés.\n\nCe test de sélection en Service Client vous aidera à identifier les représentants, agents et responsables du service client capables de fournir des solutions efficaces tout en maintenant une attitude positive et en améliorant la performance de l'équipe. Les candidats retenus fourniront un excellent service client, maintiendront la satisfaction des clients et contribueront à la croissance et au succès de votre entreprise. Ce test convient au recrutement de représentants du service client, d'agents de centre d'appels et d'autres rôles en contact avec la clientèle.",
+    "category": "role_specific_skills",
+    "language": "french",
+    "questions_to_answer": 15,
+    "duration_seconds": 780,
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p><em>Lisez l'interaction suivante avec un client :</em></p><p><span> </span></p><p><strong>Vous :</strong><span> Merci d'avoir appelé CoolPhonics. Je suis Ashley. Comment puis-je vous aider ?</span></p><p><strong>Client :</strong><span> Bonjour Ashley. Je n'ai pas trouvé votre casque Bluetooth dans les magasins du centre-ville. Votre boutique en ligne indique une livraison sous cinq jours ouvrés, mais j'en ai vraiment besoin pour demain. Pouvez-vous m'aider ? C'est urgent !</span></p><p><strong>Vous :</strong><span> Désolé(e) pour ce désagrément. Puis-je savoir quel modèle vous recherchez ?</span></p><p><strong>Client :</strong><span> Le casque Bluetooth PhonicPro à réduction de bruit.</span></p><p><span>&nbsp;</span></p><p><strong>Quelle réponse devriez-vous donner ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<p><span>\"Malheureusement, nous sommes en rupture de stock pour ce produit dans tous nos magasins. Souhaitez-vous recevoir un message dès que votre magasin local sera réapprovisionné ?\"</span></p>"
+        },
+        {
+          "content": "<span>\"Malheureusement, nous sommes en rupture de stock pour ce produit dans tous nos magasins. Cependant, certains revendeurs locaux pourraient en avoir. Les avez-vous tous contactés ?\"</span>"
+        },
+        {
+          "content": "<p>\"Je comprends votre urgence. Puis-je vous mettre en attente un moment pendant que je consulte mes collègues concernant cette commande urgente ?\"</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>\"Bien que notre site web indique 'sous cinq jours ouvrés', si vous passez la commande immédiatement, la livraison pourrait être plus rapide.\"</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "preview": true,
+        "content": "<div><p><span>Vous êtes un représentant du service client dans une entreprise de vente au détail avec une politique de remplacement de 30 jours à partir de la date d'achat. </span>Vous aidez actuellement un client qui affirme que le haut qu'il a acheté il y a trois semaines a rétréci de manière inattendue au lavage. Cependant, hors de la vue du client, vous l'avez comparé à un nouveau haut de la même taille et du même modèle et avez confirmé qu'il n'a pas du tout rétréci.</p><p><strong>&nbsp;</strong></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<span>Écouter activement les préoccupations du client et proposer un vêtement de remplacement.</span>"
+        },
+        {
+          "content": "<span>Expliquer poliment que les politiques de l'entreprise stipulent que vous ne pouvez pas remplacer le haut.</span>"
+        },
+        {
+          "content": "<span>Effectuer un remboursement complet du haut et s'excuser pour le désagrément causé.</span>"
+        },
+        {
+          "content": "<span>Montrer au client que le haut n'a pas du tout rétréci.</span>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<div><p><span>Il y a deux jours, vous avez promis à un client de revenir vers lui avec une solution à son problème aujourd'hui. Malheureusement, vous n'avez toujours pas de solution.&nbsp;</span></p><p><span> </span></p><p><strong>Quelle action devriez-vous entreprendre ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<span>Attendre d'avoir une solution avant de recontacter le client.</span>"
+        },
+        {
+          "content": "<p><span>Recontacter le client pour le remercier de sa patience et l'informer que vous travaillez toujours à trouver une solution.</span></p>"
+        },
+        {
+          "content": "<p>Recontacter le client pour le remercier de sa patience, expliquer la raison du retard et demander plus de temps.</p>",
+          "correct": true
+        },
+        {
+          "content": "<span>Recontacter le client pour s'excuser du retard et lui offrir une réduction sur son prochain paiement.</span>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<div><p><span>Votre entreprise lance un nouveau produit SaaS sur le marché, et vous créez les services que votre équipe fournira. Vous vous attendez à recevoir un grand nombre de demandes concernant le produit et les plans tarifaires de la part des clients potentiels.</span></p><p><strong>&nbsp;</strong></p><p><strong>Quels canaux de service client devriez-vous ajouter pour gérer ces types de demandes ?</strong></p></div>"
+      },
+      "options": [
+        {
+          "content": "<span>Une section FAQ complète sur le site web</span>",
+          "correct": true
+        },
+        {
+          "content": "<span>Un support par chat en direct sur le site web</span>",
+          "correct": true
+        },
+        {
+          "content": "<span>Une ligne téléphonique dédiée aux demandes des clients</span>",
+          "correct": true
+        },
+        {
+          "content": "<span>Un support par messagerie intégrée à l'application</span>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client mécontent vous envoie un message très agressif concernant un retard de livraison. Il menace de publier une critique négative sur les réseaux sociaux.</p><p><strong>Quelle est la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la menace et se concentrer uniquement sur le problème de livraison.</p>"
+        },
+        {
+          "content": "<p>Reconnaître sa frustration, s'excuser pour le retard et proposer une solution concrète immédiate.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Expliquer que les menaces ne sont pas acceptables et mettre fin à la conversation.</p>"
+        },
+        {
+          "content": "<p>Transférer immédiatement le message à votre superviseur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors d'un appel avec un client frustré, quels signaux non verbaux devriez-vous surveiller dans votre propre voix ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le ton de la voix</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>La vitesse du débit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le volume</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les soupirs</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui n'existe pas dans votre produit. Vous savez que cette fonctionnalité est prévue pour le trimestre prochain.</p><p><strong>Quelle est la meilleure réponse à donner ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informer le client que la fonctionnalité sera disponible le trimestre prochain.</p>"
+        },
+        {
+          "content": "<p>Suggérer une solution alternative existante qui pourrait répondre à son besoin.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire que la fonctionnalité n'est pas disponible actuellement.</p>"
+        },
+        {
+          "content": "<p>Proposer d'ajouter le client à une liste d'attente.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez plusieurs plaintes similaires concernant un problème technique. Que devriez-vous faire en premier ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répondre individuellement à chaque client.</p>"
+        },
+        {
+          "content": "<p>Alerter l'équipe technique et créer une réponse standardisée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que plus de clients signalent le problème.</p>"
+        },
+        {
+          "content": "<p>Publier immédiatement une annonce sur les réseaux sociaux.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles informations devriez-vous collecter lors du premier contact avec un client ayant un problème technique ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La description détaillée du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les étapes déjà tentées par le client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le numéro de version du produit</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'historique des achats du client</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande un remboursement pour un service qu'il n'a jamais utilisé, mais la période de remboursement est dépassée de deux jours.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser poliment en citant la politique de remboursement.</p>"
+        },
+        {
+          "content": "<p>Faire une exception et accorder le remboursement.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposer un crédit partiel pour un futur achat.</p>"
+        },
+        {
+          "content": "<p>Demander l'avis d'un superviseur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un collègue donne régulièrement des informations incorrectes aux clients.</p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>En parler directement à votre superviseur.</p>"
+        },
+        {
+          "content": "<p>Discuter en privé avec votre collègue et proposer votre aide.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Corriger votre collègue devant les clients.</p>"
+        },
+        {
+          "content": "<p>Ignorer la situation car ce n'est pas votre responsabilité.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour gérer plusieurs conversations par chat en même temps ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser des réponses prédéfinies adaptées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prioriser les conversations selon l'urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Informer les clients d'un possible délai de réponse</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer toutes les conversations supplémentaires</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte car il ne trouve pas comment utiliser une fonctionnalité basique du produit.</p><p><strong>Quelle approche est la plus appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui envoyer un lien vers la documentation.</p>"
+        },
+        {
+          "content": "<p>Expliquer étape par étape et vérifier sa compréhension.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui suggérer de regarder des tutoriels vidéo.</p>"
+        },
+        {
+          "content": "<p>Transférer la demande à l'équipe formation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui existe déjà dans le produit.</p><p><strong>Quelle est la meilleure façon de répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Lui dire simplement que la fonctionnalité existe déjà.</p>"
+        },
+        {
+          "content": "<p>Expliquer comment accéder et utiliser la fonctionnalité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Lui envoyer le manuel d'utilisation complet.</p>"
+        },
+        {
+          "content": "<p>Suggérer de contacter le support technique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments devraient être inclus dans un suivi par email après la résolution d'un problème ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Un résumé de la solution mise en place</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des ressources supplémentaires pertinentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une invitation à donner son feedback</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les coordonnées d'autres services</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte pour un problème qui nécessite l'intervention d'un autre service.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Transférer directement l'appel sans explication.</p>"
+        },
+        {
+          "content": "<p>Expliquer la situation et assurer le suivi jusqu'à la résolution.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Donner au client le numéro de l'autre service.</p>"
+        },
+        {
+          "content": "<p>Demander au client de rappeler plus tard.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez une augmentation soudaine des plaintes concernant un problème spécifique.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répondre individuellement à chaque plainte.</p>"
+        },
+        {
+          "content": "<p>Alerter immédiatement les équipes concernées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre de voir si le problème persiste.</p>"
+        },
+        {
+          "content": "<p>Créer une FAQ sur le problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à une expérience client positive lors d'un appel difficile ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter activement sans interrompre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reformuler pour confirmer la compréhension</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un ton calme et professionnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposer des solutions concrètes</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une exception à la politique de l'entreprise que vous n'êtes pas autorisé à accorder.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Refuser catégoriquement la demande.</p>"
+        },
+        {
+          "content": "<p>Expliquer la politique et proposer une alternative acceptable.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Transférer automatiquement la demande à un superviseur.</p>"
+        },
+        {
+          "content": "<p>Accepter la demande pour éviter un conflit.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous envoie un message concernant un produit défectueux avec des photos floues.</p><p><strong>Quelle est la meilleure façon de gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander poliment de nouvelles photos plus nettes en expliquant ce qui doit être visible.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Traiter la demande avec les photos disponibles.</p>"
+        },
+        {
+          "content": "<p>Rejeter la demande en indiquant que les photos sont inutilisables.</p>"
+        },
+        {
+          "content": "<p>Demander au client de se rendre en magasin.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Lors de la création d'une base de connaissances pour les clients, quels éléments sont essentiels à inclure ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des guides étape par étape pour les processus courants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des solutions aux problèmes fréquemment rencontrés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des captures d'écran et illustrations explicatives</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un système de recherche efficace</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte à propos d'un bug critique qui affecte son travail.</p><p><strong>Quelle approche devriez-vous privilégier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer une solution de contournement temporaire tout en escaladant le problème.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client d'attendre la prochaine mise à jour.</p>"
+        },
+        {
+          "content": "<p>Suggérer de réinstaller le logiciel.</p>"
+        },
+        {
+          "content": "<p>Transférer directement au support technique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un client utilise le produit d'une manière qui pourrait causer des problèmes à long terme.</p><p><strong>Que devriez-vous faire ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ignorer la situation tant qu'il n'y a pas de problème.</p>"
+        },
+        {
+          "content": "<p>Contacter proactivement le client pour suggérer une meilleure approche.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer un avertissement formel.</p>"
+        },
+        {
+          "content": "<p>Désactiver temporairement son compte.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les meilleures pratiques pour gérer les réseaux sociaux en tant que canal de service client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répondre rapidement aux mentions directes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Déplacer les conversations sensibles en message privé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir un ton professionnel et empathique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer les commentaires négatifs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui existe chez un concurrent mais pas dans votre produit.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer comment votre produit peut répondre différemment à ce besoin.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Critiquer la solution du concurrent.</p>"
+        },
+        {
+          "content": "<p>Promettre d'ajouter cette fonctionnalité rapidement.</p>"
+        },
+        {
+          "content": "<p>Suggérer d'utiliser le produit concurrent.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Lors d'un pic d'activité, vous avez plusieurs conversations en attente.</p><p><strong>Comment prioriser les demandes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Traiter les demandes dans l'ordre d'arrivée.</p>"
+        },
+        {
+          "content": "<p>Prioriser selon l'urgence et l'impact sur l'activité du client.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Gérer d'abord les clients premium.</p>"
+        },
+        {
+          "content": "<p>Répondre aux demandes les plus simples en premier.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la rédaction d'une réponse par email à un client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une structure claire et logique</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un ton professionnel et courtois</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des instructions précises et actionnables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une signature personnalisée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client exprime sa frustration car il ne comprend pas comment utiliser une fonctionnalité avancée.</p><p><strong>Quelle approche adopter ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer une session de formation personnalisée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer uniquement la documentation technique.</p>"
+        },
+        {
+          "content": "<p>Suggérer d'utiliser une version plus simple.</p>"
+        },
+        {
+          "content": "<p>Recommander de suivre la formation standard.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous identifiez une opportunité d'amélioration du produit basée sur les retours clients.</p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter les retours et les transmettre à l'équipe produit avec des données.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre aux clients que l'amélioration sera implémentée.</p>"
+        },
+        {
+          "content": "<p>Ignorer les retours si le produit fonctionne correctement.</p>"
+        },
+        {
+          "content": "<p>Demander aux clients de soumettre officiellement leurs suggestions.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions contribuent à une résolution efficace lors du premier contact ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Collecter toutes les informations pertinentes dès le début</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier rapidement la cause principale du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Avoir accès aux ressources et outils nécessaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suivre strictement les scripts prédéfinis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui nécessiterait des modifications importantes du produit.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer pourquoi la demande n'est pas réalisable actuellement.</p>"
+        },
+        {
+          "content": "<p>Comprendre le besoin sous-jacent et proposer des alternatives existantes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre de développer la fonctionnalité.</p>"
+        },
+        {
+          "content": "<p>Rejeter la demande sans explication.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez un message d'un client dans une langue que vous ne maîtrisez pas.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un outil de traduction et préciser que vous utilisez un tel outil.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Répondre uniquement en français.</p>"
+        },
+        {
+          "content": "<p>Ignorer le message.</p>"
+        },
+        {
+          "content": "<p>Transférer automatiquement à un autre service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour maintenir la qualité du service client à distance ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des outils de communication fiables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un accès sécurisé aux systèmes nécessaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des processus de collaboration clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un environnement de travail adapté</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client signale un problème qui pourrait affecter d'autres utilisateurs.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier si d'autres utilisateurs sont affectés et alerter l'équipe technique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Résoudre uniquement le problème du client qui a signalé.</p>"
+        },
+        {
+          "content": "<p>Attendre que d'autres clients signalent le problème.</p>"
+        },
+        {
+          "content": "<p>Envoyer une notification à tous les clients.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client mentionne sur les réseaux sociaux qu'il envisage de changer de fournisseur en raison d'un problème non résolu.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répondre publiquement en demandant plus de détails sur le problème.</p>"
+        },
+        {
+          "content": "<p>Contacter le client en privé pour comprendre et résoudre le problème.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Ignorer le message car il n'a pas fait de réclamation officielle.</p>"
+        },
+        {
+          "content": "<p>Publier une réponse défensive justifiant la qualité du service.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont essentielles lors de la gestion d'une réclamation par téléphone ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Prendre des notes détaillées pendant l'appel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Confirmer la compréhension du problème avec le client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Définir clairement les prochaines étapes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer un résumé écrit après l'appel</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui sera disponible dans la prochaine version, prévue dans deux semaines.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Informer le client de la date exacte de sortie de la nouvelle version.</p>"
+        },
+        {
+          "content": "<p>Expliquer qu'une solution est en développement sans donner de date précise.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer d'attendre la prochaine mise à jour.</p>"
+        },
+        {
+          "content": "<p>Proposer une version beta non testée.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous constatez qu'un client utilise une ancienne version du logiciel qui sera bientôt obsolète.</p><p><strong>Quelle action entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le client pour l'informer et planifier la mise à jour.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que le client rencontre des problèmes.</p>"
+        },
+        {
+          "content": "<p>Forcer automatiquement la mise à jour.</p>"
+        },
+        {
+          "content": "<p>Envoyer un email groupé à tous les utilisateurs.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la création d'un ticket d'incident ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une description précise du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les étapes de reproduction du problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'impact sur l'activité du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le niveau de priorité approprié</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une personnalisation qui n'est pas prévue dans les options standard.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Explorer les options existantes pour répondre au besoin.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser immédiatement la demande.</p>"
+        },
+        {
+          "content": "<p>Promettre de développer la personnalisation.</p>"
+        },
+        {
+          "content": "<p>Suggérer de changer de produit.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client se plaint de la lenteur du système pendant les heures de pointe.</p><p><strong>Quelle approche adopter ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Suggérer des optimisations et des périodes d'utilisation alternatives.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Nier l'existence du problème.</p>"
+        },
+        {
+          "content": "<p>Blâmer l'infrastructure du client.</p>"
+        },
+        {
+          "content": "<p>Proposer un remboursement immédiat.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont importantes lors de la formation d'un nouveau client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Adapter le rythme à la progression du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Vérifier régulièrement la compréhension</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des ressources documentaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Planifier un suivi post-formation</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations confidentielles sur un autre client.</p><p><strong>Comment réagir ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer poliment que ces informations sont confidentielles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des informations générales.</p>"
+        },
+        {
+          "content": "<p>Ignorer la demande.</p>"
+        },
+        {
+          "content": "<p>Transférer la demande à un superviseur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez une erreur dans la documentation fournie aux clients.</p><p><strong>Quelle action entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Signaler l'erreur et proposer une correction.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que les clients signalent l'erreur.</p>"
+        },
+        {
+          "content": "<p>Corriger silencieusement l'erreur.</p>"
+        },
+        {
+          "content": "<p>Ignorer l'erreur si elle est mineure.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une démonstration efficace du produit ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une préparation adaptée aux besoins du client</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des exemples concrets d'utilisation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une interaction régulière avec l'audience</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un temps dédié aux questions</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client suggère une amélioration qui a déjà été rejetée par l'équipe produit.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer les alternatives existantes qui répondent au besoin.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire que l'idée a été rejetée.</p>"
+        },
+        {
+          "content": "<p>Ignorer la suggestion.</p>"
+        },
+        {
+          "content": "<p>Promettre de transmettre l'idée.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client rapporte un problème que vous ne parvenez pas à reproduire.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Demander plus de détails et proposer une session de dépannage en direct.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire au client que le problème n'existe pas.</p>"
+        },
+        {
+          "content": "<p>Suggérer de réinstaller le système.</p>"
+        },
+        {
+          "content": "<p>Clôturer le ticket sans suite.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques contribuent à une bonne gestion du temps en service client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Prioriser les tâches selon leur urgence</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser des modèles de réponse adaptables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Maintenir une base de connaissances à jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter les solutions trouvées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client exprime son mécontentement concernant un changement récent dans l'interface.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Écouter ses préoccupations et proposer une formation sur les nouvelles fonctionnalités.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Défendre les changements effectués.</p>"
+        },
+        {
+          "content": "<p>Suggérer de revenir à l'ancienne version.</p>"
+        },
+        {
+          "content": "<p>Ignorer les plaintes sur l'interface.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une estimation précise du temps nécessaire pour résoudre un problème technique complexe.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer que chaque cas est unique et donner une fourchette de temps réaliste.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre une résolution rapide pour rassurer le client.</p>"
+        },
+        {
+          "content": "<p>Éviter de donner une estimation temporelle.</p>"
+        },
+        {
+          "content": "<p>Sous-estimer le temps pour satisfaire le client.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques lors de la réponse à un avis négatif en ligne ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Répondre de manière professionnelle et constructive</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Reconnaître les points d'amélioration possibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposer une solution concrète</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Défendre agressivement l'entreprise</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une fonctionnalité qui existe mais qu'il n'arrive pas à trouver dans l'interface.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Guider le client étape par étape vers la fonctionnalité et suggérer des raccourcis.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer simplement le lien de la documentation.</p>"
+        },
+        {
+          "content": "<p>Dire au client de mieux chercher dans l'interface.</p>"
+        },
+        {
+          "content": "<p>Proposer une formation complète sur le produit.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels lors de la rédaction d'un rapport d'incident ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>La chronologie détaillée des événements</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les actions entreprises pour résoudre le problème</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les mesures préventives recommandées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'impact sur les autres clients</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande un remboursement pour un service qu'il a utilisé pendant plusieurs mois.</p><p><strong>Quelle approche adopter ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Comprendre la raison de l'insatisfaction et proposer des solutions alternatives.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser automatiquement car le service a été utilisé.</p>"
+        },
+        {
+          "content": "<p>Accorder immédiatement le remboursement.</p>"
+        },
+        {
+          "content": "<p>Transférer la demande au service financier.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous recevez plusieurs plaintes similaires concernant une nouvelle mise à jour.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter les problèmes et alerter l'équipe technique avec des données concrètes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer aux clients de revenir à l'ancienne version.</p>"
+        },
+        {
+          "content": "<p>Attendre la prochaine mise à jour.</p>"
+        },
+        {
+          "content": "<p>Minimiser l'importance des problèmes.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer un client mécontent lors d'un appel ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Rester calme et professionnel</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Écouter activement sans interrompre</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Se concentrer sur les solutions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prendre les critiques personnellement</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client signale un problème de sécurité potentiel dans votre produit.</p><p><strong>Quelle est la meilleure réaction ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Remercier le client et escalader immédiatement à l'équipe sécurité.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minimiser l'importance du problème.</p>"
+        },
+        {
+          "content": "<p>Demander au client de ne pas en parler.</p>"
+        },
+        {
+          "content": "<p>Ignorer le signalement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de l'onboarding d'un nouveau client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir des objectifs clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Créer un plan d'implémentation personnalisé</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des ressources de formation adaptées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Planifier des points de suivi réguliers</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur un concurrent.</p><p><strong>Quelle est la réponse appropriée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Se concentrer sur les avantages de votre solution sans dénigrer la concurrence.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager des informations détaillées sur le concurrent.</p>"
+        },
+        {
+          "content": "<p>Critiquer ouvertement le concurrent.</p>"
+        },
+        {
+          "content": "<p>Refuser de répondre à la question.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande une exception qui pourrait créer un précédent problématique.</p><p><strong>Comment gérer cette situation ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer les raisons des politiques actuelles et proposer des alternatives viables.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter l'exception pour satisfaire le client.</p>"
+        },
+        {
+          "content": "<p>Refuser catégoriquement sans explication.</p>"
+        },
+        {
+          "content": "<p>Ignorer la demande.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer les retours d'expérience clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser régulièrement les tendances</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les insights pertinents avec les équipes concernées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mettre en place des actions d'amélioration</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Communiquer sur les changements effectués</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important menace de résilier son contrat suite à des problèmes récurrents.</p><p><strong>Quelle approche privilégier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une réunion pour comprendre ses besoins et établir un plan d'action.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Offrir une réduction immédiate.</p>"
+        },
+        {
+          "content": "<p>Transférer le cas à un autre service.</p>"
+        },
+        {
+          "content": "<p>Accepter la résiliation sans discussion.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour maintenir un bon niveau de service pendant les périodes de forte affluence ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Une priorisation efficace des demandes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une communication claire sur les délais</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une utilisation optimale des ressources disponibles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un système de support automatisé bien configuré</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client suggère une amélioration qui pourrait bénéficier à de nombreux utilisateurs.</p><p><strong>Quelle est la meilleure action à entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter la suggestion et la transmettre à l'équipe produit avec des données d'usage.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre d'implémenter la suggestion.</p>"
+        },
+        {
+          "content": "<p>Dire au client que ce n'est pas une priorité.</p>"
+        },
+        {
+          "content": "<p>Ignorer la suggestion.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client vous contacte car il ne reçoit plus les notifications du système depuis une semaine.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier les paramètres de notification et l'historique des changements récents.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer de réinstaller l'application.</p>"
+        },
+        {
+          "content": "<p>Demander au client d'attendre que le problème se résolve.</p>"
+        },
+        {
+          "content": "<p>Transférer directement au support technique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la préparation d'une réunion de suivi avec un client mécontent ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser l'historique des interactions précédentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer des solutions concrètes aux problèmes signalés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Définir des objectifs clairs pour la réunion</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Inviter tous les services concernés</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client signale que la documentation technique est contradictoire avec le comportement actuel du produit.</p><p><strong>Quelle action entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Vérifier l'incohérence et coordonner une mise à jour avec l'équipe technique.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Dire au client d'ignorer la documentation.</p>"
+        },
+        {
+          "content": "<p>Supprimer la section contradictoire.</p>"
+        },
+        {
+          "content": "<p>Suggérer au client de suivre uniquement le comportement du produit.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous découvrez qu'un client utilise le produit d'une manière qui pourrait compromettre ses données.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter proactivement le client pour expliquer les risques et suggérer des pratiques sécurisées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Attendre que le client rencontre des problèmes.</p>"
+        },
+        {
+          "content": "<p>Bloquer l'accès au compte du client.</p>"
+        },
+        {
+          "content": "<p>Envoyer un avertissement automatique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles sont les bonnes pratiques pour gérer une interruption de service non planifiée ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Communiquer rapidement et clairement sur la situation</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des mises à jour régulières</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Proposer des solutions alternatives temporaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter l'incident pour amélioration future</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des conseils sur l'utilisation avancée du produit pour son secteur spécifique.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser une session de conseil personnalisée et partager des cas d'usage similaires.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Envoyer la documentation standard.</p>"
+        },
+        {
+          "content": "<p>Suggérer de contacter d'autres clients.</p>"
+        },
+        {
+          "content": "<p>Proposer une formation payante.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Vous remarquez qu'un client n'utilise pas les fonctionnalités principales incluses dans son abonnement.</p><p><strong>Quelle action entreprendre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Contacter le client pour comprendre ses besoins et proposer une formation ciblée.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Laisser le client découvrir seul les fonctionnalités.</p>"
+        },
+        {
+          "content": "<p>Suggérer de passer à un abonnement inférieur.</p>"
+        },
+        {
+          "content": "<p>Envoyer un email automatique avec la documentation.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels lors de la mise en place d'un plan de formation client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Évaluation des besoins spécifiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Création de contenus adaptés au niveau</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Définition d'objectifs mesurables</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mise en place d'évaluations régulières</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client rapporte des incohérences dans les données affichées par différents modules du système.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Documenter précisément les incohérences et collaborer avec l'équipe technique pour l'analyse.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer d'utiliser un seul module.</p>"
+        },
+        {
+          "content": "<p>Demander au client d'ignorer les différences.</p>"
+        },
+        {
+          "content": "<p>Réinitialiser les données du système.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des informations sur l'utilisation de données personnelles par votre service.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer clairement la politique de confidentialité et diriger vers la documentation officielle.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Éviter de répondre aux questions sur la confidentialité.</p>"
+        },
+        {
+          "content": "<p>Donner une réponse vague pour rassurer le client.</p>"
+        },
+        {
+          "content": "<p>Transférer automatiquement au service juridique.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques sont importantes lors de la gestion d'un projet d'amélioration basé sur les retours clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Collecter et analyser systématiquement les feedbacks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prioriser les améliorations selon leur impact</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Impliquer les clients dans le processus de test</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Communiquer régulièrement sur les avancées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client suggère une fonctionnalité qui pourrait créer des problèmes de sécurité.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Expliquer les implications de sécurité et proposer des alternatives sûres.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Rejeter la suggestion sans explication.</p>"
+        },
+        {
+          "content": "<p>Ignorer la suggestion.</p>"
+        },
+        {
+          "content": "<p>Implémenter la fonctionnalité malgré les risques.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client rencontre des difficultés avec une intégration personnalisée.</p><p><strong>Quelle approche adopter ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser la configuration et collaborer avec l'équipe technique pour une solution optimale.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer d'abandonner l'intégration.</p>"
+        },
+        {
+          "content": "<p>Recommander une solution standard.</p>"
+        },
+        {
+          "content": "<p>Dire que les intégrations ne sont pas supportées.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont importants lors de la préparation d'un webinaire client ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Définir des objectifs d'apprentissage clairs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Préparer des démonstrations pratiques</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Prévoir du temps pour les questions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Fournir des ressources complémentaires</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande un accès à des fonctionnalités en développement.</p><p><strong>Quelle est la meilleure réponse ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer de participer au programme beta si disponible, sinon expliquer les alternatives actuelles.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Refuser catégoriquement la demande.</p>"
+        },
+        {
+          "content": "<p>Donner accès sans restrictions.</p>"
+        },
+        {
+          "content": "<p>Ignorer la demande.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client signale que son équipe a des difficultés à adopter votre solution après la migration depuis un concurrent.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Organiser des sessions de formation ciblées sur les différences principales entre les deux solutions.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer de revenir à l'ancienne solution.</p>"
+        },
+        {
+          "content": "<p>Envoyer un guide de migration standard.</p>"
+        },
+        {
+          "content": "<p>Attendre que l'équipe s'adapte naturellement.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles actions sont importantes lors de la gestion d'un incident majeur affectant plusieurs clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Établir une communication claire et régulière sur l'avancement</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Coordonner les efforts entre les différentes équipes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Documenter les actions entreprises et leur impact</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Minimiser l'importance de l'incident auprès des clients</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client demande des modifications qui nécessiteraient une restructuration complète de votre produit.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Explorer les besoins sous-jacents et proposer des solutions alternatives avec les fonctionnalités existantes.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Promettre d'implémenter les modifications demandées.</p>"
+        },
+        {
+          "content": "<p>Refuser la demande sans explication.</p>"
+        },
+        {
+          "content": "<p>Suggérer de changer de fournisseur.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels pour une communication efficace avec des clients internationaux ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser un langage clair et simple</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tenir compte des différences de fuseau horaire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Respecter les différences culturelles</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Adapter le support à la langue du client</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client rapporte un comportement inhabituel du système qui pourrait indiquer une violation de sécurité.</p><p><strong>Quelle devrait être votre première action ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Escalader immédiatement à l'équipe sécurité tout en collectant plus d'informations.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Demander au client de redémarrer le système.</p>"
+        },
+        {
+          "content": "<p>Suggérer une réinstallation complète.</p>"
+        },
+        {
+          "content": "<p>Ignorer le signalement s'il n'y a pas de preuve évidente.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client souhaite résilier son contrat car il trouve votre solution trop complexe.</p><p><strong>Quelle approche privilégier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Proposer un accompagnement personnalisé et évaluer si une simplification de sa configuration est possible.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter immédiatement la résiliation.</p>"
+        },
+        {
+          "content": "<p>Offrir une réduction sur l'abonnement.</p>"
+        },
+        {
+          "content": "<p>Dire que tous les autres clients utilisent le produit sans problème.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quelles pratiques contribuent à une gestion efficace des retours clients ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Catégoriser systématiquement les feedbacks</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Identifier les tendances émergentes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Mesurer l'impact des changements effectués</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Partager les insights avec les équipes concernées</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client important signale des performances dégradées depuis une mise à jour récente.</p><p><strong>Quelle est la meilleure approche ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Analyser les logs, identifier les causes et proposer des optimisations immédiates.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Suggérer de revenir à la version précédente.</p>"
+        },
+        {
+          "content": "<p>Attendre la prochaine mise à jour.</p>"
+        },
+        {
+          "content": "<p>Dire que c'est un problème temporaire.</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Quels éléments sont essentiels dans un plan de communication de crise ?</p>"
+      },
+      "options": [
+        {
+          "content": "<p>Des modèles de messages pré-approuvés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une chaîne de communication claire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Des canaux de communication diversifiés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Un processus de validation rapide</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un client suggère une amélioration qui pourrait augmenter significativement les coûts d'infrastructure.</p><p><strong>Comment répondre ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Explorer le besoin sous-jacent et proposer des solutions plus optimisées.</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Accepter la suggestion sans évaluation.</p>"
+        },
+        {
+          "content": "<p>Rejeter la suggestion en citant les coûts.</p>"
+        },
+        {
+          "content": "<p>Ignorer la suggestion.</p>"
+        }
+      ]
+    }
+  ]
+}

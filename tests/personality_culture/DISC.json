@@ -1,0 +1,374 @@
+{
+  "title": "DISC",
+  "attributes": {
+    "overview": "Le test DISC repose sur le modèle développé par le psychologue William Marston pour l’évaluation du comportement. Il classe la façon dont nous exprimons nos émotions dans les quatre types de comportement du système DISC : dominance (D), influence (I), stabilité (S) et conformité (C).",
+    "level": "entry_level",
+    "covered_skills": [
+      "Dominance",
+      "Influence",
+      "Stabilité",
+      "Conformité"
+    ],
+    "relevancy": "Tous les postes. Ce test peut vous aider à mieux comprendre chacun de vos candidat·e·s (ainsi que les membres de l’équipe) et à mettre en place des moyens efficaces pour collaborer et communiquer en équipe.",
+    "description": "Comprendre quel type de comportement vous motive, vous et les autres, à agir et à prendre des décisions, vous permet de mieux gérer les relations, les collaborations et les conversations avec les personnes autour de vous. Une fois que vous avez compris la caractéristique principale qui régit votre comportement et celui des autres, vous pouvez adapter vos paroles et vos actions, et guider celles des autres pour obtenir de meilleurs résultats ensemble. \n\nLe test DISC offre ces informations à vos candidat·e·s en leur demandant de procéder à une auto-évaluation, en notant chacune des 48 affirmations de 1 (très inexact) à 5 (très exact). La façon dont les candidat·e·s notent ces affirmations montre leurs préférences pour chaque type de comportement du modèle DISC : dominance (D), influence (I), stabilité (S) et conscience (C). Les candidat·e·s peuvent se situer dans l’un des quatre principaux types de comportement, ou présenter une combinaison entre un type et l’un des deux types adjacents, ce qui donne un total de 12 résultats possibles. \n\nLa page des résultats donne le type de chaque candidat·e et une description générale de son type de comportement. Elle donne ensuite un aperçu de la façon dont chaque type se comporte dans ses relations personnelles et au travail, et décrit ses meilleurs traits de caractère et ses principales difficultés. Enfin, le rapport offre des conseils pour communiquer et travailler efficacement avec ce type de personne, ainsi que des suggestions de questions à utiliser lors d’un entretien.",
+    "category": "personality_culture",
+    "questions_to_answer": 4,
+    "duration_seconds": 900,
+    "language": "french",
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Dominance"
+      },
+      "options": [
+        {
+          "content": "Je prends naturellement les commandes dans un groupe",
+          "correct": true
+        },
+        {
+          "content": "J'hésite à exprimer mon désaccord avec les autres",
+          "correct": false
+        },
+        {
+          "content": "Je suis direct(e) dans mes communications",
+          "correct": true
+        },
+        {
+          "content": "Je préfère laisser les autres prendre les décisions importantes",
+          "correct": false
+        },
+        {
+          "content": "J'aime relever des défis ambitieux",
+          "correct": true
+        },
+        {
+          "content": "Je cherche le consensus avant d'agir",
+          "correct": false
+        },
+        {
+          "content": "Je n'ai pas peur de prendre des risques calculés",
+          "correct": true
+        },
+        {
+          "content": "Je me sens mal à l'aise quand je dois imposer mon point de vue",
+          "correct": false
+        },
+        {
+          "content": "Je suis orienté(e) vers les résultats",
+          "correct": true
+        },
+        {
+          "content": "J'évite les confrontations à tout prix",
+          "correct": false
+        },
+        {
+          "content": "Je sais ce que je veux et je fais le nécessaire pour l'obtenir",
+          "correct": true
+        },
+        {
+          "content": "Je préfère suivre les directives plutôt que les donner",
+          "correct": false
+        },
+        {
+          "content": "Je défends fermement mes opinions",
+          "correct": true
+        },
+        {
+          "content": "Je cède facilement face à la pression des autres",
+          "correct": false
+        },
+        {
+          "content": "Je fixe des objectifs ambitieux pour moi-même",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile de dire non aux autres",
+          "correct": false
+        },
+        {
+          "content": "Je suis compétitif(ve) par nature",
+          "correct": true
+        },
+        {
+          "content": "Je préfère éviter les situations conflictuelles",
+          "correct": false
+        },
+        {
+          "content": "J'aime avoir le contrôle des situations",
+          "correct": true
+        },
+        {
+          "content": "Je laisse souvent les autres influencer mes décisions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Influence"
+      },
+      "options": [
+        {
+          "content": "Je communique facilement avec les nouvelles personnes",
+          "correct": true
+        },
+        {
+          "content": "Je préfère travailler seul(e) plutôt qu'en groupe",
+          "correct": false
+        },
+        {
+          "content": "J'aime être au centre de l'attention",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile d'exprimer mes émotions",
+          "correct": false
+        },
+        {
+          "content": "Je suis naturellement enthousiaste",
+          "correct": true
+        },
+        {
+          "content": "Je reste en retrait lors des réunions sociales",
+          "correct": false
+        },
+        {
+          "content": "Je sais motiver les autres",
+          "correct": true
+        },
+        {
+          "content": "Je préfère écouter plutôt que parler",
+          "correct": false
+        },
+        {
+          "content": "Je crée facilement des liens avec les autres",
+          "correct": true
+        },
+        {
+          "content": "J'évite de partager mes opinions en public",
+          "correct": false
+        },
+        {
+          "content": "Je suis optimiste face aux nouveaux défis",
+          "correct": true
+        },
+        {
+          "content": "Je trouve les interactions sociales épuisantes",
+          "correct": false
+        },
+        {
+          "content": "J'inspire confiance aux autres",
+          "correct": true
+        },
+        {
+          "content": "Je suis mal à l'aise dans les grandes assemblées",
+          "correct": false
+        },
+        {
+          "content": "Je persuade facilement les autres",
+          "correct": true
+        },
+        {
+          "content": "J'hésite à prendre la parole en réunion",
+          "correct": false
+        },
+        {
+          "content": "Je maintiens une attitude positive",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile de réseauter",
+          "correct": false
+        },
+        {
+          "content": "J'aime raconter des histoires et partager des expériences",
+          "correct": true
+        },
+        {
+          "content": "Je préfère communiquer par écrit plutôt qu'oralement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Stabilité"
+      },
+      "options": [
+        {
+          "content": "Je reste calme sous la pression",
+          "correct": true
+        },
+        {
+          "content": "J'ai du mal à m'adapter aux changements",
+          "correct": false
+        },
+        {
+          "content": "Je suis patient(e) avec les autres",
+          "correct": true
+        },
+        {
+          "content": "Je m'impatiente facilement quand les choses prennent du temps",
+          "correct": false
+        },
+        {
+          "content": "Je maintiens une routine stable",
+          "correct": true
+        },
+        {
+          "content": "Je change souvent d'avis",
+          "correct": false
+        },
+        {
+          "content": "Je suis fiable et constant(e)",
+          "correct": true
+        },
+        {
+          "content": "Je me sens stressé(e) face aux imprévus",
+          "correct": false
+        },
+        {
+          "content": "J'écoute attentivement les autres",
+          "correct": true
+        },
+        {
+          "content": "J'ai du mal à rester concentré(e) longtemps",
+          "correct": false
+        },
+        {
+          "content": "Je suis loyal(e) envers mon équipe",
+          "correct": true
+        },
+        {
+          "content": "Je m'ennuie rapidement dans des tâches répétitives",
+          "correct": false
+        },
+        {
+          "content": "Je termine toujours ce que je commence",
+          "correct": true
+        },
+        {
+          "content": "Je préfère la variété à la routine",
+          "correct": false
+        },
+        {
+          "content": "Je suis une personne sur qui on peut compter",
+          "correct": true
+        },
+        {
+          "content": "J'ai tendance à être impulsif(ve)",
+          "correct": false
+        },
+        {
+          "content": "Je crée un environnement harmonieux",
+          "correct": true
+        },
+        {
+          "content": "Je me lasse rapidement des projets à long terme",
+          "correct": false
+        },
+        {
+          "content": "Je maintiens mon calme en situation de crise",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile de suivre une routine stricte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Conformité"
+      },
+      "options": [
+        {
+          "content": "Je suis attentif(ve) aux détails",
+          "correct": true
+        },
+        {
+          "content": "Je prends des décisions sans analyser toutes les données",
+          "correct": false
+        },
+        {
+          "content": "Je respecte scrupuleusement les procédures",
+          "correct": true
+        },
+        {
+          "content": "J'agis souvent de manière spontanée",
+          "correct": false
+        },
+        {
+          "content": "Je vérifie systématiquement mon travail",
+          "correct": true
+        },
+        {
+          "content": "Je néglige parfois les règles établies",
+          "correct": false
+        },
+        {
+          "content": "J'organise méticuleusement mes tâches",
+          "correct": true
+        },
+        {
+          "content": "Je fais confiance à mon intuition plutôt qu'aux faits",
+          "correct": false
+        },
+        {
+          "content": "Je m'assure de la qualité de mon travail",
+          "correct": true
+        },
+        {
+          "content": "Je trouve les processus stricts contraignants",
+          "correct": false
+        },
+        {
+          "content": "Je suis précis(e) dans mes analyses",
+          "correct": true
+        },
+        {
+          "content": "Je préfère l'improvisation à la planification",
+          "correct": false
+        },
+        {
+          "content": "Je respecte les normes et standards",
+          "correct": true
+        },
+        {
+          "content": "Je trouve les règles trop rigides",
+          "correct": false
+        },
+        {
+          "content": "Je documente soigneusement mon travail",
+          "correct": true
+        },
+        {
+          "content": "Je prends des raccourcis dans les procédures",
+          "correct": false
+        },
+        {
+          "content": "Je cherche la perfection dans mes tâches",
+          "correct": true
+        },
+        {
+          "content": "Je m'ennuie avec les tâches méthodiques",
+          "correct": false
+        },
+        {
+          "content": "Je suis méthodique dans mon approche",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile de suivre des instructions précises",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

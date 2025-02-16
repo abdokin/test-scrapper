@@ -948,6 +948,850 @@
           "content": "<p>20 combinaisons</p>"
         }
       ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de logistique doit optimiser ses livraisons :</p><ul><li>3 camions de capacité différente : 500kg, 750kg, 1000kg</li><li>4 clients à livrer : A(300kg), B(400kg), C(600kg), D(200kg)</li><li>Coût par kilomètre : petit camion 0,5€, moyen 0,7€, grand 1€</li><li>Distance totale du circuit : 100km</li></ul><p><strong>Quelle est la solution la plus économique pour livrer tous les clients en un seul voyage ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Grand camion : tous les clients</p>"
+        },
+        {
+          "content": "<p>Moyen camion : A+B+D, Grand camion : C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Petit camion : A+D, Moyen camion : B, Grand camion : C</p>"
+        },
+        {
+          "content": "<p>Petit camion : D, Moyen camion : A+B, Grand camion : C</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise produit trois types de produits :</p><ul><li>Produit A : 20€/unité, marge 30%</li><li>Produit B : 35€/unité, marge 25%</li><li>Produit C : 50€/unité, marge 20%</li></ul><p>Le budget de production mensuel est de 10 000€.</p><p><strong>Quelles combinaisons de production maximisent la marge totale ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>200 unités de A, 100 unités de B, 50 unités de C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>300 unités de A, 50 unités de B, 25 unités de C</p>"
+        },
+        {
+          "content": "<p>150 unités de A, 150 unités de B, 25 unités de C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>100 unités de A, 200 unités de B, 20 unités de C</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet informatique a les caractéristiques suivantes :</p><ul><li>80 tâches à réaliser</li><li>Temps moyen par tâche : 3 heures</li><li>20% des tâches nécessitent une revue (2 heures supplémentaires)</li><li>4 développeurs disponibles à 6 heures productives par jour</li></ul><p><strong>En combien de jours le projet peut-il être terminé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>10 jours</p>"
+        },
+        {
+          "content": "<p>12 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>15 jours</p>"
+        },
+        {
+          "content": "<p>18 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une équipe marketing analyse trois canaux publicitaires :</p><ul><li>Réseaux sociaux : 0,5€ par clic, taux de conversion 2%</li><li>Recherche payante : 1€ par clic, taux de conversion 5%</li><li>Display : 0,3€ par clic, taux de conversion 1%</li></ul><p><strong>Avec un budget de 1000€, quelles stratégies permettent d'obtenir le plus de conversions ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>600€ en recherche payante, 400€ en réseaux sociaux</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>800€ en recherche payante, 200€ en display</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>500€ en réseaux sociaux, 500€ en display</p>"
+        },
+        {
+          "content": "<p>1000€ en recherche payante</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de formation propose :</p><ul><li>Formation A : 3 jours, 12 participants max, 600€/participant</li><li>Formation B : 2 jours, 15 participants max, 450€/participant</li><li>Formation C : 1 jour, 20 participants max, 300€/participant</li></ul><p>Avec une salle disponible 10 jours et un objectif de 10 000€ de revenus minimum, <strong>quelle est la meilleure combinaison ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 sessions de A, 1 session de B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1 session de A, 2 sessions de B</p>"
+        },
+        {
+          "content": "<p>3 sessions de B</p>"
+        },
+        {
+          "content": "<p>2 sessions de B, 4 sessions de C</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un service client analyse ses données :</p><ul><li>Temps moyen par appel : 8 minutes</li><li>Temps de traitement post-appel : 3 minutes</li><li>Objectif : 80% des appels répondus en moins de 20 secondes</li><li>Volume moyen : 400 appels par jour</li><li>Heures d'ouverture : 9h-17h</li></ul><p><strong>Combien d'agents sont nécessaires ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>8 agents</p>"
+        },
+        {
+          "content": "<p>10 agents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12 agents</p>"
+        },
+        {
+          "content": "<p>14 agents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une usine fonctionne avec trois équipes :</p><ul><li>Matin : 6h-14h</li><li>Après-midi : 14h-22h</li><li>Nuit : 22h-6h</li></ul><p>Contraintes :</p><ul><li>Minimum 4 personnes par équipe</li><li>20% de personnel supplémentaire pour les congés</li><li>Prime de nuit : +25%</li></ul><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>15 personnes au total sont nécessaires</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>L'équipe de nuit nécessite 5 personnes</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12 personnes suffisent pour toutes les équipes</p>"
+        },
+        {
+          "content": "<p>Chaque équipe doit avoir 6 personnes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un projet de construction a trois phases :</p><ul><li>Phase 1 : 3 mois, 4 ouvriers</li><li>Phase 2 : 2 mois, 6 ouvriers</li><li>Phase 3 : 1 mois, 8 ouvriers</li></ul><p>Budget main d'œuvre : 100 000€</p><p><strong>Quel devrait être le salaire mensuel moyen par ouvrier ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 500€</p>"
+        },
+        {
+          "content": "<p>3 000€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>3 500€</p>"
+        },
+        {
+          "content": "<p>4 000€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise analyse trois machines de production :</p><ul><li>Machine A : 100 unités/heure, 3% de défauts</li><li>Machine B : 120 unités/heure, 5% de défauts</li><li>Machine C : 80 unités/heure, 1% de défauts</li></ul><p><strong>Pour produire 1000 unités sans défaut, quelles sont les meilleures options ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Utiliser uniquement la machine C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser les machines A et C en alternance</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Utiliser uniquement la machine B</p>"
+        },
+        {
+          "content": "<p>Utiliser les trois machines également</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un restaurant analyse ses données :</p><ul><li>Coût moyen par repas : 15€</li><li>Prix moyen : 35€</li><li>Frais fixes mensuels : 8000€</li><li>Capacité : 40 couverts</li><li>Ouvert 25 jours par mois</li></ul><p><strong>Quel taux de remplissage minimum est nécessaire pour être rentable ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>40%</p>"
+        },
+        {
+          "content": "<p>45%</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>50%</p>"
+        },
+        {
+          "content": "<p>55%</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une équipe de développement utilise un système de points où :</p><ul><li>Tâche simple = 1 point</li><li>Tâche moyenne = 3 points</li><li>Tâche complexe = 5 points</li></ul><p>Pour un sprint de 2 semaines avec capacité de 40 points, <strong>quelles répartitions de tâches sont réalisables ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>4 tâches complexes, 5 tâches moyennes, 5 tâches simples</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>6 tâches complexes, 3 tâches moyennes, 7 tâches simples</p>"
+        },
+        {
+          "content": "<p>3 tâches complexes, 7 tâches moyennes, 4 tâches simples</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>5 tâches complexes, 4 tâches moyennes, 5 tâches simples</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise analyse trois fournisseurs :</p><ul><li>A : 100€/unité, délai 5 jours, minimum 50 unités</li><li>B : 120€/unité, délai 3 jours, minimum 20 unités</li><li>C : 150€/unité, délai 1 jour, pas de minimum</li></ul><p>Pour une commande urgente de 30 unités nécessaire dans 4 jours, <strong>quelle est la solution la plus économique ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Commander chez A</p>"
+        },
+        {
+          "content": "<p>Commander chez B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Commander chez C</p>"
+        },
+        {
+          "content": "<p>Commander 20 chez B et 10 chez C</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un centre commercial analyse ses données :</p><ul><li>Surface totale : 5000m²</li><li>Coût location : 50€/m²/mois</li><li>Charges : 15€/m²/mois</li><li>Taux d'occupation actuel : 85%</li></ul><p><strong>Quelles conclusions sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le revenu mensuel potentiel maximum est de 325 000€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les charges mensuelles totales sont de 75 000€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le revenu mensuel actuel est de 276 250€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une augmentation de 10% du taux d'occupation rapporterait 50 000€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe sportive doit organiser son planning d'entraînement :</p><ul><li>15 joueurs disponibles</li><li>Minimum 10 joueurs par session</li><li>Maximum 4 heures d'entraînement par joueur par semaine</li><li>Sessions de 2 heures</li></ul><p><strong>Combien de sessions d'entraînement peuvent être organisées par semaine ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>2 sessions</p>"
+        },
+        {
+          "content": "<p>3 sessions</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 sessions</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise de conseil doit affecter des consultants à trois projets :</p><ul><li>Projet A : 6 mois, besoin de 3 consultants</li><li>Projet B : 4 mois, besoin de 4 consultants</li><li>Projet C : 3 mois, besoin de 2 consultants</li></ul><p>L'entreprise dispose de 8 consultants au total.</p><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les projets A et C peuvent être réalisés simultanément</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les trois projets ne peuvent pas être réalisés en même temps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le projet B peut être réalisé en même temps que le projet C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les projets A et B peuvent être réalisés simultanément</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de production analyse ses données mensuelles :</p><ul><li>Production : 1000 unités</li><li>Coût fixe : 5000€</li><li>Coût variable : 20€/unité</li><li>Prix de vente : 50€/unité</li></ul><p><strong>Quel est le seuil de rentabilité en nombre d'unités ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>150 unités</p>"
+        },
+        {
+          "content": "<p>167 unités</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>180 unités</p>"
+        },
+        {
+          "content": "<p>200 unités</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un responsable doit organiser le planning d'une équipe avec les contraintes suivantes :</p><ul><li>5 employés disponibles</li><li>Besoin de 2 personnes minimum par jour</li><li>Maximum 4 jours de travail consécutifs</li><li>2 jours de repos consécutifs obligatoires</li></ul><p><strong>Quelles organisations sont valides sur une semaine ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>3 employés travaillent 4 jours, 2 employés travaillent 3 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>2 employés travaillent 5 jours, 3 employés travaillent 2 jours</p>"
+        },
+        {
+          "content": "<p>Tous les employés travaillent 3 jours alternés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>4 employés travaillent 3 jours, 1 employé travaille 5 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe de 3 développeurs travaille sur un projet. Les statistiques montrent :</p><ul><li>Développeur A : 8 tâches/jour, 5% d'erreurs</li><li>Développeur B : 6 tâches/jour, 2% d'erreurs</li><li>Développeur C : 10 tâches/jour, 8% d'erreurs</li></ul><p><strong>Pour réaliser 100 tâches sans erreur, quelle est la meilleure répartition ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>A : 40, B : 40, C : 20</p>"
+        },
+        {
+          "content": "<p>A : 30, B : 50, C : 20</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>A : 35, B : 35, C : 30</p>"
+        },
+        {
+          "content": "<p>A : 25, B : 45, C : 30</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise analyse trois projets d'investissement :</p><ul><li>Projet A : Coût 50K€, retour 20K€/an pendant 3 ans</li><li>Projet B : Coût 80K€, retour 35K€/an pendant 3 ans</li><li>Projet C : Coût 100K€, retour 45K€/an pendant 3 ans</li></ul><p><strong>Avec un budget de 150K€, quelles combinaisons sont rentables ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Projets A + B</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Projet C + 50K€ en réserve</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Projets B + C</p>"
+        },
+        {
+          "content": "<p>Trois fois le projet A</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Un service client reçoit en moyenne 240 appels par jour. Les données montrent :</p><ul><li>30% des appels entre 9h et 11h</li><li>45% des appels entre 11h et 15h</li><li>25% des appels entre 15h et 18h</li><li>Temps moyen par appel : 10 minutes</li></ul><p><strong>Combien d'agents sont nécessaires entre 11h et 15h ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>4 agents</p>"
+        },
+        {
+          "content": "<p>5 agents</p>"
+        },
+        {
+          "content": "<p>6 agents</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>7 agents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une usine doit planifier sa maintenance avec les contraintes suivantes :</p><ul><li>3 machines nécessitant une maintenance mensuelle</li><li>Maintenance Machine A : 4 heures</li><li>Maintenance Machine B : 6 heures</li><li>Maintenance Machine C : 3 heures</li><li>2 techniciens disponibles</li><li>Maintenance uniquement le weekend</li></ul><p><strong>Quelles organisations sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Toutes les maintenances le même jour avec les 2 techniciens</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Machine A samedi, Machines B et C dimanche</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Une machine chaque weekend</p>"
+        },
+        {
+          "content": "<p>Machines A et B samedi, Machine C dimanche</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de livraison a trois véhicules :</p><ul><li>Camionnette : 100km/jour max, coût 0,5€/km</li><li>Fourgon : 150km/jour max, coût 0,8€/km</li><li>Camion : 200km/jour max, coût 1,2€/km</li></ul><p>Pour livrer 400km de commandes, <strong>quel est le coût minimum ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>280€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>300€</p>"
+        },
+        {
+          "content": "<p>320€</p>"
+        },
+        {
+          "content": "<p>340€</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un projet informatique comporte trois phases :</p><ul><li>Phase 1 : 4 semaines, 3 développeurs</li><li>Phase 2 : 3 semaines, 4 développeurs</li><li>Phase 3 : 2 semaines, 5 développeurs</li></ul><p>L'entreprise dispose de 6 développeurs.</p><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Les phases 1 et 2 peuvent être partiellement simultanées</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le projet peut être terminé en 7 semaines</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Les trois phases peuvent être simultanées</p>"
+        },
+        {
+          "content": "<p>Le projet nécessite au minimum 9 semaines</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise de production a trois lignes :</p><ul><li>Ligne A : 100 unités/heure, 2% de défauts</li><li>Ligne B : 80 unités/heure, 1% de défauts</li><li>Ligne C : 120 unités/heure, 3% de défauts</li></ul><p><strong>Pour produire 1000 unités parfaites, quelle est la ligne la plus rapide ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Ligne A</p>"
+        },
+        {
+          "content": "<p>Ligne B</p>"
+        },
+        {
+          "content": "<p>Ligne C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toutes les lignes sont équivalentes</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un restaurant analyse ses coûts :</p><ul><li>Coût matières premières : 30% du prix de vente</li><li>Coût personnel : 35% du prix de vente</li><li>Frais fixes : 5000€/mois</li><li>Prix moyen menu : 25€</li></ul><p><strong>Quelles conclusions sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>La marge brute par menu est de 8,75€</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il faut vendre 571 menus par mois pour être rentable</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le point mort est de 15000€ de chiffre d'affaires</p>"
+        },
+        {
+          "content": "<p>La rentabilité est assurée avec 500 menus par mois</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe de 4 commerciaux doit se répartir 100 clients potentiels. Les données historiques montrent :</p><ul><li>Commercial A : taux de conversion 20%</li><li>Commercial B : taux de conversion 15%</li><li>Commercial C : taux de conversion 25%</li><li>Commercial D : taux de conversion 18%</li></ul><p><strong>Quelle répartition maximise le nombre de conversions ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>A:25, B:25, C:25, D:25</p>"
+        },
+        {
+          "content": "<p>A:30, B:20, C:30, D:20</p>"
+        },
+        {
+          "content": "<p>A:25, B:15, C:40, D:20</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>A:35, B:15, C:35, D:15</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Une entreprise doit organiser des formations avec les contraintes suivantes :</p><ul><li>3 salles disponibles (20, 30 et 40 places)</li><li>4 formations à organiser (15, 25, 35 et 20 participants)</li><li>Chaque formation dure 3 heures</li><li>Horaires possibles : 9h-12h et 14h-17h</li></ul><p><strong>Quelles organisations sont possibles sur une journée ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Matin : 15 et 35 participants, Après-midi : 25 et 20 participants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Matin : 25 et 20 participants, Après-midi : 15 et 35 participants</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Toutes les formations le matin</p>"
+        },
+        {
+          "content": "<p>Trois formations le matin, une l'après-midi</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise e-commerce analyse ses données :</p><ul><li>Coût d'acquisition par client : 10€</li><li>Valeur moyenne du panier : 50€</li><li>Taux de conversion du site : 2%</li><li>Marge brute : 40%</li></ul><p><strong>Combien de visiteurs sont nécessaires pour générer 10 000€ de marge brute ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>20 000 visiteurs</p>"
+        },
+        {
+          "content": "<p>25 000 visiteurs</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>30 000 visiteurs</p>"
+        },
+        {
+          "content": "<p>35 000 visiteurs</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un centre d'appels doit organiser ses équipes avec :</p><ul><li>Volume d'appels : 1200/jour</li><li>Pics d'appels : 9h-11h (30%) et 14h-16h (40%)</li><li>Temps moyen par appel : 5 minutes</li><li>Objectif : 90% des appels répondus en moins de 1 minute</li></ul><p><strong>Quelles organisations sont efficaces ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>15 agents en matinée, 20 agents l'après-midi</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>12 agents constants toute la journée</p>"
+        },
+        {
+          "content": "<p>18 agents aux heures de pointe, 10 agents le reste du temps</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>25 agents constants toute la journée</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une usine produit trois composants :</p><ul><li>Composant A : 30 minutes/unité</li><li>Composant B : 45 minutes/unité</li><li>Composant C : 15 minutes/unité</li></ul><p>Le produit final nécessite 2 A, 1 B et 4 C.</p><p><strong>Combien de produits finals peuvent être assemblés en 8 heures ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>6 produits</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>8 produits</p>"
+        },
+        {
+          "content": "<p>10 produits</p>"
+        },
+        {
+          "content": "<p>12 produits</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un projet nécessite trois compétences :</p><ul><li>Développement : 120 heures</li><li>Design : 80 heures</li><li>Test : 40 heures</li></ul><p>Contraintes :</p><ul><li>6 semaines maximum</li><li>4 personnes disponibles</li><li>6 heures productives par jour</li></ul><p><strong>Quelles affirmations sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Le projet peut être terminé en 5 semaines</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Deux personnes peuvent suffire</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Le développement et le design peuvent être parallélisés</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Il faut au minimum 4 semaines</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe analyse trois stratégies marketing :</p><ul><li>Stratégie A : 5000€, ROI estimé 120%</li><li>Stratégie B : 8000€, ROI estimé 150%</li><li>Stratégie C : 12000€, ROI estimé 180%</li></ul><p>Budget disponible : 20000€</p><p><strong>Quelle combinaison maximise le retour sur investissement ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Stratégies A + B</p>"
+        },
+        {
+          "content": "<p>Stratégies A + C</p>"
+        },
+        {
+          "content": "<p>Stratégie B + C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Stratégie C + reste en réserve</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un festival organise sa programmation :</p><ul><li>3 scènes (capacités : 1000, 2000, 3000 personnes)</li><li>5 artistes (publics attendus : 800, 1500, 2500, 1800, 2200)</li><li>Chaque concert dure 1 heure</li><li>Maximum 3 concerts simultanés</li></ul><p><strong>Quelles programmations sont possibles ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>800+2500+1800 puis 1500+2200</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>1500+2500 puis 800+1800+2200</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tous les concerts en même temps</p>"
+        },
+        {
+          "content": "<p>2500+2200 puis 800+1500+1800</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise logistique analyse ses coûts :</p><ul><li>Coût fixe : 2000€/mois</li><li>Coût variable : 5€/colis</li><li>Prix de vente : 12€/colis</li><li>Capacité maximale : 5000 colis/mois</li></ul><p><strong>À partir de combien de colis l'entreprise est-elle rentable ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>250 colis</p>"
+        },
+        {
+          "content": "<p>286 colis</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>300 colis</p>"
+        },
+        {
+          "content": "<p>325 colis</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un service de maintenance gère trois types d'interventions :</p><ul><li>Type A : 30 minutes, priorité haute</li><li>Type B : 45 minutes, priorité moyenne</li><li>Type C : 60 minutes, priorité basse</li></ul><p>Avec 2 techniciens disponibles 8 heures par jour, <strong>quelles organisations sont viables ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>8 Type A, 6 Type B, 4 Type C par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>10 Type A, 8 Type B par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>15 Type A par jour</p>"
+        },
+        {
+          "content": "<p>6 Type A, 5 Type B, 5 Type C par jour</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une équipe développe un logiciel :</p><ul><li>20 fonctionnalités à implémenter</li><li>Temps moyen par fonctionnalité : 15 heures</li><li>Taux d'erreurs : 10% (nécessitant 5 heures de correction)</li><li>4 développeurs à 6 heures productives par jour</li></ul><p><strong>En combien de jours le projet sera-t-il terminé ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>12 jours</p>"
+        },
+        {
+          "content": "<p>15 jours</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>18 jours</p>"
+        },
+        {
+          "content": "<p>20 jours</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un restaurant analyse sa capacité :</p><ul><li>40 places assises</li><li>Temps moyen repas : 75 minutes</li><li>Heures d'ouverture : 12h-14h30 et 19h-22h30</li><li>Taux de remplissage cible : 85%</li></ul><p><strong>Quelles conclusions sont correctes ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Capacité maximale de 180 clients par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Objectif réaliste de 153 clients par jour</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Possibilité de 3 services complets par période</p>"
+        },
+        {
+          "content": "<p>2 rotations complètes sont possibles par service</p>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_choice",
+        "content": "<p>Une entreprise analyse trois marchés potentiels :</p><ul><li>Marché A : 100K clients, croissance 5%/an</li><li>Marché B : 80K clients, croissance 8%/an</li><li>Marché C : 120K clients, croissance 3%/an</li></ul><p><strong>Quel marché sera le plus grand dans 3 ans ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Marché A</p>"
+        },
+        {
+          "content": "<p>Marché B</p>"
+        },
+        {
+          "content": "<p>Marché C</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Tous seront équivalents</p>"
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "multiple_response",
+        "content": "<p>Un projet de construction implique trois équipes :</p><ul><li>Équipe A : 5 personnes, 100€/heure</li><li>Équipe B : 3 personnes, 80€/heure</li><li>Équipe C : 4 personnes, 90€/heure</li></ul><p>Budget : 25000€</p><p><strong>Quelles combinaisons sont possibles dans le budget ?</strong></p>"
+      },
+      "options": [
+        {
+          "content": "<p>Équipe A : 20h, Équipe B : 15h, Équipe C : 10h</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Équipe A : 15h, Équipe B : 25h, Équipe C : 15h</p>",
+          "correct": true
+        },
+        {
+          "content": "<p>Équipe A : 25h, Équipe B : 20h, Équipe C : 20h</p>"
+        },
+        {
+          "content": "<p>Équipe A : 10h, Équipe B : 30h, Équipe C : 20h</p>",
+          "correct": true
+        }
+      ]
     }
   ]
 }

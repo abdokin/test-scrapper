@@ -1,0 +1,463 @@
+{
+  "title": "Big 5 (OCEAN)",
+  "attributes": {
+    "overview": "Le test de personnalité des Big 5 suit le modèle des cinq facteurs, une théorie empirique en psychologie qui évalue cinq dimensions primordiales de la personnalité : l’ouverture à l’expérience, la conscienciosité, l’extraversion, l’agréabilité et le névrosisme.",
+    "level": "entry_level",
+    "covered_skills": [
+      "Ouverture à l'expérience",
+      "Conscienciosité",
+      "Extraversion",
+      "Agréabilité",
+      "Névrosisme"
+    ],
+    "relevancy": "Tous les postes. Le test des Big 5 ne doit pas être utilisé pour prendre des décisions de recrutement, mais comme un outil permettant de mieux comprendre les penchants de la personnalité des personnes réalisant le test. Connaître les traits de personnalité peut contribuer à enrichir les conversations sur l’apprentissage et le développement.",
+    "description": "Le test de personnalité des Big 5 repose sur la théorie du modèle à cinq facteurs, selon laquelle cinq grandes dimensions ou domaines de caractéristiques constituent la base des différentes personnalités. Ce modèle a été façonné par les travaux de divers chercheurs qui, pendant trois décennies (des années 1960 aux années 1990), ont analysé les descripteurs verbaux du comportement humain. Finalement, les longues listes de caractéristiques proposées dans les modèles complexes des premières recherches ont été organisées au plus haut niveau en cinq facteurs essentiels qui définissent la personnalité d’une personne. \n\nChaque facteur est mesuré sous la forme d’un spectre : l’ouverture à l’expérience va de l’inventivité et la curiosité à la constance et à la prudence ; la conscienciosité va de l’efficacité et de l’organisation à l’extravagance et à l’insouciance ; l’extraversion va de la sociabilité et du dynamisme à la solitude et à la réserve ; l’agréabilité va de la sympathie et de la compassion à la contestation et à l’insensibilité ; et le névrosisme va de la sensibilité et de la nervosité à la résilience et à la confiance. \n\nLe test des Big 5 invite les participants à auto-évaluer leur comportement en leur demandant de noter diverses affirmations sur une échelle de 1 (très inexact) à 5 (très exact). Le score que les candidats attribuent à chaque affirmation les place dans l’une des cinq positions possibles sur le spectre de chaque facteur. La nature de la structure du test est davantage adaptée à évaluer la composition et la dynamique des équipes existantes à des fins d’apprentissage, de développement et de croissance, plutôt qu’à la sélection des candidats qui postulent pour rejoindre une équipe.\n\nLes résultats donnent un aperçu de la position de la personne testée sur chaque facteur, et décrivent les traits de personnalité qui caractérisent son comportement. Ils donnent également un aperçu de ses points forts et de ses possibilités d’amélioration, ainsi que de ses relations avec les autres.",
+    "category": "personality_culture",
+    "questions_to_answer": 5,
+    "duration_seconds": 600,
+    "language": "french",
+    "position": 1
+  },
+  "questions": [
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Ouverture à l'expérience"
+      },
+      "options": [
+        {
+          "content": "Je suis curieux(se) d'apprendre de nouvelles choses",
+          "correct": true
+        },
+        {
+          "content": "Je préfère m'en tenir aux méthodes que je connais déjà",
+          "correct": false
+        },
+        {
+          "content": "J'aime explorer des idées abstraites",
+          "correct": true
+        },
+        {
+          "content": "Les changements me mettent mal à l'aise",
+          "correct": false
+        },
+        {
+          "content": "J'apprécie l'art et la créativité",
+          "correct": true
+        },
+        {
+          "content": "Je trouve que la routine est rassurante",
+          "correct": false
+        },
+        {
+          "content": "Je suis attiré(e) par les expériences nouvelles",
+          "correct": true
+        },
+        {
+          "content": "Je préfère les situations prévisibles",
+          "correct": false
+        },
+        {
+          "content": "J'aime débattre de questions philosophiques",
+          "correct": true
+        },
+        {
+          "content": "Les discussions théoriques m'ennuient",
+          "correct": false
+        },
+        {
+          "content": "Je cherche toujours à innover dans mon travail",
+          "correct": true
+        },
+        {
+          "content": "Je suis mal à l'aise avec l'incertitude",
+          "correct": false
+        },
+        {
+          "content": "J'apprécie la diversité culturelle",
+          "correct": true
+        },
+        {
+          "content": "Je trouve difficile de m'adapter aux nouvelles situations",
+          "correct": false
+        },
+        {
+          "content": "Je suis passionné(e) par la découverte",
+          "correct": true
+        },
+        {
+          "content": "Je préfère suivre des instructions précises",
+          "correct": false
+        },
+        {
+          "content": "J'aime imaginer de nouvelles possibilités",
+          "correct": true
+        },
+        {
+          "content": "Les changements de routine me perturbent",
+          "correct": false
+        },
+        {
+          "content": "Je suis attiré(e) par l'originalité",
+          "correct": true
+        },
+        {
+          "content": "Je me sens plus à l'aise avec ce qui est conventionnel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Conscienciosité"
+      },
+      "options": [
+        {
+          "content": "Je planifie soigneusement mes tâches à l'avance",
+          "correct": true
+        },
+        {
+          "content": "Je laisse souvent les choses en désordre",
+          "correct": false
+        },
+        {
+          "content": "Je respecte toujours mes engagements",
+          "correct": true
+        },
+        {
+          "content": "J'ai tendance à reporter les tâches importantes",
+          "correct": false
+        },
+        {
+          "content": "Je suis méthodique dans mon travail",
+          "correct": true
+        },
+        {
+          "content": "Je prends des décisions impulsives",
+          "correct": false
+        },
+        {
+          "content": "Je vérifie minutieusement mes travaux",
+          "correct": true
+        },
+        {
+          "content": "Je perds facilement mes affaires",
+          "correct": false
+        },
+        {
+          "content": "Je fixe des objectifs clairs et les suis",
+          "correct": true
+        },
+        {
+          "content": "J'oublie souvent mes rendez-vous",
+          "correct": false
+        },
+        {
+          "content": "Je maintiens mes documents bien organisés",
+          "correct": true
+        },
+        {
+          "content": "Je néglige mes responsabilités",
+          "correct": false
+        },
+        {
+          "content": "Je suis ponctuel(le) aux rendez-vous",
+          "correct": true
+        },
+        {
+          "content": "Je fais les choses sans réfléchir",
+          "correct": false
+        },
+        {
+          "content": "Je termine toujours ce que je commence",
+          "correct": true
+        },
+        {
+          "content": "Je manque de discipline personnelle",
+          "correct": false
+        },
+        {
+          "content": "Je gère efficacement mon temps",
+          "correct": true
+        },
+        {
+          "content": "Je change souvent de priorités",
+          "correct": false
+        },
+        {
+          "content": "Je prête attention aux détails",
+          "correct": true
+        },
+        {
+          "content": "Je travaille de façon désorganisée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Extraversion"
+      },
+      "options": [
+        {
+          "content": "J'engage facilement la conversation avec de nouvelles personnes",
+          "correct": true
+        },
+        {
+          "content": "Je préfère travailler seul(e)",
+          "correct": false
+        },
+        {
+          "content": "J'anime volontiers les réunions de groupe",
+          "correct": true
+        },
+        {
+          "content": "Je me sens épuisé(e) après les interactions sociales",
+          "correct": false
+        },
+        {
+          "content": "Je suis souvent le centre d'attention",
+          "correct": true
+        },
+        {
+          "content": "J'évite les grands rassemblements",
+          "correct": false
+        },
+        {
+          "content": "Je partage facilement mes émotions avec les autres",
+          "correct": true
+        },
+        {
+          "content": "Je garde mes pensées pour moi",
+          "correct": false
+        },
+        {
+          "content": "J'ai beaucoup d'énergie en groupe",
+          "correct": true
+        },
+        {
+          "content": "Je prends du temps pour recharger mes batteries en solitude",
+          "correct": false
+        },
+        {
+          "content": "Je recherche activement les occasions de socialiser",
+          "correct": true
+        },
+        {
+          "content": "Je préfère les activités calmes et solitaires",
+          "correct": false
+        },
+        {
+          "content": "J'aime être entouré(e) de monde",
+          "correct": true
+        },
+        {
+          "content": "Les interactions sociales me demandent beaucoup d'effort",
+          "correct": false
+        },
+        {
+          "content": "Je prends naturellement l'initiative dans les groupes",
+          "correct": true
+        },
+        {
+          "content": "J'hésite à prendre la parole en public",
+          "correct": false
+        },
+        {
+          "content": "Je me sens énergisé(e) après avoir rencontré des gens",
+          "correct": true
+        },
+        {
+          "content": "Je limite mes interactions sociales",
+          "correct": false
+        },
+        {
+          "content": "J'exprime facilement mes opinions",
+          "correct": true
+        },
+        {
+          "content": "Je préfère observer plutôt que participer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Agréabilité"
+      },
+      "options": [
+        {
+          "content": "Je me soucie sincèrement du bien-être des autres",
+          "correct": true
+        },
+        {
+          "content": "Je garde rancune envers les personnes qui m'ont offensé",
+          "correct": false
+        },
+        {
+          "content": "J'aide volontiers mes collègues sans rien attendre en retour",
+          "correct": true
+        },
+        {
+          "content": "Je critique facilement les idées des autres",
+          "correct": false
+        },
+        {
+          "content": "Je cherche toujours un terrain d'entente dans les conflits",
+          "correct": true
+        },
+        {
+          "content": "Je me méfie des intentions des autres",
+          "correct": false
+        },
+        {
+          "content": "Je fais preuve d'empathie face aux difficultés d'autrui",
+          "correct": true
+        },
+        {
+          "content": "J'ai tendance à manipuler les autres pour obtenir ce que je veux",
+          "correct": false
+        },
+        {
+          "content": "Je pardonne facilement les erreurs des autres",
+          "correct": true
+        },
+        {
+          "content": "Je pense que la plupart des gens sont égoïstes",
+          "correct": false
+        },
+        {
+          "content": "Je prends en compte les sentiments des autres dans mes décisions",
+          "correct": true
+        },
+        {
+          "content": "J'ai du mal à faire confiance aux autres",
+          "correct": false
+        },
+        {
+          "content": "Je suis toujours prêt(e) à écouter les problèmes des autres",
+          "correct": true
+        },
+        {
+          "content": "Je préfère la compétition à la coopération",
+          "correct": false
+        },
+        {
+          "content": "Je recherche le consensus dans les discussions de groupe",
+          "correct": true
+        },
+        {
+          "content": "Je réagis agressivement aux critiques",
+          "correct": false
+        },
+        {
+          "content": "Je respecte les opinions différentes des miennes",
+          "correct": true
+        },
+        {
+          "content": "J'ai tendance à juger sévèrement les autres",
+          "correct": false
+        },
+        {
+          "content": "Je valorise l'harmonie dans mes relations",
+          "correct": true
+        },
+        {
+          "content": "Je mets mes intérêts personnels avant ceux du groupe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_attributes": {
+        "type": "likert_scale",
+        "content": "Névrosisme"
+      },
+      "options": [
+        {
+          "content": "Je reste calme sous pression",
+          "correct": true
+        },
+        {
+          "content": "Je m'inquiète facilement pour des petites choses",
+          "correct": false
+        },
+        {
+          "content": "Je gère bien le stress",
+          "correct": true
+        },
+        {
+          "content": "Mes humeurs changent rapidement",
+          "correct": false
+        },
+        {
+          "content": "Je garde mon sang-froid dans les situations difficiles",
+          "correct": true
+        },
+        {
+          "content": "Je me sens souvent dépassé(e) par les événements",
+          "correct": false
+        },
+        {
+          "content": "Je prends les choses avec philosophie",
+          "correct": true
+        },
+        {
+          "content": "Je doute souvent de mes capacités",
+          "correct": false
+        },
+        {
+          "content": "Je maintiens une attitude positive",
+          "correct": true
+        },
+        {
+          "content": "Je suis facilement stressé(e)",
+          "correct": false
+        },
+        {
+          "content": "Je fais face aux défis avec confiance",
+          "correct": true
+        },
+        {
+          "content": "Je me sens souvent anxieux(se) sans raison apparente",
+          "correct": false
+        },
+        {
+          "content": "Je reste stable émotionnellement",
+          "correct": true
+        },
+        {
+          "content": "Je me sens souvent submergé(e) par mes émotions",
+          "correct": false
+        },
+        {
+          "content": "Je gère bien les critiques",
+          "correct": true
+        },
+        {
+          "content": "Je prends les échecs très à cœur",
+          "correct": false
+        },
+        {
+          "content": "Je conserve mon optimisme face aux difficultés",
+          "correct": true
+        },
+        {
+          "content": "Je rumine souvent mes problèmes",
+          "correct": false
+        },
+        {
+          "content": "Je rebondis facilement après les déceptions",
+          "correct": true
+        },
+        {
+          "content": "Je me sens souvent tendu(e) et nerveux(se)",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
